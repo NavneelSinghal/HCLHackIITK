@@ -12,13 +12,20 @@ def class_to_grade (cl: int) -> str:
     else:
         return 'Excellent'
 
-def parse_query(url):
+# Parses testing data
+def parse_testdata(url, isURL):
     testing = []
     names = []
 
-    request = Request(url)
-    response = urlopen(request)
-    raw = json.loads(response.read())
+    raw = None
+
+    if isURL:
+        request = Request(url)
+        response = urlopen(request)
+        raw = json.loads(response.read())
+
+    else:
+        raw = json.load(open('testing.json', 'r'))
 
     for entry in raw:
         name = next(iter(entry.keys()))
@@ -27,12 +34,14 @@ def parse_query(url):
         for i in range(1, 11):
             row_tr.append(data[f'score{i}'])
 
-        testing.append(row_tr)
+        testing.append(np.array(row_tr))
         names.append(name)
 
     return (names, np.array(testing))
 
-def parse_testdata(url):
+# Parses training data
+def parse_traindata(url):
+
     def get_class(cl):
         if cl.lower() == 'poor':
             return 0
@@ -67,7 +76,7 @@ def parse_testdata(url):
         for i in range(1, 11):
             row_tr.append(data[f'score{i}'])
 
-        training.append(row_tr)
+        training.append(np.array(row_tr))
 
         # Simple Encoding
         simple_prediction.append(get_class(data['grade']))
@@ -75,8 +84,3 @@ def parse_testdata(url):
         onehot_prediction.append(get_onehot(data['grade']))
 
     return (np.array(training), np.array(simple_prediction), np.array(onehot_prediction))
-
-ans = parse_testdata('https://mettl-arq.s3-ap-southeast-1.amazonaws.com/questions/iit-kanpur/cyber-security-hackathon/round1/problem2/xxl0d69v8w/training.json')
-print(ans[0])
-print(ans[1])
-print(ans[2])
