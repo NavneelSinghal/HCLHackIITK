@@ -3,7 +3,7 @@ import parser
 
 train_url = 'https://mettl-arq.s3-ap-southeast-1.amazonaws.com/questions/iit-kanpur/cyber-security-hackathon/round1/problem2/xxl0d69v8w/training.json'
 
-test_url = ''
+test_url = None
 
 def train(train_url):
     X, y, _ = parser.parse_traindata(train_url)

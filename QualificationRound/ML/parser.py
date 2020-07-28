@@ -43,21 +43,23 @@ def parse_testdata(url, isURL):
 def parse_traindata(url):
 
     def get_class(cl):
-        if cl.lower() == 'poor':
+        cl = cl.lower()
+        if cl == 'poor':
             return 0
-        elif cl.lower() == 'fair':
+        elif cl == 'fair':
             return 1
-        elif cl.lower() == 'good':
+        elif cl == 'good':
             return 2
         else:
             return 3
 
     def get_onehot(cl):
-        if cl.lower() == 'poor':
+        cl = cl.lower()
+        if cl == 'poor':
             return [0,0,0,1]
-        elif cl.lower() == 'fair':
+        elif cl == 'fair':
             return [0,0,1,0]
-        elif cl.lower() == 'good':
+        elif cl == 'good':
             return [0,1,0,0]
         else:
             return [1,0,0,0]
