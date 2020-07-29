@@ -1,7 +1,6 @@
-#TODO: make it robust so that it never throws error
+#TODO: make it robust so that it never throws error on new files
 
 import sys
-import copy
 
 def is_mem(line):
     return line[:2] == '0x'
@@ -10,7 +9,7 @@ def parse_mem(line):
     tokens = line.split(' ')
     tokens = [t for t in tokens if t != '']
     if (len(tokens) < 4):
-        return [tokens[2], '0x0']
+        return [tokens[2], '0x0'] #TODO: giving 0 for unknow vals... ok?
     return [tokens[2], tokens[3]]
 
 def is_list(token):
