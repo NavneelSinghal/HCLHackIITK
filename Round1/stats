@@ -1,0 +1,6 @@
+features: 7000
+accuracy: 0.9736666666666667
+f1 score: 0.9736666666666667
+precision score: 0.9736666666666667
+recall score: 0.9736666666666667
+String feature extraction complete in 20.85004734992981 seconds
