@@ -48,7 +48,8 @@ class Parser:
             t.append('0x0')
         t[0] = t[0].strip()
         t[1] = t[1].strip()
-        t[0] = t[0].split(' ')[-1]
+        if (t[0][:2] == '0x'):
+            t[0] = t[0].split(' ')[-1]
         return t
 
     def parse_inner(self):
@@ -114,15 +115,15 @@ def main():
     parser = Parser(lines)
     parser.parse()
     print("=== ctx_dict ===")
-    print(parser.ctx_dict)
+    print(*parser.ctx_dict.items(), sep = '\n')
     print()
     print()
     print("=== ctx_aux ===")
-    print(parser.ctx_aux)
+    print(*parser.ctx_aux.items(), sep = '\n')
     print()
     print()
     print("=== ctx_children ===")
-    print(parser.ctx_children)
+    print(*parser.ctx_children.items(), sep = '\n')
     print()
     print()
 
