@@ -23,10 +23,18 @@ def sample_file_names(directory, k):
     return subdirs
 
 s = input()
-K = 10 # Number of samples
+K = 100 # Number of samples
 cutoff = K/4 # Another filtering parameter, set to 0 to disable
-subdirs = sample_file_names(s, K)
+subdirs_ = sample_file_names(s, K)
 # now this is a short list of files we need to sample
+
+subdirs = []
+
+for subdir in subdirs_:
+    if subdir[-1] == '/':
+        subdirs.append(subdir[:-1])
+    else:
+        subdirs.append(subdir)
 
 # The frequency sum array
 frequencies = {}
