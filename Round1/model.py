@@ -112,6 +112,9 @@ print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
 print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
 print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
 
+print("prediction is", prediction_values.tolist())
+print("y is", Ty.tolist())
+
 pickle.dump(clf, open('model_parameters.sav', 'wb'))
 
 #'''
