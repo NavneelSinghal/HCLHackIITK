@@ -35,7 +35,7 @@ total = (utility.get_all('Static_Analysis_Data'))
 print(len(total))
 random.shuffle(total)
 
-train_fraction = 0.70
+train_fraction = 0.75
 
 train = total[:int(train_fraction * len(total))]
 test = total[len(train):]
@@ -83,6 +83,10 @@ pickle.dump(feature_list, open(feature_list_filename, 'wb'))
 pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
 pickle.dump(test_feature_list, open(test_feature_list_filename, 'wb'))
 
+end_time = time()
+
+print ('String feature extraction complete in ' + str(end_time - start_time) + ' seconds')
+
 #'''
 
 #this is for training and validating the model
@@ -92,6 +96,8 @@ pickle.dump(test_feature_list, open(test_feature_list_filename, 'wb'))
 from sklearn.feature_extraction import FeatureHasher
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
+
+start_time = time()
 
 feat = 7000
 h = FeatureHasher(n_features = feat)
@@ -118,6 +124,8 @@ print("y is", Ty.tolist())
 pickle.dump(clf, open('model_parameters.sav', 'wb'))
 
 #'''
+
 end_time = time()
 
-print ('String feature extraction complete in ' + str(end_time - start_time) + ' seconds')
+print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
+
