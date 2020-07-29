@@ -1,6 +1,7 @@
 #TODO: make it robust so that it never throws error
 
 import sys
+import copy
 
 def is_mem(line):
     return line[:2] == '0x'
@@ -8,11 +9,12 @@ def is_mem(line):
 def parse_mem(line):
     tokens = line.split(' ')
     tokens = [t for t in tokens if t != '']
-    assert len(tokens) >= 4
+    if (len(tokens) < 4):
+        return [tokens[2], '0x0']
     return [tokens[2], tokens[3]]
 
 def is_list(token):
-    return token.find(',')
+    return token.find(',') != -1
 
 def parse_list(token):
     tokens = token.split(',')
@@ -64,6 +66,20 @@ def parse_secondary(lines):
             ret.append([line, []])
         else:
             ret[-1][1].append(line)
+    if len(ret[-1][1]) != 0:
+        inner = ret[-1][1]
+        iret = []
+        indented = []
+        for iline in inner:
+            if (iline[0] == ' '):
+                indented.append(iline)
+            else:
+                if len(indented) != 0:
+                    iret.append(parse_secondary(remove_indent(indented)))
+                iret.append(parse_line(iline))
+        if (len(indented) != 0):
+            iret.append(parse_secondary(remove_indent(indented)))
+        ret[-1][1] = iret
     if len(ret[0][1]) != 0:
         return ret[0][1] + ret[1:]
     else:
@@ -102,6 +118,6 @@ def main():
     l = s.split('\n');
     l = [x for x in l if x != '']
     obj = parse_primary(l)
-    print(len(obj))
+    print(obj)
 
 main()
