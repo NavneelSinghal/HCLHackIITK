@@ -1,5766 +1,849 @@
-761: YYu
-510: _^[]
-475: B#	f
-373: _^][
-341: PVht
-323: A#	v
-314: KERNEL32.dll
-306: msvcrt.dll
-301: SVW3
-270: ADVAPI32.dll
-224: upVW
-217: G;|$
-209: .2	111111111111111111111111111
-202: Y_^[
-196: SVWj
-191: .rsrc
-188: run in DOS mode.
-188: cccm|
-188: ccccccc#ccccccccccccccccccccccccccccccccccc
-188: c`cccgccc
-184: @_^[
-176: SUVW
-168: .text
-166: `.data
-163: _^[t
-162: exit
-162: USER32.dll
-159: GetModuleHandleA
-155: _exit
-154: NB10
-152: GetLastError
-149: _initterm
-149: _except_handler3
-149: _controlfp
-149: _cexit
-149: _c_exit
-149: _adjust_fdiv
-149: __setusermatherr
-149: __set_app_type
-149: __p__fmode
-149: __p__commode
-149: _XcptFilter
-146: NTDLL.DLL
-144: Shit,IsOver!!VbExeFileBind.9
-144: LocalAlloc
-143: wcslen
-143: wcscpy
-143: LocalFree
-143: FormatMessageW
-141: _wcsicmp
-133: YYj
-133: 8MZu
-126: WWWW
-124: SPSS
-123: [^_]
-123: NETAPI32.dll
-120: wcschr
-119: GetProcAddress
-115: RegCloseKey
-114: WriteFile
-114: LoadLibraryW
-114: JYYW
-114: JYYV
-114: JYY3
-114: FreeLibrary
-113: WideCharToMultiByte
-113: RegOpenKeyExW
-112: wcscmp
-112: wcscat
-112: RegQueryValueExW
-111: GetStdHandle
-110: _iob
-110: ZYYd
-110: WriteConsoleW
-109: ntdll.dll
-101: free
-96: PVWh
-95: Sht#
-95: Sh*#
-95: SSSS
-94: DDDDDDDDDDDDDDDDDDDDDDDDD
-93: YYu0
-91: jSh@#
-90: calloc
-89: swprintf
-88: malloc
-87: __initenv
-87: __getmainargs
-87: YYu'
-86: SVWf
-83: wcsncmp
-82: MultiByteToWideChar
-81: wcsrchr
-81: wcsncpy
-81: _vsnwprintf
-81: SetLastError
-81: SHELL32.dll
-81: QQVW
-81: GetCommandLineW
-80: PSVWh
-79: _wcsupr
-79: SetThreadLocale
-79: ReadConsoleW
-79: GetFileType
-79: GetConsoleOutputCP
-79: GetCPInfo
-78: YYuT
-78: PVVV
-76: QSVW
-76: QSSj
-73: X_^[
-73: LoadLibraryA
-72: CloseHandle
-71: f97u
-70: PSSS
-68: Pj	j
-68: 2r #
-66: RegSetValueExW
-66: @SVW
-65: E8;E(
-64: QVW3
-64: PSh?
-64: D$$PU
-64: ,0<	v
-63: wcsstr
-63: GetTimeFormatW
-63: GetThreadLocale
-62: wsprintfW
-62: tag= <yes|no>
-62: start= <boot|system|auto|demand|disabled>
-62: printf
-62: password= <password>
-62: obj= <AccountName|ObjectName>
-62: group= <LoadOrderGroup>
-62: error= <normal|severe|critical|ignore>
-62: enumerates the status for types of services.
-62: depend= <Dependencies(separated by / (forward slash))>
-62: binPath= <BinaryPathName>
-62: __winitenv
-62: __wgetmainargs
-62: ]_^[
-62: YYuY
-62: YYu+
-62: YY[_3
-62: YFYF
-62: VWt(
-62: VWSP
-62: SYNTAX:
-62: SVSS
-62: PVVVVVV
-62: NOTE: The option name includes the equal sign.
-62: KERNEL_DRIVER
-62: FILE_SYSTEM_DRIVER
-62: F0Wf
-62: ERROR
-62: DisplayName= <display name>
-62: D$(Y
-62: CCf9
-62: ADAPTER
-61: GetSystemTime
-60: wcstok
-60: YYf3
-60: Wednesday
-60: Tuesday
-60: Thursday
-60: Sunday
-60: September
-60: Saturday
-60: October
-60: November
-60: NetApiBufferFree
-60: Monday
-60: March
-60: June
-60: July
-60: January
-60: I_NetNameValidate
-60: HELP
-60: GetSystemDefaultLangID
-60: Friday
-60: February
-60: December
-60: August
-60: April
-58: ffff
-58: YYu)
-58: QQSVW
-58: PVWS
-58: GGf=/
-58: EdPh
-57: memmove
-57: Wh*#
-57: SVWh
-57: PVh@
-57: JYYj
-57: )))))))))))))
-56: setlocale
-55: MPR.dll
-53: lstrcmpW
-53: SetFilePointer
-53: RegDeleteKeyW
-53: ReadFile
-53: CreateFileW
-53: .OCP
-52: [_^]
-52: SearchPathW
-52: RegSetValueW
-52: RegEnumKeyW
-52: GetFileSize
-51: qsort
-51: _snwprintf
-51: _^][Y
-51: YYt-
-51: WWWh
-51: RegEnumValueW
-51: RegCreateKeyExW
-51: GetModuleFileNameW
-50: wcstoul
-50: wcstol
-50: wcsspn
-50: strchr
-50: _wtol
-50: _wcsnicmp
-50: _ultoa
-50: _setmode
-50: SetConsoleMode
-50: GetDriveTypeW
-50: GetConsoleMode
-49: t)Ht
-48: fgets
-48: _^[Y
-48: YYu$W
-48: YYu!h
-48: VVVh
-48: QQSVWj
-48: L$(QWP
-48: EhPj
-48: =DDD
-47: YYu\
-47: YYuV
-47: PSSSS
-46: lstrlenW
-46: RegDeleteValueW
-46: RegConnectRegistryW
-44: jWX_^
-44: Rich
-44: QueryServiceStatus
-44: OpenServiceW
-44: OpenSCManagerW
-44: GetServiceKeyNameW
-44: GetServiceDisplayNameW
-44: EnumDependentServicesW
-44: CloseServiceHandle
-44: <SV3
-42: j<_j
-42: _stricmp
-42: Written by %s, %s, %s,
-42: RtlTimeToSecondsSince1970
-42: NtQuerySystemTime
-42: 9;t-
-41: realloc
-41: RtlAllocateHeap
-39: PPQP
-39: PPPPPPPh
-38: v8j(
-38: h6(@
-38: f90t
-38: YYSSj
-38: WaitForSingleObject
-38: Sh)'
-38: QRPh
-38: Pht#
-38: PVWj
-38: PSVj
-38: KYYu
-38: Jf=t
-38: J_^][
-38: JYYu
-38: JYYf
-38: JYY_^[
-38: JYY_
-38: JYY;
-38: JYY9
-38: JVSSj
-38: GetExitCodeProcess
-38: GGFFf9
-38: G<f9
-38: FFf9
-38: F8PP
-38: ExitProcess
-38: D$$P+
-38: CreateProcessW
-37: YYt!
-37: WNetGetConnectionW
-37: WNetCancelConnection2W
-37: WNetAddConnection2W
-37: GetConsoleScreenBufferInfo
-37: 3DDDD
-37: (W+R
-36: sprintf
-36: SVWU
-36: PWWWj
-36: G;>r
-35: u$9}
-35: hxUB
-35: fread
-35: ^][_
-35: YY_3
-35: VVbExeFileBind.9
-35: SVW
-35: SSSSSS
-35: Richs
-35: OpenProcessToken
-35: MSVBVM60.DLL
-35: INCUBUS
-35: GetCurrentProcess
-35: AdjustTokenPrivileges
-35: =xUB
-35: 9]du
-34: ~cAmL
-34: ~V{eu/
-34: ~NIUaU
-34: ~-ud#
-34: ~'#cq
-34: }ktn
-34: }FormeV
-34: |IQ2"
-34: |/aM
-34: {CH9
-34: zsL7
-34: zevA
-34: z%gP
-34: z	gLN
-34: yxph6
-34: yv5a
-34: yry`o
-34: yXPHi
-34: yR*C
-34: yLJK
-34: y7;uNJ
-34: y(HK
-34: y OFX
-34: y OF
-34: xpt8Y:
-34: x`@F:$#
-34: xSy#hV
-34: whflt
-34: wOKp
-34: wNVj
-34: wH.H
-34: veTypH
-34: v8$x
-34: v3f_
-34: v3Of
-34: v	f=
-34: ug{0
-34: ugnK
-34: u]|l
-34: uTD:
-34: u?c]Wak
-34: u%R)
-34: u$ps
-34: tt=b
-34: tas`
-34: t``$
-34: tCQiRK*X
-34: t dp
-34: srand
-34: s^1B
-34: sO8n
-34: sB;J&
-34: sAKK
-34: s26
-34: s"a!T
-34: rsSt
-34: rrlG
-34: rpA|
-34: rogram
-34: rlma
-34: rand
-34: rZDs
-34: rX4ioo
-34: r00E
-34: r,'7
-34: r+Y
-34: q\?R
-34: pxm.
-34: pv2!'`
-34: ps7+L)%s
-34: ppB.
-34: pWrB
-34: pUT9
-34: p28[
-34: p%&F
-34: p!'r
-34: ok1nel32
-34: oKgth;(
-34: oAupV
-34: o9uiu
-34: o7wZ
-34: o!`K
-34: nh tB
-34: nIQJ
-34: n0N~/
-34: n%/9
-34: m#5k
-34: lv5l7
-34: lstrcpyW
-34: lQP
-34: lCxi
-34: l@	c
-34: l>P@> )
-34: l7J`
-34: l2<e
-34: l,gEd
-34: kx	pXV
-34: kmS=
-34: k`vF
-34: kRq
-34: k7>t
-34: k6G.
-34: k3RI
-34: jb%,O
-34: jaQw
-34: jS9t
-34: j;x#
-34: j7kN
-34: j"\`p
-34: ir+d
-34: inUpdatec
-34: ilereadWri+df
-34: ijYC@,
-34: ijUnp0
-34: ic>nSR
-34: i^\z
-34: i\g6.OL
-34: iX*[
-34: iQgP8
-34: iP{W
-34: iN.BDby?E+
-34: i6MU
-34: hrkO\
-34: hY+0j
-34: hRB|k
-34: h:OC
-34: h2!#O
-34: g{pR-+Inp f
-34: gqGr
-34: gYKB
-34: gSMK
-34: g;bc<
-34: g"yR
-34: f_cT
-34: fO_}
-34: fKsw
-34: fK&yE
-34: f=RYF
-34: f;Q_yDd
-34: f/awd
-34: f.Zg
-34: f)AX
-34: f(f;
-34: esA3l4
-34: ec\f
-34: ec+c
-34: eS;W
-34: ePB@
-34: e3Hcp
-34: e2>Ch
-34: e	y$
-34: dvXJ
-34: dttt
-34: div_m648
-34: ddH\\UE.
-34: d`![
-34: dXFdaVi
-34: dBN`
-34: dBN&p`
-34: d;GDgt$:
-34: d/h7
-34: d)p=
-34: d"}E
-34: d >)
-34: cL4K
-34: beLR
-34: be0 v]Eg
-34: bBxp^x
-34: b1HXV%uF
-34: ahDE
-34: advm,
-34: adj_fptan,
-34: aX)}H8&dBN8(
-34: aIIb]
-34: aEE8
-34: aAxR
-34: aAp
-34: `|+kP
-34: `t<Sn
-34: `e'/
-34: `Cr*
-34: `/Tstd
-34: `.rs
-34: `,dd@
-34: _tc'r
-34: _qwc
-34: _iG=
-34: __bN
-34: _MVD"
-34: _AL+
-34: _2{+
-34: _.t#
-34: _+wB
-34: ^xuM
-34: ^r '
-34: ^I>X
-34: ^8K #8L
-34: ^2jF
-34: ^1~x
-34: ^(pSr
-34: ]NXD#
-34: ]	P`<*
-34: \r '
-34: \d!j
-34: \T 9
-34: \H?A
-34: \Gz0
-34: \G\
-34: \6/=!?v
-34: \.D#
-34: \ CD()/@
-34: [d=$
-34: []55[
-34: [V0B|*
-34: [Obj
-34: [ML<
-34: [Abg%
-34: [=s'
-34: ZP_\
-34: ZOKFZs
-34: Z88,
-34: Z%k|
-34: Y}r_h
-34: Y}Q$9
-34: YYt	f
-34: YY_^[]
-34: YHUp
-34: Y69+
-34: Y.yx
-34: Xrr0e
-34: X\'&
-34: XX&=
-34: XTPbbC
-34: XQ(L
-34: XPvh
-34: XJ	m
-34: X)Olf
-34: X f.
-34: W||
-34: Wjyw\d
-34: WX\%
-34: WSEep
-34: W3l \).
-34: W2rB
-34: W((
-34: VglI
-34: V]Bd
-34: VENT_SINK_
-34: VC6bt
-34: VB5!6
-34: V3T<T
-34: V2%Xs
-34: V!/p
-34: UnicE
-34: UdQL
-34: Ubou
-34: URLDownEfTo
-34: UPX1
-34: UPX0
-34: UPX!
-34: UI1/
-34: UANL2%
-34: ToAnsiS
-34: T\\Q
-34: T@lK
-34: T<To
-34: T.text
-34: Sm=r
-34: SUVWh
-34: SK@n
-34: SE;Y
-34: SC!n%w
-34: SA9*K
-34: S%yFZ
-34: RegKey	n
-34: Redim
-34: Rd;1
-34: RXZX
-34: Qh(n
-34: QL(_
-34: QJ>S
-34: QAGU
-34: Q5HE
-34: Q %SH
-34: P}2!'
-34: Py&y"M
-34: Pu8At
-34: PazC
-34: PQY.B
-34: P=Ei?
-34: P5
-34: P2$
-34: P%QrT
-34: O}@.2
-34: Oqrf\~
-34: O[g%
-34: O5xyo|
-34: N} 5
-34: Nl/g
-34: NexF
-34: N:8L
-34: MessageBoxW
-34: MNLD
-34: M44'M
-34: M4'u|
-34: M2CA
-34: M"r#
-34: Ls;m,
-34: LookupPrivilegeValueW
-34: LjF
-34: L\lU
-34: LThis p
-34: LICH1ttR
-34: L<,o
-34: L89d0
-34: L2 C
-34: L0{6(
-34: L0W
-34: L,( pE
-34: L!G.
-34: K|'#K
-34: KERNEL32.DLL
-34: K=V
-34: K7#O
-34: K.9d
-34: K,'B3
-34: K#@&(
-34: JjYA
-34: Jg8
-34: JT5M
-34: JMEMy
-34: JKU
-34: JFFn$
-34: J5M!
-34: J(>@>@
-34: Iz+yQ.
-34: IeE!@
-34: Icos
-34: IXIE?
-34: IBtia
-34: I@\HG
-34: I)`*99
-34: Hs?TS;
-34: He\	C
-34: H_LH}
-34: H\X`
-34: HXhx
-34: HBw0
-34: H>|
-34: H8BG]
-34: H86'
-34: H([6
-34: GetDateFormatW
-34: G?)l
-34: G>v)
-34: G3qr$A,
-34: Fg%i
-34: FfO'2Vec
-34: FR1lR
-34: FPp6f
-34: FMkLLh:E
-34: FAAf
-34: F/,;-
-34: E}A`
-34: E9!&
-34: E+{W/
-34: Dx	t
-34: D_S+
-34: DY(x$\
-34: DOS mode
-34: DKR{C
-34: DDD!
-34: Code
-34: Clos
-34: Ceo!
-34: CatY
-34: CT\H]
-34: CDL
-34: CBN&
-34: C8SF
-34: C2%/
-34: C!v_B>
-34: BxLQo2
-34: B^r
-34: B6a/
-34: B4348
-34: B,"bY
-34: B"{<3;
-34: B"_]
-34: B @n
-34: AryDeru
-34: AkCV
-34: A`$t
-34: AGx&9
-34: A9U%A
-34: @g[dIX
-34: @egy
-34: @`2r #80(
-34: @ZB9d
-34: @T\ W
-34: @NNb
-34: @HJ.
-34: @HD?
-34: @HBQ
-34: @B:L
-34: @Adju
-34: @>@>
-34: @<HS
-34: @:9
-34: @0 `I
-34: @.G
-34: @.92X
-34: @(V12H!
-34: @'elo(
-34: @#B'
-34: @!,8
-34: @ pH
-34: @ /D
-34: @	9@jq
-34: ?cannot be run i
-34: ?a9:p
-34: ?:KiyH3H3
-34: ?/-;
-34: >dBN.$
-34: >M9O
-34: >#'d
-34: =K@>@
-34: =-Nyt
-34: <YW
-34: <SubPDO_
-34: <#c##
-34: ;MNN
-34: ;226
-34: ;-EM
-34: ;$.3
-34: :|n!T
-34: :uyP
-34: :IEtP
-34: :F7M
-34: :E!y
-34: 9TXPP
-34: 9Qcr
-34: 9FP=Q$
-34: 9CaX
-34: 99y~
-34: 9"&'r
-34: 9!]0"
-34: 9!#O
-34: 8rH\N
-34: 8m1CF
-34: 8kMkK
-34: 8jIWj
-34: 8IKexLQRe
-34: 80(i
-34: 8(xN
-34: 7x<b=
-34: 7sYq`
-34: 7kX#?7/<
-34: 7h!|
-34: 7dt#
-34: 77;,
-34: 63sY
-34: 6$%N
-34: 5=^1R'}5
-34: 5,XK
-34: 4aJQ
-34: 4MF1#
-34: 4K4M
-34: 4?&<
-34: 48<d0:0?0
-34: 44UN`
-34: 40P C
-34: 4+n
-34: 3set
-34: 3rs)
-34: 3qj!
-34: 3h b
-34: 3_Aw
-34: 3SF6
-34: 3D#%
-34: 34WPO
-34: 32NmB
-34: 3%##H
-34: 2kaZ$\
-34: 2D$*
-34: 2,5[
-34: 2'*qD
-34: 2$,|
-34: 2":0<d
-34: 12<(
-34: 1232
-34: 1.20
-34: 1%@`
-34: 1"Plac?
-34: 1 _k
-34: 1 Ng
-34: 0ru{
-34: 0aIT
-34: 0@[d
-34: 09Tr
-34: 08t$
-34: 0$nf
-34: 0	a*
-34: /oN/
-34: /fls
-34: /dg_rg
-34: /16i
-34: / w!
-34: .d.d@
-34: .$j,K
-34: -tK#S
-34: -Ov[mq$,L
-34: -H>z
-34: -AF
-34: -7PeekM
-34: -+NV
-34: -$x|AOq
-34: ,tV
-34: ,rH5r
-34: ,SVW
-34: ,;Vj
-34: ,0Hp@zEj
-34: ,,,P
-34: ,%, W
-34: , ?C
-34: +[|C
-34: +U%D}
-34: +OaI
-34: +D,
-34: +Cmp'
-34: +*6v
-34: *m>,6
-34: *S?ll
-34: *F&<
-34: )o-Y
-34: )eQ0Y
-34: )X+|
-34: )Rk22
-34: )%	&'T
-34: )"xb
-34: (s.
-34: (s&!S
-34: (BH}
-34: (+@.
-34: ($qi
-34: 'v+r
-34: 'tC@
-34: 'U1%TPT'
-34: '2I4
-34: ',Y(
-34: &vb6chs.dl
-34: &dh,
-34: &E'JaO
-34: &@p1
-34: &>s?
-34: &4!''_&`
-34: &'&(d
-34: &	\)
-34: %zLWIq	M[
-34: %sgB&y
-34: %Wddd
-34: %Eq"
-34: %@fd
-34: %1HFA
-34: $WPEL
-34: $U/F
-34: $TEP
-34: $?EH
-34: $>+T
-34: $9+d+
-34: #fKrd;
-34: #T#<
-34: #MKns
-34: #4eM
-34: #"#H
-34: "Ph3H3Hj
-34: "B?8!,
-34: !u1G
-34: !qLd
-34: !E4M
-34: !Ary
-34: !0 P
-34: !+,
-34: !$#C%
-34: 
-33: tsVW
-33: t,Q
-33: t*9u
-33: putchar
-33: jdY3
-33: jdX9
-33: iswctype
-33: f93u
-33: ^t.;]
-33: VWj"
-33: SVWj[
-33: RegUnLoadKeyW
-33: RegSetValueExA
-33: RegSaveKeyW
-33: RegRestoreKeyW
-33: RegQueryInfoKeyW
-33: RegLoadKeyW
-33: RegFlushKey
-33: RegCreateKeyW
-33: QVVPh
-33: QQVW3
-33: OutputDebugStringW
-33: LoadStringW
-33: IsCharAlphaNumericW
-33: CharUpperW
-33: CharNextW
-33: @PVW
-33: $SVW
-32: t&={
-32: jPhh
-32: _wcslwr
-32: YYu4WV
-32: YYtA9]
-32: YYt2W
-32: YYt+
-32: YYFj
-32: SetLocalTime
-32: RtlAdjustPrivilege
-32: QQS3
-32: PVWh4
-32: GetUserDefaultLCID
-32: 7j@V
-31: |rtF
-31: |$ V
-31: yt$f
-31: wcspbrk
-31: wcscspn
-31: v\9u
-31: v\9]
-31: vV9u
-31: vV9]
-31: v79u
-31: v79]
-31: v69u
-31: v69]
-31: v-9}
-31: v-9u
-31: uvh|C
-31: uu.W
-31: utWV
-31: ul9]`u'f
-31: ug@j
-31: ue9G
-31: u[97tI3
-31: uU9]
-31: uQf!
-31: uLSSh
-31: uIC!F(
-31: uGh0
-31: uBWV
-31: u3;u
-31: u29F4u%9F
-31: u.VW
-31: u";]
-31: u!;]
-31: u 9U
-31: u	hL
-31: u	;}
-31: type= <own|share|interact|kernel|filesys|rec|adapt>
-31: type= <own|share|interact|kernel|filesys|rec>
-31: type=    Type of services to enumerate (driver, service, all)
-31: txv[
-31: txh
-31: tv9=
-31: tt4Y
-31: this case.  If the query command is followed by nothing or one of
-31: the options listed below, the services are enumerated.
-31: tdh0*
-31: tIf=
-31: tHHt>HHt3
-31: tG9u
-31: t>f=.
-31: t;VWWh
-31: t:9n<u1j
-31: t3Ht$Ht
-31: t.f=!
-31: t,9F
-31: t+Ht!Ht
-31: t(f=
-31: t(f9
-31: t(9u
-31: t$$3
-31: t"f=
-31: t"9}
-31: t"9]
-31: t!9}
-31: t!9]
-31: stop------------Sends a STOP request to a service.
-31: state=   State of services to enumerate (inactive, all)
-31: start-----------Starts a service.
-31: separated by / (forward slash) -- e.g., run/5000/reboot/800
-31: sdshow----------Displays a service's security descriptor.
-31: sdset-----------Sets a service's security descriptor.
-31: sc.pdb
-31: sc start MyService
-31: sc queryex messenger    - Displays extended status for the messenger service
-31: sc queryex group= ""    - Enumerates active services not in a group
-31: sc query type= service type= interact - Enumerates all interactive services
-31: sc query type= service  - Enumerates only Win32 services
-31: sc query type= driver group= NDIS     - Enumerates all NDIS drivers
-31: sc query type= driver   - Enumerates only active drivers
-31: sc query state= all     - Enumerates all services & drivers
-31: sc query ri= 14         - Enumerates with resume index = 14
-31: sc query messenger      - Displays status for the messenger service
-31: sc query bufsize= 50    - Enumerates with a 50 byte buffer.
-31: sc query                - Enumerates status for active services & drivers
-31: sc create [service name] [binPath= ] <option1> <option2>...
-31: sc <server> stop [service name]
-31: sc <server> start [service name] <arg1> <arg2> ...
-31: sc <server> sdshow <service name>
-31: sc <server> sdset <service name> <SD in SDDL format>
-31: sc <server> qfailure [service name] <bufferSize>
-31: sc <server> qdescription [service name] <bufferSize>
-31: sc <server> qc [service name] <bufferSize>
-31: sc <server> pause [service name]
-31: sc <server> interrogate [service name]
-31: sc <server> failure [service name] <option1> <option2>...
-31: sc <server> description [service name] [description]
-31: sc <server> delete [service name]
-31: sc <server> control [service name] <value>
-31: sc <server> continue [service name]
-31: sc <server> config [service name] <option1> <option2>...
-31: sc <server> boot <bad|ok>
-31: sc <server> [command] [service name] <option1> <option2>...
-31: sc <server> GetKeyName <service display name> <bufsize>
-31: sc <server> GetDisplayName <service key name> <bufsize>
-31: sc <server> EnumDepend <service name> <bufsize>
-31: sc <server> <command> <option>
-31: ri=      The resume index number at which to begin the enumeration
-31: reset= <Length of period of no failures (in seconds)
-31: required BufSize = %d
-31: reg.pdb
-31: reboot= <Message broadcast before rebooting on failure>
-31: queryex---------Queries the extended status for a service, or
-31: query-----------Queries the status for a service, or
-31: qfailure--------Queries the actions taken by a service upon failure.
-31: qdescription----Queries the description for a service.
-31: qc--------------Queries the configuration information for a service.
-31: pots
-31: pause-----------Sends a PAUSE control request to a service.
-31: open handle to the service, the service is simply marked
-31: oh|(
-31: netbindenable|netbinddisable>
-31: netbindadd|netbindremove|
-31: last-known-good boot configuration
-31: l$ S
-31: j|^j
-31: j|Vf
-31: jD[+\$$V
-31: j(h0
-31: j XP
-31: invalid type= field
-31: invalid start= field
-31: invalid error= field
-31: interrogate-----Sends an INTERROGATE control request to a service.
-31: group=   Service group to enumerate
-31: ghx'
-31: ftell
-31: for that service is returned.  Further options do not apply in
-31: for deletion.
-31: fgetwc
-31: failure---------Changes the actions taken by a service upon failure.
-31: f9]|
-31: f9]tVWv
-31: f9]dt
-31: f93uHj4
-31: description-----Changes the description of a service.
-31: delete----------Deletes a service (from the registry).
-31: create----------Creates a service. (adds it to the registry).
-31: control---------Sends a control to a service.
-31: continue--------Sends a CONTINUE control request to a service.
-31: config----------Changes the configuration of a service (persistant).
-31: command= <Command line to be run on failure>
-31: bufsize= The size (in bytes) of the enumeration buffer
-31: boot------------(ok | bad) Indicates whether the last boot should
-31: be saved as the last-known-good boot configuration
-31: after which to reset the failure count to 0 (may be INFINITE)>
-31: actions= <Failure actions and their delay time (in milliseconds),
-31: aYYt'f
-31: _wfopen
-31: _wcsdup
-31: _ultow
-31: _t%Ht
-31: _getche
-31: _flushall
-31: _^][3
-31: _9|$
-31: ^hdC
-31: ^]_[
-31: ^[_]Y
-31: ][_^Y
-31: \l4f
-31: [SC] Will be unlocking database by exiting
-31: [SC] UnlockServiceDatabase SUCCESS
-31: [SC] UnlockServiceDatabase FAILED %d:
-31: [SC] Tag = %d
-31: [SC] StartService: QueryServiceStatusEx FAILED %d:
-31: [SC] StartService: OpenService FAILED %d:
-31: [SC] StartService FAILED %d:
-31: [SC] SetServiceObjectSecurity SUCCESS
-31: [SC] SetServiceObjectSecurity FAILED %d:
-31: [SC] SendConfigToService: LocalAlloc FAILED %d:
-31: [SC] QueryServiceStatus%s FAILED %d:
-31: [SC] QueryServiceObjectSecurity FAILED %d:
-31: [SC] QueryServiceLockStatus needs %d bytes
-31: [SC] QueryServiceLockStatus SUCCESS
-31: [SC] QueryServiceLockStatus FAILED %d
-31: [SC] OpenService FAILED %d:
-31: [SC] OpenSCManager FAILED %d:
-31: [SC] LockServiceDatabase FAILED %d:
-31: [SC] GetServiceLockStatus: LocalAlloc FAILED %d:
-31: [SC] GetServiceKeyName: LocalAlloc FAILED %d:
-31: [SC] GetServiceKeyName SUCCESS  Name = %ws
-31: [SC] GetServiceKeyName FAILED %d:
-31: [SC] GetServiceDisplayName: LocalAlloc FAILED %d:
-31: [SC] GetServiceDisplayName SUCCESS  Name = %ws
-31: [SC] GetServiceDisplayName FAILED %d: %ws
-31: [SC] GetServiceConfig: LocalAlloc FAILED %d:
-31: [SC] GetServiceConfig needs %d bytes
-31: [SC] GetServiceConfig SUCCESS
-31: [SC] GetServiceConfig FAILED %d:
-31: [SC] GetConfigInfo: LocalAlloc FAILED %d:
-31: [SC] GetConfigInfo needs %d bytes
-31: [SC] GetConfigInfo FAILED %d:
-31: [SC] EnumServicesStatus%s FAILED %d:
-31: [SC] EnumQueryServicesStatus:OpenService FAILED %d:
-31: [SC] EnumQueryServicesStatus: LocalAlloc FAILED %d:
-31: [SC] EnumDependentServices FAILED %d:
-31: [SC] EnumDepend: LocalAlloc FAILED %d:
-31: [SC] ERROR: a service name is required
-31: [SC] DeleteService SUCCESS
-31: [SC] DeleteService FAILED %d:
-31: [SC] CreateService SUCCESS
-31: [SC] CreateService FAILED %d:
-31: [SC] ConvertStringSecurityDescriptorToSecurityDescriptor FAILED %d:
-31: [SC] ConvertSecurityDescriptorToStringSecurityDescriptor FAILED %d:
-31: [SC] ControlService FAILED %d:
-31: [SC] CloseServiceHandle FAILED %d:
-31: [SC] ChangeServiceFailure: RtlAdjustPrivilege FAILED %#x
-31: [SC] ChangeServiceFailure: LocalAlloc FAILED %d:
-31: [SC] ChangeServiceConfig2 SUCCESS
-31: [SC] ChangeServiceConfig2 FAILED %d:
-31: [SC] ChangeServiceConfig SUCCESS
-31: [SC] ChangeServiceConfig FAILED %d:
-31: Y~Rich8
-31: Y_^][
-31: Y^_][YY
-31: YYv,3
-31: YYu}
-31: YYuq
-31: YYuph
-31: YYui
-31: YYuf
-31: YYuc
-31: YYub
-31: YYu^
-31: YYu\G9}
-31: YYuS
-31: YYuN
-31: YYuJ
-31: YYuG
-31: YYuF9F4
-31: YYuE9D$
-31: YYuCj
-31: YYuB9F4
-31: YYu@
-31: YYu3j
-31: YYu,G;|$
-31: YYu(9F<usG;|$
-31: YYu(9F4
-31: YYu'9F4u"
-31: YYu"j
-31: YYtHhp
-31: YYtE
-31: YYt:hX
-31: YYt5j
-31: YYt4
-31: YYt0h(
-31: YYt/h
-31: YYt*f
-31: YYt!Ht
-31: YYt h
-31: YYt	F;t$
-31: YY_^[
-31: YYSj
-31: YYC;_
-31: YPPh
-31: Would you like to see help for the QUERY and QUERYEX commands? [ y | n ]:
-31: Wj;^
-31: Wj'Y
-31: Whd;
-31: WIN32_SHARE_PROCESS
-31: WIN32_OWN_PROCESS
-31: WIN32_EXIT_CODE    : %d	(0x%lx)
-31: WIN32
-31: WAIT_HINT          : 0x%lx
-31: Valid actions are <run|restart|reboot>  >
-31: VWtY
-31: VWt9
-31: VVVVVV
-31: VPhb
-31: UnlockServiceDatabase
-31: USAGE:
-31: To unlock via API, press u:
-31: The option <server> has the form "\\ServerName"
-31: The following commands don't require a service name:
-31: Th0'
-31: TYPE               : %lx
-31: TAG                : %lu
-31: Starts a service running.
-31: StartServiceW
-31: Sets the description string for a service.
-31: Sets a service's security descriptor
-31: SetThreadUILanguage
-31: SetServiceObjectSecurity
-31: Sends an INTERROGATE control request to a service.
-31: Sends a STOP control request to a service.
-31: Sends a PAUSE control request to a service.
-31: Sends a CONTROL code to a service.
-31: Sends a CONTINUE control request to a service.
-31: See also sc stop, sc pause, etc.
-31: SYSTEM_START
-31: SYNTAX EXAMPLES
-31: STOP_PENDING
-31: STOPPED
-31: STATE              : %lx
-31: START_TYPE         : %lx
-31: START_PENDING
-31: SEVERE
-31: SERVICE_START_NAME : %ws
-31: SERVICE_NAME: %ws
-31: SERVICE_EXIT_CODE  : %d	(0x%lx)
-31: SC is a command line program used for communicating with the
-31: RtlOemStringToUnicodeString
-31: RtlInitUnicodeString
-31: RtlInitAnsiString
-31: Rich3P
-31: Rh *
-31: Retrieves the description string of a service.
-31: Retrieves the actions performed on service failure.
-31: RegEnumKeyExW
-31: RUNS_IN_SYSTEM_PROCESS
-31: RUNNING
-31: RUN PROCESS -- Delay = %u milliseconds
-31: RESTART -- Delay = %u milliseconds.
-31: RESET_PERIOD             :
-31: REBOOT_MESSAGE           : %ws
-31: REBOOT -- Delay = %u milliseconds
-31: QueryServiceStatusEx
-31: QueryServiceObjectSecurity
-31: QueryServiceLockStatusW
-31: QueryServiceConfigW
-31: QueryServiceConfig2W
-31: QueryLock-------Queries the LockStatus for the SCManager Database
-31: Queries the configuration information for a service.
-31: QUWj
-31: QUERY and QUERYEX OPTIONS :
-31: QSVWj\
-31: QSVWj
-31: QOOWV
-31: PjeW
-31: Pj.R
-31: Pj(j
-31: Pj'j
-31: Ph@)
-31: Ph@
-31: PeekConsoleInputW
-31: PWhp-
-31: PWh,.
-31: PWWWWWW
-31: PWWWW
-31: PWVh@7
-31: PVu+hb
-31: PVhl7
-31: PVhh>
-31: PVhh&
-31: PVhX,
-31: PVhT8
-31: PVhD+
-31: PVh0&
-31: PVh(,
-31: PVh 9
-31: PVSS
-31: PShD
-31: PSVh$8
-31: PRVRh
-31: PID                : %d
-31: PAUSE_PENDING
-31: PAUSED
-31: PAUSABLE,
-31: OPTIONS:
-31: NotifyBootConfigStatus FAILED %d:
-31: NotifyBootConfigStatus
-31: NetapipBufferAllocate
-31: NetWkstaUserGetInfo
-31: NetWkstaGetInfo
-31: NetUserGetInfo
-31: NetUseEnum
-31: NetShareEnum
-31: NetServerGetInfo
-31: NetServerEnum
-31: NetApiBufferReallocate
-31: NetApiBufferAllocate
-31: NT Service Controller and services.
-31: NOT_PAUSABLE,
-31: NORMAL
-31: Must be "inactive" or "all"
-31: Must be "driver" or "service"
-31: Modifies a service entry in the registry and Service Database.
-31: LockServiceDatabase
-31: LockOwner     : %ws
-31: LockDuration  : %d (seconds since acquired)
-31: Lock------------Locks the Service Database
-31: Lhx'
-31: LOAD_ORDER_GROUP   : %ws
-31: L$$G
-31: Jj|X
-31: IsLocked      : TRUE
-31: IsLocked      : FALSE
-31: Indicates whether the last boot should be saved as the
-31: If the service is running, or another process has an
-31: If the query command is followed by a service name, the status
-31: I_NetPathType
-31: INFINITE
-31: IGNORES_SHUTDOWN)
-31: IGNORE
-31: HuIS
-31: HtLHtBHHt7
-31: HYYt?Ht5Ht+Ht!Ht
-31: HSVW
-31: Gets the key name associated with a particular service, using the display name as input
-31: Gets the display name associated with a particular service
-31: GetProfileStringW
-31: GetKeyName------Gets the ServiceKeyName for a service.
-31: GetDisplayName--Gets the DisplayName for a service.
-31: GG9}
-31: Further help on commands can be obtained by typing: "sc [command]"
-31: FhHC
-31: FLAGS              :
-31: FAILURE_ACTIONS          :
-31: FA;t$
-31: F4u&j
-31: F4tK
-31: F4t=
-31: F0t>
-31: Enumerates the Services that are dependent on this one
-31: EnumServicesStatusW
-31: EnumServicesStatusExW
-31: EnumServiceGroupW
-31: EnumDepend------Enumerates Service Dependencies.
-31: Enum: more data, need %d bytes start resume at index %d
-31: Enum: more data, need %d bytes
-31: Enum: entriesRead  = %d
-31: E`Pj
-31: EXAMPLE:
-31: ERROR_CONTROL      : %lx
-31: ERROR: cannot specify a service name when enumerating a group
-31: ERROR:  The reset and actions options must be set simultaneously.
-31: ERROR:  Invalid option
-31: ERROR:  Invalid action: %#x
-31: ERROR, Invalid Option
-31: ERROR following "type="!
-31: ERROR following "state="!
-31: ERROR following "state="
-31: E;l$
-31: Dl,}
-31: Displays a service's security descriptor in SDDL format
-31: Dhd'
-31: Deletes a service entry from the registry.
-31: DeleteService
-31: DRIVER
-31: DISPLAY_NAME: %ws
-31: DISPLAY_NAME       : %ws
-31: DISABLED
-31: DESCRIPTION:
-31: DESCRIPTION              : %ws
-31: DEPENDENCIES       : %ws
-31: DEMAND_START
-31: DDDDDDDDDDDDDDDDDDDDDDDDDo
-31: D$DPf
-31: D$0VP
-31: D$$3
-31: Creates a service entry in the registry and Service Database.
-31: CreateServiceW
-31: ConvertStringSecurityDescriptorToSecurityDescriptorW
-31: ConvertSecurityDescriptorToStringSecurityDescriptorW
-31: ControlService
-31: Commands:
-31: Changes the actions upon failure
-31: ChangeServiceConfigW
-31: ChangeServiceConfig2W
-31: CRITICAL
-31: CREATE OPTIONS:
-31: CONTINUE_PENDING
-31: CONFIG OPTIONS:
-31: COMMAND_LINE             : %ws
-31: CHECKPOINT         : 0x%lx
-31: CE;l$
-31: CCSf
-31: C@@f
-31: BOOT_START
-31: BINARY_PATH_NAME   : %ws
-31: At!f
-31: Active database is locked.
-31: AUTO_START
-31: ACCEPTS_SHUTDOWN)
-31: ?u'9
-31: >\YY
-31: <value> = user-defined control code
-31: <value> = <paramchange|
-31: : %ws
-31: 9n<u
-31: 9]`tk
-31: 9F4uU9F
-31: 9F4u+
-31: 9EHt
-31: 9= p
-31: 9"u8
-31: 9"u/
-31: 6h\9
-31: 6f=.
-31: 6Ph@r
-31: .h,C
-31: ,f=:
-31: ,VW3
-31: ,F;u
-31: +L$$
-31: *** Unrecognized Command ***
-31: )hd'
-31: (interactive)
-31: (default = service)
-31: (default = own)
-31: (default = normal)
-31: (default = demand)
-31: (default = all groups)
-31: (default = active)
-31: (default = LocalSystem)
-31: (default = 0)
-31: (default = %d)
-31: (STOPPABLE,
-31: (NOT_STOPPABLE,
-31: (Must be used in conjunction with the reset= option)
-31: (Must be used in conjunction with actions= )
-31: 'Vhh
-31: %u seconds
-31: $G;}
-31: !hH'
-30: strspn
-29: |B;E
-29: u<f9_
-29: u6f9_
-29: u2F;
-29: u&Vh
-29: u&VW
-29: u#f9_
-29: tnHtdHtZHHt5Ht
-29: tLf=
-29: tEBBf
-29: t1VV
-29: t*h0
-29: t(HuA
-29: strpbrk
-29: sscanf
-29: sTime
-29: sShortDate
-29: sDate
-29: s2359
-29: s1159
-29: j?Y3
-29: j<[j
-29: intl
-29: iTimePrefix
-29: iTime
-29: iTLZero
-29: dv	f
-29: at.pdb
-29: _itoa
-29: ]xVPS
-29: YYu*f
-29: YYt|j
-29: YYt=
-29: YYt
-29: WjdY3
-29: WRVPQ
-29: V|tf
-29: Vt:f
-29: VWj'Y
-29: VVVV
-29: TSUVW
-29: SVWv'
-29: SAMLIB.dll
-29: Rich$
-29: R9Cw
-29: PhXZ
-29: PWt
-29: PVjP
-29: PPPPj
-29: NetScheduleJobGetInfo
-29: NetScheduleJobEnum
-29: NetScheduleJobDel
-29: NetScheduleJobAdd
-29: NTDSAPI.dll
-29: NETRAP.dll
-29: MdXu
-29: MXQP
-29: M/d/yy
-29: LoadLibraryExW
-29: HueV
-29: H	Q3
-29: GetProfileStringA
-29: GetProfileIntA
-29: FFf=/
-29: CommandLineToArgvW
-29: CSj@
-29: C2Ph
-29: C"Ph
-29: >\u,f
-29: <s_^[
-29: ;}hu$h
-29: ;u|~
-29: :f;9t
-29: 3SWj
-29: 0123456789
-29: /,-
-29: )f9_
-29: %[^,- /:
-28: }#jXh
-28: fprintf
-28: `fof
-28: `ff`
-28: SetFileAttributesW
-26: fflush
-26: YYt*
-26: PVVj
-26: M8;M(
-26: "<A|
-25: wwwwwwwwwwwwwwww
-25: iHG_o
-25: VC}A
-25: DcDPD
-25: DDD$GDbFDC
-24: 0SVW
-23: DeleteFileW
-22: lstrcmpiW
-22: GetProcessHeap
-22: GetModuleHandleW
-21: time
-21: tT9=
-21: t$$h
-21: t	f9
-21: RegOpenKeyW
-21: PPPW
-21: MessageBeep
-21: LookupAccountSidW
-21: GetSecurityDescriptorOwner
-21: FindClose
-21: FileTimeToSystemTime
-21: FileTimeToLocalFileTime
-21: 9]dt
-20: ulib.dll
-20: VirtualQuery
-20: VirtualFree
-20: VirtualAlloc
-20: SetFileTime
-20: RaiseException
-20: HeapFree
-20: HeapAlloc
-20: GetWindowsDirectoryW
-20: GetFileAttributesW
-20: GetCurrentThreadId
-20: FindFirstFileW
-20: E\Ph
-20: D$0P
-20: CreateDirectoryW
-20: CopyFileW
-19: ~{jP^9u
-19: ~_9}
-19: ~ Uj
-19: }D%	K
-19: }; 	yA#	YF%	+
-19: |$h9_
-19: wwwwwwww
-19: w8RP
-19: w1tx
-19: v<YY3
-19: v<YY
-19: v<Ph
-19: v:9=
-19: v8h0
-19: v	N+D$
-19: u}j^V
-19: uqj|V
-19: uf9u
-19: uej V
-19: u_Wj
-19: u]Wh
-19: uXf!
-19: uWVW
-19: u19\$
-19: u19M
-19: u08E
-19: u-9E
-19: u+hp
-19: u*j;
-19: u)CCS
-19: u(hA#
-19: u%9^
-19: u#95P
-19: u"Sh8#
-19: u"Sh7#
-19: u!j?
-19: u!9u
-19: u	SV
-19: u	9_
-19: u	9]
-19: u	9E
-19: twf98tr
-19: trf;E
-19: trSW
-19: tqIt
-19: towupper
-19: towlower
-19: tmf9>thV
-19: tlf=*
-19: ti9|$ uc
-19: thf;
-19: tg9u
-19: t`WS
-19: t^SW
-19: tXf;
-19: tRf=^
-19: tPf;
-19: tN9E
-19: tFf9>tAV
-19: tEHH
-19: tDj\
-19: tAHt3HHt$
-19: t?95
-19: t=SWj
-19: t:j
-19: t7Sj
-19: t5V3
-19: t5GG
-19: t4h(#
-19: t3SP
-19: t/f9X
-19: t.PQ
-19: t,@@f
-19: t+jL_
-19: t+SSS
-19: t*Ht
-19: t*9|$
-19: t)SW
-19: t(PhX
-19: t'HHt
-19: t&VVVV
-19: t$SSj
-19: t#9^
-19: t"SSSS
-19: t"PV
-19: t!f=!
-19: t	SP
-19: t	PU
-19: t	@@f98u
-19: t	9^
-19: swscanf
-19: su9]
-19: r	9E
-19: p4W3
-19: mu!f
-19: longjmp
-19: kkkkkkkkkkkkkkkkkkkkkkkklrtpmnsqocdO9
-19: k95h
-19: j{^Sj
-19: joX_^[
-19: jd[S
-19: jWVh
-19: j [#
-19: j X;
-19: iswxdigit
-19: iswspace
-19: iswdigit
-19: iswalpha
-19: hyvegggggggggggggggggggggggffw
-19: f;5|
-19: f9\$,
-19: f9TK
-19: f9>u
-19: f9>t`
-19: f9>t
-19: f98u
-19: f9.u!9-T
-19: f9.Yu
-19: du1f
-19: dt~f
-19: cmd.pdb
-19: _wpopen
-19: _tell
-19: _setjmp3
-19: _seh_longjmp_unwind
-19: _pipe
-19: _pclose
-19: _open_osfhandle
-19: _getch
-19: _get_osfhandle
-19: _errno
-19: _dup2
-19: _dup
-19: _close
-19: _]^[
-19: _][^
-19: _[^]YY
-19: _ _^[
-19: ^jP[
-19: ^_][
-19: ^SVW
-19: ]u,j
-19: ][_^
-19: ]@[YY
-19: [t?f
-19: [f=
-19: Yuyf
-19: YuPf
-19: Yu6f
-19: Yu69E
-19: Yu63
-19: Yu(Vht
-19: Ytqj
-19: YtAV
-19: Yt>VW
-19: Yt4f
-19: Yt$j
-19: Yt#W
-19: YrHV
-19: YYuHS
-19: YYu*
-19: YYt~
-19: YYtzVC
-19: YYtaf
-19: YYtY
-19: YYtMj0
-19: YYtA
-19: YYt7
-19: YYt3h
-19: YYt)V
-19: YYt%h
-19: YYt"h
-19: YYs-
-19: YYj)
-19: YY_[^3
-19: YY^_]
-19: YY^3
-19: YYSh
-19: YY95
-19: Y@Y@
-19: Y@@_^[
-19: W~A3
-19: WtOS
-19: Wt j*V
-19: Whh[
-19: Whd#
-19: Wh`Y
-19: WhC#
-19: Wh.#
-19: WWWWWj
-19: WVh(
-19: WVS3
-19: WQPS
-19: WPSf
-19: Vu.j
-19: Vt43
-19: VhT#
-19: VWu)
-19: VWj S
-19: VW@@P
-19: VVVVV
-19: VSh]#
-19: VShJ#
-19: Uh*#
-19: Uh)#
-19: UWj^V
-19: TerminateProcess
-19: T3333333333333333333333333333333333333333B75
-19: SystemTimeToFileTime
-19: Sj|P
-19: Sj^P
-19: Sj&P
-19: Shw#
-19: ShpY
-19: ShellExecuteExW
-19: Shd#
-19: ShR#
-19: Sh5#
-19: Sh4#
-19: Sh0#
-19: Sh('
-19: Sf9>t[9=
-19: SetErrorMode
-19: SetEnvironmentVariableW
-19: SetCurrentDirectoryW
-19: SetConsoleTitleW
-19: SetConsoleTextAttribute
-19: SetConsoleInputExeNameW
-19: SetConsoleCursorPosition
-19: SetConsoleCtrlHandler
-19: ScrollConsoleScreenBufferW
-19: SaferRecordEventLogEntry
-19: SaferIdentifyLevel
-19: SaferComputeTokenFromLevel
-19: SaferCloseLevel
-19: SVWtH
-19: SVWt#j
-19: SVWj,
-19: SVWh`Y
-19: SVW2
-19: SSVWj
-19: SSVWh
-19: SSSSUVS
-19: SNVW
-19: SHChangeNotify
-19: SFSFS
-19: S@9E
-19: RichOJ=
-19: Rhp
-19: RevertToSelf
-19: RemoveDirectoryW
-19: RegQueryValueW
-19: ReadProcessMemory
-19: QVPh
-19: QSVW3
-19: QSV3
-19: QSUj
-19: QRPhd
-19: QQUV3
-19: QQSV
-19: QQSUV
-19: Pj7S
-19: Pj6S
-19: Pj5S
-19: Pj4S
-19: Pj3S
-19: Pj2S
-19: Pj1S
-19: Pj'V
-19: Pj$S
-19: Pj W
-19: Ph`Z
-19: Ph`Y
-19: PhP#
-19: Ph@Z
-19: Ph@Y
-19: PWhu#
-19: PWhb#
-19: PWhD
-19: PWh@
-19: PWh=
-19: PWWV
-19: PVhh
-19: PVhH
-19: PVh6#
-19: PVh
-19: PSh@
-19: PSVW3
-19: PSVP
-19: PQ^[KIIIIIIIIIIIIIIIIIIIIIIIIJEDHJZDFGYa`_XV
-19: Null environment
-19: NtQueryInformationProcess
-19: NYYy
-19: MtxFFf
-19: MoveFileW
-19: MoveFileExW
-19: LeaveCriticalSection
-19: L$4QP
-19: Jv9W
-19: Juf3
-19: JuLWh
-19: JuG9]
-19: JuAV
-19: Ju+h
-19: Jt^j/P
-19: Jt^f=:
-19: JtYj/P
-19: JtJVh
-19: JtGf
-19: JtDV
-19: Jt?f
-19: Jt9f
-19: Jt)j
-19: Jt#U
-19: Jt!V
-19: Jt W
-19: Jj0h
-19: Jj/h
-19: Jj.h,
-19: Jj-h(
-19: Jj Zf;
-19: Jj P
-19: JhhZ
-19: Jh+#
-19: Jh$[
-19: Jh Z
-19: Jh	2
-19: Jf9|F
-19: Jf9lF
-19: Jf9.t.
-19: J_^[3
-19: J_^[
-19: J_]^[
-19: J]t5;
-19: JYj*W
-19: JYf=Q
-19: JYf=I
-19: JYf=D
-19: JYf=?
-19: JY_^[
-19: JYYuqWh
-19: JYYu7Wh
-19: JYYu"Wh
-19: JYYt
-19: JYYj*
-19: JYYf9;
-19: JYYf97
-19: JYYf9
-19: JYY_^3
-19: JYY^
-19: JYYU
-19: JYYSW
-19: JYYSVU
-19: JYYS
-19: JYYP
-19: JYYC
-19: JYY9n
-19: JYY+u
-19: JYWWWW
-19: JYPWj
-19: JYPVj
-19: JYPVV
-19: JWtpS
-19: JWh?#
-19: JWPS
-19: JVh<#
-19: JVW3
-19: JUh:#
-19: JShP
-19: JSetThreadUILanguage
-19: JSVW3
-19: JSUVW3
-19: JSSS
-19: JSSP
-19: JPWj
-19: JPVPQh
-19: JPQP
-19: JGGf
-19: JFB;
-19: JEf=
-19: JCPV
-19: J;D$
-19: J9t$
-19: J9.t'3
-19: J1t095D
-19: IsDebuggerPresent
-19: InterlockedExchange
-19: InitializeCriticalSection
-19: ImpersonateLoggedOnUser
-19: IIt/It,IIt$
-19: IHH;
-19: HuhWVh,
-19: HtxHHtdHtB
-19: Htpf;
-19: HtYHt?Ht"
-19: HtCHt
-19: HpjLX
-19: HeapSize
-19: HeapReAlloc
-19: HHuh
-19: GetVolumeInformationW
-19: GetVersion
-19: GetVDMCurrentDirectories
-19: GetUserObjectInformationW
-19: GetThreadDesktop
-19: GetProcessWindowStation
-19: GetLocaleInfoW
-19: GetLocalTime
-19: GetFullPathNameW
-19: GetFileSecurityW
-19: GetFileAttributesExW
-19: GetEnvironmentVariableW
-19: GetEnvironmentStringsW
-19: GetDiskFreeSpaceExW
-19: GetCurrentDirectoryW
-19: GetConsoleTitleW
-19: GetBinaryTypeW
-19: G;=T
-19: G&	*g:
-19: G%	M
-19: FreeSid
-19: FlushFileBuffers
-19: FlushConsoleInputBuffer
-19: Fj"FV
-19: FindNextFileW
-19: FillConsoleOutputCharacterW
-19: FillConsoleOutputAttribute
-19: FWFVj
-19: FFj:V
-19: FFf9>u
-19: FFf9.u
-19: FFSS
-19: FFCf
-19: FDPht
-19: FBBf
-19: F<W3
-19: F<SPV
-19: F<Gf9
-19: F<@@Ph
-19: F8SPV
-19: ExpandEnvironmentStringsW
-19: EnterCriticalSection
-19: ETu	jd3
-19: ETPS
-19: EESU
-19: E8PW
-19: DuplicateHandle
-19: DG0P
-19: DG,P
-19: DDDDDDDDDDDDDDDDDDDDDDDDD,
-19: D%	R
-19: D$dh
-19: D$,P3
-19: D$(P
-19: D$$t*j:V
-19: D$$Pj
-19: D#	f
-19: CreateProcessAsUserW
-19: CopyFileExW
-19: CompareFileTime
-19: CmdBatNotification
-19: C]xz|}}}}}}}}}}}}}}}}}}}}}}{z~
-19: CShH
-19: CMD Internal Error %s
-19: CCf!4Ch
-19: CCGG
-19: CC;]
-19: C4;{4u
-19: BtNf
-19: BB8Z
-19: BAAf
-19: B$	f
-19: B$	d
-19: B#	u
-19: AtTf
-19: APerformUnaryOperation: '%c'
-19: APerformArithmeticOperation: '%c'
-19: AFFf9
-19: A$	t
-19: @f9>t
-19: @_^][
-19: @_[^
-19: @Vj
-19: @@f;U
-19: @@f9
-19: @@BBf
-19: @<VWj(
-19: @9=h
-19: @!	=
-19: @!	%
-19: >FFCC
-19: >:u%j
-19: >:Wu
-19: >6t/
-19: >"u
-19: =YuYW
-19: <w"t
-19: <tl+
-19: <t[f
-19: <_VW
-19: <XCFF;]
-19: ;D$(
-19: ;" u
-19: ;" t
-19: :j\_u
-19: :j\^j
-19: 9|$ u
-19: 9uFSh
-19: 9u7WVh
-19: 9^Lt
-19: 9^4t
-19: 9](t
-19: 9] t
-19: 97tP
-19: 8\u_j\
-19: 8Sh,
-19: 8:t5
-19: 8:t%
-19: 8,ub
-19: 8*ul
-19: 8(um
-19: 6PWj
-19: 4GVU
-19: 4Fh`Y
-19: 4FWV
-19: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222.............................22
-19: 1r?f
-19: 0j	Y;
-19: 0@@f
-19: 01'22222222222222222222222222222222222222'46A
-19: 000000000000000000000000000
-19: .222%
-19: .2"***************************
-19: .2!$$$$$$$$$$$$$$$$$$'#)(#)
-19: .2	111/---/1111-11111111111111
-19: .2	111/---/11-111-1-------1111
-19: .2	111-111111111-/111111111111
-19: .2	111-111111-1/-1111111111111
-19: .2	111-/1/-11111/-111111111111
-19: .2	111-/1/-1111-/1111111111111
-19: -YtQ
-19: ,Fj.W
-19: +=#	#B$
-19: *tnj.Z;
-19: *********************************
-19: *****************'''''''''''''''
-19: )tXHuZ
-19: )tUH
-19: )j%[f;
-19: ))))):::::::::::::::::::::::::::::::;+
-19: )(&&())))(&))
-19: )(&&()))&))))
-19: )&))))))(&)))
-19: )&((&)&))&())
-19: )&((&)&)&()))
-19: ' $""""""""!#!%
-19: &.2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
-19: &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-19: #950
-19: "t	f
-18: uB9=L
-18: u69}
-18: u0h8
-18: u	9^
-18: to9]
-18: t\hV
-18: tB=a
-18: tB9\$(u<h
-18: t2Ht(Ht
-18: t0Ht(Ht!Ht
-18: t-f9
-18: t(Ht
-18: t%Ht
-18: net.pdb
-18: j@hp
-18: j WQ
-18: credui.dll
-18: _local_unwind2
-18: _[^]
-18: \SVWj
-18: YYu4
-18: YYu&
-18: YYtxj
-18: YYt0f
-18: YYt$
-18: YYt hd
-18: YYj\V
-18: WriteProfileStringW
-18: WNetOpenEnumW
-18: WNetGetLastErrorW
-18: WNetEnumResourceW
-18: WNetCloseEnum
-18: VSSh
-18: SWVj	h
-18: SWVh
-18: QRPh8x
-18: Q@Pj
-18: Pj 3
-18: PWj
-18: PSh>
-18: PSSj j
-18: PSSSj
-18: NetUseGetInfo
-18: InterlockedCompareExchange
-18: DelayLoadFailureHook
-18: DDDDDDDDDDDDDDDDDDDDDDDDD/^
-18: D$@hd
-18: CredUICmdLinePromptForCredentialsW
-18: 3DDDD+m
-18: %s, %s, %s, %s,
-18: $E "
+101: GetModuleHandleA
+101: GetLastError
+100: wcslen
+100: wcscpy
+100: _exit
+100: LocalFree
+100: LocalAlloc
+100: FormatMessageW
+93: wcscmp
+90: _initterm
+90: _except_handler3
+90: _controlfp
+90: _cexit
+90: _c_exit
+90: _adjust_fdiv
+90: __setusermatherr
+90: __set_app_type
+90: __p__fmode
+90: __p__commode
+90: _XcptFilter
+89: _wcsicmp
+88: GetProcAddress
+85: PSVWh
+79: wcsncmp
+78: wcschr
+77: wcscat
+77: WriteFile
+77: WideCharToMultiByte
+77: RegQueryValueExW
+77: RegOpenKeyExW
+77: RegCloseKey
+77: LoadLibraryW
+77: FreeLibrary
+71: swprintf
+70: wcsrchr
+70: wcsncpy
+70: malloc
+70: GetCommandLineW
+67: DDDDDDDDDDDDDDDDDDDDDDDDD
+66: WriteConsoleW
+66: GetStdHandle
+64: memmove
+64: LoadLibraryA
+63: calloc
+60: __initenv
+60: __getmainargs
+59: wcstok
+59: _wcsupr
+59: Wednesday
+59: Tuesday
+59: Thursday
+59: Sunday
+59: SetThreadLocale
+59: September
+59: Saturday
+59: ReadConsoleW
+59: October
+59: November
+59: NetApiBufferFree
+59: Monday
+59: March
+59: January
+59: I_NetNameValidate
+59: GetSystemDefaultLangID
+59: GetFileType
+59: GetConsoleOutputCP
+59: GetCPInfo
+59: Friday
+59: February
+59: December
+59: August
+59: April
+57: iswctype
+57: RtlAllocateHeap
+56: PWWWj
+55: setlocale
+52: _vsnwprintf
+52: SetLastError
+51: PPPPPPPh
+48: sprintf
+46: qsort
+46: fread
+46: RegEnumValueW
+46: KERNEL_DRIVER
+46: FILE_SYSTEM_DRIVER
+46: ERROR
+46: CloseHandle
+46: ADAPTER
+45: wcsspn
+45: wcspbrk
+45: wcscspn
+45: putchar
+45: ftell
+45: _wfopen
+45: _wcsnicmp
+45: _wcsdup
+45: _ultow
+45: _ultoa
+45: _snwprintf
+45: _setmode
+45: SetConsoleMode
+45: SUVWh
+45: RtlOemStringToUnicodeString
+45: RtlInitUnicodeString
+45: RtlInitAnsiString
+45: PeekConsoleInputW
+45: NetapipBufferAllocate
+45: NetWkstaUserGetInfo
+45: NetWkstaGetInfo
+45: NetUserGetInfo
+45: NetUseEnum
+45: NetShareEnum
+45: NetServerGetInfo
+45: NetServerEnum
+45: NetApiBufferReallocate
+45: NetApiBufferAllocate
+45: I_NetPathType
+45: GetProfileStringW
+45: GetModuleFileNameW
+45: GetDriveTypeW
+45: GetConsoleMode
+42: GetTimeFormatW
+42: GetThreadLocale
+41: strchr
+40: QueryServiceStatus
+40: QQSVW
+40: OpenServiceW
+40: OpenSCManagerW
+40: GetServiceKeyNameW
+40: GetServiceDisplayNameW
+40: EnumDependentServicesW
+40: CloseServiceHandle
+36: ExitProcess
+35: lstrlenW
+35: RegSetValueExW
+35: RegDeleteValueW
+35: RegConnectRegistryW
+34: YYu4WV
+34: YYt2W
+34: PVWh4
+33: printf
+32: wsprintfW
+32: MultiByteToWideChar
+31: _stricmp
+31: RtlTimeToSecondsSince1970
+31: NtQuerySystemTime
+31: GetSystemTime
+30: __winitenv
+30: __wgetmainargs
+29: SSSSSS
+28: realloc
+28: _local_unwind2
+28: YYtxj
+28: YYt0f
+28: WriteProfileStringW
+28: WaitForSingleObject
+28: WNetOpenEnumW
+28: WNetGetLastErrorW
+28: WNetGetConnectionW
+28: WNetEnumResourceW
+28: WNetCloseEnum
+28: WNetCancelConnection2W
+28: WNetAddConnection2W
+28: QRPh8x
+28: PSSSj
+28: NetUseGetInfo
+28: LocalReAlloc
+28: InterlockedCompareExchange
+28: GlobalAlloc
+28: GetSidSubAuthorityCount
+28: GetSidSubAuthority
+28: GetExitCodeProcess
+28: GetDateFormatW
+28: GetConsoleScreenBufferInfo
+28: GetComputerNameW
+28: DelayLoadFailureHook
+28: CredUICmdLinePromptForCredentialsW
+28: CreateProcessW
+25: yxph6
+25: yXPHi
+25: whflt
+25: veTypH
+25: rogram
+25: rX4ioo
+25: ok1nel32
+25: oAupV
+25: o9uiu
+25: lv5l7
+25: inUpdatec
+25: ijUnp0
+25: iQgP8
+25: esA3l4
+25: e3Hcp
+25: div_m648
+25: dXFdaVi
+25: ZOKFZs
+25: Xrr0e
+25: XTPbbC
+25: WSEep
+25: VENT_SINK_
+25: VC6bt
+25: UnicE
+25: URLDownEfTo
+25: ToAnsiS
+25: Richs
+25: Redim
+25: Pu8At
+25: LICH1ttR
+25: L89d0
+25: JMEMy
+25: INCUBUS
+25: IBtia
+25: FR1lR
+25: FPp6f
+25: BxLQo2
+25: B4348
+25: AryDeru
+25: 9TXPP
+25: 8m1CF
+25: 8kMkK
+25: 8jIWj
+25: 8IKexLQRe
+25: 34WPO
+25: 32NmB
+24: wcsstr
+24: PSSSS
+23: _wtol
+23: _getche
+23: YYuph
+23: YYuCj
+23: YYu3j
+23: WIN32_SHARE_PROCESS
+23: WIN32_OWN_PROCESS
+23: WIN32
+23: UnlockServiceDatabase
+23: StartServiceW
+23: SetServiceObjectSecurity
+23: SYSTEM_START
+23: STOP_PENDING
+23: STOPPED
+23: START_PENDING
+23: SEVERE
+23: RtlAdjustPrivilege
+23: RUNS_IN_SYSTEM_PROCESS
+23: RUNNING
+23: QueryServiceStatusEx
+23: QueryServiceObjectSecurity
+23: QueryServiceLockStatusW
+23: QueryServiceConfigW
+23: QueryServiceConfig2W
+23: QSVWj
+23: QOOWV
+23: PVhl7
+23: PVhT8
+23: PAUSE_PENDING
+23: PAUSED
+23: NotifyBootConfigStatus
+23: NORMAL
+23: LockServiceDatabase
+23: INFINITE
+23: IGNORE
+23: HtLHtBHHt7
+23: EnumServicesStatusW
+23: EnumServicesStatusExW
+23: EnumServiceGroupW
+23: DeleteService
+23: DRIVER
+23: DISABLED
+23: DEMAND_START
+23: CreateServiceW
+23: ConvertStringSecurityDescriptorToSecurityDescriptorW
+23: ConvertSecurityDescriptorToStringSecurityDescriptorW
+23: ControlService
+23: ChangeServiceConfigW
+23: ChangeServiceConfig2W
+23: CRITICAL
+23: CONTINUE_PENDING
+23: BOOT_START
+23: AUTO_START
+22: wwwww
+21: iswprint
+19: strrchr
+18: srand
+18: lstrcpyW
+18: lstrcmpW
+18: SetFilePointer
+18: SearchPathW
+18: RegUnLoadKeyW
+18: RegSetValueW
+18: RegSetValueExA
+18: RegSaveKeyW
+18: RegRestoreKeyW
+18: RegQueryInfoKeyW
+18: RegLoadKeyW
+18: RegFlushKey
+18: RegEnumKeyW
+18: RegDeleteKeyW
+18: RegCreateKeyW
+18: ReadFile
+18: QVVPh
+18: QQVW3
+18: OutputDebugStringW
+18: OpenProcessToken
+18: MessageBoxW
+18: LookupPrivilegeValueW
+18: LoadStringW
+18: IsCharAlphaNumericW
+18: GetTickCount
+18: GetFileSize
+18: GetCurrentProcess
+18: CreateFileW
+18: CharUpperW
+18: CharNextW
+18: AdjustTokenPrivileges
+17: zWrLh
+17: zWrLeh
+17: zWWWWzzzzWWzzl
+17: zWWWWzzzzWNzzl
+17: wcstod
+17: wcsncat
+17: uSPWh
+17: strncpy
+17: isdigit
+17: f98t33
+17: _wcsrev
+17: _wcslwr
+17: _strnicmp
+17: _ftol
+17: YYuUf9
+17: YYuCh
+17: YYu9W
+17: YYu7h
+17: YYtDWf
+17: YYtAh
+17: YYjPhh
+17: YY_f3
+17: YYWWW
+17: WrLeh
+17: WWzWWJDzzzzzzzzzzlz
+17: WWzWWJDzz
+17: WWzWWGDzzzzzzzzzzlz
+17: WWzWWGDzz
+17: WWzWWDDzzzzzzzzzzlz
+17: WWzWWDDzz
+17: WWrLh
+17: WB42WB32B20zWWzGDz
+17: WB21BB16B10zWWzJDz
+17: WB21BB16B10zWWzDDz
+17: Transport
 17: Sleep
-16: }7=s
-16: }4j<_
-16: |H9}
-16: |$ 3
-16: {t=-2
-16: zWrLh
-16: zWrLeh
-16: zWWWWzzzzWWzzl
-16: zWWWWzzzzWNzzl
-16: w9]tu$
-16: vaS3
-16: vPW3
-16: vI9^
-16: vB9_
-16: u|h3
-16: u|h*
-16: uSPWh
-16: u>f9
-16: u49}
-16: u/SV
-16: u%9}
-16: u 9}
-16: tx=a
-16: tkhV
-16: teVW
-16: t_j!
-16: tZf9;tUjd
-16: tQ9}
-16: tIf9;tDS
-16: tA=Z
-16: t:9E
-16: t9HHt.Ht
-16: t$9}
-16: t$,V
-16: t#Ht
-16: strncpy
-16: s	f
-16: qF;t$
-16: q4hP
-16: p<f;t$
-16: net1.pdb
-16: l$ V
-16: jWX^
-16: j<Y3
-16: j(h@
-16: f9u`_^[t
-16: f9/u
-16: _^][YY
-16: _[u"
-16: ^]u4
-16: ^[un
-16: ^[u,
-16: \print$\WIN40\0
-16: \Color\
-16: [u=9E
-16: Yv?W
-16: Y_^[u
-16: YYu[h
-16: YYuZ
-16: YYuUf9
-16: YYuG;
-16: YYuCh
-16: YYuC
-16: YYu>
-16: YYu=;
-16: YYu;9D$0
-16: YYu;
-16: YYu9W
-16: YYu9
-16: YYu8
-16: YYu7h
-16: YYu/
-16: YYu.h
-16: YYu.9=X
-16: YYu,h
-16: YYu(V
-16: YYu'hL
-16: YYu W
-16: YYtw
-16: YYtDWf
-16: YYtB
-16: YYtAh
-16: YYt<h
-16: YYt.Ht#Ht
-16: YYjPhh
-16: YY_f3
-16: YY_^][Y
-16: YY^[_
-16: YYWj
-16: YYWWW
-16: YYGj
-16: X9E|
-16: WrLeh
-16: Windows 4.0
-16: WWzWWJDzzzzzzzzzzlz
-16: WWzWWJDzz
-16: WWzWWGDzzzzzzzzzzlz
-16: WWzWWGDzz
-16: WWzWWDDzzzzzzzzzzlz
-16: WWzWWDDzz
-16: WWrLh
-16: WSh<
-16: WB42WB32B20zWWzGDz
-16: WB21BB16B10zWWzJDz
-16: WB21BB16B10zWWzDDz
-16: VW~^
-16: VPh
-16: Type
-16: Transport
-16: SetJobA
-16: SWVj	h8
-16: SSSh
-16: S@f
-16: ReturnNetwareForm
-16: RQPQV
-16: QWh8
-16: QQV3
-16: Pjdj
-16: Pj<[
-16: PWWSW
-16: PVVVV
-16: PSVWht
-16: PPSP
-16: OpenPrinterW
-16: OpenPrinterA
-16: NWGetFileServerDateAndTime
-16: NWDetachFromFileServer
-16: NWAttachToFileServerW
-16: L$(@f
-16: Hu;h8
-16: HtlHtRHt7Ht
-16: Ht:H
-16: HhQj
-16: HHuK3
-16: GetPrinterDriverA
-16: GetPrinterA
-16: GetNcpSecretKey
-16: GetJobA
-16: FVSSS
-16: FNPW
-16: F;5L
-16: F95L
-16: F.PW
-16: F P3
-16: E|PV
-16: EtPh
-16: EpPj
-16: EpPh
-16: Ep90t{j!
-16: EnumJobsA
-16: ElPj
-16: ElPhH
-16: EdPj
-16: EdPS
-16: Ea@u
-16: E4VPj
-16: E4SP
-16: D$$=
-16: D$ PW
-16: ClosePrinter
-16: CSVf
-16: B26WWWWzzzzzWW
-16: B26WWWWzzzzzWN
-16: B13BWWWzzzzzWW
-16: B13BWWWzzzzzWN
-16: @Y@Y
-16: @V@P
-16: @,SVW
-16: >Yt|W
-16: =;5/+)%
-16: ;}lr
-16: ;]hr
-16: ;Elu
-16: 9}|tI
-16: 9}|t
-16: 9uhu
-16: 9p0u
-16: 9p(u
-16: 9]lvV
-16: 9D$0
-16: 8SVW3
-16: 5u,j
-16: 0123456789abcdef
-16: /j*Q
-16: .ICM
-16: .ICC
-16: .+5`
-16: (9-
-16: $_^[
-16: "j<Y3
-15: LocalReAlloc
-15: GlobalAlloc
-15: GetSidSubAuthorityCount
-15: GetSidSubAuthority
-15: GetComputerNameW
-14: strrchr
-14: \[^_]
-14: Sj	h
-14: RtlUnwind
-13: zj|^
-13: x`Pt
-13: wcstod
-13: wcsncat
-13: w`SP
-13: vBhP&
-13: utWh($
-13: uN9}
-13: uJhD#
-13: uI;u
-13: uB9=
-13: u<9~
-13: u49u
-13: u0SP
-13: u-9u
-13: u$h($
-13: u"f9
-13: tySj
-13: tpHtMHt#Hun
-13: tYhH(
-13: tOf=
-13: tHVS
-13: tB9\$(u<hD#
-13: t>f90t9
-13: t>f9
-13: t;f98t6
-13: t*v%
-13: t&f=/
-13: t$(jS
-13: t$(jR
-13: t$(jQ
-13: t#Wh
-13: t!hP"
-13: t ;t$$t
-13: t	WV
-13: mVVj
-13: j`^V
-13: j\Yf;
-13: jW^[
-13: j<hH$
-13: j,Yt
-13: j(hx$
-13: j	YVV
-13: j	VPh<"
-13: isdigit
-13: gt}Ht!Htw
-13: f;Wbs
-13: f;Kbw
-13: f;Gbv
-13: f;0u
-13: f9>t7V
-13: f98t33
-13: f)3f
-13: `vof
-13: `Puh
-13: _wcsrev
-13: _strnicmp
-13: _ftol
-13: ],VS
-13: ]$;]
-13: ] Wf
-13: ] V3
-13: YwQf
-13: Yr\V
-13: YYuI
-13: YYu"f
-13: YYt h|#
-13: YYh$$
-13: Y@_^]
-13: VW|o
-13: SetSystemTime
-13: SamSetInformationAlias
-13: SamRemoveMemberFromAlias
-13: SamQueryInformationAlias
-13: SamOpenDomain
-13: SamOpenAlias
-13: SamLookupNamesInDomain
-13: SamLookupIdsInDomain
-13: SamGetMembersInAlias
-13: SamGetAliasMembership
-13: SamFreeMemory
-13: SamEnumerateAliasesInDomain
-13: SamDeleteAlias
-13: SamCreateAliasInDomain
-13: SamConnect
-13: SamCloseHandle
-13: SamAddMemberToAlias
-13: SWjIY
-13: SWWV
-13: SVWhD#
-13: SVWUj
-13: SUVWhD#
-13: RtlxUnicodeStringToOemSize
-13: RtlxOemStringToUnicodeSize
-13: RtlUnicodeToOemN
-13: RtlTimeFieldsToTime
-13: RtlSubAuthoritySid
-13: RtlSubAuthorityCountSid
-13: RtlQueryTimeZoneInformation
-13: RtlNtStatusToDosError
-13: RtlLengthSid
-13: RtlLengthRequiredSid
-13: RtlInitializeSid
-13: RtlInitString
-13: RtlGetNtProductType
-13: RtlCopySid
-13: RtlCompareMemory
-13: RapTotalSize
-13: RapStructureSize
-13: RapStructureAlignment
-13: RapParmNumDescriptor
-13: RapGetFieldSize
-13: RapConvertSingleEntryEx
-13: RapConvertSingleEntry
-13: RapAuxDataCountOffset
-13: RapAuxDataCount
-13: RapAsciiToDecimal
-13: RapArrayLength
-13: Qj	h
-13: QVVj
-13: QVPj
-13: PWWj
-13: PWWWWWWj
-13: PWWS
-13: PSSj
-13: PSSWj
-13: PQPh
-13: NtSetInformationThread
-13: NtOpenThreadToken
-13: NtOpenProcessToken
-13: NtImpersonateAnonymousToken
-13: NtFsControlFile
-13: NtDuplicateToken
-13: NtCreateFile
-13: NtClose
-13: NtAdjustPrivilegesToken
-13: NlsMbOemCodePageTag
-13: NetWkstaTransportEnum
-13: NetUserSetInfo
-13: NetUserModalsSet
-13: NetUserModalsGet
-13: NetUserGetGroups
-13: NetUserEnum
-13: NetUserDel
-13: NetUserAdd
-13: NetUseDel
-13: NetStatisticsGet
-13: NetShareSetInfo
-13: NetShareGetInfo
-13: NetShareDelSticky
-13: NetShareDel
-13: NetShareCheck
-13: NetShareAdd
-13: NetSessionGetInfo
-13: NetSessionEnum
-13: NetSessionDel
-13: NetServiceInstall
-13: NetServiceEnum
-13: NetServiceControl
-13: NetServerTransportEnum
-13: NetServerSetInfo
-13: NetRemoteTOD
-13: NetMessageNameEnum
-13: NetMessageNameDel
-13: NetMessageNameAdd
-13: NetMessageBufferSend
-13: NetGroupSetInfo
-13: NetGroupGetUsers
-13: NetGroupGetInfo
-13: NetGroupEnum
-13: NetGroupDelUser
-13: NetGroupDel
-13: NetGroupAddUser
-13: NetGroupAdd
-13: NetFileGetInfo
-13: NetFileEnum
-13: NetFileClose
-13: NetConnectionEnum
-13: MtQ+
-13: M8;M(v
-13: M$S3
-13: LsaQueryInformationPolicy
-13: LsaOpenPolicy
-13: LsaLookupSids
-13: LsaLookupNames2
-13: LsaLookupNames
-13: LsaFreeMemory
-13: LsaClose
-13: ItXIt(I
-13: I_NetNameCompare
-13: I_NetNameCanonicalize
-13: I_NetListTraverse
-13: I_NetListCanonicalize
-13: HYYt(HuA
-13: GlobalFree
-13: GetTimeZoneInformation
-13: GetTickCount
-13: GetSidLengthRequired
-13: GetLengthSid
-13: GetComputerNameExW
-13: GetComputerNameA
-13: FFh($
-13: EtPj
-13: EqualSid
-13: EDS3
-13: E:Phh
-13: E(tSj
-13: DtsHHt
-13: DsUnBindW
-13: DsRoleGetPrimaryDomainInformation
-13: DsRoleFreeMemory
-13: DsGetDcNameW
-13: DsFreeNameResultW
-13: DsCrackNamesW
-13: DsBindW
-13: D$@h
-13: CopySid
-13: CompareStringW
-13: CbPh
-13: CBPh
-13: C<Nu
-13: C Ph
-13: @Pj@
-13: <ct <lt
-13: ;U w_
-13: ;5$#
-13: 9hto
-13: 8Ktw
-13: 6<Z~
-13: $Vj:
-13: $E@D
-13: !This program cannot be run in DOS mode.
-12: and %s.
-12: _fopen64
-12: ,0<	w
-12: %s, and %s.
-11: .rdata
-11: .idata
-10: write error
-10: _^[Y]
-10: Z]_^[
-10: RtlFreeHeap
-10: E|PS
-10: ?Strcat@WSTRING@@QAEEPBV1@@Z
-10: ?Initialize@WSTRING@@QAEEPBV1@KK@Z
-10: ?Initialize@WSTRING@@QAEEPBGK@Z
-10: ?Initialize@ARRAY@@QAEEKK@Z
-10: ?Compare@OBJECT@@UBEJPBV1@@Z
-10: ??1OBJECT@@UAE@XZ
-10: ??1DSTRING@@UAE@XZ
-10: ??0DSTRING@@QAE@XZ
-10: ??0ARRAY@@QAE@XZ
-10: 9G,t
-10: $p]A
-9: strlen
-9: strcmp
-9: fclose
-9: dll_crt0__FP11per_process
-9: cygwin_internal
-9: cygwin1.dll
-9: _impure_ptr
-9: __main
-9: __getreent
-9: SVWUQ
-9: L[^_]
-9: I{GDD"
-9: @.bss
-8: vfprintf
-8: u&j?
-8: tFj*
-8: t'Hu
-8: strncmp
-8: memcpy
-8: j(hh
-8: iswprint
-8: fputs
-8: attrib.pdb
-8: Shit,IsOver!!
-8: Kl+K\
-8: E@Ph
-8: E<SP
-8: ?ValidateVersion@PROGRAM@@UBEXKK@Z
-8: ?Usage@PROGRAM@@UBEXXZ
-8: ?SetFileName@FSN_FILTER@@QAEEPBVWSTRING@@@Z
-8: ?SetFileName@FSN_FILTER@@QAEEPBD@Z
-8: ?SetCaseSensitive@ARGUMENT_LEXEMIZER@@QAEXE@Z
-8: ?SetAttributes@FSN_FILTER@@QAEEKKK@Z
-8: ?QueryString@WSTRING@@QBEPAV1@KK@Z
-8: ?QueryFsnodeArray@FSN_DIRECTORY@@QBEPAVARRAY@@PAVFSN_FILTER@@@Z
-8: ?QueryDirectory@SYSTEM@@SGPAVFSN_DIRECTORY@@PBVPATH@@E@Z
-8: ?PutSwitches@ARGUMENT_LEXEMIZER@@QAEXPBD@Z
-8: ?PutSeparators@ARGUMENT_LEXEMIZER@@QAEXPBD@Z
-8: ?Put@ARRAY@@UAEEPAVOBJECT@@@Z
-8: ?PrepareToParse@ARGUMENT_LEXEMIZER@@QAEEPAVWSTRING@@@Z
-8: ?IsValueSet@ARGUMENT@@QAEEXZ
-8: ?IsDrive@PATH@@QBEEXZ
-8: ?Initialize@WSTRING@@QAEEPBDK@Z
-8: ?Initialize@STRING_ARGUMENT@@QAEEPAD@Z
-8: ?Initialize@STREAM_MESSAGE@@QAEEPAVSTREAM@@00@Z
-8: ?Initialize@PATH_ARGUMENT@@QAEEPADE@Z
-8: ?Initialize@PATH@@QAEEPBVWSTRING@@E@Z
-8: ?Initialize@PATH@@QAEEPBV1@E@Z
-8: ?Initialize@PATH@@QAEEPBGE@Z
-8: ?Initialize@FSN_FILTER@@QAEEXZ
-8: ?Initialize@FLAG_ARGUMENT@@QAEEPAD@Z
-8: ?Initialize@CLASS_DESCRIPTOR@@QAEEXZ
-8: ?Initialize@ARGUMENT_LEXEMIZER@@QAEEPAVARRAY@@@Z
-8: ?Get_Standard_Output_Stream@@YGPAVSTREAM@@XZ
-8: ?Get_Standard_Input_Stream@@YGPAVSTREAM@@XZ
-8: ?GetStandardOutput@PROGRAM@@UAEPAVSTREAM@@XZ
-8: ?GetStandardInput@PROGRAM@@UAEPAVSTREAM@@XZ
-8: ?GetStandardError@PROGRAM@@UAEPAVSTREAM@@XZ
-8: ?Fatal@PROGRAM@@UBEXXZ
-8: ?Fatal@PROGRAM@@UBAXKKPADZZ
-8: ?DoParsing@ARGUMENT_LEXEMIZER@@QAEEPAVARRAY@@@Z
-8: ?DisplayMessage@PROGRAM@@UBEEKW4MESSAGE_TYPE@@@Z
-8: ?DisplayMessage@PROGRAM@@UBAEKW4MESSAGE_TYPE@@PADZZ
-8: ?Display@MESSAGE@@QAAEPBDZZ
-8: ?DeleteAllMembers@ARRAY@@UAEEXZ
-8: ??1STRING_ARGUMENT@@UAE@XZ
-8: ??1STREAM_MESSAGE@@UAE@XZ
-8: ??1PROGRAM@@UAE@XZ
-8: ??1PATH_ARGUMENT@@UAE@XZ
-8: ??1PATH@@UAE@XZ
-8: ??1FSN_FILTER@@UAE@XZ
-8: ??1ARRAY@@UAE@XZ
-8: ??1ARGUMENT_LEXEMIZER@@UAE@XZ
-8: ??0STRING_ARGUMENT@@QAE@XZ
-8: ??0STREAM_MESSAGE@@QAE@XZ
-8: ??0PROGRAM@@IAE@XZ
-8: ??0PATH_ARGUMENT@@QAE@XZ
-8: ??0PATH@@QAE@XZ
-8: ??0FSN_FILTER@@QAE@XZ
-8: ??0FLAG_ARGUMENT@@QAE@XZ
-8: ??0CLASS_DESCRIPTOR@@QAE@XZ
-8: ??0ARGUMENT_LEXEMIZER@@QAE@XZ
-7: kernel32.dll
-7: getenv
+17: SetSystemTime
+17: SetLocalTime
+17: SetJobA
+17: SamSetInformationAlias
+17: SamRemoveMemberFromAlias
+17: SamQueryInformationAlias
+17: SamOpenDomain
+17: SamOpenAlias
+17: SamLookupNamesInDomain
+17: SamLookupIdsInDomain
+17: SamGetMembersInAlias
+17: SamGetAliasMembership
+17: SamFreeMemory
+17: SamEnumerateAliasesInDomain
+17: SamDeleteAlias
+17: SamCreateAliasInDomain
+17: SamConnect
+17: SamCloseHandle
+17: SamAddMemberToAlias
+17: SWjIY
+17: SVWUj
+17: RtlxUnicodeStringToOemSize
+17: RtlxOemStringToUnicodeSize
+17: RtlUnwind
+17: RtlUnicodeToOemN
+17: RtlTimeFieldsToTime
+17: RtlSubAuthoritySid
+17: RtlSubAuthorityCountSid
+17: RtlQueryTimeZoneInformation
+17: RtlNtStatusToDosError
+17: RtlLengthSid
+17: RtlLengthRequiredSid
+17: RtlInitializeSid
+17: RtlInitString
+17: RtlGetNtProductType
+17: RtlCopySid
+17: RtlCompareMemory
+17: ReturnNetwareForm
+17: RapTotalSize
+17: RapStructureSize
+17: RapStructureAlignment
+17: RapParmNumDescriptor
+17: RapGetFieldSize
+17: RapConvertSingleEntryEx
+17: RapConvertSingleEntry
+17: RapAuxDataCountOffset
+17: RapAuxDataCount
+17: RapAsciiToDecimal
+17: RapArrayLength
+17: RQPQV
+17: PWWWWWWj
+17: PWWSW
+17: PVVVV
+17: PSVWht
+17: PSSWj
+17: OpenPrinterW
+17: OpenPrinterA
+17: NtSetInformationThread
+17: NtOpenThreadToken
+17: NtOpenProcessToken
+17: NtImpersonateAnonymousToken
+17: NtFsControlFile
+17: NtDuplicateToken
+17: NtCreateFile
+17: NtClose
+17: NtAdjustPrivilegesToken
+17: NlsMbOemCodePageTag
+17: NetWkstaTransportEnum
+17: NetUserSetInfo
+17: NetUserModalsSet
+17: NetUserModalsGet
+17: NetUserGetGroups
+17: NetUserEnum
+17: NetUserDel
+17: NetUserAdd
+17: NetUseDel
+17: NetStatisticsGet
+17: NetShareSetInfo
+17: NetShareGetInfo
+17: NetShareDelSticky
+17: NetShareDel
+17: NetShareCheck
+17: NetShareAdd
+17: NetSessionGetInfo
+17: NetSessionEnum
+17: NetSessionDel
+17: NetServiceInstall
+17: NetServiceEnum
+17: NetServiceControl
+17: NetServerTransportEnum
+17: NetServerSetInfo
+17: NetRemoteTOD
+17: NetMessageNameEnum
+17: NetMessageNameDel
+17: NetMessageNameAdd
+17: NetMessageBufferSend
+17: NetGroupSetInfo
+17: NetGroupGetUsers
+17: NetGroupGetInfo
+17: NetGroupEnum
+17: NetGroupDelUser
+17: NetGroupDel
+17: NetGroupAddUser
+17: NetGroupAdd
+17: NetFileGetInfo
+17: NetFileEnum
+17: NetFileClose
+17: NetConnectionEnum
+17: NWGetFileServerDateAndTime
+17: NWDetachFromFileServer
+17: NWAttachToFileServerW
+17: LsaQueryInformationPolicy
+17: LsaOpenPolicy
+17: LsaLookupSids
+17: LsaLookupNames2
+17: LsaLookupNames
+17: LsaFreeMemory
+17: LsaClose
+17: I_NetNameCompare
+17: I_NetNameCanonicalize
+17: I_NetListTraverse
+17: I_NetListCanonicalize
+17: HtlHtRHt7Ht
+17: HHuK3
+17: GlobalFree
+17: GetUserDefaultLCID
+17: GetTimeZoneInformation
+17: GetSidLengthRequired
+17: GetPrinterDriverA
+17: GetPrinterA
+17: GetNcpSecretKey
+17: GetLengthSid
+17: GetJobA
+17: GetComputerNameExW
+17: GetComputerNameA
+17: FVSSS
+17: EqualSid
+17: EnumJobsA
+17: ElPhH
+17: E4VPj
+17: DtsHHt
+17: DsUnBindW
+17: DsRoleGetPrimaryDomainInformation
+17: DsRoleFreeMemory
+17: DsGetDcNameW
+17: DsFreeNameResultW
+17: DsCrackNamesW
+17: DsBindW
+17: CopySid
+17: CompareStringW
+17: ClosePrinter
+17: B26WWWWzzzzzWW
+17: B26WWWWzzzzzWN
+17: B13BWWWzzzzzWW
+17: B13BWWWzzzzzWN
+17: 8SVW3
+17: 0123456789abcdef
+15: strspn
+15: iHG_o
+15: DcDPD
+15: 3DDDD
+14: u6f9_
+14: tnHtdHtZHHt5Ht
+14: tEBBf
+14: strpbrk
+14: sscanf
+14: sTime
+14: sShortDate
+14: sDate
+14: s2359
+14: s1159
+14: iTimePrefix
+14: iTime
+14: iTLZero
+14: fgets
+14: _open64
+14: _itoa
+14: WjdY3
+14: WRVPQ
+14: TSUVW
+14: QQSVWj
+14: PVVVVVV
+14: PPPPj
+14: NetScheduleJobGetInfo
+14: NetScheduleJobEnum
+14: NetScheduleJobDel
+14: NetScheduleJobAdd
+14: LoadLibraryExW
+14: GetProfileStringA
+14: GetProfileIntA
+14: CommandLineToArgvW
+14: 0123456789
+12: _fstat64
+12: RtlFreeHeap
+11: wwwwwx
+11: wwwwwwwwwwp
+11: wwwwwp
+11: ugSSSSSS
+11: u7SSSSh
+11: twJtDJuw
+11: tp954d
+11: tjVWh8
+11: tdHt3H
+11: tQSVh
+11: tP95xd
+11: tGSWP
+11: tBHHt
+11: tAHuS
+11: t8HHt4
+11: t8950d
+11: t095td
+11: ppppp
+11: lstrcpynW
+11: lstrcmpiW
+11: lstrcatW
+11: jpjvU
+11: j4j6j5
+11: j4j1j0
+11: fprintf
+11: f93uVj4
+11: dll_crt0__FP11per_process
+11: cygwin_internal
+11: abort
+11: _purecall
+11: __main
+11: __getreent
+11: YYttS
+11: YYtaS
+11: WinHelpW
+11: WWWPW
+11: WWPPPPh
+11: WSSSShA
+11: WSSSSh
+11: VVVVVVVVV
+11: VVVVVVVV
+11: UpdateWindow
+11: TranslateMessage
+11: TranslateAcceleratorW
+11: TrackPopupMenuEx
+11: StartPage
+11: StartDocW
+11: ShowWindow
+11: ShowCursor
+11: ShowCaret
+11: ShellAboutW
+11: SetWindowTextW
+11: SetWindowPos
+11: SetWindowPlacement
+11: SetWindowLongW
+11: SetViewportOrgEx
+11: SetTimer
+11: SetTextColor
+11: SetSecurityInfo
+11: SetSecurityDescriptorSacl
+11: SetSecurityDescriptorOwner
+11: SetSecurityDescriptorGroup
+11: SetSecurityDescriptorDacl
+11: SetScrollInfo
+11: SetNamedSecurityInfoW
+11: SetMenuItemInfoW
+11: SetMenuDefaultItem
+11: SetForegroundWindow
+11: SetFocus
+11: SetDlgItemTextW
+11: SetCursorPos
+11: SetCursor
+11: SetClipboardData
+11: SetCaretPos
+11: SetCapture
+11: SetBkColor
+11: SetAbortProc
+11: SendMessageW
+11: SendDlgItemMessageW
+11: SelectObject
+11: SelectClipRgn
+11: ScrollWindowEx
+11: ScreenToClient
+11: SVWjf
+11: SVWh8
+11: SUVWj
+11: SSSSjdjdSSj
+11: ReleaseStgMedium
+11: ReleaseDC
+11: ReleaseCapture
+11: RegisterClipboardFormatW
+11: RegisterClassW
+11: RegisterClassExW
+11: RegQueryValueExA
+11: RegOpenKeyW
+11: RegOpenKeyExA
+11: QWQQj
+11: QSUV3
+11: QQSVh
+11: QQSVW3
+11: PrintDlgExW
+11: PostQuitMessage
+11: PostMessageW
+11: PeekMessageW
+11: PatBlt
+11: PPPQPS
+11: OpenClipboard
+11: MulDiv
+11: MoveWindow
+11: ModifyMenuW
+11: MessageBeep
+11: MapWindowPoints
+11: MapGenericMask
+11: LookupAccountSidW
+11: LoadMenuW
+11: LoadImageW
+11: LoadIconW
+11: LoadCursorW
+11: LoadAcceleratorsW
+11: KillTimer
+11: IuOVP
+11: IsIconic
+11: IsDlgButtonChecked
+11: IsDialogMessageW
+11: IsClipboardFormatAvailable
+11: InvalidateRect
+11: IntersectRect
+11: InsertMenuW
+11: InsertMenuItemW
+11: InitializeSecurityDescriptor
+11: InitializeAcl
+11: InitCommonControlsEx
+11: ImageList_SetBkColor
+11: ImageList_ReplaceIcon
+11: ImageList_Destroy
+11: ImageList_Create
+11: I9udu
+11: HideCaret
+11: GlobalUnlock
+11: GlobalLock
+11: GetWindowTextW
+11: GetWindowTextLengthW
+11: GetWindowRect
+11: GetWindowPlacement
+11: GetWindowLongW
+11: GetWindow
+11: GetTextMetricsW
+11: GetSystemMetrics
+11: GetSystemDefaultLCID
+11: GetSysColor
+11: GetSubMenu
+11: GetStockObject
+11: GetSecurityDescriptorSacl
+11: GetSecurityDescriptorOwner
+11: GetSecurityDescriptorGroup
+11: GetSecurityDescriptorDacl
+11: GetSecurityDescriptorControl
+11: GetSaveFileNameW
+11: GetProcessHeap
+11: GetProcessDefaultLayout
+11: GetParent
+11: GetOpenFileNameW
+11: GetNamedSecurityInfoW
+11: GetModuleHandleW
+11: GetMessageW
+11: GetMessagePos
+11: GetMenuItemInfoW
+11: GetMenuItemID
+11: GetMenu
+11: GetLastActivePopup
+11: GetKeyState
+11: GetInheritanceSourceW
+11: GetDlgItemTextW
+11: GetDlgItemInt
+11: GetDlgItem
+11: GetDlgCtrlID
+11: GetDeviceCaps
+11: GetDesktopWindow
+11: GetDC
+11: GetClipboardData
+11: GetClientRect
+11: FindWindowW
+11: FileTimeToSystemTime
+11: FileTimeToLocalFileTime
+11: ExtTextOutW
+11: ExcludeClipRect
+11: EndPaint
+11: EndPage
+11: EndDoc
+11: EndDialog
+11: EndDeferWindowPos
+11: EnableWindow
+11: EnableMenuItem
+11: EmptyClipboard
+11: ElPWWWWWWWWWW
+11: DrawMenuBar
+11: DrawAnimatedRects
+11: DragQueryFileW
+11: DragFinish
+11: DispatchMessageW
+11: DialogBoxParamW
+11: DestroyWindow
+11: DestroyMenu
+11: DestroyIcon
+11: DestroyCaret
+11: DeleteObject
+11: DeleteMenu
+11: DeleteFileW
+11: DeleteDC
+11: DeferWindowPos
+11: DefWindowProcW
+11: DDDDDDDDDDDDDDDDDDDDDDDDDj
+11: CreateWindowExW
+11: CreateStatusWindowW
+11: CreatePatternBrush
+11: CreateFontIndirectW
+11: CreateDialogParamW
+11: CreateCaret
+11: CreateBitmap
+11: CoUninitialize
+11: CoInitializeEx
+11: CoCreateInstance
+11: CloseClipboard
+11: ClientToScreen
+11: ClbSetColumnWidths
+11: ClbAddData
+11: CheckRadioButton
+11: CheckMenuItem
+11: CheckDlgButton
+11: CharUpperBuffW
+11: CharLowerW
+11: CallWindowProcW
+11: BringWindowToTop
+11: BeginPaint
+11: BeginDeferWindowPos
+11: AuthzInitializeResourceManager
+11: AuthzInitializeContextFromSid
+11: AuthzFreeResourceManager
+11: AuthzFreeContext
+11: AuthzAccessCheck
+11: AbortDoc
+11: 5DDDD
+10: wwwwwwwwwwwwwwww
+10: vfprintf
+10: version
+10: strncmp
+10: strlen
+10: strerror_r
+10: strcmp
+10: shell
+10: putc_unlocked
+10: memset
+10: memcpy
+10: mbsinit
+10: mbrtowc
+10: locale
+10: literal
+10: libintl_textdomain
+10: libintl_gettext
+10: libintl_bindtextdomain
+10: getenv
+10: fputs
+10: fflush
+10: fclose
+10: escape
+10: coreutils
+10: clocale
+10: atexit
+10: _impure_ptr
+10: _freopen64
+10: _ctype_
+10: __mb_cur_max
+10: __errno
+10: POSIXLY_CORRECT
+7: wcstoul
+7: wcstol
+7: fgetwc
 7: close
-7: _ctype_
-7: __errno
-7: %s:
-6: {{{{{x
-6: w ;u
-6: version
-6: uQ9E
-6: tw9]
-6: the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
-6: t	<-u
-6: strerror_r
-6: shell-always
-6: shell
-6: return
-6: putc_unlocked
-6: memset
-6: memory exhausted
-6: mbsinit
-6: mbrtowc
-6: locale
-6: literal
-6: libintl_textdomain
-6: libintl_gettext
-6: libintl_bindtextdomain
-6: j	WS
-6: help
-6: fwrite
-6: f90u
-6: escape
-6: cygintl-8.dll
-6: coreutils
-6: clocale
-6: bug-coreutils@gnu.org
-6: atexit
-6: abort
-6: _open64
-6: __mb_cur_max
-6: _[^3
-6: ^[YY]
-6: Written by %s.
-6: Written by %s, %s, and %s.
-6: Written by %s and %s.
-6: Unknown system error
-6: U$;E
-6: Try `%s --help' for more information.
-6: This is free software.  You may redistribute copies of it under the terms of
-6: There is NO WARRANTY, to the extent permitted by law.
-6: SVWQ
-6: Report bugs to <%s>.
-6: QPSS
-6: POSIXLY_CORRECT
-6: GNU coreutils
-6: EpPV
-6: E`PS
-6: Copyright %s %d Free Software Foundation, Inc.
-6: C0hL@
-6: C,`L@
-6: A ;E
-6: =0YA
-6: 9Wt_
-6: 333*333
-6: 0[_]
-6: 0A
-6: /usr/share/locale
-6: %s:%d:
-6: %s: unrecognized option `--%s'
-6: %s: unrecognized option `%c%s'
-6: %s: option requires an argument -- %c
-6: %s: option `-W %s' is ambiguous
-6: %s: option `-W %s' doesn't allow an argument
-6: %s: option `--%s' doesn't allow an argument
-6: %s: option `%s' requires an argument
-6: %s: option `%s' is ambiguous
-6: %s: option `%c%s' doesn't allow an argument
-6: %s: invalid option -- %c
-6: %s: illegal option -- %c
-6: %s: %s
-6: %s, %s, and others.
-6: %s, %s, and %s.
-6: %s, %s, %s, and %s.
-6: %s (%s) %s
-6: %s %s
-6: $[^_]
-6: $Xe@
-6: $Wd@
-5: ole32.dll
-5: _^[YY]
-5: ^[Y]
-5: @.reloc
-5: =E0C
-5: 5D#C
-5: ,[^_]
-4: wwwww
-4: while (
-4: w8hX
-4: u	f9
-4: t-Rf;
-4: t$ j
-4: t f;J
-4: t Ht
-4: strcpy
-4: processorArchitecture="x86"
-4: print
-4: next
-4: last
-4: jpjv
-4: j`ja
-4: extra operand %s
-4: else
-4: comdlg32.dll
-4: closing standard input
-4: clb.dll
+7: _flushall
+7: VVVVVV
+7: SetThreadUILanguage
+7: RegEnumKeyExW
+7: RegCreateKeyExW
+7: PWWWWWW
+7: PWWWW
+7: PRVRh
+6: uLSSh
+6: f93uHj4
+6: _fopen64
+6: YYuF9F4
+6: YYuB9F4
+6: YYtHhp
+6: YYt5j
+6: Rich3P
+6: DDDDDDDDDDDDDDDDDDDDDDDDDo
+6: 9F4uU9F
+5: write
+5: number
+5: isatty
+5: getpagesize
+5: benstuvAET
 4: _stat64
-4: _lstat64
-4: _fstat64
-4: _fchown32
-4: __assert
-4: Z_^[
-4: YZ_^[
-4: YZ]_^[
-4: YYt$V
-4: Wj	h
-4: With no FILE, or when FILE is -, read standard input.
-4: WinUpdate
-4: WVSP
-4: Vj	h
-4: UUVS
-4: SPRQ
-4: RegQueryValueExA
-4: RegOpenKeyExA
-4: Pj	SV
-4: PSh2
-4: L0	Q
-4: HtMH
-4: GGGGGGGGG
-4: GDI32.dll
-4: Form1
-4: EhPV
-4: Eh;E|r
-4: ETPj
-4: E<Pj
-4: D$ P
-4: COMCTL32.dll
-4: AUTHZ.dll
-4: ACLUI.dll
-4: @`$U
-4: @@@@@@@@@
-4: ?456789:;<=
-4: <assemblyIdentity
-4: ;_^[
-4: 888888888
-4: 111111111
-4: 0.0.0.0
-4: 0 <= strtol_base && strtol_base <= 36
-4: /home/eblake/coreutils-6.7-2/src/coreutils-6.7/lib/xstrtol.c
-4: *********
-4: $Fld%d,
-4: $FNRbase = $. if eof;
-4: $*e@
-4: $%s,
-4: #########
-4: !"#$%&'()*+,-./0123
-3: write
-3: wrap
-3: utime
-3: unlink
-3: the encoded stream.
-3: strtoumax
-3: shell32.dll
-3: read error
-3: puts
-3: lstrcatW
-3: invalid wrap size: %s
-3: invalid input
-3: ignore-garbage
-3: dqiw:
-3: decode
-3: chdir
-3: base64
-3: attempt to recover from non-alphabet characters (such as newlines) in
-3: advapi32.dll
-3: `.rsrc
-3: Z[^]
-3: VbExeFileBind.9
-3: Use 0 to disable line wrapping.
-3: Usage: %s [OPTION] [FILE]
-3: The data are encoded as described for the base64 alphabet in RFC 3548.
-3: Simon Josefsson
-3: QQQQSVW
-3: NNNNNNNNN
-3: GetWindow
-3: GetParent
-3: FindWindowW
-3: Examples:
-3: DestroyWindow
-3: Decoding require compliant input by default, use --ignore-garbage to
-3: CoUninitialize
-3: CoCreateInstance
-3: CharLowerW
-3: CL L@
-3: CH0L@
-3: C@0r@
-3: C80P@
-3: C  J@
-3: Base64 encode or decode FILE, or standard input, to standard output.
-3: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/: %s
-3: =xp@
-3: =@p@
-3: =8#C
-3: : %s
-3: 3338333
-3: -w, --wrap=COLS       Wrap encoded lines after COLS character (default 76).
-3: -i, --ignore-garbage  When decoding, ignore non-alphabet characters.
-3: -d, --decode          Decode data.
-3: --version  output version information and exit
-3: --version         Output version information and exit.
-3: --help     display this help and exit
-3: --help            Display this help and exit.
-3: $|f@
-3: $po@
-3: $hh@
-3: $Po@
-3: $Pg@
-3: $La@
-3: $Dh@
-3: $Db@
-3: $@l@
-3: $@d@
-3: $=e@
-3: $8f@
-3: $(d@
-2: ~wV3
-2: ~KW3
-2: }x@vlh
-2: ||
-2: |Gj\
-2: |&B3
-2: {{{{{
-2: {{{{p
-2: zzz888888888888888888888888888888888888
-2: yyyyyyyyy
-2: yacc stack overflow
-2: y<@;
-2: x5BH
-2: wwwx
-2: wwwwwx
-2: wwwwwwwwwwp
-2: wwwwwp
-2: wwww
-2: wt=0
-2: while (<>) { }		# (no line actions)
-2: while (<>) {
-2: while
-2: wgt]
-2: wait
-2: wYt"
-2: w)f%
-2: version="6.0.0.0"
-2: version="1.0.0.0"
-2: values
-2: u{PPj
-2: uxjj
-2: uxhX
-2: uxWV
-2: uuu111111111
-2: user32.dll
-2: until
-2: unshift
-2: unless
-2: umask
-2: ulVj
-2: ulPS
-2: uhsD
-2: ugSSSSSS
-2: udPj
-2: uZWW
-2: uSSj
-2: uBf=
-2: uAJt
-2: u<VWWh
-2: u<AF
-2: u7SSSSh
-2: u6Uj
-2: u4AF
-2: u,f9
-2: u,AF
-2: u*VVVVVVV
-2: u$AF
-2: u!Pj
-2: u Sh
-2: u	Vj
-2: u	Sh
-2: u	QP
-2: t|It-
-2: t|9=
-2: tz~Y
-2: type="win32"
-2: type > 255 (%d)
-2: tyWV
-2: tx95
-2: twJtDJuw
-2: tu:J
-2: ttIu
-2: tt9=
-2: tp954d
-2: toHtN-
-2: tnHt
-2: tl9=
-2: tjVWh8
-2: times
-2: th;u
-2: th:J
-2: th95`d
-2: tell
-2: teSV
-2: tdHt3H
-2: td9=
-2: taWj
-2: t`95
-2: t\9=
-2: tXjB^
-2: tX95@d
-2: tSSj
-2: tSPj
-2: tQSVh
-2: tP95xd
-2: tMHt
-2: tMHHt<
-2: tL9=
-2: tH:J
-2: tH95
-2: tGSWP
-2: tDHt
-2: tD=5
-2: tD9=
-2: tCWS
-2: tC:J
-2: tBHHt
-2: tAHuS
-2: tA:J
-2: t@9]X
-2: t@95(d
-2: t?It
-2: t>HHt0
-2: t=HtN
-2: t<9=
-2: t:SVW
-2: t9=Q
-2: t99{
-2: t8HHt4
-2: t8950d
-2: t7WS
-2: t7PP
-2: t7Ht
-2: t7HHt&Ht
-2: t49=
-2: t2=:
-2: t2;u
-2: t0Ht$Ht
-2: t0:J
-2: t095td
-2: t.Ht
-2: t,9=
-2: t+Vj	h
-2: t+Ht
-2: t(95\d
-2: t'Ht
-2: t&J|
-2: t%WS
-2: t%VS
-2: t%:J
-2: t$<;
-2: t$9=
-2: t$ W
-2: t!R:
-2: t hp
-2: t ==
-2: t 95Xd
-2: system, please try and read it before mailing me.  If you don't
-2: system(
-2: system
-2: syntax error
-2: symlink
-2: substr(
-2: substr
-2: sub Pick {
-2: sub Getline%d {
-2: sub
-2: study
-2: stat
-2: srand(
-2: sqrt(
-2: sqrt
-2: sprintf(
-2: split
-2: sort
-2: sleep
-2: sin(
-2: shift
-2: select
-2: seek
-2: scan
-2: s8j
-2: s	;E
-2: reset
-2: rename
-2: regedit.pdb
-2: redo
-2: rand(1)
-2: r<f=0
-2: r6t0
-2: r/f=
-2: qqqqqqqqq
-2: putc
-2: push
-2: publicKeyToken="6595b64144ccf1df"
-2: ppppp
-2: panic: unknown argument type %d, line %d
-2: panic: unknown argument type %d, arg %d, line %d
-2: panic: aryrefarg %d, line %d
-2: pFG;
-2: p<Wtz
-2: open($name,$mode.$name.$pipe) unless $opened{$name}++;
-2: open(
-2: open
-2: nnnf
-2: next line
-2: name="Microsoft.Windows.Regedit" type="win32" />
-2: name="Microsoft.Windows.Common-Controls"
-2: missing operand
-2: match
-2: mSSh
-2: lstrcpynW
-2: log(
-2: locatime
-2: local($mode,$name,$pipe) = @_;
-2: local($_);
-2: local(
-2: local
-2: link
-2: line:
-2: length(
-2: length
-2: last line
-2: kuB9
-2: kill
-2: keys
-2: jpjvU
-2: join(%s,@Fld)
-2: join(%s,
-2: join
-2: jnjw
-2: jjjjjjjjj
-2: jdXj
-2: jdXPj@
-2: jXjY
-2: jPjR
-2: j4j6j5
-2: j4j1j0
-2: j.XP
-2: j ^f90
-2: isatty
-2: int(
-2: index(
-2: index
-2: iii@@@@@@@@@@@@
-2: if ($getline_ok = (($_ = <>) ne ''))
-2: if ($getline_ok = (($_ = <$fh>) ne ''))
-2: if (
-2: if $running_under_some_shell;
-2: if
-2: hhctrl.ocx
-2: have the manual or can't be bothered to read it, mail me anyway.
-2: hX#A
-2: hDPB
-2: gsub
-2: gqGr.
-2: goto
-2: gmtime
-2: getline
-2: getc
-2: function
-2: format
-2: fork
-2: foreach %s (keys %%%s)
-2: foreach %s ($[ .. $#%s)
-2: foreach
-2: for (
-2: fff`
-2: f9Tx
-2: f93uVj4
-2: f93t
-2: exp(
-2: exit $ExitValue;
-2: exec
-2: eval 'exec
-2: eval '$'.$1.'$2;' while $ARGV[0] =~ /^([A-Za-z_0-9]+=)(.*)/ && shift;
-2: eval $s_
-2: eval
-2: elsif
-2: each
-2: delete $opened{%s} && close(%s)
-2: delete $
-2: delete
-2: defined $
-2: data from undamaged sections of corrupted files.
-2: d_^}
-2: d$,1
-2: crypt
-2: cos(
-2: continue {
-2: continue
-2: close(
-2: chown
-2: chop
-2: chomp;	# strip record separator
-2: chmod
-2: ccccccccc
-2: bzip2, a block-sorting file compressor.  Version %s.
-2: bytes:
-2: bug report should have.  If the manual is available on your
-2: break
-2: atoi
-2: atof
-2: atan2(
-2: atan2
-2: `o``
-2: `VWj
-2: `VVh
-2: `Lk.
-2: `.itext
-2: _purecall
-2: _lchown32
-2: _getpwuid32
-2: _getgrnam32
-2: _getgrgid32
-2: _freopen64
-2: _fdopen64
-2: _fcntl64
-2: _chown32
-2: __vbaVarVargNofree
-2: __vbaVarTstNe
-2: __vbaVarTstGt
-2: __vbaVarTstEq
-2: __vbaVarSub
-2: __vbaVarOr
-2: __vbaVarMul
-2: __vbaVarMove
-2: __vbaVarMod
-2: __vbaVarIndexLoadRefLock
-2: __vbaVarIndexLoad
-2: __vbaVarForNext
-2: __vbaVarForInit
-2: __vbaVarDup
-2: __vbaVarCopy
-2: __vbaVarCmpNe
-2: __vbaVarCmpEq
-2: __vbaVarCat
-2: __vbaVarAnd
-2: __vbaVarAdd
-2: __vbaVar2Vec
-2: __vbaUbound
-2: __vbaUI1Var
-2: __vbaUI1Str
-2: __vbaStrVarVal
-2: __vbaStrVarMove
-2: __vbaStrVarCopy
-2: __vbaStrToUnicode
-2: __vbaStrToAnsi
-2: __vbaStrMove
-2: __vbaStrI2
-2: __vbaStrFixstr
-2: __vbaStrErrVarCopy
-2: __vbaStrCopy
-2: __vbaStrCmp
-2: __vbaStrCat
-2: __vbaSetSystemError
-2: __vbaRefVarAry
-2: __vbaRedimPreserve
-2: __vbaRedim
-2: __vbaRecUniToAnsi
-2: __vbaRecDestruct
-2: __vbaRecAnsiToUni
-2: __vbaR8IntI2
-2: __vbaPutOwner3
-2: __vbaPut3
-2: __vbaPrintFile
-2: __vbaOnError
-2: __vbaObjSetAddref
-2: __vbaObjSet
-2: __vbaNew2
-2: __vbaNameFile
-2: __vbaLsetFixstr
-2: __vbaLenVar
-2: __vbaLenBstr
-2: __vbaInputFile
-2: __vbaInStrVar
-2: __vbaInStr
-2: __vbaI4Var
-2: __vbaI2Var
-2: __vbaI2I4
-2: __vbaHresultCheckObj
-2: __vbaGetOwner4
-2: __vbaGetOwner3
-2: __vbaGet3
-2: __vbaGenerateBoundsError
-2: __vbaFreeVarList
-2: __vbaFreeVar
-2: __vbaFreeStrList
-2: __vbaFreeStr
-2: __vbaFreeObj
-2: __vbaFpR8
-2: __vbaFileSeek
-2: __vbaFileOpen
-2: __vbaFileClose
-2: __vbaExitProc
-2: __vbaErrorOverflow
-2: __vbaEnd
-2: __vbaBoolVarNull
-2: __vbaAryUnlock
-2: __vbaAryMove
-2: __vbaAryLock
-2: __vbaAryDestruct
-2: __vbaAryConstruct2
-2: _^[|
-2: _^[u
-2: _^[X
-2: _Sj	h
-2: _@^[
-2: ^^^111111111111111111111111111111
-2: ^[_3
-2: ^VWjD
-2: ^@[]
-2: ]d9]du
-2: ]Tu	f9
-2: ]@[Y
-2: \\\\\\\\\
-2: Z^[X
-2: YtoV
-2: Yt?W
-2: You can use the `bzip2recover' program to attempt to recover
-2: Yj03
-2: YZXtp
-2: YYttS
-2: YYtaS
-2: YY_^
-2: YYZX
-2: X_^][Y
-2: XSj	h
-2: WtDd
-2: Wow64DisableWow64FsRedirection
-2: WinHelpW
-2: Wh@f
-2: WWWPW
-2: WWPPPPh
-2: WSSSShA
-2: WSSSSh
-2: WHILE
-2: VhP$
-2: VWjf
-2: VWUd
-2: VWUUh
-2: VVh
-2: VVVVVVVVV
-2: VVVVVVVV
-2: VVVS
-2: VUUU
-2: VPh@f
-2: VGr.
-2: VFLD
-2: UpdateWindow
-2: Unrecognized switch: %s
-2: Unrecognized character %c in file %s line %d--ignoring.
-2: Unknown
-2: Unexpected Memory Leak
-2: UWu^
-2: UUUUUUUUU
-2: USERFUN
-2: USERDEF
-2: UPLUS
-2: UMINUS
-2: Translation aborted due to syntax errors.
-2: TranslateMessage
-2: TranslateAcceleratorW
-2: TrackPopupMenuEx
-2: The unexpected small block leaks are:
-2: The sizes of unexpected leaked medium and large blocks are:
-2: The operation I've selected may be wrong for the operand types.
-2: TObject
-2: T$(j
-2: String not terminated:
-2: String
-2: StartPage
-2: StartDocW
-2: Sl#S4f
-2: Sj.W
-2: Sj	W
-2: ShowWindow
-2: ShowCursor
-2: ShowCaret
-2: Shou
-2: Shit,IsOver!!Shit,IsOver!!VVbExeFileBind.9
-2: Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!VbExeFileBind.9
-2: ShellAboutW
-2: SetWindowTextW
-2: SetWindowPos
-2: SetWindowPlacement
-2: SetWindowLongW
-2: SetViewportOrgEx
-2: SetTimer
-2: SetTextColor
-2: SetSecurityInfo
-2: SetSecurityDescriptorSacl
-2: SetSecurityDescriptorOwner
-2: SetSecurityDescriptorGroup
-2: SetSecurityDescriptorDacl
-2: SetScrollInfo
-2: SetNamedSecurityInfoW
-2: SetMenuItemInfoW
-2: SetMenuDefaultItem
-2: SetForegroundWindow
-2: SetFocus
-2: SetDlgItemTextW
-2: SetCursorPos
-2: SetCursor
-2: SetClipboardData
-2: SetCaretPos
-2: SetCapture
-2: SetBkColor
-2: SetAbortProc
-2: SendMessageW
-2: SendDlgItemMessageW
-2: SelectObject
-2: SelectClipRgn
-2: Section 4.3 of the user's manual describes the info a useful
-2: Search pattern not terminated:
-2: Search pattern not found:
-2: ScrollWindowEx
-2: ScreenToClient
-2: SYSTEM
-2: SVtr
-2: SVWjf
-2: SVWh8
-2: SVRP
-2: SUVWj
-2: SUBTRACT
-2: SUBSTR
-2: SUBSEP
-2: STRING
-2: STATES
-2: STATE
-2: STAR
-2: SSh2
-2: SSSSjdjdSSj
-2: SSS########################################################################
-2: SRAND
-2: SQRT
-2: SPRINTF
-2: SPLIT
-2: SOFTWARE\Borland\Delphi\RTL
-2: SNEWLINE
-2: SEMICOLON
-2: SCOMMENT
-2: ReleaseStgMedium
-2: ReleaseDC
-2: ReleaseCapture
-2: RegisterClipboardFormatW
-2: RegisterClassW
-2: RegisterClassExW
-2: RegDisableReflectionKey
-2: Recompile a2p with larger OPSMAX
-2: RX0e
-2: RPAREN
-2: RETURN
-2: RELOP
-2: REGEX
-2: REDIR
-2: RANGE
-2: RAND
-2: QWQQj
-2: QUW3
-2: QSj	h
-2: QSVj\
-2: QSUV3
-2: QSUV
-2: QSPS
-2: QQh6
-2: QQVj
-2: QQSVh
-2: QQSVW3
-2: QQQQQQSVW
-2: QPj@
-2: QPhs
-2: QPh?
-2: Pu3h
-2: Process32NextW
-2: Process32FirstW
-2: PrintDlgExW
-2: PostQuitMessage
-2: PostMessageW
-2: Possible causes are (most likely first):
-2: Please check my work on the %d line%s I've marked with "#???".
-2: Pj0h
-2: Pj$j8j7
-2: Pj	h
-2: Pj	3
-2: PhP
-2: Ph@f
-2: PeekMessageW
-2: PatBlt
-2: PWht
-2: PWhs
-2: PWhM
-2: PWWW
-2: PVhM
-2: PVh+
-2: PShs
-2: PSha
-2: PShK
-2: PSh(
-2: PROG
-2: PRINTF
-2: PRINT
-2: PREINCR
-2: PREDECR
-2: PQh2
-2: PPRTj
-2: PPPQPS
-2: PPAREN
-2: POSTINCR
-2: POSTDECR
-2: POROR
-2: PNOT
-2: PAREN
-2: PANDAND
-2: Out of memory!
-2: OpenProcess
-2: OpenClipboard
-2: OFMT
-2: Nf9A
-2: NWN3
-2: NEXT
-2: NEWLINE
-2: MulDiv
-2: MoveWindow
-2: Module32NextW
-2: Module32FirstW
-2: ModifyMenuW
-2: MlPh
-2: MhQP
-2: MapWindowPoints
-2: MapGenericMask
-2: M\Qj
-2: MULT
-2: MPAREN
-2: MATCHOP
-2: MATCH
-2: LoadMenuW
-2: LoadImageW
-2: LoadIconW
-2: LoadCursorW
-2: LoadAcceleratorsW
-2: LENGTH
-2: L	 W
-2: Kl#K4
-2: KillTimer
-2: Jx f
-2: Jt)Ju
-2: JUNK
-2: Iuq3
-2: IuOVP
-2: Iu03
-2: It2S
-2: It&I
-2: It$Iu
-2: IsIconic
-2: IsDlgButtonChecked
-2: IsDialogMessageW
-2: IsClipboardFormatAvailable
-2: InvalidateRect
-2: IntersectRect
-2: Internal error: OPRINT
-2: Internal error: OGETLINE %s
-2: Internal error: OCLOSE %s
-2: InsertMenuW
-2: InsertMenuItemW
-2: InitializeSecurityDescriptor
-2: InitializeAcl
-2: InitCommonControlsEx
-2: ImageList_SetBkColor
-2: ImageList_ReplaceIcon
-2: ImageList_Destroy
-2: ImageList_Create
-2: Illegal for loop: %s
-2: Ignoring spurious backslash
-2: INDEX
-2: I9udu
-2: HtiH
-2: HtYH
-2: HtXH
-2: HtFHt\-
-2: Ht;Ht+
-2: HideCaret
-2: HUNKS
-2: HUNK
-2: HHVt
-2: HAF;u
-2: GlobalUnlock
-2: GlobalLock
-2: GetWindowTextW
-2: GetWindowTextLengthW
-2: GetWindowRect
-2: GetWindowPlacement
-2: GetWindowLongW
-2: GetTextMetricsW
-2: GetSystemMetrics
-2: GetSystemDefaultLCID
-2: GetSysColor
-2: GetSubMenu
-2: GetStockObject
-2: GetSecurityDescriptorSacl
-2: GetSecurityDescriptorGroup
-2: GetSecurityDescriptorDacl
-2: GetSecurityDescriptorControl
-2: GetSaveFileNameW
-2: GetProcessDefaultLayout
-2: GetOpenFileNameW
-2: GetNamedSecurityInfoW
-2: GetMessageW
-2: GetMessagePos
-2: GetMenuItemInfoW
-2: GetMenuItemID
-2: GetMenu
-2: GetLastActivePopup
-2: GetKeyState
-2: GetInheritanceSourceW
-2: GetDlgItemTextW
-2: GetDlgItemInt
-2: GetDlgItem
-2: GetDlgCtrlID
-2: GetDeviceCaps
-2: GetDesktopWindow
-2: GetDC
-2: GetClipboardData
-2: GetClientRect
-2: Garbage length in walk
-2: Garbage length in prewalk
-2: GSUB
-2: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-2: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-2: GETLINE
-2: G f90u
-2: FindWindowA
-2: Fhp
-2: FastMM Borland Edition
-2: FSVf
-2: FPUMaskValue
-2: FORIN
-2: FILENAME
-2: F@PWWWWW
-2: F89F,}D
-2: F09F8}
-2: F$PS
-2: ExtTextOutW
-2: ExcludeClipRect
-2: ExYt
-2: Ep_^[
-2: EndPaint
-2: EndPage
-2: EndDoc
-2: EndDialog
-2: EndDeferWindowPos
-2: EnableWindow
-2: EnableMenuItem
-2: EmptyClipboard
-2: El_^[
-2: ElPWWWWWWWWWW
-2: Ehs[
-2: EXIT
-2: EHPj
-2: E@SW
-2: E Pj
-2: DrawMenuBar
-2: DrawAnimatedRects
-2: DragQueryFileW
-2: DragFinish
-2: DispatchMessageW
-2: DialogBoxParamW
-2: DestroyMenu
-2: DestroyIcon
-2: DestroyCaret
-2: DeleteObject
-2: DeleteMenu
-2: DeleteDC
-2: DeferWindowPos
-2: DefWindowProcW
-2: DWj	Y3
-2: DELETE
-2: DEFINED
-2: DDDDDDDDDDDDDDDDDDDDDDDDDj
-2: D7	f
-2: D7	P
-2: D0	WP
-2: D$ PU
-2: Cw6@
-2: CreateWindowExW
-2: CreateToolhelp32Snapshot
-2: CreateStatusWindowW
-2: CreatePatternBrush
-2: CreateFontIndirectW
-2: CreateDialogParamW
-2: CreateCaret
-2: CreateBitmap
-2: CoInitializeEx
-2: CloseClipboard
-2: ClientToScreen
-2: ClbSetColumnWidths
-2: ClbAddData
-2: CheckRadioButton
-2: CheckMenuItem
-2: CheckDlgButton
-2: CharUpperBuffW
-2: Can't pass expression by reference as arg %d of %s
-2: CallWindowProcW
-2: CPAREN
-2: COROR
-2: CONTINUE
-2: COND
-2: CONCAT
-2: COMMENT
-2: COMMA
-2: CNOT
-2: CLSID\{ADB880A6-D8FF-11CF-9377-00AA003B7A11}\InprocServer32
-2: CLOSE
-2: CL9CP}
-2: CANDAND
-2: BringWindowToTop
-2: BeginPaint
-2: BeginDeferWindowPos
-2: BREAK
-2: BLOCK
-2: BEGIN
-2: B@;u
-2: B.rsrc
-2: Awk script "%s" doesn't seem to exist.
-2: AuthzInitializeResourceManager
-2: AuthzInitializeContextFromSid
-2: AuthzFreeResourceManager
-2: AuthzFreeContext
-2: AuthzAccessCheck
-2: An unexpected memory leak has occurred.
-2: Adding %s
-2: AbortDoc
-2: ATAN2
-2: ASSIGN
-2: ARGV
-2: ARGC
-2: A$W3
-2: @_^[]
-2: @^[_
-2: @[_^]Y
-2: @VhT
-2: @SWj
-2: @Fld
-2: @@Pj
-2: @@@ut
-2: @@@@@@TTT
-2: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2: @0VVVV
-2: ?Resize@DSTRING@@UAEEK@Z
-2: ?PVf
-2: ?NewBuf@DSTRING@@UAEEK@Z
-2: ??0OBJECT@@IAE@XZ
-2: =~ s
-2: =~
-2: =h#C
-2: =\#C
-2: =PYA
-2: =<#C
-2: =0#C
-2: = split(/[%c\n]/, $_, 9999);
-2: = split(' ', $_, 9999);
-2: = split($FS, $_, 9999);
-2: = split(
-2: = &Getline%d(%s)
-2: <description>Registry Editor</description>
-2: <dependentAssembly>
-2: <dependency>
-2: <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-2: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-2: <;tO<
-2: <;t <}t
-2: </dependentAssembly>
-2: </dependency>
-2: </assembly>
-2: <&t?<$tD
-2: <#uA
-2: ;=l`
-2: ;=`f
-2: 9~ t
-2: 9}$t
-2: 9y u=+
-2: 9u`t$
-2: 9u j
-2: 9]lt
-2: 9]dt%
-2: 9]XuX
-2: 9]Xu
-2: 9]Tt'Sj
-2: 9]P_^t
-2: 9]Lt
-2: 9]Dt
-2: 9]0to
-2: 9SVW
-2: 9F0}
-2: 9D$ u
-2: 9=x`
-2: 999999
-2: 95|d
-2: 95x`
-2: 95pd
-2: 95hd
-2: 95dd
-2: 95Td
-2: 95Pd
-2: 95Ld
-2: 95Hd
-2: 95Dd
-2: 95<d
-2: 958d
-2: 950f
-2: 95,d
-2: 95$d
-2: 95 d
-2: 888888888888zzz
-2: 8-uM
-2: 6jC^
-2: 6 0A
-2: 5Vj"^f;
-2: 5PYA
-2: 5LP@
-2: 5DDDD
-2: 4^)]x
-2: 4PBG;
-2: 4E@f
-2: 47VhT!
-2: 2t -
-2: 2004, 2005 Pierre le Riche / Professional Software Development
-2: 111111^^^
-2: 0f;\2
-2: 0@@P
-2: /usr/bin
-2: /tVf
-2: /perl -S $0 ${1+"$@"}'
-2: /\%c/
-2: /[%c\n]/
-2: />
-2: /%c/
-2: /$s/
-2: .bz2
-2: .bss
-2: ..
-2: -tP;
-2: ,t\=
-2: ,0<
-2: ,$getline_ok)
-2: , 9999)
-2: , '|'
-2: +-0123456789
-2: *+?.[]()|^$\
-2: ************************************************************************
-2: **
-2: ).'"') =~ s/&/\$&/g,
-2: ) || die 'Cannot pipe to "
-2: ) || die 'Cannot pipe from "
-2: ) || die 'Cannot open file "
-2: ) || die 'Cannot create file "
-2: ) = @_;
-2: ) - 1
-2: (unlikely, if you didn't compile bzip2 yourself.)
-2: (t[-
-2: (t:-
-2: (t9-
-2: (t7-
-2: (length(
-2: (a surprisingly common problem; try a different machine.)
-2: (]_^[
-2: (%-5d%s %d
-2: ($s_ = '"'.(
-2: ($fh) = @_;
-2: ($.-$FNRbase)
-2: ($#ARGV+1)
-2: 't}OtK
-2: ';		# field separator from -F switch
-2: &Pick('',@_);
-2: &Pick('%s', %s) &&
-2: &&&!!!
-2: && ($RLENGTH = length($&), $RSTART = length($`)+1)
-2: &&
-2: %s:%d
-2: %s in file %s at line %d
-2: %DqA
-2: %@qA
-2: %<qA
-2: %4qA
-2: %0qA
-2: %.20g
-2: %-5d"%s"
-2: %,qA
-2: $s =
-2: $fh = $name;
-2: $_;
-2: $]_^[
-2: $\ = "\n";		# set output record separator
-2: $[ = 1;			# set array base to 1
-2: $Z_^[
-2: $Xf@
-2: $Fld[
-2: $Fld%d)
-2: $Fld%d
-2: $Fld
-2: $FS = ' ';		# set field separator
-2: $FS = '
-2: $FNR
-2: $ExitValue =
-2: $ARGV[0
-2: $ARGV0 = $0;		# remember what we ran as
-2: $ARGV0
-2: $ARGC
-2: $;4$w	f
-2: $/ = ''
-2: $/ = "\n\n"
-2: $, = ' ';		# set output field separator
-2: $%s)
-2: $#Fld
-2: #??
-2: #!/usr/bin/perl
-2: #!/usr/bin/awk
-2: #!/bin/awk
-2: #! /usr/bin/awk
-2: #! /bin/awk
-2: # this emulates #! processing on NIH machines.
-2: # process any FOO=bar switches
-2: # (remove #! line above if indigestible)
-2: "~HS
-2: ".';
-2: !!!,,,
-1: ~}S7`
-1: ~V{eu
-1: ~KxI[)
-1: ~@tJ
-1: ~-M8
-1: ~,&[
-1: }}:(
-1: }paM
-1: }ebB
-1: }e14\
-1: }G#$
-1: }BI"
-1: }>kd!&
-1: }<H>
-1: }$gi
-1: }#jdh
-1: }#jPh
-1: } &}
-1: }	"o
-1: |v.^
-1: |nGY
-1: |hF3
-1: |dC3
-1: |_a6
-1: |SS6;
-1: |H3t
-1: |GF3
-1: |EC3
-1: |?G3
-1: |8q^
-1: |5v%S
-1: |4`N"
-1: |-/mQ
-1: |'@3
-1: |%C3
-1: |!Zp
-1: |!@3
-1: {w/Vj
-1: {i,dk
-1: {e=C
-1: {Q~,
-1: {DB'M
-1: {B;/
-1: {<+{t+{l
-1: {1V
-1: {0x%08x, 0x%08x}
-1: {!j|
-1: zx{m
-1: zlP>
-1: ziGLU
-1: zcat
-1: zaMShit,IsOver!!Shit,IsOver!!VbExeFileBind.9
-1: zUpz
-1: zH_Z
-1: z2cat
-1: z%dG
-1: z#3;^
-1: yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-1: yyyyyyyyyyyy
-1: yyyyyy
-1: yh@8A
-1: yP/QZg
-1: y@%g
-1: y=>,+ZZ
-1: y:}h
-1: y9'L]
-1: y4b:
-1: y3fU
-1: xZV\+
-1: xYcJ
-1: xU2xLP
-1: xNX4
-1: xJc<0
-1: xDU}
-1: xB0xz
-1: x<P/
-1: x)uD
-1: x#@$
-1: wsKEG
-1: when you were using some program which uses libbzip2 as a
-1: wd(q
-1: wO=zy
-1: wJ0sh7
-1: wIIRRRn
-1: wF<B
-1: wDr+V7
-1: w%9
-1: v{S'
-1: verbose
-1: vcJ{
-1: vUp4tT\
-1: v@"`
-1: v2JB
-1: v+/WdJ
-1: v*h
-1: v){4
-1: v)x
-1: v(pU
-1: v%W} I
-1: uy_8
-1: user32
-1: use --no-preserve-root to override this failsafe
-1: usage: %s [flags and input files in any order]
-1: urub
-1: urlmon
-1: unzip
-1: unl?*
-1: ungetc
-1: uncompress: bad modes
-1: unable to record current working directory
-1: umki_
-1: uENt
-1: uDJt
-1: uA4.~N
-1: u2ok
-1: u0Nt
-1: u/Jt
-1: u*PR
-1: u%{Q
-1: u%Nt
-1: u$Jt
-1: u#YET!|
-1: t~}y
-1: t~|EJ
-1: t|Iu
-1: trailing garbage after EOF ignored
-1: tq|?=
-1: too repetitive; using fallback sorting algorithm
-1: to a directory, traverse it
-1: tj|
-1: tj;u
-1: timely and accurate bug reports eventually lead to higher
-1: ti^i
-1: the default), rather than the symbolic link itself
-1: thV(
-1: text/plain
-1: text/html
-1: testf: bad srcMode
-1: testf: bad modes
-1: test:unexpected error
-1: test:bzReadGetUnused
-1: test of your memory system.
-1: t\6|
-1: tJ-V
-1: tDks
-1: tCh<\@
-1: t;93u7
-1: t293u.
-1: t-9E
-1: t%?P
-1: t$$C
-1: t#Pa
-1: t ;s
-1: strtoul
-1: strstr
-1: strndup
-1: string8
-1: strerror
-1: stream error
-1: stream end
-1: strcat
-1: state->magic == CC_MAGIC
-1: standard output
-1: squeeze-blank
-1: socks5
-1: slash - dir < PATH_MAX
-1: silent
-1: signal
-1: show-tabs
-1: show-nonprinting
-1: show-ends
-1: show-all
-1: short flags, so `-v -4' means the same as -v4 or -4v, &c.
-1: sfK
-1: setmode
-1: selectors %d,
-1: scm|
-1: sZmV
-1: sOKLC
-1: s>QW
-1: s6LL
-1: s(Fu
-1: run under Win32
-1: ru'h
-1: rt+rld
-1: rp>t
-1: rp7h
-1: rms;r
-1: rmdir
-1: rewind
-1: remove
-1: reference
-1: recursive
-1: reconstructing block ...
-1: readdir
-1: read
-1: rPyF
-1: rJ5.
-1: rH5B
-1: r:*81
-1: r'#1
-1: r&P?
-1: qz8O
-1: quiet
-1: quality software.  Thanks.  Julian Seward, 15 February 2005.
-1: qsort [0x%x, 0x%x]   done %d   this %d
-1: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-1: qqqqqqqqqqqq
-1: qp9\
-1: qk~QF
-1: q`qn
-1: qYK	6
-1: qV_3
-1: qLy}
-1: qBHw
-1: q<c42
-1: q:5<K
-1: q4x#8
-1: q3pe2
-1: q'|S
-1: q#8y
-1: pu4
-1: problem -- without which I will be unable to investigate it.
-1: preserve-root
-1: pqAZ?#UV:Z
-1: power-on test, and may find failures that the BIOS doesn't.
-1: possibly monitoring progress in detail with the -vv flag.
-1: points in compression, you may have a flaky memory system.
-1: po^d
-1: plP^/s
-1: plCm
-1: pi7O
-1: perror
-1: perhaps it is corrupted?  *Possible* reason follows.
-1: pass %d: size is %d, grp uses are
-1: p_*p!
-1: p[.~m`VI{O
-1: p#l
-1: p"e
-1: owwnRRR
-1: ownership of a symlink)
-1: ownership of %s retained as %s
-1: ownership of %s retained
-1: ovO<
-1: or:  %s [OPTION]... --reference=RFILE FILE...
-1: or:  %s OPTION
-1: or (3), feel free to report it to me at: jseward@bzip.org.
-1: or (2), feel free to report it to me at: jseward@bzip.org.
-1: option is also specified.  If more than one is specified, only the final
-1: opendir
-1: one takes effect.
-1: oleaut32.dll
-1: of that program.  Please make an effort to report this bug;
-1: of 4, 2 and 1 bytes to run properly, and they don't.
-1: oLr:
-1: oK4SlW,nGyX2
-1: oK$;
-1: o7hi_
-1: o3Jh^
-1: o1x
-1: o.E{
-1: o.	/
-1: o-1H
-1: o%VF>>K9
-1: o ;O
-1: n|%A
-1: number-nonblank
-1: number
-1: ntdll
-1: not a bzip2 file.
-1: no-preserve-root
-1: no-dereference
-1: no data compressed.
-1: no change to ownership of %s
-1: nn^^^^^]]]UUUUSSSSSm
-1: nmm]
-1: nkWxKj
-1: neither symbolic link %s nor referent has been changed
-1: need dictionary
-1: nc1j
-1: n^^^^]]]]]UUSSSSSSSUII
-1: n^SU
-1: nUz}3
-1: n6[X}
-1: n4`eh=
-1: n/_+
-1: mrheM=
-1: mnYK`2
-1: missing operand after %s
-1: memory reads/writes, and so acts (unintendedly) as a stress
-1: memchr
-1: mb;I<
-1: max bucket length: %lu
-1: main sort initialise ...
-1: m\]#
-1: mSz)
-1: mK3F8
-1: mCzFI>
-1: m1>&
-1: lstrcpyA
-1: lo<b
-1: lk?F
-1: let me know, and, ideally, save a copy of the file causing the
-1: lc^?%s
-1: lEez
-1: lB[MR
-1: l3k?8
-1: l(IM
-1: l ;F
-1: k~8k0
-1: kernel32
-1: keI0/
-1: kZ;&
-1: kPHH<4
-1: k,`x
-1: just happens to cross-check the results of huge numbers of
-1: jseward@bzip.org
-1: js)g
-1: jpeg
-1: jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-1: jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-1: jf/i
-1: j^n#
-1: j\DF9~W`zSY
-1: jZ3Q
-1: jYOEh
-1: jT.
-1: jLhd
-1: jK7e
-1: it under the terms set out in the LICENSE file, which is included
-1: it is dangerous to operate recursively on %s (same as %s)
-1: it is dangerous to operate recursively on %s
-1: is unreliable memory or other hardware.  The 1007 assertion
-1: is suspiciously (more than %d chars) long.
-1: invalid group %s
-1: invalid argument: %s
-1: insufficient memory
-1: initial group %d, [%d .. %d], has %d syms (%4.1f%%)
-1: incompatible version
-1: in the bzip2-1.0 source distribution.
-1: image/png
-1: image/jpeg
-1: image/gif
-1: ies#
-1: i;_T
-1: i1oS
-1: hx%A
-1: hv)A
-1: html
-1: he`m)~`g:;)hyye`jh}`fg
-1: hdLA
-1: hd'P-
-1: hbcYc_ccc
-1: h_"B
-1: h\]@
-1: hTQA
-1: hTCB
-1: hRdA
-1: hP	A
-1: hLQA
-1: hL8A
-1: hL1A
-1: hL#A
-1: hJjne
-1: h5#A
-1: h3}q
-1: h2QA
-1: h/c@
-1: h.,A
-1: h,\@
-1: h)=`
-1: h 	A
-1: g|\:
-1: gwB.n
-1: group of %s retained as %s
-1: gi,P
-1: ggbo$Y
-1: getpagesize
-1: getcwd
-1: gaW#
-1: g`33
-1: gV6,
-1: g>lx*
-1: g3BG
-1: g-4G
-1: g$Vja
-1: fts_read failed
-1: from standard input to standard output.  You can combine
-1: fputc
-1: flse
-1: final combined CRC = 0x%08x
-1: fileno
-1: filename
-1: file error
-1: file ends unexpectedly
-1: file (useful only on systems that can change the
-1: fh;W
-1: fgetc
-1: ff`R
-1: fchmod
-1: fchdir
-1: fcLL
-1: failed to return to initial working directory
-1: failed to get attributes of %s
-1: failed to detect this.  Try bzip2 -tvv my_file.bz2.
-1: failed to change ownership of %s to %s
-1: failed to change ownership of %s
-1: failed to change group of %s to %s
-1: fW%O
-1: f;|X
-1: f6BM
-1: f+Cp
-1: f+Cd
-1: e{23
-1: endgrent
-1: encountered
-1: el,~p
-1: e`;k
-1: eKFv
-1: eKBG\1
-1: e5Qn
-1: e0S-l
-1: dt1O
-1: done
-1: dnsapi
-1: dnjt
-1: dirfd
-1: dir <= dir_end
-1: dereference
-1: depth %6d has
-1: decompress:unexpected error
-1: decompress:bzReadGetUnused
-1: ddU"
-1: data integrity (CRC) error in data
-1: data error
-1: d=|Hc3
-1: d6W^$
-1: d+G,N
-1: d"}(
-1: copyme
-1: compress:unexpected error
-1: compress: bad srcMode
-1: compress: bad modes
-1: component, you should also report this bug to the author(s)
-1: combined CRCs: stored = 0x%08x, computed = 0x%08x
-1: codes %d
-1: code lengths %d,
-1: closedir
-1: chgrp
-1: changing ownership of %s
-1: changing group of %s
-1: changes
-1: changed ownership of %s to %s
-1: changed group of %s to %s
-1: cccccccccccccccccccccccccccccccccccc
-1: ccccccccccccccccccccccccccccccccc
-1: ccccccc#cyccccccccccccccccccccccccccccccccccbcc
-1: cc$.
-1: cannot read directory %s
-1: cannot dereference %s
-1: cannot access %s
-1: c:qP
-1: c7f}
-1: b|:j
-1: bzip2: file name
-1: bzip2: I'm not configured correctly for this platform!
-1: bzip2/libbzip2: internal error number %d.
-1: bzip2, and I would very much like to hear about it.  Please
-1: bytes: mapping %d,
-1: but WITHOUT ANY WARRANTY; without even the implied warranty of
-1: buffer error
-1: bucket sorting ...
-1: block %d: crc = 0x%08x, combined CRC = 0x%08x, size = %d
-1: bj{-x<
-1: bg4}
-1: benstuvAET
-1: basename
-1: bad magic number (file not created by bzip2)
-1: b/tp
-1: at#Z
-1: as `bzcat', default action is to decompress to stdout.
-1: as `bunzip2',  default action is to decompress.
-1: arvg
-1: application/zip
-1: application/octet-stream
-1: and recompiling.  Bye!
-1: ad~I'=
-1: advapi32
-1: addk
-1: aaW,
-1: a_.SQ
-1: a]_+x
-1: aTUuL
-1: a0Jwr
-1: a.a f
-1: a.HK
-1: a,."$t
-1: `gz}hee'zpz
-1: `gz}hee'lql
-1: `YBc
-1: `U>Q>
-1: `J {
-1: `H0#
-1: `FGn
-1: `9Y[
-1: `0+2
-1: `,{b
-1: `%s'
-1: `$MC
-1: _n<Q
-1: _jD'
-1: _iiU
-1: _allmul
-1: _adj_fptan
-1: _adj_fprem1
-1: _adj_fprem
-1: _adj_fpatan
-1: _adj_fdivr_m64
-1: _adj_fdivr_m32i
-1: _adj_fdivr_m32
-1: _adj_fdivr_m16i
-1: _adj_fdiv_r
-1: _adj_fdiv_m64
-1: _adj_fdiv_m32i
-1: _adj_fdiv_m32
-1: _adj_fdiv_m16i
-1: __vbaFPException
-1: __vbaExceptHandler
-1: __vbaChkstk
-1: _CItan
-1: _CIsqrt
-1: _CIsin
-1: _CIlog
-1: _CIexp
-1: _CIcos
-1: _CIatan
-1: _2z>8,5
-1: _1Y%
-1: _"t5
-1: ^sjo
-1: ^pnd
-1: ^aXx
-1: ^^^^^]]]UUSSSSSSSSSU]
-1: ^]SUUUUUUSSSSSSSUU]^UUnII
-1: ^]SUS]SUURSI
-1: ^XnW
-1: ^R.G
-1: ^@ns
-1: ^4a
-1: ^00Y
-1: ^/T-.
-1: ^(VR
-1: ^(BM
-1: ]}&i
-1: ]wnIRRR
-1: ]v,:f.
-1: ]nd2
-1: ]^0?,[b,
-1: ]]]]]SII
-1: ]][II
-1: ]U;
-1: ]Lxd
-1: ]IIn
-1: ]<br>
-1: ]+xb1
-1: ]&LX
-1: \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-1: \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-1: \@-E
-1: \;^Y
-1: \.f?K
-1: \$@3
-1: [uKE
-1: [q?D
-1: [oy7#
-1: [n-m
-1: [ku]
-1: [^]
-1: [^JV
-1: [[^_]
-1: [[[[
-1: [Y_
-1: [YY]
-1: [RRIIIIII
-1: [MgR
-1: [Inw]
-1: [&pS
-1: [%d: huff+mtf
-1: [!E<
-1: ZxiY
-1: Zg(G
-1: Z_^[X
-1: ZTUWVSPRTj
-1: ZOK:
-1: ZL/lg
-1: ZIZMg
-1: ZCAT
-1: Z2CAT
-1: Z*XF
-1: Z)T7
-1: Yv81)oGY
-1: You can use the -tvv option to test integrity of such files.
-1: Ynz(6.
-1: Yf=[
-1: Y_V]ez
-1: Y[^_]
-1: YZXu
-1: YPH;
-1: YL1G
-1: YI8>7
-1: YF^EE
-1: Y%m$
-1: Y#QQg
-1: Xt;\$
-1: Xmympw
-1: Xbv+~
-1: Xa0
-1: X]_^[
-1: X[^_]
-1: XU|Y
-1: XToz
-1: X>b>^
-1: X:r0
-1: X.MAe
-1: X$HF	e2
-1: WriteProcessMemory
-1: WritePrivateProfileStringA
-1: Word
-1: With --reference, change the group of each FILE to that of RFILE.
-1: WideString
-1: WMM
-1: WG&T
-1: WD1#
-1: WBf *
-1: W:~#
-1: W4fJ
-1: W3dl
-1: W	/[
-1: VirtualFreeEx
-1: VirtualAllocEx
-1: V^7;
-1: V]%E
-1: VUcf
-1: VBA6.DLL
-1: VB5!6&vb6chs.dll
-1: V8@9
-1: V*H#k
-1: Usage: %s [OPTION]... GROUP FILE...
-1: Usage: %s [OPTION] [FILE]...
-1: Usage: %s NAME [SUFFIX]
-1: UnhandledExceptionFilter
-1: Uh{EA
-1: Uhq%A
-1: UhlC
-1: UhkiA
-1: Uhiq
-1: UheA@
-1: Uh\}
-1: UhYz
-1: UhUy
-1: UhU]@
-1: UhR9A
-1: UhIi
-1: UhIK
-1: UhHo
-1: UhE1A
-1: UhDx
-1: Uh@{
-1: Uh;;@
-1: Uh3I
-1: Uh.#A
-1: Uh+l
-1: Uh+QA
-1: Uh(c@
-1: Uh',A
-1: Uh	@A
-1: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
-1: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
-1: USo]]
-1: US^IS]]U]USSSSSI
-1: US]CQ
-1: USVW1
-1: USSSSSSSSSS]]^^^^nII
-1: USRRRSSSS
-1: URLDownloadToFileA
-1: UNZIP
-1: UNEXPECTED_EOF
-1: U&t*E
-1: Try using a reasonable file name instead.  Sorry! :-)
-1: Try a memory-test program.  I have used Memtest86
-1: Torbjorn Granlund
-1: Toolhelp32ReadProcessMemory
-1: TlsSetValue
-1: TlsGetValue
-1: Thread32Next
-1: Thread32First
-1: This program must be run under Win32
-1: This program is free software; you can redistribute it and/or modify
-1: This program is distributed in the hope that it will be useful,
-1: This is a bug in bzip2/libbzip2, %s.
-1: This is a BUG.  Please report it to me at:
-1: The user's manual, Section 4.3, has more info on (2) and (3).
-1: The user's manual, Section 4.3, has more info on (1) and (2).
-1: The following options modify how a hierarchy is traversed when the -R
-1: T_^[
-1: TWUSV
-1: TTCPTunnel
-1: TStream
-1: TResulted
-1: TPortPack@
-1: TPNGPointerList
-1: TPNGObject
-1: TPNGList
-1: TFileStream$
-1: TChunkIHDR
-1: TChunkIEND
-1: TChunkIDAT
-1: TChunk
-1: TC2Sock2
-1: TC2Sock
-1: TAf}
-1: T'$7q
-1: T$ 3
-1: T"hW
-1: System
-1: SysReAllocStringLen
-1: SysFreeString
-1: SysAllocStringLen
-1: SxvJ
-1: SxJ)St
-1: StringPlace
-1: Start
-1: Software\Borland\Locales
-1: Software\Borland\Delphi\Locales
-1: Sn]]UUS
-1: SizeofResource
-1: Shit,IsOver!!VbExeFileBind.93cacccgclc
-1: Shit,IsOver!!VbExeFileBind.9(&1-&/PQM'//cc/
-1: Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!VbExeFileBind.9
-1: Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!
-1: Shit,IsOver!!Shit,IsOver!!Shit,IsOver!!
-1: Shell_TrayWnd
-1: ShellExecuteA
-1: SetProcessWorkingSetSize
-1: S`)St
-1: S]]]^nn^^]I
-1: SVWRP
-1: SU]]^^n^^]
-1: SS]^]^^]]RI
-1: SSUUU]^nn^^n
-1: SSURS\SSU]IR
-1: SSR]UUUUUSSUSSI
-1: SSISIIIUUS
-1: SRSSnII
-1: SRSSUUSSSS
-1: SQhl
-1: SOCKS5METHOD
-1: SMoeD
-1: SIw)
-1: SHGetPathFromIDListW
-1: SHGetFolderLocation
-1: SEQUENCE_ERROR
-1: Runtime error     at 00000000
-1: RtlMoveMemory
-1: RnnR[I
-1: RmCi
-1: Richard M. Stallman
-1: Removable
-1: RegKeys
-1: R]]]
-1: R[IR
-1: RUUR\SSSSSn
-1: RSw^
-1: RS]]USSSSSSSSI
-1: RSSSS]SS]]II
-1: RRnw
-1: RRR[RISS^]^IU]]]SSSSSI
-1: RRRRn
-1: RRRRRRR
-1: RRRII^
-1: RRIII
-1: RRII
-1: RII]ww
-1: RIIRR
-1: R3g9
-1: R	)i
-1: Q}D{?O
-1: QzD<;
-1: QueryWorkingSet
-1: QsRR
-1: QnjM
-1: QXK;
-1: QT~q
-1: QQQQQSV3
-1: QQQQQQQSVW
-1: QQQQQQQSV
-1: QQQQQQQQSV
-1: QQQQQQ3
-1: QQQQQ3
-1: QNe\>
-1: Q<{
-1: Q,0uG
-1: Q("\
-1: P~{i`
-1: PvT}S
-1: PtSS
-1: Process32Next
-1: Process32First
-1: Probably you can fix this by defining them correctly,
-1: Print NAME with any leading directory components removed.
-1: PostMessageA
-1: Please report it to me at: jseward@bzip.org.  If this happened
-1: Ph~f
-1: Ph4=@
-1: Ph(8A
-1: PeekMessageA
-1: Pb"-F
-1: P\T2
-1: P\Rh
-1: PSVW
-1: PSAPI.dll
-1: PD)p*]
-1: PATH_MAX <= len
-1: PARAM_ERROR
-1: P*Q
-1: P':l
-1: P"<z
-1: P	wO&
-1: OpenMutexA
-1: Ol,q
-1: Od"b(
-1: O_W.w
-1: OVpCY
-1: OUTBUFF_FULL
-1: OQdO<
-1: OOo>
-1: OO6v
-1: OK1
-1: OJ/#
-1: OG70
-1: ODyl
-1: OCHH
-1: O3Aj
-1: N|*9
-1: NtShutdownSystem
-1: Network
-1: N`XC)
-1: NWL,
-1: NW>oAR
-1: NO WAN IP
-1: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-1: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-1: NGBOs&
-1: N@_ZW
-1: N>VE
-1: N<N&$
-1: N.aE
-1: N-p(
-1: Module32Next
-1: Module32First
-1: Mn%%
-1: MessageBoxA
-1: Memtest86 tests memory much more thorougly than your BIOSs
-1: M`CE{
-1: MZH$
-1: MR;5
-1: MM4&
-1: MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-1: MEM_ERROR
-1: M>QB0T
-1: M#aAh
-1: L{{f{
-1: LookupPrivilegeValueA
-1: LockResource
-1: LoadResource
-1: LY`Q
-1: LL>S>
-1: LICENSE file for more details.
-1: L79}
-1: L5x[U
-1: L4wU
-1: L$$t^
-1: L$ f
-1: Kur4
-1: Kl;L$
-1: Kl+Kp
-1: Ki I
-1: KTtI
-1: KNv9
-1: KK/S
-1: K9xv
-1: K5G^
-1: Jim Meyering
-1: Jc#pY
-1: J`<B]c
-1: J28<
-1: J!s[e}
-1: It is possible that the compressed file(s) have become corrupted.
-1: Input file = %s, output file = %s
-1: InitializeProcessForWsWatch
-1: Initial
-1: If you suspect this is a bug in bzip2, or are unsure about (2)
-1: If you suspect this is a bug in bzip2, or are unsure about (1)
-1: If specified, also remove a trailing SUFFIX.
-1: If no file names are given, bzip2 compresses or decompresses
-1: If invoked as `bzip2', default action is to compress.
-1: Icon
-1: I^Wt}}h
-1: I]SR[SUSSSn
-1: I]'\Wla
-1: I[_
-1: I[]]nR
-1: IU]]]]
-1: IUS[S[]]]]SI
-1: ITLKwk
-1: ISow
-1: ISoIRIIo^IR
-1: IS_ISSI_^I[
-1: IS]]
-1: IRIRRRIIII]wo]
-1: IO~eR
-1: IO_ERROR
-1: ILFree
-1: IInnSSS
-1: IInn
-1: IISSnSU]UUUmI
-1: IISIRSI^o/
-1: IIRSII
-1: IIRRIR
-1: IIRIn
-1: III]
-1: IIIR
-1: IIIIRIIRI[[I
-1: IIIII
-1: I9]p"
-1: I5*z
-1: I/*<
-1: I.\}"<
-1: I suggest the following: try compressing the file again,
-1: I require Int32, Int16 and Char to have sizes
-1: HtSU
-1: Heap32Next
-1: Heap32ListNext
-1: Heap32ListFirst
-1: Heap32First
-1: HY3
-1: HTTP/1.1 404 Not Found
-1: HTTP/1.1 200 OK
-1: HTTP/
-1: HQ_B*6@
-1: HPc1
-1: HLPRcfhv
-1: HK@[
-1: HH>qe
-1: HEbP
-1: HDp?
-1: H>h\
-1: H,y`
-1: H'e1Z
-1: H&Jz
-1: H!mc
-1: G}c]
-1: GrhN
-1: GlobalFindAtomW
-1: GlobalDeleteAtom
-1: Gf})h)
-1: GetWindowsDirectoryA
-1: GetWindowThreadProcessId
-1: GetWindowTextLengthA
-1: GetWindowTextA
-1: GetTempPathW
-1: GetSystemDirectoryW
-1: GetSystemDirectoryA
-1: GetStartupInfoW
-1: GetStartupInfoA
-1: GetProcessMemoryInfo
-1: GetPrivateProfileStringA
-1: GetModuleInformation
-1: GetModuleFileNameExW
-1: GetModuleFileNameExA
-1: GetModuleFileNameA
-1: GetModuleBaseNameW
-1: GetModuleBaseNameA
-1: GetMappedFileNameW
-1: GetMappedFileNameA
-1: GetLongPathNameW
-1: GetLongPathNameA
-1: GetLogicalDriveStringsA
-1: GetKeyboardType
-1: GetForegroundWindow
-1: GetFileTime
-1: GetFileAttributesA
-1: GetDriveTypeA
-1: GetDeviceDriverFileNameW
-1: GetDeviceDriverFileNameA
-1: GetDeviceDriverBaseNameW
-1: GetDeviceDriverBaseNameA
-1: GetCommandLineA
-1: GetACP
-1: GROUP value
-1: GDgZ
-1: G@9B
-1: G4fH
-1: G( u
-1: FreeResource
-1: FqBw:
-1: Form
-1: Fixed
-1: Findfiles
-1: FindResourceW
-1: FindNextFileA
-1: FindFirstFileA
-1: FindExecutableW
-1: FilereadWrite
-1: FileContent
-1: F`77
-1: FTXJ
-1: FSVWU
-1: FIXME unknown
-1: FI1B
-1: FFF;M
-1: F>B.
-1: F50=*
-1: F4rL
-1: F4fH
-1: F.tEAA1
-1: F |o@
-1: Experience suggests that a common cause of i.e. 1007
-1: EtCh
-1: Error
-1: EnumProcesses
-1: EnumProcessModules
-1: EnumDeviceDrivers
-1: EmptyWorkingSet
-1: EXtt
-1: EVENT_SINK_Release
-1: EVENT_SINK_QueryInterface
-1: EVENT_SINK_AddRef
-1: EQ1r"
-1: EP.K_
-1: E@|o
-1: E4Wp
-1: E.+<
-1: E&|B
-1: E"dr
-1: DnsFlushResolverCache
-1: DllFunctionCall
-1: David MacKenzie
-1: D[V!
-1: DOn
-1: DM:$<m
-1: DH2j{
-1: DATA_ERROR_MAGIC
-1: DATA_ERROR
-1: D>B
-1: D)<;
-1: D$L+D$D
-1: D$H+D$@
-1: D$DP
-1: D$@PU
-1: D$4P
-1: D$,P
-1: D$$P
-1: D$ f
-1: D#J:
-1: Ct$z g
-1: CreateSemaphoreA
-1: CreateRemoteThread
-1: CreateFileA
-1: Copyright (C) 1996-2005 by Julian Seward.
-1: Content-Type: text/html; charset=utf-8
-1: Content-Type:
-1: Content-Length:
-1: Connection: close
-1: Concatenate FILE(s), or standard input, to standard output.
-1: CoInitialize
-1: CharNextA
-1: Change the group of each FILE to GROUP.
-1: CT@?@
-1: CT-pX
-1: CPP?@
-1: CONFIG_ERROR
-1: CN/;
-1: CMe\
-1: CL`?@
-1: CHp?@
-1: CD@E@
-1: CD-ROM
-1: C@`r@
-1: C@0b@
-1: C<~P:
-1: C:\Program Files\vb6mini\VB6.OLB
-1: C8PP@
-1: C80@@
-1: C6Cw
-1: C.MZK
-1: C,#
-1: C)<2|@
-1: C&xzv8
-1: C&^[
-1: C$pPA
-1: C PE@
-1: Byte
-1: Bujo
-1: BsTG}
-1: BkU'9
-1: B`$D
-1: B\78
-1: B[(?
-1: BZIP2
-1: BZIP
-1: BV`LK
-1: BUR_
-1: BQZtN
-1: BP<dD
-1: BE.C.>5
-1: B@;U
-1: B*4I
-1: B)Uln)
-1: B	{f
-1: Afo[
-1: Accept-Ranges: bytes
-1: A_JRVl-h
-1: AXXBI
-1: AS.;|
-1: AN8SLd
-1: A7-)
-1: @v:k
-1: @nqp&ds$8
-1: @kZ0
-1: @kRu
-1: @jF]
-1: @i[3
-1: @aQY
-1: @`TV
-1: @]/&
-1: @V,S
-1: @I\`
-1: @D]-
-1: @&uh(
-1: @&.[
-1: @$'4
-1: ?x,0
-1: ?uncompress: bad srcMode
-1: ?ned
-1: ?l}Y
-1: ?iJN,3
-1: ?Xkj
-1: ?R,A
-1: ?O9:
-1: ?Adq
-1: ?6?n?
-1: ?.?@?c?q?
-1: >wC-
-1: >u	X:
-1: >pJ)
-1: >iafm
-1: >ev7
-1: >bO(
-1: >_>o>y>
-1: >Qt*
-1: >P])1Q
-1: >LE"U
-1: >:\$
-1: >8g;t
-1: >6>6
-1: >'?7?
-1: >'0n
-1: >&>0>:>D>N>X>b>l>~>
-1: >#>H>o>
-1: =zd@
-1: =t*f
-1: =p`@
-1: =p#C
-1: =fff?
-1: =`#C
-1: =Yv|o
-1: =D0C
-1: =@#C
-1: =5Sl
-1: =0p@
-1: =,u#
-1: =,0C
-1: =,#C
-1: =(0C
-1: =&PB
-1: =$PB
-1: =$0C
-1: =$#C
-1: = =$=(=,=q?
-1: = 2C
-1: = #C
-1: <tr><td><a href="/
-1: <title>Nuclear RAT WebServer</title>
-1: <table border="0" cellspacing="2" cellpadding="0"><tr><td><b>Filename</b></td><td><b>&nbsp;&nbsp;Size</b></td><td><b>&nbsp;&nbsp;Last modified</b></td></tr>
-1: <r*%
-1: <p style="font-size: 20px;">Index of /</p><hr>
-1: <p style="font-size: 20px;">Index of /
-1: <n9|
-1: <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-1: <iu}
-1: <html><head><title>HTTP 404 File Not Found - Nuclear RAT WebServer</title></head><style type="text/css"><!-- body, table {font-family: verdana; font-size: 14px; background-color: #E5E5E5; color: #555555;} a {text-decoration: none; color: #000000;} --></style><body><div style="font-size: 20px;">HTTP 404 File not Found</div><br><a href="javascript:history.go(-1);"><- Go Back</a></body></html>
-1: <html><head>
-1: <h;f
-1: <font face="Verdana"><label>
-1: <br>Nuclear RAT 2.0 WebServer - <a href="http://www.nuclearwintercrew.com" target="_new">NWC</a></body></html>
-1: <br><label>[Directory] </label><a href="/
-1: <br><br>Nuclear RAT 2.0 WebServer - <a href="http://www.nuclearwintercrew.com" target="_new">NWC</a></body></html>
-1: <br><br>
-1: <br><a href="/"><- Back to Drives</a><br>
-1: <b/S6D5U
-1: <P<Z<`<w=
-1: <O*jD
-1: <DfG
-1: <8~C
-1: <8GD
-1: <8<Q<b<w<
-1: <8<=<S<a<2=:=J=T=^=h=r=|=
-1: <0Y/
-1: </table>
-1: </p><hr>
-1: </label></font><a class="dh" href="/
-1: </head><style> body {font-family: verdana; font-size: 14px; background-color: #E5E5E5; color: #555555; } a {text-decoration: none; color: #000000; } </style><body>
-1: </head><style type="text/css"><!-- body, table {font-family: verdana; font-size: 14px; background-color: #E5E5E5; color: #555555;} a {text-decoration: none; color: #000000;} --></style><body>
-1: </a></td><td>&nbsp;&nbsp;
-1: </a>
-1: </A>
-1: <-:W
-1: <	Jc
-1: ;~hd|
-1: ;~$s
-1: ;z*`
-1: ;e		<
-1: ;aHcBh@
-1: ;]0>
-1: ;S w
-1: ;S u
-1: ;Qg]
-1: ;Q^nA
-1: ;I;S;j;
-1: ;ClwpV
-1: ;<$~
-1: ;1l
-1: ;/tF
-1: ;+;7;D;
-1: ;';R;
-1: ;"u<S
-1: ;"u3S
-1: :pw>
-1: :m.*
-1: :[rA)@.
-1: :Y&/
-1: :X{&
-1: :;Fz
-1: :5;C;P;
-1: :4_fd
-1: :,ph
-1: :+;u;z<
-1: :	BY
-1: 9o?.(
-1: 9B@u
-1: 9A9W9
-1: 9<mu
-1: 9;E^
-1: 9:`
-1: 98&}Z
-1: 95P`@
-1: 90t
-1: 9.9>9J9T9Z9b9g9r9w9|9
-1: 9#Aa
-1: 9	:&:/:m:
-1: 8ziv
-1: 8u*"
-1: 8o8h
-1: 8h=eg
-1: 8\u8
-1: 8X53
-1: 8I9R9W9y9
-1: 8<9i9
-1: 87u}
-1: 818>8[8d8
-1: 8-979N9
-1: 8'8/858C8^8s8}8
-1: 8"8*828:8B8J8R8Z8b8j8r8z8
-1: 7u;V8
-1: 7mrV
-1: 7kVK
-1: 7ex]D?
-1: 7V!!
-1: 7R7W7
-1: 7R"sHaq
-1: 7D-2
-1: 7?R+0
-1: 7?7p7
-1: 7<@Zj
-1: 7#yJH
-1: 7"7*727:7B7J7R7Z7b7j7r7z7
-1: 6pt( <
-1: 6mJ	o
-1: 6kw#
-1: 6`QTj
-1: 6_<)
-1: 6Y -
-1: 6S{n3(
-1: 6Pk7
-1: 6P]]H
-1: 6B7q7
-1: 6@6u6
-1: 6>V[
-1: 6$6/6[6e6p6
-1: 6"7&7,70757<7B7J7U7
-1: 6"6*6R6|6
-1: 6 >:z
-1: 5~X,
-1: 5z/d
-1: 5s7E
-1: 5e0sqn
-1: 5]d>
-1: 5Q''
-1: 5P`@
-1: 5HP@
-1: 556z6
-1: 50YA
-1: 5/tF
-1: 5 p@
-1: 4|BB
-1: 4x7+
-1: 4h/N
-1: 4W>4
-1: 4Df3
-1: 4?4H4[4f4q4
-1: 47L\
-1: 4-		4
-1: 4$;^(u
-1: 3zE[
-1: 3sHj
-1: 3p4c5
-1: 3b{l
-1: 3`|c
-1: 3Vy-O
-1: 3Hbn
-1: 3En~
-1: 3C2:.
-1: 3Bm~
-1: 3=nc
-1: 3=94x
-1: 3<3V3l3{3
-1: 3<3@3D3H3L3P3T3)4;4
-1: 333{222
-1: 333x333
-1: 333x
-1: 333q
-1: 333o333{222/
-1: 333j333j333X333
-1: 333i333
-1: 333[333
-1: 333[
-1: 333Z333
-1: 333T
-1: 333M333
-1: 333M
-1: 333F001U,,5#
-1: 333:333
-1: 3336333c
-1: 3331333
-1: 3331
-1: 333*3338333
-1: 333(333
-1: 333#333
-1: 31pF]
-1: 313:3F3M3
-1: 30qQ
-1: 3,iM
-1: 3'4O4
-1: 3%3=3J3R3[3i3v3
-1: 2yO),p
-1: 2p[
-1: 2fw!C
-1: 2_^[
-1: 2^i}\l
-1: 2;0u
-1: 27!i}
-1: 222j//3m
-1: 2228
-1: 222#
-1: 2/q\
-1: 2,CRm
-1: 2 232c2
-1: 1~i7
-1: 1yL,
-1: 1^92
-1: 1\}@a
-1: 1R-+
-1: 1NZ&
-1: 1NU^ru
-1: 1DP/f
-1: 171^1l1
-1: 127.0.0.1
-1: 116Pr*
-1: 115q00;800Cj333
-1: 113z//?(,,EH
-1: 113j113*333
-1: 112q,,6
-1: 1.2.3
-1: 1.0.3, 15-Feb-2005
-1: 0eZ.
-1: 0c0s0
-1: 0a~G
-1: 0Iz=
-1: 07_9
-1: 074CDN
-1: 04 c
-1: 0123456789ABCDEF
-1: 0*&V
-1: 0%1N1b1j1
-1: 0%0)0/060:0T0]0f0r0|0
-1: 0"0*020:0B0J0R0Z0b0j0r0z0
-1: 0"/_(
-1: 0!<"\
-1: 0 < len
-1: 0	.MW
-1: 0
-1: /zw_
-1: /vO/
-1: /proc/self/fd/%d/%s
-1: /proc/self/fd
-1: /proc/self
-1: /lA{
-1: /home/eblake/coreutils-6.7-2/src/coreutils-6.7/lib/cycle-check.c
-1: /home/eblake/coreutils-6.7-2/src/coreutils-6.7/lib/chdir-long.c
-1: /E{W!
-1: /=b^A
-1: /0::
-1: //8Z
-1: //4U002U222U333U333U333
-1: /'Fv
-1: .tls
-1: .tbz2
-1: .tbz
-1: .tar
-1: .out
-1: .oow
-1: .edata
-1: .`p/
-1: .`X_
-1: .Rj'5eV
-1: .R7.
-1: .M:Y}^
-1: .Kq.
-1: .Jyh
-1: .4wV~2o
-1: ..7100=
-1: ..51,,4
-1: ..46113
-1: ..1*
-1: .(6m
-1: -z --compress       force compression
-1: -v, --verbose          output a diagnostic for every file processed
-1: -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
-1: -v --verbose        be verbose (a 2nd -v gives more)
-1: -u                       (ignored)
-1: -t --test           test compressed file integrity
-1: -t                       equivalent to -vT
-1: -s, --squeeze-blank      never more than one single blank line
-1: -s --small          use less memory (at most 2500k)
-1: -q --quiet          suppress noncritical error messages
-1: -n, --number             number all output lines
-1: -mz:
-1: -k --keep           keep (don't delete) input files
-1: -h, --no-dereference   affect each symbolic link instead of any referenced
-1: -h --help           print this message
-1: -f, --silent, --quiet  suppress most error messages
-1: -f --force          overwrite existing output files
-1: -e                       equivalent to -vE
-1: -d --decompress     force decompression
-1: -c, --changes          like verbose but report only when a change is made
-1: -c --stdout         output to standard out
-1: -b, --number-nonblank    number nonblank output lines
-1: -_T*
-1: -V --version        display software version & license
-1: -Uh3
-1: -ThCl
-1: -T, --show-tabs          display TAB characters as ^I
-1: -R, --recursive        operate on files and directories recursively
-1: -R -h requires -P
-1: -R --dereference requires either -H or -L
-1: -P                     do not traverse any symbolic links (default)
-1: -LU*
-1: -L --license        display software version & license
-1: -L                     traverse every symbolic link to a directory
-1: -Ilz
-1: -H                     if a command line argument is a symbolic link
-1: -E, --show-ends          display $ at end of each line
-1: -Bup
-1: -A, --show-all           equivalent to -vET
-1: -7(]Q.A
-1: -1 .. -9            set block size to 100k .. 900k
-1: --version
-1: --verbose
-1: --test
-1: --stdout
-1: --small
-1: --repetitive-fast
-1: --repetitive-best
-1: --reference=RFILE  use RFILE's group rather than specifying a
-1: --quiet
-1: --preserve-root    fail to operate recursively on `/'
-1: --no-preserve-root  do not treat `/' specially (the default)
-1: --license
-1: --keep
-1: --help
-1: --force
-1: --fast              alias for -1
-1: --fast
-1: --exponential
-1: --dereference      affect the referent of each symbolic link (this is
-1: --decompress
-1: --compress
-1: --best              alias for -9
-1: --best
-1: --Qs
-1: --EF..L
-1: ,~U^@GMF^Z
-1: ,xV1
-1: ,mkU2
-1: ,l$o$
-1: ,^DmO
-1: ,Vv]
-1: ,Jz<Bn
-1: ,7p,
-1: ,,5?,,5U--58++6
-1: ,)@c
-1: ,$YXZ
-1: +~q@
-1: +vNQ
-1: +j-b
-1: +U1Y9
-1: +NDN
-1: +Chz'
-1: +CFL
-1: +:en
-1: +7xR
-1: +0wU
-1: +0e0p0
-1: +(+T5
-1: +"}d
-1: *n08
-1: *dir != '/'
-1: *YK{
-1: *C^LQz
-1: *B\>
-1: *=,(
-1: *:[%&
-1: *4FW
-1: **J+
-1: ***dxx|6##{{{"|`mu<b`ebg"oca#am#`mcjj"iti***dxx|6##{{{"|`mu<b`ebg"oca#am#~ih"iti***dxx|6##{{{"|`mu<b`ebg"oca#am#ei"iti***dxx|6##{{{"|`mu<b`ebg"oca#am#kive"iti***
-1: *** A special note about internal error number 1007 ***
-1: *!2C2
-1: * If the error cannot be reproduced, and/or happens at different
-1: * If the error can be repeatably reproduced, this is a bug in
-1: )|jg!
-1: )sp)sl)k\
-1: )`&4
-1: )ZNA
-1: )QvS%
-1: )0>C
-1: )!Y}T
-1: (www.memtest86.com).  At the time of writing it is free (GPLd).
-1: (stdout)
-1: (stdin)
-1: (none)
-1: (k3=
-1: (_^[
-1: (9t)
-1: (8t[
-1: (4) A real bug in bzip2 -- I hope this should never be the case.
-1: (3) A real bug in bzip2 -- I hope this should never be the case.
-1: (3) A bug in the compiler used to create this executable
-1: (2) This computer has unreliable memory or cache hardware
-1: (2) A bug in the compiler used to create this executable
-1: (1) This computer has unreliable memory or cache hardware
-1: (1) The compressed data is corrupted, and bzip2's usual checks
-1: (/9r!
-1: (%Cr
-1: ( #,v
-1: 'bnJ
-1: 'N|;
-1: 'IZ2fm
-1: 'BUu
-1: '<tD?
-1: '9D\8
-1: '(8#
-1: ' Yf
-1: '	$;^M
-1: &|Grz
-1: &ytB,
-1: &peEG
-1: &`OC
-1: &6	K74B
-1: &0e0u0
-1: &&333%333
-1: &#(p
-1: %|qA
-1: %|q@
-1: %xqA
-1: %xq@
-1: %tqA
-1: %tq@
-1: %s: input file is output file
-1: %s: couldn't allocate enough memory
-1: %s: WARNING: some files have not been processed:
-1: %s: WARNING: deletion of output file suppressed
-1: %s: WARNING: deletion of output file (apparently) failed.
-1: %s: There are no files matching `%s'.
-1: %s: PANIC -- internal consistency error:
-1: %s: Output file %s already exists.
-1: %s: Input file %s is not a normal file.
-1: %s: Input file %s is a directory.
-1: %s: Input file %s has %d other link%s.
-1: %s: Input file %s already has %s suffix.
-1: %s: I/O or other error, bailing out.  Possible reason follows.
-1: %s: I won't write compressed data to a terminal.
-1: %s: I won't read compressed data from a terminal.
-1: %s: For help, type: `%s --help'.
-1: %s: Deleting output file %s, if it exists.
-1: %s: Data integrity error when decompressing.
-1: %s: Control-C or similar caught, quitting.
-1: %s: Compressed file ends unexpectedly;
-1: %s: Caught a SIGSEGV or SIGBUS whilst decompressing.
-1: %s: Caught a SIGSEGV or SIGBUS whilst compressing.
-1: %s: Can't open input file %s:%s.
-1: %s: Can't open input file %s: %s.
-1: %s: Can't open input %s: %s.
-1: %s: Can't guess original name for %s -- using %s
-1: %s: Can't create output file %s: %s.
-1: %s: Bad flag `%s'
-1: %s: -c and -t cannot be used together.
-1: %s: %s: trailing garbage after EOF ignored
-1: %s: %s:
-1: %s: %s is redundant in versions 0.9.5 and above
-1: %s: %s is not a bzip2 file.
-1: %s:    since input file no longer exists.  Output file
-1: %s:    `%s' may be incomplete.
-1: %s:    I suggest doing an integrity test (bzip2 -tv) of it.
-1: %s:    %d specified on command line, %d not processed yet.
-1: %s staff /u      Change the group of /u to "staff".
-1: %s include/stdio.h .h  Output "stdio".
-1: %s f - g  Output f's contents, then standard input, then g's contents.
-1: %s /usr/bin/sort       Output "sort".
-1: %s -hR staff /u  Change the group of /u and subfiles to "staff".
-1: %s        Copy standard input to standard output.
-1: %pqA
-1: %pq@
-1: %lqA
-1: %lq@
-1: %hqA
-1: %hq@
-1: %dqA
-1: %dq@
-1: %d work, %d block, ratio %5.2f
-1: %d pointers, %d sorted, %d scanned
-1: %d in block, %d after MTF & 1-2 coding, %d+2 syms in use
-1: %`qA
-1: %`q@
-1: %\qA
-1: %\q@
-1: %XqA
-1: %Xq@
-1: %Txv]
-1: %TqA
-1: %Tq@
-1: %Te*t
-1: %PqA
-1: %Pq@
-1: %P[]	eU
-1: %LqA
-1: %Lq@
-1: %HqA
-1: %Hq@
-1: %Dq@
-1: %@q@
-1: %<q@
-1: %8q@
-1: %6d unresolved strings
-1: %6.3f:1, %6.3f bits/byte, %5.2f%% saved, %s in, %s out.
-1: %4q@
-1: %0q@
-1: %0pH
-1: %,q@
-1: %*Bh
-1: %$qA
-1: %$q@
-1: % qA
-1: % FO
-1: $|g@
-1: $|1A
-1: $u%1
-1: $pR@
-1: $lY@
-1: $hi@
-1: $hS@
-1: $d1A
-1: $`T@
-1: $YZ]_^[
-1: $Ve@
-1: $UR@
-1: $Tm9ydGhUZWFt$
-1: $TP@
-1: $T:A
-1: $Ph@
-1: $PZ@
-1: $L>A
-1: $IgE
-1: $H`@
-1: $Di@
-1: $DS@
-1: $@Y@
-1: $@FA
-1: $?e@
-1: $=f@
-1: $<c@
-1: $;\$
-1: $8g@
-1: $8!A
-1: $4R@
-1: $3zr
-1: $0D0d0
-1: $05@
-1: $)@>4
-1: $(WA
-1: $(Q@
-1: $(P@
-1: $'`@
-1: $$S@
-1: $#\$
-1: $#R@
-1: $"UY%
-1: $  A
-1: #y<>
-1: #m_P
-1: #k<w
-1: #ccc3&cc/baccscckccccccc
-1: #^0V
-1: #ZGt5o\
-1: #?71
-1: #>B8
-1: #;&)
-1: #,.@G
-1: # entries:         %lu
-1: # buckets:         %lu
-1: # buckets used:    %lu (%.2f%%)
-1: "{/B
-1: "cccc$
-1: "`<D
-1: "Lv8
-1: "JTY
-1: "<dV
-1: "86+
-1: "45&r.
-1: "0r\
-1: """"?
-1: " target="_new">
-1: !xl5
-1: !iDn{
-1: !Y%'
-1: !=bl
-1: !3g2
-1: !)9[Y
-1: !';3
-1: ! close_fail
+4: _fcntl64
+3: fwrite
+3: __assert
