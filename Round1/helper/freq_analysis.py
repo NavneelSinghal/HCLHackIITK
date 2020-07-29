@@ -23,8 +23,8 @@ def sample_file_names(directory, k):
     return subdirs
 
 s = input()
-K = 100 # Number of samples
-cutoff = K/4 # Another filtering parameter, set to 0 to disable
+K = 500 # Number of samples
+cutoff = K/16 # Another filtering parameter, set to 0 to disable
 subdirs_ = sample_file_names(s, K)
 # now this is a short list of files we need to sample
 
@@ -40,6 +40,8 @@ for subdir in subdirs_:
 frequencies = {}
 
 for filename in subdirs:
+    if filename.count('/') == 8:
+        continue
     with open(filename + "/String.txt", "r") as f:
         for line in f:
             line = line.strip()
