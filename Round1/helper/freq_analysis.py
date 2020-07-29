@@ -39,9 +39,9 @@ for subdir in subdirs_:
 # The frequency sum array
 frequencies = {}
 
+cur = 0
+
 for filename in subdirs:
-    if filename.count('/') == 8:
-        continue
     with open(filename + "/String.txt", "r") as f:
         for line in f:
             line = line.strip()
