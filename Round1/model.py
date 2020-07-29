@@ -29,7 +29,7 @@ test_feature_list_filename = 'temp_test_feature_list_filename_dump.sav'
 
 # this is for extraction of features
 
-'''
+#'''
 
 total = (utility.get_all('Static_Analysis_Data'))
 print(len(total))
@@ -48,7 +48,8 @@ for fl in train:
         if fl.count(classes[i]) > 0:
             w = i
             break
-    predictions.append(i)
+    assert(w != -1)
+    predictions.append(w)
     feature_list.append(string_analysis.get_frequency_map(fl))
     complete += 1
     if complete % 50 == 0:
