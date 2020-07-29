@@ -29,4 +29,6 @@ for x in frequencies:
 
 result = sorted(result)
 result.reverse()
-print(result)
+
+for v, x in result:
+    print(str(v) + ": " + str(x))

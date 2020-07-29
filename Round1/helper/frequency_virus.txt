@@ -1,1 +1,6176 @@
-[(62, '00dc'), (53, ''), (36, '/'), (30, '""""/'), (26, '_^[]'), (23, 'rec'), (21, '_^]['), (19, 'USER32.dll'), (19, 'KERNEL32.dll'), (17, '@_^['), (16, 'LIST'), (15, 'Ph8$'), (14, 'rec 00dc'), (14, 'SUVW'), (12, 'ADVAPI32.dll'), (11, 'msvcrt.dll'), (11, ']_^['), (11, 'Y_^['), (11, 'SVW3'), (10, 'wwwww'), (10, '`.data'), (10, 'VVVV'), (10, 'Ph`!'), (10, '.text'), (10, '.rsrc'), (10, '!This program cannot be run in DOS mode.'), (9, 'GetModuleHandleA'), (9, 'CloseHandle'), (9, '8MZu'), (8, 'ole32.dll'), (8, 'j\tY3'), (8, '_^[t'), (8, 'SVWj'), (8, 'NB10'), (8, 'GetStartupInfoA'), (8, 'GetLastError'), (7, '_^][YY'), (7, 'U`RWP'), (7, 'SHELL32.dll'), (7, 'PSSh'), (7, 'NTDLL.DLL'), (7, 'MultiByteToWideChar'), (7, 'LoadStringW'), (7, 'LoadLibraryA'), (7, 'HKCR'), (7, 'GetVersionExA'), (7, 'GetProcAddress'), (7, 'FreeLibrary'), (7, 'COMCTL32.dll'), (6, '}'), (6, '{'), (6, 'exit'), (6, '_initterm'), (6, '_exit'), (6, '_controlfp'), (6, '_cexit'), (6, '_c_exit'), (6, '_adjust_fdiv'), (6, '__setusermatherr'), (6, '__set_app_type'), (6, '__p__fmode'), (6, '__p__commode'), (6, '_XcptFilter'), (6, 'WideCharToMultiByte'), (6, 'WWWW'), (6, 'Vh`!'), (6, 'SHLWAPI.dll'), (6, 'RegQueryValueExW'), (6, 'RegCloseKey'), (6, 'PSh8$'), (6, 'M$QP'), (6, 'LocalFree'), (6, 'HeapFree'), (6, 'HeapAlloc'), (6, 'ExitProcess'), (5, "val AppID = s '{C49F2185-50A7-11D3-9144-00104BA11C5E}'"), (5, 'type="win32"'), (5, 'processorArchitecture="x86"'), (5, 'lstrlenA'), (5, 'lstrcpyW'), (5, 'lstrcmpiW'), (5, 'jKX;'), (5, '_except_handler3'), (5, '_acmdln'), (5, '__getmainargs'), (5, '_^][Y'), (5, 'XPVSS'), (5, 'WriteFile'), (5, 'WaitForSingleObject'), (5, 'VC20XC00U'), (5, 'SetWindowTextW'), (5, 'SetFilePointer'), (5, 'SetDlgItemTextW'), (5, 'SVWh'), (5, 'SVWUj'), (5, 'SVWU'), (5, 'SETUPAPI.dll'), (5, 'RtlUnwind'), (5, 'ReleaseMutex'), (5, 'RegOpenKeyExW'), (5, 'RQPPPPPPh'), (5, 'QSVW'), (5, 'PostQuitMessage'), (5, 'PVWj'), (5, 'PVVV'), (5, 'NoRemove CLSID'), (5, 'MessageBoxA'), (5, 'M QP'), (5, "LocalServer32 = s '%MODULE%'"), (5, 'HeapReAlloc'), (5, 'GetProcessHeap'), (5, 'GetDlgItem'), (5, 'GDI32.dll'), (5, 'FL+E'), (5, 'EndDialog'), (5, 'DialogBoxParamW'), (5, 'D$ P'), (5, '>"u:F'), (5, '<assemblyIdentity'), (5, '9} u'), (5, "'TypeLib' = s '{C49F2184-50A7-11D3-9144-00104BA11C5E}'"), (4, 'wcslen'), (4, 'wcscpy'), (4, 'u\t9]'), (4, 't$ W'), (4, 'r\tf=Z'), (4, 'lstrlenW'), (4, 'jdY3'), (4, 'VirtualFree'), (4, 'VirtualAlloc'), (4, 'VVVVj'), (4, 'Sleep'), (4, 'ShowWindow'), (4, 'SetLastError'), (4, 'SetEvent'), (4, 'SendMessageW'), (4, 'SSSSS'), (4, 'RegQueryValueExA'), (4, 'RegOpenKeyExA'), (4, 'RegCreateKeyExW'), (4, 'QQSVW'), (4, 'QQSV'), (4, 'MessageBoxW'), (4, 'M(QP'), (4, 'LocalAlloc'), (4, 'LoadLibraryW'), (4, 'LoadIconW'), (4, 'GetSystemInfo'), (4, 'GetStdHandle'), (4, 'GetStartupInfoW'), (4, 'GetProcessWindowStation'), (4, 'GetModuleFileNameA'), (4, 'GetLastActivePopup'), (4, 'GetFileType'), (4, 'GetCommandLineW'), (4, 'FormatMessageW'), (4, 'EnableWindow'), (4, 'D$(P'), (4, 'CreateThread'), (4, 'CreateFileW'), (4, 'CoUninitialize'), (4, 'AABBf'), (4, '@_]^['), (4, '@@FF:'), (4, '8^\\u'), (3, 'wwwwwwwwwwwwx'), (3, 'wwwwwwwwwwwwww'), (3, 'wwwwp'), (3, 'wwww'), (3, 'version="6.0.0.0"'), (3, 'v\tN+D$'), (3, 'user32.dll'), (3, 'uiSj'), (3, 'u\t9}'), (3, 'tzVS'), (3, 'tEVU'), (3, 't3x<'), (3, 't/Ku'), (3, 't.;t$$t('), (3, 't-9]'), (3, 't WW'), (3, 'sprintf'), (3, 'runtime error'), (3, 'publicKeyToken="6595b64144ccf1df"'), (3, 'ntdll.dll'), (3, 'name="Microsoft.Windows.Common-Controls"'), (3, 'mscoree.dll'), (3, 'lstrcpynW'), (3, 'lstrcpyA'), (3, 'lstrcatW'), (3, 'language="*"'), (3, 'kernel32.dll'), (3, 'j?^;'), (3, '_^]3'), (3, '_[^]'), (3, '[_^]'), (3, 'YYuD'), (3, 'WWWWVSW'), (3, 'WWVPVSW'), (3, 'VirtualQuery'), (3, 'VirtualProtect'), (3, 'Vh8$'), (3, 'VWumh'), (3, 'UnmapViewOfFile'), (3, 'UnhandledExceptionFilter'), (3, 'TranslateMessage'), (3, 'This application has requested the Runtime to terminate it in an unusual way.'), (3, 'TLOSS error'), (3, 'Sh`!'), (3, 'SetWindowPos'), (3, 'SetWindowLongW'), (3, 'SetHandleCount'), (3, 'SetForegroundWindow'), (3, 'SendDlgItemMessageW'), (3, 'SVW'), (3, 'SING error'), (3, 'Runtime Error!'), (3, 'RegSetValueExW'), (3, 'ReadFile'), (3, 'R6028'), (3, 'R6027'), (3, 'R6026'), (3, 'R6025'), (3, 'R6024'), (3, 'R6019'), (3, 'R6018'), (3, 'R6017'), (3, 'R6016'), (3, 'R6009'), (3, 'R6008'), (3, 'R6002'), (3, 'QVW3'), (3, 'QQSW'), (3, 'Program:'), (3, 'PostMessageW'), (3, "Please contact the application's support team for more information."), (3, 'Pha'), (3, 'PVVh'), (3, 'PPPP'), (3, 'OpenProcess'), (3, 'NtQueryInformationProcess'), (3, 'NtClose'), (3, 'N$QP'), (3, 'Microsoft Visual C++ Runtime Library'), (3, 'MapViewOfFile'), (3, 'M4QP'), (3, 'M,QP'), (3, 'LeaveCriticalSection'), (3, 'LCMapStringW'), (3, 'LCMapStringA'), (3, 'Kara'), (3, 'IsDlgButtonChecked'), (3, 'InterlockedIncrement'), (3, 'InitializeCriticalSection'), (3, 'HeapDestroy'), (3, 'HeapCreate'), (3, 'HSVWj'), (3, 'GetWindowsDirectoryW'), (3, 'GetWindowRect'), (3, 'GetWindowLongW'), (3, 'GetUserObjectInformationA'), (3, 'GetStringTypeW'), (3, 'GetStringTypeA'), (3, 'GetModuleHandleW'), (3, 'GetMessageW'), (3, 'GetLocaleInfoA'), (3, 'GetEnvironmentStringsW'), (3, 'GetEnvironmentStrings'), (3, 'GetCurrentThreadId'), (3, 'GetCommandLineA'), (3, 'GetCPInfo'), (3, 'GetActiveWindow'), (3, 'GIt%'), (3, 'FreeEnvironmentStringsW'), (3, 'FreeEnvironmentStringsA'), (3, 'FormatMessageA'), (3, 'FlushFileBuffers'), (3, 'EnterCriticalSection'), (3, 'DispatchMessageW'), (3, 'DeviceIoControl'), (3, 'DeleteCriticalSection'), (3, 'DefWindowProcW'), (3, 'DOMAIN error'), (3, 'CreateWindowExW'), (3, 'CreateMutexW'), (3, 'CreateMutexA'), (3, 'CreateFileA'), (3, 'CorExitProcess'), (3, 'CoCreateInstance'), (3, 'BBFFf'), (3, '@_^]['), (3, '<program name unknown>'), (3, '<dependentAssembly>'), (3, '<dependency>'), (3, '<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">'), (3, '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'), (3, '</dependentAssembly>'), (3, '</dependency>'), (3, '</assembly>'), (3, '95LN'), (3, '00dc$'), (3, '/>'), (3, '- unexpected multithread lock error'), (3, '- unexpected heap error'), (3, '- unable to open console device'), (3, '- unable to initialize heap'), (3, '- pure virtual function call'), (3, '- not enough space for thread data'), (3, '- not enough space for stdio initialization'), (3, '- not enough space for lowio initialization'), (3, '- not enough space for environment'), (3, '- not enough space for arguments'), (3, '- not enough space for _onexit/atexit table'), (3, '- floating point not loaded'), (3, '&:<+'), (2, '~`W3'), (2, "~'WP"), (2, '}&9='), (2, '}"95'), (2, 'wwwwwwwwwx'), (2, 'wwwwwwwww'), (2, 'wsprintfW'), (2, 'wsprintfA'), (2, 'wpwwww'), (2, 'wpwwwp'), (2, 'wn>Jj'), (2, 'wcsrchr'), (2, 'wcschr'), (2, 'wcscat'), (2, 'version="5.1.0.0"'), (2, 'vedt'), (2, 'us9}'), (2, 'u\\h8$'), (2, 'u8WW3'), (2, 'u5SSWh'), (2, 'u!95'), (2, 'u 9='), (2, 'ti8]'), (2, 't;9u'), (2, 't:VU'), (2, 't9VP'), (2, 't6S'), (2, 't0SSj'), (2, 't(x1'), (2, 't!SS9]'), (2, 't ;t$$t'), (2, 't\t@@;'), (2, 'swprintf'), (2, 'strrchr'), (2, 'strncpy'), (2, 'strlstrh8'), (2, 'strfh'), (2, 'strchr'), (2, 'setlocale'), (2, 'rec 00dcJ'), (2, 'ppxxxx'), (2, 'netdde.log'), (2, 'n;^'), (2, 'memmove'), (2, 'lstrcmpW'), (2, 'jdRP'), (2, 'jAY3'), (2, 'jAY+'), (2, 'j@Y3'), (2, 'j:X_^'), (2, 'j!Y3'), (2, 'isdigit'), (2, 'iphlpapi.dll'), (2, 'idx1'), (2, 'i]Wb'), (2, 'hhctrl.ocx'), (2, 'hdrlavih8'), (2, 'f9]p_^[t'), (2, '`h````'), (2, '_wcsicmp'), (2, '_chkstk'), (2, '_^t'), (2, '_^]Y'), (2, '^_[3'), (2, '][_^'), (2, 'Yu+Vj'), (2, 'Yt\tU'), (2, 'Y[_^]'), (2, 'YY_^['), (2, 'YY@@'), (2, 'YY9]'), (2, 'Y9E t'), (2, 'X_^['), (2, 'Wj@3'), (2, 'Wh`!'), (2, 'WWh2'), (2, 'WVS3'), (2, 'WS2_32.dll'), (2, 'WINMM.dll'), (2, 'WIN95'), (2, 'W WV'), (2, 'Vj-S'), (2, 'VWsr'), (2, 'VWsU'), (2, 'VWj'), (2, 'VSSS'), (2, 'VERSION.dll'), (2, 'VDMDBG.dll'), (2, 'UpdateWindow'), (2, 'UVVVVV'), (2, 'U,RP'), (2, 'TranslateAcceleratorW'), (2, 'TAPI32.dll'), (2, 'SjrU'), (2, 'ShellExecuteW'), (2, 'ShellAboutW'), (2, 'Sh8$'), (2, 'SetupCloseInfFile'), (2, 'SetStdHandle'), (2, 'SetFocus'), (2, 'SetFileAttributesA'), (2, 'SetEndOfFile'), (2, 'SendDlgItemMessageA'), (2, 'SelectObject'), (2, 'Secur32.dll'), (2, 'Sdwn'), (2, 'SWj%'), (2, 'SWRP'), (2, 'SVWse'), (2, 'SUV3'), (2, 'SShf'), (2, 'SShd'), (2, 'SSh'), (2, 'SSSSh'), (2, 'SSSS'), (2, 'SSSP'), (2, 'SCECLI.dll'), (2, 'Rich'), (2, 'RegisterClassW'), (2, 'RegEnumKeyExW'), (2, 'RegDeleteKeyW'), (2, 'RegCreateKeyExA'), (2, 'RPWS'), (2, 'RIFF'), (2, 'Qkkbal'), (2, 'Qj\\P'), (2, 'QWPS'), (2, 'QVVVS'), (2, 'QRPh'), (2, 'QQSW3'), (2, 'QQSVWh'), (2, 'QQSV3'), (2, 'QQSU'), (2, 'QPRRRRRRh'), (2, 'QPPj'), (2, 'QPPP'), (2, 'PostThreadMessageW'), (2, 'Pj(j'), (2, 'Phc'), (2, 'Phb'), (2, "Ph,'"), (2, "Ph*'"), (2, 'Ph"\''), (2, "Ph '"), (2, 'PWj+'), (2, 'PWh8$'), (2, 'PWS3'), (2, 'PVh_'), (2, 'PVh8$'), (2, 'PVVj'), (2, 'PSj&'), (2, 'PSWj'), (2, 'PSWS'), (2, 'PSSj'), (2, 'PSSS'), (2, 'PPPPPPPP'), (2, 'OpenProcessToken'), (2, 'OpenEventA'), (2, 'OLEAUT32.dll'), (2, 'NtShutdownSystem'), (2, 'NtQuerySystemInformation'), (2, 'NetApiBufferFree'), (2, 'NDdeApi.dll'), (2, 'MoveWindow'), (2, 'MhQSP'), (2, 'MS Sans Serif'), (2, 'MGiI'), (2, 'MDQP'), (2, 'M@QP'), (2, 'M<QP'), (2, 'M8QP'), (2, 'M0QP'), (2, 'LoadResource'), (2, 'LoadLibraryExW'), (2, 'LoadCursorW'), (2, 'LoadAcceleratorsW'), (2, 'LSVW'), (2, 'LISTV'), (2, 'Ken'), (2, 'KYYu'), (2, 'JUNK'), (2, 'InvalidateRect'), (2, 'InterlockedExchange'), (2, 'InterlockedDecrement'), (2, 'InitializeCriticalSectionAndSpinCount'), (2, 'Info'), (2, 'Hu:h'), (2, 'HSVW'), (2, 'HKLM'), (2, 'GlobalFree'), (2, 'GlobalAlloc'), (2, 'GetWindowsDirectoryA'), (2, 'GetWindowTextW'), (2, 'GetWindowLongA'), (2, 'GetVersionExW'), (2, 'GetTickCount'), (2, 'GetSystemMetrics'), (2, 'GetSystemDirectoryA'), (2, 'GetParent'), (2, 'GetObjectW'), (2, 'GetOEMCP'), (2, 'GetModuleFileNameW'), (2, 'GetFileAttributesW'), (2, 'GetDriveTypeW'), (2, 'GetCurrentProcess'), (2, 'GetCurrentDirectoryW'), (2, 'GetComputerNameW'), (2, 'GetACP'), (2, 'G;= @'), (2, 'FindWindowW'), (2, 'FindClose'), (2, 'FileTimeToSystemTime'), (2, 'F;5LN'), (2, "F'- ;"), (2, 'ExpandEnvironmentStringsW'), (2, 'EndPaint'), (2, 'EjKX;'), (2, 'E8Pj'), (2, 'E4Pj'), (2, 'E(Pj'), (2, "E'- ;"), (2, 'E WW'), (2, 'E SSSS'), (2, 'DestroyWindow'), (2, 'DeleteObject'), (2, 'DeleteFileW'), (2, 'DeleteFileA'), (2, 'DeleteDC'), (2, 'DVWh'), (2, 'DDDDDDDDDGpw'), (2, 'D$(VPh'), (2, 'CreateProcessA'), (2, 'CreateFontIndirectW'), (2, 'CreateFileMappingA'), (2, 'CreateEventW'), (2, 'CreateEventA'), (2, 'CreateCompatibleDC'), (2, 'Configuration'), (2, 'CoInitializeEx'), (2, 'CoInitialize'), (2, 'CheckMenuItem'), (2, 'CheckDlgButton'), (2, 'CLSID\\{ADB880A6-D8FF-11CF-9377-00AA003B7A11}\\InprocServer32'), (2, "CLSID = s '{8A03567A-63CB-4BA8-BAF6-52119816D1EF}'"), (2, "CLSID = s '{520CCA67-51A5-11D3-9144-00104BA11C5E}'"), (2, "CLSID = s '{520CCA65-51A5-11D3-9144-00104BA11C5E}'"), (2, "CLSID = s '{520CCA63-51A5-11D3-9144-00104BA11C5E}'"), (2, "CLSID = s '{520CCA61-51A5-11D3-9144-00104BA11C5E}'"), (2, 'CD001'), (2, 'C)Ph8$'), (2, 'BeginPaint'), (2, 'Ar\tf'), (2, 'AllocateAndInitializeSid'), (2, 'AdjustTokenPrivileges'), (2, 'AVI LIST'), (2, 'AAGG'), (2, 'AABB'), (2, 'AAAA^^^'), (2, '@[_^'), (2, '@CC;'), (2, '@@BB3'), (2, '>=Yt'), (2, '9a&g'), (2, '9^$t'), (2, '9]pt'), (2, '9] u'), (2, '9=lN'), (2, '9=hN'), (2, '90u29p'), (2, '8\\u f'), (2, '8"u*'), (2, '700WP'), (2, '4~f9.u'), (2, '+o*7'), (2, '(null)'), (2, '(8PX'), (2, '%s\\%s'), (2, '#.zf'), (2, '"t#f'), (1, '~hC]1'), (1, '~\\u'), (1, '~WVVj`j'), (1, '~PjKX9E'), (1, '~CjKX;'), (1, '~C=a'), (1, '~*9E'), (1, '~$Wjdj'), (1, '~ 9~ht'), (1, '}~{|k'), (1, '}xz{|k'), (1, '}ppr'), (1, '}pj 3'), (1, '}SWV'), (1, '},95'), (1, '})95'), (1, '}$95'), (1, '}#9='), (1, '}#95'), (1, '}!95'), (1, '} 95'), (1, '|uWj'), (1, '|j#Y'), (1, '|PVhT'), (1, '|BVh'), (1, '|;SW'), (1, '|;9sXv'), (1, '|(VVV'), (1, '|%Vj'), (1, '{xywe'), (1, '{xuywd'), (1, '{xuyphC'), (1, '{uL9]'), (1, '{V@.'), (1, '{D8CF6BF0-3CFA-4e4c-BA39-40A1E7AFBCD7}'), (1, '{A7B81E49-A7DD-4066-A970-E07C67D8DFB1}'), (1, '{9F84FFA4-680E-48d8-9DBA-4AA8591AB8E3}'), (1, '{733A46D6-B5DB-47e7-AE67-464577CD687C}'), (1, '{23AD69B4-E81C-4292-ABD4-2EAF9A262E91}'), (1, '{0CBA5850-FD98-4cf8-AC49-FC3ED287ACF1}'), (1, '{%-08.8X-%-04.4X-%-04.4X-%02.2X%02.2X-%02.2X%02.2X%02.2X%02.2X%02.2X%02.2X}'), (1, '{$+{'), (1, 'zwww'), (1, 'zwHf'), (1, 'zc%C1'), (1, 'z?aUY'), (1, 'x|qFZ'), (1, 'xt&9'), (1, 'xqpttd7'), (1, 'xqB%'), (1, 'xj!Y'), (1, 'xd;=L'), (1, 'xSVW'), (1, 'wwxwp'), (1, 'wwwwwwx'), (1, 'wwwwwwwwwwwp'), (1, 'wwwwwwww'), (1, 'wwwwww'), (1, 'wwwqwwww'), (1, 'wwqwp'), (1, 'wvsprintfW'), (1, 'wvsprintfA'), (1, 'wnsprintfW'), (1, 'wintrust.dll'), (1, 'winlogon'), (1, 'wcstol'), (1, 'wcsncpy'), (1, 'w\\SVP'), (1, 'wSV3'), (1, 'wFE"w'), (1, 'w8h`'), (1, 'w)9}'), (1, 'w(h'), (1, 'w$h'), (1, 'w$9}'), (1, 'w"wwwwwwwxwwx'), (1, 'v|Wj'), (1, 'v|WWj'), (1, 'vtP3'), (1, 'vswprintf'), (1, 'vidsmrle'), (1, 'vidsRLE'), (1, 'vhP3'), (1, "val Type = d '16'"), (1, "val Start = d '3'"), (1, "val ServiceParameters = s '-Service'"), (1, "val ObjectName = s 'LocalSystem'"), (1, "val LocalService = s 'ImapiService'"), (1, "val ImagePath = s '%MODULE%'"), (1, "val ErrorControl = d '1'"), (1, 'val AppID = s {C49F2185-50A7-11D3-9144-00104BA11C5E}'), (1, 'vSSV'), (1, 'vM9E'), (1, 'vLhd'), (1, 'vLh4'), (1, 'v@+~H'), (1, 'v4Wj@'), (1, 'v"9M'), (1, 'v SW'), (1, 'u}j:V'), (1, "uxhA'"), (1, "uxh@'"), (1, "uxh>'"), (1, "uxh='"), (1, "uxh<'"), (1, "uxh;'"), (1, "uxVh?'"), (1, 'uvh'), (1, 'uu!E|'), (1, 'utSPV'), (1, 'up9u'), (1, 'up9E'), (1, 'uninst%d.tmp'), (1, 'ulhd'), (1, "ulhK'"), (1, 'ulh8$'), (1, 'ulSSS'), (1, 'ulP3'), (1, 'ujWX'), (1, 'uj9]'), (1, 'uiSVWj'), (1, 'uhhd'), (1, "uhhL'"), (1, 'uh9]'), (1, 'uh!E'), (1, 'uf9]'), (1, 'ucVj'), (1, 'uaWWWW'), (1, 'uaVh'), (1, 'u`9=D'), (1, 'u^9]'), (1, 'u^8Eku'), (1, 'uXSh'), (1, 'uX9u'), (1, 'uUj'), (1, 'uPVj'), (1, 'uMSW'), (1, 'uJ9^$u'), (1, 'uHVh $'), (1, 'uF93t5j'), (1, 'uE8]'), (1, 'uBj:V'), (1, 'u>PW'), (1, 'u=93t1j'), (1, 'u<hH$'), (1, 'u:Vj'), (1, 'u4VVVV'), (1, 'u4!ET'), (1, 'u09_$u$'), (1, 'u.;5'), (1, 'u.9E'), (1, 'u,UP'), (1, 'u,Sh,0'), (1, 'u,9G'), (1, 'u+9E'), (1, 'u*9E'), (1, 'u)jdh D'), (1, 'u(9}'), (1, "u'j`S"), (1, "u'95"), (1, "u'!U"), (1, 'u&VW'), (1, 'u%WWj'), (1, 'u$Vj'), (1, 'u$95'), (1, 'u#jHj@'), (1, 'u#SSSSh'), (1, 'u#9}'), (1, 'u"h<$'), (1, 'u"W3'), (1, 'u"8P'), (1, 'u!j0j0j1W'), (1, 'u jAY'), (1, 'u VhY'), (1, 'u VP'), (1, 'u C;]'), (1, 'u\tj0j'), (1, 'u\t_^]['), (1, 'u\tIu'), (1, 'u\tGG3'), (1, 'u\tAAf'), (1, 'u\t9~'), (1, 'u\t8]'), (1, 't~PhP)'), (1, 't~Ht'), (1, 't~!]'), (1, 't}Ph'), (1, 't{f98Pu'), (1, 'tzh$'), (1, 'tzSWj'), (1, "tyWj'"), (1, 'ty8]'), (1, 'twhd'), (1, 'twf9'), (1, 'tw=j'), (1, 'tuJte'), (1, 'tthp#'), (1, 'ttIu'), (1, 'tsSh,'), (1, 'trszxwwxst|'), (1, 'trVW'), (1, 'tqSWj0'), (1, 'tqSV'), (1, 'tph,'), (1, 'tpHHtfHj'), (1, 'towlower'), (1, 'tmVWj'), (1, 'tmVSP'), (1, 'tmNNtP'), (1, 'tl=8'), (1, 'tkj=V'), (1, 'timeGetTime'), (1, 'tiVj'), (1, 'thShd'), (1, 'tgVSP'), (1, 'tfPh8$'), (1, 'tfPh'), (1, 'teh8'), (1, 'teVj9'), (1, 'tcmsetup.pdb'), (1, 'tb9u'), (1, 'tb9]'), (1, 'taskmgr.pdb'), (1, 'taskmgr.chm'), (1, 'taWP'), (1, 'ta=8'), (1, 't`HtOHu'), (1, 't^WV'), (1, 't^SSSW'), (1, 't\\Wj'), (1, 't\\HtKj'), (1, 'tZWWWj'), (1, 'tXPh'), (1, 'tUPWj'), (1, 'tUPVS'), (1, 'tTSV;G'), (1, 'tTHt('), (1, 'tRich'), (1, 'tRh8$'), (1, 'tPhx"'), (1, 'tPh,'), (1, 'tPWh'), (1, 'tPSV'), (1, 'tOWh'), (1, 'tNHu1'), (1, "tNHtAHt4Ht'Ht"), (1, 'tMVh'), (1, 'tKVh'), (1, "tKIIt'I"), (1, 'tJhd'), (1, 'tIj\\W'), (1, 'tHWWh'), (1, 'tHPh'), (1, 'tHHt'), (1, 'tH9}'), (1, 'tGRQWh'), (1, 'tFUP'), (1, 'tDhp'), (1, 'tCf;'), (1, 'tC9]'), (1, 'tBWWWj'), (1, 'tBHt/Ht%Ht'), (1, 'tAWV'), (1, 'tASh'), (1, 'tASW'), (1, 'tA;F t'), (1, 't@h,'), (1, 't@VW'), (1, 't@VSh'), (1, 't@Sj'), (1, 't@Ph8$'), (1, 't?Uj'), (1, 't?Ph0#'), (1, 't>f;'), (1, 't>USh'), (1, 't=hV4'), (1, 't=h@'), (1, 't=9]'), (1, 't<j\thd$'), (1, 't<Vh'), (1, 't<SPj'), (1, 't;f;'), (1, 't:hd3'), (1, 't:WQhQ'), (1, 't9h,'), (1, 't9Wh'), (1, 't9Ht/Ht%Ht'), (1, 't9Ht!H'), (1, 't9;E'), (1, 't8VW'), (1, 't8HuJ'), (1, 't7jT'), (1, 't7h,'), (1, 't7Vh'), (1, 't7=0'), (1, 't79U'), (1, 't6HuG'), (1, 't6Ht"HHt'), (1, 't5hd3'), (1, 't5HuF'), (1, 't4Wh'), (1, 't4W3'), (1, 't49}'), (1, 't2Ph'), (1, 't1h@'), (1, 't0f=-'), (1, 't0W3'), (1, 't0Pj'), (1, 't/W3'), (1, 't/VW'), (1, 't/Ht%Ht'), (1, 't.Ht'), (1, 't.+^d'), (1, 't,hd'), (1, 't,Whd'), (1, 't,Vj:'), (1, 't,Ht'), (1, 't+hL'), (1, 't+f;'), (1, 't+WU'), (1, 't+VVVj'), (1, 't+Ht!Ht'), (1, 't*hL'), (1, 't*f={'), (1, 't*HH'), (1, 't*=HKLMt'), (1, 't)Wj'), (1, 't)9='), (1, 't(j4'), (1, 't(9E'), (1, "t'WV"), (1, 't&j'), (1, 't&h`!'), (1, 't&f=B'), (1, 't&Wj'), (1, 't%hh'), (1, 't%JJuVh'), (1, 't%9E'), (1, 't%8^lt 9^x'), (1, 't$f='), (1, 't$W3'), (1, 't$UW'), (1, 't$Sh8$'), (1, 't$<j'), (1, 't$9n'), (1, 't$4VW'), (1, 't$$VSS'), (1, 't$$S'), (1, 't$ V'), (1, 't$ U'), (1, 't$ 3'), (1, 't#Vjd'), (1, 't#SSUP'), (1, 't#S+'), (1, 't#QQ'), (1, 't"Wj'), (1, 't"Vh'), (1, 't!Sh'), (1, 't!PSV'), (1, 't!Ht'), (1, 't j|V'), (1, 't f='), (1, 't Sh'), (1, 't IIt'), (1, 't =b'), (1, 't\tVP'), (1, 't\tPW'), (1, 't\tJJt'), (1, 't\t9}'), (1, 't\t9^'), (1, 'system32'), (1, 'svcpack1.dll'), (1, 'suqwptd&'), (1, 'strtoul'), (1, 'strstr'), (1, 'strspn'), (1, 'strcspn'), (1, 'spuninst.pdb'), (1, 'spuninst.log'), (1, 'spuninst.inf'), (1, 'spuninst'), (1, 'sjJY3'), (1, 'sfc.dll'), (1, 'sdbfu'), (1, 'sdbft!9'), (1, 'sBQQh'), (1, 's<8]'), (1, 's"95'), (1, 's Vh'), (1, 'r~f='), (1, 'rtff'), (1, 'rnf=p'), (1, 'rec 00dct'), (1, 'rec 00dcr'), (1, 'rec 00dc^'), (1, 'rec 00dc\\'), (1, 'rec 00dcV'), (1, 'rec 00dc8'), (1, 'rec 00dc*'), (1, 'r^f=Z'), (1, 'rNf='), (1, 'r@f=*'), (1, 'r0f=J'), (1, 'r*w%'), (1, 'r"h@'), (1, 'r f='), (1, 'qt8f'), (1, 'qsort'), (1, 'qVWj'), (1, 'pu.SW'), (1, 'psapi.dll'), (1, 'printf'), (1, 'ph *'), (1, 'pSetupVerifyCatalogFile'), (1, 'pSetupStringTableLookUpString'), (1, 'pSetupStringTableInitialize'), (1, 'pSetupStringTableEnum'), (1, 'pSetupStringTableDestroy'), (1, 'pSetupStringTableAddString'), (1, 'pSetupSetQueueFlags'), (1, 'pSetupSetGlobalFlags'), (1, 'pSetupInstallCatalog'), (1, 'pSetupGetQueueFlags'), (1, 'pSetupGetGlobalFlags'), (1, 'pSetupGetFileTitle'), (1, 'pRich;'), (1, 'p WV'), (1, 'ntldr'), (1, 'ntdetect.com'), (1, 'nqlml7'), (1, 'newdev.dll'), (1, 'netdde.ini'), (1, 'name="Microsoft.Windows.Setup.IncompatibleWarning"'), (1, 'name="Microsoft.Windows.AppHelpUI"'), (1, "n',,,,,"), (1, 'moviLIST'), (1, 'movi00dc('), (1, 'mouse_event'), (1, 'mes run better and more reliably.'), (1, 'mbstowcs'), (1, 'malloc'), (1, "mA'9A"), (1, 'm93WtX'), (1, 'lstrcpynA'), (1, 'lstrcmpiA'), (1, 'lstrcmpA'), (1, 'lstrcatA'), (1, 'lnkstub.pdb'), (1, 'ljZYSS3'), (1, 'lineRemoveProvider'), (1, 'lineAddProviderW'), (1, 'l?&!'), (1, 'l$$t:WP'), (1, 'l$ t'), (1, 'kernel32.DLL'), (1, "kU'9"), (1, 'k?%PH'), (1, 'jxY9M'), (1, 'jtjtjsV'), (1, 'jtj@'), (1, 'jsjtjsV'), (1, 'jph@+'), (1, 'jph0'), (1, 'joVf'), (1, 'jlhx%'), (1, 'jhsd'), (1, 'jdSVh'), (1, 'jZY3'), (1, 'jTj@'), (1, 'jPj@'), (1, 'jLj@'), (1, 'jJY3'), (1, 'j=Y3'), (1, 'j7X_^['), (1, 'j4hx'), (1, 'j4h0'), (1, 'j2X_^'), (1, 'j1WV'), (1, 'j0j0h6'), (1, 'j0j&j#'), (1, 'j0j$j#'), (1, 'j,hH'), (1, 'j(h@'), (1, "j'WWWWWV"), (1, 'j$h@'), (1, 'j$h'), (1, 'j hxE'), (1, 'j hh'), (1, "j h`'"), (1, 'j h8E'), (1, 'j h'), (1, 'j [t#'), (1, 'j [9]'), (1, 'j Y;'), (1, 'j Wh'), (1, 'j\tYV'), (1, 'j\tYSS3'), (1, 'j\tXO'), (1, 'iswctype'), (1, 'ipsec6.pdb'), (1, 'index 0x%x(0x%x) was not found in the index table'), (1, 'imapi.pdb'), (1, 'iah~M'), (1, 'hotfix'), (1, 'hlLNFw'), (1, 'hjhstV'), (1, 'hjhst'), (1, 'hjhssV'), (1, 'hjhsd'), (1, 'hh secedit.chm'), (1, 'hZIPCD 650 USB'), (1, 'hSVWj'), (1, 'hSSSh'), (1, 'getnameinfo'), (1, 'getaddrinfo'), (1, 'gdi32.DLL'), (1, 'g=(#U*'), (1, 'fwprintf'), (1, 'freeaddrinfo'), (1, 'free'), (1, 'fgetwc'), (1, 'ffill6'), (1, 'f=p'), (1, 'f;L$'), (1, 'f9\\$('), (1, 'f9D$'), (1, 'f97u!'), (1, 'f90u\t9u'), (1, 'f90u'), (1, 'essaging utilities"'), (1, 'empty.cat'), (1, 'e]t_5'), (1, 'e+000'), (1, 'dpnsvr.pdb'), (1, 'ddeshare.pdb'), (1, 'dddd, MMMM dd, yyyy'), (1, 'dSh`'), (1, 'dRichM'), (1, 'd:\\xpclient\\windows\\appcompat\\sdbapi\\sdbapi.c'), (1, 'd:\\xpclient\\windows\\appcompat\\sdbapi\\dbaccess.c'), (1, 'ctP;'), (1, 'crypt32.dll'), (1, 'config.dmp'), (1, 'cleanjpm.exe'), (1, "ch5'"), (1, 'btFHt+'), (1, 'atoi'), (1, 'arNf'), (1, 'ahui.pdb'), (1, '`t&-'), (1, "`@V'"), (1, '_vsnprintf'), (1, '_ui64tow'), (1, '_strnicmp'), (1, '_strlwr'), (1, '_stricmp'), (1, '_strdup'), (1, '_strcmpi'), (1, '_snwprintf'), (1, '_snprintf'), (1, '_onexit'), (1, '_mbsnbicmp'), (1, '_mbsnbcmp'), (1, '_mbslwr'), (1, '_mbsinc'), (1, '_mbsicmp'), (1, '_mbscpy'), (1, '_mbscmp'), (1, '_itoa'), (1, '_iob'), (1, '_abnormal_termination'), (1, '__winitenv'), (1, '__wgetmainargs'), (1, '__dllonexit'), (1, '____Y'), (1, '_^]t'), (1, '_^][t'), (1, '_^[t&'), (1, '_^[3'), (1, '_^YY'), (1, '_][^Y'), (1, '_][^'), (1, '_UPDATE_EXE_QUIET_MODE'), (1, '_SPL^['), (1, '_SPEt'), (1, '_SOB'), (1, '_SFX_CAB_SHUTDOWN_REQUEST'), (1, '_REG^'), (1, '_HFM_EXE_PATH'), (1, '_CCEHu'), (1, '_BB@'), (1, '_@^]'), (1, '_%06d%_.tmp'), (1, '^_[]'), (1, '^[_]'), (1, '^P+^HK'), (1, '^L^3'), (1, '^@[]'), (1, '^,tvHt^HtBHt(H'), (1, '^,S3'), (1, ']|VW'), (1, ']tWt&'), (1, ']j%P'), (1, ']_^3'), (1, ']A\t?'), (1, ']0<<K'), (1, '\\ugcsm.exe'), (1, '\\u,j'), (1, '\\spuninst'), (1, '\\netdde.log'), (1, '\\\\\\\\V'), (1, '\\F8{2'), (1, '\\AppPatch'), (1, '\\*.*'), (1, '\\$ j'), (1, '[u/V'), (1, '[tom'), (1, '[]<>\'*$|:?";,%'), (1, '[9]$t'), (1, '[%-4hs]'), (1, '[%-20hs]'), (1, 'ZIPCD 650'), (1, 'ZIPCD 4x650'), (1, 'ZIPCD'), (1, 'YvyWh'), (1, 'YvdSh'), (1, 'YuFh4'), (1, 'Yu2f'), (1, 'Yu&h'), (1, 'Yt^3'), (1, 'Yt7Wj'), (1, 'Yt1j&Y3'), (1, 'Yt1;'), (1, 'Yt)Wj'), (1, 'Yt$3'), (1, 'Yt!V'), (1, 'You can even insert and remove certain devices while Windows 95 is running.'), (1, 'Yh8H'), (1, 'Yh1D'), (1, 'Y^[_'), (1, 'YYuz'), (1, 'YYuw!E`'), (1, 'YYuv!E`'), (1, 'YYuZ!E'), (1, 'YYuW!E`'), (1, 'YYuU!E'), (1, 'YYuPWj'), (1, 'YYuA'), (1, 'YYu=Wj'), (1, 'YYu99E'), (1, 'YYu4!E'), (1, 'YYu1!E`'), (1, 'YYu/!E'), (1, 'YYu.h'), (1, 'YYu+C;]'), (1, 'YYu+!E'), (1, 'YYu&9E'), (1, 'YYu\tVW'), (1, 'YYt~Sj'), (1, 'YYtoj'), (1, 'YYtZh'), (1, 'YYt4'), (1, 'YYt0V'), (1, 'YYt.'), (1, 'YYt-V'), (1, 'YYt!'), (1, 'YYt\tVW'), (1, 'YYh<5'), (1, 'YY_^]['), (1, 'YYUj'), (1, 'YYSj@'), (1, 'YYSh'), (1, 'YF;5`'), (1, 'YF;5'), (1, 'Y@_^[]'), (1, 'Y@_^'), (1, 'Y@^_['), (1, 'Xhc='), (1, 'XPVj'), (1, 'X@IU*'), (1, 'Wt*f90t%'), (1, 'Wrong key type 0x%lx'), (1, 'Wrong database type - value type 0x%lx'), (1, 'WriteProcessMemory'), (1, 'WriteConsoleW'), (1, 'WorkingDirectory'), (1, 'Working directory:  %s'), (1, 'WjdY3'), (1, 'WjZY3'), (1, 'WjAY3'), (1, 'Wj0S'), (1, 'Wj h'), (1, 'Wizard Creation Failed %u'), (1, 'Windows IMAPI ISO-9660 Formatter (C) 2001 Adaptec & Microsoft'), (1, 'Windows 95 has been improvedLISTB$'), (1, 'Windows 95 automatically sets up Plug and Play-compatible devices (such as printers, CD-ROM drives, modems, and video and sound cards).'), (1, 'WinVerifyTrust'), (1, 'WinStationShadow'), (1, 'WinStationQueryInformationW'), (1, 'WinStationGetProcessSid'), (1, 'WinStationConnectW'), (1, 'Whx!'), (1, 'WhH6'), (1, 'Wh@Y'), (1, 'Wh0X'), (1, 'Wh08'), (1, 'Wh0'), (1, 'Wednesday'), (1, 'Warn'), (1, 'WaitForMultipleObjects'), (1, 'WWj1'), (1, 'WWWj'), (1, 'WWWWWWh'), (1, 'WVjK'), (1, 'WVjG'), (1, 'WVj8'), (1, 'WVj0'), (1, 'WTSSendMessageW'), (1, 'WTSQuerySessionInformationW'), (1, 'WTSLogoffSession'), (1, 'WTSFreeMemory'), (1, 'WTSEnumerateSessionsW'), (1, 'WTSDisconnectSession'), (1, 'WTSAPI32.dll'), (1, 'WTHelperProvDataFromStateData'), (1, 'WTHelperGetProvSignerFromChain'), (1, 'WTHelperGetProvCertFromChain'), (1, 'WSj0'), (1, 'WSj)'), (1, 'WSAAddressToStringA'), (1, 'WINTRUST.dll'), (1, 'WINSTA.dll'), (1, 'WFP_IDLE_TRIGGER'), (1, 'VuQf'), (1, 'Vu 9'), (1, 'VtZWh'), (1, 'Vjdj'), (1, 'VirtualAllocEx'), (1, 'Vh[u'), (1, 'VhP#'), (1, 'VhD"'), (1, 'VhBj'), (1, "VhB'"), (1, 'Vh<V'), (1, "VersionIndependentProgID = s 'IMAPI.MSEnumDiscRecordersObj'"), (1, "VersionIndependentProgID = s 'IMAPI.MSDiscStashObj'"), (1, "VersionIndependentProgID = s 'IMAPI.MSDiscRecorderObj'"), (1, "VersionIndependentProgID = s 'IMAPI.MSDiscMasterObj'"), (1, "VersionIndependentProgID = s 'IMAPI.MSBurnEngineObj'"), (1, 'Version'), (1, 'VerifyCatalogFile'), (1, 'VerQueryValueA'), (1, 'VW~M'), (1, 'VWuZj'), (1, 'VWt?j'), (1, 'VWt,'), (1, 'VWt%'), (1, 'VWsR'), (1, 'VWj|Y3'), (1, 'VWjT'), (1, 'VWjE'), (1, 'VWjC'), (1, 'VWj8'), (1, 'VWj6'), (1, 'VWj,'), (1, 'VWj$'), (1, 'VWj!Y3'), (1, 'VWj Y'), (1, 'VWhP'), (1, 'VWWW'), (1, 'VVh'), (1, 'VVVj'), (1, 'VVVh8'), (1, 'VVVh'), (1, 'VVVVVVh'), (1, 'VSjI'), (1, 'VSj.'), (1, 'VSj*'), (1, "VSj'"), (1, 'VSh<'), (1, 'VSWt'), (1, 'VSWj'), (1, 'VSUSh'), (1, 'VREG'), (1, "VPh$'"), (1, 'VPRQ'), (1, 'VPPP'), (1, 'VDMTerminateTaskWOW'), (1, 'VDMEnumTaskWOWEx'), (1, 'V>>>'), (1, 'V0RP'), (1, 'U|RP'), (1, 'User'), (1, 'UrlUnescapeW'), (1, 'UrlEscapeW'), (1, 'Updating Date for %s, Driver = %s, MfgName = %s from %s'), (1, 'UpdateDriverForPlugAndPlayDevicesA'), (1, 'Unsuccessful. Status: 0x%x.'), (1, 'UnregisterTraceGuids'), (1, 'UnregisterDeviceNotification'), (1, 'UnregisterClassW'), (1, 'Uninstalling assembly failed'), (1, 'Uninstalling %s assembly'), (1, 'UninstallationType'), (1, 'UninstallString'), (1, 'Uninstall Failure %u'), (1, 'Unexpected value type 0x%x for Key "%s".'), (1, 'Unable to open main database sysmain.sdb.'), (1, 'Unable to open local database "%s".'), (1, 'UnRegisterTypeLib'), (1, 'UnInstallLogFileName'), (1, 'UjjV'), (1, 'UjhV'), (1, 'UjfV'), (1, 'UjeV'), (1, 'Uj SV'), (1, 'UhRWP'), (1, 'Uh8$'), (1, 'U\\RP'), (1, 'UVWh'), (1, 'UUhp'), (1, 'UUhk'), (1, 'UUUj'), (1, 'UTt('), (1, 'UTILDLL.dll'), (1, 'USERENV.dll'), (1, 'UDRj'), (1, 'U>c{'), (1, 'U0Rh($'), (1, 'U$RWP'), (1, 'Tuesday'), (1, 'Trying to read mapped data past the end of the database offset 0x%x size 0x%x'), (1, 'Trying to operate on non-list, non-root tag.'), (1, 'TrackPopupMenuEx'), (1, 'TraceMessage'), (1, 'Too many indexes in file. Recompile and increase MAX_INDEXES.'), (1, 'Too many index entries for tag %04x, key %04x.'), (1, 'TlsSetValue'), (1, 'TlsGetValue'), (1, 'TlsFree'), (1, 'TlsAlloc'), (1, 'TileWindows'), (1, 'Thursday'), (1, 'This is not an apphelp entry tiExe 0x%x.'), (1, 'This is not a list tag.'), (1, 'The tag 0x%lx was not found under tag 0x%lx'), (1, 'The tag 0x%lx is not an index tag'), (1, 'TerminateThread'), (1, 'TerminateProcess'), (1, 'TargetFromSection'), (1, 'TagID 0x%X, Tag 0x%X not of the expected type.'), (1, 'TagID 0x%08X, Tag %04X not STRINGREF type.'), (1, 'TagID 0x%08X, Tag %04X not BINARY type.'), (1, 'TUNNEL'), (1, 'TTTTT9'), (1, 'TTTT'), (1, 'TRANSPORT'), (1, 'System\\Setup'), (1, 'System\\CurrentControlSet\\Control\\Windows'), (1, 'System\\CurrentControlSet\\Control\\Session Manager'), (1, 'SystemTimeToFileTime'), (1, 'SystemRoot\\apppatch.restore.files'), (1, 'SystemParametersInfoW'), (1, 'SystemComponent'), (1, 'SxsUninstallW'), (1, 'SxsInstallW'), (1, 'SwitchToThisWindow'), (1, 'Sunday'), (1, 'SunMonTueWedThuFriSat'), (1, 'Su\tV'), (1, 'Strings'), (1, 'StringTableEnum'), (1, 'StrStrIW'), (1, 'StrFormatByteSizeW'), (1, 'Starting process:  %s'), (1, 'Starting Registry updates'), (1, 'StartServiceCtrlDispatcherW'), (1, 'St9+'), (1, 'SrcPort'), (1, 'SrcIPAddr'), (1, 'SourcePath'), (1, 'Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall'), (1, 'Software\\Microsoft\\Windows\\CurrentVersion\\Setup'), (1, 'Software\\Microsoft\\NetDDE\\Parameters'), (1, 'Software\\Microsoft\\Internet Explorer'), (1, 'SnapShot.Install'), (1, 'SjrV'), (1, 'SjqU'), (1, 'SjpV'), (1, 'SjoV'), (1, 'SjhW'), (1, 'SjeV'), (1, 'Sjd3'), (1, 'Sj@j'), (1, 'Sj,hPU'), (1, 'Sj!j'), (1, 'SizeofResource'), (1, 'ShowWindowAsync'), (1, 'ShimExceptionHandler'), (1, 'Shim Exception %#x in module "%hs", line %d, at address %#p. flags:%#x. !exr %#p !cxr %#p'), (1, 'Shh1'), (1, 'Shell_NotifyIconW'), (1, "ShD'"), (1, "ShC'"), (1, "Sh4'"), (1, "Sh1'"), (1, 'Sh07'), (1, "Sh/'"), (1, 'Sh(0'), (1, 'SetupScanFileQueueA'), (1, 'SetupPromptForDiskA'), (1, 'SetupOpenInfFileA'), (1, 'SetupOpenFileQueue'), (1, 'SetupInstallFromInfSectionA'), (1, 'SetupInstallFilesFromInfSectionA'), (1, 'SetupInitDefaultQueueCallbackEx'), (1, 'SetupGetTargetPathA'), (1, 'SetupGetStringFieldA'), (1, 'SetupGetSourceInfoA'), (1, 'SetupGetSourceFileLocationA'), (1, 'SetupGetLineTextA'), (1, 'SetupGetLineCountA'), (1, 'SetupGetLineByIndexA'), (1, 'SetupGetIntField'), (1, 'SetupGetFieldCount'), (1, 'SetupGetBinaryField'), (1, 'SetupFindNextLine'), (1, 'SetupFindFirstLineA'), (1, 'SetupDiSetDeviceInstallParamsA'), (1, 'SetupDiOpenDevRegKey'), (1, 'SetupDiGetDriverInfoDetailA'), (1, 'SetupDiGetDriverInfoDetail failed for %s inf file %s error 0x%lx'), (1, 'SetupDiGetDeviceRegistryPropertyA'), (1, 'SetupDiGetDeviceInterfaceDetailW'), (1, 'SetupDiGetDeviceInstanceIdA'), (1, 'SetupDiGetDeviceInstallParamsA'), (1, 'SetupDiGetDeviceInstallParams failed for %s with error 0x%lx'), (1, 'SetupDiGetClassDevsW'), (1, 'SetupDiGetClassDevsA'), (1, 'SetupDiGetClassDevs failed with error 0x%lx'), (1, 'SetupDiEnumDriverInfoA'), (1, 'SetupDiEnumDeviceInterfaces'), (1, 'SetupDiEnumDeviceInfo'), (1, 'SetupDiDestroyDriverInfoList'), (1, 'SetupDiDestroyDeviceInfoList'), (1, 'SetupDiBuildDriverInfoList'), (1, 'SetupDeleteErrorA'), (1, 'SetupDefaultQueueCallbackW'), (1, 'SetupDefaultQueueCallbackA'), (1, 'SetupDecompressOrCopyFileA'), (1, 'SetupCopyOEMInfA'), (1, 'SetupCopyErrorA'), (1, 'SetupCommitFileQueueA'), (1, 'SetupApi.DLL'), (1, 'Setting Registry DriverDateData failed for %s with error 0x%lx'), (1, 'Setting Registry DriverDate failed for %s with error 0x%lx'), (1, 'SetWindowLongA'), (1, 'SetTimer'), (1, 'SetThreadLocale'), (1, 'SetThreadDesktop'), (1, 'SetTextColor'), (1, 'SetServiceStatus'), (1, 'SetSecurityDescriptorDacl'), (1, 'SetSecurityDescriptorControl'), (1, 'SetScrollPos'), (1, 'SetScrollInfo'), (1, 'SetRectRgn'), (1, 'SetRect'), (1, 'SetProcessWindowStation'), (1, 'SetProcessShutdownParameters'), (1, 'SetProcessAffinityMask'), (1, 'SetPriorityClass'), (1, 'SetNamedSecurityInfoA'), (1, 'SetMenuItemInfoW'), (1, 'SetMenuDefaultItem'), (1, 'SetMenu'), (1, 'SetLayout'), (1, 'SetFileSecurityA'), (1, 'SetErrorMode'), (1, 'SetEnvironmentVariableA'), (1, 'SetDlgItemTextA'), (1, 'SetDlgItemInt'), (1, 'SetCursor'), (1, 'SetCurrentDirectoryW'), (1, 'SetCurrentDirectoryA'), (1, 'SetConsoleCtrlHandler'), (1, 'SetClassLongA'), (1, 'SetBkMode'), (1, 'ServicePackFiles\\nec98'), (1, 'ServicePackFiles\\ia64'), (1, 'ServicePackFiles\\i386'), (1, 'ServicePackFiles'), (1, 'September'), (1, 'SendMessageTimeoutW'), (1, 'SendMessageA'), (1, 'Self-extractor will reboot the system.'), (1, 'SedDiscretionaryAclEditor'), (1, 'Security Policy List'), (1, 'Security Association List'), (1, 'SecPolicyIndex'), (1, 'SecEdit.pdb'), (1, 'SearchPathW'), (1, 'SdbpWriteTagData'), (1, 'SdbpWriteBufferedData'), (1, 'SdbpUnmapFile'), (1, 'SdbpSortIndex'), (1, 'SdbpScanIndexes'), (1, 'SdbpResetStackOverflow'), (1, 'SdbpReadTagData'), (1, 'SdbpReadStringRef'), (1, 'SdbpReadMappedData'), (1, 'SdbpOpenFile'), (1, 'SdbpOpenAndMapDB'), (1, 'SdbpMapFile'), (1, 'SdbpGetTagHeadSize'), (1, 'SdbpGetStandardDatabasePath'), (1, 'SdbpGetProcessorArchitecture'), (1, 'SdbpGetNextTagId'), (1, 'SdbpGetNextIndexedRecord'), (1, 'SdbpGetMappedTagData'), (1, 'SdbpGetMappedStringFromTable'), (1, 'SdbpGetMappedData'), (1, 'SdbpGetFirstIndexedRecord'), (1, 'SdbpGetFileSize'), (1, 'SdbpFindMatchingDWORD'), (1, 'SdbpDeleteFile'), (1, 'SdbpBuildUserKeyPath'), (1, 'SdbWriteRawData'), (1, 'SdbTagRefToTagID'), (1, 'SdbTagIDToTagRef'), (1, 'SdbSetEntryFlags'), (1, 'SdbResolveDatabase'), (1, 'SdbReadStringTag'), (1, 'SdbReadBinaryTag'), (1, 'SdbReadApphelpDetailsData'), (1, 'SdbReadApphelpData'), (1, 'SdbOpenLocalDatabase'), (1, 'SdbOpenDatbase'), (1, 'SdbOpenDatabase'), (1, 'SdbOpenApphelpDetailsDatabase'), (1, 'SdbMakeIndexKeyFromString'), (1, 'SdbInitDatabase'), (1, 'SdbGetTagFromTagID'), (1, 'SdbGetTagDataSize'), (1, 'SdbGetNextChild'), (1, 'SdbGetIndex'), (1, 'SdbGetFirstChild'), (1, 'SdbGetEntryFlags'), (1, 'SdbGetDatabaseID'), (1, 'SdbGetDatabaseGUID'), (1, 'SdbFindNextTag'), (1, 'SdbFindFirstDWORDIndexedTag'), (1, 'SdbEscapeApphelpURL'), (1, 'SdbEndWriteListTag'), (1, 'SdbCreateUserKeyPath'), (1, 'SdbCloseDatabase'), (1, 'SdbBeginWriteListTag'), (1, 'SceSetupGenerateTemplate'), (1, 'SceRegisterRegValues'), (1, 'SceOpenProfile'), (1, 'SceIsSystemDatabase'), (1, 'SceGetSecurityProfileInfo'), (1, 'SceFreeMemory'), (1, 'SceConfigureSystem'), (1, 'SceCloseProfile'), (1, 'SceBrowseDatabaseTable'), (1, 'SceAnalyzeSystem'), (1, 'Saturday'), (1, 'SYSTEM\\Select'), (1, 'SXS.DLL'), (1, 'SWt@VVVj'), (1, 'SWj$'), (1, 'SWj'), (1, 'SWWj'), (1, 'SWVh'), (1, 'SWVP'), (1, 'SVj<'), (1, 'SVhx'), (1, 'SVh`'), (1, 'SVhH'), (1, 'SVh'), (1, 'SVWj ^'), (1, 'SVWj\tYj'), (1, 'SVCPACK1.DLL'), (1, 'SUj4'), (1, 'SUVWh'), (1, 'SUPPRESS'), (1, 'SSjdV'), (1, 'SSj1'), (1, 'SShp'), (1, 'SShk'), (1, 'SShh'), (1, 'SSh2'), (1, 'SSVP'), (1, 'SSSj'), (1, 'SSSSj}'), (1, 'SSSSjh'), (1, 'SSSSjg'), (1, 'SSSSj'), (1, 'SSSSSS'), (1, 'SSS+'), (1, 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\policies\\system'), (1, 'SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon'), (1, 'SHGetSpecialFolderPathA'), (1, 'SFC.DLL'), (1, 'SF<%'), (1, 'SAEntry'), (1, 'SADestIPAddr'), (1, 'SABundleIndex'), (1, 'S@PS'), (1, 'S;uD'), (1, 'RtlUpcaseUnicodeToMultiByteN failed on "%s" status 0x%x.'), (1, 'RtlUpcaseUnicodeToMultiByteN'), (1, 'RtlUnicodeStringToInteger'), (1, 'RtlTimeToElapsedTimeFields'), (1, 'RtlStringFromGUID'), (1, 'RtlQueryEnvironmentVariable_U'), (1, 'RtlLargeIntegerToChar'), (1, 'RtlInitUnicodeString'), (1, 'RtlGUIDFromString'), (1, 'RtlFreeUnicodeString'), (1, 'RtlFreeHeap'), (1, 'RtlFormatCurrentUserKeyPath'), (1, 'RtlExpandEnvironmentStrings_U'), (1, 'RtlDosPathNameToNtPathName_U failed, path "%s"'), (1, 'RtlDosPathNameToNtPathName_U'), (1, 'RtlDoesFileExists_U'), (1, 'RtlCreateUnicodeString'), (1, 'RtlCharToInteger'), (1, 'RtlAppendUnicodeToString'), (1, 'RtlAppendUnicodeStringToString'), (1, 'RtlAnsiStringToUnicodeString'), (1, 'RtlAllocateHeap'), (1, 'Rt`f'), (1, 'Root child tag is not index tagid 0x%lx'), (1, 'Rnoj'), (1, 'RichBm'), (1, 'Rich8{2'), (1, 'Rich/'), (1, "Rich'"), (1, 'Return Code = %u'), (1, 'RestoreFiles.NoDelay'), (1, 'RestoreFiles'), (1, 'ResetEvent'), (1, 'ReportEventA'), (1, 'RemoveMenu'), (1, 'RemoveDirectoryA'), (1, 'RemotePort'), (1, 'RemoteIPAddr'), (1, 'RemoteGWIPAddr'), (1, 'ReleaseSemaphore'), (1, 'ReleaseDC'), (1, 'RegisterWindowMessageW'), (1, 'RegisterTraceGuidsW'), (1, 'RegisterServiceCtrlHandlerW'), (1, 'RegisterEventSourceA'), (1, 'RegisterDeviceNotificationW'), (1, 'RegisterClassExW'), (1, 'RegSetValueExA'), (1, 'RegRestoreKeyA'), (1, 'RegQueryInfoKeyW'), (1, 'RegQueryInfoKeyA'), (1, 'RegOpenKeyA'), (1, 'RegEnumValueW'), (1, 'RegEnumKeyExA'), (1, 'RegEnumKeyA'), (1, 'RegDeleteValueW'), (1, 'RegDeleteValueA'), (1, 'RegDeleteKeyA'), (1, 'Reg.Restore.Values'), (1, 'Reg.Restore.Keys'), (1, 'Reg.Delete.Values'), (1, 'Reg.Delete.Keys'), (1, 'Rectangle'), (1, 'Reading under hack from older database'), (1, 'Reading from unfinished list.'), (1, 'RaiseException'), (1, 'RVVVP'), (1, 'RVVV'), (1, 'RQQQQ'), (1, 'RQQQ'), (1, 'RQPPPPPPhx'), (1, 'RQPPPPPPhv'), (1, 'RPh8J'), (1, 'RPQS'), (1, 'READDATATAG'), (1, 'R9Cw'), (1, 'R,F;'), (1, 'QueryAppCompatFlagsByExeID'), (1, 'Qt2f'), (1, 'Qj<P'), (1, 'Qh@V'), (1, 'Qh($'), (1, 'QWWW'), (1, 'QWPhe'), (1, 'QVWj'), (1, 'QVVj'), (1, 'QVVVV'), (1, 'QUVW'), (1, 'QSVWjdX3'), (1, 'QSVWj'), (1, 'QSVWh'), (1, 'QSUVW'), (1, 'QSUV'), (1, 'QSSPW3'), (1, 'QSSPSS'), (1, 'QSPSSS'), (1, 'QRPhl'), (1, 'QRPhL'), (1, 'QRPh,'), (1, 'QQVW'), (1, 'QQV3'), (1, 'QQSVW3'), (1, 'QQQQP'), (1, 'QPhX$'), (1, 'QPWPh'), (1, 'QPVVVS'), (1, 'QPVVS'), (1, 'QPUh'), (1, 'QPRRRRRRhRM'), (1, 'QPPh'), (1, "P|'Wh+"), (1, 'Pulled out a non-stringtable item.'), (1, 'Pukh'), (1, 'Pt(h'), (1, 'ProviderName'), (1, 'Protocol'), (1, 'PropertySheetW'), (1, 'PropVariantClear'), (1, "ProgID = s 'IMAPI.MSEnumDiscRecordersObj.1'"), (1, "ProgID = s 'IMAPI.MSDiscStashObj.1'"), (1, "ProgID = s 'IMAPI.MSDiscRecorderObj.1'"), (1, "ProgID = s 'IMAPI.MSDiscMasterObj.1'"), (1, "ProgID = s 'IMAPI.MSBurnEngineObj.1'"), (1, 'ProductCatalogsToInstall.Delete.Files'), (1, 'ProductCatalogsToInstall'), (1, 'ProcessesToRunBeforeUninstall'), (1, 'ProcessesToRunAfterUninstall'), (1, 'ProcessIdToSessionId'), (1, 'Problem severity for tiExe 0x%x missing.'), (1, 'PostMessageA'), (1, 'Policy'), (1, 'Plug and Play'), (1, 'Pjej'), (1, 'Pj9Sh'), (1, 'Pj0WV'), (1, 'Pj(V'), (1, 'Ph|('), (1, 'Phx)'), (1, 'Pht#'), (1, 'Php%'), (1, 'Php$'), (1, 'Phj'), (1, 'Phhu'), (1, 'Phh'), (1, 'Phg'), (1, 'Phe'), (1, "Ph\\'"), (1, 'PhX('), (1, 'PhT&'), (1, 'PhP%'), (1, 'PhP!'), (1, 'Ph@!'), (1, 'Ph@'), (1, 'Ph<$'), (1, "Ph:'"), (1, 'Ph0+'), (1, "Ph.'"), (1, "Ph-'"), (1, "Ph)'"), (1, "Ph('"), (1, "Ph&'"), (1, "Ph%'"), (1, "Ph$'"), (1, 'Ph$&'), (1, "Ph!'"), (1, 'Ph D'), (1, 'Ph 9'), (1, 'PendingFileRenameOperations'), (1, 'PathIsRootW'), (1, 'PathIsDirectoryW'), (1, 'PathCanonicalizeW'), (1, 'Path is too long'), (1, 'PWr$'), (1, 'PWjF'), (1, 'PWj0'), (1, 'PWj/'), (1, 'PWj,'), (1, 'PWj&'), (1, 'PWj%'), (1, 'PWj$'), (1, 'PWj#'), (1, 'PWhp!'), (1, 'PWhP1'), (1, 'PWh@'), (1, 'PWh/'), (1, "PWh-'"), (1, "PWh)'"), (1, 'PWWh'), (1, 'PWWWU'), (1, 'PWWW'), (1, 'PWVjL'), (1, 'PWVjH'), (1, 'PWVj;'), (1, 'PWVh'), (1, 'PVj'), (1, 'PVhx0'), (1, 'PVhO_'), (1, 'PVhH*'), (1, 'PVh?'), (1, 'PVWjF'), (1, 'PVWjD'), (1, 'PVWj7'), (1, 'PVVVVVV'), (1, 'PVSjJ'), (1, 'PSj0'), (1, 'PSj-'), (1, 'PSj('), (1, "PSj'"), (1, 'PSj%'), (1, 'PSj$'), (1, 'PShd'), (1, 'PSha'), (1, 'PSh_'), (1, 'PSh]'), (1, 'PShWw'), (1, 'PShH('), (1, 'PSh?'), (1, 'PSh<('), (1, 'PSh0('), (1, 'PSh('), (1, 'PSVj='), (1, 'PSVh0'), (1, 'PSVh'), (1, 'PSUh'), (1, 'PSShp'), (1, 'PSSSSSSh'), (1, 'PSSSSSS'), (1, 'PSAPI.DLL'), (1, 'PRj)'), (1, 'PQPh('), (1, 'PPVPPW'), (1, 'PPPhG'), (1, 'PPPPh'), (1, 'PPPPPPh'), (1, 'PPPPPPPj'), (1, 'PPPPPPP'), (1, 'POPUP'), (1, 'POLICY'), (1, 'PFR Copy'), (1, 'PANEL6'), (1, 'PANEL5'), (1, 'P.SVW'), (1, 'P SV'), (1, 'P ;U'), (1, 'OsLoaderPath'), (1, 'Openn failed for layout.inf 0x%lx'), (1, 'OpenWindowStationW'), (1, 'OpenThreadToken'), (1, 'OpenSCManagerA'), (1, 'OpenIcon'), (1, 'OpenDesktopW'), (1, 'Of9]'), (1, 'October'), (1, 'OcTerminate'), (1, 'OcInitialize'), (1, 'OYYu'), (1, 'OUTBOUND'), (1, 'OS Loader V'), (1, 'OPQP'), (1, 'O(QP'), (1, 'O$+O'), (1, 'N|QP'), (1, 'NtWriteFile'), (1, 'NtUnmapViewOfSection failed Status 0x%x'), (1, 'NtUnmapViewOfSection'), (1, 'NtSetValueKey'), (1, 'NtServicePackVersionText'), (1, 'NtServicePackVersionFullText'), (1, 'NtServicePackVersion'), (1, 'NtServicePackPreviousVersionText'), (1, 'NtServicePackPreviousVersion'), (1, 'NtServicePack'), (1, 'NtQueryVirtualMemory failed on stack commit base 0x%x Status 0x%x'), (1, 'NtQueryVirtualMemory failed on stack base 0x%x Status 0x%x'), (1, 'NtQueryVirtualMemory failed on stack 0x%x Status 0x%x'), (1, 'NtQueryVirtualMemory'), (1, 'NtQueryValueKey'), (1, 'NtQuerySystemInformation failed Status 0x%x'), (1, 'NtQueryInformationFile (EOF) failed Status = 0x%x'), (1, 'NtQueryInformationFile'), (1, 'NtQueryAttributesFile'), (1, 'NtProtectVirtualMemory on 0x%x failed Status 0x%x'), (1, 'NtProtectVirtualMemory'), (1, 'NtPowerInformation'), (1, 'NtOpenThread'), (1, 'NtOpenProcessToken'), (1, 'NtOpenKey'), (1, 'NtMapViewOfSection failed Status 0x%x'), (1, 'NtMapViewOfSection'), (1, 'NtInitiatePowerAction'), (1, 'NtFreeVirtualMemory on 0x%x failed Status 0x%x'), (1, 'NtFreeVirtualMemory'), (1, 'NtDeleteFile'), (1, 'NtCreateSection failed Status 0x%x'), (1, 'NtCreateSection'), (1, 'NtCreateKey failed for "%s" Status 0x%x'), (1, 'NtCreateKey'), (1, 'NtCreateFile failed status 0x%x'), (1, 'NtCreateFile'), (1, 'NtAllocateVirtualMemory on 0x%x failed Status 0x%x'), (1, 'NtAllocateVirtualMemory'), (1, 'NtAdjustPrivilegesToken'), (1, 'NpQP'), (1, 'November'), (1, 'Not enough storage to escape URL "%S" need %ld got %ld'), (1, 'Not an index.'), (1, 'NoRemove AppID'), (1, "NoRemove 'System'"), (1, "NoRemove 'Software'"), (1, "NoRemove 'Services'"), (1, "NoRemove 'Microsoft'"), (1, "NoRemove 'IMAPI'"), (1, "NoRemove 'CurrentControlSet'"), (1, 'No systest.sdb found.'), (1, 'No stringtable in DB.'), (1, 'No database is open'), (1, 'No Match found for %s with inf file %s'), (1, 'No Match found for  Driver = %s, MfgName = %s'), (1, 'NnC('), (1, 'NhGetInterfaceNameFromDeviceGuid'), (1, 'NetServerGetInfo'), (1, 'NetGetJoinInformation'), (1, 'NetDDE'), (1, 'Nd_^'), (1, 'NdQP'), (1, 'Na@W'), (1, 'Na W'), (1, 'NYYu'), (1, 'NULL pguidDB passed in.'), (1, 'NULL pdb passed in.'), (1, 'NULL'), (1, 'NONE'), (1, 'NOCANCEL'), (1, 'NO KEY'), (1, 'NL;O'), (1, 'NKeb'), (1, 'NETAPI32.dll'), (1, 'NEC PC-98'), (1, 'N4QP'), (1, 'N4;G`t'), (1, 'M|S3'), (1, 'MyGetFileTitle'), (1, 'Mp9=XN'), (1, 'MoveToEx'), (1, 'MoveFileExA'), (1, 'More powerful'), (1, 'MonitorFromRect'), (1, 'Monday'), (1, 'MhQ3'), (1, 'MessageBeep'), (1, 'March'), (1, 'MapWindowPoints'), (1, 'MapViewOfFileEx'), (1, 'MakeSelfRelativeSD'), (1, 'MajorVersion mismatch, MajorVersion 0x%lx Expected 0x%lx'), (1, 'Magic does not match 0x%lx'), (1, 'MWUP'), (1, 'MSWSOCK.dll'), (1, 'MSGINA.dll'), (1, 'MPQS'), (1, 'MM/dd/yy'), (1, 'MHo(^7XD'), (1, 'MHQP'), (1, 'M Q@P'), (1, 'LookupPrivilegeValueW'), (1, 'Look for the "Designed for Windows 95" logo on Plug and Play devices.'), (1, 'LogonType'), (1, 'LockWorkStation'), (1, 'LocalPort'), (1, 'LocalIPAddr'), (1, 'LoadStringA'), (1, 'LoadMenuW'), (1, 'LoadImageW'), (1, 'LoadIconA'), (1, 'LoadBitmapA'), (1, 'LinkItems.Create'), (1, 'LineTo'), (1, 'Less Than 11 Fields'), (1, 'LastKnownGood'), (1, 'LastGood.Tmp'), (1, 'LastGood'), (1, 'LIST~'), (1, 'LISTv$'), (1, 'LISTj'), (1, 'LISTh'), (1, 'LISTb'), (1, 'LISTD'), (1, 'LIST6'), (1, 'L$$QP'), (1, 'KillTimer'), (1, 'KeyFile'), (1, 'Kenu}Wj"Y3'), (1, 'KenuX'), (1, 'KeepTempFiles'), (1, 'KKKK'), (1, 'KHfgG'), (1, 'K FF@@9M'), (1, "Just plug it in and turn it on. That's how easy it is to install and use Plug and Play devices in Windows 95."), (1, 'June'), (1, 'July'), (1, 'January'), (1, 'JanFebMarAprMayJunJulAugSepOctNovDec'), (1, 'J\\u"'), (1, 'JXebH'), (1, 'ItNIt'), (1, 'IsZoomed'), (1, 'IsWindowVisible'), (1, 'IsWindow'), (1, 'IsValidSid'), (1, 'IsValidSecurityDescriptor'), (1, 'IsIconic'), (1, 'IsHungAppWindow'), (1, 'IsDialogMessageW'), (1, 'IsBadWritePtr'), (1, 'Invalid tagid 0x%lx'), (1, 'Invalid parameter.'), (1, 'Invalid argument.'), (1, 'Invalid argument'), (1, 'InternalGetWindowText'), (1, 'InterlockedCompareExchange'), (1, 'InterfaceIndex'), (1, 'Insufficient buffer to expand path'), (1, 'Insufficient buffer for the database path'), (1, 'InstallCatalog'), (1, 'InitiateSystemShutdownExA'), (1, 'InitiateSystemShutdownA'), (1, 'InitializeSecurityDescriptor'), (1, 'InitCommonControlsEx'), (1, 'InfSection'), (1, 'InfPath'), (1, 'Index referenced by 0x%x is not valid'), (1, 'Index missing TAG_INDEX_TAG.'), (1, 'Index missing TAG_INDEX_KEY.'), (1, 'Index missing TAG_INDEX_BITS.'), (1, 'ImageList_SetIconSize'), (1, 'ImageList_ReplaceIcon'), (1, 'ImageList_Remove'), (1, 'ImageList_Create'), (1, 'Ih !'), (1, 'Identifier'), (1, 'I_SystemFocusDialog'), (1, 'IPSecProtocol'), (1, 'IPSecMode'), (1, 'IOMEGA'), (1, 'INF\\layout.inf'), (1, 'INBOUND'), (1, "IMAPI.MSEnumDiscRecordersObj.1 = s 'Microsoft IMAPI Disc Recorder Enumerator'"), (1, "IMAPI.MSEnumDiscRecordersObj = s 'Microsoft IMAPI Disc Recorder Enumerator'"), (1, "IMAPI.MSDiscStashObj.1 = s 'Microsoft IMAPI Disc Stash'"), (1, "IMAPI.MSDiscStashObj = s 'Microsoft IMAPI Disc Stash'"), (1, "IMAPI.MSDiscRecorderObj.1 = s 'Microsoft IMAPI Disc Recorder'"), (1, "IMAPI.MSDiscRecorderObj = s 'Microsoft IMAPI Disc Recorder'"), (1, "IMAPI.MSDiscMasterObj.1 = s 'Microsoft IMAPI Disc Master'"), (1, "IMAPI.MSDiscMasterObj = s 'Microsoft IMAPI Disc Master'"), (1, "IMAPI.MSBurnEngineObj.1 = s 'Microsoft IMAPI Burn Engine'"), (1, "IMAPI.MSBurnEngineObj = s 'Microsoft IMAPI Burn Engine'"), (1, 'IEVersion'), (1, 'ICMP'), (1, 'HuY!u'), (1, 'Hu$Vh'), (1, 'Ht~+'), (1, 'Hto-'), (1, 'HtaHHt%H'), (1, 'Ht_Ht.'), (1, 'Ht]Ht*H'), (1, 'HtUHtRHt'), (1, 'HtRH'), (1, 'Ht@3'), (1, 'Ht7H'), (1, 'Ht*95'), (1, 'Ht(Ht'), (1, 'Ht\tj'), (1, 'High-quality multimedia performance will dazzle you.'), (1, 'HeapSize'), (1, 'HashFree'), (1, 'Hardware\\DESCRIPTION\\System'), (1, 'H_^['), (1, 'HVWj'), (1, 'HUV`'), (1, 'HTMLHELPID index in details database is not available.'), (1, 'HSVj'), (1, 'HMXB'), (1, 'HMAC-SHA1-96'), (1, 'HMAC-SHA1'), (1, 'HMAC-MD5-96'), (1, 'HMAC-MD5'), (1, 'HKEY_USERS'), (1, 'HKEY_ROOT'), (1, 'HKEY_LOCAL_MACHINE'), (1, 'HKEY_DYN_DATA'), (1, 'HKEY_CURRENT_USER'), (1, 'HKEY_CURRENT_CONFIG'), (1, 'HKEY_CLASSES_ROOT'), (1, 'HKDD'), (1, 'HKCU'), (1, 'HKCC'), (1, 'HHu&'), (1, 'HHtd'), (1, 'HHtZHHtV'), (1, 'HH:mm:ss'), (1, 'HF_G'), (1, 'H;L$'), (1, 'H9F$'), (1, 'Global\\{D8CF6BF0-3CFA-4e4c-BA39-40A1E7AFBCD7}'), (1, 'Global\\{A7B81E49-A7DD-4066-A970-E07C67D8DFB1}'), (1, 'Global\\{9F84FFA4-680E-48d8-9DBA-4AA8591AB8E3}'), (1, 'Global\\{733A46D6-B5DB-47e7-AE67-464577CD687C}'), (1, 'Global\\{23AD69B4-E81C-4292-ABD4-2EAF9A262E91}'), (1, 'Global\\{0CBA5850-FD98-4cf8-AC49-FC3ED287ACF1}'), (1, 'Global\\ServicePackOrHotfixUninstall'), (1, 'Global\\'), (1, 'GlobalRegistryChanges'), (1, 'GlobalDeleteAtom'), (1, 'GlobalAddAtomW'), (1, 'GinaDLL'), (1, 'GetWindowThreadProcessId'), (1, 'GetWindowTextLengthW'), (1, 'GetWindow'), (1, 'GetUserNameExW'), (1, 'GetUserDefaultUILanguage'), (1, 'GetTraceLoggerHandle'), (1, 'GetTraceEnableLevel'), (1, 'GetTraceEnableFlags'), (1, 'GetTokenInformation'), (1, 'GetThreadTimes'), (1, 'GetThreadLocale'), (1, 'GetThreadDesktop'), (1, 'GetTextMetricsW'), (1, 'GetTempPathW'), (1, 'GetSystemWow64DirectoryW'), (1, 'GetSystemTime'), (1, 'GetSystemMenu'), (1, 'GetSystemDefaultUILanguage'), (1, 'GetSysColor'), (1, 'GetSubMenu'), (1, 'GetStockObject'), (1, 'GetShortPathNameW'), (1, 'GetShellWindow'), (1, 'GetSecurityDescriptorLength'), (1, 'GetScrollInfo'), (1, 'GetProcessAffinityMask'), (1, 'GetPriorityClass'), (1, 'GetOverlappedResult'), (1, 'GetObjectA'), (1, 'GetNumberOfInterfaces'), (1, 'GetNumberFormatW'), (1, 'GetNodeClusterState'), (1, 'GetNamedSecurityInfoA'), (1, 'GetModuleFileNameExA'), (1, 'GetModuleBaseNameA'), (1, 'GetMenuItemInfoW'), (1, 'GetMenuItemCount'), (1, 'GetMenu'), (1, 'GetLocaleInfoW'), (1, 'GetLengthSid'), (1, 'GetKeyState'), (1, 'GetInterfaceInfo'), (1, 'GetIfEntry'), (1, 'GetGuiResources'), (1, 'GetFullPathNameA'), (1, 'GetForegroundWindow'), (1, 'GetFocus'), (1, 'GetFileVersionInfoSizeA'), (1, 'GetFileVersionInfoA'), (1, 'GetFileVersion of %s resulted in exception %d'), (1, 'GetFileSize'), (1, 'GetFileSecurityA'), (1, 'GetFileAttributesA'), (1, 'GetExitCodeThread'), (1, 'GetExitCodeProcess'), (1, 'GetEnvironmentVariableA'), (1, 'GetDlgItemTextW'), (1, 'GetDlgItemInt'), (1, 'GetDlgCtrlID'), (1, 'GetDiskFreeSpaceExW'), (1, 'GetDiskFreeSpaceA'), (1, 'GetDialogBaseUnits'), (1, 'GetDeviceCaps'), (1, 'GetDesktopWindow'), (1, 'GetDateFormatW'), (1, 'GetDC'), (1, 'GetCursorPos'), (1, 'GetCurrentThread'), (1, 'GetCurrentProcessId'), (1, 'GetCurrentObject'), (1, 'GetConsoleOutputCP'), (1, 'GetClientRect'), (1, 'GetClassLongW'), (1, 'GetClassInfoW'), (1, 'GetCharWidth32W'), (1, 'GetAsyncKeyState'), (1, 'General'), (1, 'G\\AN'), (1, 'GYGf'), (1, 'GWVh`*'), (1, 'GPWj'), (1, 'GGBBf'), (1, 'G;~tv'), (1, 'G;~dr'), (1, 'G;~\\r'), (1, 'G;~Xr'), (1, 'G;}'), (1, 'G;|$'), (1, 'G;>|'), (1, 'G,;F'), (1, 'G%- 2'), (1, 'G$h'), (1, 'G\tSP'), (1, 'FtASS'), (1, 'Friday'), (1, 'FreeSid'), (1, "ForceRemove {C49F2185-50A7-11D3-9144-00104BA11C5E} = s 'Microsoft IMAPI'"), (1, "ForceRemove {8A03567A-63CB-4BA8-BAF6-52119816D1EF} = s 'Microsoft IMAPI Disc Recorder Enumerator'"), (1, "ForceRemove {520CCA67-51A5-11D3-9144-00104BA11C5E} = s 'Microsoft IMAPI Burn Engine'"), (1, "ForceRemove {520CCA65-51A5-11D3-9144-00104BA11C5E} = s 'Microsoft IMAPI Disc Stash'"), (1, "ForceRemove {520CCA63-51A5-11D3-9144-00104BA11C5E} = s 'Microsoft IMAPI Disc Master'"), (1, "ForceRemove {520CCA61-51A5-11D3-9144-00104BA11C5E} = s 'Microsoft IMAPI Disc Recorder'"), (1, "ForceRemove 'ImapiService'"), (1, 'FindResourceW'), (1, 'FindResourceA'), (1, 'FindNextFileA'), (1, 'FindFirstFileW'), (1, 'FindFirstFileA'), (1, 'FillRgn'), (1, 'FillRect'), (1, 'Ff9u'), (1, 'February'), (1, 'Fd)E'), (1, 'Fatal Error'), (1, 'Failed trying to query value "%s" Status 0x%lx'), (1, 'Failed to write the data.'), (1, 'Failed to write stringtable item'), (1, 'Failed to write padding data 1 byte'), (1, 'Failed to write end list tag for the string table'), (1, 'Failed to write %d bytes to file. Status 0x%x'), (1, 'Failed to sort index.'), (1, 'Failed to set no back up'), (1, 'Failed to read value info from Key "%s" Status 0x%x'), (1, 'Failed to read database id 0x%lx'), (1, 'Failed to read a string.'), (1, 'Failed to query SectionName for %s with error 0x%lx'), (1, 'Failed to query ProviderName for %s with error 0x%lx'), (1, 'Failed to query MfgName for %s with error 0x%lx'), (1, 'Failed to query DrvDescription for %s with error 0x%lx'), (1, 'Failed to query DriverPath for %s with error 0x%lx'), (1, 'Failed to open the details database.'), (1, 'Failed to open the database "%s".'), (1, 'Failed to open file "%s"'), (1, 'Failed to open Key "%s" Status 0x%x'), (1, 'Failed to open Key "%s" Status 0x%lx'), (1, 'Failed to obtain system processor information 0x%lx'), (1, 'Failed to get the pointer to index data, index tagid 0x%lx'), (1, 'Failed to get the database id'), (1, 'Failed to get the child index from root'), (1, 'Failed to get the TAGID for TAGREF 0x%x.'), (1, 'Failed to get root tag'), (1, 'Failed to get pointer to the index data tagid x%lx'), (1, 'Failed to get DeviceInstallParams for single inf %s with error 0x%lx'), (1, 'Failed to format user key path for "%s"'), (1, 'Failed to format current user key path for "%s"'), (1, 'Failed to format current user key path 0x%x'), (1, 'Failed to find index 0x%lx key 0x%lx'), (1, 'Failed to find HTMLHELPID 0x%x in the details database.'), (1, 'Failed to delete the file "%s". Status 0x%x'), (1, 'Failed to create user key path for "%s"'), (1, 'Failed to copy local database name "%s"'), (1, 'Failed to convert guid to string status 0x%lx'), (1, 'Failed to convert GUID to string 0x%x'), (1, 'Failed to convert EXE id to string. status 0x%x.'), (1, 'Failed to convert DOS path "%s"'), (1, 'Failed to allocate %d bytes.'), (1, 'Failed to allocate %d bytes for user key buffer.'), (1, 'Failed to allocate %d bytes for HSDB'), (1, 'Failed to Build Driver list for %s with error 0x%lx'), (1, 'Failed To Set LKG Key'), (1, 'Failed To Create Link -3 %s'), (1, 'Failed To Create Link -2 %s'), (1, 'Failed To Create Link -1 %s'), (1, 'Failed NtSetValueKey status 0x%x'), (1, 'Failed Deleting %s  %u'), (1, 'Fail'), (1, 'F\\SS'), (1, 'F\\9n\\'), (1, 'FVQP'), (1, 'FOWP'), (1, 'FNB10'), (1, 'FLtS'), (1, 'FLWP'), (1, 'FH;GL'), (1, 'FFGG'), (1, 'FDWP'), (1, 'FDIDestroy'), (1, 'FDICreate'), (1, 'FDICopy'), (1, 'FD;GDt'), (1, 'FD;G@t'), (1, 'FCIFlushCabinet'), (1, 'FCIDestroy'), (1, 'FCICreate'), (1, 'FCIAddFile'), (1, 'FAIL'), (1, 'F@t<9~D'), (1, 'F@9E'), (1, 'F@8]'), (1, 'F<tN9~@u'), (1, 'F<W3'), (1, 'F<+E'), (1, 'F;wdr'), (1, 'F;sXr'), (1, 'F;5`'), (1, 'F;5 @'), (1, 'F9=P'), (1, 'F950V'), (1, 'F8_^['), (1, 'F8PWPh'), (1, 'F49E'), (1, 'F0u*'), (1, 'F,t9It'), (1, 'F,9F0t'), (1, 'F,98uX'), (1, 'F(9U'), (1, 'F$u.'), (1, 'F$9F(t'), (1, 'F tK'), (1, 'F _^'), (1, 'F Y3'), (1, 'F PS'), (1, 'Exu-'), (1, 'Exu#'), (1, 'ExpandEnvironmentStringsA'), (1, 'ExitWindowsEx'), (1, 'Ex_^['), (1, 'Ex@G'), (1, 'EventLogKeyName'), (1, 'EtPV'), (1, 'EtP3'), (1, 'Error reading tag.'), (1, 'Error reading tag data.'), (1, 'Error reading size data'), (1, 'Error reading data.'), (1, 'Error reading buffer.'), (1, 'Error getting ptr to tag data.'), (1, 'Error getting StringRef.'), (1, 'Error'), (1, 'EptLj'), (1, 'Ep^;'), (1, 'EpPj'), (1, 'Ep;Eh|'), (1, 'Ep;Eh'), (1, 'EnumWindows'), (1, 'EnumWindowStationsW'), (1, 'EnumProcesses'), (1, 'EnumProcessModules'), (1, 'EnumDesktopsW'), (1, 'EndTask'), (1, 'EndDeferWindowPos'), (1, 'EnableMenuItem'), (1, 'EmailRunOnce            = "Configure Microsoft Exchange"'), (1, 'El_^['), (1, 'ElPj'), (1, 'ElPh'), (1, 'ElC;'), (1, 'El+M'), (1, 'Eht1'), (1, 'EhPj'), (1, 'Ed|Z'), (1, 'EdPj'), (1, 'EcPVh8$'), (1, 'E\\9EHt=;E`'), (1, 'E\\+El'), (1, 'E\\+Edj'), (1, 'EXPW'), (1, 'EX+E`'), (1, 'ET;E0s'), (1, 'ESWUV'), (1, 'ERROR'), (1, 'ELPj'), (1, 'ELPf'), (1, 'EL TORITO SPECIFICATION'), (1, 'EHPh'), (1, 'EHPW'), (1, 'EHPSj'), (1, 'EDj$'), (1, 'ED@t^h'), (1, 'ED;ET~'), (1, 'E93uA'), (1, 'E8;EDt'), (1, 'E89EXs'), (1, 'E0h8'), (1, 'E0+E('), (1, 'E,PS'), (1, 'E,+E$P'), (1, "E'- :"), (1, 'E&- :'), (1, 'E$A9'), (1, 'E Pj'), (1, 'DriverDesc'), (1, 'DriverDateData'), (1, 'DriverDate'), (1, 'Driver DateData From Registry for %s failed with error 0x%lx'), (1, 'Driver DateData From Registry for %s = %s'), (1, 'Driver Date From Registry for %s failed with error 0x%lx'), (1, 'Driver Date From %s for %s = %s'), (1, 'DrawTextW'), (1, 'DrawIconEx'), (1, 'DrawEdge'), (1, 'Done with Registry updates'), (1, 'DllGetClassObject'), (1, 'DllCanUnloadNow'), (1, 'DisplayTitle'), (1, 'DisplayName'), (1, 'Directory'), (1, 'DirectoriesToCleanUp.AfterUninstall'), (1, 'Direction'), (1, 'Direct Copy'), (1, 'Device  %s installed from oem inf %s'), (1, 'DestroyMenu'), (1, 'DestroyIcon'), (1, 'DestPort'), (1, 'DestIPAddr'), (1, 'DeregisterEventSource'), (1, 'Deleting migration file stage (%s): hr=%ld'), (1, 'DeleteMenu'), (1, 'DeleteCatalogFile %s failed with ERROR %d'), (1, 'Delayed Delete %s'), (1, 'DelayLoadFailureHook'), (1, 'DeferWindowPos'), (1, 'DecryptFileW'), (1, 'December'), (1, 'DebugPath'), (1, 'DebugInfo'), (1, 'DebugErrors'), (1, 'DebugEnabled'), (1, 'DebugDdePkts'), (1, 'DebugDDEMessages'), (1, 'Debug'), (1, 'DeRegistering the Uninstall Program -> %s, %d'), (1, 'DdeShare.chm'), (1, 'DbgPrint'), (1, 'Date Changed for %s driver %s'), (1, 'Database not specified with the database path flag'), (1, 'DSVW3'), (1, 'DSPL'), (1, 'DSPE'), (1, 'DSOB'), (1, 'DSMQ'), (1, 'DISCARD'), (1, 'DEBUGGER'), (1, 'DDESHARE'), (1, 'DDDDDDDDDDDDDD'), (1, 'DDDDDDDDD@'), (1, 'DDDDDD'), (1, 'DBT_DEVICETYPESPECIFIC'), (1, 'DBT_DEVICEREMOVEPENDING'), (1, 'DBT_DEVICEREMOVECOMPLETE'), (1, 'DBT_DEVICEQUERYREMOVEFAILED'), (1, 'DBT_DEVICEQUERYREMOVE'), (1, 'DBT_DEVICEARRIVAL'), (1, 'D?$?'), (1, 'D%$ /'), (1, 'D$xP'), (1, 'D$tPh'), (1, 'D$TPUh'), (1, 'D$0h'), (1, 'D$0P'), (1, 'D$,PjpU'), (1, 'D$,Ph'), (1, 'D$(Sjo'), (1, 'D$(Ph'), (1, 'D$(PV'), (1, 'D$(PSh'), (1, 'D$$W'), (1, 'D$ tW'), (1, 'D$ t'), (1, 'D$ UP'), (1, 'D$ PW'), (1, 'CurrentDateTimeString'), (1, 'Current'), (1, "CurVer = s 'IMAPI.MSEnumDiscRecordersObj.1'"), (1, "CurVer = s 'IMAPI.MSDiscStashObj.1'"), (1, "CurVer = s 'IMAPI.MSDiscRecorderObj.1'"), (1, "CurVer = s 'IMAPI.MSDiscMasterObj.1'"), (1, "CurVer = s 'IMAPI.MSBurnEngineObj.1'"), (1, 'CryptHashPublicKeyInfo'), (1, 'CryptCATOpen'), (1, 'CryptCATGetCatAttrInfo'), (1, 'CryptCATEnumerateMember'), (1, 'CryptCATEnumerateAttr'), (1, 'CryptCATClose'), (1, 'CryptCATCatalogInfoFromContext'), (1, 'CryptCATAdminRemoveCatalog'), (1, 'CryptCATAdminReleaseContext'), (1, 'CryptCATAdminReleaseCatalogContext'), (1, 'CryptCATAdminEnumCatalogFromHash'), (1, 'CryptCATAdminCalcHashFromFileHandle'), (1, 'CryptCATAdminAcquireContext'), (1, 'CreateStreamOnHGlobal'), (1, 'CreateStatusWindowW'), (1, 'CreateSolidBrush'), (1, 'CreateSemaphoreA'), (1, 'CreateRemoteThread'), (1, 'CreateRectRgn'), (1, 'CreatePropertySheetPageW'), (1, 'CreateProcessW'), (1, 'CreatePen'), (1, 'CreateFontIndirectA'), (1, 'CreateFileMappingW'), (1, 'CreateDirectoryW'), (1, 'CreateDirectoryA'), (1, 'CreateDialogParamW'), (1, 'CreateCompatibleBitmap'), (1, 'CopyFileA'), (1, 'CopyError: %u %s'), (1, 'Copy Inf for %s Failed With Error %0x'), (1, 'CompareStringA'), (1, 'CompareFileTime'), (1, 'CommandLineToArgvW'), (1, 'CombineRgn'), (1, 'CoTaskMemRealloc'), (1, 'CoTaskMemFree'), (1, 'CoTaskMemAlloc'), (1, 'CoSuspendClassObjects'), (1, 'CoRevokeClassObject'), (1, 'CoResumeClassObjects'), (1, 'CoRegisterClassObject'), (1, 'CoInitializeSecurity'), (1, 'CoGetMalloc'), (1, 'CoCreateGuid'), (1, 'Clusapi.DLL'), (1, 'CloseWindowStation'), (1, 'CloseServiceHandle'), (1, 'CloseDesktop'), (1, 'Cleanup: Invalid Inf File'), (1, 'CheckTokenMembership'), (1, 'CheckRadioButton'), (1, 'CheckMenuRadioItem'), (1, 'CharToOemBuffA'), (1, 'CharNextW'), (1, 'CharLowerBuffW'), (1, 'ChangeMenuW'), (1, 'Cgj6'), (1, 'CatRoot\\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}'), (1, 'CascadeWindows'), (1, 'Cannot get the path for database type 0x%lx'), (1, 'Cannot get standard database path'), (1, "Can't read database header."), (1, "Can't allocate DB structure."), (1, 'CallWindowProcW'), (1, 'CachedGetUserFromSid'), (1, 'Cabinet.dll'), (1, 'CX;CTug'), (1, 'CSjqU'), (1, 'CSVW'), (1, 'CSDVersion'), (1, 'CPtQW'), (1, 'CONSOLE'), (1, 'CM_Request_Eject_PC'), (1, 'CLUSAPI.dll'), (1, 'CLSIDFromString'), (1, 'CD-RTOS CD-BRIDGE'), (1, 'CCSP'), (1, 'C;~\\'), (1, 'C;^Tr'), (1, 'C;]h'), (1, 'C;\\$'), (1, 'C:\\WINDOWS\\system\\zodnc.exe'), (1, 'C:\\WINDOWS\\system32\\IME\\qgoig.exe'), (1, 'C:\\WINDOWS\\addins\\mlyba.exe'), (1, 'C:\\WINDOWS\\System32\\dllcache\\vnhbj.exe'), (1, 'C:\\WINDOWS\\System32\\IME\\cefbe.exe'), (1, 'C:\\Program Files\\Windows Media Player\\uywqg.exe'), (1, 'C:\\Program Files\\Windows Media Player\\iouua.exe'), (1, 'C:\\Program Files\\Windows Media Player\\eumky.exe'), (1, 'C:\\Program Files\\Internet Explorer\\Connection Wizard\\auiyg.exe'), (1, 'C2PW'), (1, 'C0.11.:Q'), (1, 'C!v4'), (1, 'C t>'), (1, 'C PS'), (1, 'Buffer too small. Avail: %d, Need: %d.'), (1, 'Buffer Overflow detected. Showing only %d new installations'), (1, 'BootDir'), (1, 'BitBlt'), (1, 'BeginDeferWindowPos'), (1, 'Bad guard page 0x%x base 0x%x'), (1, 'Bad PDB.'), (1, 'Bad PDB designator in TAGREF.'), (1, 'BYPASS'), (1, 'BOf9'), (1, 'BIDIRECT'), (1, 'BBbZ'), (1, 'AuthAlg'), (1, 'Auqq[ptoxs'), (1, 'August'), (1, 'Attempt to read past the end of the database offset 0x%lx size 0x%lx (0x%lx)'), (1, 'AtV_At'), (1, 'April'), (1, 'AppPatch.Exclusions'), (1, 'AllowSetForegroundWindow'), (1, 'AllowProtectedRenames'), (1, 'AllowMultipleTSSessions'), (1, 'AllowForegroundActivation'), (1, 'AjKX;'), (1, 'Advapi32.DLL'), (1, 'Action'), (1, 'Accounts'), (1, 'ASSERT'), (1, 'APPLY'), (1, 'APPCHOICE'), (1, 'AA^^'), (1, 'AAFF'), (1, 'AAAA^^YR5555&'), (1, 'A$V3'), (1, '@}>j'), (1, '@t:HHt'), (1, '@t1-'), (1, '@t!HHt'), (1, '@jqV'), (1, '@_^]'), (1, '@_^[]'), (1, '@^_]['), (1, '@^[_'), (1, '@]_^['), (1, '@[_^]'), (1, '@WW3'), (1, '@VPV'), (1, '@SVW3'), (1, '@SVW'), (1, '@Ph0'), (1, '@PWV'), (1, '@PVW'), (1, '@PVSS'), (1, '@Nu'), (1, '@Iu'), (1, '@BB;'), (1, '@AAf'), (1, '@@SP'), (1, '@@GGf='), (1, '@@FF'), (1, '@93u<'), (1, '@.lnk'), (1, '@,QPh'), (1, '?{uE'), (1, '?{u2W'), (1, '?Zd;'), (1, '?/L['), (1, '>\\^t'), (1, '>ZpromP'), (1, '>@u`F'), (1, '>.u"FV'), (1, '>#u%F'), (1, '>"uU'), (1, '=HKU'), (1, '=HKCUuC'), (1, '=HKCRt'), (1, '=.cabu&j'), (1, '<invalid>'), (1, '<description>Windows Shell</description>'), (1, '<description>Incompatible Program Alert</description>'), (1, '<description>AppHelp UI Application</description>'), (1, '<assemblyIdentity name="WindowsShell" processorArchitecture="x86" version="5.1.0.0" type="win32"/>'), (1, '<Su$'), (1, '<0Y3'), (1, '<.uX;]'), (1, '<*YYu'), (1, ';p$t'), (1, ';ojmms('), (1, ';oilml1'), (1, ';n\\W'), (1, ';T$'), (1, ';GPt'), (1, ';GDt'), (1, ';Fds!'), (1, ';F\\r'), (1, ';FXr'), (1, ';F s/'), (1, ';D$ }E'), (1, ';CXr'), (1, ';A t'), (1, ':u6f'), (1, ':gvgMgv_XgvVWgv'), (1, ':,,,,,,,@o'), (1, '9~dv$'), (1, '9~\\v'), (1, '9~Du'), (1, '9~DO'), (1, '9~<u7'), (1, '9~<u'), (1, '9~4u='), (1, '9~,t'), (1, '9~(~'), (1, '9~$u2'), (1, '9~$u'), (1, '9|$$'), (1, '9{,t'), (1, '9wDt'), (1, '9utt'), (1, '9n$v6'), (1, '9kxvfV3'), (1, '9_<uIh'), (1, '9_$v'), (1, '9_$u3'), (1, '9^Xvb'), (1, '9^Tv&'), (1, '9^8t'), (1, '9^$u'), (1, '9]|uZ'), (1, '9]|u(9]lu'), (1, '9]|u'), (1, '9]xW'), (1, '9]lt'), (1, '9]hu'), (1, '9](t'), (1, '9] t'), (1, '9UTv'), (1, '9N8t'), (1, '9N4t'), (1, '9Mhr9w4'), (1, '9FTt'), (1, '9FPt'), (1, '9FHuH'), (1, '9FDu'), (1, '9F@t'), (1, '9F<t'), (1, '9F,t'), (1, '9F t'), (1, '9E$s'), (1, '9D$,uR'), (1, '9>~ S'), (1, '99pDu'), (1, '95 @'), (1, '92u+\tA'), (1, '90r7'), (1, '80t.'), (1, '8%Pu'), (1, '8"uR@j"P'), (1, '8"u&'), (1, "7l@'}"), (1, '7GGj'), (1, '6tIVPh8$'), (1, '4ttOOt'), (1, '4SVh'), (1, '4@PQ'), (1, '49\\$'), (1, '3333333333333333""""""""""""""""'), (1, '3!194'), (1, '2TwSj'), (1, '2OQQQtponqux{vzv'), (1, '2<===@@='), (1, '1h8$'), (1, '1TTT'), (1, '1PhQ'), (1, '1#SNAN'), (1, '1#QNAN'), (1, '1#INF'), (1, '1#IND'), (1, '00dcz'), (1, '00dcr'), (1, '00dcb'), (1, '00dc\\'), (1, '00dcX'), (1, '00dcR'), (1, '00dc<'), (1, '00dc8'), (1, '00dc&'), (1, '0000'), (1, '0.0.0.0'), (1, '0,,,,3'), (1, '/t(;'), (1, '/KILL'), (1, '/3-US'), (1, '.tmp'), (1, '.spd'), (1, '.sdb'), (1, '.sad'), (1, '.inf'), (1, '.?w;;Aw'), (1, '.:3q'), (1, '-wnN-w;'), (1, '-NB10'), (1, '-Ht Ht'), (1, '-64OS'), (1, '-+0 #'), (1, '- = Take selector from policy.'), (1, ',`vL}y'), (1, ',SVWj'), (1, ',?vzhJ'), (1, ',;kxr'), (1, ',8^]t'), (1, ',,,1v^u7'), (1, ',,,,,,,,,,,-C'), (1, ',,,,,,,,,'), (1, ',,,,,,,,'), (1, ',,,,,  D\\ps'), (1, '+t"HHt'), (1, '+s +'), (1, '+\\ff6'), (1, '+VDj'), (1, '+M43'), (1, '+K +'), (1, '+FPj'), (1, '+E4h'), (1, '+APj'), (1, '+=HU'), (1, '+,,A'), (1, '+ = Take selector from packet.'), (1, '*}\tj'), (1, '*f zp'), (1, '*8^]u'), (1, '))))))'), (1, '(t)VVh'), (1, '(_^['), (1, '(VW3'), (1, '(SVWh0'), (1, '(SVW'), (1, '(;_$r'), (1, '(;^$r'), (1, '(:Ptnsmmsh&'), (1, "'gjl6"), (1, "'OQQ"), (1, "'IMAPI.EXE'"), (1, '&:PPPPPtrx{vmsuoeC&'), (1, '&:<Rich'), (1, '&:<F'), (1, '&,,,,,,,,,,,,,-;/'), (1, '%s\\*'), (1, '%s\\%s.asms'), (1, '%s 0x%lx'), (1, '%s  %s'), (1, '%d-%d-%d'), (1, '%d newly installed programs detected'), (1, '%d new programs listed'), (1, '%\\YY4'), (1, '%04d/%02d/%02d'), (1, '%-45s'), (1, '%-2s'), (1, '%-1;'), (1, '%-15u'), (1, '%-15s'), (1, '%-15lu'), (1, '%-12s'), (1, '%-10s'), (1, '%-10lu'), (1, '$xpsp1hfm$'), (1, '$9u|'), (1, '$$%$'), (1, '$!/``'), (1, '#".q[=('), (1, '"UVWj _j\t]j'), (1, '"%s"'), (1, '!E`!Eh'), (1, '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'), (1, '!!%-')]
+301: 
+112: DDDD
+66: _^][
+42: _^[]
+41: DDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+38: 3333
+37: DDDDDDDD
+35: @_^[
+31: SVW3
+28: DDDDDDDDD
+28: 33333
+21: ]_^[
+19: SVWj
+18: USER32.dll
+18: KERNEL32.dll
+17: @@@@@
+15: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDO
+14: SUVW
+14: 0?{{{{{{{{{{{{{{{{{{{{{{0?
+13: DDDDDD
+13: ADVAPI32.dll
+13: 333333
+12: wwww
+12: ole32.dll
+12: VVVV
+12: PVSU
+11: wwwwwwwwwwwwx
+11: _^][Y
+11: Y_^[
+11: D$ P
+11: @@@@@@
+10: GetLastError
+10: D$8P
+10: D$0P
+10: .text
+10: !This program cannot be run in DOS mode.
+9: {{{{{{{{{{{{{{0
+9: msvcrt.dll
+9: SSSSSSSj
+9: SQWV
+9: SHELL32.dll
+9: PVVV
+9: LocalFree
+9: GetModuleHandleA
+9: ExitProcess
+9: 3333333
+9: .rsrc
+8: `.data
+8: WRSV
+8: SVWUj
+8: SVWU
+8: QSVW
+8: MessageBoxA
+8: GetStartupInfoA
+8: GDI32.dll
+8: DDDDDDDDDD
+8: D$(P
+8: CloseHandle
+8: COMCTL32.dll
+8: @@FF
+8: 8MZu
+8: 0g0W0_0
+7: wwwwwwwww
+7: tEVU
+7: t3x<
+7: t.;t$$t(
+7: WideCharToMultiByte
+7: SetEvent
+7: RegCloseKey
+7: PSSj
+7: PSSS
+7: NTDLL.DLL
+7: NB10
+7: MultiByteToWideChar
+7: LocalAlloc
+7: GetVersionExA
+7: GetProcAddress
+7: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+7: D$$P
+7: 9]Pt
+6: wwwwwwwwwx
+6: wcscpy
+6: rrrrrrrrrrrr
+6: _^][YY
+6: WriteFile
+6: VVVj
+6: SetLastError
+6: SUV3
+6: RtlUnwind
+6: RegQueryValueExW
+6: PVVj
+6: LoadLibraryA
+6: HeapFree
+6: HeapAlloc
+6: GetCurrentThreadId
+6: FreeLibrary
+6: FormatMessageA
+6: DDDDDDDDDDDDDDDDDDDD
+6: DDDDDDDDDDDD
+6: DDDDD
+6: CoUninitialize
+6: @_^[]
+6: @[_^
+6: @SVW
+6: ;X\|
+6: ;H\|
+6: 9} u
+6: 333/
+5: wwwwwx
+5: wwwwww
+5: wcscat
+5: uW0~0W0_0
+5: j@Y3
+5: exit
+5: _initterm
+5: _exit
+5: _controlfp
+5: _cexit
+5: _c_exit
+5: _adjust_fdiv
+5: __setusermatherr
+5: __set_app_type
+5: __p__fmode
+5: __p__commode
+5: __getmainargs
+5: _^[t
+5: _XcptFilter
+5: ^_][
+5: ^][Y
+5: ][_^
+5: [_^]
+5: XPVSS
+5: WaitForSingleObject
+5: WS2_32.dll
+5: TranslateMessage
+5: SUWj
+5: RegQueryValueExA
+5: RegOpenKeyExA
+5: ReadFile
+5: RWVP
+5: RQPPPPPPh
+5: QQVW
+5: QQSVW3
+5: QQSV
+5: PostQuitMessage
+5: Ph0J
+5: PSh?
+5: InterlockedDecrement
+5: HeapDestroy
+5: HeapCreate
+5: GetModuleFileNameA
+5: GetDlgItem
+5: EndDialog
+5: DestroyWindow
+5: DDD@
+5: D$ Pj
+5: CreateThread
+5: CreateFileW
+5: CoInitialize
+5: CoCreateInstance
+5: ;x\|
+5: 9]tt
+5: 33333333333333
+5: 33/3
+5: 0L0zv
+4: {{{{{x
+4: wwwx
+4: wwwwwwx
+4: wwwwp
+4: wcsrchr
+4: wcslen
+4: wcscmp
+4: t-9]
+4: ntdll.dll
+4: malloc
+4: lstrlenW
+4: lstrlenA
+4: l$83
+4: j Y+
+4: free
+4: comdlg32.dll
+4: _except_handler3
+4: _acmdln
+4: _^[u
+4: ^_[]
+4: \\tsclient\
+4: YY_^[
+4: X_^[
+4: WaitForMultipleObjects
+4: WSOCK32.dll
+4: WPSV
+4: VirtualProtect
+4: VirtualFree
+4: VirtualAlloc
+4: VWSU
+4: VC20XC00U
+4: UnmapViewOfFile
+4: Sleep
+4: SetFilePointer
+4: SendMessageW
+4: SelectObject
+4: SSS+
+4: S0n0
+4: ReleaseDC
+4: RegSetValueExA
+4: QSVR
+4: QPPj
+4: Phe'
+4: PWQRSV
+4: PSVQ
+4: PSSSj
+4: OLEAUT32.dll
+4: MapViewOfFile
+4: LeaveCriticalSection
+4: KKKKKKKK
+4: InitializeCriticalSection
+4: HeapReAlloc
+4: HSVWj
+4: GetWindowRect
+4: GetTickCount
+4: GetSystemInfo
+4: GetStdHandle
+4: GetProcessWindowStation
+4: GetLocaleInfoA
+4: GetDesktopWindow
+4: GetDC
+4: GetCurrentProcess
+4: GetCommandLineA
+4: GGFF
+4: FXPh
+4: ExpandEnvironmentStringsW
+4: EnterCriticalSection
+4: EnableWindow
+4: DispatchMessageA
+4: DeleteCriticalSection
+4: DDDDDDDDDDDDDDDD
+4: DDDDDDD
+4: D$$%
+4: CreateFileA
+4: CreateEventA
+4: CreateCompatibleDC
+4: BitBlt
+4: AllocateAndInitializeSid
+4: @_^][
+4: @@FF:
+4: @@@@@@@@@@
+4: @@@@@@@@
+4: @@@@
+4: @ XH
+4: >"u:F
+4: 9^0t
+4: 3333333333
+4: 333333333
+4: 33333333
+4: 3/33
+4: 0g0M0~0[0
+4: 0JRd
+4: /3333
+4: %s (0x%x)
+3: zwww
+3: wwwwwwwwwww
+3: wwwwwww
+3: wsprintfA
+3: wcsncat
+3: wcschr
+3: w"wwwwwwwxwwx
+3: v)Sf
+3: user32.dll
+3: uiSj
+3: u8WW3
+3: tzVS
+3: type="win32"
+3: twf9
+3: t6S
+3: t/Ku
+3: t$$VSS
+3: t$$S
+3: t#SSUP
+3: t"SSSSSSSj
+3: t!SS9]
+3: t WW
+3: strncpy
+3: runtime error
+3: rrrrrrrrrrrrrrr
+3: rrrrrrrrrrr
+3: rrrr
+3: r	f=Z
+3: processorArchitecture="x86"
+3: mscoree.dll
+3: lstrcpyA
+3: j?^;
+3: hUJ>1($
+3: fact
+3: ck(W
+3: atoi
+3: _strnicmp
+3: _^]3
+3: ^][_
+3: [%s]
+3: Y^[_
+3: YYh4'
+3: YYSh
+3: XY^X
+3: Wj@3
+3: WWWWVSW
+3: WWVPVSW
+3: WSSS
+3: WAVEfmt
+3: VirtualQuery
+3: VWj@Y3
+3: VSSS
+3: UnhandledExceptionFilter
+3: This application has requested the Runtime to terminate it in an unusual way.
+3: TLOSS error
+3: StretchBlt
+3: ShowWindow
+3: SetWindowTextW
+3: SetWindowPos
+3: SetWindowLongA
+3: SetSecurityDescriptorDacl
+3: SetHandleCount
+3: SetForegroundWindow
+3: SetFileAttributesA
+3: SetErrorMode
+3: SetDlgItemTextW
+3: SetDlgItemTextA
+3: SendMessageA
+3: SelectPalette
+3: SVWh
+3: SUVW3
+3: SSSh
+3: SSSSSSSSW
+3: SSSP
+3: SING error
+3: SETUPAPI.dll
+3: Runtime Error!
+3: RegOpenKeyExW
+3: RealizePalette
+3: RPQj
+3: RESV
+3: R6028
+3: R6027
+3: R6026
+3: R6025
+3: R6024
+3: R6019
+3: R6018
+3: R6017
+3: R6016
+3: R6009
+3: R6008
+3: R6002
+3: QueryServiceStatus
+3: QSUVW
+3: QSSP
+3: QQSVW
+3: QQS3
+3: Program:
+3: PostMessageW
+3: Please contact the application's support team for more information.
+3: PhlP
+3: PShX
+3: PPPPPPPP
+3: PATH
+3: OpenServiceA
+3: OpenSCManagerA
+3: OpenEventA
+3: MoveWindow
+3: Microsoft Visual C++ Runtime Library
+3: MessageBoxW
+3: MPR.dll
+3: LockResource
+3: LoadStringW
+3: LoadResource
+3: LoadLibraryW
+3: LoadIconW
+3: LCMapStringW
+3: LCMapStringA
+3: KKKKKKKKK
+3: KKKKKKK
+3: KKKK
+3: InterlockedIncrement
+3: InitializeSecurityDescriptor
+3: InitializeAcl
+3: GetWindowsDirectoryW
+3: GetWindowsDirectoryA
+3: GetWindowLongA
+3: GetVersionExW
+3: GetUserObjectInformationA
+3: GetSystemMetrics
+3: GetStringTypeW
+3: GetStringTypeA
+3: GetObjectW
+3: GetOEMCP
+3: GetMessageW
+3: GetMessageA
+3: GetLocalTime
+3: GetLastActivePopup
+3: GetFileType
+3: GetFileAttributesA
+3: GetEnvironmentStringsW
+3: GetEnvironmentStrings
+3: GetDiskFreeSpaceA
+3: GetDeviceCaps
+3: GetCursorPos
+3: GetComputerNameA
+3: GetClientRect
+3: GetCPInfo
+3: GetActiveWindow
+3: GetACP
+3: GIt%
+3: GG@@
+3: G;x\|
+3: G;=h
+3: FreeSid
+3: FreeEnvironmentStringsW
+3: FreeEnvironmentStringsA
+3: FlushFileBuffers
+3: FindResourceA
+3: FILTDISP,
+3: FFGG
+3: F(+F h
+3: F$+F
+3: EndPaint
+3: EhPS
+3: ETPj
+3: E WW
+3: DispatchMessageW
+3: DialogBoxParamW
+3: DeleteObject
+3: DeleteFileA
+3: DeleteDC
+3: DefWindowProcW
+3: DOMAIN error
+3: DISP#
+3: DDDDDDH
+3: DDDDDDDDOx
+3: DDDDDDDDDDDDDDDDDDDDDDDDL
+3: DDDDDDDDDDDDDDDDDDDDDD
+3: DDDDDDDDDDDDDDDDDD
+3: D$hf
+3: D$8Ph
+3: CreateWindowExW
+3: CreatePalette
+3: CreateEventW
+3: CreateDirectoryW
+3: CreateDirectoryA
+3: CorExitProcess
+3: CloseServiceHandle
+3: CheckDlgButton
+3: BeginPaint
+3: AddAccessAllowedAce
+3: AAGG
+3: @PWj
+3: @PVSS
+3: @@@@@@@
+3: <program name unknown>
+3: <dependentAssembly>
+3: <assemblyIdentity
+3: <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+3: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+3: </dependentAssembly>
+3: </dependency>
+3: </assembly>
+3: 9^0u
+3: 9]pt
+3: 9]lt
+3: 9]Xt
+3: 9] t
+3: 8"u&
+3: 33333333333333333333
+3: 333333333333333
+3: 3333/
+3: 1YWe0
+3: 0S0h0
+3: 0.0.0.0
+3: /33333
+3: - unexpected multithread lock error
+3: - unexpected heap error
+3: - unable to open console device
+3: - unable to initialize heap
+3: - pure virtual function call
+3: - not enough space for thread data
+3: - not enough space for stdio initialization
+3: - not enough space for lowio initialization
+3: - not enough space for environment
+3: - not enough space for arguments
+3: - not enough space for _onexit/atexit table
+3: - floating point not loaded
+3: (SVW
+3: %d.%d.%d.%d
+2: ~'WP
+2: }}}}}}}}}
+2: |$ f=
+2: x$ju
+2: wwwwx
+2: wwwwwwwx
+2: wwwwwwwwwwww
+2: ws2_32.DLL
+2: wcsncpy
+2: wcKQ
+2: version="6.0.0.0"
+2: v	N+D$
+2: uhVP
+2: u#9u
+2: tZh4
+2: tDDOtDDDDH
+2: tCSW
+2: t?j	Y+
+2: t6Vh
+2: t6SW
+2: t4HuC
+2: t.SSSSSSSj
+2: t*VW
+2: t(HuB
+2: t$,j
+2: strtoul
+2: strrchr
+2: strncat
+2: strchr
+2: spuninst.exe
+2: sprintf
+2: s,Vj
+2: rrrrrrrrrrrrrr
+2: rrrrrrrrrr
+2: rrrrrr
+2: rrrrr
+2: rand
+2: pwwp
+2: publicKeyToken="6595b64144ccf1df"
+2: ppxxxx
+2: name="Microsoft.Windows.Common-Controls"
+2: memmove
+2: lstrcpyW
+2: lstrcmpiW
+2: language="*"
+2: l$$Vf
+2: kernel32.dll
+2: jR=*!
+2: jHhBf
+2: jHh
+2: jAY3
+2: j>Y3
+2: j<Y+
+2: j#Y+
+2: j	Y3
+2: gck(W
+2: g0M0~0[0
+2: fff@fff
+2: fSO0}
+2: f9STu
+2: data
+2: always
+2: `h````
+2: _wcsicmp
+2: _stricmp
+2: _snprintf
+2: _ftol
+2: _^YY
+2: _][^
+2: _[^]
+2: _@^[
+2: ^txQ
+2: ^_[3
+2: ^][_Y
+2: ^[_]
+2: ^CgP
+2: ][^_
+2: \VarFileInfo\Translation
+2: \;5h
+2: \$'2
+2: \$ j
+2: [Version]
+2: [SourceDisksNames]
+2: [SourceDisksFiles]
+2: ZZ2
+2: Yu+Vj
+2: YYtc
+2: YYtX
+2: YYt/h
+2: YY_^][
+2: YY_^
+2: YY9]
+2: YG;=
+2: YF;5
+2: XSVW
+2: WinVerifyTrust
+2: WWhD
+2: WWWW
+2: WVS3
+2: WVRP
+2: WSAIoctl
+2: WSACreateEvent
+2: WSACloseEvent
+2: WQRP
+2: WINSTA.dll
+2: WINMM.dll
+2: W0f0O0`0U0D0
+2: Vj j
+2: VerQueryValueA
+2: VVVVj
+2: VPPS
+2: VERSION.dll
+2: UpdateWindow
+2: Uh	+
+2: TSVW3
+2: T$hj
+2: SystemParametersInfoA
+2: Software\Microsoft\Windows\CurrentVersion
+2: Signature = "$Windows NT$"
+2: ShellExecuteW
+2: ShPH
+2: SetupCloseInfFile
+2: SetWindowTextA
+2: SetWindowLongW
+2: SetTimer
+2: SetThreadDesktop
+2: SetTextColor
+2: SetStdHandle
+2: SetSecurityInfo
+2: SetSecurityDescriptorOwner
+2: SetSecurityDescriptorControl
+2: SetMapMode
+2: SetFocus
+2: SetCursor
+2: SetBkMode
+2: ServicePackFilesAlways.files
+2: SendDlgItemMessageW
+2: Secur32.dll
+2: Sdwn
+2: SYr)R
+2: SYSTEM\CurrentControlSet\Control\ProductOptions
+2: SWUSSS
+2: SWRP
+2: SVWu
+2: SVW
+2: SUVWh
+2: SSSWh
+2: SSSVh
+2: SSSSSSSWW
+2: SSSPS
+2: SRWV
+2: SQPV
+2: SP_COPY_WARNIFSKIP
+2: SP_COPY_SOURCE_ABSOLUTE
+2: SP_COPY_SOURCEPATH_ABSOLUTE
+2: SP_COPY_REPLACEONLY
+2: SP_COPY_NOSKIP
+2: SP_COPY_NOOVERWRITE
+2: SP_COPY_NODECOMP
+2: SP_COPY_NEWER_OR_SAME
+2: SP_COPY_NEWER_ONLY
+2: SP_COPY_LANGUAGEAWARE
+2: SP_COPY_IN_USE_NEEDS_REBOOT
+2: SP_COPY_FORCE_NOOVERWRITE
+2: SP_COPY_FORCE_NEWER
+2: SP_COPY_FORCE_IN_USE
+2: SP_COPY_DELETESOURCE
+2: SPWV
+2: SHLWAPI.dll
+2: SHHVW
+2: SHGetPathFromIDListA
+2: SHGetMalloc
+2: RtlUnicodeStringToAnsiString
+2: Rj0)jP
+2: Rich
+2: ResetEvent
+2: ReportEventA
+2: RemoveDirectoryA
+2: ReleaseSemaphore
+2: ReleaseMutex
+2: RegisterWindowMessageW
+2: RegisterEventSourceA
+2: RegisterClassW
+2: RegSetValueExW
+2: RegOpenKeyA
+2: RegEnumKeyExA
+2: RegDeleteValueA
+2: RegCreateKeyExW
+2: RegCreateKeyExA
+2: RPWS
+2: RPCRT4.dll
+2: RIFF
+2: RESV-ERR
+2: R-Nk0
+2: QueryPerformanceCounter
+2: QVW3
+2: QSUV
+2: QQSW
+2: QPh.
+2: QPPP
+2: Q@Ph
+2: ProgramFilesDir
+2: ProductType
+2: PostMessageA
+2: Pjmj
+2: Pjkj
+2: Pjjj
+2: Pj(j
+2: Pj$j
+2: Ph|O
+2: Ph|<
+2: Phxq
+2: Phho
+2: Pha*
+2: Ph`P
+2: PhX'
+2: PhPP
+2: PhDP
+2: Ph8)
+2: Ph4o
+2: Ph4P
+2: Ph0Q
+2: Ph-5
+2: Ph,)
+2: Ph('
+2: Ph '
+2: PWhh
+2: PWh@
+2: PWWhp
+2: PWWh
+2: PWWW
+2: PWVj
+2: PVhd)
+2: PSht~
+2: PSh0
+2: PSVhtj
+2: PSUV
+2: PSSSSSSSj
+2: PSSSSSS
+2: PQWV
+2: PATH-ERR
+2: OwQ	g
+2: OpenProcessToken
+2: OpenProcess
+2: OpenInputDesktop
+2: OpenEventW
+2: O(udk
+2: NtServicePackVersionText = "%s"
+2: NtServicePackVersionFullText = "%s"
+2: NtServicePackVersion = %d
+2: NtServicePackPreviousVersionText = "%s"
+2: NtServicePackPreviousVersion = %d
+2: NetApiBufferFree
+2: Ml3Mt_^[
+2: M`Qj
+2: MSSWCH.dll
+2: MSACM32.dll
+2: LoadLibraryExW
+2: LoadImageW
+2: LoadImageA
+2: LoadCursorW
+2: L0B0
+2: L$<R
+2: L$(R
+2: L$ rN
+2: KillTimer
+2: KKKKKKKKKKKKKKKKKKK
+2: KKKKK
+2: K8QP
+2: K0QP
+2: K$QP
+2: IsWindow
+2: IsIconic
+2: IsDlgButtonChecked
+2: IsDialogMessageA
+2: IsBadWritePtr
+2: InvalidateRect
+2: Installed AppPatch version is %016I64X
+2: InitializeCriticalSectionAndSpinCount
+2: InitCommonControlsEx
+2: Ht]HtSHtIHt?Ht5
+2: HKLM
+2: HHu
+2: HHt{
+2: H0SU
+2: GlobalUnlock
+2: GlobalMemoryStatus
+2: GlobalLock
+2: GlobalFree
+2: GlobalAlloc
+2: GetWindowLongW
+2: GetUserNameA
+2: GetTokenInformation
+2: GetThreadLocale
+2: GetThreadDesktop
+2: GetTempPathA
+2: GetTempFileNameA
+2: GetSystemTime
+2: GetSystemDirectoryW
+2: GetSystemDirectoryA
+2: GetStockObject
+2: GetSecurityInfo
+2: GetPrivateProfileStringA
+2: GetObjectA
+2: GetMessageTime
+2: GetLengthSid
+2: GetFileVersionInfoSizeA
+2: GetFileVersionInfoA
+2: GetFileAttributesW
+2: GetDIBColorTable
+2: GetCurrentThread
+2: GetCurrentProcessId
+2: GetCommandLineW
+2: GGBBf
+2: GGAA
+2: FormatMessageW
+2: FlushViewOfFile
+2: FindFirstFileW
+2: FindClose
+2: FileSize: %u
+2: FT@-
+2: FNB10
+2: FFf9
+2: F;5h
+2: F$vT2
+2: F _^
+2: ExpandEnvironmentStringsA
+2: ExitThread
+2: EpPh
+2: EnableMenuItem
+2: E`Pj
+2: E\Ph
+2: ELWP
+2: E4PSSS
+2: E(Ph
+2: DoRegistryUpdates:SetupInstallFromInfSection Failed for %s: 0x%lx
+2: DisplayTitle = "%s"
+2: DialogBoxParamA
+2: DeviceIoControl
+2: DeleteFileW
+2: DefWindowProcA
+2: DVWj
+2: DQMBG
+2: DMTP
+2: DDDDDL
+2: DDDDDH
+2: DDDDDDDDDDDDH
+2: DDDDDDDDDDDDDDDDDDDDL
+2: DDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2: DDDDDDDDDDDDDDDDDDDDDDDDD
+2: DDDDDDDDDDDDDDDDDDDDDDDD
+2: DDDDDDDDDDDDDDDDDDD
+2: DDDDDDDDDDDDDD@
+2: DDDDDDDDDDDDDD
+2: DDDDDDDDDDDDD
+2: DDDDDDDDDDD
+2: D$XPh
+2: D$XPU
+2: D$4QRP
+2: D$0j\P
+2: D$,h
+2: D$(_%
+2: D$(PV
+2: D$$R%
+2: D$ j
+2: D$ H
+2: CreateWindowExA
+2: CreateSolidBrush
+2: CreateSemaphoreA
+2: CreateProcessA
+2: CreateMutexW
+2: CreateMutexA
+2: CreateFontIndirectW
+2: CreateFontIndirectA
+2: CreateFileMappingW
+2: CreateFileMappingA
+2: CreateDialogParamA
+2: CreateDialogIndirectParamA
+2: CopyFileA
+2: Configuration
+2: CompareFileTime
+2: CommonFilesDir
+2: CoTaskMemFree
+2: CoInitializeEx
+2: CloseDesktop
+2: C;X\|
+2: BBFFf
+2: B ;A u
+2: AAFF
+2: AABBf
+2: AABB
+2: @_^]
+2: @^_[
+2: @^[_
+2: @PVWV
+2: @PVS
+2: @PSS
+2: @@Pj
+2: @@GG
+2: @@@@@@@@@
+2: @;D$
+2: @$vT2
+2: ?{;{{{
+2: ????
+2: <dependency>
+2: <"u(F
+2: <"t1
+2: ;p\|
+2: ;P\|
+2: 9~0t
+2: 9x v
+2: 9w8t
+2: 9uXt
+2: 9MZu
+2: 9Ixu
+2: 9Hdt
+2: 9H`t
+2: 9F(u
+2: 9=hU
+2: 9=(P
+2: 95hf
+2: 8\$@tt
+2: 8\$@t?f
+2: 700WP
+2: 6Pj@
+2: 3EtSV
+2: 3733
+2: 33373333333
+2: 33333333333333333333333333333333333333
+2: 33333333333333333333333333333333
+2: 333333333333333333333333
+2: 3333333333333333
+2: 333333333333
+2: 333/3
+2: 2},QP
+2: 224.0.0.17
+2: 224.0.0.16
+2: 1;t$
+2: 1 = "Windows NT Service Pack Uninstall Directory"
+2: 0x%x
+2: 0n0k0i
+2: 0-Nk0
+2: />
+2: /333
+2: +E@=
+2: +E P
+2: (null)
+2: (8PX
+2: %s%s%s%s (%d) (%s)
+2: #Eg_
+1: ~soZZNNE@;
+1: ~rsp~.log
+1: ~rrmmrr~
+1: ~req~.log
+1: ~r;V
+1: ~hWj
+1: ~extracted
+1: ~\u
+1: ~ZZZZZZZZZ^
+1: ~Rich
+1: ~PUVW
+1: ~LtJ
+1: ~Lt>
+1: ~ISW
+1: ~;W3
+1: ~:?????????C????????????
+1: ~4Suh
+1: ~2W3
+1: ~,VW
+1: ~,QP
+1: ~*u_;;;4.>JD8/[
+1: ~(j\Z
+1: ~"9E
+1: }}}}}}}}}}}}:: }}}}}}}}}
+1: }}}}}}}
+1: }}}}}MfJ&
+1: }}}}
+1: }}}QQbit
+1: }}}6rfJ)5HW#
+1: }}tkktjj
+1: }}Qb+IywjdYTZUE
+1: }}QQ
+1: }|~<
+1: }{Q8
+1: }yh;3RH>'|
+1: }x9]t
+1: }tj@Y
+1: }j\^f93
+1: }hjHY
+1: }WW.
+1: }SWV
+1: }8tG
+1: }8;G
+1: }2VpE?=63,,*****,,36=?Ej
+1: }0r"w
+1: }.QS
+1: },+}$
+1: }( }
+1: ||hff
+1: |n{d1
+1: |bXTPPKKKKKKKPPTX^bo
+1: |^9]
+1: |SVW3
+1: |A9]
+1: |@yx}
+1: |@+ 0
+1: |(VVV
+1: |'SW
+1: |&j4[
+1: |$@h
+1: |$8O
+1: |$ SWV
+1: |$ ;
+1: {{{{{{{{
+1: {ttJ
+1: {ooookkkkooo{{
+1: {ookbb^^^^^^bkko{{
+1: {SO)
+1: {FLb'
+1: {:g-NxS}
+1: {:g-N Rd
+1: {0:uGj
+1: {+/.
+1: {#-+`.
+1: zzzppe
+1: zzzV'2D</
+1: zuhSSSS
+1: zu[SWW
+1: zsicXXSPPSXXci
+1: zone%u
+1: zLaH
+1: zD3*
+1: z@Y3
+1: z-Nf}
+1: yywwkkca`T="(|
+1: yywh,
+1: ywuggmddheepii
+1: ypp?
+1: yl-l
+1: y[>L</&
+1: yPPS
+1: xwwwx
+1: xwww
+1: xwwp
+1: xt/f
+1: xd;=\.
+1: xUJ>1($
+1: xFFf=-
+1: xDtG
+1: xDDD
+1: x@@H
+1: x>-"-fff`
+1: x<t}j
+1: x86GetSourceArchitecture:SetupGetLineText failed with error:0x%lx
+1: x86GetSourceArchitecture: Invalid handle for file: %s
+1: x86CheckSlipStreamDestination: Invalid handle for file: %s
+1: x%8.8lx
+1: x%2.2lx:
+1: x%*.*lx
+1: w}9_
+1: wxpx
+1: wwwwwxx
+1: wwwwwwwwwwwwwwwwwwwww
+1: wwwwwwwwwwwwwwwww
+1: wwwwwwwwww
+1: wwwwwp
+1: wwwww
+1: wwwwrx
+1: wwpx
+1: wvsprintfW
+1: wvsprintfA
+1: wtGwtDDDDw
+1: wtDDDDDG
+1: wsprintfW
+1: wqj.V
+1: wn>Jj
+1: wl_Y
+1: wintrust.dll
+1: winlogon
+1: wininet.dll
+1: win51%s
+1: wf=
+1: well-known
+1: wcsstr
+1: wR@/
+1: wHf;
+1: wH/
+1: wGt5
+1: wDHDDD
+1: wDGt
+1: w7wB
+1: w/o Uninstall, share %s: %I64uKB free now, %uKB required to install, %uKB peak required during install, %I64dKB free minimum, %I64dKB free after.
+1: w/o Uninstall, drive %c: %I64uKB free now, %uKB required to install, %uKB peak required during install, %I64dKB free minimum, %I64dKB free after.
+1: w/ Uninstall, share %s: %I64uKB free now, %uKB required to install, %uKB peak required during install, %I64dKB free minimum, %I64dKB free after.
+1: w/ Uninstall, drive %c: %I64uKB free now, %uKB required to install, %uKB peak required during install, %I64dKB free minimum, %I64dKB free after.
+1: v}ii
+1: vzxneR?@
+1: vxhW'
+1: vvvvvvvvvvvvvvvvvvvvvvv
+1: vvvvvvvvvvvvvvvvvvvvvv
+1: vvvvvvvvvvvvvvvvvvvvv
+1: vvnjjceetjj
+1: vthV'
+1: vsprintf
+1: vphU'
+1: vkQSQP
+1: vjq^u
+1: vhhT'
+1: version="5.1.0.0"
+1: version: %016I64X
+1: version
+1: vdhS'
+1: v`h|0
+1: vXhl1
+1: vThh
+1: vS9]
+1: vOKyl
+1: vM9E
+1: vI9]
+1: vHPu7
+1: vG+F
+1: vDSh
+1: v@SU
+1: v6v4
+1: v4WS
+1: v194
+1: v0hh7
+1: v0Wj*Y3
+1: v h`'
+1: v +E
+1: v	VS
+1: u}f9_
+1: u}Ph
+1: u|hX,
+1: u|SVWh
+1: uxt#
+1: uxj
+1: uxf;
+1: uxSPh
+1: uwh]B@;74.,
+1: utW3
+1: usf!E
+1: us9}
+1: us9=@O
+1: updtblk.inf
+1: updencts.inf
+1: updencin.inf
+1: updencin.exe /x
+1: updencin.exe
+1: updatetmp.tmp
+1: updates.cab
+1: update\update.inf
+1: update\dtctag.1
+1: update.ver is missing info for %s.
+1: update.PDB
+1: update
+1: upG#
+1: up9u
+1: uninstall
+1: unicast
+1: unWW
+1: um95
+1: ulWj
+1: ulVj
+1: ulSSS
+1: uj9]
+1: uj9=
+1: uj!E
+1: uhSUVS
+1: uh9uh
+1: udpttl
+1: udpencap
+1: udWP
+1: ud;u
+1: ua9U,
+1: ua9U
+1: u`Wj
+1: u`9^8u4j
+1: u^f;
+1: u^9]
+1: u\hi'
+1: u\f;
+1: u\WW
+1: u\VVS
+1: u\SS
+1: uXhx'
+1: uX9u
+1: uWf9
+1: uW9]
+1: uVhv
+1: uVUW
+1: uTf9X
+1: uTSh
+1: uTA@
+1: uT9O
+1: uSW3
+1: uPr"
+1: uPSh
+1: uP9}
+1: uNj
+1: uNf9X
+1: uN95
+1: uMSW
+1: uLVj
+1: uL8^
+1: uKVh@
+1: uK9v
+1: uK9=h
+1: uJVh
+1: uI9\$
+1: uHh00
+1: uH@W
+1: uG9~$uB
+1: uG9u
+1: uDu2
+1: uDWWj
+1: uC8\8
+1: uA9}
+1: u@VW
+1: u@SW
+1: u@9Ep
+1: u>V3
+1: u>9U
+1: u=h|P
+1: u=Sh
+1: u<hP
+1: u<W3
+1: u<Ph;
+1: u:jP
+1: u:Vj
+1: u:9xLt-
+1: u9SV
+1: u9Qh
+1: u99p
+1: u7hpu
+1: u7h(u
+1: u6Vh`
+1: u695X
+1: u5SSWh$"
+1: u59u
+1: u39^
+1: u2j\XWP
+1: u1hH7
+1: u1h
+1: u1VW
+1: u0hh7
+1: u0hXw
+1: u/SV
+1: u.f9x
+1: u.f9X
+1: u.Ph
+1: u.;5
+1: u-h8
+1: u,hxx
+1: u,ht
+1: u,hp}
+1: u,hp
+1: u,hdz
+1: u,hZ
+1: u,hX{
+1: u,hHx
+1: u,h$~
+1: u,h${
+1: u,h$
+1: u,h#
+1: u,VW
+1: u+9E
+1: u*j\V
+1: u*hH7
+1: u*9E
+1: u)hx
+1: u)!E
+1: u(9]
+1: u'SU
+1: u'SP
+1: u'9]`t
+1: u&WS
+1: u&Vj
+1: u%h@
+1: u%9_8t
+1: u%9]xu
+1: u$h,7
+1: u$US
+1: u#h|
+1: u#h0.
+1: u#WUj
+1: u#SSSShX
+1: u#:F
+1: u"h|
+1: u"hl
+1: u"hdb
+1: u"h\
+1: u"SVf
+1: u!h@
+1: u!Wh4
+1: u!Vh
+1: u!VS
+1: u!Sj
+1: u h\
+1: u Wj
+1: u WPV
+1: u VP
+1: u SP
+1: u 9E
+1: u	VPj
+1: u	Iu
+1: u	AAf
+1: u	AABB
+1: u	@;D$
+1: u	9~
+1: u	9p0
+1: u	9H
+1: t~Vh
+1: t~Ht
+1: t~HHtv
+1: t|hD
+1: t|h$$
+1: t|9u
+1: t{9E
+1: tzh
+1: tzSh
+1: tylko Stany Zjednoczone i Kanada, nie na eksport
+1: tyf=+
+1: tyWh
+1: ty9x
+1: txVhl
+1: txIt
+1: txDHDDDDDxDHDDD
+1: twSV
+1: tw9u
+1: tvL<
+1: tvHt1-
+1: tuh@
+1: ttUV
+1: ttDDGtDDDDH
+1: tt95
+1: tsocenc.inf.sav
+1: tsocenc.inf
+1: tsh-'
+1: tsf==
+1: tsWP
+1: trh<,
+1: trWj
+1: tqIItPIt,
+1: tppeeZZN]
+1: tpHtV-
+1: toSV
+1: tnHt
+1: tn=0
+1: tmvP
+1: tmpreg.hiv
+1: tmf=|
+1: tmHt8Ht
+1: tmHt
+1: tm9u
+1: tlWVV
+1: tlSVWVU
+1: tkj=V
+1: tjPW
+1: tjHt
+1: tjHHt
+1: tj9}
+1: tj9]
+1: tiSh
+1: thVh
+1: th9u
+1: tghH
+1: tghG'
+1: tgf=?
+1: tgUVW
+1: tgHtGHt
+1: tfIt
+1: testroot.cer install failed 0x%lx
+1: testroot.ce*
+1: tentative
+1: teh8
+1: tcSV
+1: tbHHt
+1: tb9u
+1: tats-Unis/Canada uniquement, exportation non autoris
+1: target=%s flags=%X style=%X
+1: target.lnk
+1: tagfile.1
+1: taf=,
+1: ta  t
+1: t_VWP
+1: t_9=T
+1: t^hT
+1: t^WVj
+1: t^WV
+1: t^SSSW
+1: t]VP
+1: t]HtIHt<Ht*f
+1: t\Wj
+1: t\JtA
+1: t\9M
+1: t[j,V
+1: t[h(
+1: t[f=
+1: t[W3
+1: t[SP
+1: tZHtH-
+1: tYV3
+1: tYSV
+1: tYIuL9X\
+1: tY;54
+1: tXj
+1: tXV3
+1: tX97tT9w
+1: tWSSSSSSSj
+1: tVPV
+1: tVItE
+1: tUf=
+1: tUPVS
+1: tTSV;G
+1: tT97tP9w
+1: tSQVW
+1: tSIt
+1: tS9U
+1: tR9{
+1: tQPS
+1: tQ;58
+1: tPhP=
+1: tPh$
+1: tP+E
+1: tO~_
+1: tOf=:
+1: tOWh
+1: tOWV
+1: tO9t$
+1: tMf=
+1: tMf;
+1: tM9q
+1: tLj!VW
+1: tL9]
+1: tL9U
+1: tKIIt'I
+1: tK9t$
+1: tJf9}
+1: tJVW
+1: tJSh
+1: tJHu1
+1: tJHt
+1: tIj\W
+1: tIj,
+1: tIh8t
+1: tIWj
+1: tIVS
+1: tI=3
+1: tI;5@
+1: tHj.V
+1: tHh|
+1: tHWV
+1: tHVWh
+1: tHSW
+1: tH9~Pt'
+1: tH9~
+1: tH9]
+1: tH	Cd
+1: tGU3
+1: tG9E
+1: tFWj
+1: tFSV
+1: tFJt.
+1: tFHt<Ht2Ht(Ht
+1: tF*]
+1: tEVWj
+1: tERQ
+1: tEHt;Ht1Ht'Ht
+1: tE9]
+1: tDf9E
+1: tDWh
+1: tDVVVVVVVh
+1: tDUV
+1: tDOD
+1: tDHt
+1: tDGt
+1: tDDwtDDDDHwwx
+1: tDDH
+1: tDDGtDDDDH
+1: tDDG
+1: tDDDDDtww
+1: tDDDDDDDDH
+1: tDDDDDDDDDDOx
+1: tDDDDDDDDDD
+1: tD9k8t?9n
+1: tCf;
+1: tCVj
+1: tCVVVV
+1: tCVQ
+1: tBVj$j
+1: tBVVj
+1: tBSS
+1: tASh
+1: tASSjd
+1: tAHHt
+1: tA;5X
+1: tA9]
+1: t@hDp
+1: t@Iu
+1: t@9= K
+1: t?Wh
+1: t?VS
+1: t?Sj
+1: t?95|
+1: t?8X
+1: t>VWWj
+1: t>V3
+1: t>SW
+1: t>Ht
+1: t>=8
+1: t>=3
+1: t>9}
+1: t>9p
+1: t>9M
+1: t>9E
+1: t=WS
+1: t=Sh
+1: t=KKt#Kt
+1: t<jAY
+1: t<h8
+1: t<WhX
+1: t<Wf
+1: t<SPj
+1: t<Ht2Ht(Ht
+1: t<9]pt7
+1: t;jO
+1: t;j@
+1: t;SW
+1: t;It#IIt
+1: t;=
+1: t;9u
+1: t;8X
+1: t:e
+1: t:VU
+1: t9hPt
+1: t9KJ
+1: t9Ht
+1: t9HHt
+1: t9;=
+1: t8jXj@
+1: t8Wh
+1: t8Sj
+1: t8SUVW3
+1: t8Ph
+1: t8Hu!
+1: t8Ht"Ht
+1: t8Ht
+1: t89H
+1: t7Wj2
+1: t79K8u
+1: t79J
+1: t6Wh
+1: t6=8
+1: t6=3
+1: t59]
+1: t59M
+1: t4Ju-
+1: t49M
+1: t3SSSSSSSj
+1: t3SP
+1: t3HuD
+1: t3HH
+1: t3FFf
+1: t39=
+1: t2jI
+1: t2h|,
+1: t2W3
+1: t2Vh
+1: t2Ht
+1: t1Ht'Ht
+1: t1HHt_HHt%
+1: t1;}
+1: t19uHu%
+1: t0hN
+1: t0f==
+1: t0VW
+1: t0Ht
+1: t0=HKLMt =HKCRt
+1: t/jdY;
+1: t/h\
+1: t/f;
+1: t/VW
+1: t/PP
+1: t/Ht"-
+1: t/9U
+1: t.f=
+1: t.PW
+1: t.It#It
+1: t.HHt*
+1: t.!E
+1: t-VVVh
+1: t-ShP
+1: t-Ph
+1: t-9E
+1: t,~<
+1: t,Hu
+1: t,9}
+1: t,8^&t
+1: t+hd
+1: t+VVVj
+1: t+=8
+1: t*j$
+1: t*f=:
+1: t*WV
+1: t*Vh
+1: t*Ht
+1: t*9]
+1: t)h "
+1: t)PS
+1: t)9U
+1: t)9=T
+1: t(x1
+1: t(Wh
+1: t(SV
+1: t(It
+1: t(9}
+1: t(9u
+1: t'Wh
+1: t&IIt
+1: t&9]0u
+1: t&9]
+1: t%j
+1: t%PhT
+1: t%PhR
+1: t%It
+1: t%9E
+1: t%95x
+1: t$hU
+1: t$VVVj
+1: t$Uh
+1: t$Hub
+1: t$43
+1: t$,P
+1: t$(W
+1: t$$j
+1: t$$P
+1: t$$@P
+1: t$$+
+1: t$ h
+1: t$ Vj
+1: t$ V
+1: t$ Sh
+1: t$ SW
+1: t$ 9n$u Uh
+1: t#VS
+1: t#U3
+1: t#S3
+1: t#9U
+1: t"j\W
+1: t"h,
+1: t"_^][
+1: t"SP
+1: t"954
+1: t!hH
+1: t!h4
+1: t!Vh
+1: t f90t
+1: t Sh
+1: t Ph`?
+1: t Ph
+1: t IuD
+1: t ;t$$t
+1: t	VP
+1: t	SSV
+1: t	JJt
+1: t	@@;
+1: t	;O\
+1: t	;M
+1: t	9_
+1: t	9]tu	;
+1: t	9]
+1: t	9F
+1: t	8K
+1: s{Wh
+1: szSFXSourcePath = %s
+1: system
+1: swprintf
+1: svcpack1.dll
+1: svcpack.log
+1: subnet-local
+1: subnet
+1: strstr
+1: strncmp
+1: strcspn
+1: ssi]R_cggX6A
+1: sscanf
+1: srclabel
+1: spuninst\spuninst.inf
+1: spuninst.inf
+1: spuninst.exe /~ -u
+1: spuninst.exe /~ -q
+1: spuninst
+1: spmsg.dll
+1: sp_update
+1: sp_patch
+1: source=%s base=%s size=%u flags=%X
+1: somente EUA/Canad
+1: solo USA e Canada, non per esportazione
+1: software\microsoft\active setup\installed components\{a00bf2eb-56ee-4fde-b5ea-6a8fa425b2a5}
+1: software\microsoft\active setup\installed components\{2eac6a2d-57a8-44d4-96f7-e32bab40ca5f}
+1: site-local
+1: site
+1: signature=%s
+1: shdocvw.dll
+1: sfc.dll
+1: setupreg.hiv
+1: setlocale
+1: sendttl
+1: sendkey
+1: sdbfu
+1: scope %u
+1: sbSV
+1: sY?=63,*##!!!##**,3=?
+1: sX96tLW
+1: sSmMhHdD
+1: sL9>t59}
+1: sBQQh
+1: s@hk'
+1: s;VW
+1: s9^\
+1: s4h|'
+1: s3h0
+1: s0VQ
+1: s,PQ
+1: s'+E
+1: s h X
+1: s	UVh
+1: r~f=
+1: rsvp.pdb
+1: rsaenhs.dll
+1: rsaenh.dll
+1: rrx>1($
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrrrrrr
+1: rrrrrrrrrrrrr
+1: rrrrrrrrr
+1: rrrrrrrr
+1: rrrrrrr
+1: rrc1($
+1: rrU($
+1: rrU$
+1: root
+1: rnf=p
+1: retranstimer
+1: reset
+1: repair\setup.log
+1: renew
+1: rename
+1: remove
+1: regsvr32 /s %s
+1: reg%05d
+1: refresh
+1: ref tag %s does not exist
+1: recvkey
+1: realloc
+1: random
+1: r^f=Z
+1: rZ9=
+1: rNf=
+1: r@f=*
+1: r0f=J
+1: r,w.
+1: r*w%
+1: r f=
+1: r ej exporteras
+1: r USA och Canada. F
+1: r	v	x
+1: quw_]B7+
+1: qrA.0
+1: qdVh
+1: q PR
+1: p|VW
+1: pwwx
+1: pwwww
+1: publish
+1: psapi.dll
+1: prefixorigin
+1: preferred
+1: preference
+1: precedence
+1: ppznn
+1: ppeZUBD<8!\
+1: pouze pro USA a Kanadu, nen
+1: police
+1: pmld
+1: pidgen.dll
+1: perror
+1: pd;5\.
+1: pSetupVerifyCatalogFile
+1: pSetupUnmapAndCloseFile
+1: pSetupStringTableLookUpString
+1: pSetupStringTableInitialize
+1: pSetupStringTableEnum
+1: pSetupStringTableDestroy
+1: pSetupStringTableAddString
+1: pSetupSetQueueFlags
+1: pSetupSetGlobalFlags
+1: pSetupOpenAndMapFileForRead
+1: pSetupInstallCatalog
+1: pSetupGetQueueFlags
+1: pSetupGetGlobalFlags
+1: pSetupGetFileTitle
+1: pRegistryDelnodeWorker: RegOpenKeyEx for %s failed:0x%lx
+1: pH81
+1: p8W3
+1: p(Yu$
+1: other
+1: ot5f
+1: ospf
+1: osk.pdb
+1: org-local
+1: onlink
+1: olj
+1: oledb32.dll
+1: okb^XTTPPPTTTX^bko{
+1: oifhruqub_K?,,$%
+1: oeZEd
+1: oc  u
+1: oNUZft
+1: oMySetRestorePoint: LoadLibrary for SrClient.DLL failed: 0x%lx
+1: o,aG<4-&##&-4<G
+1: o se destina
+1: o para exporta
+1: ntsvcpak
+1: ntoskrnl.exe
+1: ntldr
+1: ntkrnlmp.exe
+1: ntdetect.com
+1: nond
+1: noaging
+1: noage
+1: nn}po
+1: nn||
+1: nnn||
+1: nl3	(
+1: newdev.dll
+1: new\testroot.ce*
+1: new\secupd.sig
+1: new\secupd.dat
+1: neighbor
+1: nec98
+1: ncalrpc
+1: name="Microsoft.Windows.Setup.IncompatibleWarning"
+1: nX	w5%
+1: n;^
+1: n9^\t5
+1: m~C;
+1: mstsc.pdb
+1: mstsc.chm
+1: msjava.dll
+1: msimn.exe
+1: mpnotify.pdb
+1: mmm|||
+1: mmm[[[
+1: minver
+1: micc^^ccim~
+1: memchr
+1: medium
+1: mbstowcs
+1: mazrob@panix.com
+1: maxver
+1: mapistub.dll
+1: manual
+1: mMf&
+1: lstrcpynW
+1: lstrcpynA
+1: lstrcmpiA
+1: lstrcmpW
+1: lstrcmpA
+1: lstrcatW
+1: lstrcatA
+1: loopback
+1: lo EE.UU. y Canad
+1: lnkstub.pdb
+1: link-local
+1: link
+1: lifetime
+1: licdll.dll
+1: lhat
+1: label
+1: l\m|mrm4m
+1: lY$W
+1: lSVWj
+1: lSSj
+1: lF'%9L
+1: l=l+l
+1: l$hu
+1: l$$t:WP
+1: l Rd
+1: key%d
+1: kernel32.DLL
+1: kQSJJ
+1: j{X_^[
+1: jz_h
+1: jz^h
+1: jzX_
+1: jx_f;
+1: jtVIItHIt;It&
+1: jstw
+1: jq_W
+1: jphP
+1: jph0
+1: jpY;
+1: jjjSSSfff
+1: jhsd
+1: jgj4
+1: jgXf9
+1: jdZ;
+1: jdY;
+1: jcY9H\|
+1: jb^jo_t3Q
+1: java\packages\data
+1: java\packages
+1: ja^t(Q
+1: j`hX
+1: j]Xf9
+1: j\]f9.u2f9n
+1: j\X_^
+1: j\V
+1: jWX^[
+1: jPPV
+1: jJY3
+1: jIw@
+1: jHh0
+1: jHY3
+1: jDhX
+1: jAYhT
+1: jAX_^][
+1: jAX_^[]
+1: j@h8
+1: j@WWW
+1: j<hp
+1: j<h@
+1: j8hp
+1: j4hx
+1: j4hh%
+1: j4h8
+1: j4Xf9
+1: j0hP
+1: j0h0'
+1: j0SPj
+1: j._t)
+1: j,n0R
+1: j,hp
+1: j'Y3
+1: j%Y3
+1: j%X_^[
+1: j$h`
+1: j$hT
+1: j$hP%
+1: j$h("
+1: j$Y3
+1: j hp
+1: j hh
+1: j hT
+1: j Y3
+1: j Pj
+1: j	Z;
+1: iw\iis.inf
+1: it;f
+1: ismif32.dll
+1: isdigit
+1: is\iis.inf
+1: ipv6.pdb
+1: ip\iis.inf
+1: invalid
+1: interface-local
+1: interface
+1: integrity
+1: installation completed successfully.
+1: install
+1: infinite
+1: inf\iis.tmp
+1: inf\iis.inf
+1: inetsrv
+1: immortal
+1: il\iis.inf
+1: iis.inf
+1: iis.in_
+1: igrp
+1: ifidorigin
+1: ifcr
+1: if exist
+1: idrp
+1: id\iis.inf
+1: ib\iis.inf
+1: ia\iis.inf
+1: i]Wb
+1: i>!+
+1: i386
+1: http://support.microsoft.com
+1: http://
+1: hrdx
+1: hotfix
+1: hklm\
+1: hjhstV
+1: hjhst
+1: hjhssV
+1: hjhsd
+1: hivesys.inf
+1: high
+1: hhhhhhhhhhhhhhhhhhhhhhhh
+1: hhhhhhhhhhhhhhhhhhhhhhh
+1: hhhhhhhhhhhhhhhhhhhhhh
+1: hhctrl.ocx
+1: hhbjcM*p
+1: hc_E;7M<5[
+1: hash:
+1: hal.dll
+1: hUJ>>
+1: hPh0
+1: hP1
+1: hKm0R
+1: hHkb
+1: h=j>,$$$
+1: h5F)
+1: h.s@
+1: h%s@
+1: h!?%
+1: h }@
+1: gtyg
+1: gt8Ht-Ht"Ht
+1: gqUqFq
+1: global
+1: ggggggcgCc622
+1: ggggggcZV
+1: ggggg;Z2.
+1: gggg^V2
+1: ggg^Z2
+1: gg_Z2
+1: getnameinfo
+1: getenv
+1: getaddrinfo
+1: gdi32.DLL
+1: g_Z
+1: g_V2
+1: g	ZZ.
+1: ft*v
+1: freeaddrinfo
+1: fprintf
+1: forwards
+1: floor
+1: fixmapi.pdb
+1: filelist.xm*
+1: fff`yyy
+1: fff`
+1: fffPfff
+1: fff@|||
+1: fff0lll
+1: fff0fff`_\[
+1: fff YSQZ`][
+1: ffKmkolS-4!
+1: fail adding flow - %d
+1: fail adding filter - %d
+1: fKK\
+1: f=pqrst
+1: f=p
+1: f;L$
+1: f;:t
+1: f;1t
+1: f:\nt\base\ntsetup\srvpack\update\update\doinst.c
+1: f9up_^t
+1: f9ST
+1: f9KVu
+1: f9KT
+1: f9KF
+1: f98r
+1: f97u!
+1: f92u
+1: f90u	9u
+1: f90u
+1: f90t
+1: f9(t
+1: f+L$
+1: exporta
+1: export
+1: eula.txt
+1: et3Ht
+1: et/Ht%
+1: eno pro export
+1: engine
+1: encinst.inf.sav
+1: encinst.inf
+1: encinst.exe
+1: empty.cat
+1: eeU=</\
+1: e]Z~
+1: eJJ8
+1: eEf=ghfijklimnf=o
+1: e>Y
+1: dvFj
+1: duplicate
+1: dupaddrdetecttransmits
+1: dtAf
+1: dstlabel
+1: drivers
+1: download=%u
+1: download
+1: dosnet.inf
+1: disable
+1: dhcp
+1: deprecated
+1: deed047e-a3cb-11d1-b96c-00c04fb15601
+1: dddd, MMMM dd, yyyy
+1: dddY?3
+1: dataR
+1: data1.hdr
+1: d1YWe0
+1: d1Y%
+1: curhoplimit
+1: ctime
+1: csak USA/Kanada, nem export
+1: crypt32.dll
+1: counter
+1: count
+1: copying %s -> %s
+1: copy %s %s -> %s (%s)
+1: copy
+1: config.dmp
+1: clone="%s"
+1: cleanjpm.exe
+1: cekX:
+1: cdtag.1
+1: cdrom_%s.5
+1: cdrom
+1: cc	ZV222222.222
+1: calloc
+1: calling DownloadAndPatchFiles for %u files
+1: cZ22
+1: cZ2.
+1: cVjm
+1: c&2y=3,*!
+1: bj Y
+1: bgggg
+1: bg0M0~0[0
+1: basereachabletime
+1: bare USA/Canada, ikke for eksport
+1: bW0f0
+1: bUm3
+1: bPatchMode = %s
+1: bI;2
+1: bDGk
+1: b3n`
+1: b)Rich
+1: b)I*i)
+1: b)I*h)
+1: b'jV
+1: b'Y)
+1: autoconf
+1: asms
+1: apenas para E.U.A e Canad
+1: apcompat.inf
+1: apcompat.addreg.full
+1: anycast
+1: alias %s
+1: aging
+1: advertises
+1: advertise
+1: admin-local
+1: admin
+1: acmStreamUnprepareHeader
+1: acmStreamSize
+1: acmStreamPrepareHeader
+1: acmStreamOpen
+1: acmStreamConvert
+1: acmStreamClose
+1: acmFormatTagDetailsW
+1: acmFormatSuggest
+1: acmDriverOpen
+1: acmDriverEnum
+1: acmDriverClose
+1: aGGOf
+1: aA*$+D3"
+1: a-hZ
+1: a'Y)R
+1: `deR
+1: `]Zronm
+1: `SW3
+1: `PE?
+1: `@V'
+1: `</"&..
+1: `.rsrc
+1: `.rdata
+1: `"I(
+1: _write
+1: _wcsnicmp
+1: _wcslwr
+1: _wcsdup
+1: _vsnprintf
+1: _tempnam
+1: _strupr
+1: _strlwr
+1: _strdup
+1: _strcmpi
+1: _snwprintf
+1: _read
+1: _open
+1: _mbsnbicmp
+1: _mbsnbcmp
+1: _mbslwr
+1: _mbsinc
+1: _mbsicmp
+1: _mbscpy
+1: _mbscmp
+1: _lseek
+1: _itoa
+1: _iob
+1: _ggggg
+1: _errno
+1: _close
+1: _chkstk
+1: _aulldiv
+1: _allmul
+1: _alldiv
+1: _abnormal_termination
+1: _a0O0`0U0D0
+1: __initenv
+1: _^][u
+1: _^[f
+1: _^[3
+1: _^@[
+1: _^9]
+1: _][^YY
+1: _][^Y
+1: _][YY
+1: _]YY
+1: _[tCV
+1: _[t
+1: _[hP
+1: _[Ya~~~
+1: _WhH
+1: _UPDATE_EXE_QUIET_MODE
+1: _SSV
+1: _SFX_SourceFilesURL
+1: _SFX_NoDefaultURL
+1: _SFX_CAB_SHUTDOWN_REQUEST
+1: _SFX_CAB_EXE_PATH = %s
+1: _SFX_CAB_EXE_PATH
+1: _HFM_EXE_PATH
+1: _@[^]
+1: _9=<C
+1: _%06d%_.tmp
+1: ^tgVh
+1: ^t 9-
+1: ^gbL
+1: ^cgggggg
+1: ^cgggg
+1: ^cggg
+1: ^^
+1: ^[t*PUhr
+1: ^[_]Y
+1: ^[9}
+1: ^ZZZZZZ
+1: ^ZZZZ
+1: ^ZZ2
+1: ^ZYb
+1: ^YWR
+1: ^TPKKEE?????EEKKPT^b
+1: ^C?CcgcggggggggggggcCcCc?Z22
+1: ^@Sf
+1: ^?cggggg
+1: ^?c?cCgcgcgcggcgcgcCcg???;V2
+1: ^8_^][
+1: ^$Sh
+1: ^ _[3
+1: ]|v{
+1: ]tVW
+1: ]tEFFf9M
+1: ]_^3
+1: ][ut
+1: ][_^Y
+1: ]ZXe
+1: ]HD21
+1: ]@[^YY
+1: ]9/u
+1: ](	<\
+1: ]$t/
+1: \}l^
+1: \wship6
+1: \ws2_32
+1: \wekmi.exe
+1: \update\update.exe
+1: \u`j
+1: \uPj
+1: \uNVh
+1: \u,j
+1: \spuninst\spuninst.exe
+1: \spuninst\
+1: \spuninst.inf
+1: \netman.dll
+1: \nec98
+1: \iphlpapi.dll
+1: \ia64
+1: \i386
+1: \encinst.exe
+1: \aocui.exe
+1: \WUV
+1: \Vh\
+1: \V::
+1: \USX`]\
+1: \StringFileInfo\%04x%04x\FileDescription
+1: \StringFileInfo\%04x%04x\
+1: \SVW
+1: \Ph4
+1: \InstallShield\iScript
+1: \InstallShield\engine\6\Intel 32
+1: \InstallShield\engine\6
+1: \InstallShield\engine
+1: \InstallShield\Engine\6\Intel 32\
+1: \InstallShield
+1: \Common Files
+1: \AppPatch
+1: \??\UNC\
+1: \??\
+1: \;=h
+1: \9_,u(j
+1: \*.*
+1: \)Cttttt
+1: \(WvQ
+1: \((------'(WW
+1: \$ntservicepackuninstall$
+1: [t53
+1: [t)+
+1: [s VR
+1: [hQxS}
+1: [d~}yyrkch>
+1: []<>'*$|:?";,%
+1: [[[kkkooo
+1: [['WW
+1: [['Bfx}yywwkkc`K3
+1: [Z[Z[Z[ZZ
+1: [ZZZ[ZZ^
+1: [ZZZZ
+1: [Y^[
+1: [VVq
+1: [Strings]
+1: [SnapShot.Install]
+1: [SVWh
+1: [RestoreFiles]
+1: [RestoreFiles.NoDelay]
+1: [Reg.Restore.Values]
+1: [Reg.Restore.Keys]
+1: [Reg.Delete.Values]
+1: [Reg.Delete.Keys]
+1: [ProcessesToRunBeforeUninstall]
+1: [ProcessesToRunAfterUninstall]
+1: [Error Parsing Policy Data],
+1: [Dj!
+1: [DestinationDirs]
+1: [Configuration]
+1: [AppPatch.Exclusions]
+1: [9]$t
+1: Z~ZZZZZZZ^
+1: Z~ZZZZZZZZZZ2
+1: Zc?gcgcggggggggggggggggcC?[V2
+1: Z[~_^ZWV2V3V3V22
+1: ZZZ[Z[ZV^
+1: ZZZZ[
+1: ZZZZZ[ZZ
+1: ZZZZZ
+1: ZZZZ22
+1: ZZZZ
+1: ZZZYYY]]]mmm
+1: ZZZVZ[Z
+1: ZZZ2
+1: ZZ6VZZ^c
+1: ZVZZV2
+1: ZVZVZZ_Z.2
+1: ZVV323232322V2
+1: ZV2..
+1: ZTOv=+$*=1$
+1: Z?g?ggggggg
+1: Z?C?Cc?g?gcggcggCcCcC??C?;V2
+1: Z????C??g?CcC??c?Cc??????;22
+1: Z6W7VZZ3Z
+1: Z#P#G#n
+1: YuZh
+1: Yu'h
+1: Yu&h
+1: YtdS
+1: Yt`3
+1: Yt_S
+1: YtPh
+1: Yt?3
+1: Yt<W
+1: Yt;9
+1: Yt2j
+1: Yt1f
+1: Yt1SW
+1: Yt-j
+1: Yt	U
+1: YsWj,S
+1: Yh3'
+1: Yh0'
+1: Y[_^
+1: YYwG
+1: YYux
+1: YYuwV
+1: YYuh
+1: YYudSV
+1: YYuW
+1: YYu<
+1: YYu;
+1: YYu:
+1: YYu5
+1: YYu0h
+1: YYu.3
+1: YYu,j
+1: YYu)
+1: YYu&V
+1: YYu&
+1: YYu#
+1: YYu h
+1: YYu	VW
+1: YYu
+1: YYt~Sj
+1: YYt}
+1: YYtvh
+1: YYtu
+1: YYtg
+1: YYt`S
+1: YYt^
+1: YYt]
+1: YYtZh
+1: YYtXhP
+1: YYtV
+1: YYtD9
+1: YYtC
+1: YYtA
+1: YYt;
+1: YYt:h
+1: YYt:
+1: YYt3h
+1: YYt0V
+1: YYt.
+1: YYt-V
+1: YYt+
+1: YYt*
+1: YYt(
+1: YYt&
+1: YYt$h
+1: YYt$
+1: YYt!V
+1: YYt!@UP
+1: YYt!
+1: YYt j\W
+1: YYt	VW
+1: YYjdX
+1: YYj@
+1: YYj0[
+1: YY_u
+1: YY_[
+1: YY[_^
+1: YYWSh
+1: YYVh
+1: YYV3
+1: YYUV
+1: YYSW
+1: YYSSV
+1: YYSSSSSSSj
+1: YYG;}
+1: YY@@SP
+1: YY@@
+1: YY;u
+1: YY9=P
+1: YWVh
+1: YSSSSSSSj
+1: YPh|
+1: YPWW
+1: YPWSS
+1: YPSS
+1: YF;t$
+1: YAAg
+1: Y@_^[
+1: Y@_^
+1: Y@PWSS
+1: Y9]`t
+1: Y9E t
+1: Y6R0R
+1: Y360
+1: XhGp
+1: X`F;u
+1: X`@$
+1: X_[^
+1: XZ_^[
+1: XWhx
+1: XWWWPU
+1: XVhD
+1: XShxH
+1: X0f0
+1: X.~/e
+1: X.509 V3 digital cert %d bytes long
+1: Wy}]C
+1: WuGf
+1: Wu.j@j
+1: WtyHt
+1: Wtn9
+1: Wrong File Conditional Section
+1: WriteProcessMemory
+1: WorkingDirectory
+1: Working directory:  %s
+1: Wjdj
+1: Wjd3
+1: WjBY3
+1: Wj$Y3
+1: Wj Xj
+1: Wiz2Proc:CreateFile failed for eula.txt:INVALID_HANDLE_VALUE
+1: Wiz2Proc: ReadFile Failed: 0x%lx
+1: Wiz2Proc: LoadBitmap Failed: 0x%lx
+1: Wiz2Proc: GetFileSize Failed: 0x%lx
+1: Wininet.InternetConnect failed with error: 0x%lx
+1: Wininet.HttpSendRequest failed with error: 0x%lx
+1: Wininet.HttpQueryInfo failed with error: 0x%lx
+1: Wininet.HttpOpenRequest failed with error: 0x%lx
+1: Windows 95 Utopia Sound Scheme
+1: WinStationVirtualOpen
+1: WinStationQueryInformationW
+1: WinMain:Error in determining the platform for SP
+1: WinMain:Allocation failed for OriginalMessage
+1: WinMain:Allocation failed for Message
+1: WinHelpW
+1: WhtY
+1: WhdZ
+1: WhT
+1: WhF'
+1: Wh@Y
+1: Wh,Y
+1: Wednesday
+1: We failed to determine if a free bit version of the service is currently running, error: %d.
+1: WaitTimeForServiceStop
+1: WaitForServiceStatusChange: QueryServiceStatus failed :0x%lx
+1: WaitForMultipleObjectsEx
+1: WWj
+1: WWhs
+1: WWhN
+1: WWhG
+1: WWhF
+1: WWh"
+1: WWh!
+1: WWWj
+1: WWWWWWh
+1: WWWV
+1: WWWP
+1: WWUW
+1: WWSP
+1: WVj0
+1: WVhkkk
+1: WVWW
+1: WVVSP
+1: WVSj
+1: WVSV
+1: WVSS
+1: WTHelperProvDataFromStateData
+1: WTHelperGetProvSignerFromChain
+1: WTHelperGetProvCertFromChain
+1: WSj0
+1: WShhY
+1: WShd
+1: WShQ
+1: WSh8
+1: WSh6
+1: WSh Y
+1: WSSh
+1: WSCEnumProtocols
+1: WSAWaitForMultipleEvents
+1: WSAStringToAddressA
+1: WSASocketW
+1: WSARecvFrom
+1: WSAGetOverlappedResult
+1: WSAEventSelect
+1: WSAEnumNetworkEvents
+1: WSAAddressToStringA
+1: WRR0
+1: WQPQP
+1: WNetPasswordChangeNotify
+1: WNetLogonNotify
+1: WNetGetUserA
+1: WNetGetUniversalNameA
+1: WINTRUST.dll
+1: WINSPOOL.DRV
+1: WINNT
+1: WINNLSEnableIME
+1: WFP_IDLE_TRIGGER
+1: WAQj
+1: W:%u
+1: W0~0Y0
+1: W0~0W0_0
+1: W0f0
+1: W$""
+1: W	G,
+1: VtEP
+1: Vt<Wh
+1: Vltl
+1: Vjdj
+1: Vjd^
+1: VirtualAllocEx
+1: Vhnu
+1: VhdU
+1: Vh`(
+1: Vh\)
+1: VhXr
+1: VhTD
+1: VhPc
+1: VhHU
+1: Vh@'
+1: Vh<V
+1: Vh9'
+1: Vh8r
+1: Vh4s
+1: Vh1'
+1: Vh,U
+1: Vh,)
+1: Vh$z
+1: Vh$c
+1: VersionValid: %s
+1: Version: %s
+1: Version:
+1: Version
+1: VerifySize: Unable to verify size: Source = NULL: %s
+1: VerifySize: Unable to obtain Target file size: %s
+1: VerifyCatalogFile
+1: VerQueryValueW
+1: VerInstallFileA
+1: VW~M
+1: VW~=
+1: VW~"
+1: VWumh`
+1: VWumh@$
+1: VWumh
+1: VWuDh
+1: VWu3
+1: VWu*
+1: VWtn
+1: VWtb9
+1: VWtB
+1: VWt=
+1: VWt)
+1: VWt'
+1: VWsr
+1: VWsX
+1: VWsU
+1: VWj\S3
+1: VWjAY3
+1: VWj/
+1: VWj
+1: VWh@
+1: VWh%0
+1: VWh#0
+1: VWWh
+1: VWWW
+1: VWVVjdjdVVh
+1: VWVVVVVVhB
+1: VWQP
+1: VWPj
+1: VVhG
+1: VVhF
+1: VVh(1
+1: VVVhdt
+1: VVVVW
+1: VVVVVV
+1: VUt[
+1: VUhJ
+1: VUhI
+1: VSht
+1: VRQRQP
+1: VQRP
+1: VQPW
+1: VPWQ
+1: VPSSj
+1: VPPP
+1: VMSection
+1: V40--
+1: V,Rh
+1: V(Rh
+1: U|;Q\|
+1: UuidCreate
+1: Utopia Exclamation
+1: UserId -
+1: User specified '-o'; ignoring any OEM driver files.
+1: User has selected not to Overwrite the Oem driver %ws
+1: User aborted
+1: User Input: YES
+1: User Input: TRYAGAIN
+1: User Input: RETRY
+1: User Input: OK
+1: User Input: NO
+1: User Input: IGNORE
+1: User Input: CONTINUE
+1: User Input: CANCEL
+1: User Input: ABORT
+1: UseAnonymousAddresses
+1: Updating Date for %s, Driver = %s, MfgName = %s from %s
+1: UpdateRegKey
+1: UpdateMonitoredListFailed WithError 0x%lx
+1: UpdateMonitoredList Succeeded
+1: UpdateDrivers
+1: UpdateDriverForPlugAndPlayDevicesA
+1: UpdateCopyFlags:  StripLeadingAndTrailingWhiteSpaceAndQuotes failed
+1: UpdateColors
+1: Update
+1: Upcalls
+1: UnregisterClassW
+1: UnrealizeObject
+1: Unknown object,
+1: Unknown error
+1: Unknown compression type
+1: Unknown cabinet version
+1: Unknown Style,
+1: Unknown Service flow spec,
+1: Unknown Sender Template C-Type,
+1: Unknown ISSL service type;
+1: Unknown Filter spec C-Type,
+1: Unknown
+1: UninstallationType    = "%s"
+1: UninstallString
+1: UninstallSections
+1: UninstallCommand
+1: Unable to rename source clone "%s" to "%s", GLE=0x%lx
+1: Unable to recover %s from reference cabinet %s
+1: Unable to query disk usage info
+1: Unable to identify patch candidate for %s
+1: Unable to copy existing clone "%s" to "%s", GLE=0x%lx
+1: UnInstallLogFileName  = "%s"
+1: UnInstallLogFileName
+1: UnInstallDirName
+1: Uhh;
+1: Uh9K(u
+1: UWhZ
+1: UVh9
+1: UVh
+1: UVWXYZ[
+1: UVWS
+1: UVW3
+1: UUhG
+1: UUhD
+1: UUUUUUU
+1: UUUUUU
+1: UUUE
+1: USERENV.dll
+1: US/Canada Only, Not for Export
+1: US and Canada Use Only
+1: URLInfoAbout
+1: UPh4
+1: UPDATE: Failed to register event message source
+1: UJ>1((
+1: UJ>1($
+1: U>1(J
+1: U<+"
+1: U-Nx
+1: U SV
+1: TypesSupported
+1: Type
+1: Tuesday
+1: Tspec length?
+1: Tspec C-Type ??: %d
+1: TranslateCharsetInfo
+1: TranslateAcceleratorW
+1: TranslateAcceleratorA
+1: ToUnicodeEx
+1: TlsSetValue
+1: TlsGetValue
+1: TlsFree
+1: TlsAlloc
+1: Thursday
+1: ThisServicePackVersion
+1: ThisServicePackBuild
+1: The constrol dispatcher has returned the error %d.
+1: TextOutW
+1: TerminateThread
+1: TerminateProcess
+1: TcSetInterface
+1: TcRegisterClient
+1: TcQueryInterface
+1: TcOpenInterfaceW
+1: TcModifyFlow
+1: TcEnumerateInterfaces
+1: TcEnumerateFlows
+1: TcDeregisterClient
+1: TcDeleteFlow
+1: TcDeleteFilter
+1: TcCloseInterface
+1: TcAddFlow
+1: TcAddFilter
+1: TargetVersionValid: %s
+1: TargetSignatureValid: %s
+1: TargetInUse: %s
+1: TargetHashValid: %s
+1: TargetHashMatches: %s
+1: TargetFromSection
+1: TargetFileTime: %I64u
+1: TargetExists: %s
+1: Target File Size Mismatch: %s, ExpectedSize = %08x, ActualSize = %08x
+1: T_UNKNOWN
+1: T_TRUE
+1: T_FALSE
+1: T_???
+1: TVSVVjdjdVVh
+1: TUUUUU+
+1: TUUU
+1: TTTlll
+1: TSVWj
+1: TSVW
+1: TSUVW3
+1: TSSNDD::WRN -
+1: TSSNDD::INF -
+1: TSSNDD::FATAL -
+1: TSSNDD::ERR -
+1: TSSNDD::ALV -
+1: TSAware
+1: TRUE
+1: TRAFFIC CONTROL PROBLEM
+1: TPKE??===66==??EKKPX
+1: TID]
+1: T=[Wrong/obsolete Tspec service id %d]
+1: T=[M = %s]
+1: T=[%s(%s) %sB/s %s %s]
+1: T<("&
+1: T$TP
+1: T$<SR
+1: T$<P
+1: T$0PQR
+1: T$,Q
+1: T$,P
+1: T$(WS
+1: T$(Q
+1: T$(P
+1: T$$WR
+1: T$$Q
+1: T$$P
+1: T$$%
+1: T$ P
+1: T$ G
+1: System\Setup
+1: System\Ole DB
+1: System\CurrentControlSet\Services\NWCWorkstation
+1: System\CurrentControlSet\Services\EventLog\System\%s
+1: System\CurrentControlSet\Control\Windows
+1: System\CurrentControlSet\Control\Session Manager
+1: SystemTimeToFileTime
+1: SystemStartOptions
+1: SystemRoot\system32\drivers
+1: SystemRoot\system32\dllcache
+1: SystemRoot\system32\clients\tsclient\win32\disks\disk2
+1: SystemRoot\system32\clients\tsclient\win16\disks\disk1
+1: SystemRoot\system32\clients\tsclient\net\win32
+1: SystemRoot\system32\clients\tsclient\net\win16
+1: SystemRoot\system32
+1: SystemRoot
+1: SystemPartitionDirectory
+1: SystemComponent
+1: System Restore Point set.
+1: SxsUninstallW
+1: SxsInstallW
+1: SupportNonSbmRouter
+1: Sunday
+1: SunMonTueWedThuFriSat
+1: SubnetIPAddress
+1: Strong Encryption
+1: Strings.Uninstall
+1: Strings.Install
+1: Strings
+1: StringTableEnum
+1: StrStrIA
+1: StopServices: QueryServiceStatus failed :0x%lx
+1: StopServices: OpenService failed :0x%lx
+1: StopServices: OpenSCManager failed :0x%lx
+1: StopServices: MyStopService failed :0x%lx
+1: StopServices: EnumDependentServices failed :0x%lx
+1: StopServices: Allocation failed for szSvcName
+1: StopServices: Allocation failed for szSvcDispName
+1: StopServices: Allocation failed for lpServices
+1: Startup
+1: Starting process:  %s
+1: StartServices: OpenSCManager failed :0x%lx
+1: StartServiceCtrlDispatcherA
+1: StartServiceA
+1: StartBlocker
+1: Stack overwrite detected
+1: St9+
+1: SrClient.DLL
+1: SourcePresent: %s
+1: SourcePath
+1: SourceFilesURL
+1: SourceFiles
+1: SourceFileInfo
+1: SourceDisksFiles
+1: Source:
+1: Source clone %s was found.
+1: Software\Policies\Microsoft\Windows NT\Windows File Protection
+1: Software\Microsoft\Windows\CurrentVersion\Uninstall\IE40
+1: Software\Microsoft\Windows\CurrentVersion\Uninstall\%s
+1: Software\Microsoft\Windows\CurrentVersion\Uninstall
+1: Software\Microsoft\Windows\CurrentVersion\Setup
+1: Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+1: Software\Microsoft\Windows NT\CurrentVersion\Terminal Server\Install\Software
+1: Software\Microsoft\Windows NT\CurrentVersion\ServicePack
+1: Software\Microsoft\Windows NT\CurrentVersion
+1: Software\Microsoft\Windows NT Service Pack
+1: Software\Microsoft\Transaction Server\Setup\Product Version
+1: Software\Microsoft\Transaction Server\Setup(OCM)\Product Version
+1: Software\Microsoft\MSLicensing\HardwareID
+1: Software\Microsoft\Internet Explorer
+1: Software\Microsoft\INetStp
+1: Software\Classes\.htm
+1: Software\Classes\%s\shell\open\command
+1: Sjxj
+1: SjhW
+1: Shzj@
+1: Shxh
+1: Shjh
+1: Shh~
+1: Shhi
+1: Shdg
+1: Share %s: free %uMB req: %uMB w/uninstall %uMB
+1: Share %s: Need additional %uMB to install, %uMB with uninstall
+1: Sh`L
+1: Sh`C
+1: Sh`=
+1: ShTi
+1: ShTf
+1: ShT=
+1: ShHY
+1: ShH:
+1: Sh<i
+1: Sh0W
+1: SfcDllCacheDir
+1: SetupTerminateFileLog
+1: SetupSetDirectoryIdA
+1: SetupScanFileQueueA
+1: SetupScanFileQueue in CollectThirdPartyDriversFromDevice Failed with error: 0x%lx
+1: SetupQueueCopyA
+1: SetupQueryInfOriginalFileInformationA
+1: SetupQueryFileLogA
+1: SetupPromptForDiskA
+1: SetupOpenInfFileA
+1: SetupOpenFileQueue in CollectThirdPartyDriversFromDevice Failed with error : INVALID_HANDLE_VALUE
+1: SetupOpenFileQueue
+1: SetupIterateCabinetA
+1: SetupInstallFromInfSectionA
+1: SetupInstallFilesFromInfSectionA
+1: SetupInitializeFileLogA
+1: SetupInitDefaultQueueCallbackEx
+1: SetupGetTargetPathA
+1: SetupGetStringFieldA
+1: SetupGetSourceInfoA
+1: SetupGetSourceFileLocationW
+1: SetupGetSourceFileLocationA
+1: SetupGetLineTextA
+1: SetupGetLineText for Version section Failed: 0x%lx
+1: SetupGetLineCountA
+1: SetupGetLineByIndexA
+1: SetupGetIntField
+1: SetupGetInfInformationA
+1: SetupGetFieldCount
+1: SetupFindNextLine
+1: SetupFindFirstLineA
+1: SetupFindFirstLine in LoadExclusionList Failed with error: 0x%lx
+1: SetupDiSetSelectedDriverA
+1: SetupDiSetSelectedDriver in CollectThirdPartyDriversFromDevice Failed with error: %d
+1: SetupDiSetDeviceInstallParamsA
+1: SetupDiSetDeviceInstallParams in CollectThirdPartyDriversFromDevice Failed with error: 0x%lx
+1: SetupDiOpenDevRegKey
+1: SetupDiGetDriverInfoDetailA
+1: SetupDiGetDriverInfoDetail in CollectThirdPartyDriversFromDevice Failed with error: %d
+1: SetupDiGetDriverInfoDetail failed for %s inf file %s error 0x%lx
+1: SetupDiGetDeviceRegistryPropertyA
+1: SetupDiGetDeviceInstanceIdA
+1: SetupDiGetDeviceInstallParamsA
+1: SetupDiGetDeviceInstallParams in CollectThirdPartyDriversFromDevice Failed with error: 0x%lx
+1: SetupDiGetDeviceInstallParams in CollectThirdPartyDriversFromDevice Failed with error: %d
+1: SetupDiGetDeviceInstallParams failed for %s with error 0x%lx
+1: SetupDiGetClassDevsA
+1: SetupDiGetClassDevs in GetThirdPartyDriverList failed with error: INVALID_HANDLE_VALUE
+1: SetupDiGetClassDevs failed with error 0x%lx
+1: SetupDiEnumDriverInfoA
+1: SetupDiEnumDeviceInfo
+1: SetupDiDestroyDriverInfoList
+1: SetupDiDestroyDeviceInfoList
+1: SetupDiCallClassInstaller in CollectThirdPartyDriversFromDevice Failed with error: %d
+1: SetupDiCallClassInstaller
+1: SetupDiBuildDriverInfoList in CollectThirdPartyDriversFromDevice Failed with error: %d
+1: SetupDiBuildDriverInfoList
+1: SetupDefaultQueueCallbackW
+1: SetupDefaultQueueCallbackA
+1: SetupDecompressOrCopyFileA
+1: SetupDecompressOrCopyFile retries failed: %s
+1: SetupDecompressOrCopyFile error: %s, Error = %08x
+1: SetupCopyOEMInfA
+1: SetupCopyErrorA
+1: SetupCommitFileQueueA
+1: SetupCloseFileQueue
+1: SetupApi.DLL
+1: Setup Failed to run INF_SECTION_BEFORE_ARCHIVE
+1: Setup
+1: Setting Registry DriverDateData failed for %s with error 0x%lx
+1: Setting Registry DriverDate failed for %s with error 0x%lx
+1: SetWindowRgn
+1: SetWindowPlacement
+1: SetThreadPriority
+1: SetThreadLocale
+1: SetServiceStatus
+1: SetServicePackSourcePath:Allocation Failed for szBuf
+1: SetRectRgn
+1: SetRect
+1: SetProcessWorkingSetSize
+1: SetProcessWindowStation
+1: SetNamedSecurityInfoA
+1: SetMetaFileBitsEx
+1: SetLayout
+1: SetFileTime
+1: SetFileSecurityW
+1: SetFileSecurityA
+1: SetEnvironmentVariableA
+1: SetEntriesInAclW
+1: SetEndOfFile
+1: SetDynamicDirectoryId:SetupSetDirectoryId for %s  failed : STATUS_UNABLE_TO_SET_DIRID
+1: SetDynamicDirectoryId:GetFileAttributes for %s  failed : STATUS_INVALID_INSTALL_PATH
+1: SetDynamicDirectoryId:ExpandEnvironmentStrings failed :STATUS_INVALID_INSTALL_PATH
+1: SetDynamicDirectoryId: LoadLibrary for %s  failed: 0x%lx
+1: SetDynamicDirectoryId: GetProcAddress for %s  failed: 0x%lx
+1: SetDynamicDirectoryId: Allocation failed for lpExpandedPath
+1: SetCurrentDirectoryA
+1: SetCommonDirIds: SetupSetDirectoryId for PF_DEST_DIR failed: 0x%lx
+1: SetCommonDirIds: SetupSetDirectoryId for DRVCACHE_DEST_DIR failed: 0x%lx
+1: SetCommonDirIds: SetupSetDirectoryId for CM_DEST_DIR failed: 0x%lx
+1: SetCommonDirIds: SetupSetDirectoryId for CACHE_DEST_DIR failed: 0x%lx
+1: SetCommonDirIds: Allocation for lpDrvCachePath failed
+1: SetCommonDirIds: Allocation failed for lpExpandedCachePath
+1: SetCommonDirIds: Allocation failed for lpCachePath
+1: SetClipboardViewer
+1: SetClassLongW
+1: SetCapture
+1: SetBkColor
+1: SessionId:%u
+1: ServicesToStopAndStart
+1: ServicePackSourcePath
+1: ServicePackFiles\nec98
+1: ServicePackFiles\ia64
+1: ServicePackFiles\i386
+1: ServicePackFilesDelete.files
+1: ServicePackFilesAlways
+1: ServicePackFiles.IW
+1: ServicePackFiles.IS
+1: ServicePackFiles.IP
+1: ServicePackFiles.IL
+1: ServicePackFiles.ID
+1: ServicePackFiles.IC
+1: ServicePackFiles.IB
+1: ServicePackFiles.IA
+1: ServicePackFiles.BuildType.IP.Sel.Files
+1: ServicePackFiles.BuildType.IP.Mnt.Files
+1: ServicePackFiles.BuildType.IP.Files
+1: ServicePackFiles.BuildType.IP.Evl.Files
+1: ServicePackFiles.BuildType.IC.Files
+1: ServicePackFiles
+1: ServicePackDirectoriesToUpdate
+1: ServicePackDirectoriesToInsert
+1: Service Pack Setup
+1: Service Pack
+1: ServerNT
+1: September
+1: SendInput
+1: SendARP
+1: Self-extractor will reboot the system.
+1: SectionToProcessBeforeArchive
+1: SearchPathW
+1: ScreenToClient
+1: Scanning reference setup source "%s"
+1: Scanning reference directory "%s"
+1: Scanning reference cabinet "%s"
+1: ScanReferenceSetupSource:Memory Allocation for Target Patch Signature failed
+1: ScanReferenceSetupSource used %u ticks
+1: ScanReferenceDirectory:Memory Allocation for Target Patch Signature failed
+1: ScanReferenceDirectory used %u ticks
+1: ScanReferenceCabinetCallback:Memory Allocation for Target Patch Signature failed
+1: ScanReferenceCabinet:SetupIterateCabinet Failed: 0x%lx
+1: ScanReferenceCabinet used %u ticks
+1: ScanAssimilateDUCallback: File operatation aborted
+1: Save.Reg.For.Uninstall
+1: Saturday
+1: SZTQ
+1: SYstem\CurrentControlSet\Services\TermService
+1: SYSTEM\Select
+1: SYSTEM\CurrentControlSet\Services\WSPSrv\Parameters
+1: SYSTEM\CurrentControlSet\Services\RSVP\Parameters
+1: SYSTEM\CurrentControlSet\Services\RSVP
+1: SYSTEM\CurrentControlSet\Control\Session Manager
+1: SYSTEM\CurrentControlSet\Control
+1: SXS.DLL
+1: SWt@VVVj
+1: SWj`3
+1: SWjAY
+1: SWj.3
+1: SWh@
+1: SWh,
+1: SWVVVV
+1: SWQP
+1: SWPS
+1: SWPQ
+1: SWPPP
+1: SVvF
+1: SVj0
+1: SVWt$
+1: SVWt
+1: SVWse
+1: SVWrE
+1: SVWjh
+1: SVWj@Y3
+1: SVWj$^u
+1: SVWj [;
+1: SVWhp
+1: SVWf
+1: SVWP
+1: SVW+
+1: SVCPACK1.DLL
+1: SUhC
+1: SUWVU
+1: SUWV
+1: SUW3
+1: SUVWj
+1: SUVWh|
+1: SUPPRESS
+1: STu.9U
+1: SSj Vj
+1: SSj
+1: SShD
+1: SSh,K
+1: SSh#
+1: SSh
+1: SSWVj
+1: SSWV
+1: SSVV
+1: SSSj
+1: SSSWhH
+1: SSSWP
+1: SSSVW
+1: SSSV
+1: SSSUU
+1: SSSSj
+1: SSSSSSj
+1: SSSSSSh(
+1: SSSSSSh'
+1: SSSSSSh&
+1: SSSSSSh%
+1: SSSSSSh$
+1: SSSSSSh#
+1: SSSSSSh"
+1: SSSSSSh!
+1: SSSSSSh
+1: SSSSSSSSS
+1: SSSSSSSS3
+1: SSSSSS
+1: SSSS
+1: SSRQPWSS
+1: SSQ@VPRSS
+1: SSPS
+1: SS@PVW
+1: SRUpdateMonitoredListA
+1: SRSetRestorePointA
+1: SQRP
+1: SQPQP
+1: SPh0J
+1: SP_UPDATE_WARN_BEFORE_INSTALLING_FILES
+1: SP_UPDATE_LOG_CABBUILD
+1: SP_UPDATE_BLOCK_INSTALL
+1: SP_TITLE
+1: SP_SHORT_TITLE_DISPLAY
+1: SP_SHORT_TITLE
+1: SP_KB_NUMBER
+1: SP_FLAG_CABINETCONTINUATION
+1: SP_COPY_SOURCE_SIS_MASTER
+1: SP_COPY_REPLACE_BOOT_FILE
+1: SP_COPY_OEMINF_CATALOG_ONLY
+1: SP_COPY_NOPRUNE
+1: SP_COPY_NOBROWSE
+1: SP_COPY_NEWER
+1: SP_COPY_???
+1: SP AppPatch version text is %s
+1: SP AppPatch version not found,  AppPatch will not be updated
+1: SP AppPatch version is newer, AppPatch full will be installed
+1: SP AppPatch version is %016I64X
+1: SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate
+1: SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\EncInst
+1: SOFTWARE\Microsoft\Windows\CurrentVersion
+1: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Hotfix\
+1: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Hotfix
+1: SOFTWARE\Microsoft\Updates\Windows XP
+1: SOFTWARE\Microsoft\Updates\Windows 2000
+1: SOFTWARE\Microsoft\Updates\Windows .NET
+1: SOFTWARE\Microsoft\Updates\Windows
+1: SOFTWARE\Microsoft\Cryptography\Defaults\Provider\Microsoft Enhanced Cryptographic Provider v1.0
+1: SOFTWARE\Classes\conman.exe\DefaultIcon
+1: SL@:
+1: SHGetSpecialFolderPathA
+1: SHGetSpecialFolderLocation
+1: SHGetPathFromIDListW
+1: SHGetDesktopFolder
+1: SHFileOperationW
+1: SHFileOperationA
+1: SHBrowseForFolderA
+1: SFC.DLL
+1: SERVICE_PACK_NUMBER
+1: SERVERNT
+1: SDXt
+1: SCardAccessStartedEvent
+1: RxS}
+1: RunAsDSBM
+1: RunAsAcsService
+1: RtlTimeToTimeFields
+1: RtlRandomEx
+1: RtlInitUnicodeString
+1: RtlInitAnsiString
+1: RtlGetNtProductType
+1: RtlFreeUnicodeString
+1: RtlFreeAnsiString
+1: RtlCharToInteger
+1: RtlAnsiStringToUnicodeString
+1: Rsvp.dbg
+1: Rstat Ev
+1: RpcServerUseProtseqEpA
+1: RpcServerUnregisterIfEx
+1: RpcServerTestCancel
+1: RpcServerRegisterIf
+1: RpcServerRegisterAuthInfoA
+1: RpcServerListen
+1: RpcRevertToSelfEx
+1: RpcMgmtWaitServerListen
+1: RpcMgmtStopServerListening
+1: RpcImpersonateClient
+1: RpcAsyncCompleteCall
+1: RpcAsyncAbortCall
+1: RouteCacheLimit
+1: Richr\
+1: Riche
+1: Rich7
+1: Rich'
+1: Rhl(
+1: Rh,(
+1: Rg0M0~0[0
+1: Return Code = %u
+1: Resv/Tear
+1: Resv-Err
+1: ResourceAdmissionControlOnly
+1: ResolveRegistryReference: RegQueryValueEx failed
+1: ResolveRegistryReference: Allocation failed for Value
+1: ResolveRegistryReference: %s key not found
+1: ResetKeySecurity:AllocateAndInitializeSid failed :0x%lx
+1: Requests
+1: RemoteAccess
+1: ReleaseCapture
+1: Registrations.System32
+1: Registering Uninstall Program for -> %s, %s , 0x%lx
+1: RegisterUninstallProgram: RegSetValueEx for UninstallString failed: 0x%lx
+1: RegisterUninstallProgram: RegSetValueEx for TSAware failed: 0x%lx
+1: RegisterUninstallProgram: RegSetValueEx for NoModify failed: 0x%lx
+1: RegisterUninstallProgram: RegSetValueEx for DisplayName failed: 0x%lx
+1: RegisterUninstallProgram: RegCreateKeyEx for %s failed: 0x%lx
+1: RegisterUninstallProgram: RegCreateKeyEx failed: 0x%lx
+1: RegisterSpEventSource: spmsg.dll not found
+1: RegisterSpEventSource: RegSetValueEx for TypesSupported failed: 0x%lx
+1: RegisterSpEventSource: RegSetValueEx for EventMessageFile failed: 0x%lx
+1: RegisterServicePackInRegistry: RegSetValueEx for UninstallCommand failed: 0x%lx
+1: RegisterServicePackInRegistry: RegSetValueEx for InstalledDate failed: 0x%lx
+1: RegisterServicePackInRegistry: RegSetValueEx for InstalledBy failed: 0x%lx
+1: RegisterServicePackInRegistry: RegCreateKeyEx for %s failed: 0x%lx
+1: RegisterServiceCtrlHandlerExA
+1: RegisterHotfixInRegistry:RegSetValueEx for UninstallCommand Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegSetValueEx for Type Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegSetValueEx for InstalledDate Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegSetValueEx for InstalledBy Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegSetValueEx for Description Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegOpenKeyEx for %s Failed: 0x%lx
+1: RegisterHotfixInRegistry:RegCreateKeyEx for %s Failed: 0x%lx
+1: RegisterFilesForTest128:SetupScanFileQueue failed :0x%lx
+1: RegisterFile:RegSetValueEx for Version Failed: 0x%lx
+1: RegisterFile:RegSetValueEx for Location Failed: 0x%lx
+1: RegisterFile:RegSetValueEx for FileName Failed: 0x%lx
+1: RegisterFile:RegSetValueEx for BuildDate Failed: 0x%lx
+1: RegisterFile:RegSetValueEx for BuildCheckSum Failed: 0x%lx
+1: RegisterFile:RegOpenKeyEx for %s Failed: 0x%lx
+1: RegisterFile:RegCreateKeyEx for %s Failed: 0x%lx
+1: RegisterFile:Allocation failed for CopyTargetName
+1: RegisterClipboardFormatW
+1: RegisterClassExW
+1: RegisterClassExA
+1: RegisterClassA
+1: Register.Include
+1: RegUnLoadKeyA
+1: RegSetKeySecurity
+1: RegSaveKeyA
+1: RegQueryInfoKeyA
+1: RegOpenKeyW
+1: RegNotifyChangeKeyValue
+1: RegLoadKeyA
+1: RegFlushKey
+1: RegEnumValueW
+1: RegEnumValueA
+1: RegEnumKeyExW
+1: RegDeleteValueW
+1: RegDeleteKeyA
+1: RegCreateKeyA
+1: RegCondition
+1: RedrawWindow
+1: Recommended    Blocked        File
+1: RebootNecessary = %d,WizardInput = %d , DontReboot = %d
+1: ReassemblyLimit
+1: Reading file key: %s
+1: ReadUpdateFields:SetupGetLineText Failed: 0x%lx
+1: ReadUpdateFields:Allocation for szServicePackNumber
+1: ReadUpdateFields:Allocation for szKBNumber
+1: ReadStringsFromInf:Allocation failed for pStrFromInf
+1: ReadStringsForSlipStream:SetupGetLineText for SP_TITLE failed: 0x%lx
+1: ReadStringsForSlipStream:SetupGetLineText for SP_SHORT_TITLE_DISPLAY failed: 0x%lx
+1: ReadStringsForSlipStream:SetupGetLineText for SP_SHORT_TITLE failed: 0x%lx
+1: ReadStrings:SetupGetLineText for SP_TITLE failed: 0x%lx
+1: ReadStrings:SetupGetLineText for SP_SHORT_TITLE_DISPLAY failed: 0x%lx
+1: ReadStrings:SetupGetLineText for SP_SHORT_TITLE failed: 0x%lx
+1: ReadStringFromInfW: SetupOpenInfFile for %s failed: 0x%lx
+1: ReadStringFromInfW: SetupGetLineText for %s failed: 0x%lx
+1: ReadStringFromInf: SetupOpenInfFile for %s failed: 0x%lx
+1: ReadStringFromInf: SetupGetLineText failed: 0x%lx
+1: ReadHotfixFields:SetupGetLineText Failed: 0x%lx
+1: RaiseException
+1: RW0f0O0`0U0D0
+1: RW0_0
+1: RVVVV
+1: RTEAR
+1: RSVP_Unknown
+1: RSVP_SMS_SERVEREVENT
+1: RSVP_SMS_RSVPEVENT
+1: RSVPStateTimeoutFactor
+1: RSVPStateRefreshInterval
+1: RSVPSM_SHAREDMEM
+1: RSVP main
+1: RSVP
+1: RQPh{'
+1: RQPQP
+1: RQPPPPPPh\
+1: RQPPPPPPhX
+1: RPWV
+1: RPVS
+1: RPQWS
+1: RPQW
+1: RPQQ
+1: RIFF~
+1: RH:2
+1: RESV_ERR
+1: RESV-TEAR
+1: RESV PROBLEM
+1: REGDMP_HKEY_TMP\ControlSet001\Services\setupdd
+1: REGDMP_HKEY_TMP
+1: RDPSND
+1: RDPClip.pdb
+1: RConfirm
+1: RCONFIRM
+1: RAPIRpc Thread
+1: RAPIRpc Main
+1: R=*!=
+1: R:)!T
+1: R%Z&
+1: QuietMode
+1: QueueUninstallEntry: Allocation for NewNode->SectionName failed
+1: QueueUninstallEntry: Allocation for NewNode->FileName failed
+1: QueueUninstallEntry: Allocation for NewNode failed
+1: QueryServiceConfigA
+1: QueryService error %d
+1: QualSvc
+1: Qkkbal
+1: QjxhP
+1: QjhPj
+1: Qjdht
+1: Qjdh,
+1: Qhb'
+1: Qh\(
+1: Qh@V
+1: Q_j$
+1: QZ^&
+1: QWhx
+1: QWh\
+1: QWh
+1: QWWj
+1: QWVR
+1: QW0~0W0_0
+1: QVWj/
+1: QVWj
+1: QVWhY
+1: QVVP
+1: QUW3
+1: QShp
+1: QShh
+1: QSVW3
+1: QSUVWh
+1: QSSV
+1: QSSSj
+1: QSSSP
+1: QSSPSS
+1: QRWV
+1: QRVW
+1: QQW3
+1: QQUW3
+1: QQSVj
+1: QQSUW
+1: QQSUV3
+1: QQSUV
+1: QQPSQ
+1: QQPP
+1: QPhQ
+1: QPWV
+1: QPWRQPS
+1: QPVVVS
+1: QPVVS
+1: QPRRRRRRhp
+1: QPRRRRRRh2}@
+1: QPRRRRRRh
+1: QPPjh
+1: QPPj4
+1: QPPj(
+1: QJB mmm
+1: QFB}]XV
+1: Q!k_U
+1: Q!k/T
+1: Q 92u&@
+1: PulseEvent
+1: Publisher
+1: Ptyh
+1: Pstat Ev
+1: PruneHotfixes
+1: PruneHotfix: FindFirstFile  Failed: 0x%lx
+1: PruneCatalogsFromHotfixes:RegQueryValueEx Failed: 0x%lx
+1: ProviderName
+1: ProtectedPatchDownloadCallback:Callback function failed with error %d
+1: ProtectedPatchDownloadCallback failed with error: 0x%lx
+1: PropertySheetW
+1: Program Files\Common Files
+1: ProductInstall.WindowsPoweredFiles
+1: ProductInstall.UniprocessorFiles
+1: ProductInstall.ServerFiles
+1: ProductInstall.ReplaceFilesIfExist
+1: ProductInstall.ProfessionalFiles
+1: ProductInstall.MultiprocessorFiles
+1: ProductInstall.GlobalRegistryChanges.ReInstall
+1: ProductInstall.GlobalRegistryChanges.Install
+1: ProductInstall.DontDelayUntilReboot
+1: ProductInstall.DatacenterFiles
+1: ProductInstall.CopyFilesAlways.WindowsPowered
+1: ProductInstall.CopyFilesAlways.Server
+1: ProductInstall.CopyFilesAlways.Professional
+1: ProductInstall.CopyFilesAlways.Datacenter
+1: ProductInstall.CopyFilesAlways.Consumer
+1: ProductInstall.CopyFilesAlways.Business
+1: ProductInstall.CopyFilesAlways.Blade
+1: ProductInstall.CopyFilesAlways.Advanced
+1: ProductInstall.CopyFilesAlways
+1: ProductInstall.ConsumerFiles
+1: ProductInstall.Conditional
+1: ProductInstall.BusinessFiles
+1: ProductInstall.BladeFiles
+1: ProductInstall.AdvancedFiles
+1: ProductInstall.56BitFiles
+1: ProductInstall.128BitFiles
+1: ProductCatalogsToInstall.IW
+1: ProductCatalogsToInstall.IS
+1: ProductCatalogsToInstall.IP
+1: ProductCatalogsToInstall.IL
+1: ProductCatalogsToInstall.ID
+1: ProductCatalogsToInstall.IC
+1: ProductCatalogsToInstall.IB
+1: ProductCatalogsToInstall.IA
+1: ProductCatalogsToInstall
+1: ProcessesToRunBeforeUninstall
+1: ProcessesToRunBeforeArchive
+1: ProcessesToRunAfterUninstall
+1: ProcessesToRunAfterCancel
+1: ProcessesToRun.VM
+1: ProcessesToRun.Interactive
+1: ProcessesToRun
+1: ProcessIdToSessionId
+1: ProcessDownloadChunk:ERROR_INVALID_PARAMETER to write into the file
+1: ProcessDownloadChunk: WriteFile into %s file failed with error: 0x%lx
+1: ProcessDownloadChunk: More data than expected
+1: ProcessDownloadChunk: File is already received: ERROR_INVALID_DATA
+1: ProcessDownloadChunk: Error in processing headers: ERROR_INVALID_DATA
+1: ProcessDownloadChunk: Error in ScanForSequence: ERROR_INVALID_DATA
+1: ProcessDownloadChunk: Error in FileFormat
+1: ProcessDownloadChunk: Error in FileCount: ERROR_INVALID_DATA
+1: ProcessDownloadChunk: Error in FileBytes: ERROR_INVALID_DATA
+1: ProcessDownloadChunk: CreateFile for %s file failed with error: INVALID_HANDLE_VALUE
+1: ProcessDownloadChunk: Allocation of PatchNode->DownloadedFileName failed
+1: ProcessDownloadChunk: Allocation of PatchNode failed
+1: ProcessDownloadChunk: Allocation of  FileNameArray failed
+1: Preparing paste information...
+1: PrepareToTrustInfFile: MySetupCopyOEMInf failed: 0x%lx
+1: PostThreadMessageA
+1: Polyline
+1: Policy Error:
+1: PlaySoundW
+1: PlayMetaFile
+1: Pjpj
+1: PjhSj
+1: PjhS
+1: Pjej
+1: PjTW
+1: Pj*W
+1: Ph}'
+1: Phz'
+1: Phx#
+1: Phw'
+1: Phv'
+1: Phu'
+1: Pht:
+1: Pht'
+1: Pht
+1: Phq'
+1: Php[
+1: Php,
+1: Phn'
+1: PhlF
+1: Phhk
+1: Phh.
+1: Phh+
+1: Phh
+1: Phg'
+1: Ph`f
+1: Ph`\
+1: Ph`O
+1: Ph`C
+1: Ph^k
+1: Ph\]
+1: Ph\N
+1: Ph['
+1: PhY'
+1: PhXO
+1: PhX%
+1: PhW'
+1: PhTm
+1: PhTY
+1: PhT<
+1: PhR'
+1: PhQ'
+1: PhPz
+1: PhPw
+1: PhPl
+1: PhPV
+1: PhP'
+1: PhL~
+1: PhLm
+1: PhLl
+1: PhLQ
+1: PhL'
+1: PhHs
+1: PhHd
+1: PhH(
+1: PhH'
+1: PhH
+1: PhD=
+1: PhA'
+1: Ph@t
+1: Ph@Q
+1: Ph@)
+1: Ph<Y
+1: Ph<(
+1: Ph:'
+1: Ph8S
+1: Ph5'
+1: Ph4}
+1: Ph4
+1: Ph0v
+1: Ph0F
+1: Ph.'
+1: Ph,g
+1: Ph,[
+1: Ph,R
+1: Ph,;
+1: Ph(k
+1: Ph(j
+1: Ph(T
+1: Ph(L
+1: Ph&'
+1: Ph n
+1: Ph l
+1: Ph &
+1: Ph "
+1: PendingFileRenameOperations
+1: Pel=
+1: PeekMessageA
+1: Paths
+1: PathLocalRepairTimeout
+1: Path/Tear
+1: Path-Err
+1: PatchThread: ProtectedPatchDownloadCallback function failed :0x%lx
+1: PatchThread: Function ProtectedPatchDownloadCallback failed with error: 0x%lx
+1: Patch candidate "%s" from "%s"
+1: Parameters
+1: P_^[
+1: PWj
+1: PWhhK
+1: PWh`m
+1: PWh\
+1: PWhX
+1: PWh0
+1: PWh Z
+1: PWWj
+1: PWWhx
+1: PWWWW
+1: PWWWU
+1: PWVQ
+1: PW0f0D0~0Y0
+1: PVth
+1: PVj0
+1: PVh|
+1: PVhpg
+1: PVhl
+1: PVhH
+1: PVh@
+1: PVh?
+1: PVh,G
+1: PVh$"
+1: PVh$
+1: PVh b
+1: PVWP
+1: PVVh@i
+1: PVVh
+1: PVVVh
+1: PVVVVh
+1: PVVVVVVh
+1: PVVVVV
+1: PVVSf
+1: PVSj
+1: PVShtj
+1: PUh$
+1: PTEAR
+1: PSj)
+1: PSht
+1: PShh
+1: PShC
+1: PShB
+1: PSh@
+1: PSh$
+1: PSVjRVP
+1: PSVWj
+1: PSVW
+1: PSVVh
+1: PSSjD
+1: PSShX
+1: PSShD
+1: PSSh
+1: PSSW
+1: PSSSSSSh
+1: PSSSSSSSSj
+1: PSRWR
+1: PSRW
+1: PSAPI.DLL
+1: PRRjh
+1: PQWS
+1: PQVhBf
+1: PQQQ
+1: PQPt
+1: PPj
+1: PPhA
+1: PPSWV
+1: PPPj
+1: PPPPVh
+1: PPPP
+1: POST
+1: POPUP
+1: PGP digital cert %d bytes long
+1: PG?<4444<?GP
+1: PFRTransLate: Allocation failed for szReturn
+1: PEE?=6633333366=?EKu
+1: PCONFIG
+1: PATH_ERR
+1: PATH-TEAR
+1: PATH PROBLEM
+1: PAGE1_BITMAP2
+1: PAGE1_BITMAP1
+1: PA19;
+1: P>,!rlkk
+1: P0;U
+1: P$JSW
+1: OverrideVersionNumbers
+1: Outlook Express
+1: Ou=VS
+1: OtHOt<Ot0Ot$Ot
+1: OtBHt;Ht4Ht-H
+1: OsLoaderPath
+1: Options:1
+1: Operation
+1: Openn failed for layout.inf 0x%lx
+1: OpenWindowStationW
+1: OpenThreadToken
+1: OpenService error %d
+1: OpenSCManager error %d
+1: OpenFileMappingA
+1: OpenDesktopW
+1: OpenClipboard
+1: OleSetClipboard
+1: OleIsCurrentClipboard
+1: OleInitialize
+1: OffsetRect
+1: Offf0
+1: Oem driver %ws is signed by %s and will not be replaced
+1: Oem driver %ws is not digitally signed and will not be replaced
+1: October
+1: OcTerminate
+1: OcInitialize
+1: OVWX
+1: OS Loader V
+1: OPTIONAL_EXCLUSION_WARNING
+1: OOWSV
+1: OESection
+1: OEMDriver.Exclusions
+1: O(uY0
+1: O(uW0f0D0
+1: O(u-Ng0B0
+1: O$h$(
+1: Ny|uXD^
+1: Nwff
+1: Num Ticks for invent : %d
+1: Num Ticks for download : %d
+1: Num Ticks for creating uninst inf : %d
+1: Num Ticks for Reg update and deleting 0 size files : %d
+1: Num Ticks for Copying files : %d
+1: Num Ticks for Cabinet build : %d
+1: Num Ticks for Backup : %d
+1: Ntp-
+1: NtShutdownSystem
+1: NtServicePackVersionFullText
+1: NtServicePackVersion
+1: NtServicePackPreviousVersionText
+1: NtServicePack
+1: NtQuerySystemTime
+1: NtQueryInformationProcess
+1: NtOpenProcessToken
+1: NtMinorVersionToUpdate
+1: NtMajorVersionToUpdate
+1: NtClose
+1: NtBuildToUpdate
+1: NtAdjustPrivilegesToken
+1: November
+1: Not enough memory creating the bat file
+1: Not a cabinet
+1: None
+1: NoRestorePoint
+1: NoRepair
+1: NoModify
+1: NoHotfixUninstall
+1: No target path name found in [%s] section
+1: No files queued for cabinet %s
+1: No filelist tag for %s in [%s]
+1: No error
+1: No destination path for this reference
+1: No apcompat.inf file, AppPatch will not be updated
+1: No [CabinetBuild] in the INF
+1: No [%s] section found in INF
+1: No Scope,
+1: No Resv-Confirm,
+1: No Match found for %s with inf file %s
+1: No Match found for  Driver = %s, MfgName = %s
+1: No %s tag in [%s]
+1: No %s file.
+1: New York, NY 10001
+1: NetWkstaGetInfo
+1: NetServerGetInfo
+1: NetServerEnum
+1: NetEnumerateTrustedDomains
+1: NeighborCacheLimit
+1: Nec98Section
+1: NdrServerCall2
+1: NdrAsyncServerCall
+1: N`f9Q
+1: NWPROVAUSection
+1: NU0D0
+1: NTLSAPI.DLL
+1: NTLDR
+1: NPPasswordChangeNotify
+1: NOCANCEL
+1: NEC PC-98
+1: N9Y
+1: N4;H4r
+1: N0;H0r
+1: MyStopService: QueryServiceStatus failed :0x%lx
+1: MyStopService: OpenService failed :0x%lx
+1: MyStopService: ControlService failed :0x%lx
+1: MySetRestorePoint: GetProcAddress failed: 0x%lx
+1: MyLoadStringW: GetProcAddress for CustomLoadStringW failed: 0x%lx
+1: MyLoadStringW: Allocation failed for szBuffer
+1: MyLoadString: GetProcAddress for CustomLoadStringA failed: 0x%lx
+1: MyLoadString: Allocation failed for szBuffer
+1: MyGetFileTitle
+1: MyFDICopy failed: code %d [%s]
+1: MyFCIFlushCabinet() failed: code %d [%s]
+1: MyFCICreate() failed: code %d [%s]
+1: My5C
+1: Mw2t,
+1: MtQjdV
+1: MtQh
+1: MtQV
+1: Mt3M|[
+1: MstC
+1: Mp3Mx^
+1: MoveFileExA
+1: MoveFileA
+1: MonitorFromWindow
+1: MonitorFromRect
+1: MonitorFromPoint
+1: Monday
+1: ModifyMenuW
+1: ModifyMenuA
+1: MobilitySecurity
+1: MlQWhx
+1: Mj.S
+1: Missing source file:
+1: Missing file %s
+1: Missing destination dir in [%s]
+1: Missing Sender Tspec,
+1: Missing Sender Template,
+1: Miscellaneous
+1: Minor
+1: MinNtServicePackVersion
+1: Microsoft Corporation
+1: Microsoft -
+1: Microsoft
+1: MhQWhD
+1: MhQPS
+1: MfffP
+1: Message displayed to the user: %s
+1: Memory allocation failed in LoadExclusionList for Exclusion
+1: Memory allocation failed
+1: MdRQ
+1: MdQj
+1: Mb?$
+1: Maz & Kilgore
+1: MaximumTotalPeakRate
+1: MaximumTokenBucketRatePerFlow
+1: MaximumRSVPBandwidth
+1: MaximumPeakRatePerFlow
+1: MaximumNonReservedFlowTokenSize
+1: MaximumNonReservedFlowTokenRate
+1: MaxSizeOfTracefiles
+1: MaxRsvpMessageSize
+1: MaxRsvpMessageBuffers
+1: MaxNumberOfTracefilesToUse
+1: MaxNtServicePackVersion
+1: MaxNtMinorVersionToUpdate
+1: MaxNtMajorVersionToUpdate
+1: MaxNtBuildToUpdate
+1: MaxAnonRandomTime
+1: MaxAnonLifetime
+1: MaxAnonDADAttempts
+1: MarkFileForCleanup: Allocation failed for Node
+1: MarkDirectoryForRemoval:Allocation failed for New
+1: March
+1: MapWindowPoints
+1: MapVirtualKeyW
+1: MapVirtualKeyExW
+1: MapViewOfFileEx
+1: MapDialogRect
+1: ManageNonSharedMedia
+1: Major
+1: MainQueueCallback:Allocation failed for GlobalSecurityDescriptor
+1: MainQueue: no source component %s
+1: MainQueue: component %s: not present
+1: MainQueue: component %s: no target %s
+1: MainQueue: component %s: no disposition for target %s
+1: MainQueue: bad path on %s
+1: Main
+1: MachineType
+1: M\Qj
+1: M\3Md_^[
+1: MXtYf
+1: MXQj
+1: MXQSSS
+1: MX+MPQ
+1: MTSSection
+1: MTQj
+1: MSWSOCK.dll
+1: MM/dd/yy
+1: ML*Et
+1: MGiI
+1: MD21
+1: MAPI Repair Tool
+1: MAIN
+1: MA<n
+1: M@;M
+1: M0r+;
+1: M,QV
+1: M,QP
+1: M(;H(u7U
+1: M$Ph
+1: M RVQP
+1: LockWindowUpdate
+1: Location
+1: Locale
+1: LocalFileTimeToFileTime
+1: LocalEnablePrivilege: AdjustTokenPrivileges Failed with error: 0x%lx
+1: LoadWininet:LoadLibrary for wininet.dll failed
+1: LoadWininet:GetProcAddress Failed for %s: 0x%lx
+1: LoadStringA
+1: LoadLibraryExA
+1: LoadLibrary: GetLastError = %d
+1: LoadIconA
+1: LoadFileQueues: SetupQueueCopy for %s failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for InfKernelType failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_SECTION_BEFORE_ARCHIVE failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_REPLACE failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_NEC98 failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_MUST failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_IIS_ALWAYS failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_IIS failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_IE50 failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_CAB_ALWAYS failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_APPPATCH failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for INF_ALWAYS failed: 0x%lx
+1: LoadFileQueues: SetupInstallFilesFromInfSection for %s failed: 0x%lx
+1: LoadFileQueues: SetupGetSourceInfo for %s failed: 0x%lx
+1: LoadFileQueues: SetupGetSourceFileLocation for %s failed: 0x%lx
+1: LoadFileQueues: RegisterFilesForNoDelay failed: 0x%lx
+1: LoadCursorA
+1: LoadBitmapA
+1: LoadAcceleratorsW
+1: LoadAcceleratorsA
+1: ListHotfixes:RegOpenKeyEx for SOFTWARE\Microsoft\Windows NT\CurrentVersion\Hotfix\ failed :0x%lx
+1: LinkItems.Create
+1: Less Than 11 Fields
+1: Leave issued: file = %s, line = %d, ESP = 0x%08x, EBP = 0x%08x
+1: LaunchNotepadReadme: GetGenericString for Software\Classes\.htm failed
+1: LastKnownGood
+1: LastGood.Tmp
+1: LastGood
+1: Languages
+1: LanguageType
+1: LLSSRV.EXE
+1: LLSRPC.DLL
+1: LL-address-derived
+1: LIST
+1: LICCPA.CPL
+1: L$h3
+1: L$@R
+1: L$4R
+1: L$0R
+1: L$,R
+1: L$(u(
+1: L$$R
+1: L$ R
+1: L$ 3L$$
+1: L F"A$
+1: Kfffp
+1: Kerberos ticket %d bytes long
+1: KeepTempFiles
+1: Kd 3
+1: K\F\
+1: KKKKKKKKKK]
+1: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+1: KKKKKKKKKKKKKKKKKKKKKKKKKK
+1: KKKKKKKKKKKKKKKKKKKKKKK
+1: KKKKKKKKKKKKKKKKKKKKKK
+1: KKKKKKKKKKKKKKKK
+1: KKKKKKKKKKKKKKK
+1: KKKKKKKKKK
+1: KKKKKK
+1: KERNEL_REPLACE_ISSUE
+1: KERNEL
+1: KD21
+1: K@QP
+1: K:% 0=)
+1: K9t$
+1: June
+1: July
+1: Jt|JttJt$Jt
+1: Jfff
+1: January
+1: JanFebMarAprMayJunJulAugSepOctNovDec
+1: J\u"
+1: JWKPQ
+1: JJJc
+1: JD21
+1: J>1($
+1: J-\-
+1: J(9
+1: Iu/Wh
+1: It`ItL
+1: It-It
+1: It!It
+1: IsZoomed
+1: IsWindowVisible
+1: IsValidSid
+1: IsThisAnOEMFile: FFileFound failed for %s :STATUS_SETUP_LOG_NOT_FOUND
+1: IsSPBetaKey:pLA->lpVtbl->GetProductID Failed: 0x%lx
+1: IsSPBetaKey:PID is not in proper format
+1: IsSPBetaKey:CoInitializeEx Failed: 0x%lx
+1: IsSPBetaKey:CoCreateInstance Failed: 0x%lx
+1: IsMTS2Installed: RegQueryValueEx for %s failed: 0x%lx
+1: IsDialogMessageW
+1: IsBadReadPtr
+1: InventoryThread:Failed to install catalog files
+1: InventoryThread:Allocation failed for InventoryInfo->DownloadFileInfo
+1: InventoryThread: SetupScanFileQueue failed with error: 0x%lx
+1: InventoryThread: SetupOpenFileQueue failed with error: INVALID_HANDLE_VALUE
+1: InventoryThread: LoadFileQueues failed with error: 0x%lx
+1: InventoryThread: DownloadAllSourceFiles failed with error: 0x%lx
+1: InventoryQueueCallback:Not enough Memory to create component target for %s file
+1: Inventory complete: ReturnStatus=%u, %u ticks
+1: Invalid Copy Flag
+1: IntersectRect
+1: InternetWriteFile
+1: InternetSetOptionA
+1: InternetReadFile
+1: InternetOpenA
+1: InternetErrorDlg
+1: InternetConnectA
+1: InternetCloseHandle
+1: InternalName
+1: InterlockedExchangeAdd
+1: InterlockedExchange
+1: Insufficient memory in FCI
+1: Installing assemblies...
+1: Installing AppPatch section "[%s]".
+1: InstalledDate
+1: InstalledBy
+1: Installed
+1: InstallationType
+1: InstallType2
+1: InstallType
+1: InstallStatusMIF
+1: InstallStage
+1: InstallRoot
+1: InstallPathRegistryKey
+1: InstallPathEnvVar
+1: InstallPath
+1: InstallOrRemoveTestCertificate: fnSetupOpenAndMapFileForRead failed: 0x%lx
+1: InstallOrRemoveTestCertificate: SetupDecompressOrCopyFile failed: 0x%lx
+1: InstallOrRemoveTestCertificate: LoadLibrary for SetupApi.dll failed: 0x%lx
+1: InstallOrRemoveTestCertificate: GetWindowsDirectory failed: 0x%lx
+1: InstallOrRemoveTestCertificate: CertSetCertificateContextProperty failed: 0x%lx
+1: InstallOrRemoveTestCertificate: CertOpenStore failed: 0x%lx
+1: InstallOrRemoveTestCertificate: CertCreateCertificateContext failed: 0x%lx
+1: InstallOrRemoveTestCertificate: CertAddCertificateContextToStore failed: 0x%lx
+1: InstallOrRemoveTestCertificate: Allocation failed for CryptDataBlob.pbData
+1: InstallLogFileName
+1: InstallFromSection
+1: InstallFromFunction call in inf section "%s" failed with error 0x%lx .
+1: InstallFromFunction
+1: InstallCatalogFilesEx:FindOrCreateComponentTarget failed:ERROR_NOT_ENOUGH_MEMORY
+1: InstallCatalogFilesEx:FindOrCreateComponentFile failed:ERROR_NOT_ENOUGH_MEMORY
+1: InstallCatalog
+1: InsertMenuW
+1: InsertMenuA
+1: InsertIntoList: Allocation failed for pTmpNode
+1: InitiateSystemShutdownExA
+1: InitiateSystemShutdownA
+1: InitializeSids:AllocateAndInitializeSid failed with error:0x%lx
+1: InitializeAces:Allocaiton failure for AcesArray
+1: InitPFRTranslation:Allocation failed for pTmpNode
+1: InitInst: SetupOpenInfFile for %s failed: 0x%lx
+1: InitInst: GetSystemDirectory failed: 0x%lx
+1: InitInst: Cannot find \update\update.exe file
+1: InitInst: Cannot Find %s file
+1: InitInst: Allocation failed for IoBuffer
+1: Info
+1: InfSection
+1: InfPath
+1: InfContainsCatalogFileKey:SetupQueryInfOriginalFileInformation Failed with error: 0x%lx
+1: InfContainsCatalogFileKey:SetupGetInfInformation Failed with error: 0x%lx
+1: IncludeRegistryWorkFromInf: SetupGetStringField failed: 0x%lx
+1: IncludeRegSections: Allocation failed for pRegWorkTemp
+1: IncludeDirectoryIdFromInfSection: _SetupGetLineText for  InstallPathEnvVar failed:0x%lx
+1: IncludeDirectoryIdFromInfSection: _SetupGetLineText for  CopyFlags failed:0x%lx
+1: IncludeDirectoryIdFromInfSection: UpdateCopyFlags failed:0x%lx
+1: IncludeDirectoryIdFromInfSection: No DirId found for: %s
+1: IncludeDirectoryIdFromInfSection: Invalid DIRID section in the Custom function
+1: IncludeDirectoryIdFromInfSection: CustomizeInstallFromSection failed : STATUS_INVALID_DIRID_SECTION
+1: IncludeDirectoryIdFromInfSection : Allocation failed for pDirId
+1: IncludeDirectoryIdFromInf: SetupGetStringField failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: SetupGetStringField for target name failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: SetupGetStringField for %s failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: SetupGetStringField failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: SetupFindFirstLine for Operation failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: LoadLibrary for %s failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection: GetProcAddress for %s failed: 0x%lx
+1: IncludeConditionalChangesFromInfSection:  No TargetFromSection found for: %s
+1: In-box driver %ws is signed by oem catalog %s.
+1: ImmGetIMEFileNameW
+1: ImmGetIMEFileNameA
+1: ImmAssociateContext
+1: ImageList_ReplaceIcon
+1: ImageList_GetImageCount
+1: ImageList_Create
+1: IhT
+1: Iface %d=> Nhop <%s LIH=%X>
+1: If9X
+1: Identifier
+1: I`9HPt
+1: I_AM_DSBMRefreshInterval
+1: IW63*!
+1: ISBJ
+1: IS Tspec version? %d
+1: INSTALL_LANGUAGE
+1: INF_REGISTRY Failed
+1: INF\layout.inf
+1: INFOICMTF
+1: IMPGetIMEW
+1: IMPGetIMEA
+1: IKernel.exe
+1: IKernel.ex_
+1: IIu<9E
+1: IIt2It
+1: IIt+
+1: IISSectionWindowsPowered
+1: IISSectionServer
+1: IISSectionProfessional
+1: IISSectionDatacenter
+1: IISSectionConsumer
+1: IISSectionBusiness
+1: IISSectionBlade
+1: IISSectionAdvanced
+1: IISSection.CopyFilesAlways
+1: IISSection
+1: IIS.Save.Reg.For.Uninstall
+1: IEVersion = "%s"
+1: IE5Section
+1: IE50Section
+1: ICOP
+1: I@@Jf
+1: I:%u
+1: I4("
+1: I-`:
+1: Huqj
+1: HubV
+1: HuY!u
+1: HuQS
+1: Hu?j
+1: Hu:h
+1: Hu7h
+1: Hu7Vh
+1: Hu1f
+1: Hu(h
+1: Hu%j
+1: Hu#j
+1: Ht|HHtMHHt
+1: HtxHtqHtjHtcHuyj
+1: HtxHt-HH
+1: HttpSendRequestA
+1: HttpQueryInfoA
+1: HttpOpenRequestA
+1: HttH
+1: HtnHHt!H
+1: HtmlHelpA
+1: HthHtMHt5HHt
+1: HtfH
+1: Hta3
+1: Ht`HtOHt.H
+1: HtY-
+1: HtXHt
+1: HtQHt9Ht Ht
+1: HtPH
+1: HtJHtnHH
+1: HtJ-
+1: Ht?Vj
+1: Ht<Ht2
+1: Ht:Huh3
+1: Ht8Huj3
+1: Ht6-
+1: Ht4Ht,Ht%Hu9
+1: Ht1Ht&Hu1
+1: Ht1-
+1: Ht/Hu7j
+1: Ht,H
+1: Ht+Ht
+1: Ht*Ht
+1: Ht)H
+1: Ht'Ht$
+1: Ht%Ht
+1: Ht	j
+1: Ht	Ht
+1: HrLanConnectionNameFromGuidOrPath
+1: Hotfix
+1: HjgZ
+1: HideFinishButton: GetDlgItem Failed: 0x%lx
+1: HideBackButton: GetDlgItem Failed: 0x%lx
+1: Help\iisHelp\common
+1: HelpLink
+1: HeapSize
+1: HashValid: %s
+1: Hardware\DESCRIPTION\System
+1: H\[t#V
+1: HVWt)
+1: HVWj
+1: HSVWt9Huq
+1: HSVW3
+1: HSUVWj
+1: HP;M
+1: HKLMNOP
+1: HKEY_USERS
+1: HKEY_ROOT
+1: HKEY_LOCAL_MACHINE
+1: HKEY_DYN_DATA
+1: HKEY_CURRENT_USER
+1: HKEY_CURRENT_CONFIG
+1: HKEY_CLASSES_ROOT
+1: HKDD
+1: HKCU
+1: HKCR
+1: HKCC
+1: HIIf
+1: HHu:
+1: HHu"
+1: HHti
+1: HHtZHHtV
+1: HHtU
+1: HHt3
+1: HHt--h
+1: HHt,
+1: HHt#Hu5S
+1: HH_^[]
+1: HH_^[
+1: HHVW
+1: HH:mm:ss
+1: HG80
+1: HDDD
+1: HAL.DLL
+1: H4;K4t'9s
+1: H0;K0u
+1: H$W3
+1: H$It,IuO3
+1: GuarnSvc
+1: GuaranteedServiceTotalPeakRate
+1: GuaranteedServiceTotalBucketRate
+1: GuaranteedServiceMaximumTokenBucketRatePerFlow
+1: GuaranteedServiceMaximumPeakRatePerFlow
+1: GsA]
+1: GoldInstall
+1: Global\_RAPI_EVENT_NAME
+1: Global\ServicePackOrHotfix
+1: Global\RSVP_STATS
+1: GlobalSize
+1: Gj,W
+1: GetWindowThreadProcessId
+1: GetWindowTextW
+1: GetWindowTextA
+1: GetWindowPlacement
+1: GetWindowDC
+1: GetWindow
+1: GetVolumeInformationW
+1: GetUserObjectInformationW
+1: GetUserNameW
+1: GetUserNameExA
+1: GetUserDefaultLangID
+1: GetTextMetricsW
+1: GetTempFileNameW
+1: GetSystemWow64DirectoryW
+1: GetSystemWindowsDirectoryW
+1: GetSystemTimeAsFileTime
+1: GetSystemPaletteEntries
+1: GetSystemMenu
+1: GetSystemDefaultUILanguage
+1: GetSysColor
+1: GetStartupInfoW
+1: GetShortPathNameA
+1: GetServiceDisplayNameA
+1: GetSecurityDescriptorDacl
+1: GetSaveFileNameW
+1: GetSaveFileNameA
+1: GetRegistryNamesToArchive: Allocation failed for ValueName
+1: GetRegistryNamesToArchive: AddRegNodeForUninstall failed: ERROR_NOT_ENOUGH_MEMORY
+1: GetProductType: SetupOpenInfFile failed to open file: %s
+1: GetProcessHeap
+1: GetProcAddress: GetLastError = %d
+1: GetPrivateProfileIntA
+1: GetPrinterDriverPath: GetPrinterDriverDirectory failed: 0x%lx
+1: GetPrinterDriverPath: Allocation failed for pDriverDirectory
+1: GetPrinterDriverDirectoryA
+1: GetPatchSignature: Insufficient memory for Buffer
+1: GetPatchSignature: GetNormalizedOldFileCrc failed:
+1: GetPaletteEntries
+1: GetOverlappedResult
+1: GetOpenFileNameW
+1: GetOpenFileNameA
+1: GetOldUninstDir: RegOpenKeyEx failed :0x%lx
+1: GetOldUninstDir: Allocation failed for szCurrentValue
+1: GetNumberFormatW
+1: GetNormalizedOldFileCrc: MyMapViewOfFileA failed: 0x%lx
+1: GetNodeClusterState
+1: GetNamedSecurityInfoA
+1: GetMonitorInfoW
+1: GetMonitorInfoA
+1: GetModuleHandleW
+1: GetModuleFileNameExA
+1: GetModuleBaseNameA
+1: GetMetaFileBitsEx
+1: GetMenu
+1: GetLanguageType: Allocation failed for VersionBlock
+1: GetLanguageFromUpdate: SetupOpenInfFile failed to open file: %s
+1: GetLanguageFromHivesys: SetupOpenInfFile failed to open file: %s
+1: GetKeyboardType
+1: GetKeyboardLayout
+1: GetKeyState
+1: GetKernelType: GetInternalFilename failed
+1: GetIpForwardTable
+1: GetIpAddrTable
+1: GetInternalHalFileName: SetupQueryFileLog failed: 0x%lx
+1: GetInternalHalFileName: SetupInitializeFileLog failed: INVALID_HANDLE_VALUE
+1: GetIfEntry
+1: GetGroupIdFromPidGenDll:LoadLibrary failed for %s dll
+1: GetFullPathNameW
+1: GetFullPathNameA
+1: GetForegroundWindow
+1: GetFileVersionInfoW
+1: GetFileVersionInfoSizeW
+1: GetFileVersion of %s resulted in exception %d
+1: GetFileTitleW
+1: GetFileTitleA
+1: GetFileTime
+1: GetFileSize
+1: GetFileSecurityA
+1: GetFileInformationByHandle
+1: GetFileAttributesExW
+1: GetFileAttributesExA
+1: GetExitCodeThread
+1: GetExitCodeProcess
+1: GetEnvironmentVariableW
+1: GetEnvironmentVariableA
+1: GetDriveTypeW
+1: GetDriveTypeA
+1: GetDownloadSpeed:Allocation failed for RequestBuffer
+1: GetDlgItemTextW
+1: GetDlgItemTextA
+1: GetDiskUsageInfo:AddDiskUsageInfo failed to add space to drive containing %s file
+1: GetDiskFreeSpaceExA
+1: GetDIBits
+1: GetDCOrgEx
+1: GetCurrentDirectoryW
+1: GetCurrentDirectoryA
+1: GetCompressedFileSizeA
+1: GetClipboardOwner
+1: GetClipboardFormatNameW
+1: GetClipboardData
+1: GetClipBox
+1: GetClassInfoW
+1: GetBestRoute
+1: GetAtomNameA
+1: GetAsyncKeyState
+1: GetAdaptersInfo
+1: GetAclInformation
+1: GdPV
+1: G`_^]
+1: G`;E
+1: GWhl
+1: GWhd
+1: GWh$"
+1: GWVh
+1: GTOO
+1: GSSSShP
+1: GPWj
+1: GLE = %d
+1: G;|$8
+1: G;9k6"
+1: G9E(u
+1: G9%\\\\\
+1: G0VP
+1: G0Pj
+1: G ;C rG
+1: G )F
+1: G	HtgHtGHt,
+1: FullNameInReference: %s
+1: FullInstall
+1: FujitsuOyayubiControl
+1: Ftzf
+1: From API
+1: Friday
+1: FreeResource
+1: Free space of directory %s adjusted to %I64u
+1: FlushInstructionCache
+1: Fj.V
+1: FixTimeStampOnCompressedFile : Invalid handle value for file %s
+1: FixMAPI
+1: Fix Number
+1: Fix         File         Version
+1: FindWindowW
+1: FindResourceW
+1: FindResourceExA
+1: FindNextFileW
+1: FindNextFileA
+1: FindFirstFileA
+1: Find or Create the source file node for cabinet %s failed
+1: Filter spec,
+1: FillRect
+1: Files.WinNt
+1: Files.SystemPartition
+1: FileVersion
+1: FileTimeToSystemTime
+1: FileTimeToLocalFileTime
+1: FileTimeToDosDateTime
+1: FileName: %s
+1: FileName
+1: FileList:%d
+1: FileList:
+1: FileIsBlocked: File %14s version %016I64X is blocked from installation
+1: FileCondition
+1: File Name
+1: FhPWh
+1: Ffff
+1: FetchSourceURL: SetupOpenInfFile Failed to open file: %s
+1: February
+1: Fdu
+1: Fdtd
+1: Fd_^
+1: Fatal Error
+1: Failure writing to target file
+1: Failure reading file to be stored in cabinet
+1: Failure opening file to be stored in cabinet
+1: Failure decompressing data
+1: Failure compressing data
+1: Failed to set no back up
+1: Failed to set bFromSfxCab
+1: Failed to query SectionName for %s with error 0x%lx
+1: Failed to query ProviderName for %s with error 0x%lx
+1: Failed to query MfgName for %s with error 0x%lx
+1: Failed to query DrvDescription for %s with error 0x%lx
+1: Failed to query DriverPath for %s with error 0x%lx
+1: Failed to load %s from %s
+1: Failed to get DeviceInstallParams for single inf %s with error 0x%lx
+1: Failed to copy some or all of the files necessary for integrated install.
+1: Failed to Build Driver list for %s with error 0x%lx
+1: Failed on WSAStartup
+1: Failed on RsvpInitialize: %d
+1: Failed on CreateHeap
+1: Failed To Set LKG Key
+1: Failed To Create Link -3 %s
+1: Failed To Create Link -2 %s
+1: Failed To Create Link -1 %s
+1: Failed DownloadAndPatchFiles, GLE=0x%08X
+1: Failed Deleting %s  %u
+1: F`t<
+1: F\Pj
+1: F\Ph7
+1: FVhl
+1: FVh@
+1: FVh$"
+1: FVWW
+1: FVPQ
+1: FREE
+1: FPNWSRV.SYS
+1: FPNW.DLL
+1: FNFCIGETOPENINFO: GetFileInformationByHandle function failed
+1: FNFCIGETOPENINFO: CreateFile for %s file failed with error INVALID_HANDLE_VALUE
+1: FLtkSP
+1: FLt4
+1: FHHW
+1: FFileFound: FindFirstFile failed :0x%lx
+1: FFf=:
+1: FFW3
+1: FFFFF
+1: FDIDestroy
+1: FDICreate
+1: FDICopy
+1: FCIFlushCabinet
+1: FCIDestroy
+1: FCICreate
+1: FCIAddFile() failed: code %d [%s]
+1: FCIAddFile
+1: FC;u
+1: FALSE
+1: F@+
+1: F<u
+1: F<tK
+1: F<W3
+1: F<9CTt
+1: F9w$u
+1: F9t$
+1: F950V
+1: F6.9Uz
+1: F4u$j
+1: F4tb
+1: F4t
+1: F4Ph.
+1: F4Ph
+1: F4;E4
+1: F49]
+1: F33-
+1: F2f;
+1: F,_^
+1: F,[_^
+1: F,SSj
+1: F,Ph`,
+1: F,PhXT
+1: F,Ph0+
+1: F,Ph
+1: F,98uX
+1: F(^3
+1: F(Pj
+1: F&PQ
+1: F%@t
+1: F% t
+1: F$t0h
+1: F$Hj
+1: F$@t
+1: F$9Y
+1: F$#ET;ET
+1: F$ t
+1: F u
+1: F t.
+1: F _[^]
+1: F ][
+1: F PQ
+1: F	.f
+1: E|},
+1: E|f9
+1: E|PhDm
+1: E|9p
+1: ExtractIconW
+1: ExtractIconA
+1: ExtractBuildDateFromFile: MyMapViewOfFileA failed :0x%lx
+1: ExpandEnvironmentVarsInPath
+1: Exception in FixTimeStampOnCompressedFile : 0x%lx
+1: ExP3
+1: EventlogLevel
+1: EventMessageFile
+1: EventLogKeyName       = "%s"
+1: EventLogKeyName
+1: EventLogDllName
+1: Ettm
+1: EttS
+1: EttP9]PtU
+1: Ett$9]t
+1: Et_^[
+1: EtPV
+1: Et H
+1: EstimateForSxSAssemblies: No SxS assemblies to install.
+1: EstimateForSxSAssemblies: Estimated %lu bytes for SxS assemblies.
+1: EstimateForDUAssimilation: SetupIterateCabinet Failed: 0x%lx
+1: EstimateDiskUsageForUninstall: SetupOpenFileQueue for FileQueue failed: 0x%lx
+1: EstimateDiskUsageForUninstall: SetupOpenFileQueue for AlwaysQueue failed: 0x%lx
+1: EstimateDiskUsageForUninstall: SetupCommitFileQueue for FileQueue failed: 0x%lx
+1: EstimateDiskUsageForUninstall: SetupCommitFileQueue for AlwaysQueue failed: 0x%lx
+1: EstimateDiskUsageForUninstall: LoadFileQueues failed
+1: EstimateDiskUsageForUninstall: EstimateFilesFromArchiveFilesSections failed
+1: Est+
+1: Es:F
+1: Error: share %s: free %uMB req: %uMB w/uninstall %uMB
+1: Error: Drive %c: free %uMB req: %uMB w/uninstall %uMB
+1: Error: CheckVLKForBlock failed
+1: Error installing assemblies, GLE=%u
+1: Error in DownloadAndPatchFiles function: 0x%lx
+1: Error getting disk usage info, GLE=0x%lx
+1: Error code=%d Error value=%d
+1: Error Not enough Memory to create hSubAllocator
+1: Error Not enough Memory to create FileNameNode
+1: Error
+1: EqualRgn
+1: EqualRect
+1: Ept`
+1: EpPjh
+1: EpPjd
+1: EpPVVVh49
+1: EpPVVV
+1: Enumerating fixes: %s
+1: Enumerating files: %s
+1: Enumerating SPs: %s
+1: EnumRegKey: Key: %s SubKey: %s
+1: EnumProcesses
+1: EnumProcessModules
+1: EnumDisplayMonitors
+1: EnumDisplayDevicesW
+1: EnumDependentServicesA
+1: EnumClipboardFormats
+1: EnumChildWindows
+1: Endast f
+1: EndInstallation
+1: Enc UNICODE string %d bytes long
+1: Enc ASCII string %d bytes long
+1: Enabled
+1: EnableTracing
+1: EnableThemeDialogTexture
+1: EnableRSVPSM
+1: EnableLangDlg
+1: EnableDebugAid
+1: EnableChangeBreakBit
+1: EmptyClipboard
+1: El_^[
+1: ElPjD
+1: ElPh
+1: ElPW
+1: ElPVVh
+1: ElPSSSSSSh
+1: El9X
+1: EhPVVV
+1: E`td
+1: E`_^[
+1: E`PW
+1: E`PSSSSSSh
+1: E`PR
+1: E`PQ
+1: E^,
+1: E\f90t,
+1: E\PVS
+1: EZUR
+1: EXf9X
+1: EXPSSS
+1: EXP3
+1: EX;El
+1: ETPVS
+1: ESWUV
+1: ERich
+1: ERROR
+1: EPVP
+1: EPPj
+1: EPPh
+1: ELPWSh
+1: ELPS
+1: EHPV
+1: EHPSj
+1: EDPh4
+1: ED@t^h
+1: ED9^
+1: ED#HE
+1: ED#5E
+1: E@Pj
+1: E@Ph
+1: E@PWSh
+1: E@9E
+1: E=63**!
+1: E<j+
+1: E<PShX
+1: E<;E4r
+1: E<;E$
+1: E<9}<YYr
+1: E8_^[
+1: E8PSh?
+1: E8;E0v
+1: E,V3
+1: E,Pj
+1: E,PV
+1: E)#ME
+1: E(Pj
+1: E(PhD
+1: E(PS
+1: E$SVW3
+1: E$Ph
+1: E$A9
+1: E!#"
+1: E |
+1: E tP
+1: E V3
+1: E SSSS
+1: E QRP
+1: E Pj
+1: DsGetDcNameW
+1: DriverVer
+1: DriverDesc
+1: DriverDateData
+1: DriverDate
+1: DriverCachePath
+1: Driver DateData From Registry for %s failed with error 0x%lx
+1: Driver DateData From Registry for %s = %s
+1: Driver Date From Registry for %s failed with error 0x%lx
+1: Driver Date From %s for %s = %s
+1: Driver Cache
+1: Drive %c: free %uMB req: %uMB w/uninstall %uMB
+1: Drive %c: Need additional %uMB to install, %uMB with uninstall
+1: DrawTextW
+1: DrawTextA
+1: DrawIconEx
+1: DrawIcon
+1: Downloading %u files
+1: DownloadPatchFiles:The file download has been terminated
+1: DownloadPatchFiles:Download directory already exists
+1: DownloadClientId
+1: DownloadAndPatchFiles:ProtectedPatchDownloadCallback function failed
+1: DownloadAndPatchFiles:ProcessDownloadChunk function failed
+1: DownloadAndPatchFiles: loading of Wininet support failed
+1: DownloadAndPatchFiles: InternetReadFile failed with error: 0x%lx
+1: DownloadAndPatchFiles: Insufficient buffer for file to download
+1: DownloadAndPatchFiles: Insufficient buffer for RequestBuffer
+1: DownloadAndPatchFiles: Creation of suballocator failed for hSubAllocator
+1: DownloadAndPatchFiles: Creation of PatchThread failed
+1: DownloadAndPatchFiles: Allocation failed for RequestBuffer
+1: DownloadAndPatchFiles: Allocation failed for FileSizeArray
+1: DownloadAndPatchFiles: Allocation failed for FileNameArray
+1: DownloadAndPatchFiles: Allocation failed for FileFlagArray
+1: DownloadAndPatchFiles returned success
+1: Download complete
+1: DosDateTimeToFileTime
+1: Domestic Use Only
+1: DoRegistryUpdates:SetupInstallFromInfSection Failed for %s error: 0x%lx
+1: DoRegistryUpdates:SetupInstallFromInfSection Failed for %s : 0x%lx
+1: DoRegistryUpdates:SetSecurityInfo Failed: 0x%lx
+1: DoRegistryUpdates:GetSecurityInfo Failed: 0x%lx
+1: DoRegistryUpdates:GetSecurityDescriptorDacl Failed: 0x%lx
+1: DoRegistryUpdates: SetupInstallFromInfSection failed for %s with error:0x%lx
+1: DoRegistrations: Allocation failed for InfFileName
+1: DoPreDeletes(): Error 0x%08lX deleting %s
+1: DoNoDelayReplace:SetFileSecurity Failed: 0x%lx
+1: DoNoDelayReplace:SetFileAttributes Failed: 0x%lx
+1: DoNoDelayReplace:GetFileSecurity Failed: 0x%lx
+1: DoNoDelayReplace:Allocation failed for Pointer
+1: DoNoDelayReplace: Allocation failed for SecurityDescriptor
+1: DoNoDelayReplace: Allocation failed for Message
+1: DoInstllation: SetupCommitFileQueue for FileQueue failed: 0x%lx
+1: DoInstalltion:CustomizeCall Failed: 0x%lx
+1: DoInstalltion: GetRegistryNamesToArchive for INF_SAVEREG failed
+1: DoInstalltion: GetRegistryNamesToArchive for INF_IISSAVEREG failed
+1: DoInstalltion: GetRegistryNamesToArchive for INF_APPSAVEREG failed
+1: DoInstallation:StopServices Failed: 0x%lx
+1: DoInstallation:SetupSetDirectoryId for WOW_DEST_DIR Failed: 0x%lx
+1: DoInstallation:SetupSetDirectoryId for TSCLIENT_DEST_DIR Failed: 0x%lx
+1: DoInstallation:SetupSetDirectoryId for IIS_DRIVE_DEST_DIR Failed: 0x%lx
+1: DoInstallation:SetupSetDirectoryId for IIS_DEST_DIR Failed: 0x%lx
+1: DoInstallation:SetupSetDirectoryId for CAB_DEST_DIR Failed: 0x%lx
+1: DoInstallation:SetupOpenInfFile for OldUninstallInf file %s not found: 0x%lx
+1: DoInstallation:SetupOpenFileQueue for FileQueue Failed: 0x%lx
+1: DoInstallation:SetupOpenFileQueue for AlwaysQueue Failed: 0x%lx
+1: DoInstallation:SetupOpenFileQueue Failed: 0x%lx
+1: DoInstallation:SetupInstallFilesFromInfSection for Test128Queue Failed: 0x%lx
+1: DoInstallation:SetupInitDefaultQueueCallbackEx Failed: 0x%lx
+1: DoInstallation:SetupGetSourceInfo Failed: 0x%lx
+1: DoInstallation:SetupDefaultQueueCallbackContext failed:ERROR_NOT_ENOUGH_MEMORY
+1: DoInstallation:SetupCommitFileQueue for FileQueue Failed: 0x%lx
+1: DoInstallation:SetupCommitFileQueue for AlwaysQueue Failed: 0x%lx
+1: DoInstallation:SetCommonDirIds failed
+1: DoInstallation:RunInfProcesses for ProcessesToRun.VM Failed
+1: DoInstallation:RunInfProcesses for ProcessesToRun Failed
+1: DoInstallation:RunInfProcesses Failed
+1: DoInstallation:ReadUpdateFields failed:STATUS_CANT_FIND_INF
+1: DoInstallation:ReadStrings failed:STATUS_CANT_FIND_INF
+1: DoInstallation:ReadHotfixFields failed:STATUS_CANT_FIND_INF
+1: DoInstallation:ReadConfiguration failed:STATUS_CANT_FIND_INF
+1: DoInstallation:PruneCatalogsFromHotfixes failed
+1: DoInstallation:MyInstallCatalogFiles failed:STR_CATALOG_INSTALL_FAILED
+1: DoInstallation:Invalid file handle for INF file
+1: DoInstallation:IncludeDirectoryIdFromInf failed
+1: DoInstallation:GetVersionEx Failed: 0x%lx
+1: DoInstallation:GetInfValue failed to get details from Version section:STATUS_INVALID_INF_FILE
+1: DoInstallation:GetEnvironmentVariable for SP_UPDATE_BLOCK_INSTALL Failed: 0x%lx
+1: DoInstallation:GetAdminOwnerAndUserSids Failed: 0x%lx
+1: DoInstallation:DownloadPatchFiles failed
+1: DoInstallation:DoRegistryUpdates failed
+1: DoInstallation:DoDeleteOnCopyOperations failed
+1: DoInstallation:CreateThread for download speed Failed: 0x%lx
+1: DoInstallation:CreateThread for Inventory thread Failed: 0x%lx
+1: DoInstallation:CreateProgressDialog failed
+1: DoInstallation:CheckForMicrosoftKernel failed to get details from Version section:STATUS_INVALID_INF_FILE
+1: DoInstallation:CabinetBuild failed
+1: DoInstallation:ArchiveSingleFile failed : FILEOP_ABORT
+1: DoInstallation:ArchiveHighEncryptionFiles failed
+1: DoInstallation:AnalyzeDiskUsage failed
+1: DoInstallation:Allocation failed for lpCabPath
+1: DoInstallation:Allocation failed for hInventorySubAllocator
+1: DoInstallation:Allocation failed for g_szOsloaderDirectory
+1: DoInstallation:Allocation failed for InventoryInfo
+1: DoInstallation:AddProtectedRenamesFlag failed:STR_ADD_REGISTRY_FAILED
+1: DoInstallation: ValidateSingleFileSignature Failed: STR_FAILED_INF_INTEGRITY
+1: DoInstallation: SnapPendingDelayedRenameOperations failed: 0x%lx
+1: DoInstallation: SetupOpenInfFile for %s  Failed: 0x%lx
+1: DoInstallation: PruneCatalogsFromHotfixes failed
+1: DoInstallation: PrepareToTrustInfFile Failed: 0x%lx
+1: DoInstallation: LoadFileQueues failed
+1: DoInstallation: InitPFRTranslation failed
+1: DoInstallation: GetInternalHalFileName for %s  Failed: 0x%lx
+1: DoInstallation: FetchSourceURL for  %s Failed
+1: DoInstallation: Failed to create uninstall directory
+1: DoInstallation: EnableNecessaryPrivileges failed
+1: DoInstallation: CustomizeCall failed : 0x%lx
+1: DoInstallation: CustomizeCall Failed: 0x%lx
+1: DoInstallation: CreateInfForUninstall failed
+1: DoInstallation: CreateFile for %s failed: 0x%lx
+1: DoInstallation: CleanPFR failed: 0x%lx
+1: DoInstallation: CheckSystem Failed: 0x%lx
+1: DoInstallation: ArchiveRegistrySettings failed
+1: DoInstallation: ArchiveFilesFromArchiveFilesSections failed
+1: DoInstallation: Allocation failed for lpIISPath
+1: DoInstallation: Allocation failed for MessageText
+1: DllGetVersion
+1: DllGetTscCtlVer
+1: DllGetClassObject
+1: DllCanUnloadNow
+1: DllCache
+1: DlgProcAsk128:User Message: %s
+1: DlgProcAsk128:User Input: WM_CLOSE
+1: DlgProcAsk128:User Input: SKIP_128_BUTTON
+1: DlgProcAsk128:User Input: REPLACE_128_BUTTON
+1: DlgProcAsk128:User Input: IDCANCEL
+1: DisplayVersion
+1: DisplayName
+1: DiskUsageInfo, final:
+1: DiskUsageInfo, before uninstall:
+1: DiskUsageInfo, before install:
+1: DiskUsageInfo, before download:
+1: DiskUsageInfo, before cleanup:
+1: DiskUsageInfo, before cabinet building:
+1: DiskUsageInfo, after cleanup:
+1: DisableRogueServerDetection
+1: DisableFastStart
+1: Dirty Uninstall was successful
+1: DirectoryToStoreTracefiles
+1: DirectoryId.Include
+1: Directory
+1: DirectoriesToCleanUp.AfterInstall
+1: DirectoriesToCleanUp
+1: DirId
+1: DialogBoxIndirectParamA
+1: Device  %s installed from oem inf %s
+1: DestroyIcon
+1: DestinationPlatform
+1: Destination:
+1: Description
+1: DeregisterEventSource
+1: Deleting existing AppPatch keys.
+1: Deleting File: %s ( incoming is older file )
+1: Deleting File: %s ( incoming is a newer file )
+1: Deleting File: %s ( File on disk is newer than the temp file )
+1: Deleting %s
+1: DeleteOldSpUninstallDir:SetupOpenInfFile for %s file Failed: 0x%lx
+1: DeleteOldSpUninstallDir:Invalid INF file
+1: DeleteOldSpUninstallDir:GetFileAttributes for %s file Failed: 0x%lx
+1: DeleteOldHotfixRegistryInfo:Allocation failed for szCurrentValue
+1: DeleteOldHotfixRegistryInfo:Allocation failed for KeyBuffer
+1: DeleteOldHotfixRegistryInfo: RegOpenKeyEx for %s failed: 0x%lx
+1: DeleteMetaFile
+1: DeleteFilesInUninstallSections
+1: DeleteCatalogFile %s failed with ERROR %d
+1: DelReg
+1: DelFiles  = "%s"
+1: DeferPNPFileCopy
+1: DefaultInstall
+1: DefaultCurHopLimit
+1: Default
+1: December
+1: DebugLevel
+1: DebugBreak
+1: Debug
+1: DeRegistering the Uninstall Program -> %s, %d
+1: DeRegisterUninstallProgramInInf: SetupOpenInfFile for %s failed: 0x%lx
+1: DeRegisterUninstallProgramInInf: SetupGetLineText for NtServicePackVersionFullText failed: 0x%lx
+1: DeRegisterUninstallProgramInInf: No Old UninstallDir
+1: DbgPrint
+1: DbgBreakPoint
+1: Date Changed for %s driver %s
+1: DataAccessSection
+1: D_^][
+1: DTCupdate
+1: DSBMPriority
+1: DSBMLogicalMulticastAddress
+1: DSBMDeadInterval
+1: DOtH
+1: DISPLAY
+1: DHDDD
+1: DEL  "%s\%s"
+1: DEBUGGER
+1: DDGtw
+1: DDGtO
+1: DDGtDDDDH
+1: DDDwwwDDDDDDDDH
+1: DDDw
+1: DDDO
+1: DDDL
+1: DDDHDG
+1: DDDDL
+1: DDDDH
+1: DDDDDO
+1: DDDDDHDDG
+1: DDDDDDL
+1: DDDDDDDO
+1: DDDDDDDL
+1: DDDDDDDDL
+1: DDDDDDDDH
+1: DDDDDDDDDO
+1: DDDDDDDDDL
+1: DDDDDDDDDDL
+1: DDDDDDDDDDDO
+1: DDDDDDDDDDDL
+1: DDDDDDDDDDDDL
+1: DDDDDDDDDDDDDO
+1: DDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDO
+1: DDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDO
+1: DDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDO
+1: DDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDL
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDDDDDDDD
+1: DDDDDDDDDDDDDDD
+1: DDD;
+1: DAD state %u>
+1: D@) 8>,
+1: D:\is6\Code\XT\Setup\setup.cpp
+1: D5+^vrp
+1: D0eh@
+1: D0eh
+1: D.8Ph@7
+1: D$hPj
+1: D$df
+1: D$TPUh(0
+1: D$LPh
+1: D$BPhT0
+1: D$@Q
+1: D$@Ph`
+1: D$@Ph
+1: D$@P
+1: D$>RP
+1: D$<h
+1: D$<WSP
+1: D$<Q
+1: D$<P
+1: D$:P
+1: D$8jdY
+1: D$8j\P
+1: D$8WP
+1: D$8UWQ
+1: D$8SWP
+1: D$8Q
+1: D$8Pj
+1: D$8Phx
+1: D$8Phh
+1: D$8PhX
+1: D$8PhH
+1: D$8Ph8
+1: D$8Ph(
+1: D$6P
+1: D$4j
+1: D$4h
+1: D$4W
+1: D$4Q
+1: D$4PS
+1: D$4P+
+1: D$0UV
+1: D$0QSRP
+1: D$0Q
+1: D$0;E4r
+1: D$0;
+1: D$,QRPS
+1: D$,P
+1: D$,;E0w
+1: D$(S
+1: D$(QRP
+1: D$(Q
+1: D$(PSV
+1: D$$h:9
+1: D$$h&9
+1: D$$h
+1: D$$RP
+1: D$$PW
+1: D$"2L$42
+1: D$ |
+1: D$ S
+1: D$ 9F
+1: D$ 3
+1: C}^SPGAAAAGPS^
+1: Cx^u
+1: Cw?T;E48-
+1: CustomizeInstallFromSection: LoadLibrary for %s failed: 0x%lx
+1: CustomizeInstallFromSection: GetProcAddress for %s failed: 0x%lx
+1: CustomizeCall:GetProcAddress for %s failed: 0x%lx
+1: CustomizationDll
+1: CustomLoadStringW
+1: CustomLoadStringA
+1: CustomFunction
+1: CurrentType
+1: Current AppPatch version is newer,  AppPatch will not be updated
+1: Current
+1: CtrlLoad
+1: CryptUnprotectData
+1: CryptReleaseContext
+1: CryptProtectData
+1: CryptHashPublicKeyInfo
+1: CryptGenRandom
+1: CryptEncodeObject
+1: CryptCATOpen
+1: CryptCATGetCatAttrInfo
+1: CryptCATEnumerateMember
+1: CryptCATEnumerateAttr
+1: CryptCATClose
+1: CryptCATCatalogInfoFromContext
+1: CryptCATAdminRemoveCatalog
+1: CryptCATAdminReleaseContext
+1: CryptCATAdminReleaseCatalogContext
+1: CryptCATAdminEnumCatalogFromHash
+1: CryptCATAdminCalcHashFromFileHandle
+1: CryptCATAdminAcquireContext
+1: CryptAcquireContextA
+1: Cred:
+1: Creation of bat file failed due to not enough memory
+1: CreateUserInterface:LoadLibrary Failed: 0x%lx
+1: CreateUserInterface:GetProcAddress Failed: 0x%lx
+1: CreateUninstallDirectory: Failed to create uninstall directory:ERROR_CANNOT_MAKE
+1: CreateUninstall = %d,Directory = %s
+1: CreateSlipstream:Necessary files are not present to install SP
+1: CreateSlipstream:FileCopy Failure for file: %s
+1: CreateSlipstream:Failed to copy some or all of the files necessary for integrated install.
+1: CreateSlipstream:Cannot Install SP on datacenter
+1: CreateSlipstream(%s,%s,%s)
+1: CreateRoundRectRgn
+1: CreateRemoteThread
+1: CreateRectRgnIndirect
+1: CreateRectRgn
+1: CreateProgressDialog:CreateThread failed with error:0x%lx
+1: CreateProgressDialog:CreateEvent failed with error:0x%lx
+1: CreatePenIndirect
+1: CreateMetaFileW
+1: CreateMenu
+1: CreateMIFFile:LoadLibrary for ismif32.dll failed :0x%lx
+1: CreateMIFFile:GetProcAddress for InstallStatusMIF failed :0x%lx
+1: CreateInfForUninstall: WriteFile failed: 0x%lx
+1: CreateInfForUninstall: CreateFile failed: 0x%lx
+1: CreateInfForUninstall: Allocation failed for Buffer
+1: CreateHalftonePalette
+1: CreateFileFixElement:  FileFix allocation failed
+1: CreateDialogParamW
+1: CreateDialogIndirectParamW
+1: CreateCompatibleBitmap
+1: CreateBitmap
+1: CountClipboardFormats
+1: Couldn't register the name of the sync event for clients.
+1: Couldn't create sync event for clients.
+1: Could not create cabinet file
+1: Could not create a temporary file
+1: Could not copy updencts.inf file to Export directory
+1: Could not copy updencin.inf file to Export directory
+1: Could not copy rsaenhs.dll file to System32 directory
+1: Could not copy encinst.exe file to Export directory
+1: Corrupt cabinet
+1: CorrectRegSubKeys:SetSecurityInfo Failed: 0x%lx
+1: CorrectRegSubKeys:GetSecurityInfo Failed: 0x%lx
+1: CorrectRegSubKeys:GetSecurityDescriptorDacl Failed: 0x%lx
+1: CorrectRegSubKeys: Allocation failed for Name
+1: CopyingComplete
+1: CopySid Failed: 0x%lx
+1: CopySid
+1: CopyRegistrySnapShotToUninstaller: WriteFile failed: 0x%lx
+1: CopyRegistrySnapShotToUninstaller: CreateFile failed: 0x%lx
+1: CopyRegistrySnapShotToUninstaller: Allocation failed for Buffer
+1: CopyRect
+1: CopyFlags
+1: CopyFiles = "%s"
+1: Copy Inf for %s Failed With Error %0x
+1: ControlledLoadTotalPeakRate
+1: ControlledLoadTotalBucketRate
+1: ControlledLoadMaximumTokenBucketRatePerFlow
+1: ControlledLoadMaximumPeakRatePerFlow
+1: ControlService
+1: ConnectAndSendRequest:Invalid name for Source URL
+1: Conflicting filelist tags for %s in [%s]
+1: Conflicting component %s in [%s]
+1: Condtional Load of section %s suceeded
+1: Conditonal Load Failed For
+1: Conditional Registry Install Failed For
+1: CompressedPresent: %s
+1: Complete list of components:
+1: CompareStringW
+1: CompareStringA
+1: Comctl32.dll
+1: CombineRgn
+1: CoTaskMemAlloc
+1: CoGetMalloc
+1: CoFreeAllLibraries
+1: Clusapi.DLL
+1: CloseWindowStation
+1: CloseMetaFile
+1: CloseClipboard
+1: ClientHWID
+1: Client requested abort
+1: Client HWID
+1: CleanupTrustedInfFile: GetFileAttributes for %s failed: 0x%lx
+1: Cleanup: Invalid Inf File
+1: CleanPFR:RegQueryValueEx Failed: 0x%lx
+1: CleanPFR:Allocation failed for pPendingRenamesBuffer
+1: ChooseFontW
+1: ChildWindowFromPointEx
+1: CheckVLKForBlock:LoadLibrary for LIC.dll Failed: 0x%lx
+1: CheckVLKForBlock:GetProcAddress Failed: 0x%lx
+1: CheckVLKForBlock: LIC.dll not trust verified
+1: CheckTokenMembership
+1: CheckSystem: ServicePack version Mismatch
+1: CheckSystem: Not an administrator:STATUS_INSUFFICIENT_PRIVS
+1: CheckSystem: Minor Version mismatch:STATUS_NT_VERSION_MISMATCH
+1: CheckSystem: Major Version mismatch:STATUS_NT_VERSION_MISMATCH
+1: CheckSystem: IsDTCUpdatePresent failed: STATUS_CANT_INSTALL_SP_ON_DTC
+1: CheckSystem: GetMachineType failed :STATUS_PLATFORM_MISMATCH
+1: CheckSystem: GetLanguageType failed :STATUS_FAILED_LANGUAGE_TYPE
+1: CheckSystem: GetCheckedFree failed :STATUS_CHECKED_FREE_MISMATCH
+1: CheckSystem: Build number mismatch:STATUS_BUILD_VERSION_MISMATCH
+1: CheckOSVersion: SetupOpenInfFile failed to open file: %s
+1: CheckMenuRadioItem
+1: CheckMenuItem
+1: CheckInstall
+1: CheckHotfixSlpStrm: SetupOpenInfFile failed to open %s file
+1: CheckForMicrosoftKernel:RegQueryValueEx for SystemStartOptions failed:0x%lx
+1: CheckForMicrosoftKernel:RegOpenKeyEx for SYSTEM\CurrentControlSet\Control failed:0x%lx
+1: CheckFileVer
+1: Check.For.128.Security
+1: CharUpperA
+1: CharToOemBuffA
+1: CharNextA
+1: CharLowerA
+1: ChangeClipboardChain
+1: CertSetCertificateContextProperty
+1: CertOpenStore
+1: CertFreeCertificateContext
+1: CertCreateCertificateContext
+1: CertCloseStore
+1: CertAddCertificateContextToStore
+1: CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+1: CancelIo
+1: Cabinets in set have different RESERVE sizes
+1: CabinetInventory:
+1: CabinetBuildReferences
+1: CabinetBuild: Error in File size of the cabinet
+1: CabinetBuild: BuildCabinet Function failed
+1: CabinetBuild:
+1: CabinetBuild complete
+1: CabinetBuild
+1: Cabinet.dll
+1: Cabinet returned on fdintNEXT_CABINET is incorrect
+1: Cabinet not found
+1: Cabinet component %s is zero-length
+1: Cabinet component %s is missing
+1: Cabinet build used %u ticks
+1: Cabinet build failed, GLE=0x%08X
+1: Cabinet "%s" now exists
+1: C[%s %s]
+1: CXSV
+1: CT;E
+1: CSVV
+1: CSDVersion
+1: CS P
+1: CRYPT32.dll
+1: CRGC
+1: CP;CTv*j
+1: COPY  "%s\%s" "%s\%s"
+1: CONSOLE
+1: CONFIRM
+1: COMT_TARGET_SKIP_REASON_VERSION
+1: COMT_TARGET_SKIP_REASON_OEM_FILE
+1: COMT_TARGET_SKIP_REASON_NOT_EXISTS
+1: COMT_TARGET_SKIP_REASON_HASH_MATCH
+1: COMT_TARGET_QUEUE_SKIPPED
+1: COMT_TARGET_QUEUE_COPIED
+1: COMT_TARGET_FROM_REF_DIRECTORY
+1: COMT_TARGET_FROM_REF_COMPRESSED
+1: COMT_TARGET_FROM_REF_CABINET
+1: COMT_TARGET_FROM_QUEUE
+1: COMT_TARGET_FROM_EXPLICIT
+1: COMT_TARGET_DISPOSITION_SKIP
+1: COMT_TARGET_DISPOSITION_COPY
+1: COMT_TARGET_DISPOSITION_BLOCKED
+1: COMT_TARGET_DELETE_ON_COPY
+1: COMF_WILL_BE_BUILT_LOCALLY
+1: COMF_SOURCE_IS_CLONE
+1: COMF_SOURCE_FROM_VER_FILE
+1: COMF_SOURCE_FROM_QUEUE
+1: COMF_SOURCE_FROM_EXPLICIT
+1: COMF_NEEDED_TO_COPY
+1: COMF_NEEDED_TO_BUILD_CABINET
+1: COMF_NEEDED_FOR_DOWNLOAD_ALL
+1: COMF_LOCAL_FILE_IS_PRESENT
+1: COMF_DO_NOT_REQUEST_PATCHES
+1: COMF_DOWNLOAD_REQUIRED
+1: COMF_CREATED_SETUPAPI_PLACEBO
+1: COMF_CAN_BE_BUILT_LOCALLY
+1: COMF_CABINET_BUILD_SOURCE
+1: CLtm
+1: CLt*
+1: CLSID\{ADB880A6-D8FF-11CF-9377-00AA003B7A11}\InprocServer32
+1: CLIPRDR
+1: CHHtL-
+1: CHECKED
+1: CCSP
+1: CCDCEF
+1: C@+u
+1: C;^H|
+1: C:\WINDOWS\system\vspnk.exe
+1: C:\WINDOWS\system32\IME\gmpdm.exe
+1: C:\WINDOWS\addins\khuda.exe
+1: C:\WINDOWS\addins\eiiwa.exe
+1: C:\WINDOWS\System32\wqkas.exe
+1: C:\WINDOWS\System32\drivers\SVCHOST.exe
+1: C:\WINDOWS\System32\dllcache\tjzhl.exe
+1: C:\Program Files\Common Files\cvfaj.exe
+1: C89C<uN
+1: C49P u
+1: C49P
+1: C2)Qgba
+1: C0Pj
+1: C =02CVu
+1: C ;G rA
+1: BytesPerSec
+1: Building cabinet "%s"
+1: BuildDate
+1: BuildCheckSum
+1: BuildCabinetManifest:SetupOpenInfFile failed with error INVALID_HANDLE_VALUE
+1: BuildCabinetManifest:FindOrCreateComponentFile failed
+1: BuildCabinetManifest:Creation of Sub-allocator failed for ThisCabinet
+1: BuildCabinetManifest:Creation of Sub-allocator failed
+1: BuildCabinetManifest:Allocation failed for ThisReferenceBinding
+1: BuildCabinetManifest:Allocation failed for ThisReference
+1: BuildCabinetManifest:Allocation failed for ThisComponentBinding
+1: BuildCabinetManifest:Allocation failed for ThisCabinet->FileListSectionName
+1: Build to next build install blocked without uninstall
+1: BreakBitAddressTable
+1: BrE`"
+1: BootDir
+1: Blocklist: %14s Suggested fix  %s
+1: Blocklist: %14s Min Version is %s, %016I64X
+1: Blocklist: %14s Max Version is %s, %016I64X
+1: BlockedFilesList
+1: Blocked min version: %016I64X
+1: Blocked max version: %016I64X
+1: BlockadeStateTimeoutFactor
+1: BlockOnNewIE
+1: BlockListInitialize: Type %s.
+1: BlockListInitialize:  BlockedINFFile allocation failed
+1: BlockList INF Configuration: %s
+1: BindingCacheLimit
+1: BeginInstallation
+1: BeforeArchive
+1: Bad direction
+1: Bad Rsvp Msg type
+1: B\_^]
+1: BUILDTIMESTAMP
+1: BPhh
+1: BITMAP
+1: BINK
+1: BGNq
+1: BF;U
+1: BAA;
+1: B@@;
+1: B<ar
+1: B;P\|
+1: B,,s
+1: B$Iu
+1: B#0
+1: B ;A w
+1: B ;A r
+1: B 02CV
+1: A~SOW[)
+1: A~SO)
+1: August
+1: AssimilateDU: SetupIterateCabinet Failed: 0x%lx
+1: AssimilateDU
+1: AskReplace128:DlgProcAsk128 failed: FILEOP_ABORT
+1: AskReplace128:Allocation failed for Message
+1: ArchivingComplete
+1: ArchiveUninstallQueueCallback: Archiving of file aborted for Uninstallation
+1: ArchiveSystem32FilesOnly
+1: ArchiveSpoolerDriverFiles
+1: ArchiveRegistrySettings: ArchiveRegistryNode failed
+1: ArchiveRegistrySettings: Allocation failed for RegNode->ArchiveFileName
+1: ArchiveRegistrySettings: Allocation failed for MessageStr
+1: ArchiveRegistrySettings: Allocation failed for ErrorText
+1: ArchiveRegistryNode: RegSaveKey for %s  failed: 0x%lx
+1: ArchiveRegistryNode: RegQueryValueEx for %s  failed: 0x%lx
+1: ArchiveRegistryNode: RegQueryInfoKey failed: 0x%lx
+1: ArchiveRegistryNode: Allocation failed for RegNode->ValueBuffer
+1: ArchiveRegistryNode: Allocation failed for RegNode->ClassName
+1: ArchiveQueue: no source component %s
+1: ArchiveQueue: component %s: no target %s
+1: ArchiveQueue: bad path on %s
+1: ArchiveOldHotfixRegistryInfo: Allocation failed for szCurrentValue
+1: ArchiveOldHotfixRegistryInfo: Allocation failed for UninstBuffer1
+1: ArchiveOldHotfixRegistryInfo: Allocation failed for UninstBuffer
+1: ArchiveOldHotfixRegistryInfo: Allocation failed for KeyBuffer
+1: ArchiveJavaPackagesData
+1: ArchiveJavaPackages
+1: ArchiveIISHelpFilesOnly
+1: ArchiveHighEncryptionFiles:Encinst process failed
+1: ArchiveHighEncryptionFiles: RegSetValueEx Failed: 0x%lx
+1: ArchiveHighEncryptionFiles: RegCreateKeyEx Failed: 0x%lx
+1: ArchiveHighEncryptionFiles: Cannot find rsaenhs.dll
+1: ArchiveHighEncryptionFiles: Allocation for CurrentExportEntry failed
+1: ArchiveHighEncryptTSDLLCacheFiles
+1: ArchiveHighEncryptTSClient32Files
+1: ArchiveHighEncryptTSClient16Files
+1: ArchiveHighEncryptSystem32Files
+1: ArchiveHighEncryptDriverFiles
+1: ArchiveFilesFromArchiveFilesSections:GetPrinterDriverPath failed
+1: ArchiveFilesFromArchiveFilesSections:FindFirstFile for %s Failed: 0x%lx
+1: ArchiveFileForUninstall:GetFullPathName Failed: 0x%lx
+1: ArchiveFileForUninstall:FindFileNameInPath Failed:ERROR_INVALID_NAME
+1: ArchiveFileForUninstall:ArchiveSingleFile Cancelled
+1: ArchiveDriversFilesOnly
+1: ArchiveCatalogFilesOnly
+1: ArchiveCacheFilesOnly
+1: ArchiveAppPatch
+1: Archive128Bit
+1: Ar	f
+1: April
+1: ApplyAclToDirOrFile:SetSecurityDescriptorDacl failed: 0x%lx
+1: ApplyAclToDirOrFile:GetAclInformation failed: 0x%lx
+1: ApplyAclToDirOrFile:Error on Intializing security descriptor and an ACL: 0x%lx
+1: ApplyAclToDirOrFile:AddAce failed: 0x%lx
+1: Apply failed: %s on %s to get %s
+1: AppPatchSection
+1: AppPatch.Save.Reg.For.Uninstall
+1: AppPatch.Files
+1: AppPatch.Exclusions
+1: AppPatch registry will be archived. Version is %016I64X
+1: AppPatch not installed. Registry will be archived.
+1: AppPatch not installed.
+1: AppPatch not applicable to non-W2K system,  AppPatch will not be installed.
+1: AppPatch installed version is %016I64X
+1: AppPatch March 2001 version is %016I64X
+1: AppPatch Gold will be installed on Server
+1: AppPatch Full will be installed on Workstation
+1: AppPatch
+1: AppName
+1: AppId -
+1: ApZ}=F7F
+1: AnonRegenerateTime
+1: AnonRandomTime
+1: AnalyzePhaseZero used %u ticks
+1: AnalyzePhaseTwo:Memory Allocation for Target Patch Signature failed
+1: AnalyzePhaseTwo used %u ticks
+1: AnalyzePhaseThree used %u ticks
+1: AnalyzePhaseSix used %u ticks
+1: AnalyzePhaseOne: used %u ticks
+1: AnalyzePhaseOne: begins
+1: AnalyzePhaseOne: analyze begins
+1: AnalyzePhaseOne: Blocked SP list Dialog
+1: AnalyzePhaseOne: Blocked Hotfix Dialog
+1: AnalyzePhaseFive used %u ticks
+1: AnalyzeComponents: changed, returning to phase 2.
+1: AnalyzeComponents: after phase 6:
+1: AnalyzeComponents: Cancelled:
+1: AnalyzeComponents used %u ticks
+1: AllowSetForegroundWindow
+1: AllowProtectedRenames
+1: Allocation size of drive %c: is %u bytes, free space = %I64u bytes
+1: Allocation size of drive %c: adjusted to %u
+1: Alleen voor V.S. en Canada. Niet bestemd voor export
+1: AllSBMsMulticastAddress
+1: Afff`
+1: Af9N
+1: Advapi32.DLL
+1: AdjustWindowRect
+1: AdjustTokenPrivileges
+1: AddToServiceList :Allocation failed for pSvcList
+1: AddSourceURL:Allocation failure for Url
+1: AddRegNodeForUninstall: Allocation failed for RegNode
+1: AddDiskUsageInfo: Memory Allocaiton Failed for Info
+1: AddDirId
+1: AddAtomA
+1: AddAce
+1: ActivateKeyboardLayout
+1: AccumulateBlockedFixes:  Global BlockedFix allocation failed
+1: AccumulateBlockedFixes:  Global BlockedFile allocation failed
+1: Accounts
+1: ASSERT
+1: ASMS
+1: AQWj
+1: AQVP
+1: APIRequestsRefreshInterval
+1: API RESV REQ with ttl=
+1: API PATH REQ with ttl=
+1: AL@H
+1: AHHH
+1: AD8N
+1: AAf9
+1: AAJu
+1: AAFFf
+1: AAB3
+1: AA@@
+1: A@ N
+1: A<0N
+1: A;Mlr
+1: A;H\|
+1: A4V3
+1: A.%f>%
+1: A.!'D2)hiec
+1: A*%7fff
+1: A)\
+1: A free bit version of this service is currently running.
+1: A 9A
+1: @x_^]
+1: @t)SW
+1: @t$S
+1: @j\P
+1: @j,P
+1: @h|7
+1: @h O
+1: @`f9H
+1: @`QP
+1: @_^][Y
+1: @_]^[Y
+1: @_[^
+1: @[^]_
+1: @YYt
+1: @Y@Pj@
+1: @XSW
+1: @VPV
+1: @QPf
+1: @Ph>
+1: @Ph+
+1: @PWh
+1: @PWW
+1: @PWSW
+1: @PVj
+1: @PVW
+1: @PQj
+1: @MA+@	?
+1: @@Nu
+1: @@NN+E
+1: @@Ju
+1: @@BBf
+1: @@BB3
+1: @@@@@@@@@@@G
+1: @@@@@@@@@@@@@H
+1: @@@@@@@@@@@@@@@@@@@@@@@@@@
+1: @@@@@@@@@@@@@@@@@@@@@@@
+1: @@@@@@@@@@@@
+1: @@@@@@@@@@@
+1: @;C<r
+1: @.lnk
+1: @.data
+1: @- (]YW
+1: @- (=+!6<( @=(
+1: @+ 0;'
+1: @)#,:(
+1: @(QQ
+1: @(  @+ 0>)!>=(
+1: @(  =+!6:$
+1: @(  :%
+1: @(
+1: @&:A
+1: @$HtnHt[HtOHtCHt%H
+1: @ ;P
+1: @  t-3
+1: @	Ph@
+1: ?{{{{{{{{{{{0
+1: ?{{{{{{{{{0
+1: ?{{{{{{{0
+1: ?c_^ZW222
+1: ?c_ZZ2..
+1: ?\u0
+1: ?UUUUUU
+1: ?RESV-CONFIRM
+1: ??_^ZVV22
+1: ??????P
+1: ??????NI
+1: ??????????????????
+1: ??????????????
+1: ??8 Ev
+1: ??7 Ev
+1: ??6 Ev
+1: ??3@YAXPAX@Z
+1: ??2@YAPAXI@Z
+1: ?;_ZZV22
+1: ?63*#!
+1: ?-$9fff
+1: ?-#t;"
+1: ?)!Efff
+1: >\uf
+1: >\uWf
+1: >\^t
+1: >Bw>
+1: >@u`F
+1: >?@A
+1: >:uW
+1: >1 serv hdr: unsupported.
+1: >*"v<#
+1: >#u%F
+1: >"uU
+1: =j|W
+1: =`ZZ
+1: =HKU
+1: =HKCUu_
+1: =C9{1
+1: =>
+1: ========
+1: =3fO51Ih;f
+1: =.idau
+1: =.cabu
+1: =- ?fff
+1: ='!.9&
+1: <invalid>
+1: <dtp<mtA<s
+1: <dtL<lt.<tt
+1: <description>Microsoft On-Screen Keyboard</description>
+1: <description>Incompatible Program Alert</description>
+1: <dependency optional="yes">
+1: <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" publicKeyToken="6595b64144ccf1df" language="*" processorArchitecture="x86"/>
+1: <assemblyIdentity name="Microsoft.Windows.RemoteDesktopConnection" version="1.0.0.0" type="win32" processorArchitecture="x86"/>
+1: <assemblyIdentity name="Microsoft.Windows.Accessibility.OnScreenKeyboard" version="5.1.0.0" type="win32" processorArchitecture="x86"/>
+1: <aW|
+1: <^0u f
+1: <\uM3
+1: <Xt
+1: <Iuv
+1: <F0u
+1: <Dt|<MtM<St
+1: <C=.O
+1: <API ttl=
+1: <=
+1: <9H t=9H
+1: <0|!<9
+1: <.uX;]
+1: <+"
+1: <+ HQGB
+1: <&>@@
+1: <&!/<'
+1: < %.16s
+1: ;|:O9
+1: ;{ r
+1: ;x\}
+1: ;u(sJ
+1: ;u s)
+1: ;p\r
+1: ;p$t
+1: ;g4V-
+1: ;^\u
+1: ;^Lr
+1: ;](sV
+1: ;X\u,
+1: ;Qts
+1: ;QZ^&
+1: ;QTs
+1: ;JXt
+1: ;F\|
+1: ;F\u$
+1: ;FLu
+1: ;FHu
+1: ;F(r(8_
+1: ;F sP
+1: ;EXu
+1: ;E4u
+1: ;E$u>
+1: ;E t
+1: ;E s
+1: ;C$t0WWWW
+1: ;C |CV
+1: ;C uJ3
+1: ;A`u
+1: ;A@Vs"
+1: ;A t
+1: ;=(d
+1: ;;[W2.
+1: ;77$
+1: ;622
+1: ;5x"
+1: ;5t"
+1: ;5\.
+1: ;5X5
+1: ;5De
+1: ;5<5
+1: ;5(d
+1: ;5$S
+1: ;222
+1: ;(r[V
+1: ;'!'9%
+1: :v;F;
+1: :u6f
+1: :u(8
+1: :ity|{\a
+1: :bitq|\_1F[]V>
+1: :K<\
+1: :Infinity
+1: :Etw;
+1: :@&&
+1: 9~@t
+1: 9~(~
+1: 9~$u
+1: 9~$t
+1: 9~$r
+1: 9~ t
+1: 9~ S
+1: 9}t|
+1: 9}hu0
+1: 9}@u
+1: 9} tC
+1: 9|$$
+1: 9{Lu
+1: 9y\t	PV
+1: 9x\~@!}
+1: 9x\~@
+1: 9x\~)
+1: 9x\~'j`^
+1: 9x\~"3
+1: 9x\~!j`^
+1: 9x\~
+1: 9x\f
+1: 9x,u;
+1: 9utt
+1: 9ulv
+1: 9ult
+1: 9udt
+1: 9u u
+1: 9u tt
+1: 9s8u
+1: 9s4u
+1: 9pxu
+1: 9p\~#
+1: 9p\vJj`Z
+1: 9p$r
+1: 9k8u
+1: 9k4u&j
+1: 9k4u
+1: 9a&g
+1: 9_4tW
+1: 9^Hu]
+1: 9^@w
+1: 9^@t
+1: 9^8u2
+1: 9^8t
+1: 9^8W
+1: 9^4u=9^0WtE
+1: 9^4tlS
+1: 9^(u
+1: 9^
+1: 9]|tsS
+1: 9]xt
+1: 9]xWu
+1: 9]xW
+1: 9]tu
+1: 9]ttW
+1: 9]tt#
+1: 9]tYt
+1: 9]pu
+1: 9]`t
+1: 9]Lt
+1: 9]Ht
+1: 9]Du
+1: 9]Dt
+1: 9]@t
+1: 9]<ti
+1: 9]8t
+1: 9](t
+1: 9]$u
+1: 9] u
+1: 9\$(
+1: 9YTu
+1: 9X\~1j`_
+1: 9X\~'W3
+1: 9X\~
+1: 9V u
+1: 9S9>6(3
+1: 9Pxu
+1: 9P\~
+1: 9P$u
+1: 9P v
+1: 9P u
+1: 9Mhr9w4
+1: 9MZu0
+1: 9K8u~
+1: 9K8u
+1: 9I\*F
+1: 9Hdt	9H`
+1: 9H\~=
+1: 9H\~
+1: 9H\t
+1: 9H4t
+1: 9H tH9H\tC
+1: 9H t
+1: 9F\u,
+1: 9F4t
+1: 9F0u
+1: 9F0t
+1: 9E||
+1: 9E(w'
+1: 9E$s
+1: 9CTu
+1: 9C<Yv
+1: 9AF;
+1: 9AE;%
+1: 9A<tx9
+1: 9>ti
+1: 9>[w
+1: 9=|<
+1: 9=h"
+1: 9=8P
+1: 9=8O
+1: 9=,K
+1: 9=(
+1: 9=$K
+1: 9= K
+1: 9;|$
+1: 9:;<
+1: 999	@@@
+1: 98u	9}
+1: 98t6
+1: 96t*
+1: 95tO
+1: 95H7
+1: 95,C
+1: 95(
+1: 93tMW
+1: 92u+	A
+1: 91t]
+1: 91tU
+1: 9- (<&
+1: 9+ED
+1: 9 C"N$*&
+1: 8pa
+1: 8i ~
+1: 8^Mu
+1: 8XMt
+1: 8W~3
+1: 8Ph@7
+1: 8PVj
+1: 8N&u
+1: 8MSCFub
+1: 8J<1
+1: 8Esu
+1: 8A==
+1: 8<2m
+1: 8;50
+1: 8:t	@@f9
+1: 8(!>SID
+1: 8"uR@j"P
+1: 7o92;n;
+1: 7h"
+1: 7GSG
+1: 79uptD
+1: 733333333333333333333330?
+1: 7)727
+1: 6v+e6v
+1: 6over4
+1: 6h?'
+1: 6f91t
+1: 6b'+&
+1: 6M`HF1
+1: 692t
+1: 6666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+1: 65535
+1: 6((8
+1: 6 wf
+1: 5RID
+1: 5@+#$:.#
+1: 4z5/6
+1: 4VW3
+1: 4SVW
+1: 4F8'
+1: 4E(1
+1: 4A@B;U
+1: 4+_^][
+1: 4)#"4/-S@;9
+1: 3hr'
+1: 3ha'
+1: 3E|S
+1: 3ExV
+1: 3EdS
+1: 3D$$
+1: 3@0
+1: 39=h
+1: 39;t?
+1: 37373[37333
+1: 373737333373733333/33333373733333
+1: 3737333733733333
+1: 3733[33737W737373333
+1: 37337333337373333733333333
+1: 37337333333333
+1: 3733373773W733[373W733
+1: 3733373373733333
+1: 37333373333733
+1: 373333333333333333
+1: 373/
+1: 337377337W73
+1: 337373733333333
+1: 337373333733333333
+1: 337373333333
+1: 337373333
+1: 3373333373733[3373733[33[333
+1: 337333333
+1: 333[37W733
+1: 333737W73733
+1: 333737337373[373737337333373333
+1: 33373733337737737W773773
+1: 3337337373333333
+1: 3337337333333
+1: 33373333333333
+1: 33337373337W73W37333337333333333333333333
+1: 333373733373333
+1: 333337W737333333
+1: 333337W3377373333733
+1: 3333373[73[33373
+1: 333337373737373373733337333
+1: 333337337333W733
+1: 33333373[37377337373337333333
+1: 3333337373733733[73W77377373333
+1: 3333337333733733373333333773733737333
+1: 333333733337333
+1: 333333733333333333
+1: 33333373333333333
+1: 33333373333333
+1: 33333337333773[33333337337333333
+1: 3333333733333
+1: 3333333733
+1: 33333333733333333
+1: 33333333373373337337773333333773373[333
+1: 33333333333737373373333333333
+1: 3333333333373333733737373737333337373[333
+1: 3333333333373333
+1: 333333333333737733773W73W7333733
+1: 333333333333733737373733
+1: 33333333333337373733373333333333333333
+1: 3333333333333733733337W333333373W737333
+1: 333333333333373333333373333333333333333
+1: 333333333333373333333333333333333/
+1: 3333333333333373337333737373733373[373733
+1: 3333333333333337333333373333733333333333333
+1: 333333333333333373377337737733733
+1: 333333333333333373337373333
+1: 33333333333333337333333333333333333333333
+1: 3333333333333333337733[3W733[33
+1: 333333333333333333337333333337333333333333333
+1: 3333333333333333333333333733333333373333333333333
+1: 3333333333333333333333333373333333333333333333
+1: 333333333333333333333333333333333333
+1: 3333333333333333333333333333333333
+1: 333333333333333333333
+1: 333333333333333333
+1: 33333333333333330
+1: 333333333333330
+1: 3333333333333/
+1: 3333333333333
+1: 33333333333
+1: 3333333333/33333
+1: 3333333330
+1: 33333333/33
+1: 3333330
+1: 3333/333
+1: 3330
+1: 333
+1: 3/333333333
+1: 3/3333
+1: 3'3/3
+1: 3&.b(
+1: 2}3RP
+1: 2sphc`L
+1: 2Z^^
+1: 2VZ^Z
+1: 2SSj
+1: 2JD9+
+1: 2JD8*V
+1: 2J-]7lA
+1: 2IX*
+1: 2B2T1h0
+1: 2;t$
+1: 29X t-3
+1: 233"
+1: 222222
+1: 208 W. 30th #701
+1: 1`0,/%3
+1: 1ZZ2Z	Z;????C??g???g?Cc??C?????;ZV
+1: 1E1'
+1: 1C)t!
+1: 1BBf
+1: 1@^[]
+1: 1?,#u]SP
+1: 1?,#u[VS
+1: 1>	S/
+1: 1;2t
+1: 1995 Microsoft Corporation
+1: 128-Bit
+1: 11ZZZ
+1: 10, "%s"
+1: 1.3.6.1.5.5.7.3.3
+1: 1.3.6.1.4.1.311.10.3.6
+1: 1.3.6.1.4.1.311.10.3.5
+1: 1,0,2205,0
+1: 0~1L2
+1: 0~0_0o0
+1: 0yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"0
+1: 0yyyyyyyyyyyyyyyyyyyyyyyy00000000000000000000
+1: 0yyyyyyyyyyyyyyy00000000000000
+1: 0yyyyyyyyyyyyy
+1: 0yyyyyyy000000
+1: 0y000000000000000000000000000000000000000000000
+1: 0x0009
+1: 0x/..},
+1: 0i. ,
+1: 0ck8^k0q
+1: 0ck(W
+1: 0]1"1
+1: 0[ ]
+1: 0W0p0
+1: 0W0D0g0Y0K0?
+1: 0T0Hh
+1: 0SVWj0^3
+1: 0SVW3
+1: 0O0J0
+1: 0I9U
+1: 0@@f90u
+1: 0@@Ju
+1: 0;M(
+1: 098t
+1: 07/".
+1: 012345678
+1: 0000000000000
+1: 000000000
+1: 00000
+1: 0, "%s"
+1: 0!kn0-NK0
+1: /GG9\$
+1: /7$$
+1: /3373737333
+1: /33337373
+1: /33333333333333333337333737333
+1: /3333333
+1: /333333
+1: /3333/333/3333
+1: /3/3
+1: .tmp
+1: .sdb
+1: .restore.files.nodelay
+1: .restore.files
+1: .relu
+1: .nodelay
+1: .inf
+1: .f=
+1: .delete.files
+1: .cat
+1: .bat
+1: ._p0
+1: .J<5
+1: .Default\Control Panel\desktop\ResourceLocale
+1: .DEFAULT\Control Panel\International
+1: .@Wkk
+1: .>,#
+1: .444
+1: .222ZZZ
+1: .222
+1: .2.2
+1: .%03d
+1: . 00.?,1&
+1: -|)D%
+1: -{;7
+1: -u124
+1: -t)IIt%P
+1: -sel_lang%04x
+1: -j	Y3
+1: -forwards
+1: -advertises
+1: -WSh
+1: -Nk0
+1: -H{:`g
+1: -=/m1
+1: ----------------------------------------
+1: ---- Old Information In The Registry ------
+1: ---- New Information In The Registry ------
+1: -%X-%X-%X-%X%X%X%X%X%X%X%X
+1: - SP
+1: ,VhxS
+1: ,G1z4
+1: ,G-!+
+1: ,Data=
+1: ,A.$qQGB
+1: ,98t
+1: , no para exportar
+1: +vrZUNE@GFD8*\
+1: +rDj	9
+1: +q4Z
+1: +o*7
+1: +\?4&
+1: +SVW
+1: +L$4h
+1: +D$$+D$
+1: +D$ f
+1: +=/)
+1: +(*a(
+1: *y+@,
+1: *j W
+1: *i%4$
+1: *g*J*,*\*
+1: *c*z-
+1: *]t;
+1: *M/{4D8
+1: *=R)B
+1: *<G6
+1: *7BGP
+1: *7'r&
+1: *.tmp
+1: *.cat
+1: *-er>,
+1: *************************  Cab Build Debug Log Begins  *************************
+1: *** Fix Matched ***
+1: )V;;
+1: )R"J
+1: )F..
+1: )@++
+1: )7$$
+1: )1$N*)Q&`[U
+1: )*+,-.
+1: (y/L3
+1: (to DSBM)
+1: (to DSBM clients)
+1: (same)
+1: (older)
+1: (newer)
+1: (matches)
+1: (hE'
+1: (from DSBM)
+1: (free = %I64u, add = %u, overwrite = %u, recover = %u, uninstall = %u)
+1: (different)
+1: (VWf9k
+1: (SUVW
+1: (Q'<%'#:"N!
+1: (A-`1
+1: (@0
+1: (;^Ls
+1: (2'H'^'
+1: (/&z$
+1: (%02d/%02d/%02d %02d:%02d:%02d.%03d)
+1: 'r(u&z$
+1: 'Y)R
+1: 'Tpc!Ro=U;oQ!}r%FjW3'i7<Mk
+1: '"0*32_8
+1: &r$I"
+1: &f
+1: &b(+*\*
+1: &SWh
+1: &@++
+1: &7"
+1: &/<
+1: &.9f
+1: &&..9<<G
+1: %x:%x
+1: %ssetupdir\%04x\setup.bmp
+1: %ssetup.bmp
+1: %s\spuninst\spuninst.inf
+1: %s\spool\drivers\%s%s
+1: %s\schannel.dll
+1: %s\SP%s\%s\Filelist
+1: %s\SP%s\%s
+1: %s\SP%d\%s
+1: %s\*
+1: %s\%s\Filelist
+1: %s\%s.asms
+1: %s\%s
+1: %s\%d
+1: %s\%06d_.tmp%
+1: %s:SPI-%d,
+1: %s:0x%x:%d:%d,
+1: %s:0x%08x,
+1: %s:%d[%d],
+1: %s:%d,
+1: %s: %s
+1: %s.%s
+1: %s,,,8
+1: %s,%s.%03d
+1: %s,"%s",,"%s"
+1: %s,"%s","%s",%s
+1: %s,"%s","%s","%s",%d,%d
+1: %s,"%s"
+1: %s%s%s
+1: %s%s (%d) (%s)
+1: %s%d
+1: %s is in the list of oem drivers...skipping copy!
+1: %s Code=%d
+1: %s - %s
+1: %s -
+1: %s %s
+1: %s  %s
+1: %s    %-14s %s
+1: %s	=
+1: %s
+1: %q$C#
+1: %p1-$
+1: %lu total bytes (uncompressed) in cabinet
+1: %d:%d:%d:Infinity,
+1: %d:%d:%d:%.3E,
+1: %d/%d/%d
+1: %d-%d-%d
+1: %d <= %.16s
+1: %SSSS
+1: %MJD5
+1: %IF
+1: %4d/%02d/%02d %02d:%02d:%02d:%04d, %s, %s,
+1: %4d/%02d/%02d %02d:%02d:%02d:%04d, %s%s%s, %s,
+1: %08x
+1: %04d/%02d/%02d
+1: %02x
+1: %02X
+1: %.3g%s
+1: %.3E:%.2E:Infinity:%d,%d,
+1: %.3E:%.2E:%.3E:%d:%d:%.3E:%d,
+1: %.3E:%.2E:%.3E:%d:%d,
+1: %.3E%.2E:Infinity:%d:%d,
+1: %-12s = 1
+1: %%SystemRoot%%\System32\%s
+1: $winnt$.pnf
+1: $u+f9lF
+1: $ntservicepackuninstall$
+1: $j:V
+1: $hT7
+1: $h01
+1: $VWj
+1: $T u
+1: $SVW3
+1: $SUV
+1: $NtServicePackUninstall$
+1: $CMPREF$.TMP
+1: $CABREF$.TMP
+1: $<A|	<Z
+1: $.#N"l
+1: $!i)q s
+1: #SSSSSSSj
+1: #J?8|hdd
+1: #=)?+B-B,B+
+1: #9}`u
+1: #9JL
+1: #.zf
+1: #*,6
+1: #"(J,<
+1: "o<C
+1: "fff sss
+1: "WUS
+1: "System
+1: "Shx
+1: "MS Shell Dlg
+1: "@,NNu
+1: ";vY
+1: ",CNtq
+1: "(\2
+1: "%s" =
+1: "%s"
+1: "#$%&'(
+1: """"""""""""""""""""""""""""""
+1: !|SOW[)
+1: !zaD!
+1: !t-HHt!Ht
+1: !hD'
+1: !Tspec: parm#? %d
+1: !Tspec: mh_len? %d
+1: !T)D
+1: !Rich
+1: !9]0t
+1: !$%>)n0
+1: !#*,3=
+1: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+1: !"#
