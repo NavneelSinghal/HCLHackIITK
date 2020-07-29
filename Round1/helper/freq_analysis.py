@@ -1,12 +1,14 @@
 import os
 from random import sample
 
+cutoffLength = 0
+
 # Which are the strings we are interested in? Comment uncomment
 def is_valid_string(string):
     # return True # Don't filter at all
 
     # Filter based on length
-    if len(string) < 5:
+    if len(string) < cutoffLength:
         return False
 
     # Filter some strings
