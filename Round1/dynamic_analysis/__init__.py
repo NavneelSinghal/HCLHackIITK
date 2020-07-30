@@ -1,12 +1,12 @@
 import json
-import orjson
+import ujson
 
 def get_feature_vector(jsonfile):
     with open(jsonfile, 'r') as f:
         raw = f.read()
     try:
-        data = orjson.loads(raw)
-    except orjson.JSONDecodeError:
+        data = ujson.loads(raw)
+    except ValueError:
         print('Corrupted json, reverting to library default')
         data = json.loads(raw)
     del(raw)
