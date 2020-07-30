@@ -108,8 +108,8 @@ def get_trained_classifier(D, y):
 def get_metrics(y_true, y_pred, binary=True):
     ret = ''
     if binary:
-        y_true = [int(y/6) for y in y_true]
-        y_pred = [int(y/6) for y in y_pred]
+        y_true = [(6-y)//6 for y in y_true]
+        y_pred = [(6-y)//6 for y in y_pred]
     ctr = 0
     for i in range(len(y_true)):
         if y_true[i] != y_pred[i]:
