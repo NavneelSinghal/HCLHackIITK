@@ -185,8 +185,12 @@ def aux_dump(parser):
             print(*v, sep = '\n')
 
 def get_feature_dict(filename):
-    lines = open(filename + '/Structure_Info.txt', 'r')#, encoding='cp1252')
-    lines = [l.rstrip() for l in lines if l.rstrip()]
+    lines = open(filename + '/Structure_Info.txt', 'r', encoding='cp1252')
+    '''try:
+        lines = [l.rstrip() for l in lines if l.rstrip()]
+    except:
+        print(filename)
+        exit(0)'''
     parser = Parser(lines)
     parser.parse()
     return extract_features(parser)
