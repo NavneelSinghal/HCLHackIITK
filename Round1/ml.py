@@ -7,7 +7,7 @@
 # TODO: theoretically correct use of standard scaling
 
 from structure_analysis import get_feature_dict
-from utility import get_benigns, get_malwares
+from utility import *
 
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
@@ -30,13 +30,45 @@ time_stamp = str(int(time()))
 
 def get_filenames_arr(train_frac):
     benigns = get_benigns(root)
-    malwares = get_malwares(root)
+    backdoors = get_backdoors(root)
+    trojans = get_trojans(root)
+    trojandownloaders = get_trojandownloaders(root)
+    trojandroppers = get_trojandroppers(root)
+    viruses = get_viruses(root)
+    worms = get_worms(root)
     num_used_benigns = int(use_frac * len(benigns))
-    num_used_malwares = int(use_frac * len(malwares))
+    num_used_backdoors = int(use_frac * len(backdoors))
+    num_used_trojans = int(use_frac * len(trojans))
+    num_used_trojandownloaders = int(use_frac * len(trojandownloaders))
+    num_used_trojandroppers = int(use_frac * len(trojandroppers))
+    num_used_viruses = int(use_frac * len(viruses))
+    num_used_worms = int(use_frac * len(worms))
     num_train_benigns = int(train_frac * num_used_benigns)
-    num_train_malwares = int(train_frac * num_used_malwares)
-    train = [benigns[:num_train_benigns], malwares[:num_train_malwares]]
-    test = [benigns[num_train_benigns:num_used_benigns], malwares[num_train_malwares:num_used_malwares]]
+    num_train_backdoors = int(train_frac * num_used_backdoors)
+    num_train_trojans = int(train_frac * num_used_trojans)
+    num_train_trojandownloaders = int(train_frac * num_used_trojandownloaders)
+    num_train_trojandroppers = int(train_frac * num_used_trojandroppers)
+    num_train_viruses = int(train_frac * num_used_viruses)
+    num_train_worms = int(train_frac * num_used_worms)
+    train = [
+        benigns[:num_train_benigns],
+        backdoors[:num_train_backdoors],
+        trojans[:num_train_trojans],
+        trojandownloaders[:num_train_trojandownloaders],
+        trojandroppers[:num_train_trojandroppers],
+        viruses[:num_train_viruses],
+        worms[:num_train_worms]
+    ]
+    test = [
+        benigns[num_train_benigns:num_used_benigns],
+        backdoors[num_train_backdoors:num_used_backdoors],
+        trojans[num_train_trojans:num_used_trojans],
+        trojandownloaders[num_train_trojandownloaders:num_used_trojandownloaders],
+        trojandroppers[num_train_trojandroppers:num_used_trojandroppers],
+        viruses[num_train_viruses:num_used_viruses],
+        worms[num_train_worms:num_used_worms]
+    ]
+
     return train, test
 
 def get_D_y_aux(filenames, category):
@@ -94,8 +126,8 @@ def get_metrics(y_true, y_pred):
 def extract():
     print('extracting filenames...')
     train_filenames_arr, test_filenames_arr = get_filenames_arr(train_frac)
-    print('train filenames: benigns =', len(train_filenames_arr[0]), '\tmalwares =', len(train_filenames_arr[1]))
-    print('test filenames:  benigns =', len(test_filenames_arr[0]), '\tmalwares =', len(test_filenames_arr[1]))
+    #print('train filenames: benigns =', len(train_filenames_arr[0]), '\tmalwares =', len(train_filenames_arr[1]))
+    #print('test filenames:  benigns =', len(test_filenames_arr[0]), '\tmalwares =', len(test_filenames_arr[1]))
     print('extracting train features...')
     start = time()
     D_train, y_train = get_D_y(train_filenames_arr)
