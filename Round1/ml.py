@@ -24,7 +24,7 @@ feature_dict_func = get_feature_dict
 num_features = 20000
 root = 'Static_Analysis_Data'
 train_frac = 0.75
-use_frac = 0.5 # fraction of files used to train+test
+use_frac = 1.0 # fraction of files used to train+test
 root_cute = 'static'
 time_stamp = str(int(time()))
 
@@ -140,6 +140,7 @@ def test(clf, D_test, y_test):
     print(metrics, file=open(f, 'w'))
     print('metrics logged in:', f)
     print('---')
+    print(metrics)
     return metrics
 
 def main():

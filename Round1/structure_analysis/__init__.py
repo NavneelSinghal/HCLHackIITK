@@ -64,6 +64,9 @@ def get_feature_dict(filename, ignore_indent=False):
         if arr[0] > 1:
             ret[k + ':min'] = arr[2]
             ret[k + ':max'] = arr[3]
+    for k, v in ret:
+        if v > 3e38:
+            v = 3e38
     return ret
 
 if __name__ == '__main__':
