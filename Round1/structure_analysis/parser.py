@@ -117,7 +117,9 @@ class Parser:
 # TODO:
 # 1. derived features from dos_header: size of e_res and e_res2
 # 2. comma separated flags
-# 3. entropy
+# 3. avg section depth for resources
+# 4. number of .text, .data, BSS, etc. sections
+# 5. imported symbols section ka dll extract karna hai
 
 def extract_features(p):
     ret = {}
@@ -156,6 +158,11 @@ def extract_features(p):
         ret[k + '::min'] = rep_min[k]
     return ret
 
+def aux_dump(parser):
+    for k, v in parser.ctx_aux.items():
+        if len(v) != 0:
+            print(*v, sep = '\n')
+
 def main():
     lines = sys.stdin.readlines()
     lines = [l.rstrip() for l in lines if l.rstrip()]
@@ -182,6 +189,8 @@ def main():
     print(*extract_features(parser).items(), sep = '\n')
     print()
     print()
+    print("=== aux_dump ===")
+    aux_dump(parser)
 
 if __name__ == '__main__':
     main()
