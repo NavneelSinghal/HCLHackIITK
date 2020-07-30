@@ -52,7 +52,10 @@ class Parser:
             t[0] = t[0].split(' ')[-1]
         if t[1][:2] == '0x':
             t[1] = t[1].split(' ')[0]
-            t[1] = int(t[1], 16)
+            try:
+                t[1] = int(t[1], 16)
+            except:
+                t[1] = 0
         if t[0] == 'Entropy':
             t[1] = t[1].split(' ')[0]
             t[1] = float(t[1])
@@ -105,7 +108,10 @@ class Parser:
                 self.curr_ctx_name = tmp
                 self.ctx_children[self.curr_ctx_name] = []
             elif Parser.is_h2(l) and Parser.get_indent(l) == indent+1:
-                self.ctx_children[self.curr_ctx_name].append(tmp)
+                if self.curr_ctx_name in self.ctx_children:
+                    self.ctx_children[self.curr_ctx_name].append(tmp)
+                else:
+                    self.ctx_children[self.curr_ctx_name] = [tmp]
                 flag = True
         return flag
 
@@ -179,7 +185,7 @@ def aux_dump(parser):
             print(*v, sep = '\n')
 
 def get_feature_dict(filename):
-    lines = open(filename + '/Structure_Info.txt', 'r')
+    lines = open(filename + '/Structure_Info.txt', 'r')#, encoding='cp1252')
     lines = [l.rstrip() for l in lines if l.rstrip()]
     parser = Parser(lines)
     parser.parse()
