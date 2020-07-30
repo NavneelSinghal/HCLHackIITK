@@ -18,6 +18,8 @@ def get_feature_dict(filename, ignore_indent=False):
                 name = l.rstrip()
         else:
             try:
+                if name.lstrip()[1:7].lower() == 'string':
+                    continue
                 # kv pair
                 k, v = l.split(': ')
                 k = k.lstrip()
