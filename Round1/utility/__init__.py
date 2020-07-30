@@ -1,34 +1,37 @@
 import os
 
 classes = [
-        'benign',
-        'malware/backdoor',
-        'malware/trojan',
-        'malware/trojandownloader',
-        'malware/trojandropper',
-        'malware/virus',
-        'malware/worm'
+        'Benign',
+        'Malware/Backdoor',
+        'Malware/Trojan',
+        'Malware/TrojanDownloader',
+        'Malware/TrojanDropper',
+        'Malware/Virus',
+        'Malware/Worm'
         ]
 
 def get_files(directory):
     '''Given directory return files (hash) in it'''
-
+    l = []
     for f in os.scandir(directory):
         if f.is_dir():
-            yield f.path
+            l.append(f.path)
+    return l
 
 def get_all(root):
+    l = []
     for cl in classes:
-        yield from get_files(os.path.join(root, cl))
+        l += get_files(os.path.join(root, cl))
+    return l
 def get_benigns(root):
     return get_files(os.path.join(root, classes[0]))
 def get_trojans(root):
-    return get_files(os.path.join(root, 'malware/trojan'))
+    return get_files(os.path.join(root, 'Malware/Trojan'))
 def get_trojandownloaders(root):
-    return get_files(os.path.join(root, 'malware/trojandownloader'))
+    return get_files(os.path.join(root, 'Malware/TrojanDownloader'))
 def get_trojandroppers(root):
-    return get_files(os.path.join(root, 'malware/trojandropper'))
+    return get_files(os.path.join(root, 'Malware/TrojanDropper'))
 def get_viruses(root):
-    return get_files(os.path.join(root, 'malware/virus'))
+    return get_files(os.path.join(root, 'Malware/Virus'))
 def get_worms(root):
-    return get_files(os.path.join(root, 'malware/worm'))
+    return get_files(os.path.join(root, 'Malware/Worm'))
