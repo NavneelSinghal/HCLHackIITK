@@ -218,5 +218,5 @@ def test():
     print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
 
 #extract_features()
-#train()
+train()
 test()
