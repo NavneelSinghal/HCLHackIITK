@@ -1,10 +1,17 @@
 import json
+import orjson
 
 def get_feature_vector(jsonfile):
     with open(jsonfile, 'r') as f:
-        data = json.load(f)
-    feature = []
+        raw = f.read()
+    try:
+        data = orjson.loads(raw)
+    except orjson.JSONDecodeError:
+        print('Corrupted json, reverting to library default')
+        data = json.loads(raw)
+    del(raw)
 
+    feature = []
     # Parse info section
     info = data.get('info', None)
     if info == None:
