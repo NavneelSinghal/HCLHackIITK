@@ -69,7 +69,8 @@ def get_feature_dict(filename, ignore_indent=False):
             ret[k + ':max'] = arr[3]
     for k, v in ret.items():
         if v > 3e38 or math.isinf(v) or math.isnan(v):
-            ret[k] = 3e38
+            print(k, v)
+            ret[k] = 0
     return ret
 
 if __name__ == '__main__':
