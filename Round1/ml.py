@@ -66,7 +66,7 @@ def get_D_y(filenames_arr):
 def get_trained_classifier(D, y):
     pipe = make_pipeline(
         FeatureHasher(n_features=num_features),
-        StandardScaler(with_mean=False),
+        # StandardScaler(with_mean=False),
         # VarianceThreshold(),
         RandomForestClassifier(random_state=0)
     )
