@@ -58,8 +58,8 @@ def extract_features():
         complete += 1
         if complete % 50 == 0:
             print (str(complete) + " done")
-        if complete == 1000:
-            break
+        #if complete == 1000:
+            #break
 
     test_predictions = []
     test_feature_list = []
@@ -81,8 +81,8 @@ def extract_features():
         complete += 1
         if complete % 50 == 0:
             print (str(complete) + " done")
-        if complete == 1000:
-            break
+        #if complete == 1000:
+            #break
 
     pickle.dump(predictions, open(predict_filename, 'wb'))
     pickle.dump(feature_list, open(feature_list_filename, 'wb'))
@@ -147,8 +147,8 @@ def test():
     Ty = fromiter(Ty)
 
     print("features:", feat)
-    print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
-    print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
+    print("accuracy (in \%):", metrics.accuracy_score(prediction_values, Ty))
+    print("f1 score (in \%):", metrics.f1_score(prediction_values, Ty, average = 'micro'))
     print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
     print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
     print("f1 score (macro):", metrics.f1_score(prediction_values, Ty, average = 'macro'))
@@ -163,5 +163,5 @@ def test():
     print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
 
 #extract_features()
-train()
+#train()
 test()
