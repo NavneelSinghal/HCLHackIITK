@@ -55,6 +55,8 @@ def extract_features():
         if complete % 50 == 0:
             print (str(complete) + " done")
             #print (fl)
+        if complete == 1000:
+            break
 
     test_predictions = []
     test_feature_list = []
@@ -74,6 +76,8 @@ def extract_features():
         complete += 1
         if complete % 50 == 0:
             print (str(complete) + " done")
+        if complete == 1000:
+            break
 
     pickle.dump(predictions, open(predict_filename, 'wb'))
     pickle.dump(feature_list, open(feature_list_filename, 'wb'))
@@ -112,7 +116,7 @@ def test():
     from sklearn.ensemble import RandomForestClassifier
     from sklearn import metrics
 
-    feat = 7000
+    feat = 300
     h = FeatureHasher(n_features = feat)
 
     start_time = time()
@@ -149,5 +153,5 @@ def test():
     print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
 
 extract_features()
-#train()
-#test()
+train()
+test()
