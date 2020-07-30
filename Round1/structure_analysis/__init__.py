@@ -58,7 +58,7 @@ def get_feature_dict(filename, ignore_indent=False):
                     ret[name + ':' + l.split('.')[0] + '.dll'] += 1.
     for k, arr in kv.items():
         ret[k + ':ctr'] = arr[0]
-        ret[k + ':mean'] = arr[1] / arr[0]
+        ret[k + ':mean'] = arr[1] / max(1, arr[0])
         if arr[0] > 1:
             ret[k + ':min'] = arr[2]
             ret[k + ':max'] = arr[3]

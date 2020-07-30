@@ -23,6 +23,8 @@ feature_list_filename = 'struct_temp_feature_dump.sav'
 test_predict_filename = 'struct_temp_test_prediction_dump.sav'
 test_feature_list_filename = 'struct_temp_test_feature_list_filename_dump.sav'
 
+list_of_filenames = []
+
 model_filename = 'model_struct_parameters.sav'
 
 def extract_features():
@@ -49,14 +51,18 @@ def extract_features():
                 w = i
                 break
         assert(w != -1)
-        predictions.append(w)
-        feature_list.append(structure_analysis.get_feature_dict(fl))
-        complete += 1
-        if complete % 50 == 0:
-            print (str(complete) + " done")
-            #print (fl)
-        if complete == 1000:
-            break
+        try:
+            feature_list.append(structure_analysis.get_feature_dict(fl))
+            predictions.append(w)
+            list_of_filenames.append(fl)
+            complete += 1
+            if complete % 50 == 0:
+                print (str(complete) + " done")
+                #print (fl)
+            if complete == 1000:
+                break
+        except:
+            w = 0
 
     test_predictions = []
     test_feature_list = []
@@ -71,14 +77,23 @@ def extract_features():
             if fl.count(classes[i]) > 0:
                 w = i
                 break
-        test_predictions.append(w)
-        test_feature_list.append(structure_analysis.get_feature_dict(fl))
-        complete += 1
-        if complete % 50 == 0:
-            print (str(complete) + " done")
-        if complete == 1000:
-            break
+        assert(w != -1)
+        try:
+            feature_list.append(structure_analysis.get_feature_dict(fl))
+            predictions.append(w)
+            complete += 1
+            if complete % 50 == 0:
+                print (str(complete) + " done")
+                #print (fl)
+            if complete == 1000:
+                break
+        except:
+            w = 0
 
+    print(len(predictions))
+    print(len(feature_list))
+    print(len(test_predictions))
+    print(len(test_feature_list))
     pickle.dump(predictions, open(predict_filename, 'wb'))
     pickle.dump(feature_list, open(feature_list_filename, 'wb'))
     pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
@@ -101,6 +116,18 @@ def train():
 
     X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
     y = np.array(pickle.load(open(predict_filename, 'rb')))
+
+    import math
+
+    file_index = 0
+    print(X.shape)
+    print(len(list_of_filenames))
+    for x in X:
+        for w in x:
+            if math.isnan(w) or math.isinf(w):
+                print(list_of_filenames[file_index])
+        file_index += 1
+
 
     clf = RandomForestClassifier()
     clf.fit(X, y)
