@@ -37,7 +37,7 @@ def extract_features():
     print(len(total))
     random.shuffle(total)
 
-    train_fraction = 0.75
+    train_fraction = 0.90
 
     train = total[:int(train_fraction * len(total))]
     test = total[len(train):]
@@ -79,8 +79,8 @@ def extract_features():
                 break
         assert(w != -1)
         try:
-            feature_list.append(structure_analysis.get_feature_dict(fl))
-            predictions.append(w)
+            test_feature_list.append(structure_analysis.get_feature_dict(fl))
+            test_predictions.append(w)
             complete += 1
             if complete % 50 == 0:
                 print (str(complete) + " done")
@@ -90,10 +90,10 @@ def extract_features():
         except:
             w = 0
 
-    print(len(predictions))
-    print(len(feature_list))
-    print(len(test_predictions))
-    print(len(test_feature_list))
+    print("len(predictions) = ", len(predictions))
+    print("len(feature_list) = ", len(feature_list))
+    print("len(test_predictions) = ", len(test_predictions))
+    print("len(test_feature_list) = ", len(test_feature_list))
     pickle.dump(predictions, open(predict_filename, 'wb'))
     pickle.dump(feature_list, open(feature_list_filename, 'wb'))
     pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
