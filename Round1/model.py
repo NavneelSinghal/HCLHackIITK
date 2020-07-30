@@ -89,26 +89,33 @@ print ('String feature extraction complete in ' + str(end_time - start_time) + '
 
 #'''
 
-#this is for training and validating the model
 
 #'''
+
+start_time = time()
+
 
 from sklearn.feature_extraction import FeatureHasher
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 
-start_time = time()
-
 feat = 7000
 h = FeatureHasher(n_features = feat)
 
+# this is for training the model
+
+'''
 X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
 y = np.array(pickle.load(open(predict_filename, 'rb')))
-TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
-Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
 
 clf = RandomForestClassifier()
 clf.fit(X, y)
+'''
+
+TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
+Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
+
+clf = pickle.load(open('model_parameters.sav', 'rb'))
 
 prediction_values = clf.predict(TX)
 
