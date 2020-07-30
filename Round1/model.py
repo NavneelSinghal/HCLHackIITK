@@ -29,7 +29,7 @@ test_feature_list_filename = 'temp_test_feature_list_filename_dump.sav'
 
 # this is for extraction of features
 
-#'''
+'''
 
 total = (utility.get_all('Static_Analysis_Data'))
 print(len(total))
@@ -111,6 +111,14 @@ clf = RandomForestClassifier()
 clf.fit(X, y)
 
 prediction_values = clf.predict(TX)
+
+f = lambda x: 1 if x > 0 else 0
+
+def fromiter(x):
+    return np.fromiter((f(xi) for xi in x), x.dtype)
+
+prediction_values = fromiter(prediction_values)
+Ty = fromiter(Ty)
 
 print("features:", feat)
 print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
