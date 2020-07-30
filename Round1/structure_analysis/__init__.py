@@ -10,6 +10,8 @@
 
 import sys
 
+from bs4 import UnicodeDammit
+
 class Parser:
 
     lines = None
@@ -185,12 +187,14 @@ def aux_dump(parser):
             print(*v, sep = '\n')
 
 def get_feature_dict(filename):
-    lines = open(filename + '/Structure_Info.txt', 'r', encoding='cp1252')
-    '''try:
+    lines = open(filename + '/Structure_Info.txt', 'r')
+    lines = [UnicodeDammit.detwingle(l) for l in lines]
+    assert (type(lines[0]) == '<class \'str\'>')
+    try:
         lines = [l.rstrip() for l in lines if l.rstrip()]
     except:
-        print(filename)
-        exit(0)'''
+        lines = open(filename + '/Structure_Info.txt', 'r', encoding='cp1252')
+        lines = [l.rstrip() for l in lines if l.rstrip()]
     parser = Parser(lines)
     parser.parse()
     return extract_features(parser)
