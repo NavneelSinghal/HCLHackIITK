@@ -69,7 +69,13 @@ class Parser:
             else:
                 if Parser.is_kv_pair(l):
                     kv = Parser.get_kv_pair(l)
-                    self.ctx_dict[self.curr_ctx_name][kv[0]] = kv[1]
+                    if type(kv[1]) == str and kv[1].find(',') != -1:
+                        toks = kv[1].split(',')
+                        toks = [t.strip() for t in toks]
+                        for t in toks:
+                            self.ctx_dict[self.curr_ctx_name][kv[0] + '::' + t] = 1
+                    else:
+                        self.ctx_dict[self.curr_ctx_name][kv[0]] = kv[1]
                 else:
                     self.ctx_aux[self.curr_ctx_name].append(l.strip())
 
@@ -116,10 +122,10 @@ class Parser:
 
 # TODO:
 # 1. derived features from dos_header: size of e_res and e_res2
-# 2. comma separated flags
 # 3. avg section depth for resources
-# 4. number of .text, .data, BSS, etc. sections
-# 5. imported symbols section ka dll extract karna hai
+# 8. ensure that min and max tokens specified for entropy are same everywhere
+# 9. number of sections could be a useful feature - like relative number of text, CODE, etc sections
+# 10. give dict strings to aux_dump, then do string analysis on aux_dump
 
 def extract_features(p):
     ret = {}
@@ -128,40 +134,56 @@ def extract_features(p):
     rep_max = {}
     rep_min = {}
     for k, v in p.ctx_dict.items():
-        if p.ctx_name_ctr[k[0]] == 0:
-            for fk, fv in v.items():
-                ret[k[0] + '::' + fk] = fv
+        gname = k[0]
+        for fk, fv in v.items():
+            if fk == 'Name' and type(fv) == str:
+                gname += '::' + fk + '=' + fv
+        for fk, fv in v.items():
+            if type(fv) == str:
+                continue
+            name = gname + '::' + fk
+            if name in ret:
+                ret[name] = fv
+                rep_ctr[name] += 1
+                rep_sum[name] += fv
+                rep_max[name] = max(rep_max[name], fv)
+                rep_min[name] = min(rep_min[name], fv)
+            else:
+                rep_ctr[name] = 1
+                rep_sum[name] = fv
+                rep_max[name] = fv
+                rep_min[name] = fv
+    for k, v in rep_ctr.items():
+        if v == 1:
+            ret[k] = rep_sum[k]
         else:
-            for fk, fv in v.items():
-                if type(fv) == str:
-                    continue
-                name = k[0] + '::' + fk
-                if name in rep_ctr:
-                    rep_ctr[name] += 1
+            ret[k + '::mean'] = rep_sum[k] / rep_ctr[k]
+            ret[k + '::max'] = rep_max[k]
+            ret[k + '::min'] = rep_min[k]
+    dll_ctr = {}
+    for k, v in p.ctx_aux.items():
+        for l in v:
+            if l.find('dll') != -1:
+                dll_str = k[0] + '::' + l.split('.')[0] + '.dll'
+                if dll_str in dll_ctr:
+                    dll_ctr[dll_str] += 1
                 else:
-                    rep_ctr[name] = 1
-                if name in rep_sum:
-                    rep_sum[name] += fv
-                else:
-                    rep_sum[name] = 1
-                if name in rep_max:
-                    rep_max[name] = max(rep_max[name], fv)
-                else:
-                    rep_max[name] = fv
-                if name in rep_min:
-                    rep_min[name] = min(rep_max[name], fv)
-                else:
-                    rep_min[name] = fv
-    for k in rep_ctr.keys():
-        ret[k + '::mean'] = rep_sum[k] / rep_ctr[k]
-        ret[k + '::max'] = rep_max[k]
-        ret[k + '::min'] = rep_min[k]
+                    dll_ctr[dll_str] = 1
+    for k, v in dll_ctr.items():
+        ret[k] = v
     return ret
 
 def aux_dump(parser):
     for k, v in parser.ctx_aux.items():
         if len(v) != 0:
             print(*v, sep = '\n')
+
+def get_feature_dict(filename):
+    lines = open(filename + '/Structure_Info.txt', 'r')
+    lines = [l.rstrip() for l in lines if l.rstrip()]
+    parser = Parser(lines)
+    parser.parse()
+    return extract_features(parser)
 
 def main():
     lines = sys.stdin.readlines()
@@ -194,3 +216,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    #print(get_feature_dict('../static_samples/benign/00b39e152ec2f569424596049b35917c7b767b16132f63a0330ccc3b89c7f188'))
