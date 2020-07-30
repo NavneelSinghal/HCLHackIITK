@@ -1,828 +1,421 @@
-=== ctx_dict ===
-(('----------DOS_HEADER----------', 0), {})
-(('[IMAGE_DOS_HEADER]', 0), {'e_magic': 23117, 'e_cblp': 80, 'e_cp': 2, 'e_crlc': 0, 'e_cparhdr': 4, 'e_minalloc': 15, 'e_maxalloc': 65535, 'e_ss': 0, 'e_sp': 184, 'e_csum': 0, 'e_ip': 0, 'e_cs': 0, 'e_lfarlc': 64, 'e_ovno': 26, 'e_res': '', 'e_oemid': 0, 'e_oeminfo': 0, 'e_res2': '', 'e_lfanew': 256})
-(('----------NT_HEADERS----------', 0), {})
-(('[IMAGE_NT_HEADERS]', 0), {'Signature': 17744})
-(('----------FILE_HEADER----------', 0), {})
-(('[IMAGE_FILE_HEADER]', 0), {'Machine': 332, 'NumberOfSections': 8, 'TimeDateStamp': 708992537, 'PointerToSymbolTable': 0, 'NumberOfSymbols': 0, 'SizeOfOptionalHeader': 224, 'Characteristics': 33167, 'Flags::IMAGE_FILE_LOCAL_SYMS_STRIPPED': 1, 'Flags::IMAGE_FILE_32BIT_MACHINE': 1, 'Flags::IMAGE_FILE_BYTES_REVERSED_LO': 1, 'Flags::IMAGE_FILE_EXECUTABLE_IMAGE': 1, 'Flags::IMAGE_FILE_LINE_NUMS_STRIPPED': 1, 'Flags::IMAGE_FILE_BYTES_REVERSED_HI': 1, 'Flags::IMAGE_FILE_RELOCS_STRIPPED': 1})
-(('----------OPTIONAL_HEADER----------', 0), {})
-(('[IMAGE_OPTIONAL_HEADER]', 0), {'Magic': 267, 'MajorLinkerVersion': 2, 'MinorLinkerVersion': 25, 'SizeOfCode': 40448, 'SizeOfInitializedData': 467456, 'SizeOfUninitializedData': 0, 'AddressOfEntryPoint': 42488, 'BaseOfCode': 4096, 'BaseOfData': 45056, 'ImageBase': 4194304, 'SectionAlignment': 4096, 'FileAlignment': 512, 'MajorOperatingSystemVersion': 1, 'MinorOperatingSystemVersion': 0, 'MajorImageVersion': 6, 'MinorImageVersion': 0, 'MajorSubsystemVersion': 4, 'MinorSubsystemVersion': 0, 'Reserved1': 0, 'SizeOfImage': 536576, 'SizeOfHeaders': 1024, 'CheckSum': 22382548, 'Subsystem': 2, 'DllCharacteristics': 'IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE', 'SizeOfStackReserve': 1048576, 'SizeOfStackCommit': 16384, 'SizeOfHeapReserve': 1048576, 'SizeOfHeapCommit': 4096, 'LoaderFlags': 0, 'NumberOfRvaAndSizes': 16})
-(('----------PE Sections----------', 0), {})
-(('[IMAGE_SECTION_HEADER]', 0), {'Name': 'CODE', 'Misc': 40240, 'Misc_PhysicalAddress': 40240, 'Misc_VirtualSize': 40240, 'VirtualAddress': 4096, 'SizeOfRawData': 40448, 'PointerToRawData': 1024, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 1610612768, 'Flags::IMAGE_SCN_MEM_EXECUTE': 1, 'Flags::IMAGE_SCN_CNT_CODE': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 6.631603, 'MD5     hash': '04ffdb46e50716ec8cb7db42819802fd', 'SHA-1   hash': 'b90277c50a0336f933b0e419e61bbbd83ff6ea26', 'SHA-256 hash': 'e56e78858f061e14c12353c6c37204a73d573a5bed8a713dd20e666443b4ab9e', 'SHA-512 hash': 'b209a0762aee28d3db62b9b62efc92aa67bd371842829d9f2bf2d522982ae8667850e43273ed5082c396ddfb7c3882193298abeafca915972397911aff9e84ac'})
-(('[IMAGE_SECTION_HEADER]', 1), {'Name': 'DATA', 'Misc': 592, 'Misc_PhysicalAddress': 592, 'Misc_VirtualSize': 592, 'VirtualAddress': 45056, 'SizeOfRawData': 1024, 'PointerToRawData': 41472, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 3221225536, 'Flags::IMAGE_SCN_CNT_INITIALIZED_DATA': 1, 'Flags::IMAGE_SCN_MEM_WRITE': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 2.754717, 'MD5     hash': 'beee52f18301950f82460d9ffe5aec7e', 'SHA-1   hash': '2501181070a2c1a15e3cba4fc93e4a7216f555e3', 'SHA-256 hash': 'cf86bae6284395069d7c397b68cf174d3ad5b92add50473f946ad7d720c40561', 'SHA-512 hash': '82ab123b073ef673e857d2bb9776a43ff910754c12027d73cbbd8a99606bdc26680d405f793f72b6448d966116e3f919ec3299b34d642303e0cd8237b3f8ca4c'})
-(('[IMAGE_SECTION_HEADER]', 2), {'Name': 'BSS', 'Misc': 3728, 'Misc_PhysicalAddress': 3728, 'Misc_VirtualSize': 3728, 'VirtualAddress': 49152, 'SizeOfRawData': 0, 'PointerToRawData': 42496, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 3221225472, 'Flags::IMAGE_SCN_MEM_WRITE': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 0.0, 'MD5     hash': 'd41d8cd98f00b204e9800998ecf8427e', 'SHA-1   hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'SHA-256 hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'SHA-512 hash': 'cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e'})
-(('[IMAGE_SECTION_HEADER]', 3), {'Name': '.idata', 'Misc': 2384, 'Misc_PhysicalAddress': 2384, 'Misc_VirtualSize': 2384, 'VirtualAddress': 53248, 'SizeOfRawData': 2560, 'PointerToRawData': 42496, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 3221225536, 'Flags::IMAGE_SCN_CNT_INITIALIZED_DATA': 1, 'Flags::IMAGE_SCN_MEM_WRITE': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 4.430733, 'MD5     hash': 'bb5485bf968b970e5ea81292af2acdba', 'SHA-1   hash': '40a39d9e8c8cecd5356ab96745d82d2ebfe17cfb', 'SHA-256 hash': 'd9ea6e80cc1edfdffa8d534a8c61448b19b74d683845b94ad6d9a543e5ceb8cf', 'SHA-512 hash': '9e9a729a1f3dac1b79272716db2eaac1ddccd2b7ba882b5fba26f4b7fce5c319c2c2c70b3f054baa45de04e4ab4689a1bf4277b456caac689c05612213be8268'})
-(('[IMAGE_SECTION_HEADER]', 4), {'Name': '.tls', 'Misc': 8, 'Misc_PhysicalAddress': 8, 'Misc_VirtualSize': 8, 'VirtualAddress': 57344, 'SizeOfRawData': 0, 'PointerToRawData': 45056, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 3221225472, 'Flags::IMAGE_SCN_MEM_WRITE': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 0.0, 'MD5     hash': 'd41d8cd98f00b204e9800998ecf8427e', 'SHA-1   hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'SHA-256 hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'SHA-512 hash': 'cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e'})
-(('[IMAGE_SECTION_HEADER]', 5), {'Name': '.rdata', 'Misc': 24, 'Misc_PhysicalAddress': 24, 'Misc_VirtualSize': 24, 'VirtualAddress': 61440, 'SizeOfRawData': 512, 'PointerToRawData': 45056, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 1342177344, 'Flags::IMAGE_SCN_CNT_INITIALIZED_DATA': 1, 'Flags::IMAGE_SCN_MEM_SHARED': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 0.204488, 'MD5     hash': '9ba824905bf9c7922b6fc87a38b74366', 'SHA-1   hash': 'f43ee83e6afa1c343ff6db68e13efde43471cbb6', 'SHA-256 hash': 'ad44157821ba24c07dd44f66940dd75adee9d6919a0577c5a75aa502637dddaa', 'SHA-512 hash': 'bb1df76500eb4f5bde408beb85a3bc88c75918a36dc606424cc200cc30ac53a77030c9da2765a54269618dc9cc2231edb47d17cd69dcf58c0765e9882306704f'})
-(('[IMAGE_SECTION_HEADER]', 6), {'Name': '.reloc', 'Misc': 2244, 'Misc_PhysicalAddress': 2244, 'Misc_VirtualSize': 2244, 'VirtualAddress': 65536, 'SizeOfRawData': 0, 'PointerToRawData': 0, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 1342177344, 'Flags::IMAGE_SCN_CNT_INITIALIZED_DATA': 1, 'Flags::IMAGE_SCN_MEM_SHARED': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 0.0, 'MD5     hash': 'd41d8cd98f00b204e9800998ecf8427e', 'SHA-1   hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'SHA-256 hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'SHA-512 hash': 'cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e'})
-(('[IMAGE_SECTION_HEADER]', 7), {'Name': '.rsrc', 'Misc': 463308, 'Misc_PhysicalAddress': 463308, 'Misc_VirtualSize': 463308, 'VirtualAddress': 69632, 'SizeOfRawData': 463360, 'PointerToRawData': 45568, 'PointerToRelocations': 0, 'PointerToLinenumbers': 0, 'NumberOfRelocations': 0, 'NumberOfLinenumbers': 0, 'Characteristics': 1342177344, 'Flags::IMAGE_SCN_CNT_INITIALIZED_DATA': 1, 'Flags::IMAGE_SCN_MEM_SHARED': 1, 'Flags::IMAGE_SCN_MEM_READ': 1, 'Entropy': 4.456822, 'MD5     hash': 'a2db87f6806f46a94cbb8f3b52b4028f', 'SHA-1   hash': '968ad31f587820afd22071ab338c277858e8f492', 'SHA-256 hash': 'ca6aea0ad849e5dc51b59e4a2e93a6a3096a5a5df9a08a0d308b44add1a63ab6', 'SHA-512 hash': '629dfca551fe9e6b46d3b316963cfe1e8863813a8a4851731047d2f37525b711c10180aa8f7a4a19a9a3e3a2bdc01889a06faf9c98f38813de234e28b99b323e'})
-(('----------Directories----------', 0), {})
-(('[IMAGE_DIRECTORY_ENTRY_EXPORT]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_IMPORT]', 0), {'VirtualAddress': 53248, 'Size': 2384})
-(('[IMAGE_DIRECTORY_ENTRY_RESOURCE]', 0), {'VirtualAddress': 69632, 'Size': 463308})
-(('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_SECURITY]', 0), {'VirtualAddress': 22347216, 'Size': 8808})
-(('[IMAGE_DIRECTORY_ENTRY_BASERELOC]', 0), {'VirtualAddress': 65536, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_DEBUG]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_TLS]', 0), {'VirtualAddress': 61440, 'Size': 24})
-(('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_IAT]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('[IMAGE_DIRECTORY_ENTRY_RESERVED]', 0), {'VirtualAddress': 0, 'Size': 0})
-(('----------Version Information----------', 0), {})
-(('[VS_VERSIONINFO]', 0), {'Length': 1268, 'ValueLength': 52, 'Type': 0})
-(('[VS_FIXEDFILEINFO]', 0), {'Signature': 4277077181, 'StrucVersion': 65536, 'FileVersionMS': 262144, 'FileVersionLS': 64, 'ProductVersionMS': 262144, 'ProductVersionLS': 64, 'FileFlagsMask': 63, 'FileFlags': 0, 'FileOS': 4, 'FileType': 1, 'FileSubtype': 0, 'FileDateMS': 0, 'FileDateLS': 0})
-(('[StringFileInfo]', 0), {'Length': 1106, 'ValueLength': 0, 'Type': 1})
-(('[StringTable]', 0), {'Length': 1070, 'ValueLength': 0, 'Type': 1, 'LangID': '000004b0', 'LegalCopyright::Copyright \\xa9 Remo Software': 1, 'LegalCopyright::All rights reserved.': 1, 'FileVersion': '4.0.0.64', 'CompanyName': 'Remo Software', 'Comments': 'This installation was built with Inno Setup.', 'ProductName': 'Remo Recover', 'ProductVersion': '4.0.0.64', 'FileDescription': 'Remo Recover 4.0 Setup'})
-(('[VarFileInfo]', 0), {'Length': 68, 'ValueLength': 0, 'Type': 1})
-(('[Var]', 0), {'Length': 36, 'ValueLength': 4, 'Type': 0, 'Translation': 0})
-(('----------Imported symbols----------', 0), {})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 0), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 53844, 'FirstThunk': 53428})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 1), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 54330, 'FirstThunk': 53544})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 2), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 54356, 'FirstThunk': 53552})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 3), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 54462, 'FirstThunk': 53576})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 4), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 54570, 'FirstThunk': 53600})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 5), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 55336, 'FirstThunk': 53776})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 6), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 55558, 'FirstThunk': 53828})
-(('[IMAGE_IMPORT_DESCRIPTOR]', 7), {'OriginalFirstThunk': 0, 'Characteristics': 0, 'TimeDateStamp': 0, 'ForwarderChain': 0, 'Name': 55594, 'FirstThunk': 53836})
-(('----------Resource directory----------', 0), {})
-(('[IMAGE_RESOURCE_DIRECTORY]', 0), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 6, 'Id': '[0x3] (RT_ICON)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 0), {'Name': 3, 'OffsetToData': 2147483712})
-(('[IMAGE_RESOURCE_DIRECTORY]', 1), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 12, 'Id': '[0x1]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 1), {'Name': 1, 'OffsetToData': 2147483984})
-(('[IMAGE_RESOURCE_DIRECTORY]', 2), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 2), {'Name': 1033, 'OffsetToData': 864})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 0), {'OffsetToData': 70868, 'Size': 74792, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x2]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 3), {'Name': 2, 'OffsetToData': 2147484008})
-(('[IMAGE_RESOURCE_DIRECTORY]', 3), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 4), {'Name': 1033, 'OffsetToData': 880})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 1), {'OffsetToData': 145660, 'Size': 3752, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x3]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 5), {'Name': 3, 'OffsetToData': 2147484032})
-(('[IMAGE_RESOURCE_DIRECTORY]', 4), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 6), {'Name': 1033, 'OffsetToData': 896})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 2), {'OffsetToData': 149412, 'Size': 2216, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x4]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 7), {'Name': 4, 'OffsetToData': 2147484056})
-(('[IMAGE_RESOURCE_DIRECTORY]', 5), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 8), {'Name': 1033, 'OffsetToData': 912})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 3), {'OffsetToData': 151628, 'Size': 1736, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x5]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 9), {'Name': 5, 'OffsetToData': 2147484080})
-(('[IMAGE_RESOURCE_DIRECTORY]', 6), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 10), {'Name': 1033, 'OffsetToData': 928})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 4), {'OffsetToData': 153364, 'Size': 1384, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x6]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 11), {'Name': 6, 'OffsetToData': 2147484104})
-(('[IMAGE_RESOURCE_DIRECTORY]', 7), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 12), {'Name': 1033, 'OffsetToData': 944})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 5), {'OffsetToData': 154748, 'Size': 270376, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x7]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 13), {'Name': 7, 'OffsetToData': 2147484128})
-(('[IMAGE_RESOURCE_DIRECTORY]', 8), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 14), {'Name': 1033, 'OffsetToData': 960})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 6), {'OffsetToData': 425124, 'Size': 67624, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x8]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 15), {'Name': 8, 'OffsetToData': 2147484152})
-(('[IMAGE_RESOURCE_DIRECTORY]', 9), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 16), {'Name': 1033, 'OffsetToData': 976})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 7), {'OffsetToData': 492748, 'Size': 16936, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x9]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 17), {'Name': 9, 'OffsetToData': 2147484176})
-(('[IMAGE_RESOURCE_DIRECTORY]', 10), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 18), {'Name': 1033, 'OffsetToData': 992})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 8), {'OffsetToData': 509684, 'Size': 9640, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0xA]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 19), {'Name': 10, 'OffsetToData': 2147484200})
-(('[IMAGE_RESOURCE_DIRECTORY]', 11), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 20), {'Name': 1033, 'OffsetToData': 1008})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 9), {'OffsetToData': 519324, 'Size': 4264, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0xB]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 21), {'Name': 11, 'OffsetToData': 2147484224})
-(('[IMAGE_RESOURCE_DIRECTORY]', 12), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 22), {'Name': 1033, 'OffsetToData': 1024})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 10), {'OffsetToData': 523588, 'Size': 2440, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0xC]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 23), {'Name': 12, 'OffsetToData': 2147484248})
-(('[IMAGE_RESOURCE_DIRECTORY]', 13), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 24), {'Name': 1033, 'OffsetToData': 1040})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 11), {'OffsetToData': 526028, 'Size': 1128, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x6] (RT_STRING)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 25), {'Name': 6, 'OffsetToData': 2147483824})
-(('[IMAGE_RESOURCE_DIRECTORY]', 14), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 6, 'Id': '[0xFF9]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 26), {'Name': 4089, 'OffsetToData': 2147484272})
-(('[IMAGE_RESOURCE_DIRECTORY]', 15), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 27), {'Name': 0, 'OffsetToData': 1056})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 12), {'OffsetToData': 527156, 'Size': 754, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 0), {'65408': "'%s' is not a valid integer value", '65409': "'%s' is not a valid floating point value", '65410': "'%s' is not a valid date", '65411': "'%s' is not a valid time", '65412': "'%s' is not a valid date and time", '65413': 'Invalid argument to time encode', '65414': 'Invalid argument to date encode', '65415': 'Out of memory', '65416': 'I/O error %d', '65417': 'File not found', '65418': 'Invalid filename', '65419': 'Too many open files', '65420': 'File access denied', '65421': 'Read beyond end of file', '65422': 'Disk full', '65423': 'Invalid numeric input', 'Id': '[0xFFA]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 28), {'Name': 4090, 'OffsetToData': 2147484296})
-(('[IMAGE_RESOURCE_DIRECTORY]', 16), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 29), {'Name': 0, 'OffsetToData': 1072})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 13), {'OffsetToData': 527912, 'Size': 780, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 1), {'65424': 'Division by zero', '65425': 'Range check error', '65426': 'Integer overflow', '65427': 'Invalid floating point operation', '65428': 'Floating point division by zero', '65429': 'Floating point overflow', '65430': 'Floating point underflow', '65431': 'Invalid pointer operation', '65432': 'Invalid class typecast', '65433': 'Access violation at address %p. %s of address %p', '65434': 'Stack overflow', '65435': 'Control-C hit', '65436': 'Privileged instruction', '65437': 'Operation aborted', '65438': 'Exception %s in module %s at %p.', '65439': 'Application Error', 'Id': '[0xFFB]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 30), {'Name': 4091, 'OffsetToData': 2147484320})
-(('[IMAGE_RESOURCE_DIRECTORY]', 17), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 31), {'Name': 0, 'OffsetToData': 1088})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 14), {'OffsetToData': 528692, 'Size': 718, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 2), {'65440': "Format '%s' invalid or incompatible with argument", '65441': "No argument for format '%s'", '65442': 'Invalid variant type conversion', '65443': 'Invalid variant operation', '65444': 'Variant method calls not supported', '65445': 'Read', '65446': 'Write', '65447': 'Format result longer than 4096 characters', '65448': 'Format string too long', '65449': 'Error creating variant array', '65450': 'Variant is not an array', '65451': 'Variant array index out of bounds', '65452': 'External exception %x', 'Id': '[0xFFD]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 32), {'Name': 4093, 'OffsetToData': 2147484344})
-(('[IMAGE_RESOURCE_DIRECTORY]', 18), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 33), {'Name': 0, 'OffsetToData': 1104})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 15), {'OffsetToData': 529412, 'Size': 104, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 3), {'65472': 'Jan', '65473': 'Feb', '65474': 'Mar', '65475': 'Apr', '65476': 'May', '65477': 'Jun', '65478': 'Jul', '65479': 'Aug', '65480': 'Sep', '65481': 'Oct', '65482': 'Nov', '65483': 'Dec', 'Id': '[0xFFE]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 34), {'Name': 4094, 'OffsetToData': 2147484368})
-(('[IMAGE_RESOURCE_DIRECTORY]', 19), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 35), {'Name': 0, 'OffsetToData': 1120})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 16), {'OffsetToData': 529516, 'Size': 180, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 4), {'65488': 'January', '65489': 'February', '65490': 'March', '65491': 'April', '65492': 'May', '65493': 'June', '65494': 'July', '65495': 'August', '65496': 'September', '65497': 'October', '65498': 'November', '65499': 'December', 'Id': '[0xFFF]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 36), {'Name': 4095, 'OffsetToData': 2147484392})
-(('[IMAGE_RESOURCE_DIRECTORY]', 20), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 37), {'Name': 0, 'OffsetToData': 1136})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 17), {'OffsetToData': 529696, 'Size': 174, 'CodePage': 1252, 'Reserved': 0})
-(('[STRINGS]', 5), {'65504': 'Sun', '65505': 'Mon', '65506': 'Tue', '65507': 'Wed', '65508': 'Thu', '65509': 'Fri', '65510': 'Sat', '65511': 'Sunday', '65512': 'Monday', '65513': 'Tuesday', '65514': 'Wednesday', '65515': 'Thursday', '65516': 'Friday', '65517': 'Saturday', 'Id': '[0xA] (RT_RCDATA)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 38), {'Name': 10, 'OffsetToData': 2147483888})
-(('[IMAGE_RESOURCE_DIRECTORY]', 21), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1, 'Id': '[0x2B67]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 39), {'Name': 11111, 'OffsetToData': 2147484416})
-(('[IMAGE_RESOURCE_DIRECTORY]', 22), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 40), {'Name': 0, 'OffsetToData': 1152})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 18), {'OffsetToData': 529872, 'Size': 44, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0xE] (RT_GROUP_ICON)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 41), {'Name': 14, 'OffsetToData': 2147483912})
-(('[IMAGE_RESOURCE_DIRECTORY]', 23), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 1, 'NumberOfIdEntries': 0, 'Name': '[MAINICON]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 42), {'Name': 2147484864, 'OffsetToData': 2147484440})
-(('[IMAGE_RESOURCE_DIRECTORY]', 24), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 43), {'Name': 1033, 'OffsetToData': 1168})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 19), {'OffsetToData': 529916, 'Size': 174, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x10] (RT_VERSION)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 44), {'Name': 16, 'OffsetToData': 2147483936})
-(('[IMAGE_RESOURCE_DIRECTORY]', 25), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1, 'Id': '[0x1]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 45), {'Name': 1, 'OffsetToData': 2147484464})
-(('[IMAGE_RESOURCE_DIRECTORY]', 26), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 46), {'Name': 1033, 'OffsetToData': 1184})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 20), {'OffsetToData': 530092, 'Size': 1268, 'CodePage': 1252, 'Reserved': 0, 'Id': '[0x18] (RT_MANIFEST)'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 47), {'Name': 24, 'OffsetToData': 2147483960})
-(('[IMAGE_RESOURCE_DIRECTORY]', 27), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1, 'Id': '[0x1]'})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 48), {'Name': 1, 'OffsetToData': 2147484488})
-(('[IMAGE_RESOURCE_DIRECTORY]', 28), {'Characteristics': 0, 'TimeDateStamp': 0, 'MajorVersion': 4, 'MinorVersion': 0, 'NumberOfNamedEntries': 0, 'NumberOfIdEntries': 1})
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 49), {'Name': 1033, 'OffsetToData': 1200})
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 21), {'OffsetToData': 531360, 'Size': 1580, 'CodePage': 1252, 'Reserved': 0})
-(('----------TLS----------', 0), {})
-(('[IMAGE_TLS_DIRECTORY]', 0), {'StartAddressOfRawData': 4251648, 'EndAddressOfRawData': 4251656, 'AddressOfIndex': 4244432, 'AddressOfCallBacks': 4255760, 'SizeOfZeroFill': 0, 'Characteristics': 0})
-
-
-=== ctx_aux ===
-(('----------DOS_HEADER----------', 0), [])
-(('[IMAGE_DOS_HEADER]', 0), [])
-(('----------NT_HEADERS----------', 0), [])
-(('[IMAGE_NT_HEADERS]', 0), [])
-(('----------FILE_HEADER----------', 0), [])
-(('[IMAGE_FILE_HEADER]', 0), [])
-(('----------OPTIONAL_HEADER----------', 0), [])
-(('[IMAGE_OPTIONAL_HEADER]', 0), [])
-(('----------PE Sections----------', 0), [])
-(('[IMAGE_SECTION_HEADER]', 0), [])
-(('[IMAGE_SECTION_HEADER]', 1), [])
-(('[IMAGE_SECTION_HEADER]', 2), [])
-(('[IMAGE_SECTION_HEADER]', 3), [])
-(('[IMAGE_SECTION_HEADER]', 4), [])
-(('[IMAGE_SECTION_HEADER]', 5), [])
-(('[IMAGE_SECTION_HEADER]', 6), [])
-(('[IMAGE_SECTION_HEADER]', 7), [])
-(('----------Directories----------', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_EXPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_RESOURCE]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_SECURITY]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_BASERELOC]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_DEBUG]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_TLS]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_IAT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_RESERVED]', 0), [])
-(('----------Version Information----------', 0), [])
-(('[VS_VERSIONINFO]', 0), [])
-(('[VS_FIXEDFILEINFO]', 0), [])
-(('[StringFileInfo]', 0), [])
-(('[StringTable]', 0), [])
-(('[VarFileInfo]', 0), [])
-(('[Var]', 0), [])
-(('----------Imported symbols----------', 0), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 0), ['kernel32.dll.DeleteCriticalSection Hint[0]', 'kernel32.dll.LeaveCriticalSection Hint[0]', 'kernel32.dll.EnterCriticalSection Hint[0]', 'kernel32.dll.InitializeCriticalSection Hint[0]', 'kernel32.dll.VirtualFree Hint[0]', 'kernel32.dll.VirtualAlloc Hint[0]', 'kernel32.dll.LocalFree Hint[0]', 'kernel32.dll.LocalAlloc Hint[0]', 'kernel32.dll.WideCharToMultiByte Hint[0]', 'kernel32.dll.TlsSetValue Hint[0]', 'kernel32.dll.TlsGetValue Hint[0]', 'kernel32.dll.MultiByteToWideChar Hint[0]', 'kernel32.dll.GetModuleHandleA Hint[0]', 'kernel32.dll.GetLastError Hint[0]', 'kernel32.dll.GetCommandLineA Hint[0]', 'kernel32.dll.WriteFile Hint[0]', 'kernel32.dll.SetFilePointer Hint[0]', 'kernel32.dll.SetEndOfFile Hint[0]', 'kernel32.dll.RtlUnwind Hint[0]', 'kernel32.dll.ReadFile Hint[0]', 'kernel32.dll.RaiseException Hint[0]', 'kernel32.dll.GetStdHandle Hint[0]', 'kernel32.dll.GetFileSize Hint[0]', 'kernel32.dll.GetSystemTime Hint[0]', 'kernel32.dll.GetFileType Hint[0]', 'kernel32.dll.ExitProcess Hint[0]', 'kernel32.dll.CreateFileA Hint[0]', 'kernel32.dll.CloseHandle Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 1), ['user32.dll.MessageBoxA Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 2), ['oleaut32.dll.VariantChangeTypeEx Hint[0]', 'oleaut32.dll.VariantCopyInd Hint[0]', 'oleaut32.dll.VariantClear Hint[0]', 'oleaut32.dll.SysStringLen Hint[0]', 'oleaut32.dll.SysAllocStringLen Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 3), ['advapi32.dll.RegQueryValueExA Hint[0]', 'advapi32.dll.RegOpenKeyExA Hint[0]', 'advapi32.dll.RegCloseKey Hint[0]', 'advapi32.dll.OpenProcessToken Hint[0]', 'advapi32.dll.LookupPrivilegeValueA Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 4), ['kernel32.dll.WriteFile Hint[0]', 'kernel32.dll.VirtualQuery Hint[0]', 'kernel32.dll.VirtualProtect Hint[0]', 'kernel32.dll.VirtualFree Hint[0]', 'kernel32.dll.VirtualAlloc Hint[0]', 'kernel32.dll.Sleep Hint[0]', 'kernel32.dll.SizeofResource Hint[0]', 'kernel32.dll.SetLastError Hint[0]', 'kernel32.dll.SetFilePointer Hint[0]', 'kernel32.dll.SetErrorMode Hint[0]', 'kernel32.dll.SetEndOfFile Hint[0]', 'kernel32.dll.RemoveDirectoryA Hint[0]', 'kernel32.dll.ReadFile Hint[0]', 'kernel32.dll.LockResource Hint[0]', 'kernel32.dll.LoadResource Hint[0]', 'kernel32.dll.LoadLibraryA Hint[0]', 'kernel32.dll.IsDBCSLeadByte Hint[0]', 'kernel32.dll.GetWindowsDirectoryA Hint[0]', 'kernel32.dll.GetVersionExA Hint[0]', 'kernel32.dll.GetUserDefaultLangID Hint[0]', 'kernel32.dll.GetSystemInfo Hint[0]', 'kernel32.dll.GetSystemDefaultLCID Hint[0]', 'kernel32.dll.GetProcAddress Hint[0]', 'kernel32.dll.GetModuleHandleA Hint[0]', 'kernel32.dll.GetModuleFileNameA Hint[0]', 'kernel32.dll.GetLocaleInfoA Hint[0]', 'kernel32.dll.GetLastError Hint[0]', 'kernel32.dll.GetFullPathNameA Hint[0]', 'kernel32.dll.GetFileSize Hint[0]', 'kernel32.dll.GetFileAttributesA Hint[0]', 'kernel32.dll.GetExitCodeProcess Hint[0]', 'kernel32.dll.GetEnvironmentVariableA Hint[0]', 'kernel32.dll.GetCurrentProcess Hint[0]', 'kernel32.dll.GetCommandLineA Hint[0]', 'kernel32.dll.GetACP Hint[0]', 'kernel32.dll.InterlockedExchange Hint[0]', 'kernel32.dll.FormatMessageA Hint[0]', 'kernel32.dll.FindResourceA Hint[0]', 'kernel32.dll.DeleteFileA Hint[0]', 'kernel32.dll.CreateProcessA Hint[0]', 'kernel32.dll.CreateFileA Hint[0]', 'kernel32.dll.CreateDirectoryA Hint[0]', 'kernel32.dll.CloseHandle Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 5), ['user32.dll.TranslateMessage Hint[0]', 'user32.dll.SetWindowLongA Hint[0]', 'user32.dll.PeekMessageA Hint[0]', 'user32.dll.MsgWaitForMultipleObjects Hint[0]', 'user32.dll.MessageBoxA Hint[0]', 'user32.dll.LoadStringA Hint[0]', 'user32.dll.ExitWindowsEx Hint[0]', 'user32.dll.DispatchMessageA Hint[0]', 'user32.dll.DestroyWindow Hint[0]', 'user32.dll.CreateWindowExA Hint[0]', 'user32.dll.CallWindowProcA Hint[0]', 'user32.dll.CharPrevA Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 6), ['comctl32.dll.InitCommonControls Hint[0]'])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 7), ['advapi32.dll.AdjustTokenPrivileges Hint[0]'])
-(('----------Resource directory----------', 0), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 0), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 0), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 1), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 1), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 2), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 2), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 0), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 3), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 3), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 4), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 1), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 5), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 4), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 6), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 2), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 7), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 5), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 8), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 3), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 9), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 6), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 10), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 4), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 11), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 7), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 12), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 5), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 13), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 8), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 14), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 6), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 15), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 9), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 16), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 7), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 17), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 10), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 18), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 8), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 19), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 11), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 20), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 9), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 21), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 12), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 22), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 10), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 23), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 13), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 24), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 11), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 25), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 14), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 26), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 15), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 27), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 12), [])
-(('[STRINGS]', 0), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 28), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 16), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 29), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 13), [])
-(('[STRINGS]', 1), ['%s%s'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 30), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 17), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 31), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 14), [])
-(('[STRINGS]', 2), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 32), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 18), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 33), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 15), [])
-(('[STRINGS]', 3), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 34), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 19), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 35), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 16), [])
-(('[STRINGS]', 4), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 36), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 20), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 37), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 17), [])
-(('[STRINGS]', 5), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 38), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 21), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 39), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 22), ['\\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 40), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 18), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 41), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 23), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 42), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 24), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 43), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 19), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 44), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 25), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 45), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 26), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 46), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 20), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 47), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 27), [])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 48), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 28), ['\\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]'])
-(('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 49), [])
-(('[IMAGE_RESOURCE_DATA_ENTRY]', 21), [])
-(('----------TLS----------', 0), [])
-(('[IMAGE_TLS_DIRECTORY]', 0), ['None'])
-
-
-=== ctx_children ===
-(('----------DOS_HEADER----------', 0), [('[IMAGE_DOS_HEADER]', 0)])
-(('----------NT_HEADERS----------', 0), [('[IMAGE_NT_HEADERS]', 0)])
-(('----------FILE_HEADER----------', 0), [('[IMAGE_FILE_HEADER]', 0)])
-(('----------OPTIONAL_HEADER----------', 0), [('[IMAGE_OPTIONAL_HEADER]', 0)])
-(('----------PE Sections----------', 0), [('[IMAGE_SECTION_HEADER]', 0), ('[IMAGE_SECTION_HEADER]', 1), ('[IMAGE_SECTION_HEADER]', 2), ('[IMAGE_SECTION_HEADER]', 3), ('[IMAGE_SECTION_HEADER]', 4), ('[IMAGE_SECTION_HEADER]', 5), ('[IMAGE_SECTION_HEADER]', 6), ('[IMAGE_SECTION_HEADER]', 7)])
-(('----------Directories----------', 0), [('[IMAGE_DIRECTORY_ENTRY_EXPORT]', 0), ('[IMAGE_DIRECTORY_ENTRY_IMPORT]', 0), ('[IMAGE_DIRECTORY_ENTRY_RESOURCE]', 0), ('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]', 0), ('[IMAGE_DIRECTORY_ENTRY_SECURITY]', 0), ('[IMAGE_DIRECTORY_ENTRY_BASERELOC]', 0), ('[IMAGE_DIRECTORY_ENTRY_DEBUG]', 0), ('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]', 0), ('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]', 0), ('[IMAGE_DIRECTORY_ENTRY_TLS]', 0), ('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]', 0), ('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]', 0), ('[IMAGE_DIRECTORY_ENTRY_IAT]', 0), ('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]', 0), ('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]', 0), ('[IMAGE_DIRECTORY_ENTRY_RESERVED]', 0)])
-(('----------Version Information----------', 0), [('[VS_VERSIONINFO]', 0), ('[VS_FIXEDFILEINFO]', 0), ('[StringFileInfo]', 0), ('[StringTable]', 0), ('[VarFileInfo]', 0), ('[Var]', 0)])
-(('----------Imported symbols----------', 0), [('[IMAGE_IMPORT_DESCRIPTOR]', 0), ('[IMAGE_IMPORT_DESCRIPTOR]', 1), ('[IMAGE_IMPORT_DESCRIPTOR]', 2), ('[IMAGE_IMPORT_DESCRIPTOR]', 3), ('[IMAGE_IMPORT_DESCRIPTOR]', 4), ('[IMAGE_IMPORT_DESCRIPTOR]', 5), ('[IMAGE_IMPORT_DESCRIPTOR]', 6), ('[IMAGE_IMPORT_DESCRIPTOR]', 7)])
-(('----------Resource directory----------', 0), [('[IMAGE_RESOURCE_DIRECTORY]', 0), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 0), ('[IMAGE_RESOURCE_DIRECTORY]', 1), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 1), ('[IMAGE_RESOURCE_DIRECTORY]', 2), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 2), ('[IMAGE_RESOURCE_DATA_ENTRY]', 0), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 3), ('[IMAGE_RESOURCE_DIRECTORY]', 3), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 4), ('[IMAGE_RESOURCE_DATA_ENTRY]', 1), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 5), ('[IMAGE_RESOURCE_DIRECTORY]', 4), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 6), ('[IMAGE_RESOURCE_DATA_ENTRY]', 2), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 7), ('[IMAGE_RESOURCE_DIRECTORY]', 5), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 8), ('[IMAGE_RESOURCE_DATA_ENTRY]', 3), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 9), ('[IMAGE_RESOURCE_DIRECTORY]', 6), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 10), ('[IMAGE_RESOURCE_DATA_ENTRY]', 4), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 11), ('[IMAGE_RESOURCE_DIRECTORY]', 7), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 12), ('[IMAGE_RESOURCE_DATA_ENTRY]', 5), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 13), ('[IMAGE_RESOURCE_DIRECTORY]', 8), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 14), ('[IMAGE_RESOURCE_DATA_ENTRY]', 6), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 15), ('[IMAGE_RESOURCE_DIRECTORY]', 9), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 16), ('[IMAGE_RESOURCE_DATA_ENTRY]', 7), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 17), ('[IMAGE_RESOURCE_DIRECTORY]', 10), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 18), ('[IMAGE_RESOURCE_DATA_ENTRY]', 8), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 19), ('[IMAGE_RESOURCE_DIRECTORY]', 11), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 20), ('[IMAGE_RESOURCE_DATA_ENTRY]', 9), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 21), ('[IMAGE_RESOURCE_DIRECTORY]', 12), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 22), ('[IMAGE_RESOURCE_DATA_ENTRY]', 10), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 23), ('[IMAGE_RESOURCE_DIRECTORY]', 13), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 24), ('[IMAGE_RESOURCE_DATA_ENTRY]', 11), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 25), ('[IMAGE_RESOURCE_DIRECTORY]', 14), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 26), ('[IMAGE_RESOURCE_DIRECTORY]', 15), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 27), ('[IMAGE_RESOURCE_DATA_ENTRY]', 12), ('[STRINGS]', 0), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 28), ('[IMAGE_RESOURCE_DIRECTORY]', 16), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 29), ('[IMAGE_RESOURCE_DATA_ENTRY]', 13), ('[STRINGS]', 1), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 30), ('[IMAGE_RESOURCE_DIRECTORY]', 17), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 31), ('[IMAGE_RESOURCE_DATA_ENTRY]', 14), ('[STRINGS]', 2), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 32), ('[IMAGE_RESOURCE_DIRECTORY]', 18), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 33), ('[IMAGE_RESOURCE_DATA_ENTRY]', 15), ('[STRINGS]', 3), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 34), ('[IMAGE_RESOURCE_DIRECTORY]', 19), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 35), ('[IMAGE_RESOURCE_DATA_ENTRY]', 16), ('[STRINGS]', 4), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 36), ('[IMAGE_RESOURCE_DIRECTORY]', 20), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 37), ('[IMAGE_RESOURCE_DATA_ENTRY]', 17), ('[STRINGS]', 5), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 38), ('[IMAGE_RESOURCE_DIRECTORY]', 21), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 39), ('[IMAGE_RESOURCE_DIRECTORY]', 22), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 40), ('[IMAGE_RESOURCE_DATA_ENTRY]', 18), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 41), ('[IMAGE_RESOURCE_DIRECTORY]', 23), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 42), ('[IMAGE_RESOURCE_DIRECTORY]', 24), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 43), ('[IMAGE_RESOURCE_DATA_ENTRY]', 19), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 44), ('[IMAGE_RESOURCE_DIRECTORY]', 25), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 45), ('[IMAGE_RESOURCE_DIRECTORY]', 26), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 46), ('[IMAGE_RESOURCE_DATA_ENTRY]', 20), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 47), ('[IMAGE_RESOURCE_DIRECTORY]', 27), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 48), ('[IMAGE_RESOURCE_DIRECTORY]', 28), ('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 49), ('[IMAGE_RESOURCE_DATA_ENTRY]', 21)])
-(('----------TLS----------', 0), [('[IMAGE_TLS_DIRECTORY]', 0)])
-(('[IMAGE_DOS_HEADER]', 0), [])
-(('[IMAGE_NT_HEADERS]', 0), [])
-(('[IMAGE_FILE_HEADER]', 0), [])
-(('[IMAGE_OPTIONAL_HEADER]', 0), [])
-(('[IMAGE_SECTION_HEADER]', 0), [])
-(('[IMAGE_SECTION_HEADER]', 1), [])
-(('[IMAGE_SECTION_HEADER]', 2), [])
-(('[IMAGE_SECTION_HEADER]', 3), [])
-(('[IMAGE_SECTION_HEADER]', 4), [])
-(('[IMAGE_SECTION_HEADER]', 5), [])
-(('[IMAGE_SECTION_HEADER]', 6), [])
-(('[IMAGE_SECTION_HEADER]', 7), [])
-(('[IMAGE_DIRECTORY_ENTRY_EXPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_RESOURCE]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_SECURITY]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_BASERELOC]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_DEBUG]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_TLS]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_IAT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]', 0), [])
-(('[IMAGE_DIRECTORY_ENTRY_RESERVED]', 0), [])
-(('[VS_VERSIONINFO]', 0), [])
-(('[VS_FIXEDFILEINFO]', 0), [])
-(('[StringFileInfo]', 0), [])
-(('[VarFileInfo]', 0), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 0), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 1), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 2), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 3), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 4), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 5), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 6), [])
-(('[IMAGE_IMPORT_DESCRIPTOR]', 7), [])
-(('[IMAGE_RESOURCE_DIRECTORY]', 0), [])
-(('[IMAGE_TLS_DIRECTORY]', 0), [])
-
-
-=== ctx_name_ctr ===
-('----------DOS_HEADER----------', 0)
-('[IMAGE_DOS_HEADER]', 0)
-('----------NT_HEADERS----------', 0)
-('[IMAGE_NT_HEADERS]', 0)
-('----------FILE_HEADER----------', 0)
-('[IMAGE_FILE_HEADER]', 0)
-('----------OPTIONAL_HEADER----------', 0)
-('[IMAGE_OPTIONAL_HEADER]', 0)
-('----------PE Sections----------', 0)
-('[IMAGE_SECTION_HEADER]', 7)
-('----------Directories----------', 0)
-('[IMAGE_DIRECTORY_ENTRY_EXPORT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_IMPORT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_RESOURCE]', 0)
-('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]', 0)
-('[IMAGE_DIRECTORY_ENTRY_SECURITY]', 0)
-('[IMAGE_DIRECTORY_ENTRY_BASERELOC]', 0)
-('[IMAGE_DIRECTORY_ENTRY_DEBUG]', 0)
-('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]', 0)
-('[IMAGE_DIRECTORY_ENTRY_TLS]', 0)
-('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]', 0)
-('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_IAT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]', 0)
-('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]', 0)
-('[IMAGE_DIRECTORY_ENTRY_RESERVED]', 0)
-('----------Version Information----------', 0)
-('[VS_VERSIONINFO]', 0)
-('[VS_FIXEDFILEINFO]', 0)
-('[StringFileInfo]', 0)
-('[StringTable]', 0)
-('[VarFileInfo]', 0)
-('[Var]', 0)
-('----------Imported symbols----------', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]', 7)
-('----------Resource directory----------', 0)
-('[IMAGE_RESOURCE_DIRECTORY]', 28)
-('[IMAGE_RESOURCE_DIRECTORY_ENTRY]', 49)
-('[IMAGE_RESOURCE_DATA_ENTRY]', 21)
-('[STRINGS]', 5)
-('----------TLS----------', 0)
-('[IMAGE_TLS_DIRECTORY]', 0)
-
-
-=== features ===
-('[IMAGE_DOS_HEADER]::e_magic', 23117)
-('[IMAGE_DOS_HEADER]::e_cblp', 80)
-('[IMAGE_DOS_HEADER]::e_cp', 2)
-('[IMAGE_DOS_HEADER]::e_crlc', 0)
-('[IMAGE_DOS_HEADER]::e_cparhdr', 4)
-('[IMAGE_DOS_HEADER]::e_minalloc', 15)
-('[IMAGE_DOS_HEADER]::e_maxalloc', 65535)
-('[IMAGE_DOS_HEADER]::e_ss', 0)
-('[IMAGE_DOS_HEADER]::e_sp', 184)
-('[IMAGE_DOS_HEADER]::e_csum', 0)
-('[IMAGE_DOS_HEADER]::e_ip', 0)
-('[IMAGE_DOS_HEADER]::e_cs', 0)
-('[IMAGE_DOS_HEADER]::e_lfarlc', 64)
-('[IMAGE_DOS_HEADER]::e_ovno', 26)
-('[IMAGE_DOS_HEADER]::e_oemid', 0)
-('[IMAGE_DOS_HEADER]::e_oeminfo', 0)
-('[IMAGE_DOS_HEADER]::e_lfanew', 256)
-('[IMAGE_NT_HEADERS]::Signature', 17744)
-('[IMAGE_FILE_HEADER]::Machine', 332)
-('[IMAGE_FILE_HEADER]::NumberOfSections', 8)
-('[IMAGE_FILE_HEADER]::TimeDateStamp', 708992537)
-('[IMAGE_FILE_HEADER]::PointerToSymbolTable', 0)
-('[IMAGE_FILE_HEADER]::NumberOfSymbols', 0)
-('[IMAGE_FILE_HEADER]::SizeOfOptionalHeader', 224)
-('[IMAGE_FILE_HEADER]::Characteristics', 33167)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_LOCAL_SYMS_STRIPPED', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_32BIT_MACHINE', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_BYTES_REVERSED_LO', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_EXECUTABLE_IMAGE', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_LINE_NUMS_STRIPPED', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_BYTES_REVERSED_HI', 1)
-('[IMAGE_FILE_HEADER]::Flags::IMAGE_FILE_RELOCS_STRIPPED', 1)
-('[IMAGE_OPTIONAL_HEADER]::Magic', 267)
-('[IMAGE_OPTIONAL_HEADER]::MajorLinkerVersion', 2)
-('[IMAGE_OPTIONAL_HEADER]::MinorLinkerVersion', 25)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfCode', 40448)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfInitializedData', 467456)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfUninitializedData', 0)
-('[IMAGE_OPTIONAL_HEADER]::AddressOfEntryPoint', 42488)
-('[IMAGE_OPTIONAL_HEADER]::BaseOfCode', 4096)
-('[IMAGE_OPTIONAL_HEADER]::BaseOfData', 45056)
-('[IMAGE_OPTIONAL_HEADER]::ImageBase', 4194304)
-('[IMAGE_OPTIONAL_HEADER]::SectionAlignment', 4096)
-('[IMAGE_OPTIONAL_HEADER]::FileAlignment', 512)
-('[IMAGE_OPTIONAL_HEADER]::MajorOperatingSystemVersion', 1)
-('[IMAGE_OPTIONAL_HEADER]::MinorOperatingSystemVersion', 0)
-('[IMAGE_OPTIONAL_HEADER]::MajorImageVersion', 6)
-('[IMAGE_OPTIONAL_HEADER]::MinorImageVersion', 0)
-('[IMAGE_OPTIONAL_HEADER]::MajorSubsystemVersion', 4)
-('[IMAGE_OPTIONAL_HEADER]::MinorSubsystemVersion', 0)
-('[IMAGE_OPTIONAL_HEADER]::Reserved1', 0)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfImage', 536576)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfHeaders', 1024)
-('[IMAGE_OPTIONAL_HEADER]::CheckSum', 22382548)
-('[IMAGE_OPTIONAL_HEADER]::Subsystem', 2)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfStackReserve', 1048576)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfStackCommit', 16384)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfHeapReserve', 1048576)
-('[IMAGE_OPTIONAL_HEADER]::SizeOfHeapCommit', 4096)
-('[IMAGE_OPTIONAL_HEADER]::LoaderFlags', 0)
-('[IMAGE_OPTIONAL_HEADER]::NumberOfRvaAndSizes', 16)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Misc', 40240)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Misc_PhysicalAddress', 40240)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Misc_VirtualSize', 40240)
-('[IMAGE_SECTION_HEADER]::Name=CODE::VirtualAddress', 4096)
-('[IMAGE_SECTION_HEADER]::Name=CODE::SizeOfRawData', 40448)
-('[IMAGE_SECTION_HEADER]::Name=CODE::PointerToRawData', 1024)
-('[IMAGE_SECTION_HEADER]::Name=CODE::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=CODE::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=CODE::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=CODE::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Characteristics', 1610612768)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Flags::IMAGE_SCN_MEM_EXECUTE', 1)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Flags::IMAGE_SCN_CNT_CODE', 1)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=CODE::Entropy', 6.631603)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Misc', 592)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Misc_PhysicalAddress', 592)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Misc_VirtualSize', 592)
-('[IMAGE_SECTION_HEADER]::Name=DATA::VirtualAddress', 45056)
-('[IMAGE_SECTION_HEADER]::Name=DATA::SizeOfRawData', 1024)
-('[IMAGE_SECTION_HEADER]::Name=DATA::PointerToRawData', 41472)
-('[IMAGE_SECTION_HEADER]::Name=DATA::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=DATA::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=DATA::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=DATA::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Characteristics', 3221225536)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Flags::IMAGE_SCN_CNT_INITIALIZED_DATA', 1)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Flags::IMAGE_SCN_MEM_WRITE', 1)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=DATA::Entropy', 2.754717)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Misc', 3728)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Misc_PhysicalAddress', 3728)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Misc_VirtualSize', 3728)
-('[IMAGE_SECTION_HEADER]::Name=BSS::VirtualAddress', 49152)
-('[IMAGE_SECTION_HEADER]::Name=BSS::SizeOfRawData', 0)
-('[IMAGE_SECTION_HEADER]::Name=BSS::PointerToRawData', 42496)
-('[IMAGE_SECTION_HEADER]::Name=BSS::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=BSS::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=BSS::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=BSS::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Characteristics', 3221225472)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Flags::IMAGE_SCN_MEM_WRITE', 1)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=BSS::Entropy', 0.0)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Misc', 2384)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Misc_PhysicalAddress', 2384)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Misc_VirtualSize', 2384)
-('[IMAGE_SECTION_HEADER]::Name=.idata::VirtualAddress', 53248)
-('[IMAGE_SECTION_HEADER]::Name=.idata::SizeOfRawData', 2560)
-('[IMAGE_SECTION_HEADER]::Name=.idata::PointerToRawData', 42496)
-('[IMAGE_SECTION_HEADER]::Name=.idata::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.idata::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.idata::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.idata::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Characteristics', 3221225536)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Flags::IMAGE_SCN_CNT_INITIALIZED_DATA', 1)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Flags::IMAGE_SCN_MEM_WRITE', 1)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=.idata::Entropy', 4.430733)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Misc', 8)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Misc_PhysicalAddress', 8)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Misc_VirtualSize', 8)
-('[IMAGE_SECTION_HEADER]::Name=.tls::VirtualAddress', 57344)
-('[IMAGE_SECTION_HEADER]::Name=.tls::SizeOfRawData', 0)
-('[IMAGE_SECTION_HEADER]::Name=.tls::PointerToRawData', 45056)
-('[IMAGE_SECTION_HEADER]::Name=.tls::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.tls::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.tls::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.tls::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Characteristics', 3221225472)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Flags::IMAGE_SCN_MEM_WRITE', 1)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=.tls::Entropy', 0.0)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Misc', 24)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Misc_PhysicalAddress', 24)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Misc_VirtualSize', 24)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::VirtualAddress', 61440)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::SizeOfRawData', 512)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::PointerToRawData', 45056)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Characteristics', 1342177344)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Flags::IMAGE_SCN_CNT_INITIALIZED_DATA', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Flags::IMAGE_SCN_MEM_SHARED', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rdata::Entropy', 0.204488)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Misc', 2244)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Misc_PhysicalAddress', 2244)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Misc_VirtualSize', 2244)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::VirtualAddress', 65536)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::SizeOfRawData', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::PointerToRawData', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Characteristics', 1342177344)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Flags::IMAGE_SCN_CNT_INITIALIZED_DATA', 1)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Flags::IMAGE_SCN_MEM_SHARED', 1)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=.reloc::Entropy', 0.0)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Misc', 463308)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Misc_PhysicalAddress', 463308)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Misc_VirtualSize', 463308)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::VirtualAddress', 69632)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::SizeOfRawData', 463360)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::PointerToRawData', 45568)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::PointerToRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::PointerToLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::NumberOfRelocations', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::NumberOfLinenumbers', 0)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Characteristics', 1342177344)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Flags::IMAGE_SCN_CNT_INITIALIZED_DATA', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Flags::IMAGE_SCN_MEM_SHARED', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Flags::IMAGE_SCN_MEM_READ', 1)
-('[IMAGE_SECTION_HEADER]::Name=.rsrc::Entropy', 4.456822)
-('[IMAGE_DIRECTORY_ENTRY_EXPORT]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_EXPORT]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_IMPORT]::VirtualAddress', 53248)
-('[IMAGE_DIRECTORY_ENTRY_IMPORT]::Size', 2384)
-('[IMAGE_DIRECTORY_ENTRY_RESOURCE]::VirtualAddress', 69632)
-('[IMAGE_DIRECTORY_ENTRY_RESOURCE]::Size', 463308)
-('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_EXCEPTION]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_SECURITY]::VirtualAddress', 22347216)
-('[IMAGE_DIRECTORY_ENTRY_SECURITY]::Size', 8808)
-('[IMAGE_DIRECTORY_ENTRY_BASERELOC]::VirtualAddress', 65536)
-('[IMAGE_DIRECTORY_ENTRY_BASERELOC]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_DEBUG]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_DEBUG]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_TLS]::VirtualAddress', 61440)
-('[IMAGE_DIRECTORY_ENTRY_TLS]::Size', 24)
-('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_IAT]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_IAT]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]::Size', 0)
-('[IMAGE_DIRECTORY_ENTRY_RESERVED]::VirtualAddress', 0)
-('[IMAGE_DIRECTORY_ENTRY_RESERVED]::Size', 0)
-('[VS_VERSIONINFO]::Length', 1268)
-('[VS_VERSIONINFO]::ValueLength', 52)
-('[VS_VERSIONINFO]::Type', 0)
-('[VS_FIXEDFILEINFO]::Signature', 4277077181)
-('[VS_FIXEDFILEINFO]::StrucVersion', 65536)
-('[VS_FIXEDFILEINFO]::FileVersionMS', 262144)
-('[VS_FIXEDFILEINFO]::FileVersionLS', 64)
-('[VS_FIXEDFILEINFO]::ProductVersionMS', 262144)
-('[VS_FIXEDFILEINFO]::ProductVersionLS', 64)
-('[VS_FIXEDFILEINFO]::FileFlagsMask', 63)
-('[VS_FIXEDFILEINFO]::FileFlags', 0)
-('[VS_FIXEDFILEINFO]::FileOS', 4)
-('[VS_FIXEDFILEINFO]::FileType', 1)
-('[VS_FIXEDFILEINFO]::FileSubtype', 0)
-('[VS_FIXEDFILEINFO]::FileDateMS', 0)
-('[VS_FIXEDFILEINFO]::FileDateLS', 0)
-('[StringFileInfo]::Length', 1106)
-('[StringFileInfo]::ValueLength', 0)
-('[StringFileInfo]::Type', 1)
-('[StringTable]::Length', 1070)
-('[StringTable]::ValueLength', 0)
-('[StringTable]::Type', 1)
-('[StringTable]::LegalCopyright::Copyright \\xa9 Remo Software', 1)
-('[StringTable]::LegalCopyright::All rights reserved.', 1)
-('[VarFileInfo]::Length', 68)
-('[VarFileInfo]::ValueLength', 0)
-('[VarFileInfo]::Type', 1)
-('[Var]::Length', 36)
-('[Var]::ValueLength', 4)
-('[Var]::Type', 0)
-('[Var]::Translation', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::OriginalFirstThunk', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::Characteristics', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::TimeDateStamp', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::ForwarderChain', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::Name', 55594)
-('[IMAGE_IMPORT_DESCRIPTOR]::FirstThunk', 53836)
-('[IMAGE_RESOURCE_DIRECTORY]::Characteristics', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::TimeDateStamp', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::MajorVersion', 4)
-('[IMAGE_RESOURCE_DIRECTORY]::MinorVersion', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::NumberOfNamedEntries', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::NumberOfIdEntries', 1)
-('[IMAGE_RESOURCE_DIRECTORY_ENTRY]::Name', 1033)
-('[IMAGE_RESOURCE_DIRECTORY_ENTRY]::OffsetToData', 1200)
-('[IMAGE_RESOURCE_DATA_ENTRY]::OffsetToData', 531360)
-('[IMAGE_RESOURCE_DATA_ENTRY]::Size', 1580)
-('[IMAGE_RESOURCE_DATA_ENTRY]::CodePage', 1252)
-('[IMAGE_RESOURCE_DATA_ENTRY]::Reserved', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::Characteristics', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::TimeDateStamp', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::MajorVersion', 4)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::MinorVersion', 0)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::NumberOfNamedEntries', 1)
-('[IMAGE_RESOURCE_DIRECTORY]::Name=[MAINICON]::NumberOfIdEntries', 0)
-('[IMAGE_TLS_DIRECTORY]::StartAddressOfRawData', 4251648)
-('[IMAGE_TLS_DIRECTORY]::EndAddressOfRawData', 4251656)
-('[IMAGE_TLS_DIRECTORY]::AddressOfIndex', 4244432)
-('[IMAGE_TLS_DIRECTORY]::AddressOfCallBacks', 4255760)
-('[IMAGE_TLS_DIRECTORY]::SizeOfZeroFill', 0)
-('[IMAGE_TLS_DIRECTORY]::Characteristics', 0)
-('[IMAGE_IMPORT_DESCRIPTOR]::kernel32.dll', 71)
-('[IMAGE_IMPORT_DESCRIPTOR]::user32.dll', 13)
-('[IMAGE_IMPORT_DESCRIPTOR]::oleaut32.dll', 5)
-('[IMAGE_IMPORT_DESCRIPTOR]::advapi32.dll', 6)
-('[IMAGE_IMPORT_DESCRIPTOR]::comctl32.dll', 1)
-
-
-=== aux_dump ===
-kernel32.dll.DeleteCriticalSection Hint[0]
-kernel32.dll.LeaveCriticalSection Hint[0]
-kernel32.dll.EnterCriticalSection Hint[0]
-kernel32.dll.InitializeCriticalSection Hint[0]
-kernel32.dll.VirtualFree Hint[0]
-kernel32.dll.VirtualAlloc Hint[0]
-kernel32.dll.LocalFree Hint[0]
-kernel32.dll.LocalAlloc Hint[0]
-kernel32.dll.WideCharToMultiByte Hint[0]
-kernel32.dll.TlsSetValue Hint[0]
-kernel32.dll.TlsGetValue Hint[0]
-kernel32.dll.MultiByteToWideChar Hint[0]
-kernel32.dll.GetModuleHandleA Hint[0]
-kernel32.dll.GetLastError Hint[0]
-kernel32.dll.GetCommandLineA Hint[0]
-kernel32.dll.WriteFile Hint[0]
-kernel32.dll.SetFilePointer Hint[0]
-kernel32.dll.SetEndOfFile Hint[0]
-kernel32.dll.RtlUnwind Hint[0]
-kernel32.dll.ReadFile Hint[0]
-kernel32.dll.RaiseException Hint[0]
-kernel32.dll.GetStdHandle Hint[0]
-kernel32.dll.GetFileSize Hint[0]
-kernel32.dll.GetSystemTime Hint[0]
-kernel32.dll.GetFileType Hint[0]
-kernel32.dll.ExitProcess Hint[0]
-kernel32.dll.CreateFileA Hint[0]
-kernel32.dll.CloseHandle Hint[0]
-user32.dll.MessageBoxA Hint[0]
-oleaut32.dll.VariantChangeTypeEx Hint[0]
-oleaut32.dll.VariantCopyInd Hint[0]
-oleaut32.dll.VariantClear Hint[0]
-oleaut32.dll.SysStringLen Hint[0]
-oleaut32.dll.SysAllocStringLen Hint[0]
-advapi32.dll.RegQueryValueExA Hint[0]
-advapi32.dll.RegOpenKeyExA Hint[0]
-advapi32.dll.RegCloseKey Hint[0]
-advapi32.dll.OpenProcessToken Hint[0]
-advapi32.dll.LookupPrivilegeValueA Hint[0]
-kernel32.dll.WriteFile Hint[0]
-kernel32.dll.VirtualQuery Hint[0]
-kernel32.dll.VirtualProtect Hint[0]
-kernel32.dll.VirtualFree Hint[0]
-kernel32.dll.VirtualAlloc Hint[0]
-kernel32.dll.Sleep Hint[0]
-kernel32.dll.SizeofResource Hint[0]
-kernel32.dll.SetLastError Hint[0]
-kernel32.dll.SetFilePointer Hint[0]
-kernel32.dll.SetErrorMode Hint[0]
-kernel32.dll.SetEndOfFile Hint[0]
-kernel32.dll.RemoveDirectoryA Hint[0]
-kernel32.dll.ReadFile Hint[0]
-kernel32.dll.LockResource Hint[0]
-kernel32.dll.LoadResource Hint[0]
-kernel32.dll.LoadLibraryA Hint[0]
-kernel32.dll.IsDBCSLeadByte Hint[0]
-kernel32.dll.GetWindowsDirectoryA Hint[0]
-kernel32.dll.GetVersionExA Hint[0]
-kernel32.dll.GetUserDefaultLangID Hint[0]
-kernel32.dll.GetSystemInfo Hint[0]
-kernel32.dll.GetSystemDefaultLCID Hint[0]
-kernel32.dll.GetProcAddress Hint[0]
-kernel32.dll.GetModuleHandleA Hint[0]
-kernel32.dll.GetModuleFileNameA Hint[0]
-kernel32.dll.GetLocaleInfoA Hint[0]
-kernel32.dll.GetLastError Hint[0]
-kernel32.dll.GetFullPathNameA Hint[0]
-kernel32.dll.GetFileSize Hint[0]
-kernel32.dll.GetFileAttributesA Hint[0]
-kernel32.dll.GetExitCodeProcess Hint[0]
-kernel32.dll.GetEnvironmentVariableA Hint[0]
-kernel32.dll.GetCurrentProcess Hint[0]
-kernel32.dll.GetCommandLineA Hint[0]
-kernel32.dll.GetACP Hint[0]
-kernel32.dll.InterlockedExchange Hint[0]
-kernel32.dll.FormatMessageA Hint[0]
-kernel32.dll.FindResourceA Hint[0]
-kernel32.dll.DeleteFileA Hint[0]
-kernel32.dll.CreateProcessA Hint[0]
-kernel32.dll.CreateFileA Hint[0]
-kernel32.dll.CreateDirectoryA Hint[0]
-kernel32.dll.CloseHandle Hint[0]
-user32.dll.TranslateMessage Hint[0]
-user32.dll.SetWindowLongA Hint[0]
-user32.dll.PeekMessageA Hint[0]
-user32.dll.MsgWaitForMultipleObjects Hint[0]
-user32.dll.MessageBoxA Hint[0]
-user32.dll.LoadStringA Hint[0]
-user32.dll.ExitWindowsEx Hint[0]
-user32.dll.DispatchMessageA Hint[0]
-user32.dll.DestroyWindow Hint[0]
-user32.dll.CreateWindowExA Hint[0]
-user32.dll.CallWindowProcA Hint[0]
-user32.dll.CharPrevA Hint[0]
-comctl32.dll.InitCommonControls Hint[0]
-advapi32.dll.AdjustTokenPrivileges Hint[0]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-%s%s
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [0,0][LANG_NEUTRAL,SUBLANG_NEUTRAL]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-\--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
-None
+[IMAGE_IMPORT_DESCRIPTOR]:kernel32.dll : 71.0
+[IMAGE_IMPORT_DESCRIPTOR]:user32.dll : 13.0
+[IMAGE_IMPORT_DESCRIPTOR]:oleaut32.dll : 5.0
+[IMAGE_IMPORT_DESCRIPTOR]:advapi32.dll : 6.0
+[IMAGE_IMPORT_DESCRIPTOR]:comctl32.dll : 1.0
+[IMAGE_DOS_HEADER]:e_magic:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_magic:mean : 23117.0
+[IMAGE_DOS_HEADER]:e_cblp:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_cblp:mean : 80.0
+[IMAGE_DOS_HEADER]:e_cp:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_cp:mean : 2.0
+[IMAGE_DOS_HEADER]:e_crlc:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_crlc:mean : 0.0
+[IMAGE_DOS_HEADER]:e_cparhdr:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_cparhdr:mean : 4.0
+[IMAGE_DOS_HEADER]:e_minalloc:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_minalloc:mean : 15.0
+[IMAGE_DOS_HEADER]:e_maxalloc:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_maxalloc:mean : 65535.0
+[IMAGE_DOS_HEADER]:e_ss:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_ss:mean : 0.0
+[IMAGE_DOS_HEADER]:e_sp:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_sp:mean : 184.0
+[IMAGE_DOS_HEADER]:e_csum:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_csum:mean : 0.0
+[IMAGE_DOS_HEADER]:e_ip:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_ip:mean : 0.0
+[IMAGE_DOS_HEADER]:e_cs:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_cs:mean : 0.0
+[IMAGE_DOS_HEADER]:e_lfarlc:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_lfarlc:mean : 64.0
+[IMAGE_DOS_HEADER]:e_ovno:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_ovno:mean : 26.0
+[IMAGE_DOS_HEADER]:e_oemid:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_oemid:mean : 0.0
+[IMAGE_DOS_HEADER]:e_oeminfo:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_oeminfo:mean : 0.0
+[IMAGE_DOS_HEADER]:e_lfanew:ctr : 1.0
+[IMAGE_DOS_HEADER]:e_lfanew:mean : 256.0
+[IMAGE_NT_HEADERS]:Signature:ctr : 1.0
+[IMAGE_NT_HEADERS]:Signature:mean : 17744.0
+[IMAGE_FILE_HEADER]:Machine:ctr : 1.0
+[IMAGE_FILE_HEADER]:Machine:mean : 332.0
+[IMAGE_FILE_HEADER]:NumberOfSections:ctr : 1.0
+[IMAGE_FILE_HEADER]:NumberOfSections:mean : 8.0
+[IMAGE_FILE_HEADER]:TimeDateStamp:ctr : 1.0
+[IMAGE_FILE_HEADER]:TimeDateStamp:mean : 708992537.0
+[IMAGE_FILE_HEADER]:PointerToSymbolTable:ctr : 1.0
+[IMAGE_FILE_HEADER]:PointerToSymbolTable:mean : 0.0
+[IMAGE_FILE_HEADER]:NumberOfSymbols:ctr : 1.0
+[IMAGE_FILE_HEADER]:NumberOfSymbols:mean : 0.0
+[IMAGE_FILE_HEADER]:SizeOfOptionalHeader:ctr : 1.0
+[IMAGE_FILE_HEADER]:SizeOfOptionalHeader:mean : 224.0
+[IMAGE_FILE_HEADER]:Characteristics:ctr : 1.0
+[IMAGE_FILE_HEADER]:Characteristics:mean : 33167.0
+[IMAGE_OPTIONAL_HEADER]:Magic:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:Magic:mean : 267.0
+[IMAGE_OPTIONAL_HEADER]:MajorLinkerVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MajorLinkerVersion:mean : 2.0
+[IMAGE_OPTIONAL_HEADER]:MinorLinkerVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MinorLinkerVersion:mean : 25.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfCode:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfCode:mean : 40448.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfInitializedData:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfInitializedData:mean : 467456.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfUninitializedData:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfUninitializedData:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:AddressOfEntryPoint:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:AddressOfEntryPoint:mean : 42488.0
+[IMAGE_OPTIONAL_HEADER]:BaseOfCode:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:BaseOfCode:mean : 4096.0
+[IMAGE_OPTIONAL_HEADER]:BaseOfData:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:BaseOfData:mean : 45056.0
+[IMAGE_OPTIONAL_HEADER]:ImageBase:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:ImageBase:mean : 4194304.0
+[IMAGE_OPTIONAL_HEADER]:SectionAlignment:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SectionAlignment:mean : 4096.0
+[IMAGE_OPTIONAL_HEADER]:FileAlignment:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:FileAlignment:mean : 512.0
+[IMAGE_OPTIONAL_HEADER]:MajorOperatingSystemVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MajorOperatingSystemVersion:mean : 1.0
+[IMAGE_OPTIONAL_HEADER]:MinorOperatingSystemVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MinorOperatingSystemVersion:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:MajorImageVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MajorImageVersion:mean : 6.0
+[IMAGE_OPTIONAL_HEADER]:MinorImageVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MinorImageVersion:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:MajorSubsystemVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MajorSubsystemVersion:mean : 4.0
+[IMAGE_OPTIONAL_HEADER]:MinorSubsystemVersion:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:MinorSubsystemVersion:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:Reserved1:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:Reserved1:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfImage:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfImage:mean : 536576.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeaders:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeaders:mean : 1024.0
+[IMAGE_OPTIONAL_HEADER]:CheckSum:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:CheckSum:mean : 22382548.0
+[IMAGE_OPTIONAL_HEADER]:Subsystem:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:Subsystem:mean : 2.0
+[IMAGE_OPTIONAL_HEADER]:DllCharacteristics:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:DllCharacteristics:mean : 32768.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfStackReserve:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfStackReserve:mean : 1048576.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfStackCommit:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfStackCommit:mean : 16384.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeapReserve:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeapReserve:mean : 1048576.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeapCommit:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:SizeOfHeapCommit:mean : 4096.0
+[IMAGE_OPTIONAL_HEADER]:LoaderFlags:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:LoaderFlags:mean : 0.0
+[IMAGE_OPTIONAL_HEADER]:NumberOfRvaAndSizes:ctr : 1.0
+[IMAGE_OPTIONAL_HEADER]:NumberOfRvaAndSizes:mean : 16.0
+[IMAGE_SECTION_HEADER]:Misc:ctr : 8.0
+[IMAGE_SECTION_HEADER]:Misc:mean : 64066.0
+[IMAGE_SECTION_HEADER]:Misc:min : 8.0
+[IMAGE_SECTION_HEADER]:Misc:max : 463308.0
+[IMAGE_SECTION_HEADER]:Misc_PhysicalAddress:ctr : 8.0
+[IMAGE_SECTION_HEADER]:Misc_PhysicalAddress:mean : 64066.0
+[IMAGE_SECTION_HEADER]:Misc_PhysicalAddress:min : 8.0
+[IMAGE_SECTION_HEADER]:Misc_PhysicalAddress:max : 463308.0
+[IMAGE_SECTION_HEADER]:Misc_VirtualSize:ctr : 8.0
+[IMAGE_SECTION_HEADER]:Misc_VirtualSize:mean : 64066.0
+[IMAGE_SECTION_HEADER]:Misc_VirtualSize:min : 8.0
+[IMAGE_SECTION_HEADER]:Misc_VirtualSize:max : 463308.0
+[IMAGE_SECTION_HEADER]:VirtualAddress:ctr : 8.0
+[IMAGE_SECTION_HEADER]:VirtualAddress:mean : 50688.0
+[IMAGE_SECTION_HEADER]:VirtualAddress:min : 4096.0
+[IMAGE_SECTION_HEADER]:VirtualAddress:max : 69632.0
+[IMAGE_SECTION_HEADER]:SizeOfRawData:ctr : 8.0
+[IMAGE_SECTION_HEADER]:SizeOfRawData:mean : 63488.0
+[IMAGE_SECTION_HEADER]:SizeOfRawData:min : 0.0
+[IMAGE_SECTION_HEADER]:SizeOfRawData:max : 463360.0
+[IMAGE_SECTION_HEADER]:PointerToRawData:ctr : 8.0
+[IMAGE_SECTION_HEADER]:PointerToRawData:mean : 32896.0
+[IMAGE_SECTION_HEADER]:PointerToRawData:min : 0.0
+[IMAGE_SECTION_HEADER]:PointerToRawData:max : 45568.0
+[IMAGE_SECTION_HEADER]:PointerToRelocations:ctr : 8.0
+[IMAGE_SECTION_HEADER]:PointerToRelocations:mean : 0.0
+[IMAGE_SECTION_HEADER]:PointerToRelocations:min : 0.0
+[IMAGE_SECTION_HEADER]:PointerToRelocations:max : 0.0
+[IMAGE_SECTION_HEADER]:PointerToLinenumbers:ctr : 8.0
+[IMAGE_SECTION_HEADER]:PointerToLinenumbers:mean : 0.0
+[IMAGE_SECTION_HEADER]:PointerToLinenumbers:min : 0.0
+[IMAGE_SECTION_HEADER]:PointerToLinenumbers:max : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfRelocations:ctr : 8.0
+[IMAGE_SECTION_HEADER]:NumberOfRelocations:mean : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfRelocations:min : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfRelocations:max : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfLinenumbers:ctr : 8.0
+[IMAGE_SECTION_HEADER]:NumberOfLinenumbers:mean : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfLinenumbers:min : 0.0
+[IMAGE_SECTION_HEADER]:NumberOfLinenumbers:max : 0.0
+[IMAGE_SECTION_HEADER]:Characteristics:ctr : 8.0
+[IMAGE_SECTION_HEADER]:Characteristics:mean : 2315255852.0
+[IMAGE_SECTION_HEADER]:Characteristics:min : 1000000000.0
+[IMAGE_SECTION_HEADER]:Characteristics:max : 3221225536.0
+[IMAGE_SECTION_HEADER]:Entropy:ctr : 8.0
+[IMAGE_SECTION_HEADER]:Entropy:mean : 2.3097953749999998
+[IMAGE_SECTION_HEADER]:Entropy:min : 0.0
+[IMAGE_SECTION_HEADER]:Entropy:max : 6.631603
+[IMAGE_DIRECTORY_ENTRY_EXPORT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_EXPORT]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_EXPORT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_EXPORT]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_IMPORT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_IMPORT]:VirtualAddress:mean : 53248.0
+[IMAGE_DIRECTORY_ENTRY_IMPORT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_IMPORT]:Size:mean : 2384.0
+[IMAGE_DIRECTORY_ENTRY_RESOURCE]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_RESOURCE]:VirtualAddress:mean : 69632.0
+[IMAGE_DIRECTORY_ENTRY_RESOURCE]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_RESOURCE]:Size:mean : 463308.0
+[IMAGE_DIRECTORY_ENTRY_EXCEPTION]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_EXCEPTION]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_EXCEPTION]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_EXCEPTION]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_SECURITY]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_SECURITY]:VirtualAddress:mean : 22347216.0
+[IMAGE_DIRECTORY_ENTRY_SECURITY]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_SECURITY]:Size:mean : 8808.0
+[IMAGE_DIRECTORY_ENTRY_BASERELOC]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_BASERELOC]:VirtualAddress:mean : 65536.0
+[IMAGE_DIRECTORY_ENTRY_BASERELOC]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_BASERELOC]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_DEBUG]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_DEBUG]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_DEBUG]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_DEBUG]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_TLS]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_TLS]:VirtualAddress:mean : 61440.0
+[IMAGE_DIRECTORY_ENTRY_TLS]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_TLS]:Size:mean : 24.0
+[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_IAT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_IAT]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_IAT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_IAT]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]:Size:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_RESERVED]:VirtualAddress:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_RESERVED]:VirtualAddress:mean : 0.0
+[IMAGE_DIRECTORY_ENTRY_RESERVED]:Size:ctr : 1.0
+[IMAGE_DIRECTORY_ENTRY_RESERVED]:Size:mean : 0.0
+[VS_VERSIONINFO]:Length:ctr : 1.0
+[VS_VERSIONINFO]:Length:mean : 1268.0
+[VS_VERSIONINFO]:ValueLength:ctr : 1.0
+[VS_VERSIONINFO]:ValueLength:mean : 52.0
+[VS_VERSIONINFO]:Type:ctr : 1.0
+[VS_VERSIONINFO]:Type:mean : 0.0
+[VS_FIXEDFILEINFO]:Signature:ctr : 1.0
+[VS_FIXEDFILEINFO]:Signature:mean : 4277077181.0
+[VS_FIXEDFILEINFO]:StrucVersion:ctr : 1.0
+[VS_FIXEDFILEINFO]:StrucVersion:mean : 65536.0
+[VS_FIXEDFILEINFO]:FileVersionMS:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileVersionMS:mean : 262144.0
+[VS_FIXEDFILEINFO]:FileVersionLS:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileVersionLS:mean : 64.0
+[VS_FIXEDFILEINFO]:ProductVersionMS:ctr : 1.0
+[VS_FIXEDFILEINFO]:ProductVersionMS:mean : 262144.0
+[VS_FIXEDFILEINFO]:ProductVersionLS:ctr : 1.0
+[VS_FIXEDFILEINFO]:ProductVersionLS:mean : 64.0
+[VS_FIXEDFILEINFO]:FileFlagsMask:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileFlagsMask:mean : 63.0
+[VS_FIXEDFILEINFO]:FileFlags:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileFlags:mean : 0.0
+[VS_FIXEDFILEINFO]:FileOS:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileOS:mean : 4.0
+[VS_FIXEDFILEINFO]:FileType:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileType:mean : 1.0
+[VS_FIXEDFILEINFO]:FileSubtype:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileSubtype:mean : 0.0
+[VS_FIXEDFILEINFO]:FileDateMS:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileDateMS:mean : 0.0
+[VS_FIXEDFILEINFO]:FileDateLS:ctr : 1.0
+[VS_FIXEDFILEINFO]:FileDateLS:mean : 0.0
+[StringFileInfo]:Length:ctr : 1.0
+[StringFileInfo]:Length:mean : 1106.0
+[StringFileInfo]:ValueLength:ctr : 1.0
+[StringFileInfo]:ValueLength:mean : 0.0
+[StringFileInfo]:Type:ctr : 1.0
+[StringFileInfo]:Type:mean : 1.0
+  [StringTable]:Length:ctr : 1.0
+  [StringTable]:Length:mean : 1070.0
+  [StringTable]:ValueLength:ctr : 1.0
+  [StringTable]:ValueLength:mean : 0.0
+  [StringTable]:Type:ctr : 1.0
+  [StringTable]:Type:mean : 1.0
+[VarFileInfo]:Length:ctr : 1.0
+[VarFileInfo]:Length:mean : 68.0
+[VarFileInfo]:ValueLength:ctr : 1.0
+[VarFileInfo]:ValueLength:mean : 0.0
+[VarFileInfo]:Type:ctr : 1.0
+[VarFileInfo]:Type:mean : 1.0
+  [Var]:Length:ctr : 1.0
+  [Var]:Length:mean : 36.0
+  [Var]:ValueLength:ctr : 1.0
+  [Var]:ValueLength:mean : 4.0
+  [Var]:Type:ctr : 1.0
+  [Var]:Type:mean : 0.0
+  [Var]:    Translation:ctr : 1.0
+  [Var]:    Translation:mean : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:OriginalFirstThunk:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:OriginalFirstThunk:mean : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:OriginalFirstThunk:min : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:OriginalFirstThunk:max : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:Characteristics:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:Characteristics:mean : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:Characteristics:min : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:Characteristics:max : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:TimeDateStamp:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:TimeDateStamp:mean : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:TimeDateStamp:min : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:TimeDateStamp:max : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:ForwarderChain:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:ForwarderChain:mean : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:ForwarderChain:min : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:ForwarderChain:max : 0.0
+[IMAGE_IMPORT_DESCRIPTOR]:Name:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:Name:mean : 54756.25
+[IMAGE_IMPORT_DESCRIPTOR]:Name:min : 53844.0
+[IMAGE_IMPORT_DESCRIPTOR]:Name:max : 55594.0
+[IMAGE_IMPORT_DESCRIPTOR]:FirstThunk:ctr : 8.0
+[IMAGE_IMPORT_DESCRIPTOR]:FirstThunk:mean : 53642.5
+[IMAGE_IMPORT_DESCRIPTOR]:FirstThunk:min : 53428.0
+[IMAGE_IMPORT_DESCRIPTOR]:FirstThunk:max : 53836.0
+[IMAGE_RESOURCE_DIRECTORY]:Characteristics:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:Characteristics:mean : 0.0
+[IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:mean : 0.0
+[IMAGE_RESOURCE_DIRECTORY]:MajorVersion:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:MajorVersion:mean : 4.0
+[IMAGE_RESOURCE_DIRECTORY]:MinorVersion:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:MinorVersion:mean : 0.0
+[IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:mean : 0.0
+[IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:ctr : 1.0
+[IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:mean : 6.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:ctr : 6.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:mean : 12.166666666666666
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:min : 3.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:max : 24.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:ctr : 6.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:mean : 2147483872.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:min : 1000000000.0
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:max : 2147483960.0
+    [IMAGE_RESOURCE_DIRECTORY]:Characteristics:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:Characteristics:mean : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:Characteristics:min : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:Characteristics:max : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:mean : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:min : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:max : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:mean : 4.0
+    [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:min : 4.0
+    [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:max : 4.0
+    [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:mean : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:min : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:max : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:mean : 0.16666666666666666
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:min : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:max : 1.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:ctr : 6.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:mean : 3.5
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:min : 0.0
+    [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:max : 12.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:ctr : 22.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:mean : 97614573.04545455
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:min : 1.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:max : 2147484864.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:ctr : 22.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:mean : 2147484236.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:min : 1000000000.0
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:max : 2147484488.0
+        [IMAGE_RESOURCE_DIRECTORY]:Characteristics:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:Characteristics:mean : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:Characteristics:min : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:Characteristics:max : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:mean : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:min : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:TimeDateStamp:max : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:mean : 4.0
+        [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:min : 4.0
+        [IMAGE_RESOURCE_DIRECTORY]:MajorVersion:max : 4.0
+        [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:mean : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:min : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:MinorVersion:max : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:mean : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:min : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfNamedEntries:max : 0.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:ctr : 22.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:mean : 1.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:min : 1.0
+        [IMAGE_RESOURCE_DIRECTORY]:NumberOfIdEntries:max : 1.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:ctr : 22.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:mean : 704.3181818181819
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:min : 0.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:Name:max : 1033.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:ctr : 22.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:mean : 1032.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:min : 864.0
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]:OffsetToData:max : 1200.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:OffsetToData:ctr : 22.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:OffsetToData:mean : 414354.54545454547
+            [IMAGE_RESOURCE_DATA_ENTRY]:OffsetToData:min : 70868.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:OffsetToData:max : 531360.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Size:ctr : 22.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Size:mean : 21002.909090909092
+            [IMAGE_RESOURCE_DATA_ENTRY]:Size:min : 44.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Size:max : 270376.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:CodePage:ctr : 22.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:CodePage:mean : 1252.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:CodePage:min : 1252.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:CodePage:max : 1252.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Reserved:ctr : 22.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Reserved:mean : 0.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Reserved:min : 0.0
+            [IMAGE_RESOURCE_DATA_ENTRY]:Reserved:max : 0.0
+[IMAGE_TLS_DIRECTORY]:StartAddressOfRawData:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:StartAddressOfRawData:mean : 4251648.0
+[IMAGE_TLS_DIRECTORY]:EndAddressOfRawData:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:EndAddressOfRawData:mean : 4251656.0
+[IMAGE_TLS_DIRECTORY]:AddressOfIndex:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:AddressOfIndex:mean : 4244432.0
+[IMAGE_TLS_DIRECTORY]:AddressOfCallBacks:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:AddressOfCallBacks:mean : 4255760.0
+[IMAGE_TLS_DIRECTORY]:SizeOfZeroFill:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:SizeOfZeroFill:mean : 0.0
+[IMAGE_TLS_DIRECTORY]:Characteristics:ctr : 1.0
+[IMAGE_TLS_DIRECTORY]:Characteristics:mean : 0.0

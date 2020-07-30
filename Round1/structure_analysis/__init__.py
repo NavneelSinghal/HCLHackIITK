@@ -1,5 +1,6 @@
 import collections
 import os
+import sys
 
 def get_feature_dict(filename, ignore_indent=False):
     lines = open(os.path.join(filename, 'Structure_Info.txt'), 'r')
@@ -11,9 +12,9 @@ def get_feature_dict(filename, ignore_indent=False):
         if l[0] == '-' or l.lstrip()[0] == '[':
             # new context
             if ignore_indent:
-                name = l.lstrip()
+                name = l.strip()
             else:
-                name = l
+                name = l.rstrip()
         else:
             try:
                 # kv pair
@@ -63,3 +64,7 @@ def get_feature_dict(filename, ignore_indent=False):
             ret[k + ':min'] = arr[2]
             ret[k + ':max'] = arr[3]
     return ret
+
+if __name__ == '__main__':
+    for k, v in get_feature_dict(sys.argv[1]).items():
+        print(k, ':', v)
