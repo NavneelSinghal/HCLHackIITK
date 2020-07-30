@@ -147,13 +147,20 @@ def test():
     Ty = fromiter(Ty)
 
     print("features:", feat)
-    print("accuracy (in \%):", metrics.accuracy_score(prediction_values, Ty))
-    print("f1 score (in \%):", metrics.f1_score(prediction_values, Ty, average = 'micro'))
+    print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
+    print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
     print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
     print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
     print("f1 score (macro):", metrics.f1_score(prediction_values, Ty, average = 'macro'))
     print("precision score (macro):", metrics.precision_score(prediction_values, Ty, average = 'macro'))
     print("recall score (macro):", metrics.recall_score(prediction_values, Ty, average = 'macro'))
+
+    mismatch = 0
+    tot = prediction_values.shape[0]
+    for i in range(tot):
+        mismatch += 1 if prediction_values[i] != Ty[i] else 0
+
+    print("mismatches:", mismatch)
 
     print("prediction is", prediction_values.tolist())
     print("y is", Ty.tolist())
