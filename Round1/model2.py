@@ -1,3 +1,6 @@
+# author: Navneel Singhal
+# functionality: extraction, training and validation
+
 import string_analysis
 import utility
 from time import time
@@ -15,133 +18,134 @@ classes = [
         'Malware/Worm'
         ]
 
-start_time = time()
-complete = 0
-
-predictions = []
-feature_list = []
-
 predict_filename = 'temp_prediction_dump.sav'
 feature_list_filename = 'temp_feature_dump.sav'
 test_predict_filename = 'temp_test_prediction_dump.sav'
 test_feature_list_filename = 'temp_test_feature_list_filename_dump.sav'
 
+def extract_features():
 
-# this is for extraction of features
+    start_time = time()
+    predictions = []
+    feature_list = []
 
-'''
+    total = (utility.get_all('Static_Analysis_Data'))
+    print(len(total))
+    random.shuffle(total)
 
-total = (utility.get_all('Static_Analysis_Data'))
-print(len(total))
-random.shuffle(total)
+    train_fraction = 0.75
 
-train_fraction = 0.70
+    train = total[:int(train_fraction * len(total))]
+    test = total[len(train):]
 
-train = total[:int(train_fraction * len(total))]
-test = total[len(train):]
+    complete = 0
+    print("now working on train")
+    for fl in train:
+        w = -1
+        for i in range(len(classes)):
+            if fl.count(classes[i]) > 0:
+                w = i
+                break
+        assert(w != -1)
+        predictions.append(w)
+        feature_list.append(string_analysis.get_frequency_map(fl))
+        complete += 1
+        if complete % 50 == 0:
+            print (str(complete) + " done")
 
-print("now working on train")
+    test_predictions = []
+    test_feature_list = []
 
-for fl in train:
-    w = -1
-    for i in range(len(classes)):
-        if fl.count(classes[i]) > 0:
-            w = i
-            break
-    assert(w != -1)
-    predictions.append(w)
-    feature_list.append(string_analysis.get_frequency_map(fl))
-    complete += 1
-    if complete % 50 == 0:
-        print (str(complete) + " done")
-    #if complete == 1000:
-        #break
+    print("now working on test")
 
-test_predictions = []
-test_feature_list = []
+    complete = 0
 
-print("now working on test")
+    for fl in test:
+        w = -1
+        for i in range(len(classes)):
+            if fl.count(classes[i]) > 0:
+                w = i
+                break
+        test_predictions.append(w)
+        test_feature_list.append(string_analysis.get_frequency_map(fl))
+        complete += 1
+        if complete % 50 == 0:
+            print (str(complete) + " done")
 
-complete = 0
+    pickle.dump(predictions, open(predict_filename, 'wb'))
+    pickle.dump(feature_list, open(feature_list_filename, 'wb'))
+    pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
+    pickle.dump(test_feature_list, open(test_feature_list_filename, 'wb'))
 
-for fl in test:
-    w = -1
-    for i in range(len(classes)):
-        if fl.count(classes[i]) > 0:
-            w = i
-            break
-    test_predictions.append(i)
-    test_feature_list.append(string_analysis.get_frequency_map(fl))
-    complete += 1
-    if complete % 50 == 0:
-        print (str(complete) + " done")
-    #if complete == 1000:
-        #break
+    end_time = time()
 
-pickle.dump(predictions, open(predict_filename, 'wb'))
-pickle.dump(feature_list, open(feature_list_filename, 'wb'))
-pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
-pickle.dump(test_feature_list, open(test_feature_list_filename, 'wb'))
+    print ('String feature extraction complete in ' + str(end_time - start_time) + ' seconds')
 
-end_time = time()
 
-print ('String feature extraction complete in ' + str(end_time - start_time) + ' seconds')
+def train():
 
-'''
+    start_time = time()
 
-#this is for training and validating the model
+    from sklearn.feature_extraction import FeatureHasher
+    from sklearn.ensemble import ExtraTreesClassifier
+    from sklearn import metrics
 
-#'''
+    feat = 7000
+    h = FeatureHasher(n_features = feat)
 
-from sklearn.feature_extraction import FeatureHasher
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn import metrics
+    X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
+    y = np.array(pickle.load(open(predict_filename, 'rb')))
 
-start_time = time()
+    clf = ExtraTreesClassifier(max_depth = 1000)
+    clf.fit(X, y)
+    pickle.dump(clf, open('model2_parameters.sav', 'wb'))
 
-feat = 7000
-h = FeatureHasher(n_features = feat)
+    end_time = time()
 
-'''
-X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
-y = np.array(pickle.load(open(predict_filename, 'rb')))
+    print ('Training complete in ' + str(end_time - start_time) + ' seconds')
 
-clf = ExtraTreesClassifier(max_depth = 1000)
-clf.fit(X, y)
-'''
+def test():
 
-clf = pickle.load(open('model2_parameters.sav', 'rb'))
+    from sklearn.feature_extraction import FeatureHasher
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn import metrics
 
-TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
-Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
+    feat = 7000
+    h = FeatureHasher(n_features = feat)
 
-prediction_values = clf.predict(TX)
+    start_time = time()
 
-f = lambda x: 1 if x > 0 else 0
+    TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
+    Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
 
-def fromiter(x):
-    return np.fromiter((f(xi) for xi in x), x.dtype)
+    clf = pickle.load(open('model2_parameters.sav', 'rb'))
 
-prediction_values = fromiter(prediction_values)
-Ty = fromiter(Ty)
+    prediction_values = clf.predict(TX)
 
-print("features:", feat)
-print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
-print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
-print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
-print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
-print("f1 score (macro):", metrics.f1_score(prediction_values, Ty, average = 'macro'))
-print("precision score (macro):", metrics.precision_score(prediction_values, Ty, average = 'macro'))
-print("recall score (macro):", metrics.recall_score(prediction_values, Ty, average = 'macro'))
+    f = lambda x: 1 if x > 0 else 0
 
-print("prediction is", prediction_values.tolist())
-print("y is", Ty.tolist())
+    def fromiter(x):
+        return np.fromiter((f(xi) for xi in x), x.dtype)
 
-pickle.dump(clf, open('model2_parameters.sav', 'wb'))
+    prediction_values = fromiter(prediction_values)
+    Ty = fromiter(Ty)
 
-#'''
+    print("features:", feat)
+    print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
+    print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
+    print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
+    print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
+    print("f1 score (macro):", metrics.f1_score(prediction_values, Ty, average = 'macro'))
+    print("precision score (macro):", metrics.precision_score(prediction_values, Ty, average = 'macro'))
+    print("recall score (macro):", metrics.recall_score(prediction_values, Ty, average = 'macro'))
 
-end_time = time()
+    print("prediction is", prediction_values.tolist())
+    print("y is", Ty.tolist())
 
-print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
+    end_time = time()
 
+    print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
+
+#extract_features()
+#train()
+test()
