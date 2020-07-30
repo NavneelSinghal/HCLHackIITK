@@ -69,6 +69,9 @@ def get_feature_dict(filename, ignore_indent=False):
             ret[k + ':max'] = arr[3]
     return ret
 
+def get_feature_dict_no_indent(filename):
+    return get_feature_dict(filename, True)
+
 if __name__ == '__main__':
     if sys.argv[1] == '-n':
         for k, v in get_feature_dict(sys.argv[2], True).items():

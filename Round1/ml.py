@@ -6,7 +6,7 @@
 #
 # TODO: theoretically correct use of standard scaling
 
-from structure_analysis import get_feature_dict
+from structure_analysis import *
 from utility import *
 
 from sklearn.pipeline import make_pipeline
@@ -20,8 +20,8 @@ from time import time
 from pickle import dump, load
 from sys import argv
 
-feature_dict_func = get_feature_dict
-num_features = 20000
+feature_dict_func = get_feature_dict_no_indent
+num_features = 10000
 root = 'Static_Analysis_Data'
 train_frac = 0.75
 use_frac = 1.0 # fraction of files used to train+test
