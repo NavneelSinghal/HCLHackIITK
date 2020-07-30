@@ -112,6 +112,14 @@ clf.fit(X, y)
 
 prediction_values = clf.predict(TX)
 
+f = lambda x: 1 if x > 0 else 0
+
+def fromiter(x):
+    return np.fromiter((f(xi) for xi in x), x.dtype)
+
+prediction_values = fromiter(prediction_values)
+Ty = fromiter(Ty)
+
 print("features:", feat)
 print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
 print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
@@ -121,7 +129,7 @@ print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'mi
 print("prediction is", prediction_values.tolist())
 print("y is", Ty.tolist())
 
-pickle.dump(clf, open('model_parameters.sav', 'wb'))
+pickle.dump(clf, open('model2_parameters.sav', 'wb'))
 
 #'''
 
