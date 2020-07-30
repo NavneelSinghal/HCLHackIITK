@@ -4,7 +4,7 @@ import sys
 
 def get_feature_dict(filename, ignore_indent=False):
     lines = open(os.path.join(filename, 'Structure_Info.txt'), 'r')
-    kv = collections.defaultdict(lambda: [0., 0., 1e9, 0.])
+    kv = collections.defaultdict(lambda: [0., 0., float('inf'), 0.])
     ret = collections.defaultdict(float)
     for l in lines:
         if len(l.strip()) == 0:
@@ -19,16 +19,17 @@ def get_feature_dict(filename, ignore_indent=False):
             try:
                 # kv pair
                 k, v = l.split(': ')
+                k = k.lstrip()
+                v = v.strip()
+                if k[:2] == '0x':
+                    # memory line
+                    k = k.split(' ')[-1]
                 if k == 'Name':
                     # section name
                     name += ':' + v
                     continue
-                if k.lstrip()[:2] == '0x':
-                    # memory line
-                    k = k.split(' ')[-1]
                 try:
                     # numerical value
-                    v = v.lstrip()
                     if v[:2] == '0x':
                         # hex numbers
                         u = ''
@@ -39,7 +40,7 @@ def get_feature_dict(filename, ignore_indent=False):
                         val = float(int(u, 16))
                     else:
                         # entropy and possibly other floats
-                        val = float(v.lstrip().split(' ')[0])
+                        val = float(v.split(' ')[0])
                     arr = kv[name + ':' + k]
                     arr[0] += 1                 # ctr
                     arr[1] += val               # sum
@@ -66,5 +67,9 @@ def get_feature_dict(filename, ignore_indent=False):
     return ret
 
 if __name__ == '__main__':
-    for k, v in get_feature_dict(sys.argv[1]).items():
-        print(k, ':', v)
+    if sys.argv[1] == '-n':
+        for k, v in get_feature_dict(sys.argv[2], True).items():
+            print(k, ':', v)
+    else:
+        for k, v in get_feature_dict(sys.argv[1]).items():
+            print(k, ':', v)
