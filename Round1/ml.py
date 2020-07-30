@@ -105,8 +105,17 @@ def get_trained_classifier(D, y):
     pipe.fit(D, y)
     return pipe
 
-def get_metrics(y_true, y_pred):
+def get_metrics(y_true, y_pred, binary=True):
     ret = ''
+    if binary:
+        y_true = [int(y/6) for y in y_true]
+        y_pred = [int(y/6) for y in y_pred]
+    ctr = 0
+    for i in range(len(y_true)):
+        if y_true[i] != y_pred[i]:
+            ctr += 1
+    ret += 'mismatch:' + str(ctr)
+    ret += '\n'
     ret += 'accuracy:' + str(accuracy_score(y_true, y_pred))
     ret += '\n'
     ret += 'f1 (micro):' + str(f1_score(y_true, y_pred, average='micro'))
