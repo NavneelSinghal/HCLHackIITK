@@ -102,13 +102,18 @@ start_time = time()
 feat = 7000
 h = FeatureHasher(n_features = feat)
 
+'''
 X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
 y = np.array(pickle.load(open(predict_filename, 'rb')))
-TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
-Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
 
 clf = ExtraTreesClassifier(max_depth = 1000)
 clf.fit(X, y)
+'''
+
+clf = pickle.load(open('model2_parameters.sav', 'rb'))
+
+TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
+Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
 
 prediction_values = clf.predict(TX)
 
@@ -125,6 +130,9 @@ print("accuracy:", metrics.accuracy_score(prediction_values, Ty))
 print("f1 score:", metrics.f1_score(prediction_values, Ty, average = 'micro'))
 print("precision score:", metrics.precision_score(prediction_values, Ty, average = 'micro'))
 print("recall score:", metrics.recall_score(prediction_values, Ty, average = 'micro'))
+print("f1 score (macro):", metrics.f1_score(prediction_values, Ty, average = 'macro'))
+print("precision score (macro):", metrics.precision_score(prediction_values, Ty, average = 'macro'))
+print("recall score (macro):", metrics.recall_score(prediction_values, Ty, average = 'macro'))
 
 print("prediction is", prediction_values.tolist())
 print("y is", Ty.tolist())
