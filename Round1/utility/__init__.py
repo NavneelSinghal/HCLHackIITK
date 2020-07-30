@@ -14,8 +14,7 @@ def get_files(directory):
     '''Given directory return files (hash) in it'''
     l = []
     for f in os.scandir(directory):
-        if f.is_dir():
-            l.append(f.path)
+        l.append(f.path)
     return l
 
 def get_all(root):
@@ -23,8 +22,15 @@ def get_all(root):
     for cl in classes:
         l += get_files(os.path.join(root, cl))
     return l
+def get_malwares(root):
+    l = []
+    for cl in classes[1:]:
+        l += get_files(os.path.join(root, cl))
+    return l
 def get_benigns(root):
     return get_files(os.path.join(root, classes[0]))
+def get_backdoors(root):
+    return get_files(os.path.join(root, 'Malware/Backdoor'))
 def get_trojans(root):
     return get_files(os.path.join(root, 'Malware/Trojan'))
 def get_trojandownloaders(root):
