@@ -20,7 +20,7 @@ apis = 0
 cnt = 0
 
 st = time()
-for benign in tqdm(utility.get_benigns('./dynamic_samples')):
+for benign in tqdm(utility.get_benigns('./Dynamic_Analysis_Data_Part1')):
     feat, freq_map = dynamic_analysis.get_feature_vector(benign)
     severity += feat[1]
     apis += len(freq_map)

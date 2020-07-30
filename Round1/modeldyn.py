@@ -1,7 +1,7 @@
 # author: Navneel Singhal
 # functionality: extraction, training and validation
 
-import string_analysis
+import dynamic_analysis
 import utility
 from time import time
 import pickle
@@ -18,18 +18,21 @@ classes = [
         'Malware/Worm'
         ]
 
-predict_filename = 'temp_prediction_dump.sav'
-feature_list_filename = 'temp_feature_dump.sav'
-test_predict_filename = 'temp_test_prediction_dump.sav'
-test_feature_list_filename = 'temp_test_feature_list_filename_dump.sav'
+predict_filename = 'temp_dynprediction_dump.sav'
+feature_list_filename = 'temp_dynfeature_dump.sav'
+feature_dict_filename = 'temp_dyndict_dump.sav'
+test_predict_filename = 'temp_dyntest_prediction_dump.sav'
+test_feature_list_filename = 'temp_dyntest_feature_list_filename_dump.sav'
+test_dict_filename = 'temp_dyntest_dict_dump.sav'
 
 def extract_features():
 
     start_time = time()
     predictions = []
     feature_list = []
+    feature_dict = []
 
-    total = (utility.get_all('Static_Analysis_Data'))
+    total = utility.get_all('Dynamic_Analysis_Data_Part1') + utility.get_all('Dynamic_Analysis_Data_Part2')
     print(len(total))
     random.shuffle(total)
 
@@ -48,14 +51,19 @@ def extract_features():
                 break
         assert(w != -1)
         predictions.append(w)
-        feature_list.append(string_analysis.get_frequency_map(fl))
+        #feature_list.append(
+        feat_list, dictionary = dynamic_analysis.get_feature_vector(fl)
+        feature_list.append(feat_list)
+        feature_dict.append(dictionary)
         complete += 1
         if complete % 50 == 0:
             print (str(complete) + " done")
+        if complete == 1000:
+            break
 
     test_predictions = []
     test_feature_list = []
-
+    test_feature_dict = []
     print("now working on test")
 
     complete = 0
@@ -66,21 +74,27 @@ def extract_features():
             if fl.count(classes[i]) > 0:
                 w = i
                 break
+        feat_list, dictionary = dynamic_analysis.get_feature_vector(fl)
+        test_feature_list.append(feat_list)
+        test_feature_dict.append(dictionary)
         test_predictions.append(w)
-        test_feature_list.append(string_analysis.get_frequency_map(fl))
         complete += 1
         if complete % 50 == 0:
             print (str(complete) + " done")
+        if complete == 1000:
+            break
 
     pickle.dump(predictions, open(predict_filename, 'wb'))
     pickle.dump(feature_list, open(feature_list_filename, 'wb'))
+    pickle.dump(feature_dict, open(feature_dict_filename, 'wb'))
+
     pickle.dump(test_predictions, open(test_predict_filename, 'wb'))
     pickle.dump(test_feature_list, open(test_feature_list_filename, 'wb'))
+    pickle.dump(test_feature_dict, open(test_dict_filename, 'wb'))
 
     end_time = time()
 
     print ('String feature extraction complete in ' + str(end_time - start_time) + ' seconds')
-
 
 def train():
 
@@ -93,12 +107,13 @@ def train():
     feat = 7000
     h = FeatureHasher(n_features = feat)
 
-    X = h.transform(pickle.load(open(feature_list_filename, 'rb'))).toarray()
+    X = h.transform(pickle.load(open(feature_dict_filename, 'rb'))).toarray()
+    X = np.concatenate((X, np.array(pickle.load(open(feature_list_filename, 'rb')))), axis = 1)
     y = np.array(pickle.load(open(predict_filename, 'rb')))
 
     clf = RandomForestClassifier()
     clf.fit(X, y)
-    pickle.dump(clf, open('model_parameters.sav', 'wb'))
+    pickle.dump(clf, open('modeldyn_parameters.sav', 'wb'))
 
     end_time = time()
 
@@ -115,10 +130,11 @@ def test():
 
     start_time = time()
 
-    TX = h.transform(pickle.load(open(test_feature_list_filename, 'rb'))).toarray()
+    TX = h.transform(pickle.load(open(test_dict_filename, 'rb'))).toarray()
+    TX = np.concatenate((TX, np.array(pickle.load(open(test_feature_list_filename, 'rb')))), axis = 1)
     Ty = np.array(pickle.load(open(test_predict_filename, 'rb')))
 
-    clf = pickle.load(open('model_parameters.sav', 'rb'))
+    clf = pickle.load(open('modeldyn_parameters.sav', 'rb'))
 
     prediction_values = clf.predict(TX)
 
@@ -147,5 +163,5 @@ def test():
     print ('Testing complete in ' + str(end_time - start_time) + ' seconds')
 
 #extract_features()
-#train()
+train()
 test()

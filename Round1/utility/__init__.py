@@ -20,12 +20,18 @@ def get_files(directory):
 def get_all(root):
     l = []
     for cl in classes:
-        l += get_files(os.path.join(root, cl))
+        try:
+            l += get_files(os.path.join(root, cl))
+        except:
+            l += []
     return l
 def get_malwares(root):
     l = []
     for cl in classes[1:]:
-        l += get_files(os.path.join(root, cl))
+        try:
+            l += get_files(os.path.join(root, cl))
+        except:
+            l += []
     return l
 def get_benigns(root):
     return get_files(os.path.join(root, classes[0]))
