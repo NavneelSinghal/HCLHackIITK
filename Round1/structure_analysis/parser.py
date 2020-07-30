@@ -48,8 +48,14 @@ class Parser:
             t.append('0x0')
         t[0] = t[0].strip()
         t[1] = t[1].strip()
-        if (t[0][:2] == '0x'):
+        if t[0][:2] == '0x':
             t[0] = t[0].split(' ')[-1]
+        if t[1][:2] == '0x':
+            t[1] = t[1].split(' ')[0]
+            t[1] = int(t[1], 16)
+        if t[0] == 'Entropy':
+            t[1] = t[1].split(' ')[0]
+            t[1] = float(t[1])
         return t
 
     def parse_inner(self):
@@ -108,6 +114,48 @@ class Parser:
         self.parse_inner()
         self.parse_outer()
 
+# TODO:
+# 1. derived features from dos_header: size of e_res and e_res2
+# 2. comma separated flags
+# 3. entropy
+
+def extract_features(p):
+    ret = {}
+    rep_ctr = {}
+    rep_sum = {}
+    rep_max = {}
+    rep_min = {}
+    for k, v in p.ctx_dict.items():
+        if p.ctx_name_ctr[k[0]] == 0:
+            for fk, fv in v.items():
+                ret[k[0] + '::' + fk] = fv
+        else:
+            for fk, fv in v.items():
+                if type(fv) == str:
+                    continue
+                name = k[0] + '::' + fk
+                if name in rep_ctr:
+                    rep_ctr[name] += 1
+                else:
+                    rep_ctr[name] = 1
+                if name in rep_sum:
+                    rep_sum[name] += fv
+                else:
+                    rep_sum[name] = 1
+                if name in rep_max:
+                    rep_max[name] = max(rep_max[name], fv)
+                else:
+                    rep_max[name] = fv
+                if name in rep_min:
+                    rep_min[name] = min(rep_max[name], fv)
+                else:
+                    rep_min[name] = fv
+    for k in rep_ctr.keys():
+        ret[k + '::mean'] = rep_sum[k] / rep_ctr[k]
+        ret[k + '::max'] = rep_max[k]
+        ret[k + '::min'] = rep_min[k]
+    return ret
+
 def main():
     lines = sys.stdin.readlines()
     lines = [l.rstrip() for l in lines if l.rstrip()]
@@ -124,6 +172,14 @@ def main():
     print()
     print("=== ctx_children ===")
     print(*parser.ctx_children.items(), sep = '\n')
+    print()
+    print()
+    print("=== ctx_name_ctr ===")
+    print(*parser.ctx_name_ctr.items(), sep = '\n')
+    print()
+    print()
+    print("=== features ===")
+    print(*extract_features(parser).items(), sep = '\n')
     print()
     print()
 
