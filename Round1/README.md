@@ -66,3 +66,91 @@ To extract these features, we used a simple parser for json files.
 5. dynamic - signatures had cuckoo sandbox - so read stuff - signatures header - severity and all (max severity is a feature). then studied the different kinds of api calls like old approach (using paper)
 
 6. structure analysis - ask rishabh about it 
+
+## Appendix
+
+python3 MLDetect.py --train .
+{'train': True, 'validate': False, 'predict': False, 'split': 0.75, 'model': 'all', 'output': 'output.csv', 'choose': 0, 'inputs': ['.']}
+Total 10002 String.txt(s) detected.
+Total 10003 Structure_Info.txt(s) detected.
+Total 9958 JSON(s) detected.
+Loading all 3 models ...
+Training on 9955 hashes 3 models seperately ...
+Starting feature extraction
+Completed extracting features from 7466 files
+Feature extraction completed in 154.9520823955536 seconds
+Starting training model
+Training completed in 19.345020294189453 seconds
+Starting feature extraction
+Completed extracting features from 2489 files
+Feature extraction completed in 58.831676721572876 seconds
+Starting testing
+Testing completed in 2.5526962280273438 seconds
+accuracy:			 0.9803133788670149
+f1 score (micro):		 0.9803133788670149
+precision score (micro):	 0.9803133788670149
+recall score (micro):		 0.9803133788670149
+f1 score (macro):		 0.9803026830671812
+precision score (macro):	 0.9801835785481885
+recall score (macro):		 0.9805615878801981
+Starting feature extraction
+Completed extracting features from 7464 files
+Feature extraction completed in 122.7312753200531 seconds
+Starting training model
+Training completed in 10.537144184112549 seconds
+Starting feature extraction
+Completed extracting features from 2488 files
+Feature extraction completed in 44.54435968399048 seconds
+Starting testing
+Testing completed in 0.8261034488677979 seconds
+accuracy:			 0.976295701084773
+f1 score (micro):		 0.976295701084773
+precision score (micro):	 0.976295701084773
+recall score (micro):		 0.976295701084773
+f1 score (macro):		 0.9762711875361646
+precision score (macro):	 0.976213572155148
+recall score (macro):		 0.9763367063699843
+Starting feature extraction
+Corrupted json, reverting to library defaults
+Completed extracting features from 7464 files
+Feature extraction completed in 481.3193688392639 seconds
+Starting training model
+Training completed in 8.205965995788574 seconds
+Starting feature extraction
+Completed extracting features from 2489 files
+Feature extraction completed in 157.39156913757324 seconds
+Starting testing
+Testing completed in 0.8316993713378906 seconds
+accuracy:			 1.0
+f1 score (micro):		 1.0
+precision score (micro):	 1.0
+recall score (micro):		 1.0
+f1 score (macro):		 1.0
+precision score (macro):	 1.0
+recall score (macro):		 1.0
+
+ Now checking ensembled validity ...
+Starting feature extraction
+Completed extracting features from 2489 files
+Feature extraction completed in 53.15453386306763 seconds
+Starting testing
+Testing completed in 2.476295232772827 seconds
+Starting feature extraction
+Completed extracting features from 2488 files
+Feature extraction completed in 43.526689291000366 seconds
+Starting testing
+Testing completed in 0.8072757720947266 seconds
+Starting feature extraction
+Corrupted json, reverting to library defaults
+Completed extracting features from 2489 files
+Feature extraction completed in 149.8770833015442 seconds
+Starting testing
+Testing completed in 0.3803224563598633 seconds
+accuracy:			 1.0
+f1 score (micro):		 1.0
+precision score (micro):	 1.0
+recall score (micro):		 1.0
+f1 score (macro):		 1.0
+precision score (macro):	 1.0
+recall score (macro):		 1.0
+
