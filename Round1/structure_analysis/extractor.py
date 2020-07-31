@@ -16,6 +16,7 @@ def get_feature_dict(filename, ignore_indent=False):
                 name = l.strip()
             else:
                 name = l.rstrip()
+            ret[name] += 1.
         else:
             try:
                 if name.lstrip()[1:7].lower() == 'string':
@@ -27,8 +28,8 @@ def get_feature_dict(filename, ignore_indent=False):
                 if k[:2] == '0x':
                     # memory line
                     k = k.split(' ')[-1]
-                if k.lower().find('address') != -1:
-                    continue
+                #if k.lower().find('address') != -1:
+                #    continue
                 try:
                     # numerical value
                     if v[:2] == '0x':
@@ -54,6 +55,7 @@ def get_feature_dict(filename, ignore_indent=False):
                     if k == 'Name':
                         # section name
                         name += '#' + v
+                        ret[name + ':ctr'] += 1.
                         continue
                     if v.find(', ') != -1:
                         # list of flags, or such
@@ -67,19 +69,22 @@ def get_feature_dict(filename, ignore_indent=False):
                     ret[l.split('.')[0] + '.dll'] += 1.
     all_ctr = 0
     for k, arr in kv.items():
-        if k.lower().find('size') != -1:
-            arr[1] /= all_size
         if arr[0] > 1 and arr[2] != arr[3]:
             ret[k + ':mean'] = arr[1] / max(1, arr[0])
-            ret[k.split(':')[0] + ':ctr'] = arr[0]
+            #ret[k.split(':')[0] + ':ctr'] = arr[0]
             all_ctr += arr[0]
             ret[k + ':min'] = arr[2]
             ret[k + ':max'] = arr[3]
-        elif arr[1] != 0:
-            ret[k + ':mean'] = arr[1] / max(1, arr[0])
+        else:
+            ret[k + ':mean'] = arr[1]
+        if k.lower().find('size') != -1:
+            ret[k + ':mean_rel'] = arr[1] / arr[0] / all_size
+    tmp = {}
     for k, v in ret.items():
         if k[-4:] == ':ctr':
-            ret[k] /= all_ctr
+            tmp[k + '_rel'] = v / all_ctr
+    for k, v in tmp.items():
+        ret[k] = v
     return ret
 
 def get_feature_dict_no_indent(filename):

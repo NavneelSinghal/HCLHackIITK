@@ -49,7 +49,7 @@ class_dict = {
     'worm':6
 }
 
-def get_paths(root, glob_str, use_frac = 1., train_frac = .7):
+def get_paths(root, glob_str, use_frac = 1., train_frac = .75):
     paths = glob.glob(os.path.join(root, '**', glob_str), recursive=True)
     class_wise = []
     for _ in range(len(class_dict)):
