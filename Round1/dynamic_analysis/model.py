@@ -150,7 +150,7 @@ class DynamicModel:
 
         end_time = time()
 
-        print('Training completed in ' + str(end_time - start_time) + ' seconds')
+        print('Testing completed in ' + str(end_time - start_time) + ' seconds')
 
         f = lambda x: 1 if x > 0 else 0
 
