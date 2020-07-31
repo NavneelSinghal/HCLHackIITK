@@ -86,7 +86,9 @@ if __name__ == '__main__':
         except EOFError:
             pass
 
-    def train_step(mod, files):
+    def train_step(mod, files, shuffle=True):
+        if shuffle:
+            random.shuffle(files)
         files = list(filter(utility.labelled, files))
         random.shuffle(files) # remove later on
         training = files[:int(len(files)*args['split'])]
@@ -208,7 +210,7 @@ if __name__ == '__main__':
         else:
             predict_step(dynamic_model, files)
 
-    else:
+    else:        
         string_files = []
         struct_files = []
         dynamc_files = []
@@ -225,16 +227,53 @@ if __name__ == '__main__':
         dynamic_model = DynamicModel(default_dynamic_model_sav)
 
         if mode == 'train':
+            hash_wise = {}
+            for h, p, l in string_files:
+                hash_wise[h] = [(h, p, l)]
+            for h, p, l in struct_files:
+                if h in hash_wise:
+                    hash_wise[h].append((h,p,l))
+            for h, p, l in dynamc_files:
+                if h in hash_wise:
+                    hash_wise[h].append((h,p,l))
+            to_delete = []
+            for k, v in hash_wise.items():
+                if len(v) < 3:
+                    to_delete.append(k)
+            for k in to_delete:
+                del hash_wise[k]
+            files = list(hash_wise.values())
             if args['choose']:
-                if len(string_files) > args['choose']:
-                    string_files = random.sample(string_files, args['choose'])
-                if len(struct_files) > args['choose']:
-                    struct_files = random.sample(struct_files, args['choose'])
-                if len(dynamc_files) > args['choose']:
-                    dynamc_files = random.sample(dynamc_files, args['choose'])
-            train_step(string_model, string_files)
-            train_step(structure_model, struct_files)
-            train_step(dynamic_model, dynamc_files)
+                if len(files) > args['choose']:
+                    files = random.sample(files, args['choose'])
+            random.shuffle(files)
+            print(f'Training on {len(files)} hashes 3 models seperately ...')
+
+            string_files = list(map(itemgetter(0), files))
+            struct_files = list(map(itemgetter(1), files))
+            dynamc_files = list(map(itemgetter(2), files))
+
+            train_step(string_model, string_files, shuffle=False)
+            train_step(structure_model, struct_files, shuffle=False)
+            train_step(dynamic_model, dynamc_files, shuffle=False)
+
+            print('\n Now checking ensembled validity ...')
+            string_files = string_files[:int(len(string_files) * args['split'])]
+            struct_files = struct_files[:int(len(struct_files) * args['split'])]
+            dynamc_files = dynamc_files[:int(len(dynamc_files) * args['split'])]
+            res = ensemble(string_files, struct_files, dynamc_files,
+                           string_model.predict(map(itemgetter(1), string_files)),
+                           structure_model.predict(map(itemgetter(1), struct_files)),
+                           dynamic_model.predict(map(itemgetter(1), dynamc_files)))
+            # Write the sklearn step here please on x=res[1] and y=res[2]
+            print("accuracy:\t\t\t", metrics.accuracy_score(res[1], res[2]))
+            print("f1 score (micro):\t\t", metrics.f1_score(res[1], res[2], average = 'micro'))
+            print("precision score (micro):\t", metrics.precision_score(res[1], res[2], average = 'micro'))
+            print("recall score (micro):\t\t", metrics.recall_score(res[1], res[2], average = 'micro'))
+            print("f1 score (macro):\t\t", metrics.f1_score(res[1], res[2], average = 'macro'))
+            print("precision score (macro):\t", metrics.precision_score(res[1], res[2], average = 'macro'))
+            print("recall score (macro):\t\t", metrics.recall_score(res[1], res[2], average = 'macro'))
+
         elif mode == 'validate':
             if args['choose']:
                 print('The parameter "choose" is unavailable for this operation.'
