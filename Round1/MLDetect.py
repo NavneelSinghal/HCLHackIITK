@@ -90,6 +90,7 @@ if __name__ == '__main__':
         if shuffle:
             random.shuffle(files)
         files = list(filter(utility.labelled, files))
+        random.shuffle(files) # remove later on
         training = files[:int(len(files)*args['split'])]
         validation = files[int(len(files)*args['split']):]
         mod.train(map(itemgetter(1), training), map(itemgetter(2), training))
@@ -312,7 +313,7 @@ if __name__ == '__main__':
                 if res[1][i] == 0:
                     pred = 'Benign'
                 print(f'{res[0][i]},{pred}', file=outfile)
-    
+
 # from utility import *
 # import string_analysis
 # import random

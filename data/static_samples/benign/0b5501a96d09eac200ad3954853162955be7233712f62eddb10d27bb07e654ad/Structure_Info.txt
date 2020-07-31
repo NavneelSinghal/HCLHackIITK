@@ -1,0 +1,2009 @@
+----------DOS_HEADER----------
+
+[IMAGE_DOS_HEADER]
+0x0        0x0   e_magic:                       0x5A4D    
+0x2        0x2   e_cblp:                        0x90      
+0x4        0x4   e_cp:                          0x3       
+0x6        0x6   e_crlc:                        0x0       
+0x8        0x8   e_cparhdr:                     0x4       
+0xA        0xA   e_minalloc:                    0x0       
+0xC        0xC   e_maxalloc:                    0xFFFF    
+0xE        0xE   e_ss:                          0x0       
+0x10       0x10  e_sp:                          0xB8      
+0x12       0x12  e_csum:                        0x0       
+0x14       0x14  e_ip:                          0x0       
+0x16       0x16  e_cs:                          0x0       
+0x18       0x18  e_lfarlc:                      0x40      
+0x1A       0x1A  e_ovno:                        0x0       
+0x1C       0x1C  e_res:                         
+0x24       0x24  e_oemid:                       0x0       
+0x26       0x26  e_oeminfo:                     0x0       
+0x28       0x28  e_res2:                        
+0x3C       0x3C  e_lfanew:                      0xF8      
+
+----------NT_HEADERS----------
+
+[IMAGE_NT_HEADERS]
+0xF8       0x0   Signature:                     0x4550    
+
+----------FILE_HEADER----------
+
+[IMAGE_FILE_HEADER]
+0xFC       0x0   Machine:                       0x14C     
+0xFE       0x2   NumberOfSections:              0x4       
+0x100      0x4   TimeDateStamp:                 0x5978724E [Wed Jul 26 10:43:26 2017 UTC]
+0x104      0x8   PointerToSymbolTable:          0x0       
+0x108      0xC   NumberOfSymbols:               0x0       
+0x10C      0x10  SizeOfOptionalHeader:          0xE0      
+0x10E      0x12  Characteristics:               0x103     
+Flags: IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_RELOCS_STRIPPED
+
+----------OPTIONAL_HEADER----------
+
+[IMAGE_OPTIONAL_HEADER]
+0x110      0x0   Magic:                         0x10B     
+0x112      0x2   MajorLinkerVersion:            0x9       
+0x113      0x3   MinorLinkerVersion:            0x0       
+0x114      0x4   SizeOfCode:                    0x96A00   
+0x118      0x8   SizeOfInitializedData:         0x23600   
+0x11C      0xC   SizeOfUninitializedData:       0x0       
+0x120      0x10  AddressOfEntryPoint:           0x65D29   
+0x124      0x14  BaseOfCode:                    0x1000    
+0x128      0x18  BaseOfData:                    0x98000   
+0x12C      0x1C  ImageBase:                     0x400000  
+0x130      0x20  SectionAlignment:              0x1000    
+0x134      0x24  FileAlignment:                 0x200     
+0x138      0x28  MajorOperatingSystemVersion:   0x5       
+0x13A      0x2A  MinorOperatingSystemVersion:   0x0       
+0x13C      0x2C  MajorImageVersion:             0x0       
+0x13E      0x2E  MinorImageVersion:             0x0       
+0x140      0x30  MajorSubsystemVersion:         0x5       
+0x142      0x32  MinorSubsystemVersion:         0x0       
+0x144      0x34  Reserved1:                     0x0       
+0x148      0x38  SizeOfImage:                   0xDA000   
+0x14C      0x3C  SizeOfHeaders:                 0x400     
+0x150      0x40  CheckSum:                      0xCA5AE   
+0x154      0x44  Subsystem:                     0x2       
+0x156      0x46  DllCharacteristics:            0x8000    
+0x158      0x48  SizeOfStackReserve:            0x100000  
+0x15C      0x4C  SizeOfStackCommit:             0x1000    
+0x160      0x50  SizeOfHeapReserve:             0x100000  
+0x164      0x54  SizeOfHeapCommit:              0x1000    
+0x168      0x58  LoaderFlags:                   0x0       
+0x16C      0x5C  NumberOfRvaAndSizes:           0x10      
+DllCharacteristics: IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE
+
+----------PE Sections----------
+
+[IMAGE_SECTION_HEADER]
+0x1F0      0x0   Name:                          .text
+0x1F8      0x8   Misc:                          0x9693D   
+0x1F8      0x8   Misc_PhysicalAddress:          0x9693D   
+0x1F8      0x8   Misc_VirtualSize:              0x9693D   
+0x1FC      0xC   VirtualAddress:                0x1000    
+0x200      0x10  SizeOfRawData:                 0x96A00   
+0x204      0x14  PointerToRawData:              0x400     
+0x208      0x18  PointerToRelocations:          0x0       
+0x20C      0x1C  PointerToLinenumbers:          0x0       
+0x210      0x20  NumberOfRelocations:           0x0       
+0x212      0x22  NumberOfLinenumbers:           0x0       
+0x214      0x24  Characteristics:               0x60000020
+Flags: IMAGE_SCN_MEM_EXECUTE, IMAGE_SCN_CNT_CODE, IMAGE_SCN_MEM_READ
+Entropy: 6.604461 (Min=0.0, Max=8.0)
+MD5     hash: 1fec5dceaf32a3e2f1f25dbdfa02b260
+SHA-1   hash: 541635fb33980a02c423e00595ffce942ea9ec94
+SHA-256 hash: 231e8b1719bd94bba2157c0a77c005588d6c2c7ecf9a51ae048ebd16dd6e58ee
+SHA-512 hash: 1476128f3243033890a432dce57704bb0b138dbc0a010113350606996ceaa5b4d3d9075f069193e946bb5a739dfd94e778918a55ae9372d5af8a3bb591fdb5f4
+
+[IMAGE_SECTION_HEADER]
+0x218      0x0   Name:                          .rdata
+0x220      0x8   Misc:                          0x190E6   
+0x220      0x8   Misc_PhysicalAddress:          0x190E6   
+0x220      0x8   Misc_VirtualSize:              0x190E6   
+0x224      0xC   VirtualAddress:                0x98000   
+0x228      0x10  SizeOfRawData:                 0x19200   
+0x22C      0x14  PointerToRawData:              0x96E00   
+0x230      0x18  PointerToRelocations:          0x0       
+0x234      0x1C  PointerToLinenumbers:          0x0       
+0x238      0x20  NumberOfRelocations:           0x0       
+0x23A      0x22  NumberOfLinenumbers:           0x0       
+0x23C      0x24  Characteristics:               0x40000040
+Flags: IMAGE_SCN_CNT_INITIALIZED_DATA, IMAGE_SCN_MEM_READ
+Entropy: 5.499718 (Min=0.0, Max=8.0)
+MD5     hash: 0a90179c5c599b6ccb7dd790023e597b
+SHA-1   hash: 2baf3b1b443a34a294e3dbdcc96f7dd8fceeb137
+SHA-256 hash: 2f780269b74764a1b67098c9c88e071f671860f8bad1c5aaa8ef46b011a65cd2
+SHA-512 hash: 6755f2f6886e29524973a45815a97344cade1b4b2ae58c4e09fdbfc8197478fb18fda42aaf41fa74b88e639a146a5121019a5b59c942d569f59a2bdd8def87fc
+
+[IMAGE_SECTION_HEADER]
+0x240      0x0   Name:                          .data
+0x248      0x8   Misc:                          0x20A8C   
+0x248      0x8   Misc_PhysicalAddress:          0x20A8C   
+0x248      0x8   Misc_VirtualSize:              0x20A8C   
+0x24C      0xC   VirtualAddress:                0xB2000   
+0x250      0x10  SizeOfRawData:                 0x3E00    
+0x254      0x14  PointerToRawData:              0xB0000   
+0x258      0x18  PointerToRelocations:          0x0       
+0x25C      0x1C  PointerToLinenumbers:          0x0       
+0x260      0x20  NumberOfRelocations:           0x0       
+0x262      0x22  NumberOfLinenumbers:           0x0       
+0x264      0x24  Characteristics:               0xC0000040
+Flags: IMAGE_SCN_CNT_INITIALIZED_DATA, IMAGE_SCN_MEM_WRITE, IMAGE_SCN_MEM_READ
+Entropy: 4.482223 (Min=0.0, Max=8.0)
+MD5     hash: 17ac2f0c1bc4709a2ea1865104ad1206
+SHA-1   hash: d74fc5f69c0f8a5dd43f4eb3fc5ab922daf24082
+SHA-256 hash: 3d5439a120fe745666a26da1b4a9d89f3b9928109be16f62f9b7c60d46c11f06
+SHA-512 hash: 53f8ce1d2cac63fd938f566c75ab2113a6e8989ec31078c979d18043d4911b3f6833a009e838b54d8e13060b1cfe19d54699de55973d2c7c4a980927710556a5
+
+[IMAGE_SECTION_HEADER]
+0x268      0x0   Name:                          .rsrc
+0x270      0x8   Misc:                          0x6488    
+0x270      0x8   Misc_PhysicalAddress:          0x6488    
+0x270      0x8   Misc_VirtualSize:              0x6488    
+0x274      0xC   VirtualAddress:                0xD3000   
+0x278      0x10  SizeOfRawData:                 0x6600    
+0x27C      0x14  PointerToRawData:              0xB3E00   
+0x280      0x18  PointerToRelocations:          0x0       
+0x284      0x1C  PointerToLinenumbers:          0x0       
+0x288      0x20  NumberOfRelocations:           0x0       
+0x28A      0x22  NumberOfLinenumbers:           0x0       
+0x28C      0x24  Characteristics:               0x40000040
+Flags: IMAGE_SCN_CNT_INITIALIZED_DATA, IMAGE_SCN_MEM_READ
+Entropy: 3.975424 (Min=0.0, Max=8.0)
+MD5     hash: 7862a2cfd0e33ab3f8acf141641b7995
+SHA-1   hash: fde15df3e1f92730c3636af61d81bd4bf7a55965
+SHA-256 hash: 5e277129d624654452960b6785f41cbe22910821fc593bbbf33dd8c1c013206e
+SHA-512 hash: 0f52140fab920cdfe924a769437dab1574152839aaa56054957e8a7fa79d13803a6a945d42d05eaa868c5c65639c3e86fafbdb0e71d9384c19a37d1b3736d00c
+
+----------Directories----------
+
+[IMAGE_DIRECTORY_ENTRY_EXPORT]
+0x170      0x0   VirtualAddress:                0x0       
+0x174      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_IMPORT]
+0x178      0x0   VirtualAddress:                0xAF8E4   
+0x17C      0x4   Size:                          0xDC      
+[IMAGE_DIRECTORY_ENTRY_RESOURCE]
+0x180      0x0   VirtualAddress:                0xD3000   
+0x184      0x4   Size:                          0x6488    
+[IMAGE_DIRECTORY_ENTRY_EXCEPTION]
+0x188      0x0   VirtualAddress:                0x0       
+0x18C      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_SECURITY]
+0x190      0x0   VirtualAddress:                0xBA400   
+0x194      0x4   Size:                          0x3440    
+[IMAGE_DIRECTORY_ENTRY_BASERELOC]
+0x198      0x0   VirtualAddress:                0x0       
+0x19C      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_DEBUG]
+0x1A0      0x0   VirtualAddress:                0x984A0   
+0x1A4      0x4   Size:                          0x1C      
+[IMAGE_DIRECTORY_ENTRY_COPYRIGHT]
+0x1A8      0x0   VirtualAddress:                0x0       
+0x1AC      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_GLOBALPTR]
+0x1B0      0x0   VirtualAddress:                0x0       
+0x1B4      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_TLS]
+0x1B8      0x0   VirtualAddress:                0x0       
+0x1BC      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG]
+0x1C0      0x0   VirtualAddress:                0xA7948   
+0x1C4      0x4   Size:                          0x40      
+[IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT]
+0x1C8      0x0   VirtualAddress:                0x0       
+0x1CC      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_IAT]
+0x1D0      0x0   VirtualAddress:                0x98000   
+0x1D4      0x4   Size:                          0x424     
+[IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT]
+0x1D8      0x0   VirtualAddress:                0x0       
+0x1DC      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR]
+0x1E0      0x0   VirtualAddress:                0x0       
+0x1E4      0x4   Size:                          0x0       
+[IMAGE_DIRECTORY_ENTRY_RESERVED]
+0x1E8      0x0   VirtualAddress:                0x0       
+0x1EC      0x4   Size:                          0x0       
+
+----------Version Information----------
+
+[VS_VERSIONINFO]
+0xB9E24    0x0   Length:                        0x308     
+0xB9E26    0x2   ValueLength:                   0x34      
+0xB9E28    0x4   Type:                          0x0       
+
+[VS_FIXEDFILEINFO]
+0xB9E4C    0x0   Signature:                     0xFEEF04BD
+0xB9E50    0x4   StrucVersion:                  0x10000   
+0xB9E54    0x8   FileVersionMS:                 0x80006   
+0xB9E58    0xC   FileVersionLS:                 0x58F     
+0xB9E5C    0x10  ProductVersionMS:              0x80006   
+0xB9E60    0x14  ProductVersionLS:              0x58F     
+0xB9E64    0x18  FileFlagsMask:                 0x3F      
+0xB9E68    0x1C  FileFlags:                     0x0       
+0xB9E6C    0x20  FileOS:                        0x4       
+0xB9E70    0x24  FileType:                      0x1       
+0xB9E74    0x28  FileSubtype:                   0x0       
+0xB9E78    0x2C  FileDateMS:                    0x0       
+0xB9E7C    0x30  FileDateLS:                    0x0       
+
+[StringFileInfo]
+0xB9E80    0x0   Length:                        0x266     
+0xB9E82    0x2   ValueLength:                   0x0       
+0xB9E84    0x4   Type:                          0x1       
+
+  [StringTable]
+  0xB9EA4    0x0   Length:                        0x242     
+  0xB9EA6    0x2   ValueLength:                   0x0       
+  0xB9EA8    0x4   Type:                          0x1       
+  LangID: 080404b0
+
+    LegalCopyright: \xa9 2017 Sogou.com Inc. All rights reserved.
+    InternalName: SogouPY CrashRpt
+    FileVersion: 8.6.0.1423
+    CompanyName: Sogou.com Inc.
+    ProductName: \x641c\x72d7\x62fc\x97f3\x8f93\x5165\x6cd5
+    ProductVersion: 8.6.0.1423
+    FileDescription: \x641c\x72d7\x62fc\x97f3\x8f93\x5165\x6cd5 \x5d29\x6e83\x53cd\x9988
+    OriginalFilename: CrashRpt.exe
+
+[VarFileInfo]
+0xBA0E8    0x0   Length:                        0x44      
+0xBA0EA    0x2   ValueLength:                   0x0       
+0xBA0EC    0x4   Type:                          0x1       
+
+  [Var]
+  0xBA108    0x0   Length:                        0x24      
+  0xBA10A    0x2   ValueLength:                   0x4       
+  0xBA10C    0x4   Type:                          0x0       
+    Translation: 0x0804 0x04b0
+
+----------Imported symbols----------
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE6E4    0x0   OriginalFirstThunk:            0xAFD88   
+0xAE6E4    0x0   Characteristics:               0xAFD88   
+0xAE6E8    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE6EC    0x8   ForwarderChain:                0x0       
+0xAE6F0    0xC   Name:                          0xAFE26   
+0xAE6F4    0x10  FirstThunk:                    0x983C8   
+
+VERSION.dll.GetFileVersionInfoSizeA Hint[2]
+VERSION.dll.GetFileVersionInfoW Hint[5]
+VERSION.dll.GetFileVersionInfoA Hint[0]
+VERSION.dll.VerQueryValueA Hint[12]
+VERSION.dll.GetFileVersionInfoSizeW Hint[4]
+VERSION.dll.VerQueryValueW Hint[13]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE6F8    0x0   OriginalFirstThunk:            0xAFA48   
+0xAE6F8    0x0   Characteristics:               0xAFA48   
+0xAE6FC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE700    0x8   ForwarderChain:                0x0       
+0xAE704    0xC   Name:                          0xB0012   
+0xAE708    0x10  FirstThunk:                    0x98088   
+
+KERNEL32.dll.OpenMutexA Hint[815]
+KERNEL32.dll.OutputDebugStringA Hint[826]
+KERNEL32.dll.SetUnhandledExceptionFilter Hint[1045]
+KERNEL32.dll.CreateMutexA Hint[139]
+KERNEL32.dll.FreeLibrary Hint[332]
+KERNEL32.dll.MultiByteToWideChar Hint[794]
+KERNEL32.dll.Sleep Hint[1057]
+KERNEL32.dll.CreateFileA Hint[120]
+KERNEL32.dll.GetFileSize Hint[468]
+KERNEL32.dll.ReadFile Hint[872]
+KERNEL32.dll.GetSystemDirectoryA Hint[581]
+KERNEL32.dll.GlobalMemoryStatusEx Hint[658]
+KERNEL32.dll.GetModuleFileNameA Hint[500]
+KERNEL32.dll.CreateDirectoryA Hint[108]
+KERNEL32.dll.CopyFileA Hint[96]
+KERNEL32.dll.CreateToolhelp32Snapshot Hint[172]
+KERNEL32.dll.Process32First Hint[835]
+KERNEL32.dll.OpenProcess Hint[819]
+KERNEL32.dll.CloseHandle Hint[67]
+KERNEL32.dll.Process32Next Hint[837]
+KERNEL32.dll.GetModuleHandleA Hint[502]
+KERNEL32.dll.SetFilePointer Hint[991]
+KERNEL32.dll.VirtualQuery Hint[1116]
+KERNEL32.dll.CreateProcessW Hint[151]
+KERNEL32.dll.GetCurrentProcess Hint[425]
+KERNEL32.dll.GetModuleHandleW Hint[505]
+KERNEL32.dll.WriteFile Hint[1165]
+KERNEL32.dll.LoadLibraryW Hint[756]
+KERNEL32.dll.FormatMessageW Hint[328]
+KERNEL32.dll.IsBadWritePtr Hint[715]
+KERNEL32.dll.TerminateProcess Hint[1069]
+KERNEL32.dll.GetModuleFileNameW Hint[501]
+KERNEL32.dll.CreateFileW Hint[127]
+KERNEL32.dll.GetLocalTime Hint[487]
+KERNEL32.dll.lstrcatW Hint[1191]
+KERNEL32.dll.IsDebuggerPresent Hint[721]
+KERNEL32.dll.GetCurrentThreadId Hint[429]
+KERNEL32.dll.GetCurrentProcessId Hint[426]
+KERNEL32.dll.lstrcpyW Hint[1200]
+KERNEL32.dll.GetCommandLineW Hint[368]
+KERNEL32.dll.GetSystemDirectoryW Hint[582]
+KERNEL32.dll.GetTempPathW Hint[603]
+KERNEL32.dll.OpenMutexW Hint[816]
+KERNEL32.dll.Process32FirstW Hint[836]
+KERNEL32.dll.Process32NextW Hint[838]
+KERNEL32.dll.GetTempFileNameW Hint[601]
+KERNEL32.dll.SystemTimeToFileTime Hint[1066]
+KERNEL32.dll.MoveFileExW Hint[787]
+KERNEL32.dll.CreateDirectoryW Hint[113]
+KERNEL32.dll.WaitForSingleObject Hint[1124]
+KERNEL32.dll.SetFileTime Hint[995]
+KERNEL32.dll.GlobalAlloc Hint[645]
+KERNEL32.dll.CopyFileW Hint[101]
+KERNEL32.dll.GetExitCodeProcess Hint[453]
+KERNEL32.dll.GetFileAttributesW Hint[462]
+KERNEL32.dll.FileTimeToSystemTime Hint[272]
+KERNEL32.dll.GlobalFree Hint[652]
+KERNEL32.dll.GetProcessId Hint[549]
+KERNEL32.dll.GetFileTime Hint[470]
+KERNEL32.dll.DeleteFileW Hint[195]
+KERNEL32.dll.SetFileAttributesW Hint[986]
+KERNEL32.dll.SetLastError Hint[1004]
+KERNEL32.dll.ExitThread Hint[261]
+KERNEL32.dll.CreateEventW Hint[117]
+KERNEL32.dll.DuplicateHandle Hint[212]
+KERNEL32.dll.ReadProcessMemory Hint[875]
+KERNEL32.dll.CreateThread Hint[163]
+KERNEL32.dll.InterlockedCompareExchange Hint[698]
+KERNEL32.dll.InitializeCriticalSectionAndSpinCount Hint[693]
+KERNEL32.dll.LeaveCriticalSection Hint[751]
+KERNEL32.dll.EnterCriticalSection Hint[217]
+KERNEL32.dll.DeleteCriticalSection Hint[190]
+KERNEL32.dll.FindFirstFileW Hint[292]
+KERNEL32.dll.GetLogicalDriveStringsW Hint[492]
+KERNEL32.dll.FindClose Hint[281]
+KERNEL32.dll.RemoveDirectoryW Hint[896]
+KERNEL32.dll.QueryDosDeviceW Hint[846]
+KERNEL32.dll.FindNextFileW Hint[304]
+KERNEL32.dll.LocalAlloc Hint[761]
+KERNEL32.dll.FlushFileBuffers Hint[321]
+KERNEL32.dll.CreateMutexW Hint[142]
+KERNEL32.dll.ReleaseMutex Hint[887]
+KERNEL32.dll.InterlockedIncrement Hint[704]
+KERNEL32.dll.QueryPerformanceCounter Hint[852]
+KERNEL32.dll.QueryPerformanceFrequency Hint[853]
+KERNEL32.dll.VirtualAlloc Hint[1108]
+KERNEL32.dll.GetVersionExW Hint[630]
+KERNEL32.dll.SetEvent Hint[979]
+KERNEL32.dll.MapViewOfFile Hint[778]
+KERNEL32.dll.UnmapViewOfFile Hint[1089]
+KERNEL32.dll.FlushViewOfFile Hint[324]
+KERNEL32.dll.CreateFileMappingW Hint[124]
+KERNEL32.dll.OpenFileMappingW Hint[812]
+KERNEL32.dll.TerminateThread Hint[1070]
+KERNEL32.dll.TlsGetValue Hint[1076]
+KERNEL32.dll.InterlockedDecrement Hint[700]
+KERNEL32.dll.TlsSetValue Hint[1077]
+KERNEL32.dll.lstrlenW Hint[1206]
+KERNEL32.dll.TlsFree Hint[1075]
+KERNEL32.dll.InterlockedExchange Hint[701]
+KERNEL32.dll.InitializeCriticalSection Hint[692]
+KERNEL32.dll.RaiseException Hint[858]
+KERNEL32.dll.RtlUnwind Hint[914]
+KERNEL32.dll.HeapFree Hint[673]
+KERNEL32.dll.UnhandledExceptionFilter Hint[1086]
+KERNEL32.dll.HeapAlloc Hint[669]
+KERNEL32.dll.ExitProcess Hint[260]
+KERNEL32.dll.GetCommandLineA Hint[367]
+KERNEL32.dll.GetStartupInfoA Hint[569]
+KERNEL32.dll.HeapReAlloc Hint[676]
+KERNEL32.dll.FileTimeToLocalFileTime Hint[271]
+KERNEL32.dll.GetDriveTypeW Hint[443]
+KERNEL32.dll.ResumeThread Hint[909]
+KERNEL32.dll.GetSystemTimeAsFileTime Hint[591]
+KERNEL32.dll.GetCurrentThread Hint[428]
+KERNEL32.dll.LCMapStringA Hint[737]
+KERNEL32.dll.LCMapStringW Hint[739]
+KERNEL32.dll.GetCPInfo Hint[347]
+KERNEL32.dll.GetACP Hint[338]
+KERNEL32.dll.GetOEMCP Hint[531]
+KERNEL32.dll.IsValidCodePage Hint[731]
+KERNEL32.dll.HeapCreate Hint[671]
+KERNEL32.dll.HeapDestroy Hint[672]
+KERNEL32.dll.VirtualFree Hint[1111]
+KERNEL32.dll.FatalAppExitA Hint[267]
+KERNEL32.dll.HeapSize Hint[678]
+KERNEL32.dll.GetConsoleCP Hint[387]
+KERNEL32.dll.GetConsoleMode Hint[405]
+KERNEL32.dll.SetHandleCount Hint[1000]
+KERNEL32.dll.GetStdHandle Hint[571]
+KERNEL32.dll.GetFileType Hint[471]
+KERNEL32.dll.SetStdHandle Hint[1020]
+KERNEL32.dll.SetConsoleCtrlHandler Hint[935]
+KERNEL32.dll.FreeEnvironmentStringsA Hint[330]
+KERNEL32.dll.GetEnvironmentStrings Hint[447]
+KERNEL32.dll.FreeEnvironmentStringsW Hint[331]
+KERNEL32.dll.GetEnvironmentStringsW Hint[449]
+KERNEL32.dll.GetTickCount Hint[614]
+KERNEL32.dll.GetTimeZoneInformation Hint[619]
+KERNEL32.dll.GetFullPathNameW Hint[479]
+KERNEL32.dll.GetCurrentDirectoryA Hint[423]
+KERNEL32.dll.SetCurrentDirectoryA Hint[966]
+KERNEL32.dll.GetTimeFormatA Hint[616]
+KERNEL32.dll.GetDateFormatA Hint[430]
+KERNEL32.dll.GetLocaleInfoA Hint[488]
+KERNEL32.dll.GetStringTypeA Hint[573]
+KERNEL32.dll.GetStringTypeW Hint[576]
+KERNEL32.dll.GetUserDefaultLCID Hint[621]
+KERNEL32.dll.EnumSystemLocalesA Hint[248]
+KERNEL32.dll.IsValidLocale Hint[733]
+KERNEL32.dll.WriteConsoleA Hint[1154]
+KERNEL32.dll.GetConsoleOutputCP Hint[409]
+KERNEL32.dll.WriteConsoleW Hint[1164]
+KERNEL32.dll.GetLocaleInfoW Hint[490]
+KERNEL32.dll.SetEndOfFile Hint[973]
+KERNEL32.dll.GetProcessHeap Hint[547]
+KERNEL32.dll.GetDriveTypeA Hint[442]
+KERNEL32.dll.GetFullPathNameA Hint[476]
+KERNEL32.dll.CompareStringA Hint[82]
+KERNEL32.dll.CompareStringW Hint[85]
+KERNEL32.dll.SetEnvironmentVariableA Hint[976]
+KERNEL32.dll.WideCharToMultiByte Hint[1146]
+KERNEL32.dll.LoadLibraryA Hint[753]
+KERNEL32.dll.GetProcAddress Hint[544]
+KERNEL32.dll.GetLastError Hint[486]
+KERNEL32.dll.LocalFree Hint[765]
+KERNEL32.dll.TlsAlloc Hint[1074]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE70C    0x0   OriginalFirstThunk:            0xAF9C0   
+0xAE70C    0x0   Characteristics:               0xAF9C0   
+0xAE710    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE714    0x8   ForwarderChain:                0x0       
+0xAE718    0xC   Name:                          0xB0052   
+0xAE71C    0x10  FirstThunk:                    0x98000   
+
+ADVAPI32.dll.RegQueryValueExW Hint[616]
+ADVAPI32.dll.RegOpenKeyW Hint[606]
+ADVAPI32.dll.RegSetValueExW Hint[632]
+ADVAPI32.dll.OpenProcessToken Hint[497]
+ADVAPI32.dll.RegCreateKeyExW Hint[563]
+ADVAPI32.dll.RegQueryInfoKeyW Hint[610]
+ADVAPI32.dll.RegDeleteKeyW Hint[574]
+ADVAPI32.dll.RegDeleteValueW Hint[578]
+ADVAPI32.dll.LookupAccountSidW Hint[395]
+ADVAPI32.dll.RegEnumKeyW Hint[586]
+ADVAPI32.dll.RegEnumValueW Hint[588]
+ADVAPI32.dll.RegOpenKeyExW Hint[603]
+ADVAPI32.dll.RegFlushKey Hint[589]
+ADVAPI32.dll.RegEnumKeyExW Hint[585]
+ADVAPI32.dll.AddAccessAllowedAceEx Hint[17]
+ADVAPI32.dll.InitializeSecurityDescriptor Hint[369]
+ADVAPI32.dll.SetSecurityDescriptorDacl Hint[688]
+ADVAPI32.dll.SetNamedSecurityInfoW Hint[683]
+ADVAPI32.dll.GetNamedSecurityInfoW Hint[316]
+ADVAPI32.dll.InitializeAcl Hint[368]
+ADVAPI32.dll.ConvertStringSecurityDescriptorToSecurityDescriptorW Hint[110]
+ADVAPI32.dll.SetSecurityInfo Hint[693]
+ADVAPI32.dll.SetEntriesInAclW Hint[672]
+ADVAPI32.dll.GetSecurityDescriptorSacl Hint[327]
+ADVAPI32.dll.BuildExplicitAccessWithNameW Hint[56]
+ADVAPI32.dll.GetLengthSid Hint[304]
+ADVAPI32.dll.SetSecurityDescriptorSacl Hint[692]
+ADVAPI32.dll.GetTokenInformation Hint[340]
+ADVAPI32.dll.RegOpenKeyExA Hint[602]
+ADVAPI32.dll.RegQueryValueExA Hint[615]
+ADVAPI32.dll.RegCloseKey Hint[554]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE720    0x0   OriginalFirstThunk:            0xAFA40   
+0xAE720    0x0   Characteristics:               0xAFA40   
+0xAE724    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE728    0x8   ForwarderChain:                0x0       
+0xAE72C    0xC   Name:                          0xB0088   
+0xAE730    0x10  FirstThunk:                    0x98080   
+
+IMM32.dll.ImmDisableIME Hint[35]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE734    0x0   OriginalFirstThunk:            0xAFCFC   
+0xAE734    0x0   Characteristics:               0xAFCFC   
+0xAE738    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE73C    0x8   ForwarderChain:                0x0       
+0xAE740    0xC   Name:                          0xB00D4   
+0xAE744    0x10  FirstThunk:                    0x9833C   
+
+PSAPI.DLL.GetProcessMemoryInfo Hint[21]
+PSAPI.DLL.GetModuleInformation Hint[17]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE748    0x0   OriginalFirstThunk:            0xAFDA4   
+0xAE748    0x0   Characteristics:               0xAFDA4   
+0xAE74C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE750    0x8   ForwarderChain:                0x0       
+0xAE754    0xC   Name:                          0xB01D4   
+0xAE758    0x10  FirstThunk:                    0x983E4   
+
+WININET.dll.InternetReadFile Hint[158]
+WININET.dll.InternetCloseHandle Hint[106]
+WININET.dll.HttpQueryInfoA Hint[88]
+WININET.dll.InternetOpenUrlA Hint[151]
+WININET.dll.InternetSetOptionA Hint[171]
+WININET.dll.InternetOpenA Hint[150]
+WININET.dll.HttpEndRequestA Hint[84]
+WININET.dll.HttpAddRequestHeadersA Hint[81]
+WININET.dll.InternetConnectA Hint[112]
+WININET.dll.HttpOpenRequestA Hint[86]
+WININET.dll.HttpSendRequestA Hint[90]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE75C    0x0   OriginalFirstThunk:            0xAFD20   
+0xAE75C    0x0   Characteristics:               0xAFD20   
+0xAE760    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE764    0x8   ForwarderChain:                0x0       
+0xAE768    0xC   Name:                          0xB0DBC   
+0xAE76C    0x10  FirstThunk:                    0x98360   
+
+USER32.dll.GetWindowRect Hint[392]
+USER32.dll.DispatchMessageW Hint[169]
+USER32.dll.MsgWaitForMultipleObjectsEx Hint[519]
+USER32.dll.PeekMessageW Hint[540]
+USER32.dll.TranslateMessage Hint[725]
+USER32.dll.SetWindowPos Hint[679]
+USER32.dll.ShowWindow Hint[696]
+USER32.dll.MonitorFromPoint Hint[514]
+USER32.dll.FindWindowExW Hint[242]
+USER32.dll.GetMonitorInfoW Hint[336]
+USER32.dll.GetWindowThreadProcessId Hint[400]
+USER32.dll.MonitorFromRect Hint[515]
+USER32.dll.MessageBoxW Hint[511]
+USER32.dll.SetRectEmpty Hint[658]
+USER32.dll.GetSystemMetrics Hint[367]
+USER32.dll.wvsprintfW Hint[778]
+USER32.dll.IsIconic Hint[445]
+USER32.dll.SetForegroundWindow Hint[634]
+USER32.dll.GetParent Hint[341]
+USER32.dll.AttachThreadInput Hint[12]
+USER32.dll.GetForegroundWindow Hint[293]
+USER32.dll.GetWindowLongW Hint[386]
+USER32.dll.SystemParametersInfoW Hint[709]
+USER32.dll.SendMessageTimeoutW Hint[610]
+USER32.dll.GetDesktopWindow Hint[284]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE770    0x0   OriginalFirstThunk:            0xAFD08   
+0xAE770    0x0   Characteristics:               0xAFD08   
+0xAE774    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE778    0x8   ForwarderChain:                0x0       
+0xAE77C    0xC   Name:                          0xB108C   
+0xAE780    0x10  FirstThunk:                    0x98348   
+
+SHELL32.dll.ShellExecuteExW Hint[279]
+SHELL32.dll.SHFileOperationW Hint[169]
+SHELL32.dll.SHGetFolderPathW Hint[192]
+SHELL32.dll.SHGetSpecialFolderPathW Hint[218]
+SHELL32.dll.ShellExecuteW Hint[280]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE784    0x0   OriginalFirstThunk:            0xAFDD4   
+0xAE784    0x0   Characteristics:               0xAFDD4   
+0xAE788    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE78C    0x8   ForwarderChain:                0x0       
+0xAE790    0xC   Name:                          0xB10CE   
+0xAE794    0x10  FirstThunk:                    0x98414   
+
+ole32.dll.CoInitialize Hint[61]
+ole32.dll.CoCreateInstance Hint[16]
+ole32.dll.CoUninitialize Hint[107]
+
+[IMAGE_IMPORT_DESCRIPTOR]
+0xAE798    0x0   OriginalFirstThunk:            0xAFCE8   
+0xAE798    0x0   Characteristics:               0xAFCE8   
+0xAE79C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xAE7A0    0x8   ForwarderChain:                0x0       
+0xAE7A4    0xC   Name:                          0xB10D8   
+0xAE7A8    0x10  FirstThunk:                    0x98328   
+
+OLEAUT32.dll.VariantClear Ordinal[9] (Imported by Ordinal)
+OLEAUT32.dll.VariantInit Ordinal[8] (Imported by Ordinal)
+OLEAUT32.dll.SysFreeString Ordinal[6] (Imported by Ordinal)
+OLEAUT32.dll.SysAllocString Ordinal[2] (Imported by Ordinal)
+
+----------Resource directory----------
+
+[IMAGE_RESOURCE_DIRECTORY]
+0xB3E00    0x0   Characteristics:               0x0       
+0xB3E04    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xB3E08    0x8   MajorVersion:                  0x4       
+0xB3E0A    0xA   MinorVersion:                  0x0       
+0xB3E0C    0xC   NumberOfNamedEntries:          0x0       
+0xB3E0E    0xE   NumberOfIdEntries:             0x9       
+  Id: [0x1] (RT_CURSOR)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E10    0x0   Name:                          0x1       
+  0xB3E14    0x4   OffsetToData:                  0x80000058
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3E58    0x0   Characteristics:               0x0       
+    0xB3E5C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3E60    0x8   MajorVersion:                  0x4       
+    0xB3E62    0xA   MinorVersion:                  0x0       
+    0xB3E64    0xC   NumberOfNamedEntries:          0x0       
+    0xB3E66    0xE   NumberOfIdEntries:             0x10      
+      Id: [0x5]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E68    0x0   Name:                          0x5       
+      0xB3E6C    0x4   OffsetToData:                  0x800002B0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB40B0    0x0   Characteristics:               0x0       
+        0xB40B4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB40B8    0x8   MajorVersion:                  0x4       
+        0xB40BA    0xA   MinorVersion:                  0x0       
+        0xB40BC    0xC   NumberOfNamedEntries:          0x0       
+        0xB40BE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB40C0    0x0   Name:                          0x409     
+          0xB40C4    0x4   OffsetToData:                  0x808     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4608    0x0   OffsetToData:                  0xD3B98   
+            0xB460C    0x4   Size:                          0x134     
+            0xB4610    0x8   CodePage:                      0x4E4     
+            0xB4614    0xC   Reserved:                      0x0       
+      Id: [0x6]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E70    0x0   Name:                          0x6       
+      0xB3E74    0x4   OffsetToData:                  0x800002C8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB40C8    0x0   Characteristics:               0x0       
+        0xB40CC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB40D0    0x8   MajorVersion:                  0x4       
+        0xB40D2    0xA   MinorVersion:                  0x0       
+        0xB40D4    0xC   NumberOfNamedEntries:          0x0       
+        0xB40D6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB40D8    0x0   Name:                          0x409     
+          0xB40DC    0x4   OffsetToData:                  0x818     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4618    0x0   OffsetToData:                  0xD3CCC   
+            0xB461C    0x4   Size:                          0xB4      
+            0xB4620    0x8   CodePage:                      0x4E4     
+            0xB4624    0xC   Reserved:                      0x0       
+      Id: [0x7]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E78    0x0   Name:                          0x7       
+      0xB3E7C    0x4   OffsetToData:                  0x800002E0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB40E0    0x0   Characteristics:               0x0       
+        0xB40E4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB40E8    0x8   MajorVersion:                  0x4       
+        0xB40EA    0xA   MinorVersion:                  0x0       
+        0xB40EC    0xC   NumberOfNamedEntries:          0x0       
+        0xB40EE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB40F0    0x0   Name:                          0x409     
+          0xB40F4    0x4   OffsetToData:                  0x828     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4628    0x0   OffsetToData:                  0xD3D80   
+            0xB462C    0x4   Size:                          0x134     
+            0xB4630    0x8   CodePage:                      0x4E4     
+            0xB4634    0xC   Reserved:                      0x0       
+      Id: [0x8]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E80    0x0   Name:                          0x8       
+      0xB3E84    0x4   OffsetToData:                  0x800002F8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB40F8    0x0   Characteristics:               0x0       
+        0xB40FC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4100    0x8   MajorVersion:                  0x4       
+        0xB4102    0xA   MinorVersion:                  0x0       
+        0xB4104    0xC   NumberOfNamedEntries:          0x0       
+        0xB4106    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4108    0x0   Name:                          0x409     
+          0xB410C    0x4   OffsetToData:                  0x838     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4638    0x0   OffsetToData:                  0xD3EB4   
+            0xB463C    0x4   Size:                          0x134     
+            0xB4640    0x8   CodePage:                      0x4E4     
+            0xB4644    0xC   Reserved:                      0x0       
+      Id: [0x9]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E88    0x0   Name:                          0x9       
+      0xB3E8C    0x4   OffsetToData:                  0x80000310
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4110    0x0   Characteristics:               0x0       
+        0xB4114    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4118    0x8   MajorVersion:                  0x4       
+        0xB411A    0xA   MinorVersion:                  0x0       
+        0xB411C    0xC   NumberOfNamedEntries:          0x0       
+        0xB411E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4120    0x0   Name:                          0x409     
+          0xB4124    0x4   OffsetToData:                  0x848     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4648    0x0   OffsetToData:                  0xD3FE8   
+            0xB464C    0x4   Size:                          0x134     
+            0xB4650    0x8   CodePage:                      0x4E4     
+            0xB4654    0xC   Reserved:                      0x0       
+      Id: [0xA]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E90    0x0   Name:                          0xA       
+      0xB3E94    0x4   OffsetToData:                  0x80000328
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4128    0x0   Characteristics:               0x0       
+        0xB412C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4130    0x8   MajorVersion:                  0x4       
+        0xB4132    0xA   MinorVersion:                  0x0       
+        0xB4134    0xC   NumberOfNamedEntries:          0x0       
+        0xB4136    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4138    0x0   Name:                          0x409     
+          0xB413C    0x4   OffsetToData:                  0x858     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4658    0x0   OffsetToData:                  0xD411C   
+            0xB465C    0x4   Size:                          0x134     
+            0xB4660    0x8   CodePage:                      0x4E4     
+            0xB4664    0xC   Reserved:                      0x0       
+      Id: [0xB]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3E98    0x0   Name:                          0xB       
+      0xB3E9C    0x4   OffsetToData:                  0x80000340
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4140    0x0   Characteristics:               0x0       
+        0xB4144    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4148    0x8   MajorVersion:                  0x4       
+        0xB414A    0xA   MinorVersion:                  0x0       
+        0xB414C    0xC   NumberOfNamedEntries:          0x0       
+        0xB414E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4150    0x0   Name:                          0x409     
+          0xB4154    0x4   OffsetToData:                  0x868     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4668    0x0   OffsetToData:                  0xD4250   
+            0xB466C    0x4   Size:                          0x134     
+            0xB4670    0x8   CodePage:                      0x4E4     
+            0xB4674    0xC   Reserved:                      0x0       
+      Id: [0xC]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EA0    0x0   Name:                          0xC       
+      0xB3EA4    0x4   OffsetToData:                  0x80000358
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4158    0x0   Characteristics:               0x0       
+        0xB415C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4160    0x8   MajorVersion:                  0x4       
+        0xB4162    0xA   MinorVersion:                  0x0       
+        0xB4164    0xC   NumberOfNamedEntries:          0x0       
+        0xB4166    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4168    0x0   Name:                          0x409     
+          0xB416C    0x4   OffsetToData:                  0x878     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4678    0x0   OffsetToData:                  0xD4384   
+            0xB467C    0x4   Size:                          0x134     
+            0xB4680    0x8   CodePage:                      0x4E4     
+            0xB4684    0xC   Reserved:                      0x0       
+      Id: [0xD]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EA8    0x0   Name:                          0xD       
+      0xB3EAC    0x4   OffsetToData:                  0x80000370
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4170    0x0   Characteristics:               0x0       
+        0xB4174    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4178    0x8   MajorVersion:                  0x4       
+        0xB417A    0xA   MinorVersion:                  0x0       
+        0xB417C    0xC   NumberOfNamedEntries:          0x0       
+        0xB417E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4180    0x0   Name:                          0x409     
+          0xB4184    0x4   OffsetToData:                  0x888     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4688    0x0   OffsetToData:                  0xD44B8   
+            0xB468C    0x4   Size:                          0x134     
+            0xB4690    0x8   CodePage:                      0x4E4     
+            0xB4694    0xC   Reserved:                      0x0       
+      Id: [0xE]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EB0    0x0   Name:                          0xE       
+      0xB3EB4    0x4   OffsetToData:                  0x80000388
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4188    0x0   Characteristics:               0x0       
+        0xB418C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4190    0x8   MajorVersion:                  0x4       
+        0xB4192    0xA   MinorVersion:                  0x0       
+        0xB4194    0xC   NumberOfNamedEntries:          0x0       
+        0xB4196    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4198    0x0   Name:                          0x409     
+          0xB419C    0x4   OffsetToData:                  0x898     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4698    0x0   OffsetToData:                  0xD45EC   
+            0xB469C    0x4   Size:                          0x134     
+            0xB46A0    0x8   CodePage:                      0x4E4     
+            0xB46A4    0xC   Reserved:                      0x0       
+      Id: [0xF]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EB8    0x0   Name:                          0xF       
+      0xB3EBC    0x4   OffsetToData:                  0x800003A0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB41A0    0x0   Characteristics:               0x0       
+        0xB41A4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB41A8    0x8   MajorVersion:                  0x4       
+        0xB41AA    0xA   MinorVersion:                  0x0       
+        0xB41AC    0xC   NumberOfNamedEntries:          0x0       
+        0xB41AE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB41B0    0x0   Name:                          0x409     
+          0xB41B4    0x4   OffsetToData:                  0x8A8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46A8    0x0   OffsetToData:                  0xD4720   
+            0xB46AC    0x4   Size:                          0x134     
+            0xB46B0    0x8   CodePage:                      0x4E4     
+            0xB46B4    0xC   Reserved:                      0x0       
+      Id: [0x10]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EC0    0x0   Name:                          0x10      
+      0xB3EC4    0x4   OffsetToData:                  0x800003B8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB41B8    0x0   Characteristics:               0x0       
+        0xB41BC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB41C0    0x8   MajorVersion:                  0x4       
+        0xB41C2    0xA   MinorVersion:                  0x0       
+        0xB41C4    0xC   NumberOfNamedEntries:          0x0       
+        0xB41C6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB41C8    0x0   Name:                          0x409     
+          0xB41CC    0x4   OffsetToData:                  0x8B8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46B8    0x0   OffsetToData:                  0xD4854   
+            0xB46BC    0x4   Size:                          0x134     
+            0xB46C0    0x8   CodePage:                      0x4E4     
+            0xB46C4    0xC   Reserved:                      0x0       
+      Id: [0x11]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EC8    0x0   Name:                          0x11      
+      0xB3ECC    0x4   OffsetToData:                  0x800003D0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB41D0    0x0   Characteristics:               0x0       
+        0xB41D4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB41D8    0x8   MajorVersion:                  0x4       
+        0xB41DA    0xA   MinorVersion:                  0x0       
+        0xB41DC    0xC   NumberOfNamedEntries:          0x0       
+        0xB41DE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB41E0    0x0   Name:                          0x409     
+          0xB41E4    0x4   OffsetToData:                  0x8C8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46C8    0x0   OffsetToData:                  0xD4988   
+            0xB46CC    0x4   Size:                          0x134     
+            0xB46D0    0x8   CodePage:                      0x4E4     
+            0xB46D4    0xC   Reserved:                      0x0       
+      Id: [0x12]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3ED0    0x0   Name:                          0x12      
+      0xB3ED4    0x4   OffsetToData:                  0x800003E8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB41E8    0x0   Characteristics:               0x0       
+        0xB41EC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB41F0    0x8   MajorVersion:                  0x4       
+        0xB41F2    0xA   MinorVersion:                  0x0       
+        0xB41F4    0xC   NumberOfNamedEntries:          0x0       
+        0xB41F6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB41F8    0x0   Name:                          0x409     
+          0xB41FC    0x4   OffsetToData:                  0x8D8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46D8    0x0   OffsetToData:                  0xD4ABC   
+            0xB46DC    0x4   Size:                          0x134     
+            0xB46E0    0x8   CodePage:                      0x4E4     
+            0xB46E4    0xC   Reserved:                      0x0       
+      Id: [0x13]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3ED8    0x0   Name:                          0x13      
+      0xB3EDC    0x4   OffsetToData:                  0x80000400
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4200    0x0   Characteristics:               0x0       
+        0xB4204    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4208    0x8   MajorVersion:                  0x4       
+        0xB420A    0xA   MinorVersion:                  0x0       
+        0xB420C    0xC   NumberOfNamedEntries:          0x0       
+        0xB420E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4210    0x0   Name:                          0x409     
+          0xB4214    0x4   OffsetToData:                  0x8E8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46E8    0x0   OffsetToData:                  0xD4BF0   
+            0xB46EC    0x4   Size:                          0x134     
+            0xB46F0    0x8   CodePage:                      0x4E4     
+            0xB46F4    0xC   Reserved:                      0x0       
+      Id: [0x14]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EE0    0x0   Name:                          0x14      
+      0xB3EE4    0x4   OffsetToData:                  0x80000418
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4218    0x0   Characteristics:               0x0       
+        0xB421C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4220    0x8   MajorVersion:                  0x4       
+        0xB4222    0xA   MinorVersion:                  0x0       
+        0xB4224    0xC   NumberOfNamedEntries:          0x0       
+        0xB4226    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4228    0x0   Name:                          0x409     
+          0xB422C    0x4   OffsetToData:                  0x8F8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB46F8    0x0   OffsetToData:                  0xD4D24   
+            0xB46FC    0x4   Size:                          0x134     
+            0xB4700    0x8   CodePage:                      0x4E4     
+            0xB4704    0xC   Reserved:                      0x0       
+
+  Id: [0x2] (RT_BITMAP)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E18    0x0   Name:                          0x2       
+  0xB3E1C    0x4   OffsetToData:                  0x800000E8
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3EE8    0x0   Characteristics:               0x0       
+    0xB3EEC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3EF0    0x8   MajorVersion:                  0x4       
+    0xB3EF2    0xA   MinorVersion:                  0x0       
+    0xB3EF4    0xC   NumberOfNamedEntries:          0x0       
+    0xB3EF6    0xE   NumberOfIdEntries:             0x2       
+      Id: [0x7912]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3EF8    0x0   Name:                          0x7912    
+      0xB3EFC    0x4   OffsetToData:                  0x80000430
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4230    0x0   Characteristics:               0x0       
+        0xB4234    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4238    0x8   MajorVersion:                  0x4       
+        0xB423A    0xA   MinorVersion:                  0x0       
+        0xB423C    0xC   NumberOfNamedEntries:          0x0       
+        0xB423E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4240    0x0   Name:                          0x409     
+          0xB4244    0x4   OffsetToData:                  0x908     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4708    0x0   OffsetToData:                  0xD4E58   
+            0xB470C    0x4   Size:                          0xB8      
+            0xB4710    0x8   CodePage:                      0x4E4     
+            0xB4714    0xC   Reserved:                      0x0       
+      Id: [0x7914]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F00    0x0   Name:                          0x7914    
+      0xB3F04    0x4   OffsetToData:                  0x80000448
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4248    0x0   Characteristics:               0x0       
+        0xB424C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4250    0x8   MajorVersion:                  0x4       
+        0xB4252    0xA   MinorVersion:                  0x0       
+        0xB4254    0xC   NumberOfNamedEntries:          0x0       
+        0xB4256    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4258    0x0   Name:                          0x409     
+          0xB425C    0x4   OffsetToData:                  0x918     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4718    0x0   OffsetToData:                  0xD4F10   
+            0xB471C    0x4   Size:                          0x144     
+            0xB4720    0x8   CodePage:                      0x4E4     
+            0xB4724    0xC   Reserved:                      0x0       
+
+  Id: [0x3] (RT_ICON)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E20    0x0   Name:                          0x3       
+  0xB3E24    0x4   OffsetToData:                  0x80000108
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3F08    0x0   Characteristics:               0x0       
+    0xB3F0C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3F10    0x8   MajorVersion:                  0x4       
+    0xB3F12    0xA   MinorVersion:                  0x0       
+    0xB3F14    0xC   NumberOfNamedEntries:          0x0       
+    0xB3F16    0xE   NumberOfIdEntries:             0x4       
+      Id: [0x1]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F18    0x0   Name:                          0x1       
+      0xB3F1C    0x4   OffsetToData:                  0x80000460
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4260    0x0   Characteristics:               0x0       
+        0xB4264    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4268    0x8   MajorVersion:                  0x4       
+        0xB426A    0xA   MinorVersion:                  0x0       
+        0xB426C    0xC   NumberOfNamedEntries:          0x0       
+        0xB426E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4270    0x0   Name:                          0x409     
+          0xB4274    0x4   OffsetToData:                  0x928     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4728    0x0   OffsetToData:                  0xD5054   
+            0xB472C    0x4   Size:                          0x8A8     
+            0xB4730    0x8   CodePage:                      0x4E4     
+            0xB4734    0xC   Reserved:                      0x0       
+      Id: [0x2]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F20    0x0   Name:                          0x2       
+      0xB3F24    0x4   OffsetToData:                  0x80000478
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4278    0x0   Characteristics:               0x0       
+        0xB427C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4280    0x8   MajorVersion:                  0x4       
+        0xB4282    0xA   MinorVersion:                  0x0       
+        0xB4284    0xC   NumberOfNamedEntries:          0x0       
+        0xB4286    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4288    0x0   Name:                          0x409     
+          0xB428C    0x4   OffsetToData:                  0x938     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4738    0x0   OffsetToData:                  0xD58FC   
+            0xB473C    0x4   Size:                          0x568     
+            0xB4740    0x8   CodePage:                      0x4E4     
+            0xB4744    0xC   Reserved:                      0x0       
+      Id: [0x3]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F28    0x0   Name:                          0x3       
+      0xB3F2C    0x4   OffsetToData:                  0x80000490
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4290    0x0   Characteristics:               0x0       
+        0xB4294    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4298    0x8   MajorVersion:                  0x4       
+        0xB429A    0xA   MinorVersion:                  0x0       
+        0xB429C    0xC   NumberOfNamedEntries:          0x0       
+        0xB429E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB42A0    0x0   Name:                          0x409     
+          0xB42A4    0x4   OffsetToData:                  0x948     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4748    0x0   OffsetToData:                  0xD5E64   
+            0xB474C    0x4   Size:                          0x10A8    
+            0xB4750    0x8   CodePage:                      0x4E4     
+            0xB4754    0xC   Reserved:                      0x0       
+      Id: [0x4]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F30    0x0   Name:                          0x4       
+      0xB3F34    0x4   OffsetToData:                  0x800004A8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB42A8    0x0   Characteristics:               0x0       
+        0xB42AC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB42B0    0x8   MajorVersion:                  0x4       
+        0xB42B2    0xA   MinorVersion:                  0x0       
+        0xB42B4    0xC   NumberOfNamedEntries:          0x0       
+        0xB42B6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB42B8    0x0   Name:                          0x409     
+          0xB42BC    0x4   OffsetToData:                  0x958     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4758    0x0   OffsetToData:                  0xD6F0C   
+            0xB475C    0x4   Size:                          0x468     
+            0xB4760    0x8   CodePage:                      0x4E4     
+            0xB4764    0xC   Reserved:                      0x0       
+
+  Id: [0x5] (RT_DIALOG)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E28    0x0   Name:                          0x5       
+  0xB3E2C    0x4   OffsetToData:                  0x80000138
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3F38    0x0   Characteristics:               0x0       
+    0xB3F3C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3F40    0x8   MajorVersion:                  0x4       
+    0xB3F42    0xA   MinorVersion:                  0x0       
+    0xB3F44    0xC   NumberOfNamedEntries:          0x0       
+    0xB3F46    0xE   NumberOfIdEntries:             0x3       
+      Id: [0x64]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F48    0x0   Name:                          0x64      
+      0xB3F4C    0x4   OffsetToData:                  0x800004C0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB42C0    0x0   Characteristics:               0x0       
+        0xB42C4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB42C8    0x8   MajorVersion:                  0x4       
+        0xB42CA    0xA   MinorVersion:                  0x0       
+        0xB42CC    0xC   NumberOfNamedEntries:          0x0       
+        0xB42CE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB42D0    0x0   Name:                          0x409     
+          0xB42D4    0x4   OffsetToData:                  0x968     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4768    0x0   OffsetToData:                  0xD7374   
+            0xB476C    0x4   Size:                          0x416     
+            0xB4770    0x8   CodePage:                      0x4E4     
+            0xB4774    0xC   Reserved:                      0x0       
+      Id: [0x7801]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F50    0x0   Name:                          0x7801    
+      0xB3F54    0x4   OffsetToData:                  0x800004D8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB42D8    0x0   Characteristics:               0x0       
+        0xB42DC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB42E0    0x8   MajorVersion:                  0x4       
+        0xB42E2    0xA   MinorVersion:                  0x0       
+        0xB42E4    0xC   NumberOfNamedEntries:          0x0       
+        0xB42E6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB42E8    0x0   Name:                          0x409     
+          0xB42EC    0x4   OffsetToData:                  0x978     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4778    0x0   OffsetToData:                  0xD778C   
+            0xB477C    0x4   Size:                          0xE8      
+            0xB4780    0x8   CodePage:                      0x4E4     
+            0xB4784    0xC   Reserved:                      0x0       
+      Id: [0x780E]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F58    0x0   Name:                          0x780E    
+      0xB3F5C    0x4   OffsetToData:                  0x800004F0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB42F0    0x0   Characteristics:               0x0       
+        0xB42F4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB42F8    0x8   MajorVersion:                  0x4       
+        0xB42FA    0xA   MinorVersion:                  0x0       
+        0xB42FC    0xC   NumberOfNamedEntries:          0x0       
+        0xB42FE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4300    0x0   Name:                          0x409     
+          0xB4304    0x4   OffsetToData:                  0x988     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4788    0x0   OffsetToData:                  0xD7874   
+            0xB478C    0x4   Size:                          0x34      
+            0xB4790    0x8   CodePage:                      0x4E4     
+            0xB4794    0xC   Reserved:                      0x0       
+
+  Id: [0x6] (RT_STRING)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E30    0x0   Name:                          0x6       
+  0xB3E34    0x4   OffsetToData:                  0x80000160
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3F60    0x0   Characteristics:               0x0       
+    0xB3F64    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3F68    0x8   MajorVersion:                  0x4       
+    0xB3F6A    0xA   MinorVersion:                  0x0       
+    0xB3F6C    0xC   NumberOfNamedEntries:          0x0       
+    0xB3F6E    0xE   NumberOfIdEntries:             0xE       
+      Id: [0x7]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F70    0x0   Name:                          0x7       
+      0xB3F74    0x4   OffsetToData:                  0x80000508
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4308    0x0   Characteristics:               0x0       
+        0xB430C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4310    0x8   MajorVersion:                  0x4       
+        0xB4312    0xA   MinorVersion:                  0x0       
+        0xB4314    0xC   NumberOfNamedEntries:          0x0       
+        0xB4316    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4318    0x0   Name:                          0x409     
+          0xB431C    0x4   OffsetToData:                  0x998     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4798    0x0   OffsetToData:                  0xD78A8   
+            0xB479C    0x4   Size:                          0x4C      
+            0xB47A0    0x8   CodePage:                      0x4E4     
+            0xB47A4    0xC   Reserved:                      0x0       
+          [STRINGS]
+               101: &About XCrashReport...
+      Id: [0xF01]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F78    0x0   Name:                          0xF01     
+      0xB3F7C    0x4   OffsetToData:                  0x80000520
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4320    0x0   Characteristics:               0x0       
+        0xB4324    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4328    0x8   MajorVersion:                  0x4       
+        0xB432A    0xA   MinorVersion:                  0x0       
+        0xB432C    0xC   NumberOfNamedEntries:          0x0       
+        0xB432E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4330    0x0   Name:                          0x409     
+          0xB4334    0x4   OffsetToData:                  0x9A8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47A8    0x0   OffsetToData:                  0xD78F4   
+            0xB47AC    0x4   Size:                          0x82      
+            0xB47B0    0x8   CodePage:                      0x4E4     
+            0xB47B4    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61440: Open
+             61441: Save As
+             61442: All Files (*.*)
+             61443: Untitled
+             61446: an unnamed file
+      Id: [0xF02]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F80    0x0   Name:                          0xF02     
+      0xB3F84    0x4   OffsetToData:                  0x80000538
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4338    0x0   Characteristics:               0x0       
+        0xB433C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4340    0x8   MajorVersion:                  0x4       
+        0xB4342    0xA   MinorVersion:                  0x0       
+        0xB4344    0xC   NumberOfNamedEntries:          0x0       
+        0xB4346    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4348    0x0   Name:                          0x409     
+          0xB434C    0x4   OffsetToData:                  0x9B8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47B8    0x0   OffsetToData:                  0xD7978   
+            0xB47BC    0x4   Size:                          0x2A      
+            0xB47C0    0x8   CodePage:                      0x4E4     
+            0xB47C4    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61457: &Hide
+      Id: [0xF03]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F88    0x0   Name:                          0xF03     
+      0xB3F8C    0x4   OffsetToData:                  0x80000550
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4350    0x0   Characteristics:               0x0       
+        0xB4354    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4358    0x8   MajorVersion:                  0x4       
+        0xB435A    0xA   MinorVersion:                  0x0       
+        0xB435C    0xC   NumberOfNamedEntries:          0x0       
+        0xB435E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4360    0x0   Name:                          0x409     
+          0xB4364    0x4   OffsetToData:                  0x9C8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47C8    0x0   OffsetToData:                  0xD79A4   
+            0xB47CC    0x4   Size:                          0x184     
+            0xB47D0    0x8   CodePage:                      0x4E4     
+            0xB47D4    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61472: No error message is available.
+             61473: Attempted an unsupported operation.
+             61474: A required resource was unavailable.
+             61475: Out of memory.
+             61476: An unknown error has occurred.
+             61477: Encountered an improper argument.
+      Id: [0xF11]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F90    0x0   Name:                          0xF11     
+      0xB3F94    0x4   OffsetToData:                  0x80000568
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4368    0x0   Characteristics:               0x0       
+        0xB436C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4370    0x8   MajorVersion:                  0x4       
+        0xB4372    0xA   MinorVersion:                  0x0       
+        0xB4374    0xC   NumberOfNamedEntries:          0x0       
+        0xB4376    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4378    0x0   Name:                          0x409     
+          0xB437C    0x4   OffsetToData:                  0x9D8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47D8    0x0   OffsetToData:                  0xD7B28   
+            0xB47DC    0x4   Size:                          0x4E6     
+            0xB47E0    0x8   CodePage:                      0x4E4     
+            0xB47E4    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61696: Incorrect filename.
+             61697: Failed to open document.
+             61698: Failed to save document.
+             61699: Save changes to %1?
+             61700: Failed to create empty document.
+             61701: The file is too large to open.
+             61702: Could not start print job.
+             61703: Failed to launch help.
+             61704: Internal application error.
+             61705: Command failed.
+             61706: Insufficient memory to perform operation.
+             61707: System registry entries have been removed and the INI file (if any) was deleted.
+             61708: Not all of the system registry entries (or INI file) were removed.
+             61709: This program requires the file %s, which was not found on this system.
+             61710: This program is linked to the missing export %s in the file %s. This machine may have an incompatible version of %s.
+      Id: [0xF12]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3F98    0x0   Name:                          0xF12     
+      0xB3F9C    0x4   OffsetToData:                  0x80000580
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4380    0x0   Characteristics:               0x0       
+        0xB4384    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4388    0x8   MajorVersion:                  0x4       
+        0xB438A    0xA   MinorVersion:                  0x0       
+        0xB438C    0xC   NumberOfNamedEntries:          0x0       
+        0xB438E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4390    0x0   Name:                          0x409     
+          0xB4394    0x4   OffsetToData:                  0x9E8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47E8    0x0   OffsetToData:                  0xD8010   
+            0xB47EC    0x4   Size:                          0x264     
+            0xB47F0    0x8   CodePage:                      0x4E4     
+            0xB47F4    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61712: Enter an integer.
+             61713: Enter a number.
+             61714: Enter an integer between %1 and %2.
+             61715: Enter a number between %1 and %2.
+             61716: Enter no more than %1 characters.
+             61717: Select a button.
+             61718: Enter an integer between 0 and 255.
+             61719: Enter a positive integer.
+             61720: Enter a date and/or time.
+             61721: Enter a currency.
+             61722: Enter a GUID.
+             61723: Enter a time.
+             61724: Enter a date.
+      Id: [0xF13]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FA0    0x0   Name:                          0xF13     
+      0xB3FA4    0x4   OffsetToData:                  0x80000598
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4398    0x0   Characteristics:               0x0       
+        0xB439C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB43A0    0x8   MajorVersion:                  0x4       
+        0xB43A2    0xA   MinorVersion:                  0x0       
+        0xB43A4    0xC   NumberOfNamedEntries:          0x0       
+        0xB43A6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB43A8    0x0   Name:                          0x409     
+          0xB43AC    0x4   OffsetToData:                  0x9F8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB47F8    0x0   OffsetToData:                  0xD8274   
+            0xB47FC    0x4   Size:                          0x2DA     
+            0xB4800    0x8   CodePage:                      0x4E4     
+            0xB4804    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61728: Unexpected file format.
+             61729: %1
+Cannot find this file.
+Verify that the correct path and file name are given.
+             61730: Destination disk drive is full.
+             61731: Unable to read from %1, it is opened by someone else.
+             61732: Unable to write to %1, it is read-only or opened by someone else.
+             61733: Encountered an unexpected error while reading %1.
+             61734: Encountered an unexpected error while writing %1.
+      Id: [0xF14]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FA8    0x0   Name:                          0xF14     
+      0xB3FAC    0x4   OffsetToData:                  0x800005B0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB43B0    0x0   Characteristics:               0x0       
+        0xB43B4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB43B8    0x8   MajorVersion:                  0x4       
+        0xB43BA    0xA   MinorVersion:                  0x0       
+        0xB43BC    0xC   NumberOfNamedEntries:          0x0       
+        0xB43BE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB43C0    0x0   Name:                          0x409     
+          0xB43C4    0x4   OffsetToData:                  0xA08     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4808    0x0   OffsetToData:                  0xD8550   
+            0xB480C    0x4   Size:                          0x8A      
+            0xB4810    0x8   CodePage:                      0x4E4     
+            0xB4814    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61744: %1: %2
+Continue running script?
+             61745: Dispatch exception: %1
+      Id: [0xF19]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FB0    0x0   Name:                          0xF19     
+      0xB3FB4    0x4   OffsetToData:                  0x800005C8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB43C8    0x0   Characteristics:               0x0       
+        0xB43CC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB43D0    0x8   MajorVersion:                  0x4       
+        0xB43D2    0xA   MinorVersion:                  0x0       
+        0xB43D4    0xC   NumberOfNamedEntries:          0x0       
+        0xB43D6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB43D8    0x0   Name:                          0x409     
+          0xB43DC    0x4   OffsetToData:                  0xA18     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4818    0x0   OffsetToData:                  0xD85DC   
+            0xB481C    0x4   Size:                          0xAC      
+            0xB4820    0x8   CodePage:                      0x4E4     
+            0xB4824    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61836: Unable to read write-only property.
+             61837: Unable to write read-only property.
+      Id: [0xF1A]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FB8    0x0   Name:                          0xF1A     
+      0xB3FBC    0x4   OffsetToData:                  0x800005E0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB43E0    0x0   Characteristics:               0x0       
+        0xB43E4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB43E8    0x8   MajorVersion:                  0x4       
+        0xB43EA    0xA   MinorVersion:                  0x0       
+        0xB43EC    0xC   NumberOfNamedEntries:          0x0       
+        0xB43EE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB43F0    0x0   Name:                          0x409     
+          0xB43F4    0x4   OffsetToData:                  0xA28     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4828    0x0   OffsetToData:                  0xD8688   
+            0xB482C    0x4   Size:                          0xDE      
+            0xB4830    0x8   CodePage:                      0x4E4     
+            0xB4834    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61840: Unable to load mail system support.
+             61841: Mail system DLL is invalid.
+             61842: Send Mail failed to send message.
+      Id: [0xF1B]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FC0    0x0   Name:                          0xF1B     
+      0xB3FC4    0x4   OffsetToData:                  0x800005F8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB43F8    0x0   Characteristics:               0x0       
+        0xB43FC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4400    0x8   MajorVersion:                  0x4       
+        0xB4402    0xA   MinorVersion:                  0x0       
+        0xB4404    0xC   NumberOfNamedEntries:          0x0       
+        0xB4406    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4408    0x0   Name:                          0x409     
+          0xB440C    0x4   OffsetToData:                  0xA38     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4838    0x0   OffsetToData:                  0xD8768   
+            0xB483C    0x4   Size:                          0x4A8     
+            0xB4840    0x8   CodePage:                      0x4E4     
+            0xB4844    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61856: No error occurred.
+             61857: An unknown error occurred while accessing %1.
+             61858: %1 was not found.
+             61859: %1 contains an incorrect path.
+             61860: Could not open %1 because there are too many open files.
+             61861: Access to %1 was denied.
+             61862: An incorrect file handle was associated with %1.
+             61863: Could not remove %1 because it is the current directory.
+             61864: Could not create %1 because the directory is full.
+             61865: Seek failed on %1
+             61866: Encountered a hardware I/O error while accessing %1.
+             61867: Encountered a sharing violation while accessing %1.
+             61868: Encountered a locking violation while accessing %1.
+             61869: Disk full while accessing %1.
+             61870: Attempted to access %1 past its end.
+      Id: [0xF1C]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FC8    0x0   Name:                          0xF1C     
+      0xB3FCC    0x4   OffsetToData:                  0x80000610
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4410    0x0   Characteristics:               0x0       
+        0xB4414    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4418    0x8   MajorVersion:                  0x4       
+        0xB441A    0xA   MinorVersion:                  0x0       
+        0xB441C    0xC   NumberOfNamedEntries:          0x0       
+        0xB441E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4420    0x0   Name:                          0x409     
+          0xB4424    0x4   OffsetToData:                  0xA48     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4848    0x0   OffsetToData:                  0xD8C10   
+            0xB484C    0x4   Size:                          0x228     
+            0xB4850    0x8   CodePage:                      0x4E4     
+            0xB4854    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61872: No error occurred.
+             61873: An unknown error occurred while accessing %1.
+             61874: Attempted to write to the reading %1.
+             61875: Attempted to access %1 past its end.
+             61876: Attempted to read from the writing %1.
+             61877: %1 has a bad format.
+             61878: %1 contained an unexpected object.
+             61879: %1 contains an incorrect schema.
+      Id: [0xF1D]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FD0    0x0   Name:                          0xF1D     
+      0xB3FD4    0x4   OffsetToData:                  0x80000628
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4428    0x0   Characteristics:               0x0       
+        0xB442C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4430    0x8   MajorVersion:                  0x4       
+        0xB4432    0xA   MinorVersion:                  0x0       
+        0xB4434    0xC   NumberOfNamedEntries:          0x0       
+        0xB4436    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4438    0x0   Name:                          0x409     
+          0xB443C    0x4   OffsetToData:                  0xA58     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4858    0x0   OffsetToData:                  0xD8E38   
+            0xB485C    0x4   Size:                          0x2C      
+            0xB4860    0x8   CodePage:                      0x4E4     
+            0xB4864    0xC   Reserved:                      0x0       
+          [STRINGS]
+             61888: pixels
+      Id: [0xF2F]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FD8    0x0   Name:                          0xF2F     
+      0xB3FDC    0x4   OffsetToData:                  0x80000640
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4440    0x0   Characteristics:               0x0       
+        0xB4444    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4448    0x8   MajorVersion:                  0x4       
+        0xB444A    0xA   MinorVersion:                  0x0       
+        0xB444C    0xC   NumberOfNamedEntries:          0x0       
+        0xB444E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4450    0x0   Name:                          0x409     
+          0xB4454    0x4   OffsetToData:                  0xA68     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4868    0x0   OffsetToData:                  0xD8E64   
+            0xB486C    0x4   Size:                          0x42      
+            0xB4870    0x8   CodePage:                      0x4E4     
+            0xB4874    0xC   Reserved:                      0x0       
+          [STRINGS]
+             62177: Uncheck
+             62178: Check
+             62179: Mixed
+
+  Id: [0xC] (RT_GROUP_CURSOR)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E38    0x0   Name:                          0xC       
+  0xB3E3C    0x4   OffsetToData:                  0x800001E0
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB3FE0    0x0   Characteristics:               0x0       
+    0xB3FE4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB3FE8    0x8   MajorVersion:                  0x4       
+    0xB3FEA    0xA   MinorVersion:                  0x0       
+    0xB3FEC    0xC   NumberOfNamedEntries:          0x0       
+    0xB3FEE    0xE   NumberOfIdEntries:             0xF       
+      Id: [0x7901]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FF0    0x0   Name:                          0x7901    
+      0xB3FF4    0x4   OffsetToData:                  0x80000658
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4458    0x0   Characteristics:               0x0       
+        0xB445C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4460    0x8   MajorVersion:                  0x4       
+        0xB4462    0xA   MinorVersion:                  0x0       
+        0xB4464    0xC   NumberOfNamedEntries:          0x0       
+        0xB4466    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4468    0x0   Name:                          0x409     
+          0xB446C    0x4   OffsetToData:                  0xA78     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4878    0x0   OffsetToData:                  0xD8EA8   
+            0xB487C    0x4   Size:                          0x22      
+            0xB4880    0x8   CodePage:                      0x4E4     
+            0xB4884    0xC   Reserved:                      0x0       
+      Id: [0x7916]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB3FF8    0x0   Name:                          0x7916    
+      0xB3FFC    0x4   OffsetToData:                  0x80000670
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4470    0x0   Characteristics:               0x0       
+        0xB4474    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4478    0x8   MajorVersion:                  0x4       
+        0xB447A    0xA   MinorVersion:                  0x0       
+        0xB447C    0xC   NumberOfNamedEntries:          0x0       
+        0xB447E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4480    0x0   Name:                          0x409     
+          0xB4484    0x4   OffsetToData:                  0xA88     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4888    0x0   OffsetToData:                  0xD8ECC   
+            0xB488C    0x4   Size:                          0x14      
+            0xB4890    0x8   CodePage:                      0x4E4     
+            0xB4894    0xC   Reserved:                      0x0       
+      Id: [0x7917]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4000    0x0   Name:                          0x7917    
+      0xB4004    0x4   OffsetToData:                  0x80000688
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4488    0x0   Characteristics:               0x0       
+        0xB448C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4490    0x8   MajorVersion:                  0x4       
+        0xB4492    0xA   MinorVersion:                  0x0       
+        0xB4494    0xC   NumberOfNamedEntries:          0x0       
+        0xB4496    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4498    0x0   Name:                          0x409     
+          0xB449C    0x4   OffsetToData:                  0xA98     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4898    0x0   OffsetToData:                  0xD8EE0   
+            0xB489C    0x4   Size:                          0x14      
+            0xB48A0    0x8   CodePage:                      0x4E4     
+            0xB48A4    0xC   Reserved:                      0x0       
+      Id: [0x7918]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4008    0x0   Name:                          0x7918    
+      0xB400C    0x4   OffsetToData:                  0x800006A0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB44A0    0x0   Characteristics:               0x0       
+        0xB44A4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB44A8    0x8   MajorVersion:                  0x4       
+        0xB44AA    0xA   MinorVersion:                  0x0       
+        0xB44AC    0xC   NumberOfNamedEntries:          0x0       
+        0xB44AE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB44B0    0x0   Name:                          0x409     
+          0xB44B4    0x4   OffsetToData:                  0xAA8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48A8    0x0   OffsetToData:                  0xD8EF4   
+            0xB48AC    0x4   Size:                          0x14      
+            0xB48B0    0x8   CodePage:                      0x4E4     
+            0xB48B4    0xC   Reserved:                      0x0       
+      Id: [0x7919]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4010    0x0   Name:                          0x7919    
+      0xB4014    0x4   OffsetToData:                  0x800006B8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB44B8    0x0   Characteristics:               0x0       
+        0xB44BC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB44C0    0x8   MajorVersion:                  0x4       
+        0xB44C2    0xA   MinorVersion:                  0x0       
+        0xB44C4    0xC   NumberOfNamedEntries:          0x0       
+        0xB44C6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB44C8    0x0   Name:                          0x409     
+          0xB44CC    0x4   OffsetToData:                  0xAB8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48B8    0x0   OffsetToData:                  0xD8F08   
+            0xB48BC    0x4   Size:                          0x14      
+            0xB48C0    0x8   CodePage:                      0x4E4     
+            0xB48C4    0xC   Reserved:                      0x0       
+      Id: [0x791A]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4018    0x0   Name:                          0x791A    
+      0xB401C    0x4   OffsetToData:                  0x800006D0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB44D0    0x0   Characteristics:               0x0       
+        0xB44D4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB44D8    0x8   MajorVersion:                  0x4       
+        0xB44DA    0xA   MinorVersion:                  0x0       
+        0xB44DC    0xC   NumberOfNamedEntries:          0x0       
+        0xB44DE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB44E0    0x0   Name:                          0x409     
+          0xB44E4    0x4   OffsetToData:                  0xAC8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48C8    0x0   OffsetToData:                  0xD8F1C   
+            0xB48CC    0x4   Size:                          0x14      
+            0xB48D0    0x8   CodePage:                      0x4E4     
+            0xB48D4    0xC   Reserved:                      0x0       
+      Id: [0x791B]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4020    0x0   Name:                          0x791B    
+      0xB4024    0x4   OffsetToData:                  0x800006E8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB44E8    0x0   Characteristics:               0x0       
+        0xB44EC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB44F0    0x8   MajorVersion:                  0x4       
+        0xB44F2    0xA   MinorVersion:                  0x0       
+        0xB44F4    0xC   NumberOfNamedEntries:          0x0       
+        0xB44F6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB44F8    0x0   Name:                          0x409     
+          0xB44FC    0x4   OffsetToData:                  0xAD8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48D8    0x0   OffsetToData:                  0xD8F30   
+            0xB48DC    0x4   Size:                          0x14      
+            0xB48E0    0x8   CodePage:                      0x4E4     
+            0xB48E4    0xC   Reserved:                      0x0       
+      Id: [0x791C]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4028    0x0   Name:                          0x791C    
+      0xB402C    0x4   OffsetToData:                  0x80000700
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4500    0x0   Characteristics:               0x0       
+        0xB4504    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4508    0x8   MajorVersion:                  0x4       
+        0xB450A    0xA   MinorVersion:                  0x0       
+        0xB450C    0xC   NumberOfNamedEntries:          0x0       
+        0xB450E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4510    0x0   Name:                          0x409     
+          0xB4514    0x4   OffsetToData:                  0xAE8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48E8    0x0   OffsetToData:                  0xD8F44   
+            0xB48EC    0x4   Size:                          0x14      
+            0xB48F0    0x8   CodePage:                      0x4E4     
+            0xB48F4    0xC   Reserved:                      0x0       
+      Id: [0x791D]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4030    0x0   Name:                          0x791D    
+      0xB4034    0x4   OffsetToData:                  0x80000718
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4518    0x0   Characteristics:               0x0       
+        0xB451C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4520    0x8   MajorVersion:                  0x4       
+        0xB4522    0xA   MinorVersion:                  0x0       
+        0xB4524    0xC   NumberOfNamedEntries:          0x0       
+        0xB4526    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4528    0x0   Name:                          0x409     
+          0xB452C    0x4   OffsetToData:                  0xAF8     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB48F8    0x0   OffsetToData:                  0xD8F58   
+            0xB48FC    0x4   Size:                          0x14      
+            0xB4900    0x8   CodePage:                      0x4E4     
+            0xB4904    0xC   Reserved:                      0x0       
+      Id: [0x791E]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4038    0x0   Name:                          0x791E    
+      0xB403C    0x4   OffsetToData:                  0x80000730
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4530    0x0   Characteristics:               0x0       
+        0xB4534    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4538    0x8   MajorVersion:                  0x4       
+        0xB453A    0xA   MinorVersion:                  0x0       
+        0xB453C    0xC   NumberOfNamedEntries:          0x0       
+        0xB453E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4540    0x0   Name:                          0x409     
+          0xB4544    0x4   OffsetToData:                  0xB08     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4908    0x0   OffsetToData:                  0xD8F6C   
+            0xB490C    0x4   Size:                          0x14      
+            0xB4910    0x8   CodePage:                      0x4E4     
+            0xB4914    0xC   Reserved:                      0x0       
+      Id: [0x791F]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4040    0x0   Name:                          0x791F    
+      0xB4044    0x4   OffsetToData:                  0x80000748
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4548    0x0   Characteristics:               0x0       
+        0xB454C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4550    0x8   MajorVersion:                  0x4       
+        0xB4552    0xA   MinorVersion:                  0x0       
+        0xB4554    0xC   NumberOfNamedEntries:          0x0       
+        0xB4556    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4558    0x0   Name:                          0x409     
+          0xB455C    0x4   OffsetToData:                  0xB18     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4918    0x0   OffsetToData:                  0xD8F80   
+            0xB491C    0x4   Size:                          0x14      
+            0xB4920    0x8   CodePage:                      0x4E4     
+            0xB4924    0xC   Reserved:                      0x0       
+      Id: [0x7920]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4048    0x0   Name:                          0x7920    
+      0xB404C    0x4   OffsetToData:                  0x80000760
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4560    0x0   Characteristics:               0x0       
+        0xB4564    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4568    0x8   MajorVersion:                  0x4       
+        0xB456A    0xA   MinorVersion:                  0x0       
+        0xB456C    0xC   NumberOfNamedEntries:          0x0       
+        0xB456E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4570    0x0   Name:                          0x409     
+          0xB4574    0x4   OffsetToData:                  0xB28     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4928    0x0   OffsetToData:                  0xD8F94   
+            0xB492C    0x4   Size:                          0x14      
+            0xB4930    0x8   CodePage:                      0x4E4     
+            0xB4934    0xC   Reserved:                      0x0       
+      Id: [0x7921]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4050    0x0   Name:                          0x7921    
+      0xB4054    0x4   OffsetToData:                  0x80000778
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4578    0x0   Characteristics:               0x0       
+        0xB457C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4580    0x8   MajorVersion:                  0x4       
+        0xB4582    0xA   MinorVersion:                  0x0       
+        0xB4584    0xC   NumberOfNamedEntries:          0x0       
+        0xB4586    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4588    0x0   Name:                          0x409     
+          0xB458C    0x4   OffsetToData:                  0xB38     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4938    0x0   OffsetToData:                  0xD8FA8   
+            0xB493C    0x4   Size:                          0x14      
+            0xB4940    0x8   CodePage:                      0x4E4     
+            0xB4944    0xC   Reserved:                      0x0       
+      Id: [0x7922]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4058    0x0   Name:                          0x7922    
+      0xB405C    0x4   OffsetToData:                  0x80000790
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB4590    0x0   Characteristics:               0x0       
+        0xB4594    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB4598    0x8   MajorVersion:                  0x4       
+        0xB459A    0xA   MinorVersion:                  0x0       
+        0xB459C    0xC   NumberOfNamedEntries:          0x0       
+        0xB459E    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB45A0    0x0   Name:                          0x409     
+          0xB45A4    0x4   OffsetToData:                  0xB48     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4948    0x0   OffsetToData:                  0xD8FBC   
+            0xB494C    0x4   Size:                          0x14      
+            0xB4950    0x8   CodePage:                      0x4E4     
+            0xB4954    0xC   Reserved:                      0x0       
+      Id: [0x7923]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4060    0x0   Name:                          0x7923    
+      0xB4064    0x4   OffsetToData:                  0x800007A8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB45A8    0x0   Characteristics:               0x0       
+        0xB45AC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB45B0    0x8   MajorVersion:                  0x4       
+        0xB45B2    0xA   MinorVersion:                  0x0       
+        0xB45B4    0xC   NumberOfNamedEntries:          0x0       
+        0xB45B6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB45B8    0x0   Name:                          0x409     
+          0xB45BC    0x4   OffsetToData:                  0xB58     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4958    0x0   OffsetToData:                  0xD8FD0   
+            0xB495C    0x4   Size:                          0x14      
+            0xB4960    0x8   CodePage:                      0x4E4     
+            0xB4964    0xC   Reserved:                      0x0       
+
+  Id: [0xE] (RT_GROUP_ICON)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E40    0x0   Name:                          0xE       
+  0xB3E44    0x4   OffsetToData:                  0x80000268
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB4068    0x0   Characteristics:               0x0       
+    0xB406C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB4070    0x8   MajorVersion:                  0x4       
+    0xB4072    0xA   MinorVersion:                  0x0       
+    0xB4074    0xC   NumberOfNamedEntries:          0x0       
+    0xB4076    0xE   NumberOfIdEntries:             0x1       
+      Id: [0x80]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4078    0x0   Name:                          0x80      
+      0xB407C    0x4   OffsetToData:                  0x800007C0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB45C0    0x0   Characteristics:               0x0       
+        0xB45C4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB45C8    0x8   MajorVersion:                  0x4       
+        0xB45CA    0xA   MinorVersion:                  0x0       
+        0xB45CC    0xC   NumberOfNamedEntries:          0x0       
+        0xB45CE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB45D0    0x0   Name:                          0x409     
+          0xB45D4    0x4   OffsetToData:                  0xB68     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4968    0x0   OffsetToData:                  0xD8FE4   
+            0xB496C    0x4   Size:                          0x3E      
+            0xB4970    0x8   CodePage:                      0x4E4     
+            0xB4974    0xC   Reserved:                      0x0       
+
+  Id: [0x10] (RT_VERSION)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E48    0x0   Name:                          0x10      
+  0xB3E4C    0x4   OffsetToData:                  0x80000280
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB4080    0x0   Characteristics:               0x0       
+    0xB4084    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB4088    0x8   MajorVersion:                  0x4       
+    0xB408A    0xA   MinorVersion:                  0x0       
+    0xB408C    0xC   NumberOfNamedEntries:          0x0       
+    0xB408E    0xE   NumberOfIdEntries:             0x1       
+      Id: [0x1]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB4090    0x0   Name:                          0x1       
+      0xB4094    0x4   OffsetToData:                  0x800007D8
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB45D8    0x0   Characteristics:               0x0       
+        0xB45DC    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB45E0    0x8   MajorVersion:                  0x4       
+        0xB45E2    0xA   MinorVersion:                  0x0       
+        0xB45E4    0xC   NumberOfNamedEntries:          0x0       
+        0xB45E6    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB45E8    0x0   Name:                          0x409     
+          0xB45EC    0x4   OffsetToData:                  0xB78     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4978    0x0   OffsetToData:                  0xD9024   
+            0xB497C    0x4   Size:                          0x308     
+            0xB4980    0x8   CodePage:                      0x4E4     
+            0xB4984    0xC   Reserved:                      0x0       
+
+  Id: [0x18] (RT_MANIFEST)
+  [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+  0xB3E50    0x0   Name:                          0x18      
+  0xB3E54    0x4   OffsetToData:                  0x80000298
+    [IMAGE_RESOURCE_DIRECTORY]
+    0xB4098    0x0   Characteristics:               0x0       
+    0xB409C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+    0xB40A0    0x8   MajorVersion:                  0x4       
+    0xB40A2    0xA   MinorVersion:                  0x0       
+    0xB40A4    0xC   NumberOfNamedEntries:          0x0       
+    0xB40A6    0xE   NumberOfIdEntries:             0x1       
+      Id: [0x1]
+      [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+      0xB40A8    0x0   Name:                          0x1       
+      0xB40AC    0x4   OffsetToData:                  0x800007F0
+        [IMAGE_RESOURCE_DIRECTORY]
+        0xB45F0    0x0   Characteristics:               0x0       
+        0xB45F4    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+        0xB45F8    0x8   MajorVersion:                  0x4       
+        0xB45FA    0xA   MinorVersion:                  0x0       
+        0xB45FC    0xC   NumberOfNamedEntries:          0x0       
+        0xB45FE    0xE   NumberOfIdEntries:             0x1       
+        \--- LANG [9,1][LANG_ENGLISH,SUBLANG_ENGLISH_US]
+          [IMAGE_RESOURCE_DIRECTORY_ENTRY]
+          0xB4600    0x0   Name:                          0x409     
+          0xB4604    0x4   OffsetToData:                  0xB88     
+            [IMAGE_RESOURCE_DATA_ENTRY]
+            0xB4988    0x0   OffsetToData:                  0xD932C   
+            0xB498C    0x4   Size:                          0x15A     
+            0xB4990    0x8   CodePage:                      0x4E4     
+            0xB4994    0xC   Reserved:                      0x0       
+
+
+----------LOAD_CONFIG----------
+
+[IMAGE_LOAD_CONFIG_DIRECTORY]
+0xA6748    0x0   Size:                          0x48      
+0xA674C    0x4   TimeDateStamp:                 0x0        [Thu Jan  1 00:00:00 1970 UTC]
+0xA6750    0x8   MajorVersion:                  0x0       
+0xA6752    0xA   MinorVersion:                  0x0       
+0xA6754    0xC   GlobalFlagsClear:              0x0       
+0xA6758    0x10  GlobalFlagsSet:                0x0       
+0xA675C    0x14  CriticalSectionDefaultTimeout: 0x0       
+0xA6760    0x18  DeCommitFreeBlockThreshold:    0x0       
+0xA6764    0x1C  DeCommitTotalFreeThreshold:    0x0       
+0xA6768    0x20  LockPrefixTable:               0x0       
+0xA676C    0x24  MaximumAllocationSize:         0x0       
+0xA6770    0x28  VirtualMemoryThreshold:        0x0       
+0xA6774    0x2C  ProcessHeapFlags:              0x0       
+0xA6778    0x30  ProcessAffinityMask:           0x0       
+0xA677C    0x34  CSDVersion:                    0x0       
+0xA677E    0x36  Reserved1:                     0x0       
+0xA6780    0x38  EditList:                      0x0       
+0xA6784    0x3C  SecurityCookie:                0x4B2760  
+0xA6788    0x40  SEHandlerTable:                0x4A9B50  
+0xA678C    0x44  SEHandlerCount:                0x130     
+0xA6790    0x48  GuardCFCheckFunctionPointer:   0x53445352
+0xA6794    0x4C  Reserved2:                     0x8139C435
+0xA6798    0x50  GuardCFFunctionTable:          0x44028D13
+0xA679C    0x54  GuardCFFunctionCount:          0x459BAC8B
+0xA67A0    0x58  GuardFlags:                    0xF23AAE35
+
+----------Debug information----------
+
+[IMAGE_DEBUG_DIRECTORY]
+0x972A0    0x0   Characteristics:               0x0       
+0x972A4    0x4   TimeDateStamp:                 0x5978724E [Wed Jul 26 10:43:26 2017 UTC]
+0x972A8    0x8   MajorVersion:                  0x0       
+0x972AA    0xA   MinorVersion:                  0x0       
+0x972AC    0xC   Type:                          0x2       
+0x972B0    0x10  SizeOfData:                    0x68      
+0x972B4    0x14  AddressOfRawData:              0xA7990   
+0x972B8    0x18  PointerToRawData:              0xA6790   
+Type: IMAGE_DEBUG_TYPE_CODEVIEW
+
+
+None

@@ -1,0 +1,2283 @@
+This program must be run under Win32
+.text
+`.itext
+`.data
+.bss
+.idata
+.tls
+.rdata
+@.rsrc
+Integer
+string(
+WideString8
+Variant
+TObject
+TObject
+System
+IInterface
+System
+	IDispatch
+System
+TInterfacedObject
+FastMM Borland Edition 
+ 2004, 2005 Pierre le Riche / Professional Software Development
+SVWU
+]_^[
+L	 W
+]_^[
+t#Qj
+]_^[
+]_^[
+t'QRj
+wt=0
+]_^[
+]_^[
+|&B3
+h,*@
+An unexpected memory leak has occurred. 
+The unexpected small block leaks are:
+ bytes: 
+Unknown
+String
+The sizes of unexpected leaked medium and large blocks are: 
+Unexpected Memory Leak
+SVWU
+]_^[
+YZXu
+SVWUQ
+;"u3S
+;"u<S
+Z]_^[
+ZYYd
+^[Y]
+Ht Ht.
+r/f=
+w)f%
+uENt
+u0Nt
+u%Nt
+	w%9
+~KxI[)
+2_^[
+YZXt5
+YX_^
+                                                                
+C[;@
+C[;@
+@v:k
+@aQY
+E@|o
+BkU'9
+ZYYd
+SOFTWARE\Borland\Delphi\RTL
+FPUMaskValue
+-$0D
+SVW3
+ZYYd
+_^[YY]
+2;0u
+QSVW
+Uhc@@
+_^[Y]
+=(0D
+=(0D
+PPRTj
+=(0D
+=(0D
+=(0D
+YYZX
+=(0D
+=(0D
+=,0D
+=(0D
+=,0D
+=(0D
+YZXtp
+VWUd
+SPRQ
+T$(j
+PhpB@
+SVWU
+u	@B
+]_^[
+=,0D
+=(0D
+=,0D
+=(0D
+YZXtm1
+SPRQ
+VWUUh
+SPRQ
+ZYYd
+]_^[
+SVWU
+]_^[
+ZTUWVSPRTj
+]_^[
+d$,1
+,t\=
+t=HtN
+r6t0
+t.Ht
+=(0D
+ZYYd
+_^[]
+QSVW
+ZYYd
+_^[Y]
+hh7D
+=00D
+h`7D
+hh7D
+SVWU
+]_^[
+;_^[
+SVWU
+]_^[
+t!R:
+t-Rf;
+t f;J
+SVWRP
+Z_^[X
+uXJt
+uAJt
+u:Jt
+It2S
+t&J|
+N|*9
+tVSVWU
+]_^[
+tA:J
+t%:J
+t0:J
+tu:J
+tC:J
+th:J
+tH:J
+0f;\2
+;_^[
+SVWU
+]_^[
+t-Rf;
+t f;J
+SVWUQ
+Z]_^[
+_^[]
+]_^[
+PSVW
+_^[X
+_^[X
+SVWU
+]_^[
+]_^[
+SVWU
+]_^[
+]_^[
+USVW1
+_^[]
+SVWU
+]_^[
+t ;s
+8\u8
+kernel32.dll
+GetLongPathNameA
+h8d@
+h8d@
+hTd@
+htd@
+ZYYd
+Software\Borland\Locales
+Software\Borland\Delphi\Locales
+SVWU
+=<0D
+]_^[
+Uhke@
+ZYYd
+_^[YY]
+ZYYd
+ZYYd
+Uh_o@
+ZYYd
+hfo@
+	TFileName
+TSearchRec`
+	ExceptionLp@
+EHeapException
+EOutOfMemory
+EInOutError\q@
+	EExternal
+EExternalException
+	EIntError
+EDivByZero
+ERangeError
+EIntOverflow
+EMathError
+EInvalidOp
+EZeroDivide
+	EOverflow
+EUnderflow
+EInvalidPointer
+EInvalidCast
+EConvertError
+EAccessViolation
+EPrivilege
+EStackOverflow
+	EControlC
+EVariantError
+EAssertionFailed
+EAbstractError
+EIntfCastError
+ESafecallException
+SysUtils
+SysUtils
+Uh`z@
+ZYYd
+hgz@
+-{{{{1
+-ffff!
+-[[[[1
+-ffff!
+SVWU
+]_^[
+SVWU
+]_^[
+0<:r
+True
+False
+$Z^[
+TStrData
+ZYYd
+^[YY]
+@w2j
+SVWQ
+PWVS
+$Z_^[
+SVWQ
+PWVS
+$Z_^[
+QQQQS
+ZYYd
+C #C
+YZ^[
+SVWU
+]_^[
+WVS	
+(_^[
+<*t"<0r=<9w9i
+_^[[
+_^[]
+INFNAN
+QS<$t
+$*@@@*$@@@$ *@@* $@@($*)@-$*@@$-*@@$*-@@(*$)@-*$@@*-$@@*$-@@-* $@-$ *@* $-@$ *-@$ -*@*- $@($ *)(* $)
+u#f=
+<'t$<"t 
+<#t&<0t%<.t,<,t3<'t5<"t1<Et:<et6<;tF
+<#t'<0t#<.t
+<Et$<et <;tS
+-p8D
+<sGf
+<sAf
+^YY]
+_^[YY]
+'w~f
+f;\F
+_^[YY]
+$YZ_^[
+$YZ[
+@YY]
+ZYYd
+80u'
+ZYYd
+yyyy
+SVW3
+t%HtIHtm
+ZYYd
+AM/PM
+AMPM
+AAAA
+SVW3
+ZYYd
+SVWQ
+Z_^[
+SVWUQ
+$Z]_^[
+SVW3
+8gu4
+ZYYd
+SVWU
+]_^[
+SVWQ
+Z_^[
+QSVW
+_^[Y]
+QQQQQQSVW3
+ZYYd
+ZYYd
+^[Y]
+ZYYd
+QQQQQSVW
+ZYYd
+yyyy
+eeee
+D$DP
+D$HP
+D$PPj
+D$LPj
+ZYYd
+_^[Y]
+ZYYd
+_^[YY]
+ZYYd
+_^[YY]
+_^[]
+	TErrorRec
+YZ^[
+TExceptRec
+SVW3
+ZYYd
+,tY=
+t<HtH
+r3t7
+t(Ht
+ZYYd
+ZYYd
+SVWU
+]_^[
+u";]
+$YZ_^[
+$YZ^[
+SVWU
+]_^[
+SVWU
+WUWSj
+YZ]_^[
+QSVW
+_^[Y]
+Y_^[
+ZYYd
+m/d/yy
+mmmm d, yyyy
+ AMPM
+AMPM 
+:mm:ss
+ZYYd
+TUnitHashArray
+SysUtils
+TModuleInfo
+SVWU
+2D$	2D$
+]_^[
+=,8D
+kernel32.dll
+GetDiskFreeSpaceExA
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+[YY]
+ZYYd
+ZYYd
+ZYYd
+oleaut32.dll
+VariantChangeTypeEx
+VarNeg
+VarNot
+VarAdd
+VarSub
+VarMul
+VarDiv
+VarIdiv
+VarMod
+VarAnd
+VarOr
+VarXor
+VarCmp
+VarI4FromStr
+VarR4FromStr
+VarR8FromStr
+VarDateFromStr
+VarCyFromStr
+VarBoolFromStr
+VarBstrFromCy
+VarBstrFromDate
+VarBstrFromBool
+ZYYd
+TCustomVariantType
+TCustomVariantType4
+Variants
+EVariantInvalidOpError
+EVariantTypeCastError
+EVariantOverflowError
+EVariantInvalidArgError
+EVariantBadVarTypeError
+EVariantBadIndexError
+EVariantArrayLockedError
+EVariantArrayCreateError
+EVariantNotImplError
+EVariantOutOfMemoryError
+EVariantUnexpectedErrorX
+EVariantDispatchError
+EVariantInvalidNullOpError
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+t?Htb
+ZYYd
+ZYYd
+|kC3
+--	@
+ZYYd
+|kC3
+SVWQ
+Z_^[
+ZYYd
+^[Y]
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+SVWUQ
+Z]_^[
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+QSVW
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+QQQQSV
+UhD#A
+ZYYd
+hK#A
+ZYYd
+ZYYd
+Uhv$A
+ZYYd
+h}$A
+ZYYd
+Uh8*A
+ZYYd
+h?*A
+ZYYd
+ZYYd
+UhV+A
+ZYYd
+h]+A
+ZYYd
+ZYYd
+h#,A
+Uhq1A
+ZYYd
+hx1A
+ZYYd
+FSVQ
+t0f-
+FSVW
+=$;D
+EP;D
+ZYYd
+^[Y]
+QQQQSV
+UhT7A
+ZYYd
+h[7A
+Uh$8A
+ZYYd
+h+8A
+ZYYd
+Uh?9A
+ZYYd
+ZYYd
+ZYYd
+UhE;A
+ZYYd
+hW;A
+Uh\>A
+ZYYd
+ZYYd
+[YY]
+5DBA
+FSVWUQ
+Mt0MtU
+Z]_^[
+ZYYd
+ZYYd
+Jt[J
+UhgHA
+ZYYd
+hnHA
+[YY]
+SVWU
+]_^[
+ZYYd
+ZYYd
+ZYYd
+Uh3MA
+ZYYd
+ZYYd
+Empty
+Null
+Smallint
+Integer
+Single
+Double
+Currency
+Date
+OleStr
+Dispatch
+Error
+Boolean
+Variant
+Unknown
+Decimal
+ShortInt
+Byte
+Word
+LongWord
+Int64
+SVW3
+Uh:QA
+ZYYd
+hAQA
+String
+Array 
+ByRef 
+SVWU
+]_^[
+ZYYd
+Variants
+Uh1UA
+ZYYd
+h8UA
+SVWQ
+Z_^[
+_^[YY]
+QSVW
+_^[Y]
+SVWUQ
+Z]_^[
+SVW3
+UhxXA
+ZYYd
+ZYYd
+Uh3YA
+ZYYd
+h:YA
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+base
+&..-
+<() 
+base
+<() 
+SVWUQ
+$Z]_^[
+YCOu
+_^[]
+YCNu
+^[YY]
+_^[]
+^[Y]
+|"F3
+_^[]
+Uh4hA
+ZYYd
+h;hA
+t	f=
+SVW3
+ZYYd
+ZYYd
+SVWUQ
+Z]_^[
+SVWUQ
+CtPS
+Z]_^[
+SVWQ
+r/A3
+Z_^[
+ZYYd
+[YY]
+SVW3
+UhkoA
+ZYYd
+hroA
+ZYYd
+ZYYd
+SVW3
+UhhrA
+ZYYd
+horA
+ZYYd
+ZYYd
+Open "%s" failed: %s
+Save "%s" failed: %s
+SVW3
+UhruA
+UhUuA
+ZYYd
+h\uA
+ZYYd
+hyuA
+D$03
+ZYYd
+^[Y]
+LoadLibrary(
+UhbwA
+ZYYd
+hiwA
+_^[YY]
+GetProcAddress(
+SVWU
+]_^[
+*+7!%/9
+	)&,;SV
+Bad file format!
+Uh-zA
+ZYYd
+h4zA
+	<Zt
+ZZZZ
+Uh^|A
+ZYYd
+he|A
+^[YY]
+14")$4}A
+ '#-;T}A
+stream
+stream
+stream
+SVWU
+]_^[
+|$G3
+$@<@
+ZYYd
+_^[Y]
+ZYYd
+)/4<
+-'4 
+-/4<
+<() 
+<() 
+ZYYd
+^[YY]
+ZYYd
+*""4
+ 22:'<
+65./'
+	*"2d
+_^[]
+ZYYd
+ZYYd
+result
+Q ^[
+ZYYd
+^[Y]
+SVWUQ
+Z]_^[
+SVWU
+]_^[
+ZYYd
+ZYYd
+_^[YY]
+QSVW
+_^[Y]
+result
+this
+base
+SVWU
+]_^[
+Q ^[
+SVWU
+|DG3
+YZ]_^[
+QQQQQQQSVW
+ZYYd
+SVWU
+Q$FKu
+]_^[
+|#C3
+YZ_^[
+_^[]
+QSVW
+_^[Y]
+R4_^[
+R4_^[
+R4_^[
+R4_^[
+SVWU
+]_^[
+R,^[
+R,^[
+ZYYd
+ not found
+SVWU
+]_^[
+R0^[
+ZYYd
+R0Pj
+SVW3
+ZYYd
+_^[YY]
+ not found
+s8^[
+Q$^[
+SVW3
+ZYYd
+_^[YY]
+S@[]
+Q ^[
+ZYYd
+_^[YY]
+SVWU
+]_^[
+SVWU
+]_^[
+ZYYd
+_^[Y]
+ZYYd
+^[Y]
+ZYYd
+^[Y]
+F(^[
+ZYYd
+^[Y]
+ZYYd
+^[Y]
+F8^[
+F@^[
+F0^[
+F,^[
+F(^[
+ZYYd
+|6C3
+ZYYd
+_^[YY]
+match
+ZYYd
+QQQQ3
+ZYYd
+YYY]
+QQQQ3
+ZYYd
+YYY]
+QQQQ3
+ZYYd
+YYY]
+QQQQ3
+ZYYd
+YYY]
+QQQQ3
+ZYYd
+Y[YY]
+QQQQ3
+ZYYd
+Y[YY]
+ZYYd
+^[YY]
+ZYYd
+_^[]
+QQQQSVW
+ZYYd
+S0[]
+F,^[
+F0^[
+ZYYd
+v!JHF;
+B@F;
+C +C
+<{u>
+;}u0
+;}u0
+8}tE3
+[YY]
+;B r
+r	;u
+_^[]
+"<Ur
+QSVW
+_^[Y]
+rrJto
+t4Jt8JtC
+tNJtR
+SVWU
+,]_^[
+SVWUQ
+Z]_^[
+;F r
+;F r-3
+;F r
+_^[YY]
+Q<;P s
+A +B
+J +H
+8\u*
+8 uY
+9nt,
+8ot$
+P +Q
+;Q r
+J +H
+;Q r
+::uD
+P +Q
+:)u<
+:>u 
+;H4~&
+P8;Q0
+J +H
+:9v1
+J +H
+;A w
+8)uF
+P +Q
+E(Pt
+@ +B
+P +Q
+F +F
+E$PV
+F@;E
+;FH~
+JP#M
+[YY]
+JP#M
+^[YY]
+^4G;~0|
+F0_^[YY]
+h"QD
+h&QD
+h,QD
+h1QD
+h:QD
+hGQD
+<2(u
+ERCP
+S ;S
+K ;K
+A f;B
+/;CH~
+v!JHF;
+B@F;
+5;Pxr
+%;Pxr
+AB:Z
+ONMLLKJIHGFEDC
+BA@?>
+=<;:98765544444433210/.44444433210/.------,,+*)('------,,+*)('&&&&&&%%$#"! 
+S(;S,w
+C|;E
+?zu4
+K|;M
+K|;M
+K|;M
+K|;M
+=|QD
+Cx+Ct
+S|;U
+C|;E
+?wt(
+:wt 3
+;sts
+=|QD
+Sx+St
+Cp;E
+;stu
+;stt
+;stu
+;sttq;sxte
+t);stv
+:C4u
+:K5t
+t);sxs
+Sx+S
+:K4u
+:C5t
+;Sxr-
+:K4u
+t=;sxs
+t);sxs
+Sx+S
+:K4u
+:C5t
+Sx+S
+;Kxr-
+:C4u
+;stu
+;sxr2
+t);sxs
+Kx+K
+:C4u
+:S5t
+;Kxr-
+:C4u
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr+
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+t';sxr";
+t';sxr";
+t';sxr";
+o;sxr2
+;sxr2
+}a;sxr+
+;sxr2
+?(t	
+j;sxr2
+;sxr2
+}\;sxr+
+U;sxr2
+;sxr2
+}E;sxr+
+;sxr2
+?Bt	
+\;sxr2
+;sxr2
+}N;sxr+
+U;sxr2
+;sxr2
+}E;sxr+
+;sxr2
+t);sxs
+Sx+S
+:K4u
+:C5t
+;Sxr-
+:K4u
+Kx+M
+Sx+U
+;sxr2
+;sxs
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+;sxr2
+c;sxr2
+;sxr2
+t);sxs
+Sx+S
+:K4u
+:C5t
+C4;E
+;sxr7
+t);sxs
+Sx+S
+:K4u
+:C5t
+;Sxr-
+:K4u
+;sxr7
+F;sx
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+;sxr7
+}O;sxr(
+:ERCPt
+9PCREu
+ t.3
+G;{xs[
+t);{xs
+Cx+C
+:S4u
+:K5t
+t);stv
+:K4u
+:S5t
+;B(s
+tEIt5It%
+$;s|s
+t);sxs
+Cx+C
+:S4u
+:K5t
+v!JHF;
+B@F;
+ERCPt
+PCREu
+^[Y]
+v!JHF;
+B@F;
+SVWU
+]_^[
+^[Y]
+^[Y]
+_^[YY]
+^[Y]
+v!JHF;
+B@F;
+^[YY]
+^[YY]
+&4"SV
+QQQQQQSVW
+'tDj
+'tDj
+ZYYd
+ZYYd
+RE Compile() - Please specify a regular expression in Pattern first
+RE Compile() - Error in regex at offset %d: %s
+QQQQQS
+ZYYd
+QQQQQSVW
+,5t*
+ZYYd
+SVW3
+6N;u
+ZYYd
+SVWU
+]_^[
+SVWU
+)WUV
+C4Ph,
+4AHu
+C4;C8u
+]_^[
+ZYYd
+^[Y]
+SVWU
+]_^[
+ZYYd
+^[Y]
+ !"0
+	$2$ 
+SVW3
+ZYYd
+SVWU
+]_^[
+ZYYd
+_^[Y]
+action
+ZYYd
+_^[Y]
+ZYYd
+ZYYd
+^[YY]
+ZYYd
+ZYYd
+^[Y]
+ZYYd
+ZYYd
+ZYYd
+^[YY]
+SVWU
+]_^[
+SVW3
+ZYYd
+ZYYd
+YZ_^[
+ZYYd
+^[YY]
+QQQQQQQQSVW
+ZYYd
+match
+replace
+QSVW
+ZYYd
+match
+missed
+value
+rest
+gcount
+groups
+ZYYd
+^[YY]
+ZYYd
+$/4-
+SVWUQ
+|+F3
+Z]_^[
+ZYYd
+SVWU
+]_^[
+_^[]
+_^[YY]
+QQQQQQQSVW
+ZYYd
+QQQQQQSVW
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+^[Y]
+F ^[
+F(^[
+F(^[
+F$^[
+F$^[
+ZYYd
+$44-;
+TParser
+QSVW
+YNCu
+_^[Y]
+ZYYd
+)%?.
+atom
+case
+class
+else
+elsif
+except
+exit
+false
+finally
+loop
+next
+null
+raise
+return
+step
+then
+true
+when
+while
+QSVW
+@(_^[Y]
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+QQQQQQSVW
+ZYYd
+QQQQQQ3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Uh` C
+ZYYd
+hg C
+ZYYd
+QQQQQQQ3
+ZYYd
+QQQQQQQ3
+Uh)"C
+ZYYd
+h0"C
+ZYYd
+Uh@#C
+ZYYd
+hG#C
+Uh	$C
+ZYYd
+ZYYd
+Uhy%C
+ZYYd
+ZYYd
+h&&C
+ZYYd
+ZYYd
+Uh9(C
+ZYYd
+h@(C
+ZYYd
+ZYYd
+ZYYd
+Uh<+C
+ZYYd
+hC+C
+ZYYd
+ZYYd
+Uhq-C
+ZYYd
+hx-C
+Uh=.C
+ZYYd
+hD.C
+SVW3
+ZYYd
+yyparse stack overflow
+@,=t
+QSVW
+_^[Y]
+^[Y]
+ZYYd
+_^[Y]
+if|case not found
+ exists
+_^[YY]
+{ not found
+SVW3
+ZYYd
+_^[YY]
+ not found
+Uh	<C
+ h <C
+h8<C
+ZYYd
+^[Y]
+syntax error[
+ZYYd
+_^[Y]
+try not found
+ exists
+^[Y]
+Uhp>C
+ZYYd
+hw>C
+_^[Y]
+try not found
+ exists
+QSVW
+_^[Y]
+QSVW
+_^[Y]
+QSVW
+_^[Y]
+QSVW
+_^[Y]
+QSVW
+_^[Y]
+if not found
+QSVW
+_^[Y]
+^[Y]
+^[Y]
+^[Y]
+ZYYd
+ not found
+syntax error
+QSVW
+_^[Y]
+case not found
+^[Y]
+Uh;IC
+ZYYd
+hBIC
+^[Y]
+^[Y]
+QSVW
+_^[Y]
+^[Y]
+^[YY]
+SVWU
+]_^[
+_^[YY]
+UhdLC
+ZYYd
+hkLC
+SVW3
+ZYYd
+ not found
+^[Y]
+^[Y]
+^[Y]
+ZYYd
+ZYYd
+^[Y]
+ZYYd
+P$^[
+SVW3
+ZYYd
+ZYYd
+.foo
+.exe
+.dll
+h$UC
+h4UC
+ZYYd
+lib\
+app\
+SVW3
+ZYYd
+_^[YY]
+SVWQ
+;0uu
+Z_^[
+ZYYd
+tagEXCEPINFO 
+	EOleError
+EOleSysError
+EOleException
+Apartment
+Free
+Both
+Neutral
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+UhQ[C
+ZYYd
+hX[C
+^[Y]
+ZYYd
+ZYYd
+_^[YY]
+ShD]C
+t`hP]C
+hd]C
+ht]C
+ole32.dll
+CoCreateInstanceEx
+CoInitializeEx
+CoAddRefServerProcess
+CoReleaseServerProcess
+CoResumeClassObjects
+CoSuspendClassObjects
+QQQQQQQQSV
+ZYYd
+ZYYd
+ZYYd
+PVSj
+ZYYd
+PQRh
+PPPP
+UhzgC
+ZYYd
+F(hC
+F(hC
+3#)<
+SVW3
+ZYYd
+ZYYd
+ZYYd
+_^[Y]
+winole
+QQQQQQQSV
+|'F3
+ZYYd
+8@u4
+ZYYd
+Uh4pC
+tAhLpC
+hLpC
+ZYYd
+ZYYd
+h;pC
+SVW3
+ZYYd
+Source
+EventID
+DispIDs
+QSVW
+_^[Y]
+UharC
+ZYYd
+hhrC
+$*+*() U
+ZYYd
+name
+type
+QSVW
+_^[Y]
+_^[]
+QQQQQQQSVW
+UhcxC
+,at:,
+ZYYd
+hjxC
+uKj@h
+C ^[
+SVW3
+Uh1{C
+ZYYd
+h8{C
+ZYYd
+Uh!|C
+ZYYd
+h(|C
+^[YY]
+type
+''4-
+UhH}C
+ZYYd
+hO}C
+_^[YY]
+I am
+David John
+YKBMD/#TFJ.GLMD
+ZYYd
+ZYYd
+[YY]
+ZYYd
+[YY]
+ZYYd
+[YY]
+ZYYd
+_^[YY]
+ZYYd
+_^[YY]
+libase
+ZYYd
+_^[Y]
+|.C3
+0FKu
+ZYYd
+SVW3
+FG;u
+ZYYd
+abtnvfr
+ZYYd
+[YY]
+libase
+|#F3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+ZYYd
+^[Y]
+ZYYd
+^[YY]
+ZYYd
+_^[YY]
+ZYYd
+^[YY]
+append
+QQQQSV
+ZYYd
+ZYYd
+_^[Y]
+|*C3
+ZYYd
+_^[YY]
+ZYYd
+dest
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+^[Y]
+ZYYd
+ZYYd
+^[YY]
+ZYYd
+action
+ZYYd
+ZYYd
+inline
+libase
+_^[]
+QSVW
+, uR
+ZYYd
+ZYYd
+ZYYd
+[YY]
+ZYYd
+[YY]
+ZYYd
+@uthor
+atan
+random
+length
+lower
+upper
+subpos
+substr
+escape
+format
+eval
+time
+hash
+load
+save
+find
+copy
+move
+size
+GetLib
+GetApi
+NewObj
+toStr
+toNum
+toTime
+toByte
+toChar
+toRegex
+match
+replace
+compile
+GetJson
+sha1
+ZYYd
+ZYYd
+reverse
+SVW3
+t!Ht
+ZYYd
+_^[YY]
+ZYYd
+"(Object)"
+SVW3
+t"US
+ZYYd
+"(Object)"
+ZYYd
+_^[Y]
+format
+json
+ZYYd
+@count
+@each
+@add
+@clone
+@toJson
+t	RQ
+;{ |7
+~3;P
+QSVW
+ZYYd
+ZYYd
+_^[Y]
+SVWU
+]_^[
+SVWU
+UWVSj
+]_^[
+YZ_^[
+SVWQf
+Z_^[
+SVQf
+ZYYd
+^[YY]
+USVWh
+D$ +
+D$$+D$
+D$(+D$
+)L$(
+D$,)
+D$,+D$
+)L$,
+D$()
+D$,)
+D$()
+$;D$
+$+T$
+$+L$
+4_^[]
+Ox1RS1
+:^?tc
+User32
+SetLayeredWindowAttributes
+;P t
+;C!t
+plr/P
+_^[]
+PPPW
+C9 t
+SVWU
+u*;5
+u0;V
+u<;V
+Xuhj
+X]_^[
+C4 u
+F6(t$
+RRTP
+u^ZYXPQR)
+O5 P
+QRPj
+QY_^
+@tGHuD
+RRRBRP
+MAINICON
+XYYY
+ZY_)
+ZXZZ
+ZY_^)
+VWQR
+ZYX)
+YZYX)
+QQQR
+u<SV1
+Pj0S
+PPPPIIQR
+QQQh
+C5 u
+D$(P
+D$pPQ
+D$pP
+tiPj
+C9 u
+obj_
+s!QQ
+YQP1
+QjLT
+C&Pj
+S&RP
+FP=|
+ZYYd
+TEventDispatch
+TOleCtlIntfSV
+ZYYd
+ZYYd
+ZYYd
+k7E8
+ZYYd
+QQQQQS
+ZYYd
+FSVU
+ZYYd
+ZYYd
+CL_^[
+SVWQ
+ZYYd
+^[Y]
+FSVW
+PVh 
+ZYYd
+ZYYd
+OleCtl
+w t$
+ZYYd
+tRhB
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+ZYYd
+_^[YY]
+ZYYd
+ZYYd
+t)Nt
+Nu4WP
+ZYYd
+_^[]
+QQQQSVW
+ZYYd
+_^[]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+_^[]
+QSVW
+_^[Y]
+ZYYd
+QQQQQ3
+ZYYd
+ZYYd
+_^[Y]
+IDocHostUIHandler
+TKOLWebBrowser4
+TDocHostUIHandler
+_^[]
+ZYYd
+[YY]
+QQQQS
+ZYYd
+#)5%
+ZYYd
+_^[Y]
+caption
+height
+width
+onclose
+ZYYd
+ZYYd
+ZYYd
+open
+save
+path
+multi
+file
+defext
+Y^[Y]
+doevent
+_^[]
+alpha
+ontop
+ZYYd
+ZYYd
+show
+hwnd
+html
+ZYYd
+form
+delay
+dialog
+SVW3
+ZYYd
+ZYYd
+_^[]
+ZYYd
+ZYYd
+_^[]
+QSVW
+_^[Y]
+QQQQQQQQSVW
+ZYYd
+@toEvent
+@toCallback
+*#/(8
+_^[]
+SVW3
+ZYYd
+ZYYd
+_^[]
+SVW3
+ZYYd
+true
+ZYYd
+^[Y]
+SVW3
+ZYYd
+_^[]
+kernel32.dll
+AttachConsole
+);9.>
+='$.>
+=$	E
+=$	E
+ZYYd
+ZYYd
+h%!D
+ZYYd
+QQQQ3
+Uh;"D
+ZYYd
+hB"D
+Uh0'D
+=5	E
+=5	E
+=8	E
+=4	E
+=0	E
+Uh7%D
+ZYYd
+=,	E
+hH(D
+Uhh&D
+=,	E
+=4	E
+tHht(D
+ht(D
+=4	E
+tHht(D
+ht(D
+ZYYd
+ZYYd
+=$	E
+=5	E
+ZYYd
+ZYYd
+h7'D
+true
+.log
+Fun 4.0, Copyright (c) 2017, http://funlang.org
+Usage:
+  fun -fun:<code.fun or bin.foo> [-key:<key.ini>] [-log[:<log.txt>]] [-gui] [-v]
+Error: fun source file not found!
+--------------------------------
+Compiled, time: 
+Finished, time: 
+=Error
+Runtime error     at 00000000
+0123456789ABCDEF
+@v:k
+%.*d
+0123456789abcdef
+MARK
+ACCEPT
+COMMIT
+FAIL
+PRUNE
+SKIP
+THEN
+\b(?=\w)
+\b(?<=\w)
+alpha
+lower
+upper
+alnum
+ascii
+blank
+cntrl
+digit
+graph
+print
+punct
+space
+word
+xdigit
+no error
+\ at end of pattern
+\c at end of pattern
+unrecognized character follows \
+numbers out of order in {} quantifier
+number too big in {} quantifier
+missing terminating ] for character class
+invalid escape sequence in character class
+range out of order in character class
+nothing to repeat
+internal error: invalid forward reference offset
+internal error: unexpected repeat
+unrecognized character after (? or (?-
+POSIX named classes are supported only within a class
+missing )
+reference to non-existent subpattern
+erroffset passed as NULL
+unknown option bit(s) set
+missing ) after comment
+parentheses nested too deeply
+regular expression is too large
+failed to get memory
+unmatched parentheses
+internal error: code overflow
+unrecognized character after (?<
+lookbehind assertion is not fixed length
+malformed number or name after (?(
+conditional group contains more than two branches
+assertion expected after (?( or (?(?C)
+(?R or (?[+-]digits must be followed by )
+unknown POSIX class name
+POSIX collating elements are not supported
+this version of PCRE is compiled without UTF support
+spare error
+character value in \x{} or \o{} is too large
+invalid condition (?(0)
+\C not allowed in lookbehind assertion
+PCRE does not support \L, \l, \N{name}, \U, or \u
+number after (?C is > 255
+closing ) for (?C expected
+recursive call could loop indefinitely
+unrecognized character after (?P
+syntax error in subpattern name (missing terminator)
+two named subpatterns have the same name
+invalid UTF-8 string
+support for \P, \p, and \X has not been compiled
+malformed \P or \p sequence
+unknown property name after \P or \p
+subpattern name is too long (maximum 32 characters)
+too many named subpatterns (maximum 10000)
+repeated subpattern is too long
+octal value is greater than \377 in 8-bit non-UTF-8 mode
+internal error: overran compiling workspace
+internal error: previously-checked referenced subpattern not found
+DEFINE group contains more than one branch
+repeating a DEFINE group is not allowed
+inconsistent NEWLINE options
+\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
+a numbered reference must not be zero
+an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)
+(*VERB) not recognized or malformed
+number is too big
+subpattern name expected
+digit expected after (?+
+] is an invalid data character in JavaScript compatibility mode
+different names for subpatterns of the same number are not allowed
+(*MARK) must have an argument
+this version of PCRE is not compiled with Unicode property support
+\c must be followed by an ASCII character
+\k is not followed by a braced, angle-bracketed, or quoted name
+internal error: unknown opcode in find_fixedlength()
+\N is not supported in a class
+too many forward references
+disallowed Unicode code point (>= 0xd800 && <= 0xdfff)
+invalid UTF-16 string
+name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)
+character value in \u.... sequence is too large
+invalid UTF-32 string
+setting UTF is disabled by the application
+non-hex character in \x{} (closing brace missing?)
+non-octal character in \o{} (closing brace missing?)
+missing opening brace after \o
+parentheses are too deeply nested
+invalid range in character class
+group name must start with a non-digit
+parentheses are too deeply nested (stack check)
+digits missing in \x{} or \o{}
+regular expression is too complicated
+Error text not found (please report)
+[:<:]]
+[:>:]]
+DEFINE
+UTF8)
+UTF)
+UCP)
+NO_AUTO_POSSESS)
+NO_START_OPT)
+LIMIT_MATCH=
+LIMIT_RECURSION=
+CRLF)
+ANY)
+ANYCRLF)
+BSR_ANYCRLF)
+BSR_UNICODE)
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+System
+        ! 
+Form
+oleaut32.dll
+SysFreeString
+SysReAllocStringLen
+SysAllocStringLen
+advapi32.dll
+RegQueryValueExA
+RegOpenKeyExA
+RegCloseKey
+user32.dll
+GetKeyboardType
+DestroyWindow
+LoadStringA
+MessageBoxA
+CharNextA
+kernel32.dll
+GetACP
+Sleep
+VirtualFree
+VirtualAlloc
+GetTickCount
+QueryPerformanceCounter
+GetCurrentThreadId
+InterlockedDecrement
+InterlockedIncrement
+VirtualQuery
+WideCharToMultiByte
+MultiByteToWideChar
+lstrlenA
+lstrcpynA
+LoadLibraryExA
+GetThreadLocale
+GetStartupInfoA
+GetProcAddress
+GetModuleHandleA
+GetModuleFileNameA
+GetLocaleInfoA
+GetLastError
+GetCommandLineA
+FreeLibrary
+FindFirstFileA
+FindClose
+ExitProcess
+WriteFile
+UnhandledExceptionFilter
+SetFilePointer
+SetEndOfFile
+RtlUnwind
+ReadFile
+RaiseException
+GetStdHandle
+GetFileSize
+GetFileType
+CreateFileA
+CloseHandle
+kernel32.dll
+TlsSetValue
+TlsGetValue
+LocalAlloc
+GetModuleHandleA
+user32.dll
+WaitMessage
+TranslateMessage
+ShowWindow
+SetWindowPos
+SetParent
+SetForegroundWindow
+SetFocus
+SendMessageA
+ScreenToClient
+RemoveMenu
+ReleaseDC
+PostQuitMessage
+OffsetRect
+MessageBoxA
+LoadStringA
+IsWindowVisible
+IsWindowEnabled
+IsWindow
+InvalidateRect
+GetWindowRect
+GetSystemMetrics
+GetSysColor
+GetParent
+GetWindow
+GetMenuItemCount
+GetKeyState
+GetFocus
+GetDC
+GetCursorPos
+GetClientRect
+FillRect
+EnableWindow
+DestroyWindow
+DestroyIcon
+CopyImage
+ClientToScreen
+CharNextA
+CharLowerBuffA
+CharUpperBuffA
+CharToOemA
+gdi32.dll
+SetBrushOrgEx
+SetBkMode
+SetBkColor
+GetDeviceCaps
+DeleteObject
+CreateSolidBrush
+kernel32.dll
+WriteFile
+VirtualQuery
+VirtualFree
+VirtualAlloc
+Sleep
+SetStdHandle
+SetFilePointer
+SetEndOfFile
+RemoveDirectoryA
+ReadFile
+MultiByteToWideChar
+MoveFileA
+LoadLibraryA
+LeaveCriticalSection
+InitializeCriticalSection
+GlobalFree
+GetVersionExA
+GetUserDefaultLCID
+GetTickCount
+GetThreadLocale
+GetStdHandle
+GetProcAddress
+GetModuleHandleA
+GetModuleFileNameA
+GetLocaleInfoA
+GetLocalTime
+GetLastError
+GetFullPathNameA
+GetFileAttributesA
+GetDiskFreeSpaceA
+GetDateFormatA
+GetCPInfo
+FreeLibrary
+FreeConsole
+FormatMessageA
+FindNextFileA
+FindFirstFileA
+FindClose
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+FileTimeToDosDateTime
+EnumCalendarInfoA
+EnterCriticalSection
+DeleteFileA
+DeleteCriticalSection
+CreateFileA
+CreateDirectoryA
+CopyFileA
+CompareStringA
+CloseHandle
+ole32.dll
+IsEqualGUID
+CLSIDFromString
+oleaut32.dll
+SafeArrayPtrOfIndex
+SafeArrayPutElement
+SafeArrayGetUBound
+SafeArrayGetLBound
+SafeArrayCreate
+VariantChangeType
+VariantCopyInd
+VariantCopy
+VariantClear
+VariantInit
+advapi32.dll
+A_SHAFinal
+A_SHAUpdate
+A_SHAInit
+MD5Final
+MD5Update
+MD5Init
+oleaut32.dll
+GetErrorInfo
+GetActiveObject
+SysFreeString
+ole32.dll
+CreateStreamOnHGlobal
+OleSetMenuDescriptor
+CLSIDFromProgID
+CoCreateInstance
+CoGetClassObject
+CoUninitialize
+CoInitialize
+IsEqualGUID
+oleaut32.dll
+SysAllocStringLen
+ole32.dll
+CoTaskMemFree
+OleInitialize
+comdlg32.dll
+GetSaveFileNameA
+GetOpenFileNameA
+shell32.dll
+SHGetPathFromIDListA
+SHBrowseForFolderA
+user32.dll
+SetWindowLongA
+SendMessageA
+RegisterClassA
+PostMessageA
+PeekMessageA
+LoadIconA
+LoadCursorA
+GetWindowLongA
+GetClassLongA
+GetClassInfoA
+DispatchMessageA
+DefWindowProcA
+CreateWindowExA
+CallWindowProcA
+gdi32.dll
+CreateFontIndirectA
+kernel32.dll
+GetModuleHandleA
+@@@	@@@
+@@@ @@@
+@@@	
+@@@'@@@5@@@
+;;;&999I===S@@@E@@@7@@@'>==3@@@-@@@
+<<<W@@@,
+?	|	
+???X
+???H@@@
+<<<j@@@>
+;::q
+=<<U@@@#@@@
+>>>y@@@V
+898].h
+===o
+===R@@@
+433L
+8,,l
+@@@.@@@
+X@@@
+h669N7878@@@
+322	@@@
+@@@	@@@
+@@@	@@@
+@@@	@@@
+HHH.@@@+@@@
+@@@	@@@
+zVVVN@@@3@@@
+@@@3@@@9@@@%@@@
+@@@C@@@!Z[Z"
+3S8e@@@V@@@?b__H[XXN@@@E@@@3@@@!
+@@@J@@@'
+@@@[@@@J@@@
+@@@MGGF5
+l}rj
+@@@p@@@
+=:ab@@@F
+"`"j
+@@@]@@@8
+@@@s@@@
+GGJZ'[*\
+@@@[@@@E
+@@@S++
+waca
+@@@&@@@
+pnz`@@@8@@@
+@@@	@@@
+o@@@3@@@%@@@
+	@@@
+&=O8
