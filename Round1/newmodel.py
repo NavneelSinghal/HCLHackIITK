@@ -44,17 +44,14 @@ class StringModel:
 
         if not save:
             save = self.model_filename
-        # now train and dump it into save
 
         assert (len(files) == len(labels))
 
         feature_dictionary_list = []
 
-        start_time = time()
-
-        completed_files = 0
-
         print('Starting feature extraction')
+        start_time = time()
+        completed_files = 0
 
         for _file in files:
             feature_dictionary_list.append(get_frequency_map(_file))
@@ -62,31 +59,25 @@ class StringModel:
             print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
 
         print('')
-
         end_time = time()
-
         print('Feature extraction completed in ' + str(end_time - start_time) + ' seconds')
 
         print('Starting training model')
-
         start_time = time()
 
         features = 7000
         hasher = FeatureHasher(n_features=features)
         X = hasher.transform(feature_dictionary_list).toarray()
         y = labels
-
         clf = RandomForestClassifier()
         clf.fit(X, y)
 
         end_time = time()
-
         print('Training completed in ' + str(end_time - start_time) + ' seconds')
 
         pickle.dump(clf, open(save, 'wb'))
-
         if save == self.model_filename:
-            self.model = slf
+            self.model = clf
 
         pass
 
@@ -95,13 +86,13 @@ class StringModel:
         '''
         Labels can be either multiclass or binary
         '''
+
         f = lambda x: 1 if x > 0 else 0
 
         def transform(x):
             return np.fromiter((f(a) for a in x), x.dtype)
 
         labels = transform(labels)
-
         predictions = predict(self, files)
 
         print("accuracy:\t", metrics.accuracy_score(predictions, labels))
