@@ -7,7 +7,9 @@ import numpy as np
 import random
 import os
 
-from sklearn.feature_extraction import FeatureHasher
+from sklearn.pipeline import make_pipeline
+from sklearn.feature_selection import VarianceThreshold
+from sklearn.feature_extraction import FeatureHasher, DictVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 
@@ -69,12 +71,21 @@ class StructureModel:
         print('Starting training model')
         start_time = time()
 
-        features = 7000
-        hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
+        #features = 50000
+        #hasher = FeatureHasher(n_features=features)
+        #X = hasher.transform(feature_dictionary_list).toarray()
+        #y = np.array(labels)
+        #clf = RandomForestClassifier()
+        #clf.fit(X, y)
+
+        clf = make_pipeline(
+                DictVectorizer(),
+                VarianceThreshold(),
+                RandomForestClassifier(random_state=0)
+            );
         y = np.array(labels)
-        clf = RandomForestClassifier()
-        clf.fit(X, y)
+        D = feature_dictionary_list
+        clf.fit(D, y)
 
         end_time = time()
         print('Training completed in ' + str(end_time - start_time) + ' seconds')
@@ -143,10 +154,11 @@ class StructureModel:
 
         start_time = time()
 
-        features = 7000
-        hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
-        y = self.model.predict(X)
+        #features = 7000
+        #hasher = FeatureHasher(n_features=features)
+        #X = hasher.transform(feature_dictionary_list).toarray()
+        D = feature_dictionary_list
+        y = self.model.predict(D)
 
         end_time = time()
 

@@ -3,7 +3,7 @@ import os
 import sys
 
 def get_feature_dict(filename, ignore_indent=False):
-    lines = open(filename, 'r').readlines()
+    lines = open(os.path.join(filename, 'Structure_Info.txt'), 'r').readlines()
     kv = collections.defaultdict(lambda: [0., 0., float('inf'), 0.])
     ret = collections.defaultdict(float)
     all_size = 0

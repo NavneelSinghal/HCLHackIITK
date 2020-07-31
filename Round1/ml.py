@@ -9,8 +9,10 @@
 from structure_analysis.extractor import *
 #import dynamic_analysis
 
+from sklearn.pipeline import make_pipeline
+from sklearn.feature_selection import VarianceThreshold
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction import FeatureHasher
+from sklearn.feature_extraction import FeatureHasher, DictVectorizer
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
 from time import time
@@ -34,7 +36,7 @@ num_features = 20000
 dump_label = 'structure'
 glob_str = 'Structure_Info.txt'
 time_stamp = str(int(time()))
-get_features = lambda path: ([0.], get_feature_dict(os.path.split(path)[0]))
+get_features = get_feature_dict
 #get_features = dynamic_analysis.get_feature_vector
 
 class_dict = {
@@ -80,45 +82,49 @@ def get_paths(root, glob_str, use_frac = 1., train_frac = .7):
             test_paths.append((path, i))
     return train_paths, test_paths
 
-def get_X_y(paths, get_features):
-    L = []
+def get_D_y(paths, get_features):
+    #L = []
     D = []
     y = []
     for path, class_id in paths:
         try:
-            l, d = get_features(path)
+            d = get_features(path)
         except:
             continue
-        L.append(l)
+        #L.append(l)
         D.append(d)
         y.append(class_id)
-    fh = FeatureHasher(n_features=num_features)
+    #fh = FeatureHasher(n_features=num_features)
     #fh = FeatureHasher()
-    H = fh.transform(D).toarray()
-    X = numpy.concatenate((H, L), axis=1)
-    return X, y
+    #H = fh.transform(D).toarray()
+    #X = numpy.concatenate((H, L), axis=1)
+    return D, y
 
 def extract():
-    train_paths, test_paths = get_paths('./Static_Analysis_Data', 'Structure_Info.txt', 1., .75)
+    train_paths, test_paths = get_paths('./data/static_samples', 'Structure_Info.txt', 1., .75)
     #train_paths, test_paths = get_paths('.', '*.json', 1., .7)
     print('extracting features...')
     start = time()
-    X_train, y_train = get_X_y(train_paths, get_features)
-    X_test, y_test = get_X_y(test_paths, get_features)
+    D_train, y_train = get_D_y(train_paths, get_features)
+    D_test, y_test = get_D_y(test_paths, get_features)
     finish = time()
     print('time for extracting features:', finish-start, 's')
     print('time for extracting features per file:', (finish-start)/len(y_train), 's')
-    f = '_Xy_' + root_cute + '_' + str(use_frac).split('.')[-1] + '_' + str(train_frac).split('.')[-1] + '_' + time_stamp
-    dump((X_train, y_train, X_test, y_test), open(f, 'wb'))
-    print('(X_train, y_train, X_test, y_test) dumped in:', f)
+    f = '_Dy_' + root_cute + '_' + str(use_frac).split('.')[-1] + '_' + str(train_frac).split('.')[-1] + '_' + time_stamp
+    dump((D_train, y_train, D_test, y_test), open(f, 'wb'))
+    print('(D_train, y_train, D_test, y_test) dumped in:', f)
     print('---')
-    return X_train, y_train, X_test, y_test
+    return D_train, y_train, D_test, y_test
 
-def train(X, y):
+def train(D, y):
     print('training classifier...')
     start = time()
-    clf = RandomForestClassifier(random_state=0)
-    clf.fit(X, y)
+    clf = make_pipeline(
+            DictVectorizer(),
+            VarianceThreshold(),
+            RandomForestClassifier(random_state=0)
+        );
+    clf.fit(D, y)
     finish = time()
     print('time for training classifier:', finish-start, 's')
     print('time for training classifier per file:', (finish-start)/len(y), 's')
