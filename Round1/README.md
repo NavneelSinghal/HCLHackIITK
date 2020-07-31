@@ -6,7 +6,10 @@ In this round, we implemented malware detection using ensemble learning.
 
 ## Running Instructions
 
-usage: MLDetect.py [-h] [--train] [--validate] [--predict] [--split SPLIT] [--model [{all,string,structure,dynamic}]] [--output [OUTPUT]] [--choose [n]] [inputs [inputs ...]]
+
+usage: 
+```
+python3 MLDetect.py [-h] [--train] [--validate] [--predict] [--split SPLIT] [--model [{all,string,structure,dynamic}]] [--output [OUTPUT]] [--choose [n]] [inputs [inputs ...]]
 
 Detect malware using machine learning
 
@@ -23,7 +26,7 @@ optional arguments:
                         which models to use
   --output [OUTPUT]     (only for predict) save the output to a file, use stdout to print
   --choose [n]          Use only n randomly sampled files from the input
-
+```
 
 ## Model Description
 
@@ -87,7 +90,7 @@ To extract these features, we used a simple parser for json files.
 6. structure analysis - ask rishabh about it 
 
 ## Appendix
-
+```
 python3 MLDetect.py --train .
 {'train': True, 'validate': False, 'predict': False, 'split': 0.75, 'model': 'all', 'output': 'output.csv', 'choose': 0, 'inputs': ['.']}
 Total 10002 String.txt(s) detected.
@@ -172,4 +175,4 @@ recall score (micro):		 1.0
 f1 score (macro):		 1.0
 precision score (macro):	 1.0
 recall score (macro):		 1.0
-
+```
