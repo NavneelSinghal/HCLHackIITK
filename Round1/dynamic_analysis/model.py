@@ -53,9 +53,15 @@ class DynamicModel:
         print('Starting feature extraction')
         start_time = time()
         completed_files = 0
-
+        correct_labels = []
+        cur = -1
         for _file in files:
-            vector, dictionary = get_feature_vector(_file)
+            cur += 1
+            try:
+                vector, dictionary = get_feature_vector(_file)
+                correct_labels.append(labels[cur])
+            except:
+                continue
             feature_dictionary_list.append(dictionary)
             feature_vector_list.append(vector)
             completed_files += 1
@@ -72,7 +78,7 @@ class DynamicModel:
         hasher = FeatureHasher(n_features=features)
         X = hasher.transform(feature_dictionary_list).toarray()
         X = np.concatenate((X, np.array(feature_vector_list)), axis=1)
-        y = np.array(labels)
+        y = np.array(correct_labels)
         clf = RandomForestClassifier()
         clf.fit(X, y)
 
@@ -124,9 +130,15 @@ class DynamicModel:
         feature_vector_list = []
         feature_dictionary_list = []
         print('Starting feature extraction')
+        prev = None
 
         for _file in files:
-            vector, dictionary = get_feature_vector(_file)
+            try:
+                vector, dictionary = get_feature_vector(_file)
+                prev = vector
+            except:
+                vector = prev
+                dictionary = {}
             feature_dictionary_list.append(dictionary)
             feature_vector_list.append(vector)
             completed_files += 1

@@ -123,7 +123,7 @@ if __name__ == '__main__':
                 preds[h].append(p2[i])
             else:
                 preds[h] = [p2[i]]
-                actual[h] = l and int(l > 0)
+                actual[h] = int(l and int(l > 0))
         for i, f in enumerate(f1):
             h = f[0]
             l = f[2]
@@ -131,7 +131,7 @@ if __name__ == '__main__':
                 preds[h].append(p1[i])
             else:
                 preds[h] = [p1[i]]
-                actual[h] = l and int(l > 0)
+                actual[h] = int(l and int(l > 0))
         for i, f in enumerate(f3):
             h = f[0]
             l = f[2]
@@ -139,7 +139,7 @@ if __name__ == '__main__':
                 preds[h].append(p3[i])
             else:
                 preds[h] = [p3[i]]
-                actual[h] = l and int(l > 0)
+                actual[h] = int(l and int(l > 0))
 
         hashes = []
         predictions = []
@@ -210,7 +210,7 @@ if __name__ == '__main__':
         else:
             predict_step(dynamic_model, files)
 
-    else:        
+    else:
         string_files = []
         struct_files = []
         dynamc_files = []
@@ -258,9 +258,9 @@ if __name__ == '__main__':
             train_step(dynamic_model, dynamc_files, shuffle=False)
 
             print('\n Now checking ensembled validity ...')
-            string_files = string_files[:int(len(string_files) * args['split'])]
-            struct_files = struct_files[:int(len(struct_files) * args['split'])]
-            dynamc_files = dynamc_files[:int(len(dynamc_files) * args['split'])]
+            string_files = string_files[int(len(string_files) * args['split']):]
+            struct_files = struct_files[int(len(struct_files) * args['split']):]
+            dynamc_files = dynamc_files[int(len(dynamc_files) * args['split']):]
             res = ensemble(string_files, struct_files, dynamc_files,
                            string_model.predict(map(itemgetter(1), string_files)),
                            structure_model.predict(map(itemgetter(1), struct_files)),
