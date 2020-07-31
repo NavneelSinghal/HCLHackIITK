@@ -1,0 +1,8663 @@
+This program must be run under Win32
+CODE
+`DATA
+.idata
+.tls
+.rdata
+P.reloc
+P.rsrc
+Boolean
+False
+True
+Char
+Integer
+Byte
+Word
+Longint
+string
+Variant
+Free
+InitInstance
+CleanupInstance
+	ClassType
+	ClassName
+ClassNameIs
+ClassParent
+	ClassInfo
+InstanceSize
+InheritsFrom
+Dispatch
+MethodAddress
+MethodName
+FieldAddress
+DefaultHandler
+NewInstance
+FreeInstance
+TObject
+TObject
+System
+u:hD
+SVWUQ
+Z]_^[
+SVWU
+YZ]_^[
+SVWU
+]_^[
+SVWU
+w;;t$
+]_^[
+SVWU
+]_^[
+SVWUQ
+Z]_^[
+SVWU
+YZ]_^[
+SVWU
+uW;{
+u:;{
+]_^[
+ZYYd
+SVWU
+YZ]_^[
+YZ^[
+SVWU
+]_^[
+ZYYd
+_^[YY]
+QSVW
+ZYYd
+_^[Y]
+SVWU
+$;L$
+$)D$
+YZ]_^[
+QSVW
+Uh6&@
+ZYYd
+h=&@
+_^[Y]
+YZXu
+uENt
+u0Nt
+u%Nt
+SVWR
+	w*9
+2_^[
+B (@
+SVW1
+SVW1
+PPRTj
+YYZX
+PRTj
+VWUd
+SPRQ
+T$(j
+SVWU
+u	@B
+]_^[
+SPRQ
+SVWU
+]_^[
+ZTUWVSPRTj
+]_^[
+d$,1
+,t\=
+t=HtN
+r6t0
+t.Ht
+;_^[
+t!R:
+SVRP
+Z^[X
+uXJt
+uAJt
+u:Jt
+It%S
+t&J|
+N|*9
+tVSVWU
+]_^[
+t1SVW
+;_^[
+]_^[
+]_^[
+]_^[
+SVWU
+PSWj
+PSWj
+]_^[
+SVWU
+UWVSj
+]_^[
+ZYYd
+Uhx?@
+ZYYd
+r	PR
+r	PR
+ZYYd
+_^[Y]
+r	PR
+ZYYd
+_^[YY]
+X_^[
+ZYYd
+h	F@
+_^[YY]
+ZYYd
+Ht Ht.
+F wJ@
+F$wJ@
+F zJ@
+0123456789ABCDEF3
+u3YX
+u'ZX
+W4vC
+(Y_^[
++Inf
+-InfW
+%TP@
+t"f-
+2_^[
+FX[+
+|HtE=
+,UpT@
+,E<V@
+,UpT@
+,E<V@
+-fT@
+@v:k
+@aQY
+E@|o
+BkU'9
+SVW3
+UhBW@
+ZYYd
+hIW@
+_^[]
+]$SQRPj
+ZYYd
+ZYYd
+SVW3
+ZYYd
+_^[Y]
+kernel32.dll
+SetDefaultDllDirectories
+SetDllDirectoryW
+uxtheme.dll
+userenv.dll
+setupapi.dll
+apphelp.dll
+propsys.dll
+dwmapi.dll
+cryptbase.dll
+oleacc.dll
+version.dll
+profapi.dll
+comres.dll
+clbcatq.dll
+SetSearchPathMode
+SetProcessDEPPolicy
+	Exception
+EAbort
+EOutOfMemory
+EInOutError
+	EIntError
+EDivByZero
+ERangeError
+EIntOverflow
+EMathError
+EInvalidOp
+EZeroDivide
+	EOverflow
+EUnderflow
+EInvalidPointer
+EInvalidCast
+EConvertError
+EAccessViolation
+EPrivilege
+EStackOverflow
+	EControlC
+EVariantError
+EExternalException
+SVWU
+]_^[
+SVWU
+]_^[
+ZYYd
+_^[Y]
+SVWQ
+PWVS
+$Z_^[
+SVWQ
+PWVS
+$Z_^[
+SVW3
+Uh8v@
+GGNu
+ZYYd
+ZYYd
+ZYYd
+h?v@
+<Ar!
+ZYYd
+_^[Y]
+9w7k
+_^[]
+<sIf
+<sCf
+^YY]
+_^[YY]
+'w~f
+f;\F
+_^[YY]
+$YZ_^[
+@YY]
+t%HtFHtg
+AM/PM
+AMPM
+SVWQ
+Z_^[
+SVW3
+ZYYd
+SVW3
+ZYYd
+m/d/yy
+mmmm d, yyyy
+ AMPM
+:mm:ss
+SVWU
+D$DPh
+D$DPh
+D$DP
+]_^[
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+ZYYd
+_^[YY]
+,tY=
+t<HtH
+r3t7
+t(Ht
+SVW3
+ZYYd
+@v:k
+INFNANU
+QS<$t
+$*@@@*$@@@$ *@@* $@@($*)@-$*@@$-*@@$*-@@(*$)@-*$@@*-$@@*$-@@-* $@-$ *@* $-@$ *-@$ -*@*- $@($ *)(* $)U
+@WVS
+u f=
+<'t$<"t 
+<#t&<0t%<.t,<,t3<'t5<"t1<Et:<et6<;tF
+<#t'<0t#<.t
+<Et$<et <;tS
+SVW3
+ZYYd
+_^[]
+SVW1
+TAlignment
+taLeftJustify
+taRightJustify
+taCenter
+TLeftRight
+THelpContext
+TNotifyEvent
+Sender
+TObject
+EStreamError
+EFCreateError
+EFOpenError
+EFilerError
+EReadError
+EWriteError
+EClassNotFound
+EResNotFound
+EListError
+EBitsError
+EStringListError
+EComponentError
+TList
+TBits
+TPersistent
+TPersistent
+Classes
+TCollection
+TCollection
+Classes
+TStrings
+TStrings
+Classes
+TStringItem
+TStringList
+TStringList
+Classes
+TStream
+THandleStream
+TFileStream
+TCustomMemoryStream
+TMemoryStream
+TResourceStream
+TFiler
+TReader
+TWriter
+TComponentName
+TComponent
+TComponent
+Classes
+Nameh
+SVW3
+ZYYd
+SVWU
+|"F3
+u(CNu
+]_^[
+SVW3
+ZYYd
+SVW3
+ZYYd
+	TIntConst
+ZYYd
+^[Y]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+SVWU
+]_^[
+SVWUQ
+Z]_^[
+PRQB
+SVWQ
+@< u
+Z_^[
+SVW3
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+SVW3
+|-F3
+W0CNu
+ZYYd
+ZYYd
+ZYYd
+[YY]
+Strings
+SVW3
+|0F3
+ZYYd
+SVW3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+SVW3
+|#C3
+ZYYd
+SVWU
+]_^[
+QSVW
+S _^[Y]
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+SVWU
+]_^[
+ZYYd
+_^[Y]
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+SVWQ
+$Z_^[
+Rh^[
+Rh_^[
+SVWU
+]_^[
+$Z^[
+Rh_^[
+Rh_^[
+Rh_^[
+SVW3
+ZYYd
+t-;]
+ZYYd
+ZYYd
+[YY]
+ZYYd
+SVWU
+~,;{
+]_^[
+_^[]
+SVW3
+ZYYd
+QSVW
+_^[Y]
+_^[]
+	FInstance
+FInstanceRoot
+TPropFixup
+ZYYd
+|'C3
+ZYYd
+_^[YY]
+SVWU
+]_^[
+ZYYd
+QSVW
+|1F3
+ZYYd
+_^[Y]
+C,_^[
+SVW3
+ZYYd
+_^[YY]
+QSVW
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[]
+SVW3
+ZYYd
+_^[]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+False
+True
+$YZ[
+SVW3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+ZYYd
+|<F3
+	GNu
+ZYYd
+SVW3
+ZYYd
+%s_%d
+SVW3
+ZYYd
+ZYYd
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[YY]
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+[YY]
+ZYYd
+_^[Y]
+SVWU
+|'F3
+]_^[
+QSVW
+|(C3
+_^[Y]
+SVW3
+;B0~&
+;B0~
+ZYYd
+ZYYd
+ZYYd
+False
+True
+|(F3
+ZYYd
+SVW3
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+SVW3
+|:F3
+ZYYd
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[Y]
+;B$u;
+_^[]
+QQQQSVW3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+SVWUQ
+Z]_^[
+SVWU
+YZ]_^[
+^[YY]
+Left
+SVWUQ
+|"C3
+Z]_^[
+YZ_^[
+SVWU
+]_^[
+VWh	
+EMenuError
+TMenuBreak
+mbNone
+mbBreak
+mbBarBreak
+	TShortCut
+	TMenuItem
+	TMenuItem
+Menus
+Break|
+Caption
+Checked
+Default
+EnabledH
+GroupIndex
+HelpContext|
+Hint
+	RadioItem
+ShortCut
+Visible
+OnClick
+TMenu
+TMenuP
+Menus
+Items
+	TMainMenu
+	TMainMenu
+Menus
+	AutoMerge
+TPopupAlignment
+paLeft
+paRight
+paCenter
+TPopupMenu
+TPopupMenu
+Menus
+	Alignment
+	AutoPopup
+HelpContext
+OnPopup
+SVW3
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[Y]
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+@-:E
+@-:E
+YFKu
+_^[]
+SVW3
+C0PVj
+ZYYd
+ZYYd
+_^[Y]
+;Pdt
+SVW3
+|TF3
+@-:E
+@-:E
+P-CNu
+ZYYd
+ShortCutText
+:P.t
+Q(^[
+SVWU
+:](tv
+|*F3
+P-:U-u
+]_^[
+:^)tS
+Q(_^[
+:^-t
+^-_^[
+^[Y]
+SVWU
+:]*tJ
+|%G3
+Q(]_^[
+SVWU
+C<;h
+@-:F-v
+Q(]_^[
+Q(_^[
+:P+t
+QSVW
+_^[Y]
+QSVW
+;C$t
+|$F3
+_^[Y]
+QSVW
+Uh7'A
+ZYYd
+_^[Y]
+}	;]
+:P4t
+Id;J u
+TPopupList
+Uh%,A
+ZYYd
+ZYYd
+|;C3
+ZYYd
+ZYYd
+ZYYd
+Sh(*A
+QSVW3
+ZYYd
+_^[Y]
+EOutOfResources
+EInvalidOperation
+TCursor
+TDragObject
+TDragControlObject
+TControlCanvas
+TControlCanvasx/A
+Controls
+TAlign
+alNone
+alTop
+alBottom
+alLeft
+alRight
+alClient
+	TDragMode
+dmManual
+dmAutomatic
+	TTabOrder
+TCaption
+TMouseEvent
+Sender
+TObject
+Button
+TMouseButton
+Shift
+TShiftState
+Integer
+Integer
+TMouseMoveEvent
+Sender
+TObject
+Shift
+TShiftState
+Integer
+Integer
+	TKeyEvent
+Sender
+TObject
+Word
+Shift
+TShiftState
+TKeyPressEvent
+Sender
+TObject
+Char
+TDragOverEvent
+Sender
+TObject
+Source
+TObject
+Integer
+Integer
+State
+TDragState
+Accept
+Boolean
+TDragDropEvent
+Sender
+TObject
+Source
+TObject
+Integer
+Integer
+TStartDragEvent
+Sender
+TObject
+DragObject
+TDragObject
+TEndDragEvent
+Sender
+TObject
+Target
+TObject
+Integer
+Integer
+TControl
+TControl
+Controls
+Left4
+Top4
+Width4
+Heightp.A
+Cursor|
+Hint
+TWinControl
+TWinControl`5A
+Controls
+HelpContext
+TGraphicControl
+TGraphicControl
+Controls
+TCustomControl
+TCustomControl
+Controls
+THintWindow
+THintWindow
+Controls
+t%TS
+QRPV
+crDefault
+crArrow
+crCross
+crIBeam
+crSizeNESW
+crSizeNS
+crSizeNWSE
+crSizeWE
+crUpArrow
+crHourGlass
+crDrag
+crNoDrop
+crHSplit
+crVSplit
+crMultiDrag
+crSQLWait
+crNo
+crAppStart
+crHelp
+crSize
+SVWU
+]_^[
+;B u
+UhV?A
+ZYYd
+_^[YY]
+QSVW
+_^[Y]
+t'TS
+SVWQ
+F5 tA
+Z_^[
+ZYYd
+_^[YY]
+Uh#EA
+ZYYd
+ZYYd
+h*EA
+SVWU
+YZ]_^[
+YZ_^[
+;s4t
+s4^[
+^[Y]
+Q<_^
+YZ_^[
+;wPu
+;s$u
+;{(u
+;C,u
+;C0t<3
+_^[]
+F,PR
+SVWU
+SL]_^[
+YZ^[
+YZ^[
+YZ^[
+YZ_^[
+YZ_^[
+SVWU
+]_^[
+SVW3
+G4 t4
+ZYYd
+_^[YY]
+C,+D$
+C0+D$
+:P8t
+ZYYd
+_^[Y]
+;CXt
+:P9t
+:P]t
+:P^t
+;PHt
+:P:t
+f;PLt
+C$PV
+C,Pj
+YZ^[
+F4@t2
+@4@u
+K,QRP
+ZYYd
+RP[YY]
+Sx[]
+SVWU
+]_^[
+|`=	
+Ht,Ht
+tJHt
+{@_^[
+C=^[
+[YY]
+IsControl
+S`[Y]
+QSVW
+_^[Y]
+Sh[Y]
+Sp[Y]
+SVWQ
+Z_^[
+@4@u
+^[Y]
+Uhp_A
+|0C3
+ZYYd
+hw_A
+ZYYd
+@(;B(
+@$;B$
+N0)H
+N,)H
+_^[]
+@;:E
+C;:E
+_^[YY]
+ZYYd
+UhadA
+ZYYd
+hhdA
+s ^[
+C ^[
+SVWU
+]_^[
+C$PV
+C$PVj
+C$^[
+SVW3
+UhQhA
+ZYYd
+hXhA
+D$PP
+D$PP
+D$$P
+Rh_^[
+Rl_^[
+UhWlA
+ZYYd
+_^[YY]
+QSVW
+ZYYd
+ZYYd
+_^[Y]
+SVWU
+]_^[
+;p u#
+t.HtR
+;X u
+SVWU
+]_^[
+|SG3
+@4@t$
+H(QRS
+ZYYd
+SVWU
+C,Pj
+F;t$
+C0@P
+$]_^[
+SVWQ
+Z_^[
+SVWQ
+$Z_^[
+SVWQ
+$Z_^[
+SVWQ
+$Z_^[
+ tJf
+;X(t 
+SVWQ
+$"D$
+Z_^[
+SVWU
+YZ]_^[
+SVWUQ
+$Z]_^[
+;s$u
+;{(u
+;C,u
+PWVj
+SVWU
+| F3
+YZ]_^[
+ZYYd
+^[Y]
+SVWU
+|kF3
+]_^[
+SVWU
+]_^[
+SVWU
+]_^[
+@t"j
+<_^[
+SVWUQ
+Z]_^[
+;~ u
+ZYYd
+Rx^]
+|!C3
+^[YY]
+^[Y]
+ZYYd
+^[Y]
+MS Sans Serif
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+^[Y]
+ZYYd
+C(Pj
+ZYYd
+f;PFt
+_^[]
+QSVW
+_^[Y]
+t;;w@t6
+YZ_^[
+Delphi%.8X
+ControlOfs%.8X%.8X
+TColor
+EInvalidGraphic
+EInvalidGraphicOperation
+TFontStyle
+fsBold
+fsItalic
+fsUnderline
+fsStrikeOut
+TFontStyles
+TFontPitch
+	fpDefault
+fpVariable
+fpFixed
+	TFontName
+	TPenStyle
+psSolid
+psDash
+psDot	psDashDot
+psDashDotDot
+psClear
+psInsideFrame
+TPenMode
+pmBlack
+pmWhite
+pmNop
+pmNot
+pmCopy	pmNotCopy
+pmMergePenNot
+pmMaskPenNot
+pmMergeNotPen
+pmMaskNotPen
+pmMerge
+pmNotMerge
+pmMask	pmNotMask
+pmXor
+pmNotXor
+TBrushStyle
+bsSolid
+bsClear
+bsHorizontal
+bsVertical
+bsFDiagonal
+bsBDiagonal
+bsCross
+bsDiagCross
+TGraphicsObject
+TGraphicsObject
+Graphics
+TFont
+TFont$
+Graphics
+Color4
+Height
+Name
+Pitch4
+Size
+Style
+TPen
+TPenH
+Graphics
+ColorP
+Mode
+Style4
+Width
+TBrush
+TBrush,
+Graphics
+Color
+Style
+TCanvas
+TCanvas
+Graphics
+Brushh
+CopyMode8
+Font\
+TGraphic
+TGraphic
+Graphics
+TInternalImage
+TBitmapImage
+TBitmap
+TBitmap\
+Graphics
+TIconImage
+TIcon
+TIconL
+Graphics
+AllocResource
+FreeResource
+ChangeResource
+AssignResource
+TResourceManager
+u	B@Iu
+SVWU
+]_^[
+SVWUQ
+Z]_^[
+clBlack
+clMaroon
+clGreen
+clOlive
+clNavy
+clPurple
+clTeal
+clGray
+clSilver
+clRed
+clLime
+clYellow
+clBlue
+clFuchsia
+clAqua
+clWhite
+clScrollBar
+clBackground
+clActiveCaption
+clInactiveCaption
+clMenu
+clWindow
+clWindowFrame
+clMenuText
+clWindowText
+clCaptionText
+clActiveBorder
+clInactiveBorder
+clAppWorkSpace
+clHighlight
+clHighlightText
+clBtnFace
+clBtnShadow
+clGrayText
+clBtnText
+clInactiveCaptionText
+clBtnHighlight
+cl3DDkShadow
+cl3DLight
+clInfoText
+clInfoBk
+clNone
+SVWU
+]_^[
+SVW3
+ZYYd
+_^[]
+R ;E
+_^[]
+_^[]
+_^[]
+_^[]
+_^[]
+_^[]
+QSVW
+_^[Y]
+YZ^[
+YZ^[
+YZ_^
+_^[]
+YZ^[
+ZYYd
+|)F3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+|)F3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+|BA3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+@0PU
+[YY]
+Data
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+TBitmapCanvas
+TBitmapCanvas
+Graphics
+PWVj
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+u:j&
+I Qj
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+SVWQ
+Z_^[
+ZYYd
+SVWU
+D$$P3
+H]_^[
+ZYYd
+QSVW
+C$Pj
+ZYYd
+_^[Y]
+:P$t 
+C +C
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+TScrollBarInc
+TControlScrollBar
+TControlScrollBar
+Forms
+MarginX
+	Increment4
+Range4
+Position
+Tracking
+Visible
+TScrollingWinControl
+TScrollingWinControl
+Forms
+HorzScrollBar
+VertScrollBar
+TFormBorderStyle
+bsNone
+bsSingle
+bsSizeable
+bsDialog
+bsToolWindow
+bsSizeToolWin
+TBorderStyle
+TWindowState
+wsNormal
+wsMinimized
+wsMaximized
+TFormStyle
+fsNormal
+fsMDIChild	fsMDIForm
+fsStayOnTop
+TBorderIcon
+biSystemMenu
+biMinimize
+biMaximize
+biHelp
+TBorderIcons
+	TPosition
+poDesigned	poDefault
+poDefaultPosOnly
+poDefaultSizeOnly
+poScreenCenter
+TPrintScale
+poNone
+poProportional
+poPrintToFit
+TModalResult
+TCloseEvent
+Sender
+TObject
+Action
+TCloseAction
+TCloseQueryEvent
+Sender
+TObject
+CanClose
+Boolean
+TForm
+TForm
+Forms1
+ActiveControlP
+BorderIcons
+BorderStyle
+AutoScrollP0A
+Caption4
+ClientHeight4
+ClientWidth
+Ctl3D
+Color
+Enabled8
+Font
+	FormStyle4
+Height
+HorzScrollBar
+Icon
+KeyPreviewT
+Menu`
+ObjectMenuItem4
+PixelsPerInchD
+	PopupMenud
+Position
+PrintScale
+Scaled
+ShowHint
+VertScrollBar
+Visible4
+Width
+WindowState`
+WindowMenu
+OnActivate
+OnClick
+OnCloseP
+OnCloseQuery
+OnCreate
+OnDblClick
+	OnDestroy
+OnDeactivate
+OnDragDropp1A
+OnDragOver
+OnHide
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp
+OnPaint
+OnResize
+OnShow
+TScreen
+TScreent
+Forms
+TApplication
+TApplication
+Forms
+SVW3
+ZYYd
+ZYYd
+;X t@S
+SVWU
+|#C3
+t:GKu
+|#C3
+]_^[
+<Ys$h
+CTL3D32.DLL
+Ctl3dRegister
+Ctl3dUnregister
+Ctl3dSubclassCtl
+Ctl3dSubclassDlgEx
+Ctl3dDlgFramePaint
+Ctl3dCtlColorEx
+Ctl3dAutoSubclass
+Ctl3dUnAutoSubclass
+Ctl3DColorChange
+BtnWndProc3d
+ulj@h
+S	_^[]
+TPUtilWindow
+ZYYd
+_^[YY]
+_^[]
+|:C3
+YFKu
+_^[]
+u Uf
+SVWU
+ ]_^[
+SVWU
+]_^[
+ZYYd
+SVWU
+ ]_^[
+SVWU
+]_^[
+ZYYd
+ZYYd
+ZYYd
+^[Y]
+ZYYd
+_^[YY]
+uB;~
+ZYYd
+^[Y]
+PixelsPerInch
+TextHeight
+SVWU
+]_^[
+C0+F
+C,+F
+_^[YY]
+SVWU
+|7F3
+]_^[
+_^[]
+SVWU
+C,Pj
+{(GW
+]_^[
+puRU
+QWRj
+SVW3
+GFKu
+|!C3
+SVWU
+WVh0
+]_^[
+SVWU
+|OE3
+YZ]_^[
+;CHu'
+SVWQ
+Z_^[
+YZ^[
+MDICLIENT
+Rx^[
+QSVW
+UhU!B
+ZYYd
+h\!B
+_^[Y]
+Uhv$B
+ZYYd
+h}$B
+SVWU
+$"D$
+$"D$
+]_^[
+ZYYd
+_^[Y]
+;A(u
+QSVW
+Uh:-B
+ZYYd
+B,Pj
+ZYYd
+@@;E
+ZYYd
+_^[Y]
+;X(u
+SVWQ
+t"GNu
+$Z_^[
+Uh 2B
+ZYYd
+_^[YY]
+Uh34B
+ZYYd
+h:4B
+ZYYd
+SVW3
+ZYYd
+_^[Y]
+C Ph
+C$Vj
+^[Y]
+C@;CHt
+C<;CDt
+SVWU
+]_^[
+C4_^[
+SVWU
+f;s(tsf
+PWj W
+YZ]_^[
+[YY]
+_^[]
+h 9B
+TApplication
+sxh4<B
+MAINICON
+Sh\@B
+C$Pj
+S;P(u
+H(;P,u
+;Q<u
+;Q@u
+;QLu
+YL;P@u
+;B u;j
+_^[]
+Phl>B
+CtZ^[
+|2C3
+ZYYd
+ZYYd
+_^[YY]
+;s t
+SVWU
+]_^[
+SVWU
+]_^[
+|<G3
+_^[]
+UhLJB
+ZYYd
+s(_^[YY]
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+YZ_^[
+:Sdt3
+C`^[
+SVW3
+;s,tK
+;{,u
+;{,u
+;C`u
+ZYYd
+SVWU
+]_^[
+ChPj
+SVWU
+d;s@u0
+]_^[
+SVW3
+ZYYd
+TCustomLabel
+TCustomLabel
+StdCtrls
+TLabel
+TLabel
+StdCtrls
+Align@
+	Alignment
+AutoSizeP0A
+Caption
+Colorp.A
+DragCursor
+DragMode
+Enabled
+FocusControl8
+Font
+ParentColor
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowAccelChar
+ShowHint
+Transparent
+Visible
+WordWrap
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TEditCharCase
+ecNormal
+ecUpperCase
+ecLowerCase
+TCustomEdit
+TCustomEdit
+StdCtrls
+TabStop
+TEdit
+TEdit
+StdCtrls(
+AutoSelect
+AutoSizep
+BorderStyle$YB
+CharCase
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled8
+Font
+HideSelection4
+	MaxLength
+OEMConvert
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHint$
+PasswordCharD
+	PopupMenu
+ReadOnly
+ShowHint<0A
+TabOrder
+TabStopP0A
+Text
+Visible
+OnChange
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TScrollStyle
+ssNone
+ssHorizontal
+ssVertical
+ssBoth
+TCustomMemo
+TCustomMemotaB
+StdCtrls
+TMemo
+TMemohbB
+StdCtrls*
+Align@
+	Alignmentp
+BorderStyle
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled8
+Font
+HideSelection
+Lines4
+	MaxLength
+OEMConvert
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ReadOnly
+ScrollBars
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+WantReturns
+WantTabs
+WordWrap
+OnChange
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TComboBoxStyle
+csDropDown
+csSimple
+csDropDownList
+csOwnerDrawFixed
+csOwnerDrawVariable
+TDrawItemEvent
+Control
+TWinControl
+Index
+Integer
+Rect
+TRect
+State
+TOwnerDrawState
+TMeasureItemEvent
+Control
+TWinControl
+Index
+Integer
+Height
+Integer
+TCustomComboBox
+TCustomComboBox(jB
+StdCtrls
+TabStop
+	TComboBox
+	TComboBox
+StdCtrls%
+Style
+Color
+Ctl3D
+DragModep.A
+DragCursor4
+DropDownCount
+Enabled8
+Font4
+ItemHeight
+Items4
+	MaxLength
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint
+Sorted<0A
+TabOrder
+TabStopP0A
+Text
+Visible
+OnChange
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOverLiB
+OnDrawItem
+OnDropDown`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp
+OnMeasureItem$2A
+OnStartDrag
+TButtonControl
+TButtonControl
+StdCtrls
+TButton
+TButton
+StdCtrls
+CancelP0A
+Caption
+Defaultp.A
+DragCursor
+DragMode
+Enabled8
+Font
+ModalResult
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+OnClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TCheckBoxState
+cbUnchecked	cbChecked
+cbGrayed
+TCustomCheckBox
+TCustomCheckBox
+StdCtrls
+TabStop
+	TCheckBox
+	TCheckBox
+StdCtrls!
+	Alignment
+AllowGrayedP0A
+Caption
+Checked
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled8
+Font
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint<wB
+State<0A
+TabOrder
+TabStop
+Visible
+OnClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TRadioButton
+TRadioButtonH~B
+StdCtrls 
+	AlignmentP0A
+Caption
+Checked
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled8
+Font
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TListBoxStyle
+lbStandard
+lbOwnerDrawFixed
+lbOwnerDrawVariable
+TCustomListBox
+TCustomListBox
+StdCtrls
+TabStop
+TListBox
+TListBoxH
+StdCtrls*
+Alignp
+BorderStyle
+Color4
+Columns
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled
+ExtendedSelect8
+Font
+IntegralHeight4
+ItemHeight
+Items
+MultiSelect
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint
+Sorted
+Style<0A
+TabOrder
+TabStop4
+TabWidth
+Visible
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOverLiB
+OnDrawItem`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp
+OnMeasureItem\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TMemoStrings
+TMemoStrings$
+StdCtrls
+TComboBoxStrings
+TComboBoxStrings
+StdCtrls
+TListBoxStrings
+TListBoxStrings
+StdCtrls
+ZYYd
+_^[Y]
+C,+D$
+f#F4f
+RD^[
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+$YZ[
+YZ^[
+ZYYd
+EDIT
+ZYYd
+f#C4f
+D$8PS
+D$8;
+p_^[
+SVW3
+ZYYd
+_^[YY]
+ZYYd
+_^[YY]
+^[Y]
+PVhH
+WVhQ
+PVhJ
+ZYYd
+_^[Y]
+^[Y]
+f#C4f
+COMBOBOX
+0tZ-
+S|^[
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+C,Pj
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+SVWUQ
+Z]_^[
+SVWU
+]_^[
+BUTTON
+ZYYd
+_^[Y]
+BUTTON
+BUTTON
+ZYYd
+_^[Y]
+QSVW
+|4F3
+_^[Y]
+BUTTON
+BUTTON
+ZYYd
+_^[Y]
+^[Y]
+SVWU
+D$ P
+(]_^[
+LISTBOX
+C$Pj
+SVWU
+YZ]_^[
+}	;u
+SVW3
+ZYYd
+SVWUQ
+Z]_^[
+SVW3
+ZYYd
+_^[YY]
+SVWU
+]_^[
+ZYYd
+_^[YY]
+SVWUQ
+}#C;
+Z]_^[
+SVWU
+YZ]_^[
+SVWU
+]_^[
+SVWU
+YZ]_^[
+tRj*
+SVWU
+]_^[
+SVWU
+]_^[
+ZYYd
+_^[Y]
+ZYYd
+SVW3
+ZYYd
+_^[]
+[YY]
+x1234x
+x5678x
+QSVW
+_^[Y]
+ZYYd
+_^[Y]
+QSVW
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+SVW3
+ZYYd
+SVWU
+]_^[
+SVW3
+,Vu~
+ZYYd
+SVWUQ
++<{u
+$Z]_^[
+GetSystemWow64DirectoryA
+kernel32.dll
+ZYYd
+_^[YY]
+..\Sysnative
+ZYYd
+_^[YY]
+TEMP
+USERPROFILE
+SVW3
+ZYYd
+YZ_^[
+E PQR
+RegDeleteKeyExA
+advapi32.dll
+SVW3
+ZYYd
+ZYYd
+SVWU
+D$ Pj
+D$,P
+]_^[
+Sj j
+|1F3
+ZYYd
+ZYYd
+CheckTokenMembership
+advapi32.dll
+SVWU
+]_^[
+ZYYd
+[YY]
+ZYYd
+ZYYd
+SVW3
+ZYYd
+GetUserDefaultUILanguage
+kernel32.dll
+.DEFAULT\Control Panel\International
+Locale
+Control Panel\Desktop\ResourceLocale
+SVW3
+ZYYd
+[ExceptObject=nil]
+Microsoft Sans Serif
+MS Sans Serif
+SVWQ
+Z_^[
+u&hD
+ChangeWindowMessageFilter
+user32.dll
+ChangeWindowMessageFilterEx
+user32.dll
+SVWP
+ShutdownBlockReasonCreate
+user32.dll
+ShutdownBlockReasonDestroy
+user32.dll
+false
+true
+ZYYd
+_^[Y]
+ZYYd
+_^[YY]
+shlwapi.dll
+SHAutoComplete
+TWindowDisablerU
+ZYYd
+_^[Y]
+...\
+ZYYd
+ZYYd
+...\
+ZYYd
+SVWU
+,]_^[
+user32.dll
+MonitorFromWindow
+GetMonitorInfoA
+PVSj
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+_^[Y]
+_^[]
+TWindowDisabler-Window
+ZYYd
+_^[Y]
+TWindowDisabler-Window
+TBevelStyle
+	bsLowered
+bsRaised
+TBevelShape
+bsBox
+bsFrame	bsTopLine
+bsBottomLine
+bsLeftLine
+bsRightLine
+TBevel
+TBevel
+ExtCtrls
+Align
+ParentShowHint
+Shape
+ShowHint
+Style
+Visible
+TPanelBevel
+bvNone	bvLowered
+bvRaised
+TBevelWidth
+TBorderWidth
+TCustomPanel
+TCustomPaneld
+ExtCtrls
+TPanel
+TPanell
+ExtCtrls$
+Align@
+	Alignment
+BevelInner
+BevelOuter
+BevelWidth
+BorderWidthp
+BorderStylep.A
+DragCursor
+DragMode
+EnabledP0A
+Caption
+Color
+Ctl3D8
+Font
+Locked
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp
+OnResize$2A
+OnStartDrag
+_^[]
+@0HP
+H,I3
+@0HP
+@,Pj
+@,Pj
+@0HP
+@0P3
+@0P3
+@,HP
+SVW3
+ZYYd
+commdlg_help
+commdlg_FindReplace
+WndProcPtr%.8X%.8X
+TUIStateForm
+TUIStateForm
+UIStateForm
+SVWU
+]_^[
+SVWU
+]_^[
+SVWU
+]_^[
+SVWU
+ ]_^[
+FAOu
+FAOu
+(_^[
+Unknown
+Itanium
+TSetupLanguageEntryA
+QRjJP
+ZYYd
+_^[]
+G@Ju
+A@Ju
+"YZ_^[
+SVW3
+|JF3
+ZYYd
+SVW3
+;"uEC
+;"u+
+ZYYd
+ZYYd
+_^[YY]
+ZYYd
+ZYYd
+ZYYd
+TPSList
+TPSStringList
+ u W
+ u W
+Invalid float
+SVW3
+Uh6 C
+ZYYd
+h= C
+TPSProcRec
+TPSExternalProcRec
+TPSInternalProcRec
+TPSTypeRec
+TPSTypeRec_ProcPtr
+TPSTypeRec_Class
+TPSTypeRec_Interface
+TPSTypeRec_Array
+TPSTypeRec_StaticArray
+TPSTypeRec_Set
+TPSTypeRec_Record
+TClassItem
+TPSRuntimeAttribute
+TPSRuntimeAttributes
+TPSExec
+TPSStack
+EPSException
+TPSRuntimeClass
+TPSRuntimeClassImporter
+TPSExportedVar
+TSpecialProc
+SVW3
+ZYYd
+_^[YY]
+SVW3
+Uhu,C
+ZYYd
+h|,C
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+Uh&.C
+ZYYd
+h-.C
+_^[YY]
+SVW3
+h\1C
+h\1C
+ZYYd
+Unknown Identifier
+[Set]
+[Method]
+[Variant]
+[Unknown]
+SVWQ
+Z_^[
+Interface
+Invalid Type
+SVW3
+Uh#3C
+ZYYd
+|FF3
+h87C
+0hD7C
+|FF3
+hP7C
+0h\7C
+ZYYd
+Variant(IDispatch)
+Null
+Exception: 
+Proc: 
+[Invalid]
+ZYYd
+_^[Y]
+No Error
+Cannot Import 
+Invalid Type
+Internal error
+Invalid Header
+Invalid Opcode
+Invalid Opcode Parameter
+no Main Proc
+Out of Global Vars range
+Out of Proc Range
+Out Of Range
+Out Of Stack Range
+Type Mismatch
+Unexpected End Of File
+Version error
+divide by Zero
+Math error
+Could not call proc
+Out of Record Fields Range
+Null Pointer Exception
+Null variant error
+Out Of Memory
+Exception: 
+Interface not supported
+Unknown error
+SVWUQ
+Z]_^[
+Uh_@C
+ZYYd
+SVWU
+]_^[
+QSVW
+_^[Y]
+SVW3
+Uh=HC
+ZYYd
+hDHC
+SVW3
+Uh^IC
+ZYYd
+heIC
+ZYYd
+_^[Y]
+SVW3
+	<OC
+;BX|
+;BX|
+ZYYd
+[YY]
+QSVW
+_^[Y]
+SVW3
+ZYYd
+Uh@]C
+ZYYd
+ZYYd
+IFPSt
+Uh6`C
+ZYYd
+h=`C
+_^[Y]
+Type Mismatch
+Type Mismatch
+Type Mismatch
+Type Mismatch
+Type Mismatch
+Type Mismatch
+Type Mismatch
+QSVW
+UhXgC
+ZYYd
+_^[Y]
+QSVW
+UhZhC
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+QSVW
+UhvjC
+ZYYd
+_^[Y]
+SVWU
+|4G3
+YZ]_^[
+QSVW
+CFOu
+_^[Y]
+Invalid array
+SVWU
+]_^[
+Invalid array
+YZ^[
+OLE error %.8x
+ZYYd
+_^[Y]
+Variant does not reference an OLE object
+SVW3
+-4~C
+-4~C
+-4~C
+ZYYd
+ZYYd
+Type Mismatch
+IDISPATCH
+ZYYd
+_^[]
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Type Mismatch
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Type Mismatch
+SVWUQ
+;CX|
+C<;x
+CD;x
+C4;x
+C\;CXr
+C\@;CX|
+;CX|
+;CX|
+;CX|
+;CX|
+	;CX|
+;CX|
+C<;x
+CD;x
+;CX|
+C<;x
+CD;x
+C<;x
+Z]_^[
+ZYYd
+ZYYd
+ZYYd
+;XX}
+|XC3
+=x$C
+ZYYd
+_^[YY]
+SVW3
+=x$C
+ZYYd
+_^[YY]
+SVWU
+]_^[
+;VPu
+^[YY]
+QSVW
+_^[Y]
+ZYYd
+=x$C
+;BXr
+R@+B
+@@+p
+R@+B
+R@+B
+;BXr
+R@+B
+@@+p
+R@+B
+R@+B
+@@+p
+R@+B
+R@+B
+;BX|
+@8;p
+=x$C
+ZYYd
+ZYYd
+;BX|
+;BX|
+;BX|
+;BX|
+;BX|
+;B`v	
+x`G+
+;B`w
+;BX|
+@4;p
+;BXr$
+;BX|
+;BXs3
+;BXs"
+;BXs
+;BXr
+;BXr
+@8;p
+;pHu
+=x$C
+;BXr
+R@+B
+@@+p
+R@+B
+R@+B
+R@+B
+ZYYd
+SVW3
+ZYYd
+Out Of String Range
+intf
+!NOTIFICATIONVARIANTSET
+!NOTIFICATIONVARIANTGET
+INTTOSTR
+STRTOINT
+STRTOINTDEF
+COPY
+DELETE
+INSERT
+STRGET
+STRSET
+UPPERCASE
+LOWERCASE
+TRIM
+LENGTH
+SETLENGTH
+SQRT
+ROUND
+TRUNC
+STRTOFLOAT
+FLOATTOSTR
+PADL
+PADR
+PADZ
+REPLICATE
+STRINGOFCHAR
+!ASSIGNED
+UNASSIGNED
+VARISEMPTY
+NULL
+VARISNULL
+VARTYPE
+IDISPATCHINVOKE
+GETARRAYLENGTH
+SETARRAYLENGTH
+RAISELASTEXCEPTION
+RAISEEXCEPTION
+EXCEPTIONTYPE
+EXCEPTIONPARAM
+EXCEPTIONPROC
+EXCEPTIONPOS
+EXCEPTIONTOSTRING
+ANSIUPPERCASE
+ANSILOWERCASE
+SIZEOF
+SVW3
+ZYYd
+ZYYd
+BOOLEAN
+TDATETIME
+SVWU
+YZ]_^[
+SVWUQ
+Z]_^[
+SVW3
+Uhe'D
+ZYYd
+hl'D
+!OPENARRAY
+SVW3
+Ht[H
+ZYYd
+ZYYd
+SVWUQ
+t	;s
+Z]_^[
+SVWQ
+Z_^[
+SVW3
+UhZ=D
+ZYYd
+ZYYd
+ha=D
+Could not call proc
+SVW3
+Uha@D
+|7F3
+ZYYd
+ZYYd
+hh@D
+Could not call proc
+SVW3
+UhsCD
+|7F3
+ZYYd
+ZYYd
+hzCD
+Could not call proc
+|7F3
+UhJED
+ZYYd
+Cannot cast interface
+SVW3
+UhBHD
+ZYYd
+ZYYd
+hIHD
+Could not call proc
+Uh'ID
+8.uX
+ZYYd
+h.ID
+_^[Y]
+YZ_^
+SVW3
+UhIND
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Could not call proc
+UhAPD
+ZYYd
+ZYYd
+Could not call proc
+ZYYd
+UhNUD
+ZYYd
+Could not call proc
+UhpWD
+ZYYd
+Uh[YD
+ZYYd
+Could not call proc
+SVW3
+ZYYd
+class
+ZYYd
+_^[Y]
+SVW3
+Uh.`D
+ZYYd
+h5`D
+SVW3
+ZYYd
+_^[YY]
+SVW3
+UhfbD
+ZYYd
+hmbD
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+Uh|cD
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+Uh4eD
+ZYYd
+h;eD
+_^[YY]
+SVW3
+ZYYd
+SVW3
+Uh7mD
+<	ux,
+-XmD
+ZYYd
+h>mD
+SVWUQ
+Z]_^[
+SVW3
+ZYYd
+ZYYd
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+Type mismatch
+SVWQ
+<$+{
+Z_^[
+Capacity should be >= Length
+Type mismatch
+Type mismatch
+Type mismatch
+Type mismatch
+Type mismatch
+SVW3
+Uh=|D
+UhlyD
+ZYYd
+hsyD
+Uhz{D
+ZYYd
+ZYYd
+|5F3
+ZYYd
+h"|D
+ZYYd
+hD|D
+NIL Interface Exception
+Unknown Method
+TPSCustomDebugExec
+TPSDebugExec
+TPositionData
+SVWU
+YZ]_^[
+;FPu
+SVW3
+ZYYd
+SVW3
+ZYYd
+SVW3
+|"C3
+rP;E
+ZYYd
+SVWUQ
+|3F3
+;C\u2
+<GNu
+Z]_^[
+Expected return address at stack base
+TLoadedDll
+;_^[
+SVW3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+_^[YY]
+t1;;u
+ZYYd
+UNLOADDLL
+DLLGETLASTERROR
+CREATE
+FREE
+ASSIGN
+FINDCOMPONENT
+CREATE
+OWNER
+DESTROYCOMPONENTS
+COMPONENTS
+COMPONENTCOUNT
+COMPONENTINDEX
+COMPONENTSTATE
+DESIGNINFO
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+S ^[
+SVW3
+ZYYd
+_^[YY]
+APPEND
+ADDSTRINGS
+CLEAR
+DELETE
+INDEXOF
+INSERT
+COUNT
+TEXT
+COMMATEXT
+LOADFROMFILE
+SAVETOFILE
+STRINGS
+OBJECTS
+FIND
+SORT
+DUPLICATES
+SORTED
+ONCHANGE
+ONCHANGING
+READ
+WRITE
+SEEK
+READBUFFER
+WRITEBUFFER
+COPYFROM
+POSITION
+SIZE
+CREATE
+HANDLE
+CREATE
+CREATE
+HANDLE
+PIXELSPERINCH
+STYLE
+_^[]
+CHORD
+DRAW
+ELLIPSE
+FILLRECT
+FLOODFILL
+LINETO
+MOVETO
+RECTANGLE
+REFRESH
+ROUNDRECT
+TEXTHEIGHT
+TEXTOUT
+TEXTWIDTH
+HANDLE
+PIXELS
+ONCHANGE
+CREATE
+CREATE
+LoadFromFile
+SaveToFile
+Empty
+Height
+Width
+OnChange
+LoadFromStream
+SaveToStream
+Canvas
+Handle
+Q<_^
+CREATE
+BRINGTOFRONT
+HIDE
+INVALIDATE
+REFRESH
+REPAINT
+SENDTOBACK
+SHOW
+UPDATE
+SETBOUNDS
+SHOWHINT
+ALIGN
+CLIENTHEIGHT
+CLIENTWIDTH
+VISIBLE
+ENABLED
+PARENT
+HANDLE
+SHOWING
+TABORDER
+TABSTOP
+CANFOCUS
+FOCUSED
+CONTROLS
+CONTROLCOUNT
+SCROLLINVIEW
+CREATENEW
+CLOSE
+HIDE
+SHOW
+SHOWMODAL
+RELEASE
+ACTIVE
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+CLEAR
+CLEARSELECTION
+SELECTALL
+MODIFIED
+SELLENGTH
+SELSTART
+SELTEXT
+TEXT
+LINES
+DROPPEDDOWN
+ITEMS
+ITEMINDEX
+ITEMS
+ITEMINDEX
+SELCOUNT
+SELECTED
+YZ^[
+OLE error %.8x
+ZYYd
+_^[Y]
+ZYYd
+CREATEOLEOBJECT
+GETACTIVEOLEOBJECT
+QSVW
++P,+P$
+ZYYd
+|.C3
+_^[Y]
+TNewStaticText
+TNewStaticTextt
+NewStaticText
+Align
+AutoSizeP0A
+Caption
+Colorp.A
+DragCursor
+DragMode
+Enabled
+FocusControl8
+Font
+ForceLTRReading
+ParentColor
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowAccelChar
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+WordWrap
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+ZYYd
+_^[YY]
+STATIC
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+SLYZ_^[
+YZ^[
+ZYYd
+_^[YY]
+uxtheme.dll
+OpenThemeData
+CloseThemeData
+DrawThemeBackground
+DrawThemeText
+GetThemeBackgroundContentRect
+GetThemePartSize
+GetThemeTextExtent
+GetThemeTextMetrics
+GetThemeBackgroundRegion
+HitTestThemeBackground
+DrawThemeEdge
+DrawThemeIcon
+IsThemePartDefined
+IsThemeBackgroundPartiallyTransparent
+GetThemeColor
+GetThemeMetric
+GetThemeString
+GetThemeBool
+GetThemeInt
+GetThemeEnumValue
+GetThemePosition
+GetThemeFont
+GetThemeRect
+GetThemeMargins
+GetThemeIntList
+GetThemePropertyOrigin
+SetWindowTheme
+GetThemeFilename
+GetThemeSysColor
+GetThemeSysColorBrush
+GetThemeSysBool
+GetThemeSysSize
+GetThemeSysFont
+GetThemeSysString
+GetThemeSysInt
+IsThemeActive
+IsAppThemed
+GetWindowTheme
+EnableThemeDialogTexture
+IsThemeDialogTextureEnabled
+GetThemeAppProperties
+SetThemeAppProperties
+GetCurrentThemeName
+GetThemeDocumentationProperty
+DrawThemeParentBackground
+EnableTheming
+TItemState
+TNewCheckListBox
+TNewCheckListBoxx
+NewCheckListBox&
+Alignp
+BorderStyle
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled
+Flat8
+Font
+Items4
+MinItemHeight4
+Offset
+OnClick
+OnClickCheck
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHintD
+	PopupMenu
+RequireRadioSelection
+ShowHint
+	ShowLines<0A
+TabOrder
+Visible
+WantTabs
+	TIUnknown
+TIDispatch
+TIAccessible
+TAccObject
+SVW3
+t<h0
+ZYYd
+_^[YY]
+oleacc.dll
+LresultFromObject
+CreateStdAccessibleObject
+ZYYd
+ZYYd
+QSVW
+_^[Y]
+Radio item cannot have disabled child items
+SRQj
+_^[]
+SVWU
+]_^[
+_^[]
+SVWU
+]_^[
+SVWQ
+$PVh
+$Z_^[
+SVW3
+ZYYd
+_^[]
+SVW3
+ZYYd
+^[YY]
+ZYYd
+ZYYd
+List item and state item count mismatch
+SVW3
+ZYYd
+_^[YY]
+@	^[
+> uA
+[YY]
+ZYYd
+SVWU
+]_^[
+_^[YY]
+@	;E
+QSVW
+@	;E
+YCOu
+_^[Y]
+_^[]
+^[Y]
+SVWU
+D$ P+
+ ]_^[
+_^[]
+SVWQ
+Z_^[
+SVWU
+]_^[
+ZYYd
+_^[YY]
+CreateStdAccessibleObject failed
+_^[]
+ZYYd
+_^[]
+ZYYd
+_^[]
+ZYYd
+ZYYd
+_^[Y]
+NotifyWinEvent
+user32.dll
+TNewProgressBarState
+npbsNormal	npbsError
+npbsPaused
+TNewProgressBarStyle
+npbstNormal
+npbstMarquee
+TNewProgressBar
+TNewProgressBar8
+NewProgressBar
+Minh
+Maxh
+Position
+State
+Style
+Visible
+msctls_progress32
+TRichEditViewer
+TRichEditViewerl
+RichEditViewer
+UseRichEdit
+SVW3
+ZYYd
+_^[YY]
+RICHED20.DLL
+RICHED32.DLL
+RichEdit20A
+RICHEDIT
+/Text
+^[Y]
+PShI
+YYY]
+SVW3
+|{;E
+ZYYd
+open
+SVW3
+ZYYd
+_^[YY]
+Rstrtmgr.dll
+RmStartSession
+RmRegisterResources
+RmGetList
+RmShutdown
+RmRestart
+RmEndSession
+TCustomFile
+TFile
+TTextFileReader
+TTextFileWriter
+EFileError
+SVW3
+ZYYd
+File I/O error %d
+^[Y]
+SVWQ
+$Z_^[
+YZ_^[
+SVWQ
+;4$t
+Z_^[
+SVW3
+ZYYd
+_^[YY]
+ZYYd
+_^[Y]
+ECompressError
+ECompressDataError
+ECompressInternalError
+TCustomDecompressor
+TStoredDecompressor
+TCompressedBlockReader
+_^[YY]
+SVWQ
+Z_^[
+Unexpected end of stream
+Compressed block is corrupted
+YZ^[
+Compressed block is corrupted
+SVWUQ
+$Z]_^[
+Compressed block is corrupted
+SVW3
+ZYYd
+_^[]
+SVWQ
+Z_^[
+The setup files are corrupted. Please obtain a new copy of the program.
+SVWUQ
+;,$r
+Z]_^[
+ZYYd
+ZYYd
+Messages file "%s" is missing. Please correct the problem or obtain a new copy of the program.
+0x%.8x
+SVW3
+ZYYd
+_^[]
+SVWU
+]_^[
+SVWUQ
+QZ^&
+Z]_^[
+X_^[
+FAOu
+FAOu
+ _^[
+Uh@,E
+ZYYd
+Uh/,E
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+h6,E
+ZYYd
+ZYYd
+TFileRedir
+TTextFileReaderRedir
+TTextFileWriterRedir
+ZYYd
+E$PWV
+ZYYd
+Uh00E
+ZYYd
+h70E
+ZYYd
+ZYYd
+h!1E
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+UhS3E
+ZYYd
+hZ3E
+ZYYd
+Uh,4E
+ZYYd
+h34E
+ZYYd
+Uh:5E
+ZYYd
+hA5E
+ZYYd
+Uh-6E
+ZYYd
+h46E
+ZYYd
+Uhq7E
+ZYYd
+hx7E
+UhH8E
+ZYYd
+hO8E
+ZYYd
+SVW3
+h :E
+h0:E
+h :E
+ZYYd
+_^[YY]
+Wow64DisableWow64FsRedirection
+kernel32.dll
+Wow64RevertWow64FsRedirection
+shell32.dll
+TSimpleStringList
+ZYYd
+_^[Y]
+UhQ;E
+ZYYd
+hX;E
+_^[Y]
+SVW3
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+YZ^[
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_USERS
+HKEY_PERFORMANCE_DATA
+HKEY_CURRENT_CONFIG
+HKEY_DYN_DATA
+[%x]
+ZYYd
+_^[Y]
+h @E
+ZYYd
+SVW3
+Uh^AE
+hxAE
+ZYYd
+heAE
+.tmp
+QQQQQQQQSVW
+Uh{BE
+ZYYd
+.tmp
+UheCE
+ZYYd
+hlCE
+ZYYd
+Uh-GE
+ZYYd
+ZYYd
+ZYYd
+WININIT.INI
+.tmp
+[rename]
+DeleteFile
+MoveFile
+MoveFileEx
+SVW3
+Uh"KE
+ZYYd
+ZYYd
+h)KE
+SVW3
+UhkLE
+UhGLE
+ZYYd
+hRLE
+ZYYd
+hrLE
+SVW3
+Uh+OE
+UhgNE
+t.Htb
+ZYYd
+ZYYd
+h2OE
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+RegCreateKeyEx
+SVW3
+UhuRE
+t*Ht[
+ZYYd
+ZYYd
+h|RE
+ZYYd
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+RegOpenKeyEx
+Uh6TE
+ZYYd
+h=TE
+ZYYd
+SVW3
+ZYYd
+sfc.dll
+SfcIsFileProtected
+QSVW
+UhgWE
+ZYYd
+hnWE
+_^[Y]
+SVW3
+UhnYE
+ZYYd
+huYE
+.bat
+.cmd
+cmd.exe" /C "
+COMMAND.COM" /C 
+ZYYd
+SVW3
+Uh	\E
+ZYYd
+ZYYd
+u[Tj(
+SeShutdownPrivilege
+QSVW
+|GF3
+_^[Y]
+SVW3
+UhK`E
+ZYYd
+ZYYd
+ZYYd
+hR`E
+SYSTEM\CurrentControlSet\Control\Session Manager
+PendingFileRenameOperations
+PendingFileRenameOperations2
+WININIT.INI
+ZYYd
+_^[YY]
+\??\
+ZYYd
+SYSTEM\CurrentControlSet\Control\Session Manager
+PendingFileRenameOperations
+PendingFileRenameOperations2
+QQQQQQSVW3
+UhXdE
+Uh+dE
+ZYYd
+h!dE
+ZYYd
+ZYYd
+h_dE
+WININIT.INI
+[rename]
+YYY]
+Software\Microsoft\Windows\CurrentVersion\Fonts
+Software\Microsoft\Windows NT\CurrentVersion\Fonts
+SVW3
+ZYYd
+ZYYd
+GetDiskFreeSpaceExA
+kernel32.dll
+ZYYd
+Environment
+8/u3
+ZYYd
+_^[Y]
+;B,u
+;B,u
+_^[YY]
+SVW3
+UhOjE
+ZYYd
+hVjE
+_^[YY]
+SVWUQ
+$Z]_^[
+SVW3
+ZYYd
+SVW3
+ZYYd
+_^[YY]
+.pif
+SVW3
+UhZqE
+ZYYd
+ZYYd
+haqE
+ZYYd
+CoCreateInstance
+{pf32}\
+%ProgramFiles(x86)%\
+IShellLink::QueryInterface(IID_IPropertyStore)
+IPropertyStore::SetValue(PKEY_AppUserModel_PreventPinning)
+IPropertyStore::SetValue(PKEY_AppUserModel_ID)
+IPropertyStore::SetValue(PKEY_AppUserModel_ExcludeFromShowInNewInstall)
+IPropertyStore::SetValue(PKEY_AppUserModel_StartPinOption)
+IPropertyStore::Commit
+IShellLink::QueryInterface(IID_IPersistFile)
+IPersistFile::Save
+SVW3
+UhctE
+UhEtE
+ZYYd
+hLtE
+ZYYd
+hjtE
+ZYYd
+LoadTypeLib
+RegisterTypeLib
+SVW3
+Uh!vE
+ h0vE
+hDvE
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+h(vE
+UnRegisterTypeLib
+OLEAUT32.DLL
+GetProcAddress
+LoadTypeLib
+ITypeLib::GetLibAttr
+UnRegisterTypeLib
+SVW3
+ZYYd
+ZYYd
+CoInitialize failed (0x%.8x)
+SVW3
+ZYYd
+_^[YY]
+SHCreateItemFromParsingName
+shell32.dll
+TDummyClassSVW
+Cannot debug. Debugger version ($%.8x) does not match Setup version ($%.8x)
+Failed to create DebugClientWnd
+SVW3
+UhB|E
+t+Ht
+ZYYd
+ZYYd
+hI|E
+[Paused] 
+ZYYd
+_^[YY]
+QSVW
+Uhk}E
+ZYYd
+hr}E
+_^[Y]
+SVW3
+Jtz-
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Cannot evaluate variable because [Code] isn't running yet
+[YY]
+Log opened. (Time zone: UTC%s%.2u:%.2u)
+SVW3
+ZYYd
+ZYYd
+%.4u-%.2u-%.2u
+%s Log %s #%.3u.txt
+SVW3
+ZYYd
+ZYYd
+ZYYd
+%.4u-%.2u-%.2u %.2u:%.2u:%.2u.%.3u   
+                          
+ZYYd
+_^[Y]
+Log closed.
+SVW3
+ZYYd
+_^[]
+ZYYd
+MsgWaitForMultipleObjects
+GetExitCodeProcess
+SVW3
+ZYYd
+regsvr32.exe"
+ /s "
+Spawning 64-bit RegSvr32: 
+Spawning 32-bit RegSvr32: 
+CreateProcess
+0x%x
+ZYYd
+^[YY]
+Cannot register 64-bit DLLs on this version of Windows
+THelperS
+HELPER_EXE_AMD64
+QSVW
+ZYYd
+_^[Y]
+SVWU
+$WVS
+]_^[
+FillWideCharBuffer: Invalid Buf
+FillWideCharBuffer: MultiByteToWideChar failed
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Starting 64-bit helper process.
+Cannot utilize 64-bit features on this version of Windows
+64-bit helper EXE wasn't extracted
+\\.\pipe\InnoSetup64BitHelper-%.8x-%.8x-%.8x-%.8x%.8x
+CreateNamedPipe
+CreateFile
+SetNamedPipeHandleState
+helper %d 0x%x
+CreateProcess
+Helper process PID: %u
+Stopping 64-bit helper process. (PID: %u)
+Helper isn't responding; killing it.
+Helper process exited.
+Helper process exited with failure code: 0x%x
+Helper process exited, but failed to get exit code.
+SVW3
+ZYYd
+ZYYd
+;B t
+ZYYd
+ZYYd
+CreateEvent
+TransactNamedPipe
+TransactNamedPipe/GetOverlappedResult
+Helper: Response message has wrong size
+Helper: Wrong sequence number
+Helper: Command did not execute
+Exception while communicating with helper:
+ZYYd
+Ping failed; helper seems to have died.
+QSVW
+_^[Y]
+HelperGrantPermission: Invalid entry count
+SVW3
+Ht4HtC
+ZYYd
+_^[YY]
+LoadTypeLib
+RegisterTypeLib
+ITypeLib::GetLibAttr
+UnRegisterTypeLib
+HelperRegisterTypeLibrary: StatusCode invalid
+SVW3
+ZYYd
+_^[]
+TAssemblyCacheInfo
+SVWQ
+Z_^[
+SOFTWARE\Microsoft\.NETFramework
+InstallRoot
+.NET Framework not found
+SVW3
+ZYYd
+SOFTWARE\Microsoft\.NETFramework\Policy\v4.0
+v4.0.30319
+SOFTWARE\Microsoft\.NETFramework\Policy\v2.0
+v2.0.50727
+SOFTWARE\Microsoft\.NETFramework\Policy\v1.1
+v1.1.4322
+.NET Framework version %s not found
+.NET Framework not found
+SVW3
+ZYYd
+Fusion.dll
+Failed to load .NET Framework DLL "%s"
+CreateAssemblyCache
+Failed to get address of .NET Framework CreateAssemblyCache function
+.NET Framework CreateAssemblyCache function failed
+ZYYd
+InstallAssembly
+ZYYd
+UninstallAssembly
+TUninstallLog
+SVW3
+ZYYd
+_^[Y]
+Y^[Y]
+SVW3
+ZYYd
+SVW3
+ZYYd
+MoveFileEx failed (%d).
+SVW3
+ZYYd
+Deleting directory: %s
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+Not stripping read-only attribute because the directory does not appear to be empty.
+Failed to delete directory (%d). Will retry later.
+Failed to delete directory (%d). Will delete on restart (if empty).
+Failed to delete directory (%d).
+_^[]
+SVWf
+x 0}
+ZYYd
+DataSize range exceeded
+_^[]
+YZ^[
+Deleting file: %s
+Failed to delete the file; it may be in use (%d).
+_^[YY]
+ExtractRecData: Unicode data unsupported by this build
+t$f;V
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+.hlp
+.gid
+.fts
+.chm
+.chw
+.lnk
+Deleting file: %s
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+The file appears to be in use (%d). Will delete on restart.
+Exception message:
+Failed to delete the file; it may be in use (%d).
+Decrementing shared count (%d-bit): %s
+Shared count reached zero.
+SVW3
+ZYYd
+ZYYd
+Unregistering 64-bit DLL/OCX: %s
+Unregistering 32-bit DLL/OCX: %s
+Unregistration successful.
+Unregistration failed:
+Not unregistering DLL/OCX again: %s
+SVW3
+ZYYd
+ZYYd
+Unregistering 64-bit type library: %s
+Unregistering 32-bit type library: %s
+Unregistration successful.
+Unregistration failed:
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Uninstalling from GAC: %s
+Uninstallation failed:
+SVW3
+|JF3
+ZYYd
+_^[Y]
+QSVWj	
+_^[Y]
+SVW3
+PSVh 
+PSVh 
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+|SF3
+ZYYd
+Starting the uninstallation process.
+Running Exec filename: 
+Running Exec parameters: 
+CreateProcess failed (%d).
+Process exit code: %u
+File doesn't exist. Skipping.
+Running ShellExec filename: 
+Running ShellExec parameters: 
+ShellExecuteEx failed (%d).
+File/directory doesn't exist. Skipping.
+Skipping RunOnceId "%s" filename: %s
+Unregistering font: %s
+utUserDefined:
+Uninstallation process succeeded.
+SVW3
+_^[YY]
+_^[]
+ZYYd
+NumRecs range exceeded
+EndOffset range exceeded
+SVW3
+ZYYd
+_^[Y]
+_^[]
+SVW3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+AllocWideCharStr: MultiByteToWideChar failed
+ZYYd
+ZYYd
+ZYYd
+advapi32.dll
+GetNamedSecurityInfoW
+SetNamedSecurityInfoW
+SetEntriesInAclW
+ZYYd
+ZYYd
+Exception while setting permissions:
+SVW3
+ZYYd
+_^[YY]
+Jt#Jt/
+ZYYd
+_^[Y]
+CLASSES_ROOT
+CURRENT_USER
+MACHINE
+USERS
+ISCryptGetVersion
+ArcFourInit
+ArcFourCrypt
+SQRP
+TZDecompressor
+inflateInit_
+inflate
+inflateEnd
+inflateReset
+SVW3
+ZYYd
+_^[]
+zlib: Internal error. Code %d
+^[Y]
+1.2.1
+zlib: Compressed data is corrupted
+TBZDecompressorS
+BZ2_bzDecompressInit
+BZ2_bzDecompress
+BZ2_bzDecompressEnd
+bzlib: Internal error. Code %d
+QSVW
+_^[Y]
+bzlib: Too much memory requested
+bzlib: Compressed data is corrupted
+TLZMACustomDecompressor
+TLZMA1Decompressor
+TLZMA2Decompressor
+lzmadecomp: %s
+lzmadecomp: Compressed data is corrupted (%d)
+SVW3
+ZYYd
+DecodeToBuf failed (%d)
+<$(s
+SVWU
+D$<3
+T$<#T$$
+T$Lf
+T$<#T$(
++L$,
+L$Lf
+L$8+T$
+T$T#T$X
+T$`f
+!T$X
+L$`f
+T$\!T$X
+L$Lf
+T$Lf
+L$Lf
+T$Lf
+T$Lf
+L$8+T$
+L$Lf
+L$Lf
+T$Lf
+L$Lf
+T$Lf
+L$Lf
+L$Df
+T$DB
+T$D;T$hr
+L$h)L$D
+L$Lf
+L$Lf
+L$Lf
+L$Lf
+L$Lf
+L$Lf
+\$|f
+L$Lf
+T$|B
+L$H3
+L$tu
+L$Lf
+L$Lf
+L$Lf
+;|$<r
+;|$@r
+;L$8u
++T$8
+;L$Ds	
+\$8+L$
+T$<)T$D
+;\$4w:
+|$8+L$8
+D$8;L$4u
+T$8;T$
+T$H;T$
+L$H3
+]_^[
+SVWU
++P,;
+p,)pH
+H$YZ]_^[
+SVWU
+;C,w
+;s$v
+]_^[
+$J#Q,
+$#y,
+<$;O8s
+#L$ 
+!L$ 
+L$$!L$ 
+;T$(r
++T$(
+T$0s#
+L$0u
+L$0u
+4_^[
+C$;E
+F$;F(u
+SVWQ
+;sTt)
+Z_^[
+;s(t.
+S<(v
+YZ^[
+YZ^[
+]_^[
++S,;
+s,^[
+Ct;E
+Cp;E
+S$+U
+F$;F(u
+TAlphaBitmap
+TAlphaBitmap\
+BitmapImage
+TBitmapImage
+TBitmapImage
+BitmapImage
+Align
+AutoSize
+	BackColor
+Centerp.A
+DragCursor
+DragMode
+Enabled
+ParentShowHint
+BitmapD
+	PopupMenu
+ShowHint
+Stretch
+ReplaceColor
+ReplaceWithColor
+Visible
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+^[Y]
+R ;C,| 
+;C0|
+f#C4f
+RD^[
+SVWU
+R ;D$
+R ;D$
+R ;C,|
+;C0}#3
+C0P3
+R Pj
+D$ P
+D$ P
+D$ PU
+D$$P
+D$ P
+D$<P
+@]_^[
+t'Kt
+SVWUQ
+Z]_^[
+TNewEdit
+TNewEdit0
+	BidiCtrls
+TNewMemo
+TNewMemo
+	BidiCtrls
+TNewComboBox
+TNewComboBox
+	BidiCtrls
+TNewListBox
+TNewListBox
+	BidiCtrls
+TNewButton
+TNewButton
+	BidiCtrls
+TNewCheckBox
+TNewCheckBox
+	BidiCtrls
+TNewRadioButton
+TNewRadioButton
+	BidiCtrls
+SVW3
+Uhx"F
+ZYYd
+ZYYd
+ZYYd
+SVW3
+UhQ%F
+Uh$%F
+ZYYd
+ZYYd
+h+%F
+ZYYd
+hX%F
+ZYYd
+TPasswordEdit
+TPasswordEdit
+PasswordEdit(
+AutoSelect
+AutoSizep
+BorderStyle$YB
+CharCase
+Color
+Ctl3Dp.A
+DragCursor
+DragMode
+Enabled8
+Font
+HideSelection4
+	MaxLength
+OEMConvert
+ParentColor
+ParentCtl3D
+ParentFont
+ParentShowHint
+PasswordD
+	PopupMenu
+ReadOnly
+ShowHint<0A
+TabOrder
+TabStopP0A
+Text
+Visible
+OnChange
+OnClick
+OnDblClick
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit
+	OnKeyDownD1A
+OnKeyPress
+OnKeyUp\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDragSV
+TFolderRenameEvent
+Sender
+TCustomFolderTreeView
+NewName
+string
+Accept
+Boolean
+TCustomFolderTreeView
+TCustomFolderTreeView0.F
+FolderTreeView
+TFolderTreeView
+TFolderTreeView
+FolderTreeView
+TabOrder
+TabStop
+Visible
+OnChange
+OnRename
+TStartMenuFolderTreeView
+TStartMenuFolderTreeView@1F
+FolderTreeView
+TabOrder
+TabStop
+Visible
+OnChange
+OnRename
+SVW3
+ZYYd
+ZYYd
+c:\directory
+SVW3
+ZYYd
+SVWU
+,]_^[
+user32.dll
+MonitorFromWindow
+GetMonitorInfoA
+ZYYd
+hd8F
+Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+FriendlyTree
+	TItemData
+f#F4f
+Pj<j
+SysTreeView32
+h0;F
+ZYYd
+>qu7
+SVW3
+ZYYd
+Uhc=F
+ZYYd
+hj=F
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Internal error: Item already expanding
+_^[]
+SVWU
+(]_^[
+SVW3
+ZYYd
+SVW3
+ZYYd
+ (%d)
+SVW3
+ZYYd
+SVW3
+Uh`JF
+UhBJF
+ZYYd
+hIJF
+ZYYd
+hgJF
+ZYYd
+SVW3
+Uh"KF
+ZYYd
+h)KF
+_^[YY]
+SVW3
+ZYYd
+QQQQQSVW
+ZYYd
+ZYYd
+SVW3
+Uh3OF
+ZYYd
+ZYYd
+ZYYd
+h:OF
+QQQQQQSVW
+ZYYd
+ZYYd
+_^[YY]
+_^[]
+SVW3
+ZYYd
+_^[YY]
+SHPathPrepareForWriteA
+shell32.dll
+TNewNotebook
+TNewNotebook
+NewNotebook
+ActivePage
+Align
+Colorp.A
+DragCursor
+DragMode
+Enabled8
+Font
+ParentColor
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint<0A
+TabOrder
+TabStop
+Visible
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDrag
+TNewNotebookPage
+TNewNotebookPage@WF
+NewNotebook
+Color
+DragMode
+Enabled8
+Font4
+Height4
+Left4
+	PageIndex
+ParentColor
+ParentFont
+ParentShowHintD
+	PopupMenu
+ShowHint4
+Visible4
+Width
+OnDragDropp1A
+OnDragOver`2A
+	OnEndDrag
+OnEnter
+OnExit\0A
+OnMouseDown
+OnMouseMove\0A
+	OnMouseUp$2A
+OnStartDragSV
+C0P3
+SVWU
+]_^[
+SVWU
+|3F3
+YZ]_^[
+^[Y]
+BrowseLabel
+PathEdit
+NewFolderButton
+OKButton
+CancelButton
+PathEditChange
+NewFolderButtonClick
+TSelectFolderForm
+TSelectFolderFormx`F
+SelFolderForm
+Uh%dF
+ZYYd
+ZYYd
+h,dF
+W,+U
+^[Y]
+UhggF
+ZYYd
+hngF
+_^[YY]
+Uh!hF
+ZYYd
+h(hF
+_^[Y]
+TWizardPage
+TWizardPagexhF
+Wizard
+CancelButton
+NextButton
+BackButton
+OuterNotebook
+InnerNotebook
+WelcomePage
+	InnerPage
+FinishedPage
+LicensePage
+PasswordPage
+InfoBeforePage
+UserInfoPage
+SelectDirPage
+SelectComponentsPage
+SelectProgramGroupPage
+SelectTasksPage
+	ReadyPage
+PreparingPage
+InstallingPage
+InfoAfterPage
+DiskSpaceLabel
+DirEdit
+	GroupEdit
+NoIconsCheck
+PasswordLabel
+PasswordEdit 
+PasswordEditLabel$
+	ReadyMemo(
+TypesCombo,
+Bevel0
+WizardBitmapImage4
+WelcomeLabel18
+InfoBeforeMemo<
+InfoBeforeClickLabel@
+	MainPanelD
+Bevel1H
+PageNameLabelL
+PageDescriptionLabelP
+WizardSmallBitmapImageT
+ReadyLabelX
+FinishedLabel\
+YesRadio`
+NoRadiod
+WizardBitmapImage2h
+WelcomeLabel2l
+LicenseLabel1p
+LicenseMemot
+InfoAfterMemox
+InfoAfterClickLabel|
+ComponentsList
+ComponentsDiskSpaceLabel
+BeveledLabel
+StatusLabel
+FilenameLabel
+ProgressGauge
+SelectDirLabel
+SelectStartMenuFolderLabel
+SelectComponentsLabel
+SelectTasksLabel
+LicenseAcceptedRadio
+LicenseNotAcceptedRadio
+UserInfoNameLabel
+UserInfoNameEdit
+UserInfoOrgLabel
+UserInfoOrgEdit
+PreparingErrorBitmapImage
+PreparingLabel
+FinishedHeadingLabel
+UserInfoSerialLabel
+UserInfoSerialEdit
+	TasksList
+RunList
+DirBrowseButton
+GroupBrowseButton
+SelectDirBitmapImage
+SelectGroupBitmapImage
+SelectDirBrowseLabel
+ SelectStartMenuFolderBrowseLabel
+PreparingYesRadio
+PreparingNoRadio
+PreparingMemo
+NextButtonClick
+BackButtonClick
+CancelButtonClick
+	FormClose
+NoIconsCheckClick
+TypesComboChange
+ComponentsListClickCheck 
+LicenseAcceptedRadioClick#
+LicenseNotAcceptedRadioClick
+UserInfoEditChange
+DirBrowseButtonClick
+GroupBrowseButtonClick
+TWizardForm
+TWizardForm0iF
+Wizard
+%.0n
+%.1n
+Uh:tF
+ZYYd
+hAtF
+_^[Y]
+[name]
+[name/ver]
+[kb]
+[mb]
+SVW3
+|'C3
+ZYYd
+ZYYd
+_^[YY]
+Uh\vF
+ZYYd
+hcvF
+_^[YY]
+SVW3
+ZYYd
+_^[YY]
+SL^[
+SVW3
+ZYYd
+CheckSerial
+SVW3
+Uh'zF
+|bC3
+|0C3
+ZYYd
+h.zF
+SVW3
+UhY{F
+Sh8zF
+ZYYd
+h`{F
+@t#3
+$Ph8zF
+;S u
+j j 
+ZYYd
+SVW3
+tOj'
+ZYYd
+ZYYd
+c:\directory
+shell32.dll
+SVW3
+;B0~8
+@0H+
+;B0~8
+@0H+
+ZYYd
+STOPIMAGE
+(Default)
+SVW3
+@ ;E
+t,CNu
+ZYYd
+Could not find page with ID %d
+QSVW
+_^[Y]
+SVWU
+]_^[
+SVW3
+ZYYd
+ZYYd
+Software\Microsoft\Windows\CurrentVersion\Uninstall
+%s\%s_is1
+Inno Setup: App Path
+Inno Setup: Icon Group
+Inno Setup: No Icons
+Inno Setup: Setup Type
+Inno Setup: Selected Components
+Inno Setup: Deselected Components
+Inno Setup: Selected Tasks
+Inno Setup: Deselected Tasks
+Inno Setup: User Info: Name
+Inno Setup: User Info: Organization
+Inno Setup: User Info: Serial
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+[Error]
+SVW3
+|sF3
+|_F3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+|GF3
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+|GF3
+Q,CNu
+ZYYd
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+SVWU
+|GG3
+Q,COu
+YZ]_^[
+SVWU
+|IF3
+Q,CNu
+YZ]_^[
+SVW3
+ZYYd
+ZYYd
+PrepareToInstall
+SVW3
+|[C3
+ZYYd
+ZYYd
+RestartManager found an application using one of our files: %s
+Can use RestartManager to avoid reboot? %s (%d)
+SVW3
+ZYYd
+ZYYd
+      
+UpdateReadyMemo
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+CurPageChanged
+ZYYd
+ZYYd
+ShouldSkipPage
+SVW3
+ZYYd
+CheckPassword
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+SVW3
+ZYYd
+SVW3
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+NextButtonClick
+PrepareToInstall failed: %s
+Need to restart Windows? %s
+BackButtonClick
+SVWU
+]_^[
+CancelButtonClick
+SVWUQ
+|DG3
+Z]_^[
+QSVW
+ZYYd
+_^[Y]
+ZYYd
+8\u	
+\tEj
+ZYYd
+/:*?"<>|
+ZYYd
+/:*?"<>|
+QQQQSVW
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+\/:*?"<>|
+ZYYd
+_^[YY]
+\/:*?"<>|
+ZYYd
+_^[YY]
+Failed to proceed to next wizard page; aborting.
+Failed to proceed to next wizard page; showing wizard.
+SVW3
+ZYYd
+_^[YY]
+SHPathPrepareForWriteA
+shell32.dll
+DiskBitmapImage
+SelectDiskLabel
+	PathLabel
+PathEdit
+BrowseButton
+OKButton
+CancelButton
+FormCloseQuery
+BrowseButtonClick
+TNewDiskForm
+TNewDiskForm
+NewDisk
+SVW3
+ZYYd
+ZYYd
+DISKIMAGE
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+TFileExtractor
+ZYYd
+_^[YY]
+Source file corrupted: 
+SVW3
+ZYYd
+%s-%d.bin
+%s-%d%s.bin
+..\DISK%d\
+Asking user for new disk containing "%s".
+SVW3
+ZYYd
+Invalid slice header (1)
+Invalid slice header (2)
+Invalid slice header (3)
+Invalid slice header (4)
+QSVW
+ZYYd
+_^[Y]
+Failed to read salt
+ZYYd
+CH@t
+CH@t
+ZYYd
+Cannot call file extractor recursively
+Cannot read an encrypted file before the key has been set
+Failed to read CompID
+Invalid CompID
+;{ v
+$YZ_^[
+Already on last slice
+ZYYd
+ZYYd
+Cannot call file extractor recursively
+SHA-1 hash mismatch
+r-Th
+TSetupUninstallLog
+ZYYd
+_^[Y]
+SVWU
+|VF3
+]_^[
+ZYYd
+CurInstallProgressChanged
+CurInstallProgressChanged raised an exception.
+ZYYd
+_^[Y]
+LoggedMsgBox returned an unexpected value. Assuming Abort.
+%.4u-%.2u-%.2u %.2u:%.2u:%.2u.%.3u
+(invalid)
+ZYYd
+SVWUP
+]_^[
+ZYYd
+_^[YY]
+TRegisterFilesListRec
+SVW3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+{app}
+{group}
+{language}
+RegSetValueEx
+RegCreateKeyEx
+RegOpenKeyEx
+SVW3
+ZYYd
+_^[]
+Y_^[]
+%.4u%.2u%.2u
+SVW3
+ZYYd
+SVW3
+|NG3
+ZYYd
+ZYYd
+ZYYd
+Software\Microsoft\Windows\CurrentVersion\Uninstall\
+_is1
+Inno Setup: Setup Version
+5.5.9 (a)
+Inno Setup: App Path
+InstallLocation
+Inno Setup: Icon Group
+Inno Setup: No Icons
+Inno Setup: User
+Inno Setup: Setup Type
+Inno Setup: Selected Components
+Inno Setup: Deselected Components
+Inno Setup: Selected Tasks
+Inno Setup: Deselected Tasks
+Inno Setup: User Info: Name
+Inno Setup: User Info: Organization
+Inno Setup: User Info: Serial
+Inno Setup: Language
+DisplayName
+DisplayIcon
+UninstallString
+" /SILENT
+QuietUninstallString
+DisplayVersion
+Publisher
+URLInfoAbout
+HelpTelephone
+HelpLink
+URLUpdateInfo
+Readme
+Contact
+Comments
+ModifyPath
+NoModify
+NoRepair
+InstallDate
+MajorVersion
+MinorVersion
+VersionMajor
+VersionMinor
+EstimatedSize
+RegisterPreviousData
+RegisterPreviousData raised an exception.
+SVW3
+ZYYd
+Creating directory: %s
+Setting permissions on directory: %s
+Failed to set permissions on directory (%d).
+Setting NTFS compression on directory: %s
+Unsetting NTFS compression on directory: %s
+Failed to set NTFS compression state (%d).
+QQQQSVW3
+ZYYd
+IMsg
+Software\Microsoft\Windows\CurrentVersion\Fonts
+Software\Microsoft\Windows NT\CurrentVersion\Fonts
+ZYYd
+Failed to set value in Fonts registry key.
+Failed to open Fonts registry key.
+AddFontResource
+SVW3
+|aF3
+ZYYd
+Setting permissions on file: %s
+Failed to set permissions on file (%d).
+Setting NTFS compression on file: %s
+Unsetting NTFS compression on file: %s
+Failed to set NTFS compression state (%d).
+%s: The existing file appears to be in use (%d). Will replace on restart.
+%s: The existing file appears to be in use (%d). Retrying.
+SVW3
+Uhh'G
+@N t
+ZYYd
+@O t
+ZYYd
+ZYYd
+InUn
+ZYYd
+ u8US
+u8US
+@N@uij
+@N t~
+@N t
+@Q u	
+@Q@t:
+UhW'G
+ZYYd
+h^'G
+ZYYd
+ZYYd
+ZYYd
+-- File entry --
+Dest filename: %s
+Non-default bitness: 64-bit
+Non-default bitness: 32-bit
+Dest file is protected by Windows File Protection.
+Time stamp of our file: %s
+Time stamp of our file: (failed to read)
+Dest file exists.
+Skipping due to "onlyifdoesntexist" flag.
+Time stamp of existing file: %s
+Time stamp of existing file: (failed to read)
+Version of our file: %u.%u.%u.%u
+Version of our file: (none)
+Version of existing file: %u.%u.%u.%u
+Existing file is a newer version. Skipping.
+Existing file's SHA-1 hash matches our file. Skipping.
+Existing file's SHA-1 hash is different from our file. Proceeding.
+Failed to read existing file's SHA-1 hash. Proceeding.
+Same version. Skipping.
+Version of existing file: (none)
+Couldn't read time stamp. Skipping.
+Same time stamp. Skipping.
+Existing file has a later time stamp. Skipping.
+Existing file is protected by Windows File Protection. Skipping.
+User opted not to overwrite the existing file. Skipping.
+User opted not to strip the existing file's read-only attribute. Skipping.
+Stripped read-only attribute.
+Failed to strip read-only attribute.
+Skipping due to "onlyifdestfileexists" flag.
+Installing the file.
+.tmp
+Uninstaller requires administrator: %s
+DeleteFile
+MoveFile
+Successfully installed the file.
+Leaving temporary file in place for now.
+Registering file as a font ("%s")
+Will register the file (a type library) later.
+Will register the file (a DLL/OCX) later.
+Incrementing shared file count (64-bit).
+Incrementing shared file count (32-bit).
+Installing into GAC
+SVW3
+Uhm4G
+Uh}2G
+ZYYd
+ZYYd
+ZYYd
+ht4G
+SVW3
+Q,Nu
+ZYYd
+ZYYd
+Cannot install files to 64-bit locations on this version of Windows
+QSVW
+_^[Y]
+Wh$9G
+h09G
+Sh$9G
+hD9G
+h$9G
+ZYYd
+ZYYd
+[InternetShortcut]
+URL=
+IconFile=
+IconIndex=
+ZYYd
+desktop.ini
+CLSID2
+.ShellClassInfo
+{0AFACED1-E828-11D1-9187-B532F1E9575D}
+target.lnk
+SVW3
+E0PW
+E$Pf
+Uh"=G
+ZYYd
+ZYYd
+{group}\
+.lnk
+.pif
+.url
+Dest filename: %s
+Creating the icon.
+Successfully created the icon.
+target.lnk
+Desktop.ini
+SVW3
+Uhi@G
+ZYYd
+hp@G
+_^[YY]
+Software\Microsoft\Windows\CurrentVersion\App Paths\
+QQQQQQQQSVW3
+Uh7BG
+CPPf
+ZYYd
+ZYYd
+-- Icon entry --
+Skipping due to "createonlyiffileexists" flag.
+SVW3
+Uh4FG
+ZYYd
+ZYYd
+ZYYd
+h;FG
+-- INI entry --
+Dest filename: %s
+Section: %s
+Entry: %s
+Value: %s
+Updating the .INI file.
+Successfully updated the .INI file.
+Skipping updating the .INI file, only updating uninstall log.
+SVW3
+UhDHG
+ZYYd
+hKHG
+Setting permissions on registry key: %s\%s
+Could not set permissions on the registry key because it currently does not exist.
+Failed to set permissions on registry key (%d).
+SVW3
+UhoPG
+@?@t$
+@?@t
+@? t/j
+ZYYd
+ZYYd
+ZYYd
+hvPG
+Cannot access 64-bit registry keys on this version of Windows
+{olddata}
+olddata
+break
+Failed to parse "qword" value
+SVW3
+UhTRG
+InRS
+ZYYd
+ZYYd
+ZYYd
+.exe
+Uh+SG
+ZYYd
+h2SG
+SVW3
+ZYYd
+UhbVG
+Uh7UG
+|dF3
+ZYYd
+h>UG
+UhQVG
+h|XG
+ZYYd
+hXVG
+ZYYd
+ZYYd
+Registration executable created: %s
+.msg
+.lst
+; This file was created by the installer for:
+;   
+;   Location: 
+; List of files to be registered on the next reboot. DO NOT EDIT!
+[..]
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+InnoSetupRegFile.%.10d
+" /REG
+ /REGSVRMODE
+SVW3
+UhSYG
+ZYYd
+ZYYd
+Registering 64-bit DLL/OCX: %s
+Registering 32-bit DLL/OCX: %s
+Registration successful.
+Registration failed:
+SVW3
+Uh	\G
+Uh\[G
+ZYYd
+ZYYd
+Registering 64-bit type library: %s
+Registering 32-bit type library: %s
+Registration successful.
+Registration failed:
+|wC3
+UhB]G
+ZYYd
+_^[]
+Delaying registration of all files until the next logon since a restart is needed.
+SVW3
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+SVW3
+ZYYd
+unins???.*
+unins
+QQQQQSVW
+ZYYd
+unins%.3d
+.exe
+.dat
+.msg
+CreateFile
+SVW3
+UhufG
+ZYYd
+h|fG
+Directory for uninstall files: %s
+Will append to existing uninstall log: %s
+Will overwrite existing uninstall log: %s
+Creating new uninstall log: %s
+SVW3
+ZYYd
+MoveFileEx
+LoggedMsgBox returned an unexpected value. Assuming Cancel.
+ZYYd
+Uh4jG
+ZYYd
+_^[YY]
+NeedRestart
+Will restart because NeedRestart returned True.
+NeedRestart raised an exception.
+Not calling NeedRestart because a restart has already been deemed necessary.
+|>F3
+|@F3
+ (forced)
+SVW3
+Uh9mG
+ZYYd
+h@mG
+Shutting down applications using our files.
+Some applications could not be shut down.
+Retrying to shut down applications using our files.
+RmShutdown returned an error: %d
+SVW3
+UhVtG
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+h]tG
+Starting the installation process.
+Failed to get a non empty installation "AppId"
+"AppId" cannot exceed 128 bytes (encoded)
+User chose not to shutdown applications using our files.
+Fatal exception during installation process (%s):
+User canceled the installation process.
+Rolling back changes.
+Installation process succeeded.
+SVW3
+Uh8wG
+Uh'wG
+ZYYd
+h.wG
+ZYYd
+ZYYd
+Extracting temporary file: 
+SVW3
+|RF3
+)GNu
+ZYYd
+ExtractTemporaryFile: The file "%s" was not found
+SVW3
+ZYYd
+ExtractTemporaryFiles: Pattern too long
+{tmp}\
+ExtractTemporaryFiles: Invalid character in matched file name
+ExtractTemporaryFiles: No files matching "%s" found
+SVW3
+ZYYd
+SelectLabel
+	LangCombo
+OKButton
+CancelButton
+IconBitmapImage
+TSelectLanguageForm
+TSelectLanguageForm
+SelLangForm
+VQPR
+VQPR
+SVW3
+hL~G
+;F,t	
+ZYYd
+ZYYd
+Inno Setup: Language
+^[Y]
+TSimpleExpression%
+SVW3
+Jt?JtR
+ZYYd
+true
+false
+Unexpected end of expression while reading string constant
+Unterminated string
+Invalid symbol '%s' found
+SVW3
+<<	u
+ZYYd
+ExpandConstant
+Can only call function "ExpandConstant" within parameter lists
+Invalid token '%s' found
+true
+Maximum number of parameters exceeded
+SVW3
+ZYYd
+ZYYd
+Invalid token '%s' found
+YZ^[
+Invalid token
+Invalid token '%s' found
+Invalid token '%s' found
+WriteStringToStream: Length limit exceeded
+AllowSetForegroundWindow
+user32.dll
+PRhP
+QuerySpawnServer: Unexpected response: $%x
+t Hf
+CallSpawnServer: Unexpected response: $%x
+CallSpawnServer: Unexpected status: %d
+SVW3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+ZYYd
+TSpawnServer
+YZ_^[
+ZYYd
+_^[Y]
+\\?\
+UNC\
+SVWU
+]_^[
+GetFinalPathNameByHandleA
+kernel32.dll
+SVW3
+ZYYd
+GetCurrentDirectory
+SVW3
+ZYYd
+ZYYd
+runas
+ShellExecuteEx
+ShellExecuteEx returned hProcess=0
+MsgWaitForMultipleObjects
+GetExitCodeProcess
+SVW3
+;B u
+ZYYd
+ZYYd
+Wnd=$%x
+AllocateHWnd
+SVW3
+ZYYd
+ZYYd
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+kernel32.dll
+VerSetConditionMask
+VerifyVersionInfoW
+FormResize
+FormCloseQuery
+	FormPaint
+FormKeyDown
+	TMainForm
+	TMainForm
+Main
+TDummyClass%
+9~;j
+%.48s~%.8x
+SVW3
+ZYYd
+ZYYd
+Software\Microsoft\Windows\CurrentVersion\Uninstall
+%s\%s_is1
+PasswordCheckHash
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Expression error '%s'
+ZYYd
+_^[]
+"BeforeInstall" or "AfterInstall" parameter with no CodeRunner
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Expression error '%s'
+SVW3
+ZYYd
+ZYYd
+ZYYd
+Expression error '%s'
+ZYYd
+"Check" parameter with no CodeRunner
+_^[]
+AM t
+SVW3
+ZYYd
+_^[YY]
+{group}\
+Cannot install files to 64-bit locations on this version of Windows
+\CNu
+ZYYd
+_^[YY]
+Lang
+Setup
+Group
+NoIcons
+SetupType
+Components
+Tasks
+Silent
+VerySilent
+NoRestart
+CloseApplications
+NoCloseApplications
+ForceCloseApplications
+NoForceCloseApplications
+RestartApplications
+NoRestartApplications
+NoCancel
+Password
+RestartExitCode
+SuppressMsgBoxes
+SaveInf
+ZYYd
+_^[Y]
+Lang
+Setup
+Group
+NoIcons
+SetupType
+Components
+Tasks
+SVWU
+|DF3
+]_^[
+SVW3
+ZYYd
+Cannot evaluate "%s" constant during Uninstall
+QQQQSVW
+ZYYd
+HKCR
+HKCU
+HKLM
+HKCC
+SVW3
+ZYYd
+Cannot access a 64-bit key in a "reg" constant on this version of Windows
+Failed to parse "reg" constant
+QQQQQQQSVW
+ZYYd
+Failed to parse "ini" constant
+SVW3
+ZYYd
+QQQQQSVW
+ZYYd
+Failed to parse "param" constant
+SVW3
+"code" constant with no CodeRunner
+QQQQQSVW
+ZYYd
+Cannot evaluate "code" constant because of possible side effects
+Failed to parse "code" constant
+SVW3
+ZYYd
+_^[YY]
+Failed to parse "drive" constant
+SVW3
+ZYYd
+Failed to parse "cm" constant
+Unknown custom message name "%s" in "cm" constant
+userdesktop
+userstartmenu
+userprograms
+userstartup
+sendto
+fonts
+userappdata
+userdocs
+usertemplates
+userfavorites
+localappdata
+commondesktop
+commonstartmenu
+commonprograms
+commonstartup
+commonappdata
+commondocs
+commontemplates
+commonfavorites
+srcexe
+userinfoname
+userinfoorg
+userinfoserial
+hwnd
+wizardhwnd
+SVW3
+ZYYd
+An attempt was made to expand the "app" constant but Setup didn't create the "app" dir
+An attempt was made to expand the "app" constant before it was initialized
+syswow64
+Cannot expand "syswow64" constant because there is no SysWOW64 directory
+srcexe
+userpf
+{localappdata}\Programs
+usercf
+{localappdata}\Programs\Common
+pf32
+cf32
+pf64
+Cannot expand "pf64" constant on this version of Windows
+cf64
+Cannot expand "cf64" constant on this version of Windows
+{cf}\Microsoft Shared\DAO
+computername
+username
+groupname
+Cannot expand "groupname" constant because it was not available at install time
+An attempt was made to expand the "groupname" constant before it was initialized
+sysuserinfoname
+sysuserinfoorg
+userinfoname
+userinfoorg
+userinfoserial
+uninstallexe
+group
+Cannot expand "group" constant because it was not available at install time
+An attempt was made to expand the "group" constant before it was initialized
+Failed to expand "group" constant
+language
+hwnd
+wizardhwnd
+dotnet11
+dotnet20
+dotnet2032
+dotnet2064
+Cannot expand "dotnet2064" constant on this version of Windows
+dotnet40
+dotnet4032
+dotnet4064
+Cannot expand "dotnet4064" constant on this version of Windows
+reg:
+ini:
+param:
+code:
+drive:
+Failed to expand shell folder constant "%s"
+Unknown constant "%s"
+_^[]
+SVW3
+8\u?
+ZYYd
+Unclosed constant
+ZYYd
+ZYYd
+_^[Y]
+expand:
+QSVW
+_^[Y]
+Software\Microsoft\Windows\CurrentVersion
+Software\Microsoft\Windows\CurrentVersion
+SOFTWARE\Microsoft\Windows NT\CurrentVersion
+RegisteredOwner
+RegisteredOrganization
+SVW3
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+SystemDrive
+ProgramFilesDir
+\Program Files
+CommonFilesDir
+Common Files
+Failed to get path of 64-bit Program Files directory
+Failed to get path of 64-bit Common Files directory
+cmd.exe
+COMMAND.COM
+SVW3
+ZYYd
+ZYYd
+ZYYd
+SVW3
+ZYYd
+Created temporary directory: 
+_isetup
+\_setup64.tmp
+SVWQ
+s	j2
+Z_^[
+SVW3
+ZYYd
+_^[Y]
+Failed to remove temporary directory: 
+SVW3
+ZYYd
+shfolder.dll
+_isetup\_shfoldr.dll
+SHFOLDERDLL
+shell32.dll
+Failed to load DLL "%s"
+SHGetFolderPathA
+Failed to get address of SHGetFolderPath function
+SVW3
+ZYYd
+Warning: SHGetFolderPath failed with code 0x%.8x on folder 0x%.4x
+ZYYd
+_^[Y]
+t	U3
+Y[Y]
+u	;E
+w*;E
+ZYYd
+SVWU
+|bG3
+]_^[
+SVW3
+ZYYd
+ZYYd
+ZYYd
+SVW3
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+|@C3
+ZYYd
+Found pending rename or delete that matches one of our files: %s
+ZYYd
+^[Y]
+|7C3
+ZYYd
+Cannot call "RegisterExtraCloseApplicationsResource" function at this time
+ZYYd
+ZYYd
+ZYYd
+_^[YY]
+RegisterExtraCloseApplicationsResources
+RegisterExtraCloseApplicationsResources raised an exception.
+QQQQSVW
+ZYYd
+setup:
+uninstall:
+files:
+SVWU
+|TF3
+]_^[
+SVW3
+ZYYd
+Windows version: %u.%u.%u%s  (NT platform: %s)
+64-bit Windows: %s
+Processor architecture: %s
+User privileges: Administrative
+User privileges: Power User
+User privileges: None
+Cancel
+Abort
+Retry
+Ignore
+Try Again
+Continue
+OK/Cancel
+Abort/Retry/Ignore
+Yes/No/Cancel
+Yes/No
+Retry/Cancel
+Cancel/Try Again/Continue
+SVW3
+ZYYd
+Defaulting to %s for suppressed message box (%s):
+SVW3
+ZYYd
+Message box (%s):
+SVW3
+ZYYd
+User chose %s.
+AppMessageBox failed.
+SVW3
+ZYYd
+User chose %s.
+MsgBox failed.
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+/SPAWNWND=$%x /NOTIFYWND=$%x 
+64-bit install mode: %s
+ZYYd
+_^[Y]
+ExtractLongWord: Missing comma
+QSVW
+_^[Y]
+SVW3
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+Windows
+ZYYd
+ZYYd
+^[Y]
+SVW3
+ZYYd
+_isetup\_isdecmp.dll
+Failed to load DLL "%s"
+ZlibInitDecompressFunctions failed
+BZInitDecompressFunctions failed
+SVW3
+ZYYd
+_isetup\_iscrypt.dll
+Failed to load DLL "%s"
+ISCryptInitFunctions failed
+_^[YY]
+_^[YY]
+SVW3
+ZYYd
+CheckPassword
+_^YY]
+SVW3
+ZYYd
+ZYYd
+SVW3
+Uhq&H
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+hx&H
+/SL5=
+/Log
+/Log=
+/Silent
+/VerySilent
+/NoRestart
+/CloseApplications
+/NoCloseApplications
+/ForceCloseApplications
+/NoForceCloseApplications
+/RestartApplications
+/NoRestartApplications
+/NoIcons
+/NoCancel
+/Lang=
+/Type=
+/Components=
+/Tasks=
+/MergeTasks=
+/LoadInf=
+/SaveInf=
+/DIR=
+/GROUP=
+/Password=
+/RestartExitCode=
+/SuppressMsgBoxes
+/DETACHEDMSG
+/SPAWNWND=
+/NOTIFYWND=
+/DebugSpawnServer
+/DEBUGWND=
+The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
+The setup files are corrupted. Please obtain a new copy of the program.
+The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
+-0.bin
+Setup
+Error creating log file:
+Setup version: Inno Setup version 5.5.9 (a)
+Original Setup EXE: 
+Setup command line: 
+CheckPassword
+CheckSerial
+InitializeSetup
+InitializeSetup raised an exception (fatal).
+InitializeSetup returned False; aborting.
+NameAndVersion
+%1 %2
+SVW3
+ZYYd
+ZYYd
+|1F3
+ZYYd
+Deinitializing Setup.
+GetCustomSetupExitCode
+GetCustomSetupExitCode raised an exception.
+DeinitializeSetup
+DeinitializeSetup raised an exception.
+Not restarting Windows because Setup is being run from the debugger.
+Restarting Windows.
+GFCIu
+SVW3
+ZYYd
+SVWU
+D$0Ph
+D$0Ph
+h|5H
+D$$P
+D$$P
+D$ Pj
+h|5H
+D$ Pj
+D$(+D$ 
+D$$P
+D$$P
+D$ Pj
+<]_^[
+Arial
+SVW3
+Uh`6H
+hH7H
+hX7H
+hH7H
+hH7H
+ZYYd
+hg6H
+_^[Y]
+Inno Setup version 5.5.9 (a)
+Copyright (C) 1997-2016 Jordan Russell
+Portions Copyright (C) 2000-2016 Martijn Laan
+All rights reserved.
+Inno Setup home page:
+http://www.innosetup.com/
+RemObjects Pascal Script home page:
+http://www.remobjects.com/ps
+ZYYd
+_^[Y]
+Exception message:
+ZYYd
+_^[Y]
+ZYYd
+CurStepChanged
+CurStepChanged raised an exception.
+CurStepChanged raised an exception (fatal).
+ZYYd
+_^[YY]
+InitializeWizard
+InitializeWizard raised an exception (fatal).
+Cannot run files in 64-bit locations on this version of Windows
+SVW3
+UhI>H
+FHPh
+FHPh
+ZYYd
+ZYYd
+-- Run entry --
+Run as: Original user
+Run as: Current user
+Type: Exec
+Type: ShellExec
+Filename: 
+Parameters: 
+CreateProcess
+Process exit code: %u
+File doesn't exist. Skipping.
+ShellExecuteEx
+File/directory doesn't exist. Skipping.
+SVW3
+UhoBH
+ZYYd
+@M@t4
+ZYYd
+hvBH
+ZYYd
+Uh-CH
+ZYYd
+h4CH
+Attempting to restart applications.
+One or more applications could not be restarted.
+RmRestart returned an error: %d
+Need to restart Windows, not attempting to restart applications
+SVW3
+UhuGH
+ZYYd
+ZYYd
+ZYYd
+Need to restart Windows? %s
+^[Y]
+SVW3
+UhhIH
+ZYYd
+hoIH
+_^[YY]
+UhCKH
+h\KH
+h\KH
+h\KH
+ZYYd
+ZYYd
+hJKH
+Will not restart Windows automatically.
+h@OH
+hPOH
+hdOH
+t;htOH
+kernel32.dll
+GetNativeSystemInfo
+IsWow64Process
+GetSystemWow64DirectoryA
+RegDeleteKeyExA
+advapi32.dll
+hLPH
+System\CurrentControlSet\Control\Windows
+CSDVersion
+SVW3
+ZYYd
+_^[YY]
+System\CurrentControlSet\Control\ProductOptions
+ProductType
+WinNT
+LanmanNT
+ServerNT
+SVWU
+]_^[
+SVW3
+ZYYd
+_^[YY]
+SHGetKnownFolderPath
+shell32.dll
+TInputQueryWizardPage
+TInputQueryWizardPage
+	ScriptDlg
+TInputOptionWizardPage
+TInputOptionWizardPage
+	ScriptDlg
+TInputDirWizardPage
+TInputDirWizardPage
+	ScriptDlg
+TInputFileWizardPage
+TInputFileWizardPageLWH
+	ScriptDlg
+TOutputMsgWizardPage
+TOutputMsgWizardPage
+	ScriptDlg
+TOutputMsgMemoWizardPage
+TOutputMsgMemoWizardPage
+	ScriptDlg
+TOutputProgressWizardPage
+TOutputProgressWizardPagepYH
+	ScriptDlg
+SVWU
+^p]_^[
+SVWU
+]_^[
+_^[YY]
+HhQ3
+|'G3
+SVWU
+|$F3
+]_^[
+ZYYd
+h!`H
+_^[Y]
+SVWUQ
+|>C3
+Z]_^[
+_^[YY]
+SVW3
+UhlcH
+ZYYd
+hscH
+Uh9dH
+ZYYd
+h@dH
+_^[YY]
+QQQQQQSVW
+UhKfH
+ZYYd
+hRfH
+SVWU
+^|]_^[
+SVW3
+Uh5iH
+ZYYd
+h<iH
+SVWU
+]_^[
+SVWUQ
+Z]_^[
+SVWU
+]_^[
+;C u(
+;P u
+SVW3
+ZYYd
+_^[YY]
+;C t#
+OuterNotebook
+	InnerPage
+InnerNotebook
+InstallingPage
+	MainPanel
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+Bevel1
+StatusLabel
+ProgressBar
+BeveledLabel
+Bevel
+CancelButton
+TUninstallProgressForm
+TUninstallProgressForm@oH
+UninstProgressForm
+ZYYd
+_^[Y]
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ParentBackground
+AdjustHeight
+ZYYd
+_^[Y]
+Uh8vH
+ZYYd
+h?vH
+_^[Y]
+AddCheckBox
+AddGroup
+AddRadioButton
+CheckItem
+Checked
+State
+ItemCaption
+ItemEnabled
+ItemLevel
+ItemObject
+ItemSubItem
+hHxH
+RTFText
+ChangeDirectory
+CreateNewDirectory
+Directory
+SetPaths
+AlphaFormat
+FindNextPage
+PageCount
+Pages
+Notebook
+Center
+CenterInsideControl
+ControlsFlipped
+FlipControlsOnShow
+RightToLeft
+ShowAboutBox
+CancelButton
+NextButton
+BackButton
+OuterNotebook
+InnerNotebook
+WelcomePage
+InnerPage
+FinishedPage
+LicensePage
+PasswordPage
+InfoBeforePage
+UserInfoPage
+SelectDirPage
+SelectComponentsPage
+SelectProgramGroupPage
+SelectTasksPage
+ReadyPage
+PreparingPage
+InstallingPage
+InfoAfterPage
+DiskSpaceLabel
+DirEdit
+GroupEdit
+NoIconsCheck
+PasswordLabel
+PasswordEdit
+PasswordEditLabel
+ReadyMemo
+TypesCombo
+Bevel
+WizardBitmapImage
+WelcomeLabel1
+InfoBeforeMemo
+InfoBeforeClickLabel
+MainPanel
+Bevel1
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+ReadyLabel
+FinishedLabel
+YesRadio
+NoRadio
+WizardBitmapImage2
+WelcomeLabel2
+LicenseLabel1
+LicenseMemo
+InfoAfterMemo
+InfoAfterClickLabel
+ComponentsList
+ComponentsDiskSpaceLabel
+BeveledLabel
+StatusLabel
+FilenameLabel
+ProgressGauge
+SelectDirLabel
+SelectStartMenuFolderLabel
+SelectComponentsLabel
+SelectTasksLabel
+LicenseAcceptedRadio
+LicenseNotAcceptedRadio
+UserInfoNameLabel
+UserInfoNameEdit
+UserInfoOrgLabel
+UserInfoOrgEdit
+PreparingErrorBitmapImage
+PreparingLabel
+FinishedHeadingLabel
+UserInfoSerialLabel
+UserInfoSerialEdit
+TasksList
+RunList
+DirBrowseButton
+GroupBrowseButton
+SelectDirBitmapImage
+SelectGroupBitmapImage
+SelectDirBrowseLabel
+SelectStartMenuFolderBrowseLabel
+PreparingYesRadio
+PreparingNoRadio
+PreparingMemo
+CurPageID
+AdjustLabelHeight
+IncTopDecHeight
+PrevAppDir
+OuterNotebook
+InnerPage
+InnerNotebook
+InstallingPage
+MainPanel
+PageNameLabel
+PageDescriptionLabel
+WizardSmallBitmapImage
+Bevel1
+StatusLabel
+ProgressBar
+BeveledLabel
+Bevel
+CancelButton
+QSVW
+ZYYd
+_^[Y]
+QSVW
+ZYYd
+_^[Y]
+Caption
+Description
+Surface
+SurfaceHeight
+SurfaceWidth
+OnActivate
+OnBackButtonClick
+OnCancelButtonClick
+OnNextButtonClick
+OnShouldSkipPage
+ZYYd
+_^[Y]
+Edits
+PromptLabels
+SubCaptionLabel
+Values
+AddEx
+CheckListBox
+SelectedValueIndex
+SubCaptionLabel
+Values
+ZYYd
+_^[Y]
+Buttons
+Edits
+PromptLabels
+SubCaptionLabel
+Values
+ZYYd
+_^[Y]
+Buttons
+Edits
+PromptLabels
+SubCaptionLabel
+Values
+IsSaveButton
+MsgLabel
+RichEditViewer
+SubCaptionLabel
+Hide
+Msg1Label
+Msg2Label
+ProgressBar
+SetProgress
+SetText
+Show
+QSVW
+ZYYd
+_^[Y]
+function PageFromID(const ID: Integer): TWizardPage;
+function PageIndexFromID(const ID: Integer): Integer;
+function CreateCustomPage(const AfterID: Integer; const ACaption, ADescription: String): TWizardPage;
+function CreateInputQueryPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String): TInputQueryWizardPage;
+function CreateInputOptionPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; Exclusive, ListBox: Boolean): TInputOptionWizardPage;
+function CreateInputDirPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; AAppendDir: Boolean; ANewFolderName: String): TInputDirWizardPage;
+function CreateInputFilePage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String): TInputFileWizardPage;
+function CreateOutputMsgPage(const AfterID: Integer; const ACaption, ADescription, AMsg: String): TOutputMsgWizardPage;
+function CreateOutputMsgMemoPage(const AfterID: Integer; const ACaption, ADescription, ASubCaption: String; const AMsg: AnsiString): TOutputMsgMemoWizardPage;
+function CreateOutputProgressPage(const ACaption, ADescription: String): TOutputProgressWizardPage;
+function ScaleX(X: Integer): Integer;
+function ScaleY(Y: Integer): Integer;
+function CreateCustomForm: TSetupForm;
+function SelectDisk(const DiskNumber: Integer; const AFilename: String; var Path: String): Boolean;
+function BrowseForFolder(const Prompt: String; var Directory: String; const NewFolderButton: Boolean): Boolean;
+function GetOpenFileName(const Prompt: String; var FileName: String; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function GetOpenFileNameMulti(const Prompt: String; const FileNameList: TStrings; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function GetSaveFileName(const Prompt: String; var FileName: String; const InitialDirectory, Filter, DefaultExtension: String): Boolean;
+function MsgBox(const Text: String; const Typ: TMsgBoxType; const Buttons: Integer): Integer;
+function MinimizePathName(const Filename: String; const Font: TFont; MaxLen: Integer): String;
+function FileExists(const Name: String): Boolean;
+function DirExists(const Name: String): Boolean;
+function FileOrDirExists(const Name: String): Boolean;
+function GetIniString(const Section, Key, Default, Filename: String): String;
+function GetIniInt(const Section, Key: String; const Default, Min, Max: Longint; const Filename: String): Longint;
+function GetIniBool(const Section, Key: String; const Default: Boolean; const Filename: String): Boolean;
+function IniKeyExists(const Section, Key, Filename: String): Boolean;
+function IsIniSectionEmpty(const Section, Filename: String): Boolean;
+function SetIniString(const Section, Key, Value, Filename: String): Boolean;
+function SetIniInt(const Section, Key: String; const Value: Longint; const Filename: String): Boolean;
+function SetIniBool(const Section, Key: String; const Value: Boolean; const Filename: String): Boolean;
+procedure DeleteIniEntry(const Section, Key, Filename: String);
+procedure DeleteIniSection(const Section, Filename: String);
+function GetEnv(const EnvVar: String): String;
+function GetCmdTail: String;
+function ParamCount: Integer;
+function ParamStr(Index: Integer): string;
+function AddBackslash(const S: String): String;
+function RemoveBackslash(const S: String): String;
+function RemoveBackslashUnlessRoot(const S: String): String;
+function AddQuotes(const S: String): String;
+function RemoveQuotes(const S: String): String;
+function GetShortName(const LongName: String): String;
+function GetWinDir: String;
+function GetSystemDir: String;
+function GetSysWow64Dir: String;
+function GetSysNativeDir: String;
+function GetTempDir: String;
+function StringChange(var S: String; const FromStr, ToStr: String): Integer;
+function StringChangeEx(var S: String; const FromStr, ToStr: String; const SupportDBCS: Boolean): Integer;
+function UsingWinNT: Boolean;
+function FileCopy(const ExistingFile, NewFile: String; const FailIfExists: Boolean): Boolean;
+function ConvertPercentStr(var S: String): Boolean;
+function RegValueExists(const RootKey: Integer; const SubKeyName, ValueName: String): Boolean;
+function RegQueryStringValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: String): Boolean;
+function RegQueryMultiStringValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: String): Boolean;
+function RegDeleteKeyIncludingSubkeys(const RootKey: Integer; const SubkeyName: String): Boolean;
+function RegDeleteKeyIfEmpty(const RootKey: Integer; const SubkeyName: String): Boolean;
+function RegKeyExists(const RootKey: Integer; const SubKeyName: String): Boolean;
+function RegDeleteValue(const RootKey: Integer; const SubKeyName, ValueName: String): Boolean;
+function RegGetSubkeyNames(const RootKey: Integer; const SubKeyName: String; var Names: TArrayOfString): Boolean;
+function RegGetValueNames(const RootKey: Integer; const SubKeyName: String; var Names: TArrayOfString): Boolean;
+function RegQueryDWordValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultDWord: Cardinal): Boolean;
+function RegQueryBinaryValue(const RootKey: Integer; const SubKeyName, ValueName: String; var ResultStr: AnsiString): Boolean;
+function RegWriteStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteExpandStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteMultiStringValue(const RootKey: Integer; const SubKeyName, ValueName, Data: String): Boolean;
+function RegWriteDWordValue(const RootKey: Integer; const SubKeyName, ValueName: String; const Data: Cardinal): Boolean;
+function RegWriteBinaryValue(const RootKey: Integer; const SubKeyName, ValueName: String; const Data: AnsiString): Boolean;
+function IsAdminLoggedOn: Boolean;
+function IsPowerUserLoggedOn: Boolean;
+function FontExists(const FaceName: String): Boolean;
+function GetUILanguage: Integer;
+function AddPeriod(const S: String): String;
+function CharLength(const S: String; const Index: Integer): Integer;
+function SetNTFSCompression(const FileOrDir: String; Compress: Boolean): Boolean;
+procedure ExtractTemporaryFile(const FileName: String);
+function ExtractTemporaryFiles(const Pattern: String): Integer;
+function CheckForMutexes(Mutexes: String): Boolean;
+function DecrementSharedCount(const Is64Bit: Boolean; const Filename: String): Boolean;
+procedure DelayDeleteFile(const Filename: String; const Tries: Integer);
+function DelTree(const Path: String; const IsDir, DeleteFiles, DeleteSubdirsAlso: Boolean): Boolean;
+function GenerateUniqueName(Path: String; const Extension: String): String;
+function GetComputerNameString: String;
+function GetMD5OfFile(const Filename: String): String;
+function GetMD5OfString(const S: AnsiString): String;
+function GetMD5OfUnicodeString(const S: String): String;
+function GetSHA1OfFile(const Filename: String): String;
+function GetSHA1OfString(const S: AnsiString): String;
+function GetSHA1OfUnicodeString(const S: String): String;
+function GetSpaceOnDisk(const DriveRoot: String; const InMegabytes: Boolean; var Free, Total: Cardinal): Boolean;
+function GetUserNameString: String;
+procedure IncrementSharedCount(const Is64Bit: Boolean; const Filename: String; const AlreadyExisted: Boolean);
+function Exec(const Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ResultCode: Integer): Boolean;
+function ExecAsOriginalUser(const Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ResultCode: Integer): Boolean;
+function ShellExec(const Verb, Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ErrorCode: Integer): Boolean;
+function ShellExecAsOriginalUser(const Verb, Filename, Params, WorkingDir: String; const ShowCmd: Integer; const Wait: TExecWait; var ErrorCode: Integer): Boolean;
+function IsProtectedSystemFile(const Filename: String): Boolean;
+function MakePendingFileRenameOperationsChecksum: String;
+function ModifyPifFile(const Filename: String; const CloseOnExit: Boolean): Boolean;
+procedure RegisterServer(const Is64Bit: Boolean; const Filename: String; const FailCriticalErrors: Boolean);
+function UnregisterServer(const Is64Bit: Boolean; const Filename: String; const FailCriticalErrors: Boolean): Boolean;
+procedure UnregisterFont(const FontName, FontFilename: String);
+procedure RestartReplace(const TempFile, DestFile: String);
+function ForceDirectories(Dir: string): Boolean;
+function CreateShellLink(const Filename, Description, ShortcutTo, Parameters, WorkingDir, IconFilename: String; const IconIndex, ShowCmd: Integer): String;
+procedure RegisterTypeLibrary(const Is64Bit: Boolean; const Filename: String);
+function UnregisterTypeLibrary(const Is64Bit: Boolean; const Filename: String): Boolean;
+function UnpinShellLink(const Filename: String): Boolean;
+function WizardForm: TWizardForm;
+function MainForm: TMainForm;
+function ActiveLanguage: String;
+function IsComponentSelected(const Components: String): Boolean;
+function IsTaskSelected(const Tasks: String): Boolean;
+function ExpandConstant(const S: String): String;
+function ExpandConstantEx(const S: String; const CustomConst, CustomValue: String): String;
+function ExitSetupMsgBox: Boolean;
+function GetShellFolder(Common: Boolean; const ID: TShellFolderID): String;
+function GetShellFolderByCSIDL(const Folder: Integer; const Create: Boolean): String;
+function InstallOnThisVersion(const MinVersion, OnlyBelowVersion: String): Boolean;
+function GetWindowsVersion: Cardinal;
+procedure GetWindowsVersionEx(var Version: TWindowsVersion);
+function GetWindowsVersionString: String;
+function SuppressibleMsgBox(const Text: String; const Typ: TMsgBoxType; const Buttons, Default: Integer): Integer;
+function IsWin64: Boolean;
+function Is64BitInstallMode: Boolean;
+function ProcessorArchitecture: TSetupProcessorArchitecture;
+function CustomMessage(const MsgName: String): String;
+function RmSessionStarted: Boolean;
+function RegisterExtraCloseApplicationsResource(const DisableFsRedir: Boolean; const AFilename: String): Boolean;
+function SetupMessage(const ID: TSetupMessageID): String;
+function Random(const Range: Integer): Integer;
+function FileSize(const Name: String; var Size: Integer): Boolean;
+procedure Beep;
+function Trim(const S: string): string;
+function TrimLeft(const S: string): string;
+function TrimRight(const S: string): string;
+function GetCurrentDir: string;
+function SetCurrentDir(const Dir: string): Boolean;
+function ExpandFileName(const FileName: string): string;
+function ExpandUNCFileName(const FileName: string): string;
+function ExtractRelativePath(const BaseName, DestName: string): string;
+function ExtractFileDir(const FileName: string): string;
+function ExtractFileDrive(const FileName: string): string;
+function ExtractFileExt(const FileName: string): string;
+function ExtractFileName(const FileName: string): string;
+function ExtractFilePath(const FileName: string): string;
+function ChangeFileExt(const FileName, Extension: string): string;
+function FileSearch(const Name, DirList: string): string;
+function RenameFile(const OldName, NewName: string): Boolean;
+function DeleteFile(const FileName: string): Boolean;
+function CreateDir(const Dir: string): Boolean;
+function RemoveDir(const Dir: string): Boolean;
+function CompareStr(const S1, S2: string): Integer;
+function CompareText(const S1, S2: string): Integer;
+function GetDateTimeString(const DateTimeFormat: String; const DateSeparator, TimeSeparator: Char): String;
+function SysErrorMessage(ErrorCode: Integer): String;
+function GetVersionNumbers(const Filename: String; var VersionMS, VersionLS: Cardinal): Boolean;
+function GetVersionNumbersString(const Filename: String; var Version: String): Boolean;
+procedure Sleep(const Milliseconds: LongInt);
+function FindWindowByClassName(const ClassName: String): HWND;
+function FindWindowByWindowName(const WindowName: String): HWND;
+function SendMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Longint;
+function PostMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Boolean;
+function SendNotifyMessage(const Wnd: HWND; const Msg, WParam, LParam: Longint): Boolean;
+function RegisterWindowMessage(const Name: String): Longint;
+function SendBroadcastMessage(const Msg, WParam, LParam: Longint): Longint;
+function PostBroadcastMessage(const Msg, WParam, LParam: Longint): Boolean;
+function SendBroadcastNotifyMessage(const Msg, WParam, LParam: Longint): Boolean;
+function LoadDLL(const DLLName: String; var ErrorCode: Integer): Longint;
+function CallDLLProc(const DLLHandle: Longint; const ProcName: String; const Param1, Param2: Longint; var Result: Longint): Boolean;
+function FreeDLL(const DLLHandle: Longint): Boolean;
+procedure CreateMutex(const Name: String);
+procedure OemToCharBuff(var S: AnsiString);
+procedure CharToOemBuff(var S: AnsiString);
+procedure CoFreeUnusedLibraries;
+procedure Log(const S: String);
+procedure BringToFrontAndRestore;
+function WizardDirValue: String;
+function WizardGroupValue: String;
+function WizardNoIcons: Boolean;
+function WizardSetupType(const Description: Boolean): String;
+function WizardSelectedComponents(const Descriptions: Boolean): String;
+function WizardSelectedTasks(const Descriptions: Boolean): String;
+function WizardSilent: Boolean;
+function IsUninstaller: Boolean;
+function UninstallSilent: Boolean;
+function CurrentFilename: String;
+function CurrentSourceFilename: String;
+function CastStringToInteger(var S: String): Longint;
+function CastIntegerToString(const L: Longint): String;
+procedure Abort;
+function GetExceptionMessage: String;
+procedure RaiseException(const Msg: String);
+procedure ShowExceptionMessage;
+function Terminated: Boolean;
+function GetPreviousData(const ValueName, DefaultValueData: String): String;
+function SetPreviousData(const PreviousDataKey: Integer; const ValueName, ValueData: String): Boolean;
+function LoadStringFromFile(const FileName: String; var S: AnsiString): Boolean;
+function LoadStringsFromFile(const FileName: String; var S: TArrayOfString): Boolean;
+function SaveStringToFile(const FileName: String; const S: AnsiString; const Append: Boolean): Boolean;
+function SaveStringsToFile(const FileName: String; const S: TArrayOfString; const Append: Boolean): Boolean;
+function SaveStringsToUTF8File(const FileName: String; const S: TArrayOfString; const Append: Boolean): Boolean;
+function EnableFsRedirection(const Enable: Boolean): Boolean;
+function UninstallProgressForm: TUninstallProgressForm;
+SVW3
+ZYYd
+Cannot call "%s" function during Setup
+SVW3
+ZYYd
+Cannot call "%s" function during Uninstall
+SVW3
+ZYYd
+Cannot call "%s" function during non Unicode Setup or Uninstall
+An attempt was made to access MainForm before it has been created
+An attempt was made to access WizardForm before it has been created
+An attempt was made to access UninstallProgressForm before it has been created
+ZYYd
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+PAGEFROMID
+PAGEINDEXFROMID
+CREATECUSTOMPAGE
+CREATEINPUTQUERYPAGE
+CREATEINPUTOPTIONPAGE
+CREATEINPUTDIRPAGE
+CREATEINPUTFILEPAGE
+CREATEOUTPUTMSGPAGE
+CREATEOUTPUTMSGMEMOPAGE
+CREATEOUTPUTPROGRESSPAGE
+SCALEX
+SCALEY
+CREATECUSTOMFORM
+ZYYd
+SELECTDISK
+ZYYd
+BROWSEFORFOLDER
+GETOPENFILENAME
+GETOPENFILENAMEMULTI
+GETSAVEFILENAME
+ZYYd
+MSGBOX
+MINIMIZEPATHNAME
+Invalid RootKey value
+Cannot access 64-bit registry keys on this version of Windows
+SVW3
+ZYYd
+ZYYd
+SVW3
+ZYYd
+FILEEXISTS
+DIREXISTS
+FILEORDIREXISTS
+GETINISTRING
+GETINIINT
+GETINIBOOL
+INIKEYEXISTS
+ISINISECTIONEMPTY
+SETINISTRING
+SETINIINT
+SETINIBOOL
+DELETEINIENTRY
+DELETEINISECTION
+GETENV
+GETCMDTAIL
+PARAMCOUNT
+PARAMSTR
+ADDBACKSLASH
+REMOVEBACKSLASH
+REMOVEBACKSLASHUNLESSROOT
+ADDQUOTES
+REMOVEQUOTES
+GETSHORTNAME
+GETWINDIR
+GETSYSTEMDIR
+GETSYSWOW64DIR
+GETSYSNATIVEDIR
+GETTEMPDIR
+STRINGCHANGE
+STRINGCHANGEEX
+USINGWINNT
+FILECOPY
+CONVERTPERCENTSTR
+REGKEYEXISTS
+REGVALUEEXISTS
+REGDELETEKEYINCLUDINGSUBKEYS
+REGDELETEKEYIFEMPTY
+REGDELETEVALUE
+REGGETSUBKEYNAMES
+REGGETVALUENAMES
+REGQUERYSTRINGVALUE
+REGQUERYMULTISTRINGVALUE
+REGQUERYDWORDVALUE
+REGQUERYBINARYVALUE
+REGWRITESTRINGVALUE
+REGWRITEEXPANDSTRINGVALUE
+REGWRITEMULTISTRINGVALUE
+REGWRITEDWORDVALUE
+REGWRITEBINARYVALUE
+ISADMINLOGGEDON
+ISPOWERUSERLOGGEDON
+FONTEXISTS
+GETUILANGUAGE
+ADDPERIOD
+CHARLENGTH
+SETNTFSCOMPRESSION
+SVW3
+ZYYd
+_^[YY]
+EXTRACTTEMPORARYFILE
+EXTRACTTEMPORARYFILES
+SVW3
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+CHECKFORMUTEXES
+DECREMENTSHAREDCOUNT
+Cannot access 64-bit registry keys on this version of Windows
+DELAYDELETEFILE
+DELTREE
+GENERATEUNIQUENAME
+GETCOMPUTERNAMESTRING
+GETMD5OFFILE
+GETMD5OFSTRING
+GETMD5OFUNICODESTRING
+GETSHA1OFFILE
+GETSHA1OFSTRING
+GETSHA1OFUNICODESTRING
+GETSPACEONDISK
+GETUSERNAMESTRING
+INCREMENTSHAREDCOUNT
+EXEC
+EXECASORIGINALUSER
+SHELLEXEC
+SHELLEXECASORIGINALUSER
+ISPROTECTEDSYSTEMFILE
+MAKEPENDINGFILERENAMEOPERATIONSCHECKSUM
+MODIFYPIFFILE
+REGISTERSERVER
+UNREGISTERSERVER
+UNREGISTERFONT
+RESTARTREPLACE
+FORCEDIRECTORIES
+ZYYd
+ZYYd
+CREATESHELLLINK
+REGISTERTYPELIBRARY
+UNREGISTERTYPELIBRARY
+UNPINSHELLLINK
+SVW3
+Uhe$I
+ZYYd
+hl$I
+Unknown custom message name "%s"
+SVW3
+ZYYd
+ZYYd
+ZYYd
+WIZARDFORM
+MAINFORM
+ACTIVELANGUAGE
+{language}
+ISCOMPONENTSELECTED
+ISTASKSELECTED
+EXPANDCONSTANT
+EXPANDCONSTANTEX
+EXITSETUPMSGBOX
+GETSHELLFOLDER
+GETSHELLFOLDERBYCSIDL
+INSTALLONTHISVERSION
+InstallOnThisVersion: Invalid MinVersion string
+InstallOnThisVersion: Invalid OnlyBelowVersion string
+GETWINDOWSVERSION
+GETWINDOWSVERSIONSTRING
+%u.%.2u.%u
+SUPPRESSIBLEMSGBOX
+ISWIN64
+IS64BITINSTALLMODE
+PROCESSORARCHITECTURE
+CUSTOMMESSAGE
+RMSESSIONSTARTED
+REGISTEREXTRACLOSEAPPLICATIONSRESOURCE
+QSVW
+_^[Y]
+SETUPMESSAGE
+_^[]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+RANDOM
+FILESIZE
+Uhi0I
+ZYYd
+hp0I
+_^[Y]
+SVW3
+Uhq2I
+ZYYd
+hx2I
+SVW3
+ZYYd
+Uh7:I
+ZYYd
+ZYYd
+h>:I
+BEEP
+TRIM
+TRIMLEFT
+TRIMRIGHT
+GETCURRENTDIR
+SETCURRENTDIR
+EXPANDFILENAME
+EXPANDUNCFILENAME
+EXTRACTRELATIVEPATH
+EXTRACTFILEDIR
+EXTRACTFILEDRIVE
+EXTRACTFILEEXT
+EXTRACTFILENAME
+EXTRACTFILEPATH
+CHANGEFILEEXT
+FILESEARCH
+RENAMEFILE
+DELETEFILE
+CREATEDIR
+REMOVEDIR
+COMPARESTR
+COMPARETEXT
+GETDATETIMESTRING
+SYSERRORMESSAGE
+SVW3
+ZYYd
+GETVERSIONNUMBERS
+GETVERSIONNUMBERSSTRING
+%u.%u.%u.%u
+ZYYd
+SLEEP
+FINDWINDOWBYCLASSNAME
+FINDWINDOWBYWINDOWNAME
+SENDMESSAGE
+POSTMESSAGE
+SENDNOTIFYMESSAGE
+REGISTERWINDOWMESSAGE
+SENDBROADCASTMESSAGE
+POSTBROADCASTMESSAGE
+SENDBROADCASTNOTIFYMESSAGE
+LOADDLL
+CALLDLLPROC
+FREEDLL
+CREATEMUTEX
+OEMTOCHARBUFF
+CHARTOOEMBUFF
+COFREEUNUSEDLIBRARIES
+SVW3
+Uh8GI
+ZYYd
+h?GI
+_^[YY]
+ZYYd
+_^[Y]
+(There is no current exception)
+UhyHI
+ZYYd
+_^[Y]
+Inno Setup CodeFile: 
+Uh$II
+ZYYd
+h+II
+_^[Y]
+Inno Setup CodeFile: 
+QSVW
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+QSVW
+ZYYd
+ZYYd
+_^[Y]
+SVW3
+|)C3
+ZYYd
+ZYYd
+ZYYd
+SAVESTRINGSTOUTF8FILE
+SVW3
+Uh)OI
+ZYYd
+hRUI
+ZYYd
+hRUI
+ZYYd
+BRINGTOFRONTANDRESTORE
+WIZARDDIRVALUE
+WIZARDGROUPVALUE
+WIZARDNOICONS
+WIZARDSETUPTYPE
+WIZARDSELECTEDCOMPONENTS
+WIZARDSELECTEDTASKS
+WIZARDSILENT
+ISUNINSTALLER
+UNINSTALLSILENT
+CURRENTFILENAME
+An attempt was made to call the "CurrentFilename" function from outside a "Check", "BeforeInstall" or "AfterInstall" event function belonging to a "[Files]" entry
+CURRENTSOURCEFILENAME
+An attempt was made to call the "CurrentSourceFilename" function from outside a "Check", "BeforeInstall" or "AfterInstall" event function belonging to a "[Files]" entry with flag "external"
+CASTSTRINGTOINTEGER
+CASTINTEGERTOSTRING
+ABORT
+GETEXCEPTIONMESSAGE
+RAISEEXCEPTION
+SHOWEXCEPTIONMESSAGE
+TERMINATED
+GETPREVIOUSDATA
+SETPREVIOUSDATA
+LOADSTRINGFROMFILE
+LOADSTRINGSFROMFILE
+SAVESTRINGTOFILE
+SAVESTRINGSTOFILE
+SAVESTRINGSTOUTF8FILE
+ENABLEFSREDIRECTION
+Cannot disable FS redirection on this version of Windows
+UNINSTALLPROGRESSFORM
+Uh6[I
+ZYYd
+h=[I
+_^[Y]
+function
+procedure
+SVW3
+ZYYd
+_^[YY]
+FindFirst
+FindNext
+FindClose
+FmtMessage
+Format
+GetWindowsVersionEx
+TScriptRunner
+ZYYd
+h$_I
+_^[YY]
+Script error: 
+SVW3
+Uhf`I
+ZYYd
+ZYYd
+hm`I
+Runtime Error (at %d:%d):
+Runtime Error (at %d:%d):
+Exception "%s" at address %p
+r+tE,
+_^[YY]
+TScriptRunner.SetPSExecParameters: Invalid type
+QSVW
+_^[Y]
+SVW3
+Uh)cI
+hDcI
+ZYYd
+h0cI
+dll:
+^[Y]
+SVW3
+Uh'dI
+ZYYd
+h.dI
+_^[YY]
+^[Y]
+SVWU
+]_^[
+TScriptRunner.LoadScript failed
+SVWUQ
+|*F3
+Z]_^[
+Uh\fI
+ZYYd
+hcfI
+Uh3gI
+ZYYd
+hIgI
+ZYYd
+ZYYd
+SVW3
+ZYYd
+TSetupForm
+TSetupForm kI
+	SetupForm
+SVWU
+(]_^[
+user32.dll
+MonitorFromRect
+GetMonitorInfoA
+SVW3
+ZYYd
+Uh|nI
+Pj4h
+ZYYd
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+{0VW
+SL_^[YY]
+ZYYd
+|5F3
+ZYYd
+SVWU
+ ]_^[
+SVWU
+C0+D$
+]_^[
+QueryCancelAutoPlay
+	BodyLabel
+FilenameLabel
+FilenameEdit
+LocationLabel
+LocationEdit
+	YesButton
+YesToAllButton
+NoButton
+NoToAllButton
+TUninstSharedFileForm
+TUninstSharedFileForm
+UninstSharedFileForm
+SVW3
+UhiwI
+Uh#wI
+ZYYd
+h*wI
+ZYYd
+hpwI
+^[Y]
+TExtUninstallLog
+SVW3
+ZYYd
+_^[Y]
+Exception message:
+ to All
+Remove shared file %s? User chose %s%s
+SVW3
+UhxzI
+ZYYd
+RP_^[YY]
+InitializeUninstallProgressForm
+InitializeUninstallProgressForm raised an exception (fatal).
+ZYYd
+_^[Y]
+SVW3
+Uhx|I
+ZYYd
+SVW3
+Uh+}I
+ hD}I
+ShP}I
+ZYYd
+h2}I
+QSVW
+ZYYd
+_^[Y]
+Deleting Uninstall data files.
+SVW3
+ZYYd
+_^[YY]
+/Log
+/Log=
+/INITPROCWND=
+/SECONDPHASE=
+/FIRSTPHASEWND=
+/SILENT
+/VERYSILENT
+/NoRestart
+/SuppressMsgBoxes
+/DEBUGWND=
+ZYYd
+CurUninstallStepChanged
+CurUninstallStepChanged raised an exception.
+CurUninstallStepChanged raised an exception (fatal).
+SVW3
+ZYYd
+ZYYd
+_^[YY]
+SVW3
+ZYYd
+ZYYd
+ZYYd
+/INITPROCWND=$%x 
+SVW3
+ZYYd
+ZYYd
+ZYYd
+STATIC
+/SECONDPHASE="%s" /FIRSTPHASEWND=$%x 
+Custom message data corrupted
+Y[Y]
+ZYYd
+QSVW
+ZYYd
+_^[Y]
+SVW3
+ZYYd
+u(h$
+#j1j
+ZYYd
+urh@
+u#h$
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Uninstall
+Error creating log file:
+Setup version: Inno Setup version 5.5.9 (a)
+Original Uninstall EXE: 
+Uninstall DAT: 
+Uninstall command line: 
+Cannot find utCompiledCode record for this version of the uninstaller
+utCompiledCode[1] is invalid
+Install was done in 64-bit mode but not running 64-bit Windows now
+InitializeUninstall
+InitializeUninstall raised an exception (fatal).
+InitializeUninstall returned False; aborting.
+Removed all? %s
+UninstallNeedRestart
+Will restart because UninstallNeedRestart returned True.
+UninstallNeedRestart raised an exception.
+Not calling UninstallNeedRestart because a restart has already been deemed necessary.
+Need to restart Windows? %s
+Will not restart Windows automatically.
+DeinitializeUninstall
+DeinitializeUninstall raised an exception.
+Restarting Windows.
+Not restarting Windows because Uninstall is being run from the debugger.
+SVW3
+IMsgt
+ZYYd
+ZYYd
+ZYYd
+Uninstall
+.dat
+.msg
+ZYYd
+_^[]
+Detected restart. Removing temporary directory.
+SVW3
+ZYYd
+ZYYd
+isRS-???.tmp
+isRS-
+SVW3
+ZYYd
+isRS-%.3u.tmp
+SVW3
+ZYYd
+,St 
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+/REG
+/REGU
+Setup
+Inno-Setup-RegSvr-Mutex
+.msg
+.lst
+SVW3
+ZYYd
+_^[Y]
+Got EAbort exception.
+Exception message:
+TDummyClass3
+DisableProcessWindowsGhosting
+user32.dll
+SVW3
+ZYYd
+-InRSt
+ZYYd
+ZYYd
+/SL5=
+/UNINSTMODE
+/REGSVRMODE
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+ZYYd
+Setup
+FRuntime error     at 00000000
+Error
+                                                                
+%.*d
+FTPF0
+MS Sans Serif
+0123456789abcdefInno Setup Setup Data (5.5.7)
+Inno Setup Uninstall Log (b)
+Inno Setup Uninstall Log (b) 64-bit
+Inno Setup Messages (5.5.3)
+!mlo!001zlb
+idska32
+0123456789abcdef0123456789ABCDEFGHIJKLMNOPQRSTUV
+W]U(L
+stST
+kernel32.dll
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+InitializeCriticalSection
+VirtualFree
+VirtualAlloc
+LocalFree
+LocalAlloc
+WideCharToMultiByte
+TlsSetValue
+TlsGetValue
+MultiByteToWideChar
+GetModuleHandleA
+GetLastError
+GetCommandLineA
+WriteFile
+SetFilePointer
+SetEndOfFile
+RtlUnwind
+ReadFile
+RaiseException
+GetStdHandle
+GetFileSize
+GetSystemTime
+GetFileType
+ExitProcess
+CreateFileA
+CloseHandle
+user32.dll
+MessageBoxA
+oleaut32.dll
+SafeArrayPutElement
+SafeArrayCreate
+VariantChangeTypeEx
+VariantCopyInd
+VariantClear
+SysStringLen
+SysAllocStringLen
+advapi32.dll
+SetSecurityDescriptorDacl
+RegSetValueExA
+RegQueryValueExA
+RegQueryInfoKeyA
+RegOpenKeyExA
+RegEnumValueA
+RegEnumKeyExA
+RegDeleteValueA
+RegDeleteKeyA
+RegCreateKeyExA
+RegCloseKey
+OpenThreadToken
+OpenProcessToken
+LookupPrivilegeValueA
+InitializeSecurityDescriptor
+GetUserNameA
+GetTokenInformation
+FreeSid
+EqualSid
+AllocateAndInitializeSid
+kernel32.dll
+lstrcmpA
+WriteProfileStringA
+WritePrivateProfileStringA
+WriteFile
+WaitForSingleObject
+VirtualFree
+VirtualAlloc
+TransactNamedPipe
+TerminateThread
+TerminateProcess
+Sleep
+SizeofResource
+SetNamedPipeHandleState
+SetLastError
+SetFileTime
+SetFilePointer
+SetFileAttributesA
+SetErrorMode
+SetEndOfFile
+SetCurrentDirectoryA
+RemoveDirectoryA
+ReleaseMutex
+ReadFile
+QueryPerformanceCounter
+OpenProcess
+OpenMutexA
+MultiByteToWideChar
+MulDiv
+MoveFileExA
+MoveFileA
+LockResource
+LocalFree
+LocalFileTimeToFileTime
+LoadResource
+LoadLibraryExA
+LoadLibraryA
+IsDBCSLeadByte
+IsBadWritePtr
+GlobalUnlock
+GlobalReAlloc
+GlobalHandle
+GlobalLock
+GlobalFree
+GlobalDeleteAtom
+GlobalAlloc
+GlobalAddAtomA
+GetWindowsDirectoryA
+GetVersionExA
+GetVersion
+GetUserDefaultLangID
+GetTickCount
+GetSystemTimeAsFileTime
+GetSystemInfo
+GetSystemDirectoryA
+GetSystemDefaultLCID
+GetShortPathNameA
+GetProfileStringA
+GetProcAddress
+GetPrivateProfileStringA
+GetOverlappedResult
+GetModuleHandleA
+GetModuleFileNameA
+GetLogicalDrives
+GetLocaleInfoA
+GetLocalTime
+GetLastError
+GetFullPathNameA
+GetFileSize
+GetFileAttributesA
+GetExitCodeProcess
+GetEnvironmentVariableA
+GetDriveTypeA
+GetDiskFreeSpaceA
+GetCurrentThreadId
+GetCurrentThread
+GetCurrentProcessId
+GetCurrentProcess
+GetCurrentDirectoryA
+GetComputerNameA
+GetCommandLineA
+GetACP
+FreeResource
+InterlockedExchange
+FreeLibrary
+FormatMessageA
+FlushFileBuffers
+FindResourceA
+FindNextFileA
+FindFirstFileA
+FindClose
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+DeviceIoControl
+DeleteFileA
+CreateThread
+CreateProcessA
+CreateNamedPipeA
+CreateMutexA
+CreateFileA
+CreateEventA
+CreateDirectoryA
+CopyFileA
+CompareStringA
+CompareFileTime
+CloseHandle
+mpr.dll
+WNetOpenEnumA
+WNetGetUniversalNameA
+WNetGetConnectionA
+WNetEnumResourceA
+WNetCloseEnum
+version.dll
+VerQueryValueA
+GetFileVersionInfoSizeA
+GetFileVersionInfoA
+gdi32.dll
+UnrealizeObject
+TextOutA
+StretchDIBits
+StretchBlt
+SetWindowOrgEx
+SetViewportOrgEx
+SetTextColor
+SetStretchBltMode
+SetROP2
+SetPixel
+SetBkMode
+SetBkColor
+SelectPalette
+SelectObject
+SaveDC
+RoundRect
+RestoreDC
+RemoveFontResourceA
+Rectangle
+RectVisible
+RealizePalette
+Polyline
+PatBlt
+MoveToEx
+LineTo
+LineDDA
+IntersectClipRect
+GetWindowOrgEx
+GetTextMetricsA
+GetTextExtentPointA
+GetTextExtentPoint32A
+GetSystemPaletteEntries
+GetStockObject
+GetPixel
+GetPaletteEntries
+GetObjectA
+GetDeviceCaps
+GetDIBits
+GetCurrentPositionEx
+GetClipBox
+GetBitmapBits
+ExtFloodFill
+ExcludeClipRect
+EnumFontsA
+Ellipse
+DeleteObject
+DeleteDC
+CreateSolidBrush
+CreateRectRgn
+CreatePenIndirect
+CreatePalette
+CreateFontIndirectA
+CreateDIBitmap
+CreateCompatibleDC
+CreateCompatibleBitmap
+CreateBrushIndirect
+CreateBitmap
+Chord
+BitBlt
+AddFontResourceA
+user32.dll
+WindowFromPoint
+WinHelpA
+WaitMessage
+WaitForInputIdle
+UpdateWindow
+UnregisterClassA
+UnhookWindowsHookEx
+TranslateMessage
+TranslateMDISysAccel
+TrackPopupMenu
+SystemParametersInfoA
+ShowWindow
+ShowOwnedPopups
+ShowCursor
+SetWindowRgn
+SetWindowsHookExA
+SetWindowTextA
+SetWindowPos
+SetWindowPlacement
+SetWindowLongW
+SetWindowLongA
+SetTimer
+SetScrollPos
+SetScrollInfo
+SetRectEmpty
+SetRect
+SetPropA
+SetMenu
+SetForegroundWindow
+SetFocus
+SetCursor
+SetCapture
+SetActiveWindow
+SendNotifyMessageA
+SendMessageTimeoutA
+SendMessageW
+SendMessageA
+ScrollWindowEx
+ScrollWindow
+ScreenToClient
+ReplyMessage
+RemovePropA
+RemoveMenu
+ReleaseDC
+ReleaseCapture
+RegisterWindowMessageA
+RegisterClassA
+PtInRect
+PostQuitMessage
+PostMessageA
+PeekMessageA
+OffsetRect
+OemToCharBuffA
+OemToCharA
+MsgWaitForMultipleObjects
+MessageBoxA
+MessageBeep
+MapWindowPoints
+MapVirtualKeyA
+LoadStringA
+LoadIconA
+LoadCursorA
+LoadBitmapA
+KillTimer
+IsZoomed
+IsWindowVisible
+IsWindowEnabled
+IsWindow
+IsRectEmpty
+IsIconic
+IsDialogMessageA
+InvalidateRect
+IntersectRect
+InsertMenuItemA
+InsertMenuA
+InflateRect
+GetWindowThreadProcessId
+GetWindowTextA
+GetWindowRgn
+GetWindowRect
+GetWindowPlacement
+GetWindowLongA
+GetSystemMetrics
+GetSystemMenu
+GetSysColor
+GetSubMenu
+GetScrollPos
+GetPropA
+GetParent
+GetWindow
+GetMessagePos
+GetMessageA
+GetMenuStringA
+GetMenuState
+GetMenuItemCount
+GetMenu
+GetLastActivePopup
+GetKeyState
+GetKeyNameTextA
+GetIconInfo
+GetForegroundWindow
+GetFocus
+GetDesktopWindow
+GetDCEx
+GetDC
+GetCursorPos
+GetCursor
+GetClientRect
+GetClassInfoW
+GetClassInfoA
+GetCapture
+GetActiveWindow
+FrameRect
+FindWindowA
+FillRect
+ExitWindowsEx
+EqualRect
+EnumWindows
+EnumThreadWindows
+EndPaint
+EnableWindow
+EnableMenuItem
+DrawTextW
+DrawTextA
+DrawMenuBar
+DrawIconEx
+DrawIcon
+DrawFrameControl
+DrawFocusRect
+DispatchMessageA
+DestroyWindow
+DestroyMenu
+DestroyIcon
+DestroyCursor
+DeleteMenu
+DefWindowProcA
+DefMDIChildProcA
+DefFrameProcA
+CreateWindowExA
+CreatePopupMenu
+CreateMenu
+CreateIcon
+ClientToScreen
+CheckMenuItem
+CallWindowProcW
+CallWindowProcA
+CallNextHookEx
+BringWindowToTop
+BeginPaint
+AppendMenuA
+CharPrevA
+CharNextA
+CharLowerBuffA
+CharLowerA
+CharUpperBuffA
+CharToOemBuffA
+AdjustWindowRectEx
+comctl32.dll
+InitCommonControls
+comctl32.dll
+ImageList_GetDragImage
+ImageList_DragShowNolock
+ImageList_SetDragCursorImage
+ImageList_DragMove
+ImageList_DragLeave
+ImageList_DragEnter
+ImageList_EndDrag
+ImageList_BeginDrag
+ImageList_SetBkColor
+ImageList_ReplaceIcon
+ImageList_Destroy
+ImageList_Create
+InitCommonControls
+ole32.dll
+CoTaskMemFree
+CLSIDFromProgID
+CoCreateInstance
+CoFreeUnusedLibraries
+CoUninitialize
+CoInitialize
+IsEqualGUID
+oleaut32.dll
+GetActiveObject
+RegisterTypeLib
+LoadTypeLib
+SysFreeString
+shell32.dll
+ShellExecuteExA
+ShellExecuteA
+SHGetFileInfoA
+ExtractIconA
+shell32.dll
+SHChangeNotify
+SHBrowseForFolder
+SHGetPathFromIDList
+SHGetMalloc
+comdlg32.dll
+GetSaveFileNameA
+GetOpenFileNameA
+ole32.dll
+CoDisconnectObject
+advapi32.dll
+AdjustTokenPrivileges
+msimg32.dll
+AlphaBlend
+wwwwwwwwwwwww
+wwwx
+wwww
+xxxxp
+wwwwwwwwwwwwwp
+wwwx
+wwwwwwwww
+wwwwww|
+PAMZ
+!This program cannot be run in DOS mode.
+Rich
+.text
+`.rdata
+@.data
+.pdata
+@.rsrc
+WATAUAVAWH
+D$pE3
+D$8H
+D$hL
+|$0H
+D$(E
+D$xH
+D$PD
+|$HD
+|$@D
+|$8D
+|$0D
+|$(D
+D$xD
+D$hL
+L$`H
+D$`E3
+|$0H
+D$(E
+A_A^A]A\_
+VWATH
+T$`H
+L$`u
+L$`H
+T$hL
+L$`H
+l$XA
+0A\_^
+@SUVWH
+T$hH
+L$pH
+\$ D
+tc9t$puVL
+L$`H
+8_^][
+COMCTL32.dll
+StrToInt64ExW
+StrToIntW
+SHLWAPI.dll
+GetLastError
+LocalFree
+CloseHandle
+ReadFile
+WriteFile
+GetCommandLineW
+SetConsoleCtrlHandler
+SetProcessShutdownParameters
+SetCurrentDirectoryW
+GetSystemDirectoryW
+SetErrorMode
+ExitProcess
+KERNEL32.dll
+FreeSid
+SetNamedSecurityInfoW
+SetEntriesInAclW
+AllocateAndInitializeSid
+GetNamedSecurityInfoW
+ADVAPI32.dll
+CommandLineToArgvW
+SHELL32.dll
+OLEAUT32.dll
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS></application></compatibility></assembly>PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXMZ
+!This program cannot be run in DOS mode.
+IzJ^
+Rich
+.text
+`.data
+.rsrc
+@.reloc
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+Common Administrative Tools
+Common Programs
+Common Documents
+Common AppData
+Administrative Tools
+History
+Cookies
+Cache
+Local AppData
+AppData
+My Music
+My Pictures
+Personal
+DllGetVersion
+shlwapi.dll
+SHGetFolderPathW
+shell32.dll
+SOFTWARE\Microsoft\Windows\CurrentVersion
+ProfileDirectory
+Software\Microsoft\Windows\CurrentVersion\ProfileReconciliation
+RegValue
+RegKey
+Default
+MustBeRelative
+DefaultDir
+Name
+LocalFile
+CentralFile
+*windir
+@@AAf
+tpVh
+PWSS
+SPSh
+SSSh
+PSSh
+q_^[
+t8Vf
+t:Vf
+qVf=
+SPSh
+qWPWSh
+WPWShx
+q^_[
+PQPf
+s#h0
+SQSh
+SSSh
+VPhH
+>%u	
+j<Pj
+PQPh
+PPPh
+_^[]
+X_^]
+t#WV
+WideCharToMultiByte
+GetProcAddress
+FreeLibrary
+LoadLibraryA
+GetVersionExA
+MultiByteToWideChar
+lstrlenW
+lstrlenA
+ExpandEnvironmentStringsW
+GetWindowsDirectoryA
+GetWindowsDirectoryW
+LockResource
+LoadResource
+FindResourceExW
+EnumResourceLanguagesW
+GetSystemDefaultLangID
+EnumResourceNamesW
+lstrcatA
+lstrcpyA
+CompareStringW
+CreateDirectoryA
+CreateDirectoryW
+GetLastError
+ExpandEnvironmentStringsA
+lstrcpynW
+GetFileAttributesA
+GetFileAttributesW
+GetSystemDirectoryA
+GetSystemDirectoryW
+IsBadWritePtr
+DisableThreadLibraryCalls
+GlobalAlloc
+GlobalFree
+KERNEL32.dll
+RegCloseKey
+RegQueryValueExA
+RegQueryValueExW
+RegOpenKeyA
+RegCreateKeyExA
+RegSetValueExW
+RegSetValueExA
+AddAccessAllowedAce
+LookupAccountSidW
+GetAce
+InitializeAcl
+SetFileSecurityW
+SetSecurityDescriptorDacl
+InitializeSecurityDescriptor
+ADVAPI32.dll
+SHFOLDER.dll
+SHGetFolderPathA
+SHGetFolderPathW
+T3X3p3t3
+44484P4T4X4l4p4t4
+4=7t7}7
+818G8c8t8
+9%9:9b9
+:/:J:V:j:~:
+<1=g=
+>7>R>g>m>{>
+70F0X0
+1*1w1|1
+3+3K3
+4>4f4
+4 5Y5
+6"6k6
+8K8a8
+819C9V9_9
+dll\shfolder.dbg
+.dll
+TPF0	TMainForm
+MainForm
+Left
+AutoScroll
+ClientHeight
+ClientWidth
+Color
+clNavy
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+OnCloseQuery
+FormCloseQuery	OnKeyDown
+FormKeyDown
+OnPaint
+	FormPaint
+OnResize
+FormResize
+PixelsPerInch
+TextHeight
+PADTPF0
+TNewDiskForm
+NewDiskForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+OnCloseQuery
+FormCloseQuery
+PixelsPerInch
+TextHeight
+TBitmapImage
+DiskBitmapImage
+Left
+Width
+Height
+TNewButton
+CancelButton
+Left
+Width
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Left
+Width
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+TNewButton
+BrowseButton
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+BrowseButtonClick
+TEdit
+PathEdit
+Left
+Width
+Height
+TabOrder
+TNewStaticText	PathLabel
+Left
+Width
+Height
+Caption
+FocusControl
+PathEdit
+TabOrder
+TNewStaticText
+SelectDiskLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+PATPF0
+TSelectFolderForm
+SelectFolderForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+SelectFolderForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TNewButton
+CancelButton
+Left
+Width
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Left
+Width
+Height
+Caption
+Default	
+Enabled
+ModalResult
+TabOrder
+TNewButton
+NewFolderButton
+Left
+Width
+Height
+Cancel	
+Caption
+Enabled
+TabOrder
+OnClick
+NewFolderButtonClick
+TEdit
+PathEdit
+Left
+Width
+Height
+TabOrder
+OnChange
+PathEditChange
+TNewStaticText
+BrowseLabel
+Left
+Width
+Height
+AutoSize
+Caption
+TabOrder
+WordWrap	
+TPF0
+TSelectLanguageForm
+SelectLanguageForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+SelectLanguageForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TBitmapImage
+IconBitmapImage
+Left
+Width
+Height
+TNewButton
+CancelButton
+Left
+Width
+Height
+Cancel	
+Caption
+ModalResult
+TabOrder
+TNewButton
+OKButton
+Left
+Width
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+TNewComboBox	LangCombo
+Left
+Width
+Height
+Style
+csDropDownList
+DropDownCount
+ItemHeight
+Sorted	
+TabOrder
+TNewStaticText
+SelectLabel
+Left
+Width
+Height
+AutoSize
+Caption
+TabOrder
+WordWrap	
+TPF0
+TUninstallProgressForm
+UninstallProgressForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+UninstallProgressForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TBevel
+Bevel
+Left
+Width
+Height
+Shape
+	bsTopLine
+TNewButton
+CancelButton
+Left
+Width
+Height
+Cancel	
+Caption
+Enabled
+TabOrder
+TNewNotebook
+OuterNotebook
+Left
+Width
+Height
+ActivePage
+	InnerPage
+Color
+	clBtnFace
+ParentColor
+TabOrder
+TNewNotebookPage	InnerPage
+TBevel
+Bevel1
+Left
+Width
+Height
+Shape
+	bsTopLine
+TNewNotebook
+InnerNotebook
+Left
+Width
+Height
+ActivePage
+InstallingPage
+TabOrder
+TNewNotebookPage
+InstallingPage
+TNewProgressBar
+ProgressBar
+Left
+Width
+Height
+TNewStaticText
+StatusLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TPanel	MainPanel
+Left
+Width
+Height
+BevelOuter
+bvNone
+Color
+clWindow
+TabOrder
+TBitmapImage
+WizardSmallBitmapImage
+Left
+Width
+Height
+7	BackColor
+clWindow
+Center	
+TNewStaticText
+PageDescriptionLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+PageNameLabel
+Left
+Width
+Height
+AutoSize
+Caption
+TabOrder
+TNewStaticText
+BeveledLabel
+Left
+Width
+Height
+Caption
+Enabled
+TabOrder
+Visible
+PADTPF0
+TUninstSharedFileForm
+UninstSharedFileForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+UninstSharedFileForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+PixelsPerInch
+TextHeight
+TNewButton
+NoToAllButton
+Left
+Width
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton
+NoButton
+Left
+Width
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton
+YesToAllButton
+Left
+Width
+Height
+Caption
+ModalResult
+TabOrder
+TNewButton	YesButton
+Left
+Width
+Height
+Caption
+Default	
+ModalResult
+TabOrder
+TEdit
+LocationEdit
+Left
+Width
+Height
+ParentColor	
+ReadOnly	
+TabOrder
+TNewStaticText
+LocationLabel
+Left
+Width
+Height
+Caption
+TabOrder
+TEdit
+FilenameEdit
+Left
+Width
+Height
+ParentColor	
+ReadOnly	
+TabOrder
+TNewStaticText
+FilenameLabel
+Left
+Width
+Height
+Caption
+TabOrder
+TNewStaticText	BodyLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+PADTPF0
+TWizardForm
+WizardForm
+Left
+BorderIcons
+biSystemMenu
+BorderStyle
+bsDialog
+Caption
+WizardForm
+ClientHeight
+ClientWidth
+Font.Color
+clWindowText
+Font.Height
+	Font.Name
+MS Sans Serif
+Font.Style
+Scaled
+OnClose
+	FormClose
+PixelsPerInch
+TextHeight
+TBevel
+Bevel
+Left
+Width
+Height
+Shape
+	bsTopLine
+TNewButton
+CancelButton
+Left
+Width
+Height
+Cancel	
+Caption
+TabOrder
+OnClick
+CancelButtonClick
+TNewButton
+NextButton
+Left
+Width
+Height
+Caption
+Default	
+TabOrder
+OnClick
+NextButtonClick
+TNewButton
+BackButton
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+BackButtonClick
+TNewNotebook
+OuterNotebook
+Left
+Width
+Height
+ActivePage
+	InnerPage
+Color
+	clBtnFace
+ParentColor
+TabOrder
+TNewNotebookPage
+WelcomePage
+Color
+clWindow
+ParentColor
+TBitmapImage
+WizardBitmapImage
+Left
+Width
+Height
+	BackColor
+clWindow
+TNewStaticText
+WelcomeLabel2
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+WelcomeLabel1
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage	InnerPage
+TBevel
+Bevel1
+Left
+Width
+Height
+Shape
+	bsTopLine
+TNewNotebook
+InnerNotebook
+Left
+Width
+Height
+ActivePage
+LicensePage
+TabOrder
+TNewNotebookPage
+LicensePage
+TNewRadioButton
+LicenseNotAcceptedRadio
+Left
+Width
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+OnClick
+LicenseNotAcceptedRadioClick
+TNewRadioButton
+LicenseAcceptedRadio
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+LicenseAcceptedRadioClick
+TRichEditViewer
+LicenseMemo
+Left
+Width
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+LicenseLabel1
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+PasswordPage
+TPasswordEdit
+PasswordEdit
+Left
+Width
+Height
+TabOrder
+TNewStaticText
+PasswordEditLabel
+Left
+Width
+Height
+AutoSize
+Caption
+FocusControl
+PasswordEdit
+TabOrder
+WordWrap	
+TNewStaticText
+PasswordLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+InfoBeforePage
+TRichEditViewer
+InfoBeforeMemo
+Left
+Width
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+InfoBeforeClickLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+UserInfoPage
+TNewEdit
+UserInfoSerialEdit
+Left
+Width
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoSerialLabel
+Left
+Width
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoSerialEdit
+TabOrder
+WordWrap	
+TNewEdit
+UserInfoOrgEdit
+Left
+Width
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoOrgLabel
+Left
+Width
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoOrgEdit
+TabOrder
+WordWrap	
+TNewEdit
+UserInfoNameEdit
+Left
+Width
+Height
+	MaxLength
+TabOrder
+OnChange
+UserInfoEditChange
+TNewStaticText
+UserInfoNameLabel
+Left
+Width
+Height
+AutoSize
+Caption
+FocusControl
+UserInfoNameEdit
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectDirPage
+TBitmapImage
+SelectDirBitmapImage
+Left
+Width
+Height
+TNewStaticText
+DiskSpaceLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewButton
+DirBrowseButton
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+DirBrowseButtonClick
+TEdit
+DirEdit
+Left
+Width
+Height
+TabOrder
+Text
+DirEdit
+TNewStaticText
+SelectDirBrowseLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+SelectDirLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectComponentsPage
+TNewStaticText
+ComponentsDiskSpaceLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TNewCheckListBox
+ComponentsList
+Left
+Width
+Height
+Offset
+OnClickCheck
+ComponentsListClickCheck
+RequireRadioSelection	
+TabOrder
+TNewComboBox
+TypesCombo
+Left
+Width
+Height
+Style
+csDropDownList
+ItemHeight
+TabOrder
+OnChange
+TypesComboChange
+TNewStaticText
+SelectComponentsLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectProgramGroupPage
+TBitmapImage
+SelectGroupBitmapImage
+Left
+Width
+Height
+TNewCheckBox
+NoIconsCheck
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+NoIconsCheckClick
+TNewButton
+GroupBrowseButton
+Left
+Width
+Height
+Caption
+TabOrder
+OnClick
+GroupBrowseButtonClick
+TNewEdit	GroupEdit
+Left
+Width
+Height
+TabOrder
+Text
+	GroupEdit
+TNewStaticText SelectStartMenuFolderBrowseLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+SelectStartMenuFolderLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+SelectTasksPage
+TNewCheckListBox	TasksList
+Left
+Width
+Height
+Color
+	clBtnFace
+RequireRadioSelection		ShowLines
+TabOrder
+WantTabs	
+TNewStaticText
+SelectTasksLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage	ReadyPage
+TNewMemo	ReadyMemo
+Left
+Width
+Height
+Color
+	clBtnFace
+ReadOnly	
+ScrollBars
+ssBoth
+TabOrder
+WantReturns
+WordWrap
+TNewStaticText
+ReadyLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewNotebookPage
+PreparingPage
+TBitmapImage
+PreparingErrorBitmapImage
+Left
+Width
+Height
+Visible
+TNewStaticText
+PreparingLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+Visible
+WordWrap	
+TNewRadioButton
+PreparingYesRadio
+Left
+Width
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+Visible
+TNewRadioButton
+PreparingNoRadio
+Left
+Width
+Height
+Caption
+TabOrder
+Visible
+TNewMemo
+PreparingMemo
+Left
+Width
+Height
+Color
+	clBtnFace
+Lines.Strings
+PreparingMemo
+ReadOnly	
+ScrollBars
+ssBoth
+TabOrder
+WantReturns
+WordWrap
+TNewNotebookPage
+InstallingPage
+TNewStaticText
+FilenameLabel
+Left
+Width
+Height
+AutoSize
+ForceLTRReading	
+ShowAccelChar
+TabOrder
+TNewStaticText
+StatusLabel
+Left
+Width
+Height
+AutoSize
+ShowAccelChar
+TabOrder
+TNewProgressBar
+ProgressGauge
+Left
+Width
+Height
+Style
+npbstNormal
+TNewNotebookPage
+InfoAfterPage
+TRichEditViewer
+InfoAfterMemo
+Left
+Width
+Height
+ReadOnly	
+ScrollBars
+ssVertical
+TabOrder
+WantReturns
+UseRichEdit
+TNewStaticText
+InfoAfterClickLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TPanel	MainPanel
+Left
+Width
+Height
+BevelOuter
+bvNone
+Color
+clWindow
+TabOrder
+TBitmapImage
+WizardSmallBitmapImage
+Left
+Width
+Height
+:	BackColor
+clWindow
+TNewStaticText
+PageDescriptionLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+PageNameLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+TNewNotebookPage
+FinishedPage
+Color
+clWindow
+ParentColor
+TBitmapImage
+WizardBitmapImage2
+Left
+Width
+Height
+	BackColor
+clWindow
+TNewCheckListBox
+RunList
+Left
+Width
+Height
+BorderStyle
+bsNone
+ParentColor	
+TabOrder
+Visible
+WantTabs	
+TNewRadioButton
+NoRadio
+Left
+Width
+Height
+Caption
+TabOrder
+Visible
+TNewRadioButton
+YesRadio
+Left
+Width
+Height
+Caption
+Checked	
+TabOrder
+TabStop	
+Visible
+TNewStaticText
+FinishedLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+FinishedHeadingLabel
+Left
+Width
+Height
+AutoSize
+Caption
+ShowAccelChar
+TabOrder
+WordWrap	
+TNewStaticText
+BeveledLabel
+Left
+Width
+Height
+Caption
+Enabled
+ShowAccelChar
+TabOrder
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity
+    name="JR.Inno.Setup"
+    processorArchitecture="x86"
+    version="1.0.0.0"
+    type="win32"/>
+<description>Inno Setup</description>
+<dependency>
+    <dependentAssembly>
+        <assemblyIdentity
+            type="win32"
+            name="Microsoft.Windows.Common-Controls"
+            version="6.0.0.0"
+            processorArchitecture="x86"
+            publicKeyToken="6595b64144ccf1df"
+            language="*"
+        />
+    </dependentAssembly>
+</dependency>
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+            <requestedExecutionLevel level="asInvoker"            uiAccess="false"/>
+        </requestedPrivileges>
+    </security>
+</trustInfo>
+<application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+        <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+    </windowsSettings>
+</application>
+<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+        <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+        <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+        <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+        <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+        <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+    </application>
+</compatibility>
+</assembly>
+PADDINGXXPADDINGPADDINGXXPADDINGPADD

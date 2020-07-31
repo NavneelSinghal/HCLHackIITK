@@ -1,0 +1,17 @@
+----------Base relocations----------
+----------Bound imports----------
+----------DOS_HEADER----------
+----------Debug information----------
+----------Delay Imported symbols----------
+----------Directories----------
+----------Exported symbols----------
+----------FILE_HEADER----------
+----------Imported symbols----------
+----------LOAD_CONFIG----------
+----------NT_HEADERS----------
+----------OPTIONAL_HEADER----------
+----------PE Sections----------
+----------Parsing Warnings----------
+----------Resource directory----------
+----------TLS----------
+----------Version Information----------
