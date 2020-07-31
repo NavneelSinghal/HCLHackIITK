@@ -20,7 +20,7 @@ def is_valid_string(string):
 
 def get_frequency_map(filename):
     frequencies = {}
-    with open(os.path.join(filename, 'String.txt'), 'r') as f:
+    with open(filename, 'r') as f:
         for line in f:
             line = line.strip()
             if not is_valid_string(line):

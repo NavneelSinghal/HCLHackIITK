@@ -68,7 +68,7 @@ class StringModel:
         features = 7000
         hasher = FeatureHasher(n_features=features)
         X = hasher.transform(feature_dictionary_list).toarray()
-        y = labels
+        y = np.array(labels)
         clf = RandomForestClassifier()
         clf.fit(X, y)
 
@@ -92,16 +92,17 @@ class StringModel:
         def transform(x):
             return np.fromiter((f(a) for a in x), x.dtype)
 
+        labels = np.array(labels)
         labels = transform(labels)
-        predictions = predict(self, files)
+        predictions = self.predict(files)
 
-        print("accuracy:\t", metrics.accuracy_score(predictions, labels))
-        print("f1 score (micro)\t:", metrics.f1_score(predictions, labels, average = 'micro'))
+        print("accuracy:\t\t\t", metrics.accuracy_score(predictions, labels))
+        print("f1 score (micro):\t\t", metrics.f1_score(predictions, labels, average = 'micro'))
         print("precision score (micro):\t", metrics.precision_score(predictions, labels, average = 'micro'))
-        print("recall score (micro):\t", metrics.recall_score(predictions, labels, average = 'micro'))
-        print("f1 score (macro):\t", metrics.f1_score(predictions, labels, average = 'macro'))
+        print("recall score (micro):\t\t", metrics.recall_score(predictions, labels, average = 'micro'))
+        print("f1 score (macro):\t\t", metrics.f1_score(predictions, labels, average = 'macro'))
         print("precision score (macro):\t", metrics.precision_score(predictions, labels, average = 'macro'))
-        print("recall score (macro):\t", metrics.recall_score(predictions, labels, average = 'macro'))
+        print("recall score (macro):\t\t", metrics.recall_score(predictions, labels, average = 'macro'))
 
 
     def predict(self, files):
@@ -116,7 +117,7 @@ class StringModel:
         start_time = time()
 
         completed_files = 0
-
+        feature_dictionary_list = []
         print('Starting feature extraction')
 
         for _file in files:
