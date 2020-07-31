@@ -79,15 +79,9 @@ class StructureModel:
         #clf.fit(X, y)
 
         clf = make_pipeline(
-<<<<<<< HEAD
-                FeatureHasher(n_features = 50000),
-                #DictVectorizer(),
-                #VarianceThreshold(),
-=======
                 #FeatureHasher(n_features = 50000),
                 DictVectorizer(),
                 VarianceThreshold(),
->>>>>>> a7e93a2a4b569abb49e4b22b4a0a9f0a746676ed
                 RandomForestClassifier(random_state=0)
             );
         y = np.array(labels)
