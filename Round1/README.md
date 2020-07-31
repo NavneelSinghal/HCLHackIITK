@@ -6,22 +6,28 @@ In this round, we implemented malware detection using ensemble learning.
 
 ## Running Instructions
 
+### Quick Instructions
 
-usage: 
+To run tests, run `python3 MalwareDetection.py --predict <path_to_directory>` to get output in a file called output.csv.
+
+To train the model on the data in a directory, run `python3 MalwareDetection.py --train .` (such a run has been shown in the Appendix).
+
+For further details, look at the next section or run `python3 MalwareDetection.py --help`.
+
+### Detailed Documentation
+
 ```
-python3 MLDetect.py [-h] [--train] [--validate] [--predict] [--split SPLIT] [--model [{all,string,structure,dynamic}]] [--output [OUTPUT]] [--choose [n]] [inputs [inputs ...]]
-
-Detect malware using machine learning
+python3 MalwareDetection.py [-h] [--train] [--validate] [--predict] [--split SPLIT] [--model [{all,string,structure,dynamic}]] [--output [OUTPUT]] [--choose [n]] [inputs [inputs ...]]
 
 positional arguments:
   inputs                Directories to search for input files
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            Show this help message and exit
   --train               Use the input data to train the model
   --validate            Use the input data to validate the model
   --predict             Predict output on the input data
-  --split SPLIT         (only for train) train-test ratio to use
+  --split SPLIT         (only for train) train-to-total data ratio to use
   --model [{all,string,structure,dynamic}]
                         which models to use
   --output [OUTPUT]     (only for predict) save the output to a file, use stdout to print
@@ -38,24 +44,21 @@ We had access to three kinds of data from any given binary:
 
 3. Dynamic malware analysis data from the Cuckoo Sandbox.
 
-We considered three separate models for each type of data, and then used a consensus based classification for all data which had all three results available, while using the best accuracy available model for each of the remaining binaries (in case not all three types of data are available for a binary). This was done even though the accuracy was quite high on each model so as to ensure high confidence in the results (as well as reduction of error). 
+We considered three separate models for each type of data, and then used a consensus based classification for all data which had all three results available, while using the best accuracy available model for each of the remaining binaries (in case not all three types of data are available for a binary). This was done even though the accuracy was quite high on each model (roughly 98% on the first two and 99.9-100% on the last model) so as to ensure high confidence and robustness in the results (as well as reduction of error). 
 
 For each of the three models, we used feature hashing (due to occasionally missing data and also to reduce the dimensionality of data), random forest classification (which is in itself ensemble learning) and parameter tuning.
 We also used multiclass classification and lumped the malware categories into one class after prediction, instead of using a binary classifier. This was done because it was observed that within malware classes, the features are highly correlated, while across malware classes, this was not observed to be the case (a possible justification is that similarly behaving malwares are in the same class, and they often have a very similar skeleton of code).
-
-// this was verified by rishabh and me
+This observation was verified by writing a binary classifier as well.
 
 ### String analysis
 
-#### Feature Extraction
-
 Our features here were the frequencies of strings corresponding to the binary, which had no special characters other than an underscore, and which were of length at least 5. This was in alignment with our first observations in result analysis.
 
-### Structure analysis
+### Structure analysis (TODO: complete)
 
 For analysis of the PE files, we wrote a parser to parse information, and used some things as features.
-TODO:
-mention parser and the basic ideas behind the model and feature selection
+
+TODO: In this section, mention only which features were selected. Reasons need to be mentioned in the result analysis sections and not here (do this, no questions asked).
 
 ### Dynamic analysis
 
@@ -63,19 +66,21 @@ For analysis of this file, we chose the following features:
 
 1. Duration.
 
-2. Severity mentioned in the signature
+2. Severity mentioned in the signature.
 
-2. Frequency of the following types of requests: udp, http, irc, tcp, smtp, dns, icmp
+2. Frequency of the following types of requests: udp, http, irc, tcp, smtp, dns, icmp.
 
-3. The number of domains and hosts contacted
+3. The number of domains and hosts contacted.
 
-4. Frequency of the following types of API categories: noti, certi, crypto, exception, file, iexplore, misc, netapi, network, ole, process, registry, resource, services, syn, system, ui, other
+4. Frequency of the following types of API categories: noti, certi, crypto, exception, file, iexplore, misc, netapi, network, ole, process, registry, resource, services, syn, system, ui, other.
 
-5. Frequencies of any kinds of API calls
+5. Frequencies of any kinds of API calls.
 
 To extract these features, we used a simple parser for json files.
 
-## Result Analysis
+## Result Analysis (TODO: complete this and rename this to something more suitable like observations, don't mess around with combining this section with another one - this one is for only observations and why we made those choices, the previous thing was for enlisting our choices for both easy access and understanding)
+
+TODO: complete compilation by copy pasting the result analysis for all three types.
 
 1. filtered uot artefacts - then filtered out manually
 
@@ -91,13 +96,13 @@ To extract these features, we used a simple parser for json files.
 
 ## Appendix
 ```
-python3 MLDetect.py --train .
+python3 MalwareDetection.py --train .
 {'train': True, 'validate': False, 'predict': False, 'split': 0.75, 'model': 'all', 'output': 'output.csv', 'choose': 0, 'inputs': ['.']}
 Total 10002 String.txt(s) detected.
 Total 10003 Structure_Info.txt(s) detected.
 Total 9958 JSON(s) detected.
 Loading all 3 models ...
-Training on 9955 hashes 3 models seperately ...
+Training on 9955 hashes 3 models separately ...
 Starting feature extraction
 Completed extracting features from 7466 files
 Feature extraction completed in 92.87726855278015 seconds
