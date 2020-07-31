@@ -6,6 +6,25 @@ In this round, we implemented malware detection using ensemble learning.
 
 ## Running Instructions
 
+usage: MLDetect.py [-h] [--train] [--validate] [--predict] [--split SPLIT] [--model [{all,string,structure,dynamic}]] [--output [OUTPUT]] [--choose [n]] [inputs [inputs ...]]
+
+Detect malware using machine learning
+
+positional arguments:
+  inputs                Directories to search for input files
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --train               Use the input data to train the model
+  --validate            Use the input data to validate the model
+  --predict             Predict output on the input data
+  --split SPLIT         (only for train) train-test ratio to use
+  --model [{all,string,structure,dynamic}]
+                        which models to use
+  --output [OUTPUT]     (only for predict) save the output to a file, use stdout to print
+  --choose [n]          Use only n randomly sampled files from the input
+
+
 ## Model Description
 
 We had access to three kinds of data from any given binary: 
