@@ -26,14 +26,14 @@ def all(other=lambda x: True):
 
 def benigns(other=lambda x: True):
     def decision(leaf):
-        if not 'benign' in leaf.lower():
+        if not 'benign' in str(leaf.parent).lower():
             return False
         return other(leaf)
     return decision
 
 def malwares(other=lambda x: True):
     def decision(leaf):
-        if not 'malware' in leaf.lower():
+        if not 'malware' in str(leaf.parent).lower():
             return False
         return other(leaf)
     return decision
