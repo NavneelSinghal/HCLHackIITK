@@ -62,7 +62,7 @@ class StructureModel:
         print('Starting training model')
         start_time = time()
 
-        features = 7000
+        features = 50000
         hasher = FeatureHasher(n_features=features)
         X = hasher.transform(feature_dictionary_list).toarray()
         y = np.array(labels)

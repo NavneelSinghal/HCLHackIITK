@@ -6,8 +6,8 @@
 #
 # TODO: theoretically correct use of standard scaling
 
-import structure_analysis
-import dynamic_analysis
+from structure_analysis.extractor import *
+#import dynamic_analysis
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction import FeatureHasher
@@ -17,7 +17,7 @@ from time import time
 from pickle import dump, load
 from sys import argv
 
-feature_dict_func = structure_analysis.get_feature_dict_no_indent
+feature_dict_func = get_feature_dict_no_indent
 num_features = 10000
 root = 'Static_Analysis_Data'
 train_frac = 0.75
@@ -30,12 +30,12 @@ import numpy
 import os
 
 root = '.'
-num_features = 5000
+num_features = 20000
 dump_label = 'structure'
 glob_str = 'Structure_Info.txt'
 time_stamp = str(int(time()))
-#get_features = lambda path: ([0.], structure_analysis.get_feature_dict(os.path.split(path)[0]))
-get_features = dynamic_analysis.get_feature_vector
+get_features = lambda path: ([0.], get_feature_dict(os.path.split(path)[0]))
+#get_features = dynamic_analysis.get_feature_vector
 
 class_dict = {
     'benign':0,
@@ -93,13 +93,14 @@ def get_X_y(paths, get_features):
         D.append(d)
         y.append(class_id)
     fh = FeatureHasher(n_features=num_features)
+    #fh = FeatureHasher()
     H = fh.transform(D).toarray()
     X = numpy.concatenate((H, L), axis=1)
     return X, y
 
 def extract():
-    #train_paths, test_paths = get_paths('.', 'Structure_Info.txt', 1., .7)
-    train_paths, test_paths = get_paths('.', '*.json', 1., .7)
+    train_paths, test_paths = get_paths('./Static_Analysis_Data', 'Structure_Info.txt', 1., .75)
+    #train_paths, test_paths = get_paths('.', '*.json', 1., .7)
     print('extracting features...')
     start = time()
     X_train, y_train = get_X_y(train_paths, get_features)
@@ -136,7 +137,7 @@ def get_metrics(y_true, y_pred, binary=True):
         if y_true[i] != y_pred[i]:
             ctr += 1
     ret = ''
-    ret += 'mismatch:' + str(ctr)
+    ret += 'mismatch:' + str(ctr) + '/' + str(len(y_true))
     ret += '\n'
     ret += 'accuracy:' + str(accuracy_score(y_true, y_pred))
     ret += '\n'

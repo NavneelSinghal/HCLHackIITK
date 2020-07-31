@@ -1,1 +1,1 @@
-from .model import StringModel
+from .model import StructureModel
