@@ -136,7 +136,6 @@ class StructureModel:
         print('Starting feature extraction')
 
         for _file in files:
-            print(_file)
             try:
                 feature_dictionary_list.append(get_feature_dict(_file))
                 print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
