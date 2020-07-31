@@ -19,6 +19,11 @@ def int_as_label(label):
             return k
     raise ValueError('Incorrect label (should be 0-6)')
 
+def labelled(x):
+    if x[2] == None:
+        return False
+    return True
+
 def all(other=lambda x: True):
     def decision(leaf):
         return other(leaf)
@@ -60,6 +65,7 @@ def dynamics(other=lambda x: True):
     return decision
 
 def get(root, filt):
+    files = []
     def scan(start, label=None):
         if start.is_file():
             if filt(start):
@@ -69,29 +75,16 @@ def get(root, filt):
                     hash = start.stem
                 else:
                     return
-                yield (hash, str(start), label)
+                files.append((hash, str(start), label))
         else:
             for f in start.iterdir():
                 if f.name.lower() in labels:
                     label = labels[f.name.lower()]
-                yield from scan(f, label)
+                scan(f, label)
 
     root = Path(root)
     if not root.exists():
         print('Check root directory path if it even exists')
         return
-    yield from scan(root)
-    # for ch in root.iterdir():
-    #     if not ch.is_dir():
-    #         continue
-    #     for ch2 in ch.iterdir():
-    #         if not ch2.is_dir():
-    #             continue
-    #         if ch2.name.lower() == 'benign':
-    #             yield from scan(ch2, label_as_int('benign'))
-    #         elif ch2.name.lower() == 'malware':
-    #             for ch3 in ch2.iterdir():
-    #                 if not ch3.is_dir():
-    #                     continue
-    #                 yield from scan(ch3, label_as_int(ch3.name.lower()))
-
+    scan(root)
+    return files

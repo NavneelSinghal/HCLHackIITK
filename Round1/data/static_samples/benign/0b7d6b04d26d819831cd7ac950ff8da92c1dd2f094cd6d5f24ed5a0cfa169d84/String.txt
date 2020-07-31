@@ -1,0 +1,2853 @@
+!This program cannot be run in DOS mode.
+Rich;
+.text
+`.data
+.rsrc
+@.reloc
+ADVAPI32.dll
+ntdll.DLL
+KERNEL32.dll
+GDI32.dll
+USER32.dll
+msvcrt.dll
+COMCTL32.dll
+ole32.dll
+OLEAUT32.dll
+SHELL32.dll
+SHLWAPI.dll
+RPCRT4.dll
+Uru*Ur
+WrT@Yr
+uZh@N
+^VSj
+Y__^[
+>_^]
+_^[]
+Nu<3
+_^[]
+Y__^[
+>_^]
+YY^]
+@Qm6t
++A@]
+SVW3
+tCHt
+SVW3
+_^[]
+SVW3
+_^[]
+_^[]
+SVW3
+_^[]
+SVW3
+_^[]
+_^[]
+_^[]
+_^[]
+YQPSh
+x_^]
+QQP3
+RhP=
+^[_]
+_^[]
+f;A,s3
+@,F;
+SSSP
+8^%u
+9F(uuHSW
+_[^]
+9~xtB
+PSVWh$
+QX9]
+Ph e
+8	uc
+tVVWP
+SSWP
+?333333
+P$^]
+>_^]
+Q|f9]
+8SVW
+j`jZP
+j`jZ
+PVhS
+AQPj
+Pjlj-
+VWj`
+PSSSSSSh 
+PSSSSSSSSj
+PSSSSSSSj
+SetSecurityDescriptorControl
+tAPj
+QSPj
+QQSVW
+;0uQ
+_^[]
+0VWj
+VPhL
+WinSqmEventEnabled
+QRPh
+QRPh
+SVWj
+0SVW
+9^@t)
+QSPV
+QSV3
+|aSV
+QSVW
+PWSh
+PWSh
+HtPH
+DllGetClassObject
+Pj\j
+?PSj
+PShT
+PPPPh
+tNj,
+PSh2
+F`h4
+_^[]
+Rh +
+PShT
+u hH
+WinSqmAddToStream
+tAV9=D
+t&WVhD
+TSVW
+v4Pj
+Rh +
+VPQRRR
+tOh0e
+tDj:V
+_[^]
+^8SP
+SSSPh4
+Fp<C
+FtX?
+F@4>
+FpHI
+GWSV
+v|9^Ptw
+SSSQ
+9^8tJ
+9^ th
+u7QQ
+t?QQ
+0^[]
+9^(t
+Q SQ
+^ht"
+8Q)t
+t1VW
+Ph`6
+@_^]
+SVW3
+Vh +
+SShU
+PShT
+PShM
+t@VP
+QQSV
+@_^[]
+_[^]
+^[_]
+E QR
+_^[]
+lSVW
+f9s@
+f9s@uh
+9s<t{3
+C@_^[
+QVh|I
+9{@tc
+Fh<I
+9{0t 
+9{@t 
+Pj\j
+Cd+C\
+C`+CXPh
+EventUnregister
+EventRegister
+EventWrite
+QhX+
+j`jZP
+j`jZ
+j @f
+XSSf
+tWh@W
+GetProductInfo
+@_^]
+Vh4f
+Vh4f
+SSSS
+_^[]
+^TGP
+j	Y3
+Vh4f
+t8SP
+Vh4f
+VhDp
+=L9o<
+SWhTs
+t+PWV
+@^_[
+InterlockedCompareExchange
+InterlockedPushEntrySList
+InterlockedPopEntrySList
+IsProcessorFeaturePresent
+kernel32.dll
+t5!E
+UserID
+ImplicitFeedback
+PhD~
+t{hT
+GetUserPreferredUILanguages
+@^[]
+F0SWPj
+s,W3
+9^Pt
+9^Ht
+x*)u
+Fp<C
+FtX?
+F@4>
+FpHI
+N ^[
+,uB9~$~ S
+G;~$|
+_^[]
+RhP=
+_^[]
+WVS3
+Q$9]
+~d9]
+PSSS
+SSh&
+HtMHH
+\SSSQ
+SSSQ
+SSSQ
+list<T> too long
+t-hL
+VVh(
+HtIHt
+SSSQ
+NNVW
+Jt J
+VVVVV
+RRRRR
+RRRRR
+t7;q
+,;1u
+tBWVj
+t7;q
+,;1u
+nt,H
+j_^f
+bad allocation
+v5wf
+QXVD
+%D,3
+true
+false
+invalid map/set<T> iterator
+map/set<T> too long
+LogApplicationClose
+applicationVersion
+applicationID
+lcid
+targetID
+sourceID
+entryPoint
+timeOfClose
+userGUID
+LogEvents
+events
+LogFreeTextSearch
+queryID
+queryParams
+GetServerTime
+GetServerTimeResult
+LogRating
+feedbackParams
+replaceExisting
+LogPageHit
+pageviewParams
+LogClickThrough
+clickthroughParams
+TimeOfRating
+Comment
+OptionIdentifier
+FeedbackTemplateItem
+FeedbackTemplateIdentifier
+FeedbackIdentifier
+ResultListDisplayTime
+ResultList
+TotalResults
+Scope
+QueryTime
+Bias
+ClientFilter
+Filter
+ReturnAtLeastOneQueryTerms
+DontReturnQueryTerms
+ExactPhrase
+MustBeReturnedQueryTerms
+QueryText
+QueryID
+ResultPosition
+QueryGUID
+ApplicationVersion
+ApplicationID
+ReferringDomain
+LCID
+TargetID
+SourceID
+EntryPoint
+TimeOfView
+UserGUID
+Classifier
+BestBet
+FlexPages
+Quizzes
+Quizzes1to100
+AnswerWizardNoneOfTheAbove
+FeedbackAndSuggestions
+Assistance
+WebPart
+Marketplace
+TrainingComments
+TrainingTakeAnotherCourse
+TrainingConcepts
+TrainingExamplesAndPractices
+TrainingCoveredMaterial
+Training
+Templates
+Invalid
+Other
+Office2003Users
+RelatedAssetQuery
+IDQuery
+FullTextQuery
+ExactMatchQuery
+CategoryQuery
+AdhocQuery
+ContentRating
+Date
+Alphabetical
+Relevance
+http://microsoft.com/AssistancePlatform/Logging
+Unknown
+ResultViewEnd
+ApplicationClose
+Breadcrumb
+Forward
+Back
+EscalationPath
+LostFocus
+GotFocus
+Save
+Print
+Copy
+Ignore
+DownloadClipArt
+DownloadTraversalEM
+DownloadMPF
+DownloadCIF
+DownloadTraversalEP
+DownloadTemplate
+PrinterFriendly
+ClickGeneratedSearch
+FromCHM
+MessageOther
+ToExternal
+FromExternal
+Navigation
+InContent
+RelatedLink
+Spotlight
+Search
+UnInitialized
+gDay
+gMonthDay
+gYear
+gYearMonth
+gMonth
+date
+time
+dateTime
+positiveInteger
+unsignedByte
+unsignedShort
+unsignedInt
+unsignedLong
+nonNegativeInteger
+byte
+short
+long
+negativeInteger
+nonPositiveInteger
+integer
+NCName
+Name
+NMTOKENS
+NMTOKEN
+ENTITIES
+IDREFS
+language
+token
+normalizedString
+QName
+NOTATION
+ENTITY
+IDREF
+anyURI
+base64Binary
+hexBinary
+duration
+decimal
+double
+float
+boolean
+string
+ClickThroughType
+q;D0
+SortOrder
+QueryType
+SubscriptionLevel
+RatingType
+7uB,-
+OL@,
+v#L+
+ResultType
+PageviewParameters
+:s2d
+ClickthroughParameters
+:s2d
+QueryParameters
+}s@(
+FeedbackParameters
+}s@(
+GAt$
+0?<#
+GOh#
+ xmlns="
+return
+snp:
+ xmlns:snp="
+Response
+0?<#
+_^[]
+u[h@N
+t,h$N
+WVPQ
+_^[]
+v`WWh#
+Wj2_t>
+WinSqmEventWrite
+`VWj\3
+QQSVW3
+tW9}
+t+SP
+QQQRh
+QQQj
+WWWWVP
+	uKj
+none
+P@f;
+_^[3
+V8SRSj
+VWtb
+P(_^[
+QQVW
+FVha
+_^[]
+_^[]
+u88E
+9^hu
+WSPQ
+WSPQ
+Q$9u
+RWh<
+8^ u
+^!^[
+SVWP
+Y_^[
+SSQQ
+9^ tf
+Ht{H
+SSQQ
+uW8]
+tRjH
+t3SSSQ
+VVQQ
+SSSQ
+SSh&
+SSQQ
+SSh&
+SSQQ
+t.8]
+SSSQ
+j	Whp
+SSWh
+j'@Yf
+FBB@;
+F^[]
+RegDeleteKeyW
+RegDeleteKeyExW
+_^[]
+j'Yf;
+j'Yf;
+W~n;
+_^[]
+j'Yf;
+GGAAHu
+GGCCHu
+PPPPPPP
+QPPP
+PVVV
+q(9>u
+^_[]
+8%uiP
+8%t^j%P
+t\9>t
+SVWP
+FFGGf
+Y_^[
+SVWP
+SSVSSW
+?{uIW
+?{u;W
+?}ta
+Y_^[
+|Pj{Xf;
+t&9E
+t%9E
+ej"Xf
+j"Yf
+ej"Xf
+j"Yf
+LSVWj
+j<^V
+t-9}
+SVWj
+<SVWQ
+SVW3
+P<9}
+SVWj
+QSW3
+e9;u
+|VVW
+'WWj
+*WVj
+SVWtr
+SVW3
+Q,9]
+	ryj	h
+j-^Vh@
+t:Vh
+t(Vh
+Vh` 
+u+9_
+u.9_
+t)SSSQ
+u,!E
+9~0t
+9~0t
+Sj2P
+deque<T> too long
+SVWj
+^[_]
+VhPp
+SVW3
+_^[]
+Q@Pha
+t(Ht
+HuG!E
+_^[]
+@,;F,u
+_^[]
+~,;F
+9^,u<j
+9^ u
+3)6{
+P(hpb
+Ph0f
+Ph0f
+P$9]
+t.9]
+>_^]
+j<X9E
+Q 9]
+uG8^
+;h@w
+SSSQ
+u$8^
+|,Sh
+|(Sh
+|+Sh
+~PSh
+|$Sh
+PShS
+PSh6
+Pj\j
+,SSSQ
+t{HHtw
+PVVj
+Qj\P
+_^[]
+8F%t
+Nt(-
+u^h`
+Topic
+Category
+P(9]
+t	9]
+P(9]
+F8P@
+F8P@
+t$9E
+t0;M
+zuE3
+VVVVW
+string too long
+invalid string position
+8csm
+8csm
+_^[]
+Invalid parameter passed to C runtime function.
+QRPh
+t'j#Xf
+0RRR3
+RVWP
+RWVP
+SSSSj
+<Z~T<a|
+<z~L<0|
+<9~D<-t@<_t<<.t8<!t4<~t0<*t,<'t(<(t$<)t 
+< u	j+
+3)6{
+tAhx
+|(f9}
+<FY;
+3)6{
+tBhx
+ Namespace=
+@@f;
+@@f;
+@@f;
+@@f;
+@@f;
+0@@f;
+@@f;
+u)9u
+u-9u
+@@Nu
+8P)t
+RRRRR
+8Q)u
+8P)t
+t2h@
+t2h@
+t2h@
+t+hd
+GWhl
+t!9E
+AACCN
+9_^[]
+tMVP
+8A%t
+RRRRR
+t2h@
+t2h@
+t7;q
+,;1u
+t7;q
+,;1u
+QQSVW
+QQSVW
+;0u(
+;0u(
+u,9]
+u'9}
+t"9=
+uq9]
+ul9}
+QQSVW
+QQSVW
+F 9X
+HtLH
+t5Ht)Ht
+t0Ht$Ht
+F 9X
+tDHt8Ht,Ht Ht
+F 9X
+|6;E
+|u;E
+_^[]
+t	;E
+~l;u
+}Bf;
+t=9}
+~.;u
+#<Ar
+t(Ht!Ht
+</te<\ta<.ue
+uVIF
+J</t
+\u%3
+tN9M
+tI9M
+file
+tj;M
+t;<%u4
+GBVP
+@_^[]
+@_^[]
+@_[^]
+@_^[]
+@_^[]
+t2;M
+ v'3
+@_^[]
+0j!Q
+Qhle
+Q(_^[]
+t 9A
+QQSW3
+PFVS
+zu=3
+PFVW
+_^[]
+WWWWWWW
+^_[]
+9;t*
+r!v/+
+SVWP
+@@f;
+WWPQ
+Y_^[
+SVWP
+@@f;
+Y_^[
+QQSV
+)u,j)h
+_^[]
+_[^]
+@t"f
+AABFF
+@u@9
+/t4f
+GGCFF
+Phle
+Sh|e
+w8t1;
+uh99udW
+Phle
+FBWPP
+_[^]
+9RPQ
+PRPR
+~,;F
+SVWP
+j h#
+tKjPW
+Y_^[
+ShDb
+Qh8b
+t*9^
+9^ u
+N ^[
+SVW3
+jLY!}
+KKOO
+Vj=S
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+tTHtz
+j&Xf
+:<jt
+_^[]
+0123456789ABCDEF
+|N9]
+_^[]
+tA9u
+t.9u
+tNHtE
+^[_]
+u.Sj
+-INF
+VW9]
+AAJu
+_^[]
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+_^[]
+<soap:Header
+</soap:Header>
+</soap:Body>
+</soap:Envelope>
+9X0u
+9_,t
+_^[]
+9E$t
+VW;E
+} ;}
+QQSW
+q9_ 
+G 9X0t
+ soapenc:arrayType="q1:
+ xmlns:q1="
+ soapenc:arrayType="xsd:
+ xsi:nil="1"
+_^[]
+ xsi:nil="1"/>
+@@f;
+@@f;
+;p,u
+<soap:Body>
+9X0u
+9_,t7
+|N9]
+_^[]
+ soap:mustUnderstand="1"
+uS8]
+_^[]
+u 8]
+_^[]
+PPPW
+<soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+_^[]
+<snp:
+</snp:
+_^[]
+@@f;
+~P@j
+QQSVj)h
+|!9]
+_^[]
+SVj)h
+uG9]
+u/8]
+SSSSSSS
+t89E
+t38E
+tZ8]
+_^[]
+H0I9
+IWWWWWWW
+_^[]
+PPPPPPP
+?Iu#j
+?NuSj
+Iu#j
+Qj	ht
+t(FFV
+PPPW
+9>t2
+_^[]
+9^,uH
+9^ u
+VVVVVVV
+VVVVVVV
+SVWP
+G\SP
+j Yf
+Y_^[
+_^[]
+QQSV
+RRRRRRR
+SVWP
+F\WP
+9~Pt?
+9~Xt;
+9~Hv$
+G;~Hr
+9~Pu1j
+Y_^[
+@ 9x W
+97t?
+t,SS
+j)hX
+j)hl
+~HKv>j
+~HKw
+9^Hv
+uQWj
+WWWW
+WWWW
+F [9~
+[_^]
+GetThreadUILanguage
+GetLocaleInfoEx
+LCIDToLocaleName
+urlmon.dll
+WININET.dll
+UxTheme.dll
+CoInternetGetSession
+CoInternetSetFeatureEnabled
+InternetCanonicalizeUrlW
+InternetOpenW
+HttpSendRequestW
+HttpOpenRequestW
+InternetCrackUrlW
+InternetCloseHandle
+HttpQueryInfoW
+InternetReadFile
+InternetConnectW
+InternetSetOptionW
+DrawThemeParentBackground
+DrawThemeBackground
+CloseThemeData
+OpenThemeData
+SetWindowTheme
+RPCRT4.dll
+SHLWAPI.dll
+SHELL32.dll
+OLEAUT32.dll
+ole32.dll
+COMCTL32.dll
+msvcrt.dll
+USER32.dll
+GDI32.dll
+KERNEL32.dll
+ADVAPI32.dll
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+RegisterTraceGuidsW
+TraceEvent
+RegDeleteValueW
+RegCloseKey
+RegCreateKeyExW
+RegOpenKeyExW
+RegSetValueExW
+RegQueryInfoKeyW
+UnregisterTraceGuids
+RegEnumKeyExW
+GetSidSubAuthority
+IsValidSid
+GetTokenInformation
+InitializeSid
+GetSidLengthRequired
+CopySid
+GetLengthSid
+OpenProcessToken
+OpenThreadToken
+EqualSid
+RegCreateKeyW
+RegOpenKeyW
+FreeSid
+SetSecurityDescriptorDacl
+InitializeSecurityDescriptor
+SetEntriesInAclW
+AllocateAndInitializeSid
+TerminateThread
+GetExitCodeThread
+GetSystemInfo
+CreateMutexW
+lstrcmpiW
+ReleaseMutex
+SetCurrentDirectoryW
+GetSystemDirectoryW
+RegisterApplicationRestart
+HeapSetInformation
+LoadLibraryExW
+CompareStringW
+ResetEvent
+LocalFree
+FormatMessageW
+MulDiv
+WaitForMultipleObjects
+ResumeThread
+CreateThread
+Sleep
+LocalAlloc
+OpenProcess
+GetUserDefaultUILanguage
+DelayLoadFailureHook
+LoadLibraryExA
+ProcessIdToSessionId
+ExpandEnvironmentStringsW
+GetSystemWindowsDirectoryW
+GetFileMUIPath
+GetBinaryTypeW
+SetEvent
+GetQueuedCompletionStatus
+InterlockedExchange
+WaitForSingleObject
+PostQueuedCompletionStatus
+CreateEventW
+CreateIoCompletionPort
+GetCurrentThread
+CloseHandle
+GetLastError
+FindResourceExW
+SizeofResource
+InterlockedCompareExchange
+SetLastError
+GetCurrentThreadId
+GetCurrentProcess
+GetModuleFileNameW
+LeaveCriticalSection
+EnterCriticalSection
+RaiseException
+InterlockedIncrement
+OpenEventW
+GetUserDefaultLCID
+GetSystemTime
+SystemTimeToFileTime
+FileTimeToSystemTime
+InitializeCriticalSectionAndSpinCount
+RegQueryValueExA
+RegSetValueExA
+GetNativeSystemInfo
+RegQueryValueExW
+FindResourceA
+OutputDebugStringA
+UnhandledExceptionFilter
+TerminateProcess
+GetSystemTimeAsFileTime
+GetTickCount
+QueryPerformanceCounter
+GetModuleHandleA
+SetUnhandledExceptionFilter
+GetStartupInfoW
+VirtualAlloc
+VirtualFree
+LoadLibraryA
+lstrlenA
+WideCharToMultiByte
+GetProcessHeap
+HeapSize
+HeapReAlloc
+HeapFree
+HeapAlloc
+HeapDestroy
+GetVersionExA
+GetCurrentProcessId
+MultiByteToWideChar
+DeleteCriticalSection
+InitializeCriticalSection
+lstrlenW
+LoadLibraryW
+FreeLibrary
+FindResourceW
+LoadResource
+FlushInstructionCache
+GetProcAddress
+GetModuleHandleW
+GetVersionExW
+InterlockedDecrement
+LockResource
+CreateDIBSection
+CreateFontIndirectW
+GetDeviceCaps
+CreateCompatibleDC
+DeleteDC
+GetStockObject
+DeleteObject
+GetObjectW
+SelectObject
+GetTextExtentPoint32W
+SetBkMode
+SetTextColor
+GetTextMetricsW
+SetWindowPos
+GetClientRect
+IsWindowVisible
+IsWindowEnabled
+AdjustWindowRectEx
+ReleaseDC
+GetDC
+SetFocus
+DefWindowProcW
+RegisterClassExW
+GetClassInfoExW
+CreateWindowExW
+ClientToScreen
+GetParent
+TrackPopupMenuEx
+CheckMenuRadioItem
+GetSubMenu
+LoadMenuW
+CharLowerBuffW
+SetWindowTextW
+SetTimer
+KillTimer
+DestroyWindow
+GetWindowThreadProcessId
+GetClassNameW
+MoveWindow
+GetKeyState
+DestroyMenu
+EnumChildWindows
+EnableMenuItem
+GetMenu
+SendMessageW
+GetWindowLongW
+SetWindowLongW
+CallWindowProcW
+UnregisterClassA
+InvalidateRect
+LoadStringW
+PostMessageW
+IsWindow
+CharNextW
+DispatchMessageW
+TranslateMessage
+TranslateAcceleratorW
+GetMessageW
+LoadAcceleratorsW
+BringWindowToTop
+CheckDlgButton
+IsDlgButtonChecked
+EnableWindow
+GetDlgItem
+GetShellWindow
+DeleteMenu
+ShowWindow
+GetSystemMetrics
+GetSysColor
+SetActiveWindow
+SystemParametersInfoW
+DestroyIcon
+PostQuitMessage
+LockWindowUpdate
+GetWindowPlacement
+GetWindowRect
+IsZoomed
+IsIconic
+MonitorFromRect
+MonitorFromPoint
+GetMonitorInfoW
+GetProcessDefaultLayout
+LoadCursorW
+SetCursor
+GetFocus
+GetSysColorBrush
+TrackMouseEvent
+malloc
+free
+wcscpy_s
+wcscat_s
+_ftol2_sse
+_resetstkoflw
+_purecall
+memcpy_s
+memmove_s
+__RTDynamicCast
+_wcsnicmp
+_wcsicmp
+memset
+_itow
+_wtoi
+_beginthreadex
+wcsncat_s
+_wsplitpath_s
+iswspace
+wcsncpy_s
+??0exception@@QAE@ABQBD@Z
+?what@exception@@UBEPBDXZ
+??0exception@@QAE@ABV0@@Z
+??0exception@@QAE@XZ
+wcsstr
+swprintf_s
+exit
+wcschr
+_ftol2
+_ltow
+_itoa
+calloc
+_controlfp
+_onexit
+_lock
+__dllonexit
+_unlock
+_errno
+realloc
+_except_handler4_common
+?terminate@@YAXXZ
+??1type_info@@UAE@XZ
+__set_app_type
+_CxxThrowException
+__p__commode
+__setusermatherr
+_amsg_exit
+_initterm
+_wcmdln
+_XcptFilter
+_exit
+_cexit
+_ultow_s
+wcsrchr
+iswdigit
+_vscwprintf
+vswprintf_s
+_strlwr_s
+_ultoa_s
+wcsnlen
+strncmp
+_msize
+wcsncmp
+_itoa_s
+_i64toa_s
+_ui64toa_s
+_gcvt_s
+_get_errno
+_set_errno
+_fpclass
+_wcstoi64
+_wcstoui64
+_HUGE
+wcstod
+swscanf
+_vsnwprintf
+wcspbrk
+memcpy
+_wcslwr
+memmove
+__wgetmainargs
+__p__fmode
+__CxxFrameHandler3
+_callnewh
+??1exception@@UAE@XZ
+ImageList_LoadImageW
+PropertySheetW
+ImageList_GetImageCount
+ImageList_Create
+ImageList_GetIconSize
+ImageList_Draw
+ImageList_Add
+ImageList_Destroy
+InitCommonControlsEx
+StringFromCLSID
+CoGetClassObject
+CreateStreamOnHGlobal
+PropVariantClear
+OleGetClipboard
+CoImpersonateClient
+CoRevertToSelf
+OleInitialize
+CoInitializeSecurity
+CoResumeClassObjects
+OleUninitialize
+CoTaskMemFree
+CoRegisterClassObject
+CoRevokeClassObject
+CoTaskMemRealloc
+CoTaskMemAlloc
+CoUninitialize
+CoInitialize
+CoCreateInstance
+SHGetPropertyStoreForWindow
+ShellExecuteW
+UrlEscapeW
+UrlUnescapeW
+SHStrDupW
+RpcStringFreeA
+UuidCreateNil
+UuidFromStringA
+UuidIsNil
+UuidCreate
+UuidToStringA
+RSDS
+helppane.pdb
+.?AV?$CBaseTile@VCCancelTile@@@@
+.?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
+.?AVCComObjectRootBase@ATL@@
+.?AV?$CWindowImpl@VCCancelTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AV?$CWindowImplBaseT@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@2@@ATL@@
+.?AV?$CWindowImplRoot@VCWindow@ATL@@@ATL@@
+.?AVCWindow@ATL@@
+.?AVCMessageMap@ATL@@
+.?AVCCancelTile@@
+.?AV?$CBaseTile@VCConnectionTile@@@@
+.?AV?$CWindowImpl@VCConnectionTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCConnectionTile@@
+.?AUIUnknown@@
+.?AVCComClassFactory@ATL@@
+.?AUIClassFactory@@
+.?AV?$CComObjectRootEx@VCComMultiThreadModel@ATL@@@ATL@@
+.?AVCProtocolClassFactory@@
+.?AV?$CBaseTile@VCDHtmlTile@@@@
+.?AV?$CWindowImpl@VCDHtmlTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCDHtmlTile@@
+.?AUIOleClientSite@@
+.?AUIOleInPlaceSite@@
+.?AUIOleWindow@@
+.?AUIDocHostUIHandler@@
+.?AV?$IDispEventImpl@$00VCDHtmlTile@@$1?DIID_DWebBrowserEvents2@@3U_GUID@@B$1?LIBID_SHDocVw@@3U3@B$00$00VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispEventSimpleImpl@$00VCDHtmlTile@@$1?DIID_DWebBrowserEvents2@@3U_GUID@@B@ATL@@
+.?AV?$_IDispEventLocator@$00$1?DIID_DWebBrowserEvents2@@3U_GUID@@B@ATL@@
+.?AV_IDispEvent@ATL@@
+.?AUIServiceProvider@@
+.?AUIInternetSecurityManager@@
+.?AV?$CComObject@VCProtocolClassFactory@@@ATL@@
+.?AV?$CBaseTile@VCEscalationTile@@@@
+.?AV?$CWindowImpl@VCEscalationTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCEscalationTile@@
+.?AVCComModule@ATL@@
+.?AV?$CAtlModuleT@VCComModule@ATL@@@ATL@@
+.?AVCAtlModule@ATL@@
+.?AU_ATL_MODULE70@ATL@@
+.?AVCMainWindow@@
+.?AV?$CWindowImpl@VCMainWindow@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AV?$CBaseTile@VCMergeTile@@@@
+.?AV?$CWindowImpl@VCMergeTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCMergeTile@@
+.?AV?$IDispEventImpl@$00VCMergeTile@@$1?DIID_IHxSessionEvents@@3U_GUID@@B$1?LIBID_MSHelpServices@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispEventSimpleImpl@$00VCMergeTile@@$1?DIID_IHxSessionEvents@@3U_GUID@@B@ATL@@
+.?AV?$_IDispEventLocator@$00$1?DIID_IHxSessionEvents@@3U_GUID@@B@ATL@@
+.?AV?$CBaseTile@VCNavigationBar@@@@
+.?AV?$CWindowImpl@VCNavigationBar@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCNavigationBar@@
+.?AV?$CBaseTile@VCSearchTile@@@@
+.?AV?$CWindowImpl@VCSearchTile@@VCWindow@ATL@@V?$CWinTraits@$0FGAAAAAA@$0A@@3@@ATL@@
+.?AVCSearchTile@@
+.?AV?$CComObject@VCDHtmlTile@@@ATL@@
+.?AV?$CComObject@VCCancelTile@@@ATL@@
+.?AV?$CComObject@VCMergeTile@@@ATL@@
+.?AVCWmiSettings@@
+.?AV?$CThreadPool@VCThreadPoolWorker@@VCRTThreadTraits@ATL@@VWin32WaitTraits@3@@ATL@@
+.?AUIThreadPoolConfig@ATL@@
+.?AVCHelpEngine@@
+.?AVCSettings@@
+.?AVCViewManager@@
+.?AVAPLog@@
+.?AVCGroupPolicy@@
+.?AVAPLogController@@
+.?AUIInternetProtocol@@
+.?AVCProtocol@@
+.?AUIDispatch@@
+.?AV?$CComObject@VCHxHTMLEventSink@@@ATL@@
+.?AVCHxHTMLEventSink@@
+.?AUIHxEventSink@@
+.?AV?$CComObject@VCProtocol@@@ATL@@
+.?AV?$CComCoClass@VCProtocol@@$1?CLSID_Protocol@@3U_GUID@@B@ATL@@
+.?AUIInternetProtocolRoot@@
+.?AUIInternetProtocolInfo@@
+.?AVAPLoggingEvent@@
+.?AVQueryEvent@@
+.?AVAPSimpleImplicitEvent@@
+.?AVAPImplicitEvent@@
+.?AVCloseEvent@@
+.?AVPrintEvent@@
+.?AVCopyEvent@@
+.?AVDataDiscardedEvent@@
+.?AVConnectionLostEvent@@
+.?AVExternalEvent@@
+.?AVNavigationEvent@@
+.?AVEscalationEvent@@
+.?AVSearchEvent@@
+.?AVBackEvent@@
+.?AVForwardEvent@@
+.?AVCategoryEvent@@
+.?AVTaxonomyEvent@@
+.?AVAPExplicitEvent@@
+.?AVRatingEvent@@
+.?AVDetailRatingEvent@@
+.?AVVerboseRatingEvent@@
+.?AVCHistoryManager@@
+.?AVCRequest@@
+.?AVCSearchResult@@
+.?AVCActionData@@
+.?AVCHelpUrl@MsHelp@@
+.?AV?$CComObject@VCExplicitFeedback@@@ATL@@
+.?AVCExplicitFeedback@@
+.?AV?$CComObject@VCLostConnectionBanner@@@ATL@@
+.?AVCLostConnectionBanner@@
+.?AVCFixedStringMgr@ATL@@
+.?AUIAtlStringMgr@ATL@@
+.?AV?$CFixedStringT@V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@$0EA@@ATL@@
+.?AV?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@
+.?AV?$CSimpleStringT@G$0A@@ATL@@
+.?AV?$CFixedStringT@V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@$0BA@@ATL@@
+.?AV?$CFixedStringT@V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@$0ICF@@ATL@@
+.?AV?$CFixedStringT@V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@$0EAA@@ATL@@
+.?AVIAction@@
+.?AVCAction@@
+.?AVCContentAction@@
+.?AVCMergeAction@@
+.?AVCSearchAction@@
+.?AVCShortcutAction@@
+.?AVCTOCAction@@
+.?AV?$CComObject@VCHxHelpPaneServer@@@ATL@@
+.?AVCHxHelpPaneServer@@
+.?AV?$CComCoClass@VCHxHelpPaneServer@@$1?CLSID_HxHelpPaneServer@@3U_GUID@@B@ATL@@
+.?AUIHxHelpPaneServer@@
+.?AV?$CComAggObject@VCHxHelpPaneServer@@@ATL@@
+.?AVCRegObject@ATL@@
+.?AUIRegistrarBase@@
+.?AVIPropertiesReader@@
+.?AVRegistryPropertiesReader@@
+.?AVCSkipHandler@ATL@@
+.?AVCSAXStringBuilder@ATL@@
+.?AVCSoapFaultParser@ATL@@
+.?AVISAXContentHandlerImpl@ATL@@
+.?AUISAXContentHandler@@
+.?AVCSoapWininetClient@ATL@@
+.?AVCSoapRootHandler@ATL@@
+.?AV?$CLoggingWST@VCSoapWininetClient@ATL@@@LoggingWS@@
+.?AV?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@
+.?AVCWriteStreamOnCString@ATL@@
+.?AUIWriteStream@ATL@@
+.?AVCMuiSettings@@
+.?AVCAtlException@ATL@@
+.?AVCCriticalErrorDlgManager@@
+.?AVCFeedbackDlgManager@@
+.?AVAPException@@
+.?AVOutOfMemoryException@@
+.?AV?$CComContainedObject@VCHxHelpPaneServer@@@ATL@@
+.?AVbad_alloc@std@@
+.?AVexception@@
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVCSecurity@@
+.?AVout_of_range@std@@
+.?AVCCRTHeap@ATL@@
+.?AUIAtlMemMgr@ATL@@
+.?AVIStreamImpl@ATL@@
+.?AUIStream@@
+.?AUISequentialStream@@
+.?AVCReadStreamOnInet@ATL@@
+.?AVCResponseGenerator@CSoapRootHandler@ATL@@
+.?AVCDocLiteralGenerator@CSoapRootHandler@ATL@@
+.?AVCRpcEncodedGenerator@CSoapRootHandler@ATL@@
+.?AVCPADGenerator@CSoapRootHandler@ATL@@
+.?AVCPIDGenerator@CSoapRootHandler@ATL@@
+.?AVCCultureID@@
+_7YX?7
+==5444455=>\
+RQQP<<33,,%5=X
+OKNL:9110))$+%R=7
+ROz+0)'&&#+%5
+A !?R/*)'&&&$,56
+Q00)(&&&$,46
+!!! 
+T.00*((''$,46
+neeee
+	U.110**)))0,5X
+T/221100*003P=8
+VL:9922111112<46
+ddddd
+RTUUTJM;;<992222223P57
+dddd
+zJNML;;;<<<3333P46
+lhhf
+5555
+JNMLL;;;;::::LQ=_
+tjihgf
+EIJNMMLLLLLLLLQ5X
+{{tjiihf
+IJNNMMMMMMNN56
+tkjihgg
+KIIIJIIIIKR= 
+tkjjihgg
+	!! !
+EEEEEE
+{kjjiihha
+{pkjjiifrA
+skjjjib
+euvvvvvvvuv
+pkjji
+pkjj
+{tkj
+tpcT
+syyyp
+CGFF
+```[ZW
+_7?X?7
+5555HO
+B3*' 
+>::%'!
+NI2! 
+6.! 
+,&'!  
+C())'#!!!E
+QI.33/*))))%7
+:@44333000-+
+D=?@B444111:S
+???@@@22:O
+|e`c
+=====:5
+b`c^lQ
+ie`dY
+}ie__
+vvw{vz
+}heXE
+aooooot
+gkkkkj5
+mnot
+sshL
+JJL6
+66!7
+G@1 
+"$[L())
+PL?4322*,-
+AD554,G:
+@BAACFN
+thc`\
+>>E6
+xib]z
+v|xn8
+==yH
+HKMMK
+Se^^eS
+vcm{
+Vzmcv
+;jQ@
+:pj\
+vFJ0
+ Ojv
+DmSes1
+&Ue^T(!
+~^^})$"
+^eu2,Y_]##
+6yeSIB.d
+_%EKS
+`N3Y
++4ra
+vfH5_W
+x-<ogv
+Zfnh>897GRA[
+v`kt|wql`v
+Se^^eS
+@@AFTTU|]]^
+)))q
+888#ZZ[kggh
+``agppq
+^^_<oop
+++,z
+gghXvvw
+kkll
+nnok
+ppqi
+rrsS
+sst/xxy
+&&&g
+sst	uuv
+sstQ
+777w
+sstT
+999o
+sst&wwx
+sst^
+<<=g
+iij|
+sst]
+eefI
+sst*wwx
+sst[
+mmnI
+sst]
+rrsM
+sst8{{|
+sst1
+sst\
+sstS
+ssts
+sstr
+ssts
+ssts
+sstr
+ssts
+sst[{{|
+sst\
+sst7vvw
+sst7
+sst]vvw
+sst]sst
+sstZsst
+sstZsst
+sst*sst]sst
+sst]sst*
+jjk%jjk`jjk
+jjk`jjk%
+jjk@uuv
+jjk@
+jjk"|||
+jjk"
+jjkC
+jjkC
+jjkN
+jjkN
+jjkC
+jjkC
+jjk"
+jjk"
+jjk@
+jjk@
+jjk%xxy
+jjk%jjk`
+jjk`jjk
+jjk`
+jjk`jjk%xxy
+jjk%
+jjk@
+jjk@
+jjk"
+jjk"
+jjkC
+jjkC
+jjkN
+jjkN
+jjkC
+jjkC
+jjk"|||
+jjk"
+jjk@uuv
+jjk@
+jjk%jjk`jjk
+jjk`jjk%
+lkl8lklxlkl
+lklxlkl8
+lkl=lkl
+lkl=
+lkljvuv
+lklj
+lkly
+lkly
+lklj
+lklj
+lkl=vuv
+lkl=
+lkl8xwx
+lkl8lklx
+lklxlkl
+lklx
+lklxlkl8xwx
+lkl8
+lkl=vuv
+lkl=
+lklj
+lklj
+lkly
+lkly
+lkljvuv
+lklj
+lkl=lkl
+lkl=
+lkl8lklxlkl
+lklxlkl8
+PEB.LECEODBVECC
+~N8G
+tg\zgZP
+DDDADDD
+dJ>,
+DDDzDDDADDD
+OP:1
+U===
+DDD>DDD#DDD
+))*jlkk
+3[q:u
+#L(;
+npp+ZRQ
+nvrH
+z|yy
+GPPn
+EII2
+gvss
+2Cj;1Ckf1Ck
+yxxg
+2Cj'-@j2Oj
+9F>`@L
+7LvFy
+O=1}fR
+y^S?/
+}ZB)
+8P8`
+)@o(L
++JJnu
+0G]%'*
+.Ha?AA
+.Yzm
+%'*543
+V[b=97@@B
+W_cPbk579
+000]]]llloooooo\\\&&&___
+@@@ggghhhtttzzzAAA
+sssUUU000vvv
+WWW$$$
+>>>vvv
+rrrnnnRRR
+vvv___zzzIII888ccc
+444bbb
+SSSnnnKKKIIIJJJeee
+LLLSSS
+222___HHH
+~~~ooojjjFFF'''
+VVVfff
+GGG:::
+GGG@@@
+'''444
+OOO:::AAA
+PPPPPP777
+~~~}}}
+xxx}}}
+^^^VVV
+}}}uuuvvv
+zzzvvvdddhhh
+PEB.LECEODBVECC
+~N8G
+tg\zgZP
+DDDADDD
+dJ>,
+DDDzDDDADDD
+OP:1
+U===
+DDD>DDD#DDD
+))*jlkk
+3[q:u
+#L(;
+npp+ZRQ
+nvrH
+z|yy
+GPPn
+EII2
+gvss
+2Cj;1Ckf1Ck
+yxxg
+2Cj'-@j2Oj
+9F>`@L
+(@@@E
++===K
+)))5kkkV
+$$$w
+ZZZe
+UUUlppp
+YYYj
+gggX
+0||||
+xxxM
+rrr$
+888T
+xxxw
+KKK7
+~~~^
+sss`
+Hxxx4
+}	Xz^
+HKCR
+	NoRemove CLSID
+		ForceRemove {8cec58ae-07a1-11d9-b15e-000d56bfe6ee} = s 'AP Client HxHelpPaneServer Class'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			'TypeLib' = s '{8cec5860-07a1-11d9-b15e-000d56bfe6ee}'
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<assembly
+    xmlns="urn:schemas-microsoft-com:asm.v1"
+    xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+    manifestVersion="1.0"
+    >
+  <assemblyIdentity
+      name="Microsoft.Help"
+      processorArchitecture="*"
+      type="win32"
+      version="1.0.0.0"
+      />
+  <description>Help.</description>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          language="*"
+          name="Microsoft.Windows.Common-Controls"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          type="win32"
+          version="6.0.0.0"
+          />
+    </dependentAssembly>
+  </dependency>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel
+            level="asInvoker"
+            uiAccess="false"
+            />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+      <dpiAware>true</dpiAware>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+</assembly>
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="xsl msxsl" >
+  <xsl:output method="html" encoding="utf-16" indent="yes" doctype-system="http://www.w3.org/TR/html4/strict.dtd" doctype-public="-//W3C//DTD HTML 4.01//EN"></xsl:output>
+  <xsl:param name="dir" />
+  <xsl:variable name="UILang" select="/*/@xml:lang"/>
+  <!-- Global Variables Passed in via the CTE -->
+  <xsl:template match="/">
+    <!-- There are search results to be displayed. -->
+    <HTML><xsl:attribute name="dir"><xsl:value-of select="$dir"/></xsl:attribute>
+      <HEAD>
+        <META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes"/>
+          <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.Core" />
+          <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.TOCandSearch" />
+          <xsl:choose>
+              <xsl:when test="$dir='rtl'">
+                  <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.CoreRTL" />
+              </xsl:when>
+          </xsl:choose>
+          <TITLE>
+            <xsl:for-each select="results/content/section[@IsBreadcrumb='true']">
+                <xsl:if test="position() = last()">
+                    <xsl:apply-templates select="navigationLink/uri/summary/text()"/>
+                </xsl:if>
+            </xsl:for-each>
+        </TITLE>
+      </HEAD>
+      <BODY helptype="toc" helpurl="{*/title/@helpurl}">
+          <xsl:attribute name="helpsource">
+          <xsl:choose>
+            <xsl:when test="results/title[@IsOnline]">online</xsl:when>
+            <xsl:otherwise>local</xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute>
+          <xsl:attribute name="Lang">
+              <xsl:value-of select="$UILang"/>
+          </xsl:attribute>
+        <DIV class="contentContainer">
+            <xsl:if test="/results/title/text()">
+            <DIV class="title">
+                <xsl:apply-templates select="/results/title" />
+            </DIV>
+            </xsl:if>
+            <xsl:apply-templates select="results/content"/>
+        </DIV>
+      </BODY>
+    </HTML>
+  </xsl:template>
+    
+  <!-- Root level transformations  -->
+  <xsl:template match="content">
+          <xsl:if test="count(section[@IsBreadcrumb='true']) > 1">
+              <xsl:for-each select="section[@IsBreadcrumb='true']">
+                  <xsl:call-template name="breadcrumb" />
+              </xsl:for-each>
+          </xsl:if>
+      <div class="BreadcrumbEnd"/>
+          <xsl:variable name="TopicResults" select="section[@IsBreadcrumb='false' and navigationLink/uri[@type='Topic']]" />
+      <xsl:variable name="CategoryResults" select="section[@IsBreadcrumb='false' and navigationLink/uri[@type='Category']]" />
+      <xsl:if test="count($TopicResults)>0 and count($CategoryResults)>0">  <!-- Only show the topic and category headings if both are present.-->
+          <div class="subcontentHeader">
+              <xsl:value-of select="/results/topicheading/text()"/>
+          </div>
+      </xsl:if>
+      <xsl:if test="count($TopicResults)>0">                                <!-- Only build the topic table if there are topics.-->
+          <table cellspacing="0" class="TOCResults">
+          <xsl:for-each select="$TopicResults">
+              <xsl:call-template name="tocEntries" />
+          </xsl:for-each>
+      </table>
+      </xsl:if>
+      <xsl:if test="count($TopicResults)>0 and count($CategoryResults)>0">  <!-- Only show the topic and category headings if both are present.-->
+          <div class="subcontentHeader">
+              <xsl:value-of select="/results/categoryheading/text()"/>      
+          </div>
+      </xsl:if>
+      <xsl:if test="count($CategoryResults)>0">                             <!-- Only build the category table if there are categories.-->
+          <table cellspacing="0" class="TOCResults">
+              <xsl:for-each select="$CategoryResults">
+                  <xsl:call-template name="tocEntries" />
+              </xsl:for-each>
+          </table>
+      </xsl:if>
+  </xsl:template>
+<!-- End of Root level transformations -->
+  <!-- Links definition -->
+  <xsl:template name="tocEntries" >
+    <xsl:variable name="rowid" select="position()" />
+    <tr href="{navigationLink/uri/@href}" rowid="{$rowid}">
+      <xsl:variable name="type" select="navigationLink/uri/@type" />
+      <!-- Important: Keep xsl:when and xsl:otherwise on one line to avoid excess whitespace in HTML.-->
+      <xsl:attribute name="NODETYPE">
+        <xsl:choose>
+          <xsl:when test="$type='Category'">TOC</xsl:when>
+          <xsl:otherwise>TOPIC</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+        <td class="ImageColumn" rowid="{$rowid}">
+            <xsl:choose>
+                <xsl:when test="$type='Category'">
+                    <xsl:choose>
+                        <xsl:when test="$dir='ltr'">
+                            <img rowid="{$rowid}" alt="{navigationLink/uri/summary/text()}" src="mshelp://Help/?id=Microsoft.Windows.Resources.TOCBookImage"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <img rowid="{$rowid}" alt="{navigationLink/uri/summary/text()}" src="mshelp://Help/?id=Microsoft.Windows.Resources.TOCBookImageRTL"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="$dir='ltr'">
+                            <img rowid="{$rowid}" alt="{navigationLink/uri/summary/text()}" src="mshelp://Help/?id=Microsoft.Windows.Resources.TOCTopicImage"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <img rowid="{$rowid}" alt="{navigationLink/uri/summary/text()}" src="mshelp://Help/?id=Microsoft.Windows.Resources.TOCTopicImageRTL"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </td>
+        <td class="TitleColumn" rowid="{$rowid}">
+        <a rowid="{$rowid}" id="{$rowid}" href="{navigationLink/uri/@href}">         
+            <xsl:apply-templates select="navigationLink/uri/summary/text()"/>
+        </a>
+      </td>
+    </tr>
+  </xsl:template>
+    
+    <xsl:template name="breadcrumb" >
+        <xsl:if test="position() != 1">
+          <xsl:text> </xsl:text>
+            <xsl:choose>
+                <xsl:when test="$dir='ltr'">
+                    <img class="BreadcrumbImage" src="mshelp://Help/?id=Microsoft.Windows.Resources.BreadCrumbArrow"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <img class="BreadcrumbImage" src="mshelp://Help/?id=Microsoft.Windows.Resources.BreadCrumbArrowRTL"/>
+                </xsl:otherwise>
+            </xsl:choose>
+          <xsl:text> </xsl:text>
+        </xsl:if>
+            <a NODETYPE="BREADCRUMB">
+                <xsl:choose>
+                    <xsl:when test="position() != last()">
+                        <xsl:attribute name="rowid">
+                            -<xsl:value-of select="position()" />
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            -<xsl:value-of select="position()" />
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="navigationLink/uri/@href" />
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="class">
+                            lastBreadcrumb
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="boolean(navigationLink/uri/summary)">
+                    <xsl:attribute name="title">
+                        <xsl:apply-templates select="navigationLink/uri/summary/text()"/>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:apply-templates select="navigationLink/uri/summary/text()"/>
+            </a>
+    </xsl:template>
+</xsl:stylesheet>
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="xsl msxsl" >
+  <xsl:output method="html" encoding="utf-16" indent="yes" doctype-system="http://www.w3.org/TR/html4/strict.dtd" doctype-public="-//W3C//DTD HTML 4.01//EN"></xsl:output>
+  <!-- Global Variables Passed in via the CTE -->
+    <xsl:param name="dir" />
+    <xsl:variable name="UILang" select="/*/@xml:lang"/>
+    <xsl:template match="/">
+    <xsl:variable name="haveResults" select="*/title/@haveResults"/>
+    <xsl:choose>
+      <xsl:when test="boolean($haveResults)">
+        <!-- There are search results to be displayed. -->
+        <HTML><xsl:attribute name="dir"><xsl:value-of select="$dir"/></xsl:attribute>
+          <HEAD>
+            <META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes"/>
+              <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.Core" />
+              <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.TOCandSearch" />
+              <xsl:choose>
+                  <xsl:when test="$dir='rtl'">
+                      <LINK REL="stylesheet" MEDIA="screen" TYPE="text/css" HREF="mshelp://Help/?id=Microsoft.Windows.Resources.CoreRTL" />
+                  </xsl:when>
+              </xsl:choose>
+              <TITLE>
+              <xsl:value-of select="*/title" />
+            </TITLE>
+          </HEAD>
+          <BODY helptype="search">
+            <xsl:attribute name="helpsource">
+              <xsl:choose>
+                <xsl:when test="results/title[@IsOnline]">online</xsl:when>
+                <xsl:otherwise>local</xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+              <xsl:attribute name="Lang">
+                  <xsl:value-of select="$UILang"/>
+              </xsl:attribute>
+              <xsl:call-template name="bannerAndMainHeading"/>
+              <DIV class="contentContainer">
+              <table cellspacing="0" class="searchResult">
+                <xsl:apply-templates select="results/content/*[local-name()!='footer']"/>
+              </table>
+            </DIV>
+            <xsl:apply-templates select="results/content/footer"/>
+          </BODY>
+        </HTML>
+      </xsl:when>
+      <xsl:otherwise>
+        <!-- We are just injecting the online banner into an existing HTML page. -->
+        <xsl:call-template name="bannerAndMainHeading"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  <xsl:template name="bannerAndMainHeading">
+    <xsl:apply-templates select="results/title" mode="injectBanner"/>
+    <xsl:apply-templates select="results/title" mode="mainheading"/>
+  </xsl:template>
+  <!-- Root level transformations  -->
+  <xsl:template match="results">
+    <xsl:apply-templates />
+  </xsl:template>
+  <xsl:template match="content | sections">
+    <xsl:apply-templates />
+  </xsl:template>
+  <!-- Process top level/page titles -->
+    <xsl:template match="results/title" mode="injectBanner">
+        <xsl:apply-templates select="/*/banner"/>
+    </xsl:template>
+    <xsl:template match="banner" >
+        <xsl:value-of disable-output-escaping="yes" select="text()"/>
+    </xsl:template>
+    <xsl:template match="query" mode="content">
+    <b><xsl:value-of select="text()"/></b>
+  </xsl:template>
+  <xsl:template match="query" mode="attribute">
+    <xsl:value-of select="text()"/>
+  </xsl:template>
+  <xsl:template match="results/title" mode="mainheading">
+    <div id="searchheading" >
+      <xsl:attribute  name="resultscount">
+        <xsl:value-of select="@resultscount"/>
+      </xsl:attribute>
+      <xsl:attribute  name="title">
+        <xsl:apply-templates mode="attribute"/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="content"/>
+    </div>
+  </xsl:template>
+  <!-- End of Root level transformations -->
+  <xsl:template match="section">
+    <xsl:apply-templates/>
+  </xsl:template>
+  <xsl:template match="footer">
+    <xsl:variable name="next" select="@next" />
+    <xsl:if test="boolean($next)">
+      <div id="searchfooter">
+        <xsl:attribute name="rowid">next</xsl:attribute>
+        <xsl:attribute name="title">
+          <xsl:value-of select="text()" />
+          <xsl:apply-templates select="*/text()"/>
+        </xsl:attribute>
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="$next" />
+          </xsl:attribute>
+          <xsl:attribute name="rowid">next</xsl:attribute>
+          <xsl:attribute name="id">next</xsl:attribute>
+          <xsl:attribute name="title">
+            <xsl:apply-templates mode="attribute"/>
+          </xsl:attribute>
+          <xsl:apply-templates mode="content"/>
+        </a>
+      </div>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="section/title">
+    <h2 class="{local-name()}_section">
+      <xsl:apply-templates />
+    </h2>
+  </xsl:template>
+  <!-- Links definition -->
+  <xsl:template match="navigationLink" >
+    <xsl:variable name="rowid" select="uri/@rowid" />
+    <tr>
+      <xsl:variable name="uri" select="uri/@href" />
+      <xsl:attribute name="href">
+        <xsl:value-of select="uri/@href" />
+      </xsl:attribute>
+      <xsl:attribute name="rowid">
+        <xsl:value-of select="$rowid" />
+      </xsl:attribute>
+      <td class="SearchNumberColumn">
+        <xsl:attribute name="rowid">
+          <xsl:value-of select="$rowid" />
+        </xsl:attribute>
+        <!-- We put 
+ At the end in order for showing numbers in a search results as 
+ -->
+        <xsl:value-of select="$rowid" />.
+      </td>
+      <td class="TitleColumn">
+        <xsl:attribute name="rowid">
+          <xsl:value-of select="$rowid" />
+        </xsl:attribute>
+        <a>
+          <xsl:attribute name="rowid">
+            <xsl:value-of select="$rowid" />
+          </xsl:attribute>
+          <xsl:attribute name="id">
+            <xsl:value-of select="$rowid" />
+          </xsl:attribute>
+          <xsl:attribute name="href">
+            <xsl:value-of select="uri/@href" />
+          </xsl:attribute>
+          <span style="display:none"><xsl:value-of select="$rowid"/>&#160;</span>
+          <xsl:apply-templates select="*[not(self::uri/summary)]"/>
+        </a>
+      </td>
+    </tr>
+  </xsl:template>
+</xsl:stylesheet>
+MSFT
+{APClientHelpPane
+HxHelpPaneServerd
+IHxHelpPaneServerWWW
+IUnknown,
+GUID
+__MIDL___MIDL_itf_hxhelppaneserver_0005_0001_0001WWW
+@1Data1WWW
+A1Data2WWW
+B1Data3WWW
+C1Data4WWW
+QueryInterfaceWW
+3riid
+ppvObjectWWW
+AddRefWW
+oaReleaseWd
+{DisplayTaskW
+bstrUrlWd
+DisplayContentsWd
+DisplaySearchResults
+bstrSearchQueryWd
+ExecuteW
+pcUrlWWW
+AP Client 1.0 Type Library
+HelpPaneServer ClassWW
+IHxHelpPaneServer InterfaceWWW
+6 6%636L6R6d6
+7*71777J7f7l7
+8N8T8Z8
+8G9q9
+:$:4:8:<:D:\:`:x:
+; ;0;4;8;@;X;\;t;x;
+<,<0<4<<<T<X<p<t<
+<Q=@>z>
+><?H?g?
+@1D1H1L1P1T1X1\1`1d1h1l1|1
+2(2,2024282@2X2h2l2p2t2|2
+3 3$3(383<3L3P3T3X3\3d3|3
+4 4(4@4D4H4L4P4T4X4\4l4p4
+5 585<5T5d5h5l5t5
+5p6t6x6|6
+7$7(787<7@7D7H7L7P7T7X7`7x7
+8,808@8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+9,9094989<9@9D9H9L9\9`9p9t9x9|9
+:4:D:H:L:P:T:X:`:d:h:l:p:
+; ;$;(;,;0;4;8;<;L;P;`;d;h;l;p;t;x;|;
+< <(<@<D<\<l<p<
+= =0=4=8=<=@=D=H=L=P=T=\=t=x=
+> >$>(>,>0>4>8><>@>D>H>L>P>T>d>h>x>
+?,?0?@?D?H?L?P?T?X?\?`?h?
+0 080<0@0D0H0L0P0T0X0\0`0d0t0x0
+1 1$1(1,1014181<1@1H1`1p1t1x1|1
+2$2<2@2X2h2l2p2t2x2|2
+3 3$3(3,3034383@3X3\3t3
+4 4$4(404H4X4\4`4d4h4p4
+54585P5`5d5l5
+6 686H6L6P6
+8:9g9
+;-;h;l;p;t;x;|;X<
+= =$=(=,=0=4=8=H=L=`=d=h=l=p=t=x=|=
+>$>(>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>
+? ?$?(?,?0?4?8?<?L?P?T?X?\?`?d?h?l?p?t?x?|?
+0 0$0(0,00040D0H0L0P0T0X0\0`0d0h0l0|0
+1 1(1@1P1T1X1`1x1
+2!2;283<3@3D3H3X3\3P6T6X6\6`6d6h6l6|6
+7 787<7T7X7p7t7
+8$8(8,8084888<8@8D8H8L8T8l8p8t8x8|8
+9$94989<9D9H9L9P9T9d9h9
+: :$:(:8:<:p:
+; ;(;@;D;H;L;P;T;X;h;l;|;
+< <0<4<D<H<L<P<X<p<t<x<|<
+= =(=@=D=H=L=P=T=X=h=l=|=
+> >$>(>8><>L>P>T>X>`>x>|>
+? ?$?(?0?H?L?P?T?X?\?`?p?t?
+0 0$0(0,0<0@0P0T0X0\0d0|0
+1 1$1(1,141L1P1T1X1\1`1d1t1x1
+2 2$2(2,202@2D2T2X2\2`2h2
+3$3(3,30383P3
+585Z5e5z5
+8$8(8,8<8@8P8T8\8t8x8|8
+>,><>Y>_>t>x>|>
+? ?0?4?D?H?P?h?l?p?t?
+0$0(080<0D0\0`0d0t0x0
+1*1s1
+4*464c4
+4h5l5p5t5x5|5
+<m=t=
+353D3H3X3\3l3p3x3
+4,40484P4T4X4\4`4d4h4l4p4t4
+5 5$5(5,50585P5T5l5|5
+6(6,64686<6@6D6H6L6\6`6p6t6x6|6
+74787P7T7X7\7`7d7h7l7|7
+848D8H8P8T8X8\8`8d8h8x8|8
+9T:[:a:x:
+<-=A=G=`=.?7?
+30b0&1/1C1Q1
+2-2@2W2)3t3
+4&5}5G6b6
+7'7I7
+7P8W8]8t8
+:K:w:
+="=|=
+> >4>B>N>\>a>g>m>
+090z1
+3&363n3
+9T:Y:
+:(;3;9;L;
+<>=M=5>f>w>
+0V1f1
+2 2,2E2\2`2d2h2l2|2
+3 3$3(3,303@3D3T3X3\3`3h3
+4 4$4(404H4L4P4T4X4\4l4p4
+505>5f5
+:S:@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+<0<G<
+> ?6?
+1A2[2i2
+3+333=3E3f3o3~3
+4=5V5k5x5
+646c6|6
+9T9t99:
+>*>D>M>q>
+2V3z3
+434a4
+4)565w5
+8-8[8
+3 3)3.3:3?3E3I3N3S3X3^3h3s3z3
+4&4/444@4E4K4O4T4Y4^4d4n4y4
+4'5/565?5D5P5U5[5_5d5i5n5t5~5
+839>9H9V9`9
+:(:C:g:v:
+;@;u<
+="=/=H=U=n={=
+4Y4p4
+6$6(6,6064686<6D6\6l6p6x6
+7 7@7y7
+7-878o8t8
+8)919>9R9
+:*:K:g:
+:+;F;O;V;m;
+=&>0>W>{>
+?^?d?
+12191Y2u2{2
+3b3k4
+6!7=7O7b7
+9 9$94989H9L9P9T9\9t9x9
+: :(:@:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+; ;0;4;<;T;`;p;
+<s<y<
+0!060<0C0i0r0y0
+0-1=1e1
+2;3w3
+6.6:6@6S6?7y7
+8#8V8
+8"989D9
+: :':,:2:7:<:A:F:L:S:Y:_:e:m:r:{:
+? ?$?(?,?8?
+0 0'0.0
+2"2_2
+2	3z3
+3	4%4@4
+:8;V;
+;N<r<
+<;=h=
+0 020
+0"1\1
+4 4$44484<4D4\4s4
+9B:m:"<e<
+="=(=Q=Z=
+>>>K>[>y>
+q0x0
+1'1_1r1|1
+102Q2h3
+5e6k6k7
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8p8t8
+9,909H9X9\9`9d9h9p9
+9&:T:`:
+:X;x;
+;n=~=
+=0>i>v>
+>G?u?
+0(0k0x0
+041V1
+838A8
+?<?P?T?X?\?`?d?h?l?p?|?
+161h1|1@2S2`2
+3B3T3
+4)494Z4l4p4t4x4|4
+5 525w5|5
+6$666>6F6g6
+7Z8_8t8y8
+9!9+9<9F9W9\9f9
+9G:Z:}:
+=)=2=7=D=U=[=f=
+>1>v>
+0!0&0+010;0F0M0
+2k2u2
+4,40444<4T4X4p4
+6g6p6}6
+949@9O9m9
+97:G:x:
+?1?b?}?
+1(1e1
+2.232O2W2]2d2j2q2w2
+2n3y3
+4)434b4l4
+5:5A5H5h5y5
+5M6W6x6
+64787D7
+8F9S9Z9k9}9
+9L:X:
+:!;U;
+;B<S<t<z<
+=)>v>
+1 1B1
+1'252;2
+2I3|3
+5>5N5a5o5#666
+697?7y7
+8#81878=8B8V8s8
+9n9~9
+::;h;
+<%<9<I<P<
+=/={=
+=L>]>m>
+)00070>0E0L0S0`0t0
+3-4K4V4b4r4}4
+4>5W5
+6-6@7P7\7g8
+8E9y:
+<H=O=U=d=
+?!?'?7?u?
+%050>0
+1K1[1
+4W5}5
+6]9l9~9
+9!:u:
+:*;e;r;
+<*<<<G<L<R<X<t<
+?D?P?[?a?u?
+0*131
+2x314d4
+656F6R6^6c6i6o6
+7(7?7K7_7d7o7v7
+:O:~;
+;=<I<P<V<f<{<
+>%>6>H>S>X>^>d>
+?!?@?K?Q?m?~?
+0"0'0M0_0s0~0
+2'2=2Q2\2a2g2m2
+3(3.3F3k3
+4%484W4
+63797?7f7w7
+8$8;8H8Z8e8j8p8v8
+919D9P9\9a9g9m9
+: :&:,:C:P:b:m:r:x:~:
+;1<T<d<
+1$1A1L1
+2#2L2V2
+829T9z9
+9":6:
+;4;<;D;L;
+<#<P<V<j<
+<y=*>
+?/?G?e?s?z?
+090?0G0T0h0
+1#1i1o1
+2S2x2
+41474E4y4
+7(7b7v7
+7!8E8l8
+> >0>4>
+0 0$0
+1(1,1
+< <$<(<8<<<
+6 6$6,60686<6D6H6P6T6\6`6h6l6t6x6
+7 7(7,74787@7D7L7P7X7\7d7h7p7t7|7
+<4=8=l=p=
+>L>P>
+>,?0?d?h?
+0D0H0|0
+0$1(1\1`1
+2<2@2t2x2
+3 3T3X3
+4l4p4
+5<5@5t5x5
+6 606H6L6|6
+6$7(7\7`7
+80848|8
+8$9(989P9T9
+9,:0:d:h:
+;D;H;|;
+;$<(<\<`<
+<<=@=P=h=l=
+>D>H>
+>,?0?d?h?
+0D0H0|0
+0$1(1
+2 2T2X2
+34383l3p3
+4L4P4
+4,505@5X5\5
+6D6H6|6
+7$7(7@7\7`7
+8 8<8@8t8x8
+9 9T9X9
+:4:8:
+; ;T;X;
+<4<8<l<p<
+=L=P=
+>l>p>
+? ?0?H?L?\?`?
+00040D0H0
+1,101
+1L2P2`2x2|2
+34383l3p3
+4D5H5L5P5T5d5h5T6X6\6l6p6
+7 7$70747D7\7`7
+8 808H8L8X8\8l8
+8,909<>@>H>`>p>t>|>
+?$?(?,?0?4?8?<?@?H?`?p?t?x?
+0 0(0@0P0T0\0t0
+1,1014181<1D1\1`1x1
+2(282<2D2\2l2p2t2|2
+303@3D3T3X3\3`3h3
+575>5F5V5|5
+5L6n6{6
+747C8\8
+9W9o9
+9C:I:X:c:
+:8;E;M;\;f;l;{;
+;5<l<x<
+<F=L=
+=/>R>s>;?o?
+1M1u1
+2.2<2
+3?3N3b3z3
+4"4'4-434~4
+6 6c6
+6`7o7
+738X9
+<b<w<
+=#>@>_>
+3`3p3
+647:7
+929W9
+:":,:F:S:`:y:
+:A;`;m;w;
+;	<(<5<B<
+=$=1=N=[=h=
+=I>h>
+566{6
+6(7=7
+8L9x9
+:k;p;{;
+;=<i<
+<?=I=_=
+>8>N>f>
+263I3
+3B4K4U4~4
+5"6,6[6
+=0=6=>=D=T=i={=
+=h>y>
+>%?B?H?
+4]4s4
+5 5%5+515C5
+6J6j6
+7 7,7N7w7
+:<;C;I;a;t;
+<\=c=i=
+>Z>~>
+?0?@?N?e?j?p?v?
+30W0:1_1&2o2
+313A3H3M3S3Y3
+4 4J4
+5.646=6D6N6T6]6d6
+6'7`7
+8L8l8
+; ;(;O;
+= =$=(=,=0=4=[=
+1Q1b1#2u2
+273?3E3
+:Q;g;
+3M3l3
+464l4
+455v5
+617T7v7
+8$9G9i9
+99:e:
+;-;b;i;w;
+<T<p<
+=I=X=l=
+0&1$3C3^3
+7E7Q7
+8Y:^:g:
+;D;M;
+=">8>N>u>
+2W2h2
+425>5D5T5i5y5
+5f6v6
+7$7<7
+8*8@8I8\8h8
+9a9s9
+90:H:Z:l:~:
+<Q=e=n=
+>A>S>
+2>2W2
+3&313D3
+4H4e4
+4?5d5s5
+6+7L7
+949a9
+:H;Q;
+=9>n>
+142i2u2
+424M4q4
+4%505M5~5
+6f6y6
+7I7q7
+8N8r8
+9@9P9q9
+9T:k:
+<7<C<e<
+<*=R=
+=5>:>f>
+80E0
+0\1p1
+3/4B4Q4
+9R9{9
+<Z>x>
+?+?4?
+1~1@2
+4O5V5
+6<6n6
+7b8t8|8
+9-9K9P9
+;"<e<
+={=Q?j?
++0o0
+121S1l1x1
+3*41474G4X4e4u4
+4c5t5
+7&848
+: :3:
+?&?7?B?R?Y?^?d?j?
+0R1r1
+202C2V2i2|2
+4D4k4
+8"9R9
+9':5:B:
+:C>Y>x>
+>O?f?}?
+001^1h1	2I2U2
+4 4.474^4m4|4
+5$5.5\5k5{5
+6-6^6z6
+6%7L7Z7}7
+8	9w9
+<U=e=}=
+>;>J>`>
+?+?;?
+0'0x0
+1'1=1I1U1s1
+5%575N5S5Y5_5
+6_7P8
+9+90969<9
+9X:h:
+;<;J;
+0(0/040:0@0z0
+272y2
+3o3w3
+415t5
+576D6N6
+7'7j7
+9?:L:^:v:
+;,;6;S;^;
+;$<(<3<V<
+=*=5=@=K=
+=->;>
+?$?,?8?A?F?L?V?_?j?x?}?
+80D0
+1&1z2
+3(4F4
+7'8:8I8Q8d8w8
+8#9I9S9Y9_9
+445J5i5
+8(8z8
+909:9T9
+96;O;
+=1>k>
+>$?4?L?
+r0y0
+081G1o1
+4(4:4~4
+6^8t8
+;J=`=}=
++0n0u0
+1&1C1
+2'2M2|2
+3A4}4
+:2;{;
+<I=a=
+=8>w>
+?:?\?
+5/5x5
+:%:E:
+;,;o;
+>=>m>
+>4?R?
+050i0
+5-5u5
+=*=5=m?
+243I3f3
+9&9_9k9q9
+9l<$=B=G=
+=;>V>z>
+040V0
+191W1
+354S4
+4E5t5
+7+7G7_7t7
+8l9u9{9
+9M:^:o:
+:2;\;
+=/>n>
+v0%1+1F1
+6%777N7
+:	;,;j;s;
+J0t0
+465\5
+6$60686D6L6c6
+6!7Y7a7g7
+7B8h8
+<#<8<`<
+=A=[=
+?K?r?
+'0P0T0X0\0`0d0h0l0p0t0x0|0
+1*1U1
+2C3|4
+=2===:?E?
+0,1v1$2
+3(4U4{4
+6%868(9M:o:
+<B=F=J=N=R=V=Z=^=b=f=j=n=r=
+>#>H>N>o>
+>O?Y?
+516x6
+6(7_7w7
+>#>e>
+1k2z2
+2)3D3Q3
+538B8U:
+?>?T?c?
+1-242V2]2
+<j<J>Z>
+?8?>?u?
+0U0k0q0*2P2
+4k5r5
+6Z6n6
+6>9T9u9G:
+"1)1
+2$2~2
+353P3i3
+6&7n7
+9.9>9N9^9n9y9
+:T:[:
+;&;/;T;X;c;n;y;
+<G=X=
+>e>x>
+101F1X1
+3$3O3`3h3
+3(4>4P4
+5;6L6
+6_7p7
+879H9
+:';8;@;
+;2<D<
+<"=8=
+=#>4>
+000`0v0
+0c1t1
+1?2P2
+2C3T3
+4.5@5
+5C6T6
+7 7e7x7
+7 868H8
+8Y9l9
+:i:|:
+;O;`;
+;5<H<
+=3>D>w>
+?6?H?P?x?
+0G0X0`0
+1 1n1
+2,242_2p2x2
+3 3i3|3
+6K6\6
+9?9P9
+:g:x:
+< <c<t<
+=$=T=j=|=
+=2>D>t>
+>$?:?L?|?
+0O1`1
+2W2h2p2
+3`4t4
+5 5p5
+6"646g6x6
+6O7`7
+8H8^8p8
+8$9:9L9
+:0;D;
+<9=L=T=)><>@?T?
+1k2|2
+4D4Z4l4
+6[6l6
+7_7p7
+798L8
+8#949n:
+< =6=H=
+>0>c>t>|>
+?[?l?
+0(0k0|0
+1,1_1p1x1
+1/2@2
+2,3@3p3
+4g4x4
+5_5p5
+536D6
+7D7Z7l7
+8(8k8|8
+8E9X9
+97:H:x:
+:(;>;P;
+<<<R<d<
+<==P=
+0(0s0
+0;1L1
+192L2
+3J3\3
+5Y5l5
+5>6P6
+6,7@7
+7"848
+:$:,:T:j:|:
+;(;X;n;
+<O<`<h<
+<+=<=D=l=
+>0>s>
+1D1Z1l1
+2K2\2
+2f3x3
+4C5T5
+6"646h6~6
+7e7x7
+8,8\8
+859H9{9
+:G:X:`:
+:d;x;
+<,<\<r<
+=@=k=|=
+>,>\>r>
+?0?[?l?t?
+ 040<0p0
+2H2^2p2
+30383
+324D4
+4E5X5
+8$8(8-8D8L8T8p8x8
+9$9,949<9D9L9T9\9d9l9t9|9
+:$:,:4:<:D:L:T:\:d:l:t:|:
+;(;0;8;@;H;P;X;`;h;p;x;
+<$<,<4<<<D<L<`<p<
+=$=,=4=<=D=L=T=\=d=l=t=|=
+> >(>0>8>@>H>P>X>`>h>p>x>
+? ?(?0?8?@?H?P?X?`?h?p?x?
+0 0(00080@0H0P0X0`0h0p0x0
+1$1,141<1D1L1T1\1d1l1t1|1
+2$2,242<2D2L2T2\2d2l2t2|2
+3 3(30383@3H3P3X3`3h3p3x3
+4 4(40484@4H4P4X4`4h4p4x4
+5 5(50585@5H5P5X5`5h5p5x5
+606H6\6p6
+7(70787P7X7`7d7
+80888@8H8P8X8`8h8p8x8
+9 9(90989@9H9P9X9`9h9p9x9
+: :(:0:8:\:l:t:|:
+;$;,;4;<;D;L;T;\;d;l;t;|;
+< <(<@<H<P<X<`<h<p<x<
+=$=4=<=D=L=T=h=x=
+> >(>0>8>@>H>P>X>`>h>p>x>
+? ?(?0?8?@?H?P?X?`?h?p?x?
+0 0(00080@0H0P0X0`0h0p0x0
+1$1,141<1D1L1T1\1d1x1
+2 2(20282@2H2P2X2`2h2p2x2
+3 3(30383@3H3P3X3`3h3p3x3
+4 4(4<4L4T4\4l4t4
+5 5(50585@5H5P5X5`5h5p5x5
+6 6(60686@6H6P6X6`6h6p6x6
+7 7(70787@7H7P7X7`7h7p7x7
+8 8(8<8L8T8\8l8t8
+9$9,949<9D9L9T9\9d9l9t9|9
+: :(:0:8:@:H:P:X:`:h:p:x:
+;$;,;4;<;D;L;T;\;d;l;t;|;
+<,<<<D<L<T<\<d<t<
+=$=,=4=<=D=L=T=\=
+> >(>0>8>@>H>P>X>`>h>p>x>
+? ?(?0?8?@?H?P?X?`?h?p?x?
+0$0,040<0D0L0T0\0d0
+1 1(10181@1H1P1X1`1h1p1x1
+2 2(20282@2H2P2X2`2h2p2x2
+3 3(30383@3H3P3X3`3h3p3x3
+4,4P4`4h4p4x4
+5 5(50585@5H5P5X5`5h5p5x5
+6 6(60686@6H6P6X6`6h6p6x6
+7$7@7P7X7`7p7
+8,8<8`8p8
+9 90989@9H9P9t9
+:$:8:H:\:l:
+;$;,;4;<;D;X;h;x;
+<$<,<4<<<D<L<T<\<d<l<t<|<
+0 0$0(0,00080<0@0D0H0
+304P4
+4H6L6X7d7p7t7x7|7
+; ;$;(;T;
+?L?p?
+000P0l0
+2<2t2
+3,3L3
+3@4h4
+5(6X6
+80888
+9 9<9\9|9
+;<;\;x;
+<0<P<l<
+=4=X=x=
+><>t>
+1(1H1d1
+3,3X3\3|3
+405t5
+6H6l6
+7 7@7d7
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<p<
+=(=0=h=
+>@>D>H>L>P>T>X>`>d>
