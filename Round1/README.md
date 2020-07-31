@@ -100,79 +100,78 @@ Loading all 3 models ...
 Training on 9955 hashes 3 models seperately ...
 Starting feature extraction
 Completed extracting features from 7466 files
-Feature extraction completed in 154.9520823955536 seconds
+Feature extraction completed in 92.87726855278015 seconds
 Starting training model
-Training completed in 19.345020294189453 seconds
+Training completed in 11.322357892990112 seconds
 Starting feature extraction
 Completed extracting features from 2489 files
-Feature extraction completed in 58.831676721572876 seconds
+Feature extraction completed in 27.37038016319275 seconds
 Starting testing
-Testing completed in 2.5526962280273438 seconds
+Testing completed in 1.250908374786377 seconds
+accuracy:			 0.9807151466452391
+f1 score (micro):		 0.9807151466452391
+precision score (micro):	 0.9807151466452391
+recall score (micro):		 0.9807151466452391
+f1 score (macro):		 0.980701985625344
+precision score (macro):	 0.9805436187951988
+recall score (macro):		 0.981109103864044
+Starting feature extraction
+Completed extracting features from 7464 files
+Feature extraction completed in 69.48432850837708 seconds
+Starting training model
+Training completed in 16.384986877441406 seconds
+Starting feature extraction
+Completed extracting features from 2488 files
+Feature extraction completed in 22.302918910980225 seconds
+Starting testing
+Testing completed in 1.7803447246551514 seconds
 accuracy:			 0.9803133788670149
 f1 score (micro):		 0.9803133788670149
 precision score (micro):	 0.9803133788670149
 recall score (micro):		 0.9803133788670149
-f1 score (macro):		 0.9803026830671812
-precision score (macro):	 0.9801835785481885
-recall score (macro):		 0.9805615878801981
+f1 score (macro):		 0.980290931009936
+precision score (macro):	 0.9801004571874572
+recall score (macro):		 0.9805960437945629
 Starting feature extraction
 Completed extracting features from 7464 files
-Feature extraction completed in 122.7312753200531 seconds
+Feature extraction completed in 326.3758165836334 seconds
 Starting training model
-Training completed in 10.537144184112549 seconds
+Training completed in 5.45410943031311 seconds
 Starting feature extraction
-Completed extracting features from 2488 files
-Feature extraction completed in 44.54435968399048 seconds
-Starting testing
-Testing completed in 0.8261034488677979 seconds
-accuracy:			 0.976295701084773
-f1 score (micro):		 0.976295701084773
-precision score (micro):	 0.976295701084773
-recall score (micro):		 0.976295701084773
-f1 score (macro):		 0.9762711875361646
-precision score (macro):	 0.976213572155148
-recall score (macro):		 0.9763367063699843
-Starting feature extraction
-Corrupted json, reverting to library defaults
-Completed extracting features from 7464 files
-Feature extraction completed in 481.3193688392639 seconds
-Starting training model
-Training completed in 8.205965995788574 seconds
-Starting feature extraction
+Corrupted json, reverting to library default
 Completed extracting features from 2489 files
-Feature extraction completed in 157.39156913757324 seconds
+Feature extraction completed in 109.20313000679016 seconds
 Starting testing
-Testing completed in 0.8316993713378906 seconds
-accuracy:			 1.0
-f1 score (micro):		 1.0
-precision score (micro):	 1.0
-recall score (micro):		 1.0
-f1 score (macro):		 1.0
-precision score (macro):	 1.0
-recall score (macro):		 1.0
+Testing completed in 0.4560661315917969 seconds
+accuracy:			 0.9987946966653274
+f1 score (micro):		 0.9987946966653274
+precision score (micro):	 0.9987946966653274
+recall score (micro):		 0.9987946966653274
+f1 score (macro):		 0.9987946468567112
+precision score (macro):	 0.9987883683360259
+recall score (macro):		 0.9988038277511961
 
  Now checking ensembled validity ...
 Starting feature extraction
 Completed extracting features from 2489 files
-Feature extraction completed in 53.15453386306763 seconds
+Feature extraction completed in 34.609153270721436 seconds
 Starting testing
-Testing completed in 2.476295232772827 seconds
+Testing completed in 1.5767693519592285 seconds
 Starting feature extraction
 Completed extracting features from 2488 files
-Feature extraction completed in 43.526689291000366 seconds
+Feature extraction completed in 23.32192587852478 seconds
 Starting testing
-Testing completed in 0.8072757720947266 seconds
+Testing completed in 1.2236318588256836 seconds
 Starting feature extraction
-Corrupted json, reverting to library defaults
 Completed extracting features from 2489 files
-Feature extraction completed in 149.8770833015442 seconds
+Feature extraction completed in 102.67164993286133 seconds
 Starting testing
-Testing completed in 0.3803224563598633 seconds
-accuracy:			 1.0
-f1 score (micro):		 1.0
-precision score (micro):	 1.0
-recall score (micro):		 1.0
-f1 score (macro):		 1.0
-precision score (macro):	 1.0
-recall score (macro):		 1.0
+Testing completed in 0.4361913204193115 seconds
+accuracy:			 0.9991964644435516
+f1 score (micro):		 0.9991964644435516
+precision score (micro):	 0.9991964644435516
+recall score (micro):		 0.9991964644435516
+f1 score (macro):		 0.999195810070306
+precision score (macro):	 0.9991735537190083
+recall score (macro):		 0.9992193598750976
 ```
