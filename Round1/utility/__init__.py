@@ -1,4 +1,4 @@
-from .dir import all, benigns, malwares, get, label_as_int, int_as_label, strings, dynamics, structures
+from .dir import *
 
 # import os
 
