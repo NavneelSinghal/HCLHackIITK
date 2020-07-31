@@ -49,11 +49,18 @@ class StructureModel:
         print('Starting feature extraction')
         start_time = time()
         completed_files = 0
+        i = 0
 
         for _file in files:
-            feature_dictionary_list.append(get_feature_dict(_file))
-            completed_files += 1
-            print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
+            try:
+                feature_dictionary_list.append(get_feature_dict(_file))
+                completed_files += 1
+                print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
+            except:
+                #print('Corrupted file\n')
+                completed_files += 1
+                feature_dictionary_list.append({})
+            i += 1
 
         print('')
         end_time = time()
@@ -102,7 +109,7 @@ class StructureModel:
         print("recall score (macro):\t\t", metrics.recall_score(predictions, labels, average = 'macro'))
 
 
-    def predict(self, files):
+    def predict(self, files, labels=None):
         '''
         return a vector of predicted values for the set of files specified.
         Assume convention, 0=Benign, 1=Malware.
@@ -118,9 +125,13 @@ class StructureModel:
         print('Starting feature extraction')
 
         for _file in files:
-            feature_dictionary_list.append(get_frequency_map(_file))
+            try:
+                feature_dictionary_list.append(get_feature_dict(_file))
+                print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
+            except:
+                #print('Corrupted file\n')
+                feature_dictionary_list.append({})
             completed_files += 1
-            print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
 
         print('')
 
