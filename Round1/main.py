@@ -1,14 +1,19 @@
 from utility import *
-import string_analysis
+import dynamic_analysis
 import random
 
 train_fraction = 0.75
 
-train_validate_directory = './Static_Analysis_Data'
+train_validate_directory = './Dynamic_Analysis_Data_Part1'
 
 static_files = []
 
-for h, p, l in get(train_validate_directory, strings(all())):
+for h, p, l in get(train_validate_directory, dynamics(all())):
+    static_files.append((p, l))
+
+train_validate_directory = './Dynamic_Analysis_Data_Part2'
+
+for h, p, l in get(train_validate_directory, dynamics(all())):
     static_files.append((p, l))
 
 random.shuffle(static_files)
@@ -29,10 +34,10 @@ for f, l in zipped_validate:
     validate_files.append(f)
     validate_labels.append(l)
 
-model = string_analysis.StringModel()
+model = dynamic_analysis.DynamicModel()
 
 # no need to train if the parameters are saved in string_analysis/model/
-# model.train(train_files, train_labels)
+model.train(train_files, train_labels)
 
 model.validate(validate_files, validate_labels)
 
