@@ -1,14 +1,10 @@
 # author: Navneel Singhal
 # functionality: extraction, training and validation
 
-import dynamic_analysis
-import utility
-
 from time import time
+import os
 import pickle
 import numpy as np
-import random
-import os
 
 from sklearn.feature_extraction import FeatureHasher
 from sklearn.ensemble import RandomForestClassifier
@@ -21,7 +17,7 @@ from .extractor import get_feature_vector
 
 class DynamicModel:
 
-    def __init__ (self, model='dynamic_analysis/model/model.sav'):
+    def __init__(self, model='dynamic_analysis/model/model.sav'):
         '''
         Load model parameters from the specified model file.
         If not found, assume model not trained.
@@ -45,7 +41,7 @@ class DynamicModel:
         if not save:
             save = self.model_filename
 
-        assert (len(files) == len(labels))
+        assert len(files) == len(labels)
 
         feature_dictionary_list = []
         feature_vector_list = []
@@ -76,11 +72,11 @@ class DynamicModel:
 
         features = 7000
         hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
-        X = np.concatenate((X, np.array(feature_vector_list)), axis=1)
-        y = np.array(correct_labels)
+        feature_x = hasher.transform(feature_dictionary_list).toarray()
+        feature_x = np.concatenate((feature_x, np.array(feature_vector_list)), axis=1)
+        feature_y = np.array(correct_labels)
         clf = RandomForestClassifier()
-        clf.fit(X, y)
+        clf.fit(feature_x, feature_y)
 
         end_time = time()
         print('Training completed in ' + str(end_time - start_time) + ' seconds')
@@ -89,30 +85,35 @@ class DynamicModel:
         if save == self.model_filename:
             self.model = clf
 
-        pass
-
     def validate(self, files, labels):
 
         '''
         Labels can be either multiclass or binary
         '''
 
-        f = lambda x: 1 if x > 0 else 0
+        lump = lambda value: 1 if value > 0 else 0
 
-        def transform(x):
-            return np.fromiter((f(a) for a in x), x.dtype)
+        def transform(array):
+            return np.fromiter((lump(element) for element in array), array.dtype)
 
         labels = np.array(labels)
         labels = transform(labels)
         predictions = self.predict(files)
 
-        print("accuracy:\t\t\t", metrics.accuracy_score(predictions, labels))
-        print("f1 score (micro):\t\t", metrics.f1_score(predictions, labels, average = 'micro'))
-        print("precision score (micro):\t", metrics.precision_score(predictions, labels, average = 'micro'))
-        print("recall score (micro):\t\t", metrics.recall_score(predictions, labels, average = 'micro'))
-        print("f1 score (macro):\t\t", metrics.f1_score(predictions, labels, average = 'macro'))
-        print("precision score (macro):\t", metrics.precision_score(predictions, labels, average = 'macro'))
-        print("recall score (macro):\t\t", metrics.recall_score(predictions, labels, average = 'macro'))
+        print("accuracy:\t\t\t",
+              metrics.accuracy_score(predictions, labels))
+        print("f1 score (micro):\t\t",
+              metrics.f1_score(predictions, labels, average='micro'))
+        print("precision score (micro):\t",
+              metrics.precision_score(predictions, labels, average='micro'))
+        print("recall score (micro):\t\t",
+              metrics.recall_score(predictions, labels, average='micro'))
+        print("f1 score (macro):\t\t",
+              metrics.f1_score(predictions, labels, average='macro'))
+        print("precision score (macro):\t",
+              metrics.precision_score(predictions, labels, average='macro'))
+        print("recall score (macro):\t\t",
+              metrics.recall_score(predictions, labels, average='macro'))
 
 
     def predict(self, files):
@@ -120,7 +121,7 @@ class DynamicModel:
         return a vector of predicted values for the set of files specified.
         Assume convention, 0=Benign, 1=Malware.
         '''
-        assert(self.model != None)
+        assert self.model is not None
 
         # now extract features from file, hash them and use self.model to return predictions
 
@@ -156,17 +157,17 @@ class DynamicModel:
 
         features = 7000
         hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
-        X = np.concatenate((X, np.array(feature_vector_list)), axis=1)
-        y = self.model.predict(X)
+        feature_x = hasher.transform(feature_dictionary_list).toarray()
+        feature_x = np.concatenate((feature_x, np.array(feature_vector_list)), axis=1)
+        feature_y = self.model.predict(feature_x)
 
         end_time = time()
 
         print('Testing completed in ' + str(end_time - start_time) + ' seconds')
 
-        f = lambda x: 1 if x > 0 else 0
+        lump = lambda value: 1 if value > 0 else 0
 
-        def transform(x):
-            return np.fromiter((f(a) for a in x), x.dtype)
+        def transform(array):
+            return np.fromiter((lump(element) for element in array), array.dtype)
 
-        return transform(y)
+        return transform(feature_y)

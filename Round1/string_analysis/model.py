@@ -1,18 +1,14 @@
 # author: Navneel Singhal
 # functionality: extraction, training and validation
 
-import string_analysis
-import utility
-
 from time import time
-import pickle
-import numpy as np
-import random
 import os
+import pickle
 
 from sklearn.feature_extraction import FeatureHasher
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
+import numpy as np
 
 from .extractor import get_frequency_map
 
@@ -21,7 +17,7 @@ from .extractor import get_frequency_map
 
 class StringModel:
 
-    def __init__ (self, model='string_analysis/model/model.sav'):
+    def __init__(self, model='string_analysis/model/model.sav'):
         '''
         Load model parameters from the specified model file.
         If not found, assume model not trained.
@@ -45,7 +41,7 @@ class StringModel:
         if not save:
             save = self.model_filename
 
-        assert (len(files) == len(labels))
+        assert len(files) == len(labels)
 
         feature_dictionary_list = []
 
@@ -67,10 +63,10 @@ class StringModel:
 
         features = 7000
         hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
-        y = np.array(labels)
+        features_x = hasher.transform(feature_dictionary_list).toarray()
+        features_y = np.array(labels)
         clf = RandomForestClassifier()
-        clf.fit(X, y)
+        clf.fit(features_x, features_y)
 
         end_time = time()
         print('Training completed in ' + str(end_time - start_time) + ' seconds')
@@ -78,8 +74,6 @@ class StringModel:
         pickle.dump(clf, open(save, 'wb'))
         if save == self.model_filename:
             self.model = clf
-
-        pass
 
     def validate(self, files, labels):
 
@@ -96,13 +90,20 @@ class StringModel:
         labels = transform(labels)
         predictions = self.predict(files)
 
-        print("accuracy:\t\t\t", metrics.accuracy_score(predictions, labels))
-        print("f1 score (micro):\t\t", metrics.f1_score(predictions, labels, average = 'micro'))
-        print("precision score (micro):\t", metrics.precision_score(predictions, labels, average = 'micro'))
-        print("recall score (micro):\t\t", metrics.recall_score(predictions, labels, average = 'micro'))
-        print("f1 score (macro):\t\t", metrics.f1_score(predictions, labels, average = 'macro'))
-        print("precision score (macro):\t", metrics.precision_score(predictions, labels, average = 'macro'))
-        print("recall score (macro):\t\t", metrics.recall_score(predictions, labels, average = 'macro'))
+        print("accuracy:\t\t\t",
+              metrics.accuracy_score(predictions, labels))
+        print("f1 score (micro):\t\t",
+              metrics.f1_score(predictions, labels, average='micro'))
+        print("precision score (micro):\t",
+              metrics.precision_score(predictions, labels, average='micro'))
+        print("recall score (micro):\t\t",
+              metrics.recall_score(predictions, labels, average='micro'))
+        print("f1 score (macro):\t\t",
+              metrics.f1_score(predictions, labels, average='macro'))
+        print("precision score (macro):\t",
+              metrics.precision_score(predictions, labels, average='macro'))
+        print("recall score (macro):\t\t",
+              metrics.recall_score(predictions, labels, average='macro'))
 
 
     def predict(self, files):
@@ -110,7 +111,7 @@ class StringModel:
         return a vector of predicted values for the set of files specified.
         Assume convention, 0=Benign, 1=Malware.
         '''
-        assert(self.model != None)
+        assert self.model is not None
 
         # now extract features from file, hash them and use self.model to return predictions
 
@@ -137,8 +138,8 @@ class StringModel:
 
         features = 7000
         hasher = FeatureHasher(n_features=features)
-        X = hasher.transform(feature_dictionary_list).toarray()
-        y = self.model.predict(X)
+        features_x = hasher.transform(feature_dictionary_list).toarray()
+        y = self.model.predict(features_x)
 
         end_time = time()
 

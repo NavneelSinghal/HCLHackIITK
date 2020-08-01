@@ -1,5 +1,6 @@
+# Author: Rishabh Ranjan
+
 import collections
-import os
 import sys
 
 def get_feature_dict(filename, ignore_indent=False):

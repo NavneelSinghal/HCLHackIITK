@@ -1,0 +1,918 @@
+!This program cannot be run in DOS mode.
+)Rich
+.text
+`.data
+.rsrc
+@.reloc
+ADVAPI32.dll
+KERNEL32.dll
+NTDLL.DLL
+USER32.dll
+SETUPAPI.dll
+WMI.dll
+QsPmLsA
+bad allocation
+nWAS
+ru1%A"
+9b[R
+BDI`O
+-PCU
+L\wf
+HN=O
+mWqD\J
+DISPLAY
+Registry read error %d
+%02x 
+Block Id = %d
+DeviceName = %S
+Current brightness level = %d
+%d  
+Supported brightness levels : 
+Number of brightness levels = %d
+Wmi instance = %S
+Size of Wmi instance = %d
+Failed to write to file
+Mode: %dx%dx%d@%d%s
+ default
+ 90deg
+ 180deg
+ 270deg
+Raw Modes:
+Pruned Modes:
+Size of Driver ProviderName = %d
+Driver MfgName = %s
+Size of Driver MfgName = %d
+Driver Description = %s
+Size of Driver Description = %d
+Failed to get D3DKMTQueryAdapterInfo() address
+D3DKMTQueryAdapterInfo
+Failed to get D3DKMTGetDisplayModeList() address
+D3DKMTGetDisplayModeList
+Failed to get OpenAdapterFromDeviceName() address
+D3DKMTOpenAdapterFromDeviceName
+Failed to get Escape() address
+D3DKMTEscape
+Could not load thunk dll
+gdi32.dll
+Escape failed %08x
+Failed to get diagnosibility info
+Out of memory
+Failed to get adapter information
+The requested operation requires elevation
+Output:
+	Name of the saved file.
+	-out <FilePath>      path where the dispdiag file should be saved, including filename. This must be the last parameter
+	-delay               delays the collection of data by specified time in seconds.
+	-d                   generates a dmp file as well with additional data.
+	-testacpi            runs hotkey diagnostics test
+Usage: dispdiag [-testacpi] [-d] [-delay <seconds>] [-out <FilePath>]
+Logs display information to a file in the current directory.
+not enough size
+size = %d
+list<T> too long
+SetupDiEnumDriverInfo failed. Error = %d
+Unable to retrieve class definitions set for GUID_DEVINTERFACE_DISPLAY_ADAPTER. Error = %d
+Failed to get the OS version info. Error = %d
+Failed to get primary display Adapter handle
+Empty list of primary display Adaptor handles
+Failed to get primary display Adaptor handle
+Failed to write to minidump
+Minidump file: %S
+Invalid handle, file not created. 
+Failed to get the monitor position info
+Failed to get the operating system and display driver information
+Dump file: %S
+Failed to get the monitor position info
+Failed to convert security descriptor. 
+D:(A;OICI;GA;;;WD)
+Failed to get the current mode
+Failed to get current directory.
+\DispDiag.dat
+OutputWin32kPowerLog
+%ProgramData%\DispDiag
+-out
+-delay
+-testacpi
+-hotkey
+-quiet
+-verbose
+-help
+/help
+string too long
+invalid string position
+Unknown exception
+SetThreadStackGuarantee
+CorExitProcess
+mscoree.dll
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+R6034
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+R6033
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+R6032
+- not enough space for locale information
+R6031
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+R6030
+- CRT not initialized
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+EncodePointer
+DecodePointer
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+Invalid parameter passed to C runtime function.
+(null)
+( 8PX
+700WP
+`h````
+xpxxxx
+bad exception
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+InitializeCriticalSectionAndSpinCount
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`RTTI
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+ new
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+('8PW
+700PP
+`h`hhh
+xppwpp
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+CONOUT$
+&qo+*
+^P_+o
+Racing call to CDXGKETW::Listen
+vector<T> too long
+EnableTrace failed
+SetTraceCallback failed
+StartTrace failed
+Please run dispdiag from an elevated command prompt for this option
+Control trace failed 
+invalid vector<T> subscript
+OpenTrace failed
+Failed to create a thread
+RSDS
+dispdiag.pdb
+FFJu
+9_^[]
+t!9E
+AACCN
+9_^[]
+QWSP
+PWWW
+|7SVW
+|8SVW
+~?Vj	^
+YYFOu
+L	hQP
+G\PS
+Hu%h
+QQW3
+xrqWSj
+tH9]
+SVW3
+j_Xf
+j0Xf
+1f;2u
+_^[]
+QQSV
+?C;^
+0^[]
+0^[]
+0^[]
+0^[]
+0^[]
+	j Y
+PSSS
+QPSSV
+PSSSh8
+SSh8
+PSSSW
+PSSSV
+PSSj
+PVVVV
+|sSSj
+0^[]
+SVWP
+u-C9]
+t hp 
+Ph( 
+>j7Y
+>j7Y
+Ph( 
+Y_^[
+0WWWWW
+X_^]
+tG9}
+0WWWWW
+@@AA
+SSSSS
+SSSSS
+SSSSS
+SSSSS
+WWWWW
+VVVVV
+9csm
+t h<.
+QQSVWd
+QSVW
+Y__^[
+VW9]
+SSSSS
+SSSSS
+u99u
+VVVVV
+t	VP
+8csm
+VVVVV
+VVVVV
+QQSV3
+SSSSS
+PPPPP
+SSSSS
+SSSSS
+SSSSS
+S99t
+QQVW3
+=t)WSR
+PPPPP
+?"u?
+< tI<	tE
+@@f9
+@@f9
+SSS+
+@PWSS
+t!SS
+j$j _W
+Nj$j 
+F9=(
+F\=p
+Y;=X
+SVWh
+VVVVV
+VVVVV
+0SSSSS
+_^[]
+_[^]
+PPPPP
+, <Xw
+t%HHt
+HHtYHHt
+HHty+
+RPSW
+90tW
+WSj0
+WSj 
+WWWW
+_^[]
+VVVV
+j0Xf
+RPSV
+90tN
+j Xf
+PPPPP
+uNSW
+Y__^[
+URPQQh
+L$,3
+UVWS
+[_^]
+SVWj
+_^[]
+_^[]
+AA@@
+@_^]
+=MOC
+=csm
+8csm
+9csm
+j0h0
+~@;x
+?csm
+taSV
+YYPV
+t)SV
+Hu4j
+>MOC
+s[S;7|G;w
+>csm
+>csm
+YYhL.
+>csm
+tR99u2
+r,9Y
+@_^[]
+oV f
+o^0f
+of@f
+onPf
+ov`f
+o~pf
+WWWWW
+<Xt	
+u,9E
+u19u
+0A@@Ju
+Fh=P
+to=X
+Y_^[]
+_^[]
+Af#E
+ueSj
+@_^[
+ VW}
+j?^;
+wIVSP
+FVSj
+WWWWW
+WWWWW
+uaVj
+uL9=
+t+Ht
+PPPPP
+SSSSS
+ SVW
+SShp/
+SSSSS
+u,h$/
+tm95
+SSSSS
+0SSSSS
+_^[]
+VVVVV
+WWWWW
+WWWWW
+VVVVV
+VVVVV
+GGAAf
+@@FFf
+@@FF
+8@@FFf
+@@FF
+WWWWW
+VVVVV
+VVVVV
+^SSSSS
+j"^SSSSS
+QSWVj
+v	N+D$
+VVVVV
+~%9M
+QVj	
+r 8^
+~,WPV
+98t^
+tVPV
+t/9U
+SVWUj
+]_^[
+;t$,v-
+UQPXY]Y[
+u8SS3
+u$SS
+t!VV9u u
+9] SS
+v4;5
+vL;5
+PPPPPPPP
+PPPPPPPP
+SVW}
+9] u
+E 9]
+SSSS
+tg9] u
+f9>u
+VW|[;
+_^[]
+VVVVV
+~"WP
+WWWWW
+_^[]
+WWWWW
+SSSSS
+SSSSV
+t<Vj
+t+SSVPV
+WWWWW
+WWWWW
+^_[3
+t3Vh
+u7j0
+9~ u
+9~$t!
+6PWW
+~$_^
+WRQP
+0@@f
+p hN
+RegCloseKey
+RegQueryValueExW
+RegOpenKeyExW
+RegGetValueW
+ConvertStringSecurityDescriptorToSecurityDescriptorA
+ADVAPI32.dll
+MultiByteToWideChar
+GetLastError
+WriteFile
+lstrlenA
+GetProcAddress
+LoadLibraryA
+SetLastError
+OutputDebugStringA
+GetSystemInfo
+GetVersionExW
+CloseHandle
+CreateFileW
+Beep
+LocalFree
+GetCurrentProcessId
+GetCurrentThreadId
+GetCurrentDirectoryW
+GetLocalTime
+Sleep
+FreeLibrary
+LoadLibraryW
+CreateDirectoryA
+ExpandEnvironmentStringsA
+WriteConsoleW
+ReadConsoleInputA
+GetStdHandle
+KERNEL32.dll
+GetMonitorInfoW
+EnumDisplaySettingsExW
+EnumDisplayDevicesW
+EnumDisplayMonitors
+USER32.dll
+SetupDiDestroyDeviceInfoList
+SetupDiGetDeviceInstanceIdW
+SetupDiGetDeviceInterfaceDetailW
+SetupDiOpenDeviceInterfaceW
+SetupDiGetClassDevsA
+SetupDiDestroyDriverInfoList
+SetupDiOpenDevRegKey
+SetupDiEnumDeviceInfo
+SetupDiEnumDriverInfoA
+SetupDiBuildDriverInfoList
+SetupDiSetDeviceInstallParamsA
+SetupDiEnumDeviceInterfaces
+SetupDiGetDeviceRegistryPropertyW
+SetupDiGetClassDevsW
+SETUPAPI.dll
+WmiDevInstToInstanceNameW
+WmiExecuteMethodW
+WmiCloseBlock
+WmiQuerySingleInstanceW
+WmiOpenBlock
+WMI.dll
+RtlUnwind
+ntdll.dll
+EnableTrace
+SetTraceCallback
+ProcessTrace
+ControlTraceW
+StartTraceW
+CloseTrace
+OpenTraceW
+GetCommandLineA
+GetVersionExA
+RaiseException
+VirtualProtect
+VirtualAlloc
+GetModuleHandleW
+VirtualQuery
+HeapFree
+HeapAlloc
+SetUnhandledExceptionFilter
+GetModuleHandleA
+ExitProcess
+GetModuleFileNameA
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+WideCharToMultiByte
+GetEnvironmentStringsW
+SetHandleCount
+GetFileType
+GetStartupInfoA
+DeleteCriticalSection
+TlsGetValue
+TlsAlloc
+TlsSetValue
+TlsFree
+InterlockedIncrement
+InterlockedDecrement
+HeapDestroy
+HeapCreate
+VirtualFree
+QueryPerformanceCounter
+GetTickCount
+GetSystemTimeAsFileTime
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+EnterCriticalSection
+LeaveCriticalSection
+GetCPInfo
+GetACP
+GetOEMCP
+HeapReAlloc
+HeapSize
+LoadLibraryExA
+InitializeCriticalSection
+SetFilePointer
+GetConsoleCP
+GetConsoleMode
+LCMapStringA
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+GetLocaleInfoA
+SetStdHandle
+WriteConsoleA
+GetConsoleOutputCP
+FlushFileBuffers
+CreateFileA
+OutputDebugStringW
+TerminateThread
+WaitForMultipleObjects
+CreateThread
+RtlAdjustPrivilege
+.?AVbad_alloc@std@@
+.?AVexception@@
+.?AU_SDEVMODE@@
+.?AU_SERIALIZABLE_ELEMENT@@
+.?AV?$CWmiInstance@K@@
+.?AV?$CWmiInstance@U_WmiMonitorListedSupportedSourceModes@@@@
+.?AV?$CWmiInstance@U_WmiMonitorListedFrequencyRanges@@@@
+.?AV?$CWmiInstance@U_WmiMonitorID@@@@
+.?AV?$CWmiInstance@U_WmiMonitorBrightness@@@@
+.?AU_MONITOR@@
+.?AVlogic_error@std@@
+.?AV?$SerializableList@U_MONITOR@@@@
+.?AV?$list@U_MONITOR@@V?$allocator@U_MONITOR@@@std@@@std@@
+.?AV?$_List_val@U_MONITOR@@V?$allocator@U_MONITOR@@@std@@@std@@
+.?AV?$_List_ptr@U_MONITOR@@V?$allocator@U_MONITOR@@@std@@@std@@
+.?AV?$_List_nod@U_MONITOR@@V?$allocator@U_MONITOR@@@std@@@std@@
+.?AU_Container_base@std@@
+.?AV?$SerializableList@U_SDEVMODE@@@@
+.?AV?$list@U_SDEVMODE@@V?$allocator@U_SDEVMODE@@@std@@@std@@
+.?AV?$_List_val@U_SDEVMODE@@V?$allocator@U_SDEVMODE@@@std@@@std@@
+.?AV?$_List_ptr@U_SDEVMODE@@V?$allocator@U_SDEVMODE@@@std@@@std@@
+.?AV?$_List_nod@U_SDEVMODE@@V?$allocator@U_SDEVMODE@@@std@@@std@@
+.?AVlength_error@std@@
+.?AU_ADAPTER@@
+.?AV?$SerializableList@U_ADAPTER@@@@
+.?AV?$list@U_ADAPTER@@V?$allocator@U_ADAPTER@@@std@@@std@@
+.?AV?$_List_val@U_ADAPTER@@V?$allocator@U_ADAPTER@@@std@@@std@@
+.?AV?$_List_ptr@U_ADAPTER@@V?$allocator@U_ADAPTER@@@std@@@std@@
+.?AV?$_List_nod@U_ADAPTER@@V?$allocator@U_ADAPTER@@@std@@@std@@
+.?AVCDXGKListener@@
+.?AVCTEST_ACPI_LISTENER@@
+.?AVout_of_range@std@@
+.?AVbad_exception@std@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity
+    version="5.1.0.0"
+    processorArchitecture="x86"
+    name="Microsoft.Windows.DispDiag"
+    type="win32"
+<description>Display Diagnostic Command Line Program</description>
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+            <requestedExecutionLevel
+                level="asInvoker"
+                uiAccess="false"
+            />
+        </requestedPrivileges>
+    </security>
+</trustInfo>
+</assembly>
+2 2$2(2,202<2@2X4\4`4d4
+4$4,444<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+5 5$5(5,5054585<5@5D5H5
+64>8><>@>D>H>
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+4 4$4(4
+50545L5\5`5t5x5
+6(686<6L6P6X6p6
+7$7(707H7X7\7l7p7t7|7
+8$8<8@8X8h8l8p8t8x8|8
+949D9H9L9T9l9|9
+: :$:(:,:0:8:P:T:l:|:
+; ;$;(;0;H;X;\;`;h;
+<,<0<4<<<T<d<h<x<|<
+=,=<=@=D=H=L=T=l=|=
+>(>,><>@>H>`>p>t>
+>0P0h0
+3;3A3R3
+3/4U4
+;=<w<
+=m?y?
+D0X0y0H1O1V1]1
+2A2\2
+3B3a3
+9!9v9
+:;:u:
+:\;f;~;
+<W<n<
+=I=U=`=k=v=
+=->3>
+?;?g?
+1'1G1
+282U2u293[3x3
+3A4_4|4
+: =<=
+>4>^>p>
+>R?m?
+0!0>0`0{0
+1/1L1
+3-4J4
+8"9(9
+95:d:r:
+; <&<
+=$=5=;=
+=+>M>^>o>
+>e?q?
+0,0X0
+0^1q1
+6-6F6
+6e7o7
+8)8x8
+9'9R9p9y9
+;$;s;
+>3>T>
+?#?)?G?Q?h?}?
+0-0`0j0
+1?1Q1X1
+2	3A3q4
+5 606A6N6z6~8
+;,;Q;
+>(>p>v>~>
+?6?j?}?
+0'0V0]0c0u0}0
+1b1g1q1
+163R3
+414o4
+677p7
+;,;D;
+<M=e=j=
+21282<2@2D2H2L2P2T2
+3!3<3C3H3L3P3q3
+3:4@4D4H4L4
+5 515T5[5x6
+8+8>8
+96:G:
+;!;j;
+;<<~<
+=&=@=H=P=\=i=
+?,?6???H?
+0@0~0
+1?2H2M2S2
+5#5)5
+6&6]6
+717R7X7
+8?8X8
+8/959a9g9r9~9
+:*:5:<:Y:g:m:w:
+; ;-;N;X;s;
+<	=A=I=
+> >&>+>1>6>A>S>^>c>n>s>~>
+0&0.0:0L0Y0a0{0
+171S1{1
+1/2H2O2W2\2`2d2
+2>3D3H3L3P3
+4;4m4t4x4|4
+8P9_9z9
+;'<M<@>
+1'131<1A1G1Q1Z1e1s1x1~1
+2%2A2X2f2
+393a3m3x3
+464i5(6I6U6a7
+6l6w6
+;0=H=i=v=
+>!>+>>>g>
+>(?E?
+1:1C1I1R1W1f1
+6[7m7v7
+848;8T8m8s8
+8R9r9
+9%<3<9<S<X<g<p<}<
+="=)===D=J=X=_=d=m=z=
+272q2
+606d6j6v6
+7Q7W7~7
+758;8G8
+9"979k9~9
+: :':,:
+:9;M;b;u;
+=!=*=9=>=K=m=
+>j?s?
+0'0e0
+7)7j7
+7&8Z8
+:4;R;
+1(131V1
+1a2m2
+3O3Z3}3A4N4
+767v7 8C8
+00B0T0f0x0
+1!131E1W1i1{1.2H2N2a2n2v2
+5f5z5
+5E6P6
+7$7:7U7
+7h8o8U9
+:*:a:k:
+;I;V;;<J<2=8===H=O=a=
+60G0
+2U2Z2`2e2z2
+3 3/3>3G3M3U3c3m3
+434x4
+5,5:5h5
+6 6D6
+6)7.74797N7]7l7x7
+788=8C8H8]8r8|8
+9.9Y9^9d9i9~9
+:(:@:N:
+;#;1;X;
+</<4<:<?<T<i<s<
+>%>*>?>T>^>}>
+?=?B?H?M?b?w?
+0$020e0}0
+131K1
+2@2E2K2P2
+3%3*34393C3H3R3W3a3f3p3u3
+4$4)43484B4G4Q4V4`4e4o4t4
+5=5B5T5z5
+5i6s6
+9.989k9{9
+<L=u=
+3z4f6P7
+9D9h9
+:K;R;X;
+<C<{<
+<7=_=
+>:>b>
+0!1I1q1
+1!2I2q2
+3Y3y3
+3"4Z4i4{4
+5$5(505<5\5h5
+5$6,6P6d6l6x6
+7$707P7X7`7d7t7
+8$808P8X8d8
+9<9`9l9t9
+:,:8:@:h:p:x:
+;(;H;h;
+<,<0<L<P<p<x<|<
+=(=H=P=T=l=p=
+>0>P>p>
+?0?P?p?|?
+00080@0T0d0x0
+1$181@1X1`1t1
+2 20282L2\2p2x2
+30383P3X3l3|3
+4,4<4P4X4p4x4
+5 5(5@5H5\5l5
+6,6@6H6`6h6|6
+7 7(7<7L7`7h7
+8 8(8@8H8P8X8`8h8t8
+9 909@9l9t9
+: :@:L:
+0$0<0T0x0
+0$1T1
+3<3p3
+50646P6t6x6|6
+7$7,747<7D7L7T7\7d7l7
+x0p1
+2<2H2L2P2T2X2`2d2
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+5 5$5(5,5054585<5@5D5H5L5X5\5`5d5h5l5p5t5x5|5
+5X6\6

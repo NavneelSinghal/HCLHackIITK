@@ -1,26 +1,25 @@
-import structure_analysis
-import utility
+# author: Navneel Singhal
+# functionality: extraction, training and validation
 
 from time import time
+import os
 import pickle
 import numpy as np
-import random
-import os
 
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_selection import VarianceThreshold
-from sklearn.feature_extraction import FeatureHasher, DictVectorizer
+from sklearn.feature_extraction import DictVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 
-from .extractor import *
+from .extractor import get_feature_dict
 
 # Other imports
 
 
 class StructureModel:
 
-    def __init__ (self, model='structure_analysis/model/model.sav'):
+    def __init__(self, model='structure_analysis/model/model.sav'):
         '''
         Load model parameters from the specified model file.
         If not found, assume model not trained.
@@ -44,7 +43,7 @@ class StructureModel:
         if not save:
             save = self.model_filename
 
-        assert (len(files) == len(labels))
+        assert len(files) == len(labels)
 
         feature_dictionary_list = []
 
@@ -57,7 +56,9 @@ class StructureModel:
             try:
                 feature_dictionary_list.append(get_feature_dict(_file))
                 completed_files += 1
-                print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
+                print('Completed extracting features from '
+                      + str(completed_files) + ' files',
+                      end='\r')
             except:
                 #print('Corrupted file\n')
                 completed_files += 1
@@ -71,22 +72,15 @@ class StructureModel:
         print('Starting training model')
         start_time = time()
 
-        #features = 50000
-        #hasher = FeatureHasher(n_features=features)
-        #X = hasher.transform(feature_dictionary_list).toarray()
-        #y = np.array(labels)
-        #clf = RandomForestClassifier()
-        #clf.fit(X, y)
-
         clf = make_pipeline(
-                #FeatureHasher(n_features = 50000),
-                DictVectorizer(),
-                VarianceThreshold(),
-                RandomForestClassifier(random_state=0)
-            );
-        y = np.array(labels)
-        D = feature_dictionary_list
-        clf.fit(D, y)
+            DictVectorizer(),
+            VarianceThreshold(),
+            RandomForestClassifier(random_state=0)
+        )
+
+        features_y = np.array(labels)
+        features_x = feature_dictionary_list
+        clf.fit(features_x, features_y)
 
         end_time = time()
         print('Training completed in ' + str(end_time - start_time) + ' seconds')
@@ -95,38 +89,43 @@ class StructureModel:
         if save == self.model_filename:
             self.model = clf
 
-        pass
-
     def validate(self, files, labels):
 
         '''
         Labels can be either multiclass or binary
         '''
 
-        f = lambda x: 1 if x > 0 else 0
+        lump = lambda value: 1 if value > 0 else 0
 
-        def transform(x):
-            return np.fromiter((f(a) for a in x), x.dtype)
+        def transform(array):
+            return np.fromiter((lump(element) for element in array), array.dtype)
 
         labels = np.array(labels)
         labels = transform(labels)
         predictions = self.predict(files)
 
-        print("accuracy:\t\t\t", metrics.accuracy_score(predictions, labels))
-        print("f1 score (micro):\t\t", metrics.f1_score(predictions, labels, average = 'micro'))
-        print("precision score (micro):\t", metrics.precision_score(predictions, labels, average = 'micro'))
-        print("recall score (micro):\t\t", metrics.recall_score(predictions, labels, average = 'micro'))
-        print("f1 score (macro):\t\t", metrics.f1_score(predictions, labels, average = 'macro'))
-        print("precision score (macro):\t", metrics.precision_score(predictions, labels, average = 'macro'))
-        print("recall score (macro):\t\t", metrics.recall_score(predictions, labels, average = 'macro'))
+        print("accuracy:\t\t\t",
+              metrics.accuracy_score(predictions, labels))
+        print("f1 score (micro):\t\t",
+              metrics.f1_score(predictions, labels, average='micro'))
+        print("precision score (micro):\t",
+              metrics.precision_score(predictions, labels, average='micro'))
+        print("recall score (micro):\t\t",
+              metrics.recall_score(predictions, labels, average='micro'))
+        print("f1 score (macro):\t\t",
+              metrics.f1_score(predictions, labels, average='macro'))
+        print("precision score (macro):\t",
+              metrics.precision_score(predictions, labels, average='macro'))
+        print("recall score (macro):\t\t",
+              metrics.recall_score(predictions, labels, average='macro'))
 
 
-    def predict(self, files, labels=None):
+    def predict(self, files):
         '''
         return a vector of predicted values for the set of files specified.
         Assume convention, 0=Benign, 1=Malware.
         '''
-        assert(self.model != None)
+        assert self.model is not None
 
         # now extract features from file, hash them and use self.model to return predictions
 
@@ -139,7 +138,10 @@ class StructureModel:
         for _file in files:
             try:
                 feature_dictionary_list.append(get_feature_dict(_file))
-                print('Completed extracting features from ' + str(completed_files) + ' files', end='\r')
+                print('Completed extracting features from '
+                      + str(completed_files)
+                      + ' files',
+                      end='\r')
             except:
                 #print('Corrupted file\n')
                 feature_dictionary_list.append({})
@@ -155,19 +157,16 @@ class StructureModel:
 
         start_time = time()
 
-        #features = 7000
-        #hasher = FeatureHasher(n_features=features)
-        #X = hasher.transform(feature_dictionary_list).toarray()
-        D = feature_dictionary_list
-        y = self.model.predict(D)
+        feature_x = feature_dictionary_list
+        feature_y = self.model.predict(feature_x)
 
         end_time = time()
 
         print('Testing completed in ' + str(end_time - start_time) + ' seconds')
 
-        f = lambda x: 1 if x > 0 else 0
+        lump = lambda value: 1 if value > 0 else 0
 
-        def transform(x):
-            return np.fromiter((f(a) for a in x), x.dtype)
+        def transform(array):
+            return np.fromiter((lump(element) for element in array), array.dtype)
 
-        return transform(y)
+        return transform(feature_y)
