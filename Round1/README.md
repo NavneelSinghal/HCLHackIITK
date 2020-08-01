@@ -78,6 +78,8 @@ cp string_analysis/model/model.sav.back string_analysis/model/model.sav
 cp structure_analysis/model/model.sav.back structure_analysis/model/model.sav
 ```
 
+**IMPORTANT**: When you ensemble (that is no --model) make sure to have atleast one file of each type (String, Structure and JSON) otherwise an empty feature matrix is passed to models which may cause the program to crash. Note again that if you are doing this you most likely want to run the program using the `--model` flag. See example 7 for usage.  
+
 ## Model Description
 We had access to three kinds of data for a binary: 
 
