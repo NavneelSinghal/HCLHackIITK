@@ -53,7 +53,8 @@ def get_feature_dicts(pcap_path):
         'avg len': 0,
         'first len': None,
         'last len': None,
-        'out ratio': 0
+        'out ratio': 0,
+        'out len ratio': 0
     })
 
     pcap = FileCapture(pcap_path, only_summaries=True)
@@ -96,12 +97,14 @@ def get_feature_dicts(pcap_path):
         d['last len'] = float(pkt.length)
         if pkt.source == host_ip:
             d['out ratio'] += 1
+            d['out len ratio'] += float(pkt.length)
 
     flows = collections.defaultdict(dict)
     for (partner, protocol), d in protocol_flows.items():
         d['avg time'] /= d['num pkts']
         d['avg len'] /= d['num pkts']
         d['out ratio'] /= d['num pkts']
+        d['out len ratio'] /= d['sum len']
         f = flows[partner]
         for k, v in d.items():
             f[protocol + '::' + k] = v
