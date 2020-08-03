@@ -11,11 +11,14 @@ import collections
 import time
 time_stamp = str(int(time.time()))[-6:]
 
+old_ctr = 0
+new_ctr = 0
+
 # list of *.pcap paths (recursively) inside root
 # randomly choose num files if not None
 def get_pcap_paths(root, num=None):
     paths = glob.glob(os.path.join(root, '**', '*.pcap'), recursive=True)
-    print(*paths, sep='\n')
+    #print(*paths, sep='\n')
     print("number of pcaps detected:", len(paths))
     if num is None:
         return paths
@@ -73,7 +76,7 @@ def get_feature_dicts(pcap_path):
         if v > mx:
             mx = v
             host_ip = k
-    print('host_ip:', host_ip)
+    #print('host_ip:', host_ip)
 
     for pkt in pcap:
         if pkt.source == host_ip:
@@ -114,12 +117,14 @@ def get_feature_dicts(pcap_path):
 # get D (list of feature dicts), l (list of corresponding label strings) from a pcap file
 # NOTE: again don't do low-level stuff here. Use LabelEncoder to get y (numerical label vector) from l
 def get_D_l_single(pcap_path, only_outer_label=True, dump_root=None):
+    global old_ctr, new_ctr
     g = os.path.join(dump_root, pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_') + '_Dl_*.pickle')
     gl = glob.glob(g)
     if len(gl) != 0:
         gs = max(gl)
-        print('Loading existing pickle:', gs)
+        print('loading existing pickle:', gs)
         D, l = pickle.load(open(gs, 'rb'))
+        old_ctr += 1
         return D, l
     print('get_feature_dicts started at:', time.ctime())
     start = time.time()
@@ -135,6 +140,7 @@ def get_D_l_single(pcap_path, only_outer_label=True, dump_root=None):
         f = os.path.join(dump_root, pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_') + '_Dl_' + time_stamp + '.pickle')
         pickle.dump((D, l), open(f, 'wb'))
         print("(D, l) dumped in:", f)
+    new_ctr += 1
     return D, l
 
 # get a combined D, l from all given paths
@@ -142,10 +148,14 @@ def get_D_l_many(pcap_paths, only_outer_label=True, dump_root=None):
     D = []
     l = []
     for pcap_path in pcap_paths:
+        print("---")
         print("path:", pcap_path)
         D_, l_ = get_D_l_single(pcap_path, only_outer_label, dump_root)
         D += D_
         l += l_
+        print('old:', old_ctr)
+        print('new:', new_ctr)
+        print('total:', old_ctr+new_ctr, '/', len(pcap_paths))
     return D, l
 
 def main():
