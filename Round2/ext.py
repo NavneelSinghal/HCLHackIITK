@@ -147,7 +147,7 @@ def main():
     argparser.add_argument('-n', type=int) # number of pcaps to use
     argparser.add_argument('-p') # directory to dump pickles in, if not provided don't dump anything
     args = argparser.parse_args()
-    D, l = get_D_l_many(get_pcap_paths(args.r, args.n), dump_root = args.p)
+    D, l = get_D_l_many(get_pcap_paths(args.r, args.n), dump_root = args.p, only_outer_label=False)
     if args.p is not None:
         f = os.path.join(args.p, 'all_Dl_' + time_stamp + '.pickle')
         pickle.dump((D, l), open(f, 'wb'))
