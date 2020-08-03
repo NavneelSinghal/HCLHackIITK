@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 
-# TODO:
-# 1. how to get whether packet is incoming or outgoing?
-# 2. [Raw] layer is not available in a lot of pkts, what are these packets? which sessions do they belong to? what to do about them?
-# 3. sometimes there are out of index errors, look and fix (if required)
-
-from scapy.all import *
+from pyshark import FileCapture
 
 import pickle
 import os
 import glob
 import random
 import argparse
+import collections
+import time
+time_stamp = str(int(time.time()))[-6:]
 
 # list of *.pcap paths (recursively) inside root
 # randomly choose num files if not None
@@ -44,56 +42,87 @@ def decompose_pcap_path(path):
 # list of feature dicts extracted from the pcap file
 # NOTE: don't try to do low level stuff here. use DictVectorizer to get the feature matrix
 def get_feature_dicts(pcap_path):
-    print('reading pcap...')
-    pcap = rdpcap(pcap_path)
-    ret = []
-    ctr = 0
-    for head, pkts in pcap.sessions().items():
-        print(ctr, end='\r')
-        ctr += 1
-        try:
-            fdict = {}
-            toks = head.split(' ')
-            src_ip = toks[1].split(':')[0]
-            fdict['protocol'] = toks[0]
-            fdict['src ip'] = toks[1].split(':')[0]
-            fdict['src port'] = toks[1].split(':')[1]
-            fdict['dest ip'] = toks[3].split(':')[0]
-            fdict['dest port'] = toks[3].split(':')[1]
-            fdict['len of first pkt'] = len(pkts[0])
-            fdict['total pkts'] = len(pkts)
-            a_len = 0
-            a_load = 0
-            a_out = 0
-            for pkt in pkts:
-                a_len += len(pkt)
-                a_load += len(pkt[Raw])
-                if pkt[IP].src == toks[0]:
-                    a_out += 1
-            fdict['total bytes'] = a_load
-            fdict['avg bytes'] = a_load / len(pkts)
-            fdict['avg pkt len'] = a_len / len(pkts)
-            # these don't work as of now
-            #fdict['in ratio'] = (len(pkts) - a_out) / len(pkts)
-            #fdict['out ratio'] = a_out / len(pkts)
-            ret.append(fdict)
-        except Exception as err:
-            print(err)
-            #input()
-    print()
-    return ret
+    protocol_flows = collections.defaultdict(lambda: {
+        'num pkts': 0,
+        'first time': None,
+        'last time': 0,
+        'avg time': 0,
+        'min len': float('inf'),
+        'max len': 0,
+        'sum len': 0,
+        'avg len': 0,
+        'first len': None,
+        'last len': None,
+        'out ratio': 0
+    })
+
+    pcap = FileCapture(pcap_path, only_summaries=True)
+
+    freq = collections.defaultdict(int)
+    for pkt in pcap:
+        if pkt.source.find(':') != -1:
+            continue
+        if pkt.destination.find(':') != -1:
+            continue
+        freq[pkt.source] += 1
+        freq[pkt.destination] += 1
+
+    mx = 0
+    for k, v in freq.items():
+        if v > mx:
+            mx = v
+            host_ip = k
+    print('host_ip:', host_ip)
+
+    for pkt in pcap:
+        if pkt.source == host_ip:
+            partner = pkt.destination
+        elif pkt.destination == host_ip:
+            partner = pkt.source
+        else:
+            continue # ff:ff:ff:ff:ff:ff type of src and dest
+        d = protocol_flows[partner, pkt.protocol]
+        d['num pkts'] += 1
+        if d['first time'] == None:
+            d['first time'] = float(pkt.time)
+        d['last time'] = float(pkt.time)
+        d['avg time'] += float(pkt.time)
+        d['min len'] = min(d['min len'], float(pkt.length))
+        d['max len'] = max(d['max len'], float(pkt.length))
+        d['sum len'] += float(pkt.length)
+        d['avg len'] += float(pkt.length)
+        if d['first len'] == None:
+            d['first len'] = float(pkt.length)
+        d['last len'] = float(pkt.length)
+        if pkt.source == host_ip:
+            d['out ratio'] += 1
+
+    flows = collections.defaultdict(dict)
+    for (partner, protocol), d in protocol_flows.items():
+        d['avg time'] /= d['num pkts']
+        d['avg len'] /= d['num pkts']
+        d['out ratio'] /= d['num pkts']
+        f = flows[partner]
+        for k, v in d.items():
+            f[protocol + '::' + k] = v
+
+    return list(flows.values())
 
 # get D (list of feature dicts), l (list of corresponding label strings) from a pcap file
 # NOTE: again don't do low-level stuff here. Use LabelEncoder to get y (numerical label vector) from l
 def get_D_l_single(pcap_path, only_outer_label=True, dump_root=None):
+    print('get_feature_dicts started at:', time.ctime())
+    start = time.time()
     D = get_feature_dicts(pcap_path)
+    finish = time.time()
+    print('get_feature_dict time:', finish-start, 's')
     pcap, inner_class, outer_class = decompose_pcap_path(pcap_path)
     if only_outer_label:
         l = [outer_class for _ in range(len(D))]
     else:
         l = [outer_class + '::' + inner_class for _ in range(len(D))]
     if dump_root is not None:
-        f = os.path.join(dump_root, pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_') + '_Dl.pickle')
+        f = os.path.join(dump_root, pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_') + '_Dl_' + time_stamp + '.pickle')
         pickle.dump((D, l), open(f, 'wb'))
         print("(D, l) dumped in:", f)
     return D, l
@@ -117,7 +146,7 @@ def main():
     args = argparser.parse_args()
     D, l = get_D_l_many(get_pcap_paths(args.r, args.n), dump_root = args.p)
     if args.p is not None:
-        f = os.path.join(args.p, 'all_Dl.pickle')
+        f = os.path.join(args.p, 'all_Dl_' + time_stamp + '.pickle')
         pickle.dump((D, l), open(f, 'wb'))
 
 if __name__ == '__main__':
