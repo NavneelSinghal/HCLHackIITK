@@ -114,6 +114,13 @@ def get_feature_dicts(pcap_path):
 # get D (list of feature dicts), l (list of corresponding label strings) from a pcap file
 # NOTE: again don't do low-level stuff here. Use LabelEncoder to get y (numerical label vector) from l
 def get_D_l_single(pcap_path, only_outer_label=True, dump_root=None):
+    g = os.path.join(dump_root, pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_') + '_Dl_*.pickle')
+    gl = glob.glob(g)
+    if len(gl) != 0:
+        gs = max(gl)
+        print('Loading existing pickle:', gs)
+        D, l = pickle.load(open(gs, 'rb'))
+        return D, l
     print('get_feature_dicts started at:', time.ctime())
     start = time.time()
     D = get_feature_dicts(pcap_path)
