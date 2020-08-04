@@ -1,3 +1,4 @@
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import LabelEncoder

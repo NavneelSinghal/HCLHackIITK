@@ -1,5 +1,6 @@
 import random
 import argparse
+import traceback
 from tqdm import tqdm
 from pathlib import Path
 from backend import get_feature_dict
@@ -118,8 +119,9 @@ if __name__ == '__main__':
             flows.extend(_flows)
             ids.extend(_ids)
             labels.extend([f[0]] * len(flows))
-        except Exception as e:
-            print('Parsing Error: ' + e)
+        except BaseException as e:
+            print(f'CRITICAL: Parsing Error on file {f}')
+            traceback.print_exc()
     print('Feature extraction complete!\n')
     del files
 
