@@ -3,8 +3,10 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import *
 import time
+import os
+import pickle
 
-def get_trained_classifier(D, y):
+def calc_trained_classifier(D, y):
     pipe = make_pipeline(
         DictVectorizer(),
         RandomForestClassifier()
@@ -16,6 +18,18 @@ def get_trained_classifier(D, y):
     print('training time:', finish-start, 's')
     print('training time per traffic:', (finish-start)/len(y), 's')
     return pipe
+
+def get_trained_classifier(D, y, pickle_root=None):
+    if pickle_root is not None:
+        pickle_path = os.path.join(pickle_root, 'model.pickle')
+        if os.path.isfile(pickle_path):
+            return pickle.load(open(pickle_path, 'rb'))
+        else:
+            clf = calc_trained_classifier(D, y)
+            pickle.dump(clf, open(pickle_path, 'wb'))
+            return clf
+    else:
+        return calc_trained_classifier(D, y)
 
 def predict(clf, D):
     print('predicting...', end='\r')
