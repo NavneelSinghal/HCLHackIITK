@@ -34,7 +34,8 @@ def get_trained_classifier(D, y, pickle_root=None):
             return clf
         else:
             clf = calc_trained_classifier(D, y)
-            pickle.dump(clf, open(pickle_root, 'wb'))
+            pickle_path = os.path.join(pickle_root, 'model.pickle')
+            pickle.dump(clf, open(pickle_path, 'wb'))
             return clf
     else:
         return calc_trained_classifier(D, y)
