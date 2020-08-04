@@ -17,15 +17,21 @@ def calc_feature_dict(pcap_path):
     flows = collections.defaultdict(lambda: collections.defaultdict(float))
 
     for l in lines:
-        l = l.split(' ')
-        l = [x for x in l if x != '']
-        ptime = float(l[1])
-        src = l[2]
-        dest = l[4]
-        if src in dns_ips or dest in dns_ips:
+        try:
+            l = l.split(' ')
+            l = [x for x in l if x != '']
+            ptime = float(l[1])
+            src = l[2]
+            dest = l[4]
+            if src in dns_ips or dest in dns_ips:
+                continue
+            proto = l[5]
+            try:
+                plen = int(l[6])
+            except:
+                plen = int(l[7])
+        except:
             continue
-        proto = l[5]
-        plen = int(l[6])
         ip1, ip2 = sorted([src, dest])
         d = flows[ip1, ip2]
         s = proto+'#'
