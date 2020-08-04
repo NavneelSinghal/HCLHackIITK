@@ -28,12 +28,12 @@ def load_trained_classifier(pickle_root):
 
 def get_trained_classifier(D, y, pickle_root=None):
     if pickle_root is not None:
-        clf = load_trained_classifier(pickle_path)
+        clf = load_trained_classifier(pickle_root)
         if clf is not None:
             return clf
         else:
             clf = calc_trained_classifier(D, y)
-            pickle.dump(clf, open(pickle_path, 'wb'))
+            pickle.dump(clf, open(pickle_root, 'wb'))
             return clf
     else:
         return calc_trained_classifier(D, y)
