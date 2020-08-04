@@ -170,9 +170,10 @@ if __name__ == '__main__':
             outfile = sys.stdout
         else:
             outfile = open(outfile, 'w')
-        for p in predictions:
-            pred = 'Benign'
-            if p:
+        for i in range(len(predictions)):
+            if predictions[i] == 0:
+                pred = 'Benign'
+            elif predictions[i] == 1:
                 pred = 'Botnet'
-            print(f'{ids}\t{pred}')
+            print(f'{ids[i]}\t{pred}', file=outfile)
         outfile.close()

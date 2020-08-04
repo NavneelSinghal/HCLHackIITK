@@ -1,4 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import LabelEncoder
@@ -10,7 +11,8 @@ import pickle
 def calc_trained_classifier(D, y):
     pipe = make_pipeline(
         DictVectorizer(),
-        RandomForestClassifier()
+        #RandomForestClassifier()
+        DecisionTreeClassifier()
     )
     print('training...', end='\r')
     start = time.time()
