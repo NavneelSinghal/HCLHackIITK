@@ -106,6 +106,10 @@ if __name__ == '__main__':
     for inp in inputs:
         files.extend(scan_files(inp))
     print(f'Found {len(files)} PCAP/PCAPNG files.\n')
+    if args['choose']:
+        if args['choose'] < len(files):
+            files = random.sample(files, args['choose'])
+        print(f"Choosing {args['choose']} random PCAP/PCAPNG files for operation")
 
     cache = Path('cache/')
     if not cache.exists():
@@ -130,11 +134,13 @@ if __name__ == '__main__':
         random.shuffle(zipped)
         training_data = zipped[:int(args['split'] * len(zipped))]
         test_data = zipped[len(training_data):]
+        print(f'\nTraining model on {len(training_data)} flows ...')
         clf = model.get_trained_classifier(
                 map(itemgetter(0), training_data),
                 map(itemgetter(1), training_data),
                 'cache/')
 
+        print(f'\nEvaluating model on {len(test_data)} flows ...')
         predictions = model.predict(clf, map(itemgetter(0), training_data))
         model.print_metrics(
                 map(itemgetter(1), training_data),
