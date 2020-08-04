@@ -28,9 +28,9 @@ def load_trained_classifier(pickle_root):
 
 def get_trained_classifier(D, y, pickle_root=None):
     if pickle_root is not None:
-        pickle_path = os.path.join(pickle_root, 'model.pickle')
-        if os.path.isfile(pickle_path):
-            return pickle.load(open(pickle_path, 'rb'))
+        clf = load_trained_classifier(pickle_path)
+        if clf is not None:
+            return clf
         else:
             clf = calc_trained_classifier(D, y)
             pickle.dump(clf, open(pickle_path, 'wb'))
