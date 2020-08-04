@@ -19,6 +19,13 @@ def calc_trained_classifier(D, y):
     print('training time per traffic:', (finish-start)/len(y), 's')
     return pipe
 
+def load_trained_classifier(pickle_root):
+    pickle_path = os.path.join(pickle_root, 'model.pickle')
+    if os.path.isfile(pickle_path):
+        return pickle.load(open(pickle_path, 'rb'))
+    else:
+        return None
+
 def get_trained_classifier(D, y, pickle_root=None):
     if pickle_root is not None:
         pickle_path = os.path.join(pickle_root, 'model.pickle')
