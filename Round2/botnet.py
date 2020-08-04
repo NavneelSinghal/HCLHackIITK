@@ -7,6 +7,12 @@ from backend import get_feature_dict
 from operator import itemgetter
 import model
 
+def map(func, iterable):
+    ans = []
+    for i in iterable:
+        ans.append(func(i))
+    return ans
+
 def scan_files(root):
     labels = {'benign': 0, 'botnet': 1}
     formats = ['a1b2c3d4', 'd4c3b2a1', '0a0d0d0a']
