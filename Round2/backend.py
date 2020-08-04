@@ -13,10 +13,16 @@ def get_dns_ips(pcap_path):
 
 def calc_feature_dict(pcap_path):
     dns_ips = set(get_dns_ips(pcap_path))
-    lines = os.popen('tshark -r '+pcap_path).readlines();
+    pipe = os.popen('tshark -r '+pcap_path)
     flows = collections.defaultdict(lambda: collections.defaultdict(float))
 
-    for l in lines:
+    while True:
+        try:
+            l = pipe.readline()
+        except:
+            break
+        if not l:
+            break
         try:
             l = l.split(' ')
             l = [x for x in l if x != '']
