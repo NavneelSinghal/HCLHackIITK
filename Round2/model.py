@@ -28,17 +28,11 @@ def load_trained_classifier(pickle_root):
         return None
 
 def get_trained_classifier(D, y, pickle_root=None):
+    clf = calc_trained_classifier(D, y)
     if pickle_root is not None:
-        clf = load_trained_classifier(pickle_root)
-        if clf is not None:
-            return clf
-        else:
-            clf = calc_trained_classifier(D, y)
-            pickle_path = os.path.join(pickle_root, 'model.pickle')
-            pickle.dump(clf, open(pickle_path, 'wb'))
-            return clf
-    else:
-        return calc_trained_classifier(D, y)
+        pickle_path = os.path.join(pickle_root, 'model.pickle')
+        pickle.dump(clf, open(pickle_path, 'wb'))
+    return clf
 
 def predict(clf, D):
     print('predicting...', end='\r')
