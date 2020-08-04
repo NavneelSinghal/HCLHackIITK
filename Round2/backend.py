@@ -1,5 +1,7 @@
 import os
+import glob
 import collections
+import pickle
 
 def get_dns_ips(pcap_path):
     lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns.flags.response == 1' -T fields -e dns.a").readlines();
@@ -65,3 +67,18 @@ def calc_feature_dict(pcap_path):
 
     return feature_dicts, flow_ids
 
+def pickle_name(path):
+    return path.replace('/', '_').replace('\\', '_').replace('.', '_')+'.pickle'
+
+def get_feature_dict(pcap_path, pickle_root=None):
+    if pickle_root is not None:
+        pf = pickle_name(pcap_path)
+        pickle_path = os.path.join(pickle_root, pf)
+        if os.path.isfile(pickle_path):
+            return pickle.load(open(pickle_path, 'rb'))
+        else:
+            D, F = calc_feature_dict(pcap_path)
+            pickle.dump((D, F), open(pickle_path, 'wb'))
+            return D, F
+    else:
+        return calc_feature_dict(pcap_path)
