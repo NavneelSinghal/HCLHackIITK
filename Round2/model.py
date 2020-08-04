@@ -44,12 +44,22 @@ def predict(clf, D):
     print('predicting...', end='\r')
     start = time.time()
     y_pred = clf.predict(D)
-    end = time.time()
+    finish = time.time()
     print('prediction time:', finish-start, 's')
     print('prediction time per traffic:', (finish-start)/len(D), 's')
+    return y_pred
 
 def print_metrics(y_true, y_pred):
-    print('mismatch:', ctr, '/', len(y_true))
+    fp_ctr = 0
+    fn_ctr = 0
+    for i in range(len(y_true)):
+        if y_true[i] == 1 and y_pred[i] == 0:
+            fn_ctr += 1
+        elif y_true[i] == 0 and y_pred[i] == 1:
+            fp_ctr += 1
+    print('false positives:', fp_ctr, '/', len(y_true))
+    print('false negatives:', fn_ctr, '/', len(y_true))
+    print('total mismatch:', fp_ctr+fn_ctr, '/', len(y_true))
     print('accuracy:', accuracy_score(y_true, y_pred))
     print('f1 (micro):', f1_score(y_true, y_pred, average='micro'))
     print('recall (micro):', recall_score(y_true, y_pred, average='micro'))
