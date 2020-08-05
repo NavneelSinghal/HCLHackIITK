@@ -3,34 +3,6 @@ import glob
 import collections
 import pickle
 
-def tempmod_D(D):
-    for d in D:
-        dl = []
-        ad = collections.defaultdict(int)
-        for k, v in d.items():
-            h, t = k.split('#')
-            if t == 'in_ratio':
-                if v < 1:
-                    ad[h+'#sym_ratio'] = v
-                dl.append(k)
-            elif t == 'out_ratio':
-                if v < 1:
-                    ad[h+'#sym_ratio'] = v
-                dl.append(k)
-            elif t == 'in_len_ratio':
-                if v < 1:
-                    ad[h+'#sym_len_ratio'] = v
-                dl.append(k)
-            elif t == 'out_len_ratio':
-                if v < 1:
-                    ad[h+'#sym_len_ratio'] = v
-                dl.append(k)
-        for k in dl:
-            d.pop(k)
-        for k, v in ad.items():
-            d[k] = v
-    return D
-
 def get_dns_ips(pcap_path):
     lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns.flags.response == 1' -T fields -e dns.a").readlines();
     lines = [l.rstrip() for l in lines if l.rstrip()]
@@ -50,7 +22,6 @@ def calc_feature_dict(pcap_path):
         except:
             break
         if not line:
-            #print('ERROR IN THIS LINE')
             break
         try:
             l = line.split(' ')
@@ -75,13 +46,15 @@ def calc_feature_dict(pcap_path):
         if d[s+'first_time'] == 0:
             d[s+'first_time'] = ptime
         d[s+'last_time'] = ptime
-        # d[s+'avg_time'] += ptime
+        d[s+'variance_time'] += ptime**2
+        d[s+'avg_time'] += ptime
         if d[s+'min_len'] == 0:
             d[s+'min_len'] = plen
         else:
             d[s+'min_len'] = min(d[s+'min_len'], plen)
         d[s+'max_len'] = max(d[s+'max_len'], plen)
         d[s+'sum_len'] += plen
+        d[s+'variance_len'] += plen**2
         d[s+'avg_len'] += plen
         if d[s+'first_len'] == 0:
             d[s+'first_len'] = plen
@@ -100,6 +73,14 @@ def calc_feature_dict(pcap_path):
                 d[k] = v/d[p+'#num_pkts']
             elif q == 'out_len_ratio' or q == 'in_len_ratio':
                 d[k] = v/d[p+'#sum_len']
+
+    for _, d in flows.items():
+        for k, v in d.items():
+            p, q = k.split('#')
+            if q == 'variance_time':
+                d[k] = v/d[p+'#num_pkts'] - d[p+'#avg_time']**2
+            elif q == 'variance_len':
+                d[k] = v/d[p+'#num_pkts'] - d[p+'#avg_len']**2
 
     feature_dicts = []
     flow_ids = []

@@ -7,14 +7,56 @@ from sklearn.metrics import *
 import time
 import os
 import pickle
+import collections
+import math
 
 def prune_features(D):
-    for x in D:
-        for k in x:
-            if len(k) > 3 and k[-3:] in ['max', 'min']:
-                    del x[k]
+    for d in D:
+        dl = []
+        ad = collections.defaultdict(int)
+        for k, v in d.items():
+            h, t = k.split('#')
+            npr = 1/d[h+'#num_pkts']
+            nlr = d[h+'#avg_len']/d[h+'#sum_len']
+            if t == 'in_ratio':
+                if v < 0.5:
+                    ad[h+'#sym_corr'] -= math.log(npr+v)
+                else:
+                    ad[h+'#sym_corr'] += math.log(npr+v)
+                dl.append(k)
+            elif t == 'out_ratio':
+                if v <= 0.5:
+                    ad[h+'#sym_corr'] -= math.log(npr+v)
+                else:
+                    ad[h+'#sym_corr'] += math.log(npr+v)
+                dl.append(k)
+            elif t == 'in_len_ratio':
+                if v < 0.5:
+                    ad[h+'#sym_len_corr'] -= math.log(nlr+v)
+                else:
+                    ad[h+'#sym_len_corr'] += math.log(nlr+v)
+                dl.append(k)
+            elif t == 'out_len_ratio':
+                if v <= 0.5:
+                    ad[h+'#sym_len_corr'] -= math.log(nlr+v)
+                else:
+                    ad[h+'#sym_len_corr'] += math.log(nlr+v)
+                dl.append(k)
+            elif t == 'first_time':
+                ad[h+'#duration'] -= v
+                dl.append(k)
+            elif t == 'last_time':
+                ad[h+'#duration'] += v
+                dl.append(k)
+            elif t == 'min_len' or t == 'max_len' or t == 'last_len':
+                dl.append(k)
+            elif t == 'avg_time' or t == 'variance_time':
+                dl.append(k)
+        for k in dl:
+            d.pop(k)
+        for k, v in ad.items():
+            d[k] = v
     return D
-
 
 def calc_trained_classifier(D, y):
     D = prune_features(D)
