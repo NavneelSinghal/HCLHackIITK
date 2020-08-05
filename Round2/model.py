@@ -10,9 +10,14 @@ import pickle
 
 def prune_features(D):
     for x in D:
-        del x['']
+        for k in x:
+            if len(k) > 3 and k[-3:] in ['max', 'min']:
+                    del x[k]
+    return D
+
 
 def calc_trained_classifier(D, y):
+    D = prune_features(D)
     pipe = make_pipeline(
         DictVectorizer(),
         GradientBoostingClassifier()

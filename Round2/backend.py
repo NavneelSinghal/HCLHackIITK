@@ -22,7 +22,7 @@ def calc_feature_dict(pcap_path):
         except:
             break
         if not line:
-            print('WTF IS THIS LINE')
+            #print('ERROR IN THIS LINE')
             break
         try:
             l = line.split(' ')
@@ -38,7 +38,7 @@ def calc_feature_dict(pcap_path):
             except:
                 plen = int(l[7])
         except:
-            print(f'Failed at ({proto}): {line}')
+            #print(f'Failed at ({proto}): {line}')
             continue
         ip1, ip2 = sorted([src, dest])
         d = flows[ip1, ip2]
