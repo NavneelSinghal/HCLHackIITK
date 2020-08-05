@@ -1,18 +1,19 @@
-import sys
-import os
-import subprocess
-import glob
 import collections
+import glob
+import math
+import os
 import pickle
+import subprocess
+import time
 
 def get_dns_ips(pcap_path):
-    #lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns && dns.flags.response == 1' -T fields -e dns.a").readlines();
     proc = subprocess.Popen(
         ['tshark', '-r', pcap_path, '-Y', 'dns && dns.flags.response == 1', '-T', 'fields', '-e', 'dns.a'],
         stdout = subprocess.PIPE,
         stderr = subprocess.PIPE,
         text = True
     )
+    # print errs to a file to see error output
     outs, errs = proc.communicate()
     lines = [l for l in outs.split('\n') if l.rstrip()]
     ret = []
@@ -22,18 +23,19 @@ def get_dns_ips(pcap_path):
 
 def calc_feature_dict(pcap_path):
     dns_ips = set(get_dns_ips(pcap_path))
-    pipe = os.popen('tshark -r '+pcap_path)
-    flows = collections.defaultdict(lambda: collections.defaultdict(float))
+    proc = subprocess.Popen(
+        ['tshark', '-r', pcap_path],
+        stdout = subprocess.PIPE,
+        stderr = subprocess.PIPE,
+        text = True
+        )
+    outs, errs = proc.communicate()
+    lines = outs.split('\n')
+    flows = collections.defaultdict(lambda: (collections.defaultdict(float), collections.defaultdict(float)))
 
-    while True:
+    for l in lines:
         try:
-            line = pipe.readline()
-        except:
-            break
-        if not line:
-            break
-        try:
-            l = line.split(' ')
+            l = l.split(' ')
             l = [x for x in l if x != '']
             ptime = float(l[1])
             src = l[2]
@@ -52,55 +54,64 @@ def calc_feature_dict(pcap_path):
                 except:
                     break
         except:
-            #print(f'Failed at ({proto}): {line}')
             continue
         ip1, ip2 = sorted([src, dest])
-        d = flows[ip1, ip2]
+        d, dd = flows[ip1, ip2]
         s = proto+'#'
         d[s+'num_pkts'] += 1
-        if d[s+'first_time'] == 0:
-            d[s+'first_time'] = ptime
-        d[s+'last_time'] = ptime
+        if dd[s+'first_time'] == 0:
+            dd[s+'first_time'] = ptime
+        dd[s+'last_time'] = ptime
         d[s+'variance_time'] += ptime**2
-        d[s+'avg_time'] += ptime
-        if d[s+'min_len'] == 0:
-            d[s+'min_len'] = plen
-        else:
-            d[s+'min_len'] = min(d[s+'min_len'], plen)
-        d[s+'max_len'] = max(d[s+'max_len'], plen)
+        dd[s+'avg_time'] += ptime
         d[s+'sum_len'] += plen
         d[s+'variance_len'] += plen**2
         d[s+'avg_len'] += plen
         if d[s+'first_len'] == 0:
             d[s+'first_len'] = plen
-        d[s+'last_len'] = plen
         if ip1 == src:
-            d[s+'out_ratio'] += 1
-            d[s+'out_len_ratio'] += plen
+            dd[s+'out'] += 1
+            dd[s+'out_len'] += plen
         elif ip2 == src:
-            d[s+'in_ratio'] += 1
-            d[s+'in_len_ratio'] += plen
+            dd[s+'in'] += 1
+            dd[s+'in_len'] += plen
 
-    for _, d in flows.items():
+    for _, (d, dd) in flows.items():
+        for k, v in dd.items():
+            p, q = k.split('#')
+            if q == 'first_time':
+                d[p+'#duration'] -= v
+            elif q == 'last_time':
+                d[p+'#duration'] += v
+            elif q == 'in':
+                d[p+'#sym_corr'] -= math.log(1+v)
+            elif q == 'out':
+                d[p+'#sym_corr'] += math.log(1+v)
+            elif q == 'in_len':
+                d[p+'#sym_len_corr'] -= math.log(1+v)
+            elif q == 'out_len':
+                d[p+'#sym_len_corr'] += math.log(1+v)
+            elif q == 'avg_time':
+                dd[k] = v/d[p+'#num_pkts']
         for k, v in d.items():
             p, q = k.split('#')
-            if q == 'avg_time' or q == 'avg_len' or q == 'out_ratio' or q == 'in_ratio':
+            if q == 'avg_len':
                 d[k] = v/d[p+'#num_pkts']
-            elif q == 'out_len_ratio' or q == 'in_len_ratio':
-                d[k] = v/d[p+'#sum_len']
+            elif q.endswith('corr'):
+                d[k] = abs(v)
 
-    for _, d in flows.items():
+    for _, (d, dd) in flows.items():
         for k, v in d.items():
             p, q = k.split('#')
             if q == 'variance_time':
-                d[k] = v/d[p+'#num_pkts'] - d[p+'#avg_time']**2
+                d[k] = v/d[p+'#num_pkts'] - dd[p+'#avg_time']**2
             elif q == 'variance_len':
                 d[k] = v/d[p+'#num_pkts'] - d[p+'#avg_len']**2
 
     feature_dicts = []
     flow_ids = []
-    for k, v in flows.items():
-        feature_dicts.append(v)
+    for k, (d, dd) in flows.items():
+        feature_dicts.append(d)
         flow_ids.append(k)
 
     return feature_dicts, flow_ids
@@ -115,7 +126,11 @@ def get_feature_dict(pcap_path, pickle_root=None):
         if os.path.isfile(pickle_path):
             return pickle.load(open(pickle_path, 'rb'))
         else:
+            print('fresh feature extraction...', end='\r')
+            start = time.time()
             D, F = calc_feature_dict(pcap_path)
+            finish = time.time()
+            print('feature extraction time:', finish-start, 's')
             pickle.dump((D, F), open(pickle_path, 'wb'))
             return D, F
     else:

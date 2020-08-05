@@ -6,6 +6,7 @@ import time
 import os
 import pickle
 import collections
+import numpy
 
 def calc_trained_classifier(D, y):
     pipe = make_pipeline(
@@ -69,10 +70,13 @@ def test(clf, D, y):
 def output_csv(D, y, csv_path):
     fl = open(csv_path, 'w')
     fcols = {}
+    head = ''
     for d in D:
         for k in d.keys():
             if k not in fcols:
                 fcols[k] = len(fcols)
+                head += k+','
+    print(head[:-1], file=fl)
     mat = [[0. for _ in range(len(fcols))] for _ in range(len(D))]
     for i in range(len(D)):
         d = D[i]
@@ -80,5 +84,27 @@ def output_csv(D, y, csv_path):
             mat[i][fcols[k]] = v
     for i in range(len(mat)):
         for val in mat[i]:
-            print('{:.6g}'.format(val), ',', sep='', end='', file=fl)
+            print('{:.6g}'.format(val), end=',', file=fl)
         print(int(y[i]), file=fl)
+
+def load_D_y_from_csv(csv_path):
+    lines = open(csv_path, 'r').readlines()
+    lines = [l.rstrip() for l in lines]
+
+    heads = lines[0].split(',')
+    inv = []
+    for h in heads:
+        inv.append(h)
+
+    D = []
+    y = []
+    for l in lines[1:]:
+        d = {}
+        vals = l.split(',')
+        for i in range(len(vals)-1):
+            if vals[i] != 0:
+                d[inv[i]] = float(vals[i])
+        D.append(d)
+        y.append(float(vals[-1]))
+
+    return D, y
