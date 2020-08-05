@@ -8,6 +8,10 @@ import time
 import os
 import pickle
 
+def prune_features(D):
+    for x in D:
+        del x['']
+
 def calc_trained_classifier(D, y):
     pipe = make_pipeline(
         DictVectorizer(),
