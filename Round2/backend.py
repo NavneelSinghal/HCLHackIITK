@@ -3,6 +3,34 @@ import glob
 import collections
 import pickle
 
+def tempmod_D(D):
+    for d in D:
+        dl = []
+        ad = collections.defaultdict(int)
+        for k, v in d.items():
+            h, t = k.split('#')
+            if t == 'in_ratio':
+                if v < 1:
+                    ad[h+'#sym_ratio'] = v
+                dl.append(k)
+            elif t == 'out_ratio':
+                if v < 1:
+                    ad[h+'#sym_ratio'] = v
+                dl.append(k)
+            elif t == 'in_len_ratio':
+                if v < 1:
+                    ad[h+'#sym_len_ratio'] = v
+                dl.append(k)
+            elif t == 'out_len_ratio':
+                if v < 1:
+                    ad[h+'#sym_len_ratio'] = v
+                dl.append(k)
+        for k in dl:
+            d.pop(k)
+        for k, v in ad.items():
+            d[k] = v
+    return D
+
 def get_dns_ips(pcap_path):
     lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns.flags.response == 1' -T fields -e dns.a").readlines();
     lines = [l.rstrip() for l in lines if l.rstrip()]
