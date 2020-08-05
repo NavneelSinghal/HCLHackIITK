@@ -1,74 +1,16 @@
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import *
 import time
 import os
 import pickle
 import collections
-import math
-
-def prune_features(D):
-    for d in D:
-        dl = []
-        ad = collections.defaultdict(int)
-        for k, v in d.items():
-            h, t = k.split('#')
-            # NOTE: this is a fix if your feature extractor has extracted in_ratio wrongly (ie without dividing by the number of packets)
-            # if t == 'in_ratio':
-                # d[k] /= d[h+'#num_pkts']
-            # === fix ends here ===
-            npr = 1/d[h+'#num_pkts']
-            nlr = d[h+'#avg_len']/d[h+'#sum_len']
-            if t == 'in_ratio':
-                if v < 0.5:
-                    ad[h+'#sym_corr'] -= math.log(npr+v)
-                else:
-                    ad[h+'#sym_corr'] += math.log(npr+v)
-                dl.append(k)
-            elif t == 'out_ratio':
-                if v <= 0.5:
-                    ad[h+'#sym_corr'] -= math.log(npr+v)
-                else:
-                    ad[h+'#sym_corr'] += math.log(npr+v)
-                dl.append(k)
-            elif t == 'in_len_ratio':
-                if v < 0.5:
-                    ad[h+'#sym_len_corr'] -= math.log(nlr+v)
-                else:
-                    ad[h+'#sym_len_corr'] += math.log(nlr+v)
-                dl.append(k)
-            elif t == 'out_len_ratio':
-                if v <= 0.5:
-                    ad[h+'#sym_len_corr'] -= math.log(nlr+v)
-                else:
-                    ad[h+'#sym_len_corr'] += math.log(nlr+v)
-                dl.append(k)
-            elif t == 'first_time':
-                ad[h+'#duration'] -= v
-                dl.append(k)
-            elif t == 'last_time':
-                ad[h+'#duration'] += v
-                dl.append(k)
-            elif t == 'min_len' or t == 'max_len' or t == 'last_len':
-                dl.append(k)
-            elif t == 'avg_time' or t == 'variance_time':
-                dl.append(k)
-        for k in dl:
-            d.pop(k)
-        for k, v in ad.items():
-            d[k] = v
-    return D
 
 def calc_trained_classifier(D, y):
-    D = prune_features(D)
     pipe = make_pipeline(
         DictVectorizer(),
         GradientBoostingClassifier()
-        #RandomForestClassifier()
-        #DecisionTreeClassifier()
     )
     print('training...', end='\r')
     start = time.time()
@@ -123,3 +65,20 @@ def print_metrics(y_true, y_pred):
 def test(clf, D, y):
     y_pred = predict(clf, D)
     print_metrics(y, y_pred)
+
+def output_csv(D, y, csv_path):
+    fl = open(csv_path, 'w')
+    fcols = {}
+    for d in D:
+        for k in d.keys():
+            if k not in fcols:
+                fcols[k] = len(fcols)
+    mat = [[0. for _ in range(len(fcols))] for _ in range(len(D))]
+    for i in range(len(D)):
+        d = D[i]
+        for k, v in d.items():
+            mat[i][fcols[k]] = v
+    for i in range(len(mat)):
+        for val in mat[i]:
+            print('{:.6g}'.format(val), ',', sep='', end='', file=fl)
+        print(int(y[i]), file=fl)
