@@ -11,8 +11,9 @@ import pickle
 def calc_trained_classifier(D, y):
     pipe = make_pipeline(
         DictVectorizer(),
+        GradientBoostingClassifier()
         #RandomForestClassifier()
-        DecisionTreeClassifier()
+        #DecisionTreeClassifier()
     )
     print('training...', end='\r')
     start = time.time()
