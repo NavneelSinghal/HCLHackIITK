@@ -5,7 +5,7 @@ import collections
 import pickle
 
 def get_dns_ips(pcap_path):
-    lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns.flags.response == 1' -T fields -e dns.a").readlines();
+    lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns && dns.flags.response == 1' -T fields -e dns.a").readlines();
     lines = [l.rstrip() for l in lines if l.rstrip()]
     ret = []
     for l in lines:
@@ -20,6 +20,7 @@ def calc_feature_dict(pcap_path):
     while True:
         try:
             line = pipe.readline()
+            print(line)
         except:
             break
         if not line:
@@ -30,8 +31,8 @@ def calc_feature_dict(pcap_path):
             ptime = float(l[1])
             src = l[2]
             dest = l[4]
-            #if src in dns_ips or dest in dns_ips:
-                #continue
+            if src in dns_ips or dest in dns_ips:
+                continue
             proto = l[5]
             ind = 6
             while True:
