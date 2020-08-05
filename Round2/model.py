@@ -16,6 +16,10 @@ def prune_features(D):
         ad = collections.defaultdict(int)
         for k, v in d.items():
             h, t = k.split('#')
+            # NOTE: this is a fix if your feature extractor has extracted in_ratio wrongly (ie without dividing by the number of packets)
+            # if t == 'in_ratio':
+                # d[k] /= d[h+'#num_pkts']
+            # === fix ends here ===
             npr = 1/d[h+'#num_pkts']
             nlr = d[h+'#avg_len']/d[h+'#sum_len']
             if t == 'in_ratio':
