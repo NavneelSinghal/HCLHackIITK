@@ -56,7 +56,7 @@ if __name__ == '__main__':
     parser.add_argument(
             '--retrain',
             action='store_true',
-            help='Retrain the model using feature vectors in CSV file'
+            help='Retrain the model using feature vectors in the specified JSON file'
     )
     parser.add_argument(
             '--validate',
@@ -122,6 +122,15 @@ if __name__ == '__main__':
             flows.append(record['traffic'])
         mode = 'train'
         ids = [None] * len(labels)
+
+        zipped = list(zip(flows, labels, ids))
+        random.shuffle(zipped)
+        training_data = zipped
+        print(f'\nTraining model on {len(training_data)} flows ...')
+        clf = model.get_trained_classifier(
+                map(itemgetter(0), training_data),
+                map(itemgetter(1), training_data),
+                'cache/')
         # flows, labels = load_D_y_from_csv(inputs[0])
         # ids = [None] * len(labels)
         # mode = 'train'
