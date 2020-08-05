@@ -1,4 +1,5 @@
 import sys
+import json
 import random
 import argparse
 from pathlib import Path
@@ -113,17 +114,17 @@ if __name__ == '__main__':
             pass
 
     if mode == 'retrain':
-        # with open(inputs[0], 'r') as save:
-        #     loaded = json.load(save)
-        # flows, labels, ids = [], [] , []
-        # for record in loaded:
-        #     ids.append((record['src'], record['dst']))
-        #     labels.append(record['label'])
-        #     flows.append(record['traffic'])
-        # mode = 'train'
-        flows, labels = load_D_y_from_csv(inputs[0])
-        ids = [None] * len(labels)
+        with open(inputs[0], 'r') as save:
+            loaded = json.load(save)
+        flows, labels, ids = [], [] , []
+        for record in loaded:
+            labels.append(record['label'])
+            flows.append(record['traffic'])
         mode = 'train'
+        ids = [None] * len(labels)
+        # flows, labels = load_D_y_from_csv(inputs[0])
+        # ids = [None] * len(labels)
+        # mode = 'train'
 
     else:
         print('Scanning for PCAP files ...')
@@ -156,19 +157,19 @@ if __name__ == '__main__':
         del files
 
     if mode == 'dump':
-        # dump_data = []
-        # for f,l,i in zip(flows,labels,ids):
-        #     record = {
-        #             'label': l,
-        #             'src': i[0],
-        #             'dst': i[1],
-        #             'traffic': f
-        #     }
-        #     dump_data.append(record)
-        # with open('preprocessed.json', 'w') as save:
-        #     json.dump(dump_data, save)
-        model.output_csv(flows, labels, 'preprocessed.csv')
+        dump_data = []
+        for f,l,i in zip(flows,labels,ids):
+            record = {
+                    'label': l,
+                    'src': i[0],
+                    'dst': i[1],
+                    'traffic': f
+            }
+            dump_data.append(record)
+        with open('preprocessed.json', 'w') as save:
+            json.dump(dump_data, save)
         exit()
+        # model.output_csv(flows, labels, 'preprocessed.csv')
 
     def class_balance(labs):
         cnt0, cnt1 = 0, 0
