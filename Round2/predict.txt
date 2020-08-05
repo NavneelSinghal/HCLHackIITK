@@ -1,0 +1,2 @@
+./Botnet_Detection_Dataset/Benign/p2pbox2/p2pbox2.2011032909.pcap.clean.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/

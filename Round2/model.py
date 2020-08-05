@@ -1,4 +1,4 @@
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction import DictVectorizer
@@ -8,11 +8,21 @@ import time
 import os
 import pickle
 
+def prune_features(D):
+    for x in D:
+        for k in x:
+            if len(k) > 3 and k[-3:] in ['max', 'min']:
+                    del x[k]
+    return D
+
+
 def calc_trained_classifier(D, y):
+    D = prune_features(D)
     pipe = make_pipeline(
         DictVectorizer(),
+        GradientBoostingClassifier()
         #RandomForestClassifier()
-        DecisionTreeClassifier()
+        #DecisionTreeClassifier()
     )
     print('training...', end='\r')
     start = time.time()

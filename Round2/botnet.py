@@ -23,6 +23,11 @@ def scan_files(root):
             with open(path, 'rb') as f:
                 byt = f.read(4)
             if byt.hex() in formats:
+                if not label:
+                    if 'Benign' in path.parts:
+                        label = 0
+                    elif 'Botnet' in path.parts:
+                        label = 1
                 files.append((label, str(path)))
         else:
             if path.name.lower() in labels:
@@ -129,12 +134,23 @@ if __name__ == '__main__':
             _flows, _ids = get_feature_dict(f[1], 'cache/')
             flows.extend(_flows)
             ids.extend(_ids)
-            labels.extend([f[0]] * len(flows))
+            labels.extend([f[0]] * len(_flows))
         except BaseException as e:
             print(f'CRITICAL: Parsing Error on file {f}')
             traceback.print_exc()
     print('Feature extraction complete!\n')
     del files
+
+    def class_balance(labs):
+        cnt0, cnt1 = 0, 0
+        for l in labs:
+            if l == 1:
+                cnt1 += 1
+            elif l == 0:
+                cnt0 += 1
+            else:
+                print('Failed to detect some labels')
+        print(f'Class Balance : {cnt0} vs {cnt1}')
 
     if mode == 'train':
         zipped = list(zip(flows, labels, ids))
@@ -142,12 +158,14 @@ if __name__ == '__main__':
         training_data = zipped[:int(args['split'] * len(zipped))]
         test_data = zipped[len(training_data):]
         print(f'\nTraining model on {len(training_data)} flows ...')
+        class_balance(map(itemgetter(1), training_data))
         clf = model.get_trained_classifier(
                 map(itemgetter(0), training_data),
                 map(itemgetter(1), training_data),
                 'cache/')
 
         print(f'\nEvaluating model on {len(test_data)} flows ...')
+        class_balance(map(itemgetter(1), test_data))
         predictions = model.predict(clf, map(itemgetter(0), training_data))
         model.print_metrics(
                 map(itemgetter(1), training_data),
@@ -157,6 +175,7 @@ if __name__ == '__main__':
         clf = model.load_trained_classifier('cache/')
         if not clf:
             raise ValueError('No trained classifier found to load!')
+        class_balance(labels)
         predictions = model.predict(clf, flows)
         model.print_metrics(labels, predictions)
 

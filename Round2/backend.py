@@ -46,13 +46,14 @@ def calc_feature_dict(pcap_path):
 
     while True:
         try:
-            l = pipe.readline()
+            line = pipe.readline()
         except:
             break
-        if not l:
+        if not line:
+            #print('ERROR IN THIS LINE')
             break
         try:
-            l = l.split(' ')
+            l = line.split(' ')
             l = [x for x in l if x != '']
             ptime = float(l[1])
             src = l[2]
@@ -65,6 +66,7 @@ def calc_feature_dict(pcap_path):
             except:
                 plen = int(l[7])
         except:
+            print(f'Failed at ({proto}): {line}')
             continue
         ip1, ip2 = sorted([src, dest])
         d = flows[ip1, ip2]
@@ -73,7 +75,7 @@ def calc_feature_dict(pcap_path):
         if d[s+'first_time'] == 0:
             d[s+'first_time'] = ptime
         d[s+'last_time'] = ptime
-        d[s+'avg_time'] += ptime
+        # d[s+'avg_time'] += ptime
         if d[s+'min_len'] == 0:
             d[s+'min_len'] = plen
         else:
