@@ -131,6 +131,7 @@ if __name__ == '__main__':
                 map(itemgetter(0), training_data),
                 map(itemgetter(1), training_data),
                 'cache/')
+        exit()
         # flows, labels = load_D_y_from_csv(inputs[0])
         # ids = [None] * len(labels)
         # mode = 'train'
