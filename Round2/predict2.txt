@@ -1,0 +1,3 @@
+./Botnet_Detection_Dataset/Benign/p2pbox2/
+./Botnet_Detection_Dataset/Botnet/vinchuca/
+./Botnet_Detection_Dataset/Botnet/zeus/

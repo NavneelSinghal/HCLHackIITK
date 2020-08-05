@@ -1,0 +1,13 @@
+./Botnet_Detection_Dataset/Benign/p2pbox1/p2pbox1.2011032702.pcap.clean.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-1.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-2.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-3.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-4.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-5.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-6.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-7.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-8.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-9.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-10.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-11.pcap
+./Botnet_Detection_Dataset/Botnet/zeus/zeus1-12.pcap
