@@ -20,7 +20,7 @@ def calc_feature_dict(pcap_path):
     while True:
         try:
             line = pipe.readline()
-            print(line)
+            # print(line)
         except:
             break
         if not line:
