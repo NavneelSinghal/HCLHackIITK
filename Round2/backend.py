@@ -1,12 +1,20 @@
 import sys
 import os
+import subprocess
 import glob
 import collections
 import pickle
 
 def get_dns_ips(pcap_path):
-    lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns && dns.flags.response == 1' -T fields -e dns.a").readlines();
-    lines = [l.rstrip() for l in lines if l.rstrip()]
+    #lines = os.popen("tshark -r \'" + pcap_path + "\' -Y 'dns && dns.flags.response == 1' -T fields -e dns.a").readlines();
+    proc = subprocess.Popen(
+        ['tshark', '-r', pcap_path, '-Y', 'dns && dns.flags.response == 1', '-T', 'fields', '-e', 'dns.a'],
+        stdout = subprocess.PIPE,
+        stderr = subprocess.PIPE,
+        text = True
+    )
+    outs, errs = proc.communicate()
+    lines = [l for l in outs.split('\n') if l.rstrip()]
     ret = []
     for l in lines:
         ret += l.split(',')
@@ -20,7 +28,6 @@ def calc_feature_dict(pcap_path):
     while True:
         try:
             line = pipe.readline()
-            print(line)
         except:
             break
         if not line:
@@ -45,7 +52,7 @@ def calc_feature_dict(pcap_path):
                 except:
                     break
         except:
-            print(f'Failed at ({proto}): {line}')
+            #print(f'Failed at ({proto}): {line}')
             continue
         ip1, ip2 = sorted([src, dest])
         d = flows[ip1, ip2]
@@ -77,7 +84,7 @@ def calc_feature_dict(pcap_path):
     for _, d in flows.items():
         for k, v in d.items():
             p, q = k.split('#')
-            if q == 'avg_time' or q == 'avg_len' or q == 'out_ratio':
+            if q == 'avg_time' or q == 'avg_len' or q == 'out_ratio' or q == 'in_ratio':
                 d[k] = v/d[p+'#num_pkts']
             elif q == 'out_len_ratio' or q == 'in_len_ratio':
                 d[k] = v/d[p+'#sum_len']
