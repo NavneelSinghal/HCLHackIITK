@@ -1,8 +1,0 @@
-./Botnet_Detection_Dataset/Benign/p2pbox1/p2pbox1.2011032611.pcap.clean.pcap
-./Botnet_Detection_Dataset/Benign/p2pbox1/p2pbox1.2011032702.pcap.clean.pcap
-./Botnet_Detection_Dataset/Benign/p2pbox1/p2pbox1.2011032706.pcap.clean.pcap
-./Botnet_Detection_Dataset/Benign/torrent/torrent_00011_20180321041851.pcap
-./Botnet_Detection_Dataset/Benign/torrent/torrent_00015_20180321081851.pcap
-./Botnet_Detection_Dataset/Benign/torrent/torrent_00009_20180321021851.pcap
-./Botnet_Detection_Dataset/Botnet/storm/gtisc-winobot.20071027.1193443201
-./Botnet_Detection_Dataset/Botnet/storm/gtisc-winobot.20071027.1193446801
