@@ -1,3 +1,4 @@
+import sys
 import os
 import glob
 import collections
@@ -29,13 +30,19 @@ def calc_feature_dict(pcap_path):
             ptime = float(l[1])
             src = l[2]
             dest = l[4]
-            if src in dns_ips or dest in dns_ips:
-                continue
+            #if src in dns_ips or dest in dns_ips:
+                #continue
             proto = l[5]
-            try:
-                plen = int(l[6])
-            except:
-                plen = int(l[7])
+            ind = 6
+            while True:
+                try:
+                    plen = int(l[ind])
+                    break
+                except ValueError:
+                    proto += '_' + l[ind]
+                    ind += 1
+                except:
+                    break
         except:
             print(f'Failed at ({proto}): {line}')
             continue
