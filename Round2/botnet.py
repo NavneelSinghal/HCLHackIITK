@@ -116,13 +116,15 @@ if __name__ == '__main__':
             pass
 
     if mode == 'retrain':
-        with open(inputs[0], 'r') as save:
-            loaded = json.load(save)
-        flows, labels, ids = [], [] , []
-        for record in loaded:
-            ids.append((record['src'], record['dst']))
-            labels.append(record['label'])
-            flows.append(record['traffic'])
+        # with open(inputs[0], 'r') as save:
+        #     loaded = json.load(save)
+        # flows, labels, ids = [], [] , []
+        # for record in loaded:
+        #     ids.append((record['src'], record['dst']))
+        #     labels.append(record['label'])
+        #     flows.append(record['traffic'])
+        # mode = 'train'
+        flows, labels = load_D_y_from_csv(inputs[0])
         mode = 'train'
 
     else:
@@ -157,17 +159,18 @@ if __name__ == '__main__':
         del files
 
     if mode == 'dump':
-        dump_data = []
-        for f,l,i in zip(flows,labels,ids):
-            record = {
-                    'label': l,
-                    'src': i[0],
-                    'dst': i[1],
-                    'traffic': f
-            }
-            dump_data.append(record)
-        with open('preprocessed.json', 'w') as save:
-            json.dump(dump_data, save)
+        # dump_data = []
+        # for f,l,i in zip(flows,labels,ids):
+        #     record = {
+        #             'label': l,
+        #             'src': i[0],
+        #             'dst': i[1],
+        #             'traffic': f
+        #     }
+        #     dump_data.append(record)
+        # with open('preprocessed.json', 'w') as save:
+        #     json.dump(dump_data, save)
+        model.output_csv(flows, labels, 'preprocessed.csv')
         exit()
 
     def class_balance(labs):

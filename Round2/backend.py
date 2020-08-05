@@ -27,7 +27,7 @@ def calc_feature_dict(pcap_path):
         ['tshark', '-r', pcap_path],
         stdout = subprocess.PIPE,
         stderr = subprocess.PIPE,
-        text = True
+        universal_newlines = True
         )
     outs, errs = proc.communicate()
     lines = outs.split('\n')
