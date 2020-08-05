@@ -31,28 +31,25 @@ python3 -m pip install -r requirements.txt
 ## Usage
 Full specification
 ```
-usage: MalwareDetection.py [-h] [--train] [--validate] [--predict]
-                           [--split [SPLIT]]
-                           [--model [{all,string,structure,dynamic}]]
-                           [--output [OUTPUT]] [--choose [n]]
-                           [inputs [inputs ...]]
+usage: botnet.py [-h] [--train] [--retrain] [--validate] [--predict] [--dump]
+                 [--split [SPLIT]] [--output [OUTPUT]] [--choose [n]]
+                 [inputs [inputs ...]]
 
-Detect malware using machine learning
+Detect P2P Botnet traffic using machine learning
 
 positional arguments:
-  inputs                Directories to search for input files
+  inputs             Directories to search for input files
 
 optional arguments:
-  -h, --help            show this help message and exit
-  --train               Use the input data to train the model
-  --validate            Use the input data to validate the model
-  --predict             Predict output on the input data
-  --split [SPLIT]       (only for train) train-total data ratio to use
-  --model [{all,string,structure,dynamic}]
-                        which model to use (default is all)
-  --output [OUTPUT]     (only for predict) save the output to a file, use
-                        stdout to print
-  --choose [n]          Use only n randomly sampled files from the input
+  -h, --help         show this help message and exit
+  --train            Use the input data to train the model
+  --retrain          Retrain the model using feature vectors in the specified JSON file
+  --validate         Use the input data to validate the model
+  --predict          Predict output on the input data
+  --dump             Save the preprocessed training data into JSON format for reproducing results
+  --split [SPLIT]    (only for train) train-total data ratio to use
+  --output [OUTPUT]  (only for predict) save the output to a file, use stdout to print
+  --choose [n]       Use only n randomly sampled files from the input
 
 ```
 ### Examples
