@@ -1,6 +1,9 @@
 # P2P Botnet Detection using Machine Learning
 In this round, we implemented p2p botnet traffic detection using machine learning techniques.
 ## Installation
+
+The tool was tested on Ubuntu and MacOS. Due to unavailability of windows machine we could not test the program there. The user is hence warned.
+
 1. The tool uses tshark (wireshark's packet dissector) as the parsing engine to read PCAP/PCAPNG files. Therefore you must have tshark installed.
 
 For Ubuntu -
