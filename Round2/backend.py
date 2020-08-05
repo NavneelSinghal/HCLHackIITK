@@ -11,7 +11,7 @@ def get_dns_ips(pcap_path):
         ['tshark', '-r', pcap_path, '-Y', 'dns && dns.flags.response == 1', '-T', 'fields', '-e', 'dns.a'],
         stdout = subprocess.PIPE,
         stderr = subprocess.PIPE,
-        text = True
+        universal_newlines = True
     )
     # print errs to a file to see error output
     outs, errs = proc.communicate()

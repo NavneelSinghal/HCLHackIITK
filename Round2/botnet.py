@@ -144,7 +144,7 @@ if __name__ == '__main__':
         print('Start feature extraction ...')
         flows, labels, ids = [], [] , []
         for (i,f) in enumerate(files):
-            print (f'({i}/{len(files)}) Now Parsing {f[1]} -- {f[0]}')
+            print (f'({i+1}/{len(files)}) Now Parsing {f[1]} -- {f[0]}')
             try:
                 _flows, _ids = get_feature_dict(f[1], 'cache/')
                 flows.extend(_flows)
@@ -167,7 +167,7 @@ if __name__ == '__main__':
             }
             dump_data.append(record)
         with open('preprocessed.json', 'w') as save:
-            json.dump(dump_data, save, indent='\t')
+            json.dump(dump_data, save)
         exit()
 
     def class_balance(labs):
