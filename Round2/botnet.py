@@ -1,9 +1,6 @@
 import sys
-import json
 import random
 import argparse
-import traceback
-from tqdm import tqdm
 from pathlib import Path
 from backend import get_feature_dict
 from operator import itemgetter
@@ -125,6 +122,7 @@ if __name__ == '__main__':
         #     flows.append(record['traffic'])
         # mode = 'train'
         flows, labels = load_D_y_from_csv(inputs[0])
+        ids = [None] * len(labels)
         mode = 'train'
 
     else:
@@ -153,8 +151,7 @@ if __name__ == '__main__':
                 ids.extend(_ids)
                 labels.extend([f[0]] * len(_flows))
             except BaseException as e:
-                print(f'CRITICAL: Parsing Error on file {f}')
-                traceback.print_exc()
+                print(f'CRITICAL: Parsing Error on file {f} : {str(e)}')
         print('Feature extraction complete!\n')
         del files
 
