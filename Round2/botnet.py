@@ -1,4 +1,5 @@
 import sys
+import json
 import random
 import argparse
 import traceback
@@ -70,6 +71,11 @@ if __name__ == '__main__':
             help='Predict output on the input data'
     )
     parser.add_argument(
+            '--dump',
+            action='store_true',
+            help='Save the preprocessed training data into JSON format for reproducing results'
+    )
+    parser.add_argument(
             '--split',
             nargs='?',
             default=0.75,
@@ -98,7 +104,7 @@ if __name__ == '__main__':
     args = vars(parser.parse_args())
     print(args)
     mode = 'predict'
-    for m in ['train', 'retrain', 'validate', 'predict']:
+    for m in ['train', 'retrain', 'validate', 'predict', 'dump']:
         if args[m]:
             mode = m
     inputs = args['inputs']
@@ -110,37 +116,59 @@ if __name__ == '__main__':
             pass
 
     if mode == 'retrain':
-        print('Re-training not implemented')
+        with open(inputs[0], 'r') as save:
+            loaded = json.load(save)
+        flows, labels, ids = [], [] , []
+        for record in loaded:
+            ids.append((record['src'], record['dst']))
+            labels.append(record['label'])
+            flows.append(record['traffic'])
+        mode = 'train'
+
+    else:
+        print('Scanning for PCAP files ...')
+        files = []
+        for inp in inputs:
+            files.extend(scan_files(inp))
+
+        print(f'Found {len(files)} PCAP/PCAPNG files.\n')
+        if args['choose']:
+            if args['choose'] < len(files):
+                files = random.sample(files, args['choose'])
+            print(f"Choosing {args['choose']} random PCAP/PCAPNG files for operation")
+
+        cache = Path('cache/')
+        if not cache.exists():
+            cache.mkdir()
+
+        print('Start feature extraction ...')
+        flows, labels, ids = [], [] , []
+        for (i,f) in enumerate(files):
+            print (f'({i}/{len(files)}) Now Parsing {f[1]} -- {f[0]}')
+            try:
+                _flows, _ids = get_feature_dict(f[1], 'cache/')
+                flows.extend(_flows)
+                ids.extend(_ids)
+                labels.extend([f[0]] * len(_flows))
+            except BaseException as e:
+                print(f'CRITICAL: Parsing Error on file {f}')
+                traceback.print_exc()
+        print('Feature extraction complete!\n')
+        del files
+
+    if mode == 'dump':
+        dump_data = []
+        for f,l,i in zip(flows,labels,ids):
+            record = {
+                    'label': l,
+                    'src': i[0],
+                    'dst': i[1],
+                    'traffic': f
+            }
+            dump_data.append(record)
+        with open('preprocessed.json', 'w') as save:
+            json.dump(dump_data, save, indent='\t')
         exit()
-
-    print('Scanning for PCAP files ...')
-    files = []
-    for inp in inputs:
-        files.extend(scan_files(inp))
-    print(f'Found {len(files)} PCAP/PCAPNG files.\n')
-    if args['choose']:
-        if args['choose'] < len(files):
-            files = random.sample(files, args['choose'])
-        print(f"Choosing {args['choose']} random PCAP/PCAPNG files for operation")
-
-    cache = Path('cache/')
-    if not cache.exists():
-        cache.mkdir()
-
-    print('Start feature extraction ...')
-    flows, labels, ids = [], [] , []
-    for (i,f) in enumerate(files):
-        print (f'({i}/{len(files)}) Now Parsing {f[1]} -- {f[0]}')
-        try:
-            _flows, _ids = get_feature_dict(f[1], 'cache/')
-            flows.extend(_flows)
-            ids.extend(_ids)
-            labels.extend([f[0]] * len(_flows))
-        except BaseException as e:
-            print(f'CRITICAL: Parsing Error on file {f}')
-            traceback.print_exc()
-    print('Feature extraction complete!\n')
-    del files
 
     def class_balance(labs):
         cnt0, cnt1 = 0, 0

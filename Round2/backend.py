@@ -20,7 +20,6 @@ def calc_feature_dict(pcap_path):
     while True:
         try:
             line = pipe.readline()
-            print(line)
         except:
             break
         if not line:
@@ -77,7 +76,7 @@ def calc_feature_dict(pcap_path):
     for _, d in flows.items():
         for k, v in d.items():
             p, q = k.split('#')
-            if q == 'avg_time' or q == 'avg_len' or q == 'out_ratio':
+            if q == 'avg_time' or q == 'avg_len' or q == 'out_ratio' or q == 'in_ratio':
                 d[k] = v/d[p+'#num_pkts']
             elif q == 'out_len_ratio' or q == 'in_len_ratio':
                 d[k] = v/d[p+'#sum_len']
