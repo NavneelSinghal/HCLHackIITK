@@ -129,7 +129,8 @@ if __name__ == '__main__':
 
     print('Start feature extraction ...')
     flows, labels, ids = [], [] , []
-    for f in tqdm(files):
+    for (i,f) in enumerate(files):
+        print (f'({i}/{len(files)}) Now Parsing {f[1]} -- {f[0]}')
         try:
             _flows, _ids = get_feature_dict(f[1], 'cache/')
             flows.extend(_flows)
