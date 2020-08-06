@@ -7,6 +7,49 @@ import os
 import pickle
 import collections
 
+def output_csv(D, y, csv_path):
+    fl = open(csv_path, 'w')
+    fcols = {}
+    head = ''
+    for d in D:
+        for k in d.keys():
+            if k not in fcols:
+                fcols[k] = len(fcols)
+                head += k+','
+    print(head[:-1], file=fl)
+    mat = [[0. for _ in range(len(fcols))] for _ in range(len(D))]
+    for i in range(len(D)):
+        d = D[i]
+        for k, v in d.items():
+            mat[i][fcols[k]] = v
+    for i in range(len(mat)):
+        for val in mat[i]:
+            print(val, end=',', file=fl)
+        print(int(y[i]), file=fl)
+
+def load_D_y_from_csv(csv_path):
+    lines = open(csv_path, 'r').readlines()
+    lines = [l.rstrip() for l in lines]
+
+    heads = lines[0].split(',')
+    inv = []
+    for h in heads:
+        inv.append(h)
+
+    D = []
+    y = []
+    for l in lines[1:]:
+        d = {}
+        vals = l.split(',')
+        for i in range(len(vals)-1):
+            if vals[i] != 0:
+                d[inv[i]] = float(vals[i])
+        D.append(d)
+        y.append(float(vals[-1]))
+
+    return D, y
+
+
 def calc_trained_classifier(D, y):
     pipe = make_pipeline(
         DictVectorizer(),
@@ -20,18 +63,41 @@ def calc_trained_classifier(D, y):
     print('training time per traffic:', (finish-start)/len(y), 's')
     return pipe
 
-def load_trained_classifier(pickle_root):
-    pickle_path = os.path.join(pickle_root, 'model.pickle')
+def load_trained_classifier(pickle_root, csv_model=False):
+    if csv_model:
+        pickle_path = os.path.join(pickle_root, 'model_csv.pickle')
+    else:
+        pickle_path = os.path.join(pickle_root, 'model.pickle')
     if os.path.isfile(pickle_path):
-        return pickle.load(open(pickle_path, 'rb'))
+        print('loading from', pickle_path, end='\r')
+        start = time.time()
+        clf = pickle.load(open(pickle_path, 'rb'))
+        finish = time.time()
+        print('loaded pre-trained model from', pickle_path, 'in:', finish-start, 's')
+        return clf
     else:
         return None
 
-def get_trained_classifier(D, y, pickle_root=None):
+def get_trained_classifier(D, y, pickle_root=None, dump_csv=False):
+    if dump_csv:
+        f = 'preprocessed.csv'
+        print('dumping preprocessed data in', f, '...', end='\r')
+        start = time.time()
+        #output_csv(D, y, os.path.join(pickle_root, 'model.csv'))
+        output_csv(D, y, f)
+        finish = time.time()
+        print('dumped preprocessed data in', f, 'in:', finish-start, 's')
     clf = calc_trained_classifier(D, y)
     if pickle_root is not None:
-        pickle_path = os.path.join(pickle_root, 'model.pickle')
+        if dump_csv:
+            pickle_path = os.path.join(pickle_root, 'model_csv.pickle')
+        else:
+            pickle_path = os.path.join(pickle_root, 'model.pickle')
+        print('dumping trained model in', pickle_path, '...', end='\r')
+        start = time.time()
         pickle.dump(clf, open(pickle_path, 'wb'))
+        finish = time.time()
+        print('dumped trained model in', pickle_path, 'in:', finish-start, 's')
     return clf
 
 def predict(clf, D):
@@ -65,46 +131,3 @@ def print_metrics(y_true, y_pred):
 def test(clf, D, y):
     y_pred = predict(clf, D)
     print_metrics(y, y_pred)
-
-# def output_csv(D, y, csv_path):
-#     fl = open(csv_path, 'w')
-#     fcols = {}
-#     head = ''
-#     for d in D:
-#         for k in d.keys():
-#             if k not in fcols:
-#                 fcols[k] = len(fcols)
-#                 head += k+','
-#     print(head[:-1], file=fl)
-#     mat = [[0. for _ in range(len(fcols))] for _ in range(len(D))]
-#     for i in range(len(D)):
-#         d = D[i]
-#         for k, v in d.items():
-#             mat[i][fcols[k]] = v
-#     for i in range(len(mat)):
-#         for val in mat[i]:
-#             print(val, end=',', file=fl)
-#         print(int(y[i]), file=fl)
-
-# def load_D_y_from_csv(csv_path):
-#     lines = open(csv_path, 'r').readlines()
-#     lines = [l.rstrip() for l in lines]
-
-#     heads = lines[0].split(',')
-#     inv = []
-#     for h in heads:
-#         inv.append(h)
-
-#     D = []
-#     y = []
-#     for l in lines[1:]:
-#         d = {}
-#         vals = l.split(',')
-#         for i in range(len(vals)-1):
-#             if vals[i] != 0:
-#                 d[inv[i]] = float(vals[i])
-#         D.append(d)
-#         y.append(float(vals[-1]))
-
-#     return D, y
-

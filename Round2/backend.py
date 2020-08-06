@@ -21,7 +21,7 @@ def get_dns_ips(pcap_path):
         ret += l.split(',')
     return ret
 
-def calc_feature_dict(pcap_path):
+def calc_feature_dict(pcap_path, ignore_protocols=False):
     dns_ips = set(get_dns_ips(pcap_path))
     proc = subprocess.Popen(
         ['tshark', '-r', pcap_path],
@@ -57,7 +57,10 @@ def calc_feature_dict(pcap_path):
             continue
         ip1, ip2 = sorted([src, dest])
         d, dd = flows[ip1, ip2]
-        s = proto+'#'
+        if ignore_protocols:
+            s = '_#'
+        else:
+            s = proto+'#'
         d[s+'num_pkts'] += 1
         if dd[s+'first_time'] == 0:
             dd[s+'first_time'] = ptime
@@ -116,22 +119,23 @@ def calc_feature_dict(pcap_path):
 
     return feature_dicts, flow_ids
 
-def pickle_name(path):
-    return path.replace('/', '_').replace('\\', '_').replace('.', '_')+'.pickle'
-
-def get_feature_dict(pcap_path, pickle_root=None):
+def get_feature_dict(pcap_path, pickle_root=None, ignore_protocols=False):
     if pickle_root is not None:
-        pf = pickle_name(pcap_path)
+        pf = pcap_path.replace('/', '_').replace('\\', '_').replace('.', '_')
+        if ignore_protocols:
+            pf += '_csv'
+        pf += '.pickle'
         pickle_path = os.path.join(pickle_root, pf)
         if os.path.isfile(pickle_path):
+            print('loaded from', pickle_path)
             return pickle.load(open(pickle_path, 'rb'))
         else:
             print('fresh feature extraction...', end='\r')
             start = time.time()
-            D, F = calc_feature_dict(pcap_path)
+            D, F = calc_feature_dict(pcap_path, ignore_protocols)
             finish = time.time()
             print('feature extraction time:', finish-start, 's')
             pickle.dump((D, F), open(pickle_path, 'wb'))
             return D, F
     else:
-        return calc_feature_dict(pcap_path)
+        return calc_feature_dict(pcap_path, ignore_protocols)
